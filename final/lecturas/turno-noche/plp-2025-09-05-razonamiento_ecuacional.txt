@@ -1,0 +1,243 @@
+
+{S0} suma Zero    m = m
+{S1} suma (Suc n) m = Suc (suma n m)
+
+Teorema.
+  ∀ n :: Nat. suma n Zero = n
+Dem.
+  Por ind. estructural en Nat, si
+    P(n) :≡ (suma n Zero = n)
+  basta ver que:
+  - P(Zero)
+  - ∀ n :: Nat. (P(n) ⇒ P(Suc n))
+
+  Veamos primero P(Zero):
+    P(Zero) ≡ (suma Zero Zero = Zero)
+  En efecto:
+      suma Zero Zero
+    = Zero            por {S0}
+  
+  Veamos ahora que dado n :: Nat
+  vale P(n) ⇒ P(Suc n).
+  La HI dice:
+    P(n) ≡ (suma n Zero = n)
+  Queremos demostrar la TI que dice:
+    P(Suc n) ≡ (suma (Suc n) Zero = Suc n)
+  En efecto:
+      suma (Suc n) Zero
+    = Suc (suma n Zero)    por {S1}
+    = Suc n                por HI
+  
+  
+
+
+data [a] = []
+         | a : [a]
+
+Principio de inducción sobre listas:
+
+Para probar ∀ l :: [a]. P(l),
+basta probar:
+1. P([])
+2. ∀ x :: a. ∀ xs :: [a]. (P(xs) ⇒ P(x : xs))
+
+
+--------------------------------------------------------------------------
+
+
+data AB a = Nil
+          | Bin (AB a) a (AB a)
+
+Principio de inducción sobre árboles binarios
+
+Si uno ya demostró:
+1) P(Nil)
+2) ∀ i, d :: AB a. ∀ r :: a. ((P(i) ^ P(d)) ⇒ P(Bin i r d))
+entonces puede concluir que:
+  ∀ t :: AB a. P(t)
+
+--------------------------------------------------------------------------
+
+data Poli a = X
+            | Cte a
+	    | Suma (Poli a) (Poli a)
+	    | Prod (Poli a) (Poli a)
+
+Principio de inducción sobre polinomios:
+
+Si ya demostramos:
+1) P(X)
+2) ∀ k :: a. P(Cte k)
+3) ∀ p, q :: Poli a. ((P(p) ^ P(q)) ⇒ P(Suma p q))
+4) ∀ p, q :: Poli a. ((P(p) ^ P(q)) ⇒ P(Prod p q))
+podemos concluir:
+  ∀ p :: Poli a. P(p)
+
+
+--------------------------------------------------------------------------
+
+
+Propiedad.
+  ∀ f :: a → b. ∀ xs :: [a]. ∀ ys :: [a].
+    map f (xs ++ ys) = map f xs ++ map f ys
+Dem.
+  Sean f :: a → b, ys :: [a].
+  Por inducción en xs, vamos a probar
+    ∀ xs :: [a]. P(xs)
+    donde P(xs) ≡ (map f (xs ++ ys) = map f xs ++ map f ys).
+  Tenemos que probar:
+  1) Caso base:
+     P([])
+     ≡ map f ([] ++ ys) = map f [] ++ map f ys
+
+     En efecto:
+         map f ([] ++ ys) 
+       = map f ys                por {A0}
+       = [] ++ map f ys          por {A0}
+       = map f [] ++ map f ys    por {M0}
+     
+  2) Caso inductivo:
+       ∀ z :: a. ∀ zs :: [a]. (P(zs) ⇒ P(z : zs))
+
+     Sean z :: a, zs :: [a].
+     Supongamos que vale la HI:
+       P(zs)
+       ≡ (map f (zs ++ ys) = map f zs ++ map f ys)
+
+     Y veamos que vale la TI:
+       P(z : zs)
+       ≡ (map f ((z : zs) ++ ys) = map f (z : zs) ++ map f ys)
+
+     En efecto:
+       0  map f ((z : zs) ++ ys)
+       1= map f (z : (zs ++ ys))        por {A1}
+       2= f z : map f (zs ++ ys)        por {M1}
+       3= f z : (map f zs ++ map f ys)  por HI
+       4= (f z : map f zs) ++ map f ys  por {A1}
+       5= map f (z : zs) ++ map f ys    por {M1} 
+     
+--------------------------------------------------------------------------
+
+Teorema.
+  ∀ f :: a → b → b. ∀ z :: b. ∀ xs :: [a].
+    foldr f z xs = foldl (flip f) z (reverse xs)
+Demostración.
+  Por inducción en xs, veamos que ∀ xs :: [a]. P(xs),
+  donde P(xs) ≡ 
+        ∀ f :: a → b → b. ∀ z :: b.
+          (foldr f z xs = foldl (flip f) z (reverse xs))
+  Tenemos que ver:
+  1) P([])
+     Sale (tarea).
+  2) ∀ x :: a. ∀ xs :: [a]. (P(xs) ⇒ P(x : xs))
+     Sean x :: a, xs :: [a].
+     Supongamos que vale la HI:
+         P(xs)
+       ≡ ∀ f :: a → b → b. ∀ z :: b.
+           (foldr f z xs = foldl (flip f) z (reverse xs))
+     y veamos que vale la TI:
+         P(x : xs)
+       ≡ ∀ f :: a → b → b. ∀ z :: b.
+           (foldr f z (x : xs) = foldl (flip f) z (reverse (x : xs)))
+
+
+     Llamemos g = flip f.
+     En efecto, si fijamos f :: a → b → b, z :: b:
+         foldr f z (x : xs)
+       = f x (foldr f z xs)                         por {R1}
+       = f x (foldl (flip f) z (reverse xs))        por HI
+       = flip f (foldl (flip f) z (reverse xs)) x   por {F}
+       = g (foldl g z (reverse xs)) x               por def. de g
+       = foldl g z (reverse xs ++ [x])              por Lema 1
+       = foldl (flip f) z (reverse xs ++ [x])       por def. de g
+       = foldl (flip f) z (reverse (x : xs))        por {V1}
+
+Lema 1.
+    ∀ f :: b → a → b. ∀ z :: b. ∀ xs :: [a]. ∀ x :: a.
+      foldl f z (xs ++ [x]) = f (foldl f z xs) x
+Dem.
+  Por inducción en xs.
+  (Tarea).
+
+Teorema.
+  swap . swap = id   :: (a, b) → (a, b)
+Dem.
+  Por el principio de extensionalidad funcional,
+  basta ver que:
+    ∀ p :: (a, b).   (swap . swap) p = id p
+  Por inducción en pares, basta ver que: 
+    ∀ x :: a. ∀ y :: b.  (swap . swap) (x, y) = id (x, y)
+  En efecto, si x :: a, y :: b:
+      (swap . swap) (x, y)
+    = swap (swap (x, y))     por {C}
+    = swap (y, x)            por {S}
+    = (x, y)                 por {S}
+    = id (x, y)              por {I} 
+
+Teorema.
+  ¬(id = swap)
+  (como funciones de tipo (Int, Int) → (Int, Int))
+Dem.
+  Alcanza con considerar la observación:
+    obs :: ((Int, Int) → (Int, Int)) → Bool
+    obs f = fst (f (1, 2)) == 1
+  Y notar que:
+    obs id   ~~> True
+    obs swap ~~> False
+
+--------------------------------------------------------------------------
+
+
+f :: String → (String, String)
+f x = (x, x)
+
+g :: (String, String) → String
+g (x, y) = x
+
+Esto va a valer:
+  g . f = id
+
+Pero esto no:
+  f . g = id
+
+--------------------------------------------------------------------------
+
+Teorema.
+  ((a, b) → c)  ≃  (a → b → c)
+Dem.
+  Proponemos el isomorfismo dado por las funciones:
+
+    curry : ((a, b) → c) → (a → b → c)
+    curry f x y = f (x, y)
+
+    uncurry : (a → b → c) → ((a, b) → c)
+    uncurry f (x, y) = f x y
+
+  Veamos que cada una es la inversa de la otra.
+
+  Queremos ver que
+    uncurry . curry = id   :: ((a, b) → c) → ((a, b) → c)
+
+  Por extensionalidad funcional, basta ver que
+  coinciden en todo punto. Es decir, que para toda
+  función f :: (a, b) → c vale:
+      (uncurry . curry) f = id f    :: (a, b) → c
+
+  Por extensionalidad funcional, basta ver que
+  coinciden en todo punto. Es decir, que para todo
+  par p :: (a, b) vale:
+    (uncurry . curry) f p = id f p   :: c
+
+  Por inducción sobre pares, basta ver que
+  para todo x :: a, para todo y :: b, vale:
+    (uncurry . curry) f (x, y) = id f (x, y)   :: c
+
+  En efecto:
+      (uncurry . curry) f (x, y)
+    = uncurry (curry f) (x, y)      por def. (.)
+    = curry f x y                   por def. uncurry
+    = f (x, y)                      por def. curry
+    = id f (x, y)                   por def. id
+
+La vuelta la hacen ustedes.
+
