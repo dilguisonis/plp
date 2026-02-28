@@ -1,0 +1,102 @@
+a)
+
+∀F.∀X.(cota(F,X) ⇒ ∀N.(ev(F,N) ≤ X))
+∀F.∀X.(¬cota(F,X) ∨ ∀N.(ev(F,N) ≤ X))
+∀F.∀X.∀N.(¬cota(F,X) ∨ ev(F,N) ≤ X)
+--> 1. {¬cota(F1,X1), ev(F1,N1) ≤ X1}
+
+∀F.∀X.(∀N.(ev(F,N) ≤ X) ⇒ cota(F,X))
+∀F.∀X.(∃N.¬(ev(F,N) ≤ X) ∨ cota(F,X))
+∀F.∀X.(¬(ev(F,h(F,X)) ≤ X) ∨ cota(F,X))  (skolem)
+--> 2. {¬(ev(F2, h(F2, X2)) ≤ X2), cota(F2, X2)}
+
+∀F.(cota(F,sup(F)) ∧ ∀Y.(cota(F,Y) ⇒ sup(F) ≤ Y))
+--> 3. {cota(F3, sup(F3))}
+--> 4. {¬cota(F4, Y4), sup(F4) ≤ Y4}
+
+∀X.∀Y.∀Z.((X ≤ Y ∧ Y ≤ Z) ⇒ X ≤ Z)
+--> 5. {¬(X5 ≤ Y5), ¬(Y5 ≤ Z5), X5 ≤ Z5}
+
+b)
+
+Queremos probar que:
+∀F.∀G.((∀N.ev(F,N) ≤ ev(G,N)) ⇒ sup(F) ≤ sup(G))
+
+La negación es:
+∃F.∃G.((∀N.ev(F,N) ≤ ev(G,N)) ∧ ¬(sup(F) ≤ sup(G)))
+
+Pasaje a forma clausal:
+∀N.(ev(f,N) ≤ ev(g,N)) ∧ ¬(sup(f) ≤ sup(g))  (skolem)
+--> 6. {ev(f,N6) ≤ ev(g,N6)}
+--> 7. {¬(sup(f) ≤ sup(g))}
+
+Plan:
+
+Sabemos que sup(g) es una cota de g. Por lo tanto, g es menor o igual a sup(g) en todo punto.
+Dado que f es menor o igual a g en todo punto, por transitividad tenemos que f es menor o igual
+a sup(g) en todo punto.
+Entonces, sup(g) es una cota de f. Por lo tanto sup(f), por ser la cota
+más chica de f, debe ser menor o igual a sup(g). Absurdo porque supusimos que sup(f) no es menor
+o igual a sup(g).
+
+Cláusulas a usar (de acuerdo al orden en que se usan los axiomas asociados en el plan redactado):
+3, 1, 5, 6, 2, 4, 7.
+
+Resolución:
+
+3 y 1
+    S = {
+        F1 := F3,
+        X1 := sup(F3)
+    }
+    --> 8: {ev(F3, N1) ≤ sup(F3)}
+
+8 y 5
+    S = mgu( ev(F3, N1) ≤ sup(F3)  =?=  Y5 ≤ Z5 )
+    S = {
+        Y5 := ev(F3, N1),
+        Z5 := sup(F3)
+    }
+    --> 9: {¬(X5 ≤ ev(F3, N1)), X5 ≤ sup(F3)}
+
+9 y 6
+    S = mgu( X5 ≤ ev(F3, N1)  =?=  ev(f, N6) ≤ ev(g, N6) )
+    S = mgu(
+        X5          =?=  ev(f, N6)
+        ev(F3, N1)  =?=  ev(g, N6)
+    )
+    S = {
+        X5 := ev(f, N6),
+        F3 := g,
+        N1 := N6
+    }
+    --> 10: {ev(f, N6) ≤ sup(g)}
+
+10 y 2
+    S = mgu( ev(f, N6) ≤ sup(g)  =?=  ev(F2, h(F2, X2)) ≤ X2 )
+    S = mgu(
+        ev(f, N6)  =?=  ev(F2, h(F2, X2)),
+        sup(g)     =?=  X2
+    )
+    S = {
+        F2 := f,
+        N6 := h(f, sup(g)),
+        X2 := sup(g)
+    }
+    --> 11: {cota(f, sup(g))}
+
+11 y 4:
+    S = mgu( cota(f, sup(g))  =?=  cota(F4, Y4) )
+    S = {
+        F4 := f,
+        Y4 := sup(g)
+    }
+    --> 12: {sup(f) ≤ sup(g)}
+
+12 y 7
+    S = {}
+    --> 13: {}
+
+c)
+
+No fue SLD, porque comenzó con las cláusulas 3 y 1, y ninguna de ellas es una cláusula objetivo.

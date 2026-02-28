@@ -30,9 +30,28 @@ Apuntes oficiales 2025, una clase por archivo.
 | `teoricas/plp_apunte_2025_clase11.md` | Programación orientada a objetos, Smalltalk |
 | `teoricas/plp_apunte_2025_clase12.md` | Resolución SLD |
 
-## Prácticas (30 archivos)
+## Prácticas (40 archivos md + materiales adicionales)
 
-### Clases prácticas
+### Guías de ejercicios prácticos (oficial cátedra)
+
+| Archivo | Tema | Clase |
+|---------|------|-------|
+| `practicas/practica0_repaso_prog_funcional.md` | Repaso de programación funcional | 00 |
+| `practicas/practica1_prog_funcional.md` | Programación funcional | 01-02 |
+| `practicas/practica2_razonamiento_ecuacional.md` | Razonamiento ecuacional e inducción | 03 |
+| `practicas/practica3_logica_proposicional.md` | Demostración en lógica proposicional | 04 |
+| `practicas/practica4_calculo_lambda.md` | Cálculo Lambda tipado | 05-06 |
+| `practicas/practica5_unificacion_inferencia.md` | Unificación e inferencia de tipos | 07 |
+| `practicas/practica6_logica_primer_orden.md` | Lógica de primer orden | 08 |
+| `practicas/practica7_resolucion.md` | Resolución | 09 |
+| `practicas/practica8_prog_logica.md` | Programación lógica (Prolog) | 10 |
+| `practicas/practica9_poo.md` | Programación orientada a objetos | 11 |
+
+### Materiales de clases prácticas (no-md)
+
+En `practicas/clases/`: PDFs de pizarrones, soluciones (.pl, .hs, .txt), presentaciones.
+
+### Clases prácticas (md)
 
 | Archivo | Tema |
 |---------|------|

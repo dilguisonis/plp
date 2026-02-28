@@ -8,6 +8,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 00 — Introducción a Paradigmas
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase00.md`
+- **Práctica oficial:** `practicas/practica0_repaso_prog_funcional.md`
 - **Guía:** `guias/p0_pre_funcional.md`, `guias/plp_apunte_2025_guiaejercicios01.md`
 - **Lecturas TM:** `lecturas/turno-manana/clase01-teórica-preliminares.md`
 - **Lecturas TN:** `lecturas/turno-noche/plp_00.md`
@@ -18,6 +19,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 01 — Programación Funcional
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase01.md`
+- **Práctica oficial:** `practicas/practica1_prog_funcional.md`
 - **Práctica:** `practicas/haskell-1.md`, `practicas/plp_apunte_2025_practicaprogramacionfuncionalenhaskell.md`
 - **Guía:** `guias/p1_funcional.md`, `guias/plp_apunte_2025_guiaejercicios01.md`, `guias/plp_apunte_2025_guiaejercicios02.md`
 - **Lecturas:** `lecturas/recomendadas/01-bird-pf_con_listas.md`
@@ -31,6 +33,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 02 — Recursión y Esquemas de Recursión
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase02.md`
+- **Práctica oficial:** `practicas/practica1_prog_funcional.md` (continuación)
 - **Práctica:** `practicas/haskell-2.md`, `practicas/haskell-3.md`, `practicas/20250902_haskell_2_pizarro-n.md`, `practicas/plp_apunte_2025_practicaprogramacionfuncional2.md`, `practicas/plp_apunte_2025_practicaprogramacionfuncional3.md`
 - **Guía:** `guias/p1_funcional.md`, `guias/plp_apunte_2025_guiaejercicios02.md`, `guias/plp_apunte_2025_guiaejercicios03.md`
 - **Lecturas:** `lecturas/recomendadas/02-hutton-folds.md`
@@ -44,6 +47,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 03 — Razonamiento Ecuacional e Inducción
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase03.md`
+- **Práctica oficial:** `practicas/practica2_razonamiento_ecuacional.md`
 - **Práctica:** `practicas/plp_apunte_2025_practicarepasoparaelprimerparcial.md`
 - **Guía:** `guias/p2_demostracion.md`, `guias/plp_apunte_2025_guiaejercicios03.md`
 - **Lecturas:** `lecturas/recomendadas/03-bird-razonamiento_ecuacional.md`
@@ -57,6 +61,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 04 — Sistemas Deductivos / Deducción Natural
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase04.md`
+- **Práctica oficial:** `practicas/practica3_logica_proposicional.md`
 - **Práctica:** `practicas/sistemas_deductivos.md`, `practicas/plp_apunte_2025_practicasistemasdeductivos.md`
 - **Guía:** `guias/p3_proposicional.md`, `guias/plp_apunte_2025_guiaejercicios04.md`
 - **Lecturas:** `lecturas/recomendadas/04-sorensen-deduccion_natural.md`, `lecturas/recomendadas/huth-and-ryan-2004-logic-in-computer-science-capítulo-1.md`, `lecturas/recomendadas/s-rensen-and-urzyczyn-2006-cap-1-y-3.md`
@@ -70,6 +75,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 05 — Cálculo Lambda (sin tipos)
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase05.md`
+- **Práctica oficial:** `practicas/practica4_calculo_lambda.md`
 - **Práctica:** `practicas/plp_05.md`, `practicas/plp_apunte_2025_practicacalculolambda.md`, `practicas/plp_apunte_2025_practicacalculolambda2.md`
 - **Guía:** `guias/p4_lambda.md`, `guias/plp_apunte_2025_guiaejercicios05.md`
 - **Lecturas:** `lecturas/recomendadas/05-pierce-lambda.md`
@@ -83,7 +89,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 06 — Cálculo Lambda Tipado
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase06.md`
-- **Práctica:** (continúa de clase 05)
+- **Práctica oficial:** `practicas/practica4_calculo_lambda.md` (continuación)
 - **Guía:** `guias/p4_lambda.md`, `guias/plp_apunte_2025_guiaejercicios05.md`
 - **Lecturas:** `lecturas/recomendadas/05-pierce-lambda.md`, `lecturas/recomendadas/s-rensen-and-urzyczyn-2006-cap-1-y-3.md`
 - **Util:** `util/machete-lambda.md`, `util/weakening.md`
@@ -94,6 +100,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 07 — Inferencia de Tipos
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase07.md`
+- **Práctica oficial:** `practicas/practica5_unificacion_inferencia.md`
 - **Práctica:** `practicas/clase_inferencia.md`, `practicas/plp_apunte_2025_practicainferenciadetipos.md`, `practicas/plp07.md`
 - **Guía:** `guias/p5_inferencia.md`, `guias/plp_apunte_2025_guiaejercicios06.md`
 - **Lecturas:** `lecturas/recomendadas/07-pierce-inferencia.md`, `lecturas/recomendadas/08-baader-unificacion.md`
@@ -107,6 +114,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 08 — Lógica de Primer Orden (LPO)
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase08.md`
+- **Práctica oficial:** `practicas/practica6_logica_primer_orden.md`
 - **Práctica:** `practicas/logica_1ra.md`, `practicas/principio-del-bebedor.md`
 - **Guía:** `guias/p6_lpo.md`, `guias/plp_apunte_2025_guiaejercicios07.md`
 - **Lecturas:** `lecturas/recomendadas/09-vandalen-logica_de_primer_orden.md`
@@ -119,6 +127,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 09 — Resolución
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase09.md`
+- **Práctica oficial:** `practicas/practica7_resolucion.md`
 - **Práctica:** `practicas/clase_resolucion.md`, `practicas/plp_apunte_2025_practicaresolucionlogicaprimerorden.md`
 - **Guía:** `guias/p7_resolucion.md`, `guias/plp_apunte_2025_guiaejercicios08.md`
 - **Lecturas:** `lecturas/recomendadas/10-robinson-resolucion.md`
@@ -131,6 +140,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 10 — Programación Lógica (Prolog)
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase10.md`
+- **Práctica oficial:** `practicas/practica8_prog_logica.md`
 - **Práctica:** `practicas/plp10.md`, `practicas/tp-prolog.md`, `practicas/plp_apunte_2025_practicaprogramacionlogica.md`, `practicas/plp_apunte_2025_practicaprogramacionlogica2.md`
 - **Guía:** `guias/p8_prog_logica.md`, `guias/plp_apunte_2025_guiaejercicios08.md`, `guias/plp_apunte_2025_guiaejercicios09.md`
 - **Lecturas:** `lecturas/recomendadas/11-nilsson-resolucion_sld_y_prolog.md`
@@ -143,6 +153,7 @@ Todos los paths son relativos a `conocimiento/`.
 ## Clase 11 — Programación Orientada a Objetos (Smalltalk)
 
 - **Teórica:** `teoricas/plp_apunte_2025_clase11.md`
+- **Práctica oficial:** `practicas/practica9_poo.md`
 - **Práctica:** `practicas/extensiones-handout.md`
 - **Guía:** `guias/p9_objetos.md`, `guias/plp_apunte_2025_guiaejercicios09.md`
 - **Lecturas:** `lecturas/recomendadas/12-goldberg-poo.md`
