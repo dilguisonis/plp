@@ -1,0 +1,497 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Primer Parcial - $2 ^ { \\mathrm { d o } }$ cuatrimestre de 2024 ",
+        "text_level": 1,
+        "bbox": [
+            213,
+            33,
+            794,
+            53
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/e1ffe6fe5e84948bdf0f6bda09ba5116ca4542c6bd50fe8e2e107e76e7b82f62.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#OrdenLibreta</td><td rowspan=1 colspan=1>Libreta </td><td rowspan=1 colspan=1>Apellido y Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            115,
+            64,
+            884,
+            111
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien (B) y uno regular (R), y se promociona con al menos dos ejercicios muy bien (MB) y uno bien (B). Es posible obtener una aprobaci´on condicional con un ejercicio muy bien (MB), uno bien (B) y uno insuficiente (I), pero habiendo entregado algo que contribuya a la soluci´on del ejercicio. Las notas para cada ejercicio son: -, I, R, B, MB, E. Entregar cada ejercicio en hojas separadas. Poner nombre, apellido y n´umero de orden en todas las hojas, y numerarlas. Se puede utilizar todo lo definido en las pr´acticas y todo lo que se dio en clase, colocando referencias claras. El orden de los ejercicios es arbitrario. Recomendamos leer el parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            75,
+            130,
+            937,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 - Programaci´on funcional ",
+        "text_level": 1,
+        "bbox": [
+            78,
+            237,
+            415,
+            253
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Aclaraci´on: en este ejercicio no est´a permitido utilizar recursi´on expl´ıcita, a menos que se indique lo contrario. ",
+        "bbox": [
+            72,
+            256,
+            934,
+            286
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "El siguiente tipo de datos sirve para representar un buffer con historia que permite escribir o leer en cualquiera de sus posiciones (las posiciones tienen tipo Int). El tipo del buffer es param´etrico en el tipo de los contenidos que se pueden guardar en ´el. Si se escribe dos veces en la misma posici´on, el nuevo contenido pisa al anterior (por simplicidad). La lectura elimina el contenido le´ıdo.1 ",
+        "bbox": [
+            75,
+            290,
+            932,
+            353
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "data Buffer a $=$ Empty | Write Int a (Buffer a) | Read Int (Buffer a) ",
+        "bbox": [
+            78,
+            355,
+            732,
+            374
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definimos el siguiente buffer para los ejemplos: ",
+        "bbox": [
+            78,
+            374,
+            455,
+            388
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$=$ Write 1 $\\cos \\alpha = \\sin \\alpha$ Write 2 ‘‘b’’ $\\$ 1$ Write 1 ‘‘c’’ \\$ Empty c) Definir la funci´on contenido::Int $- >$ Buffer a $- >$ Maybe a, que devuelva el contenido de una posici´on en un buffer si hay algo en ella, y Nothing en caso contrario. ",
+        "bbox": [
+            78,
+            391,
+            650,
+            406
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            87,
+            546,
+            934,
+            579
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: contenido 1 buf Just $\\textsf { \\textsf { c } } ( \\mathbf { \\lambda } _ { \\mathsf { a } } ) ,$ . contenido (-2) buf Nothing. contenido 1 (Read 1 buf) Nothing. ",
+        "bbox": [
+            115,
+            585,
+            457,
+            649
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d) Definir la funci´on puedeCompletarLecturas::Buffer a $- >$ Bool, que indique si todas las lecturas pueden completarse exitosamente (es decir, si cada vez que se intenta leer una posici´on, hay algo escrito en ella). ",
+        "bbox": [
+            92,
+            659,
+            937,
+            707
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: puedeCompletarLecturas (Read 1 Empty) False. puedeCompletarLecturas (Read 1 buf) True. puedeCompletarLecturas (Read 1 $\\$ 1$ Read 1 buf) False. ",
+        "bbox": [
+            121,
+            714,
+            630,
+            777
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "e) Definir la funci´on deshacer::Buffer a $- >$ Int $- >$ Buffer a, que dados un buffer y un n´umero natural $n$ (es decir, un Int que por contexto de uso no es negativo), deshaga las ´ultimas $n$ operaciones del buffer, sacando los $n$ constructores m´as externos para obtener un buffer como el original antes de realizar dichas operaciones. Si se realizaron menos de $n$ operaciones, el resultado debe quedar vac´ıo. ",
+        "bbox": [
+            94,
+            788,
+            936,
+            852
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: deshacer buf $2 $ Write 1 ‘‘c’’ Empty. ",
+        "bbox": [
+            122,
+            858,
+            586,
+            873
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pista: aprovechar la currificaci´on y utilizar evaluaci´on parcial. ",
+        "bbox": [
+            122,
+            879,
+            628,
+            895
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1Por ejemplo, los buffers b1 $=$ Write 2 True Empty, b2 $=$ Write 2 True (Write 2 False Empty) y $\\mathtt { b 3 } =$ Read 1 (Write 2 True (Write 1 False Empty)) tienen todos el valor True en la posici´on 2 y nada en las dem´as, aunque tienen distinta historia y podr´ıan distinguirse mirando el historial de operaciones realizadas. ",
+        "bbox": [
+            77,
+            902,
+            937,
+            941
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            499,
+            982,
+            510,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 - Demostraci´on de propiedades ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            35,
+            470,
+            51
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes definiciones2: ",
+        "bbox": [
+            78,
+            53,
+            386,
+            68
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "data AB a $=$ Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            77,
+            84,
+            435,
+            101
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "const :: a -> b -> a altura :: AB a $- >$ Int {C} const $=$ (\\ x -> \\ y -> x) {A0} altura $\\mathbb { N } \\mathrm { i } 1 ~ = ~ 0$ {A1} altura (Bin i r d) = 1 $^ +$ max (altura i) (altura d) ",
+        "bbox": [
+            73,
+            116,
+            971,
+            164
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "zipAB :: AB a $- >$ AB b $- >$ AB (a,b)   \n{Z0} zipAB Nil $=$ const Nil   \n{Z1} zipAB (Bin i r d) $=$ \\t -> case t of Nil -> Nil Bin i’ r’ d’ -> Bin (zipAB i i’) (r,r’) (zipAB d d’) ",
+        "bbox": [
+            77,
+            179,
+            900,
+            261
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Demostrar la siguiente propiedad: ",
+        "bbox": [
+            95,
+            277,
+            396,
+            292
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se recomienda hacer inducci´on en un ´arbol, utilizando extensionalidad para el otro cuando sea necesario. Se permite definir macros (i.e., poner nombres a expresiones largas para no tener que repetirlas). ",
+        "bbox": [
+            122,
+            340,
+            934,
+            373
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "No es obligatorio escribir los $\\forall$ correspondientes en cada paso, pero es importante recordar que est´an presentes. Recordar tambi´en que los = de las definiciones pueden leerse en ambos sentidos. ",
+        "bbox": [
+            122,
+            378,
+            936,
+            410
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se consideran demostradas todas las propiedades conocidas sobre enteros y booleanos, as´ı como tambi´en: ",
+        "bbox": [
+            114,
+            414,
+            937,
+            445
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/51189a2483b0eb492659cee04c2144d16ad9309ed4fd287cd679188916263fc7.jpg",
+        "text": "$$\n\\left\\{ { \\tt L E M A } \\right\\} \\ { \\forall \\tt t } : : { \\tt A B } \\ { \\tt a . a l t u r a } \\ t \\geq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            398,
+            449,
+            662,
+            464
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar el siguiente teorema usando deducci´on natural, sin utilizar principios cl´asicos: ",
+        "bbox": [
+            87,
+            476,
+            836,
+            493
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/915dce4c17fa4f13740b0d51b7f5eae07b3b2f2b40b9df9d7a5d7abfe6445ce2.jpg",
+        "text": "$$\n( ( \\rho \\land \\sigma ) \\lor ( \\rho \\land \\tau ) ) \\Rightarrow ( \\sigma \\land \\rho ) \\lor \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            398,
+            507,
+            658,
+            523
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 - C´alculo Lambda Tipado ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            542,
+            420,
+            558
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se desea extender el c´alculo lambda simplemente tipado para modelar ´arboles ternarios. Para eso se extienden los tipos y expresiones de la siguiente manera: ",
+        "bbox": [
+            75,
+            561,
+            939,
+            592
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\tau : : = \\dots | \\operatorname { A T } ( \\tau )$ $M : : = \\cdots \\mid { \\mathrm { T M i } } \\mathbf { 1 } _ { \\tau } \\mid { \\mathrm { T e r n } } ( M , M , M , M ) \\mid { \\mathrm { f o l d A T } } M { \\mathrm { s } } \\ { \\mathrm { T N i } } \\mid \\ \\cdots M ; \\ { \\mathrm { T e r n } } ( x , r i , r m , r d ) \\sim M$ ",
+        "bbox": [
+            115,
+            595,
+            840,
+            629
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "■ $\\mathtt { A T } ( \\tau )$ es el tipo de los ´arboles ternarios con nodos de tipo $\\tau$ . ",
+        "bbox": [
+            105,
+            644,
+            610,
+            661
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { T N i } \\mathrm { 1 } _ { \\tau }$ es un ´arbol ternario vac´ıo que admite valores de tipo $\\tau$ . ",
+        "bbox": [
+            104,
+            670,
+            623,
+            687
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "■ $\\mathtt { T e r n } ( M _ { 1 } , M _ { 2 } , M _ { 3 } , M _ { 4 } )$ es un ´arbol ternario con ra´ız $M _ { 1 }$ e hijos $M _ { 2 }$ , $M _ { 3 }$ y $M _ { 4 }$ . ",
+        "bbox": [
+            100,
+            695,
+            749,
+            713
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldAT $M _ { 1 } \\triangleright$ TNil $\\sim M _ { 2 }$ ; $\\mathsf { T e r n } ( x , r i , r m , r d ) \\sim M _ { 3 }$ es el esquema de recursi´on estructural para ´arboles ternarios, donde las variables $x$ , $_ { r i }$ , rm y $^ { r d }$ se ligar´an a la ra´ız y los resultados de la recursi´on sobre los hijos izquierdo, medio y derecho del ´arbol $M _ { 1 }$ respectivamente. ",
+        "bbox": [
+            100,
+            722,
+            941,
+            771
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Introducir las reglas de tipado para la extensi´on propuesta. ",
+        "bbox": [
+            92,
+            787,
+            601,
+            803
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Definir el conjunto de valores y las nuevas reglas de reducci´on en un paso. ",
+        "bbox": [
+            92,
+            814,
+            721,
+            831
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) Mostrar paso por paso c´omo reduce la expresi´on: ",
+        "bbox": [
+            92,
+            840,
+            519,
+            857
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(λt : AT(Nat).foldAT t▷ T $\\begin{array} { r } { \\mathrm { \\ ` N i l ~ } \\longrightarrow \\mathsf { F a l s e } ; \\mathsf { T e r n } ( x , r i , r m , r d ) \\sim \\mathsf { i s Z e r o } ( \\mathsf { P r e d } ( x ) ) ) \\mathsf { T e r n } ( \\bot , \\mathrm { T N i \\bot _ { N a t } , T N i \\bot _ { N a t } , T N i \\bot _ { N a t } } ) } \\end{array}$ ",
+        "bbox": [
+            97,
+            862,
+            959,
+            879
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "d) Definir como macro la funci´on mapAT $\\sigma , \\tau$ , que toma un $\\mathtt { A T } ( \\sigma )$ y una funci´on de $\\sigma$ en $\\tau$ , y aplica dicha funci´on a todos los elementos del ´arbol. ",
+        "bbox": [
+            89,
+            889,
+            944,
+            921
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2Escritas con recursi´on expl´ıcita para facilitar las demostraciones. ",
+        "bbox": [
+            95,
+            947,
+            546,
+            960
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            499,
+            982,
+            512,
+            994
+        ],
+        "page_idx": 1
+    }
+]

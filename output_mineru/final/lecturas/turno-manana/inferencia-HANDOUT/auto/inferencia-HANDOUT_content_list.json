@@ -1,0 +1,2548 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            216,
+            814,
+            283
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on Inferencia de tipos ",
+        "bbox": [
+            298,
+            323,
+            704,
+            441
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            481,
+            781,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            191,
+            279,
+            242
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            472,
+            408
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de inferencia de tipos ",
+        "bbox": [
+            74,
+            518,
+            599,
+            573
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9757429a82eedcd89792eee69155be7985ac3ef44df7b6c9fbacddcab27039bf.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "bbox": [
+            77,
+            683,
+            707,
+            738
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Problema de inferencia de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            538,
+            84
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Notaci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            235,
+            198,
+            279
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "T´erminos con anotaciones de tipos: ",
+        "bbox": [
+            77,
+            286,
+            527,
+            334
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "M ::= x | λx : τ. M | M M | True | False | if M then M else M ",
+        "bbox": [
+            102,
+            371,
+            897,
+            426
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "T´erminos sin anotaciones de tipos: ",
+        "bbox": [
+            77,
+            466,
+            519,
+            514
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "U ::= x | λx . U | U U | True | False | if $U$ then U else U ",
+        "bbox": [
+            143,
+            555,
+            856,
+            606
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Notamos erase(M) al t´ermino sin anotaciones de tipos que resulta de borrar las anotaciones de tipos de $M$ . ",
+        "bbox": [
+            74,
+            647,
+            848,
+            742
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: erase((λx : Bool. x) True) $\\mathbf { \\chi } = \\left( \\lambda x . x \\right)$ True. ",
+        "bbox": [
+            82,
+            746,
+            729,
+            797
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Problema de inferencia de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            535,
+            84
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            172,
+            212,
+            216
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un t´ermino U sin anotaciones de tipos es tipable sii existen: ",
+        "bbox": [
+            77,
+            224,
+            845,
+            272
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "un contexto de tipado Γ un t´ermino con anotaciones de tipos M un tipo $\\tau$ tales que erase $( M ) = U \\ y \\Gamma \\vdash M : \\tau .$ ",
+        "bbox": [
+            74,
+            286,
+            640,
+            518
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "El problema de inferencia de tipos consiste en: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            547,
+            704,
+            595
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Dado un t´ermino $U$ , determinar si es tipable. En caso de que $U$ sea tipable: hallar un contexto Γ, un t´ermino M y un tipo $\\tau$ tales que erase $( M ) = U \\ y \\Gamma \\vdash M : \\tau .$ ",
+        "bbox": [
+            129,
+            610,
+            784,
+            819
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Veremos un algoritmo para resolver este problema. ",
+        "bbox": [
+            74,
+            856,
+            712,
+            900
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dfa7bfef3ea63705221c99fc918926f157fdf6bbed4c9e431a087a782092ea72.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            680,
+            118,
+            705
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Problema de inferencia de tipos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            538,
+            84
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El algoritmo se basa en manipular tipos parcialmente conocidos. ",
+        "bbox": [
+            66,
+            99,
+            889,
+            143
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — tipos parcialmente conocidos ",
+        "bbox": [
+            77,
+            158,
+            629,
+            205
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "▶ En x True sabemos que. . . x : Bool → X1.   \nEn if x y then True else False sabemos que. . . x : X2 → Bool. ",
+        "bbox": [
+            116,
+            227,
+            903,
+            338
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Incorporamos inc´ognitas $\\left( \\mathtt { X } _ { 1 } , \\mathtt { X } _ { 2 } , \\mathtt { X } _ { 3 } , \\dots \\right)$ a los tipos. ",
+        "bbox": [
+            77,
+            393,
+            726,
+            444
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Vamos a necesitar resolver ecuaciones entre tipos con inc´ognitas. ",
+        "bbox": [
+            74,
+            474,
+            900,
+            522
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fbc954ef7547827ddf30d32ae1ddd000854796f3a7dc4d533469ef548236a577.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\mathrm { | j e m p l o -- e c u a c i o n e s ~ e n t r e ~ t i p o s } } \\\\ & { \\ * ( \\mathrm { X } _ { 1 }  \\mathrm { B o o l } ) \\stackrel {  } { = } ( ( \\mathrm { B o o l }  \\mathrm { B o o l } )  \\mathrm { X } _ { 2 }  } \\\\ & { \\mathrm { t i e n ~ e s o l u c i s o n } ; \\mathrm { X } _ { 1 } : = ( \\mathrm { B o o l }  \\mathrm { B o o l } ) } \\\\ & { \\ * ( \\mathrm { X } _ { 1 }  \\mathrm { X } _ { 1 } ) \\stackrel {  } { = } ( ( \\mathrm { B o o l }  \\mathrm { B o o l } )  \\mathrm { X } _ { 2 } ) } \\\\ & { \\mathrm { t i e n e ~ s o l u c i s o n } ; \\mathrm { X } _ { 1 } : = ( \\mathrm { B o o l }  \\mathrm { B o o l } ) } \\\\ & { \\ * ( \\mathrm { X } _ { 1 }  \\mathrm { B o o l } ) \\stackrel {  } { = } \\mathrm { X } _ { 1 } : } \\\\ & { \\mathrm { n o ~ t i e n e ~ s o l u c i s o n } . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            533,
+            602,
+            974
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2) y X2 := Bool. ",
+        "bbox": [
+            129,
+            625,
+            784,
+            735
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "y X2 := (Bool → Bool). ",
+        "bbox": [
+            127,
+            746,
+            919,
+            860
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            886,
+            118,
+            915
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            194,
+            279,
+            242
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on ",
+        "bbox": [
+            74,
+            356,
+            472,
+            408
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de inferencia de tipos ",
+        "bbox": [
+            74,
+            518,
+            599,
+            573
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "bbox": [
+            77,
+            683,
+            707,
+            738
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Suponemos fijado un conjunto finito de constructores de tipos: ",
+        "bbox": [
+            74,
+            154,
+            872,
+            202
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Tipos constantes: Bool, Int, . . ..   \nConstructores unarios: (List •), (Maybe •), . . ..   \nConstructores binarios: $( \\bullet  \\bullet )$ , $( \\bullet \\times \\bullet )$ , (Either • •), . . ..   \n(Etc´etera). ",
+        "bbox": [
+            118,
+            216,
+            883,
+            448
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Los tipos se forman usando inc´ognitas y constructores: ",
+        "bbox": [
+            74,
+            503,
+            767,
+            547
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5e36a715ca4fa085139bc950306c79ac145b00ffbde48ecb12c31ce8b9da361f.jpg",
+        "text": "$$\n\\tau : : = \\mathbb { X } _ { n } \\mid C ( \\tau _ { 1 } , \\ldots , \\tau _ { n } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            345,
+            588,
+            651,
+            643
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "La unificaci´on es el problema de resolver sistemas de ecuaciones entre tipos con inc´ognitas. ",
+        "bbox": [
+            74,
+            683,
+            900,
+            779
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Veremos primero un algoritmo de unificaci´on.   \nLuego lo usaremos para dar un algoritmo de inferencia de tipos. ",
+        "bbox": [
+            69,
+            805,
+            883,
+            900
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            216,
+            121,
+            441
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Una sustituci´on es una funci´on que a cada inc´ognita le asocia un tipo. ",
+        "bbox": [
+            71,
+            113,
+            911,
+            209
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Notamos: ",
+        "bbox": [
+            77,
+            261,
+            198,
+            301
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6c55621cdd51dec8486af43174bd11290c6a65345f66b88cde0dad2d55dd9137.jpg",
+        "text": "$$\n\\{ \\mathtt { X } _ { k _ { 1 } } : = \\tau _ { 1 } , \\dots , \\mathtt { X } _ { k _ { n } } : = \\tau _ { n } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            328,
+            308,
+            671,
+            360
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "a la sustituci´on S tal que S $\\dot { \\mathfrak { s } } ( \\mathbb { X } _ { k _ { i } } ) = \\tau _ { i }$ para cada $1 \\leq i \\leq n$ y $\\pmb { \\mathsf { S } } ( \\mathbb { X } _ { k } ) = \\mathbb { X } _ { k }$ para cualquier otra inc´ognita. ",
+        "bbox": [
+            71,
+            382,
+            839,
+            477
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Si $\\tau$ es un tipo, escribimos $\\mathsf { \\pmb S } ( \\tau )$ para el resultado de reemplazar cada inc´ognita de $\\tau$ por el valor que le otorga S. ",
+        "bbox": [
+            74,
+            522,
+            886,
+            621
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — aplicaci´on de una sustituci´on a un tipo ",
+        "bbox": [
+            77,
+            669,
+            765,
+            716
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Si S = {X1 := Bool, ${ \\bf \\Phi } _ { 3 } : = ( { \\bf x } _ { 2 }  { \\bf x } _ { 2 } ) \\}$ , entonces: ",
+        "bbox": [
+            77,
+            727,
+            707,
+            779
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/26ac20e2d48817b484fb8cc68940e108747f4249311e1978ee72df8c30119f08.jpg",
+        "text": "$$\n{ \\pmb { \\mathsf { S } } } ( ( { \\mathbb { X } } _ { 1 } \\to { \\mathsf { B o o l } } ) \\to { \\pmb { \\mathrm { X } } } _ { 3 } ) = ( ( { \\mathsf { B o o l } } \\to { \\mathsf { B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            812,
+            651,
+            867
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Un problema de unificaci´on es un conjunto finito $E$ de ecuaciones entre tipos que pueden involucrar inc´ognitas: ",
+        "bbox": [
+            74,
+            150,
+            795,
+            250
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a492317414047156d93f279c2b270e4d830dc6e4e2b8baf2f9b704d68fab9390.jpg",
+        "text": "$$\nE = \\{ \\tau _ { 1 } \\stackrel { ? } { = } \\sigma _ { 1 } , \\tau _ { 2 } \\stackrel { ? } { = } \\sigma _ { 2 } , . . . , \\tau _ { n } \\stackrel { ? } { = } \\sigma _ { n } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            286,
+            734,
+            352
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bd0ec94280379ce5fd6db96385688aad2f6543bd11fdcfa722edb9350de52a6f.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Un unificador para $E$ es una sustituci´on S tal que: ",
+        "bbox": [
+            74,
+            463,
+            723,
+            507
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/72436e7406201790c4406ef1afc738333fed079aa61aaa03a4639dfcb0af7df4.jpg",
+        "text": "$$\n\\begin{array} { l } { { \\pmb { \\mathsf { S } } ( \\tau _ { 1 } ) = \\pmb { \\mathsf { S } } ( \\sigma _ { 1 } ) } } \\\\ { { \\pmb { \\mathsf { S } } ( \\tau _ { 2 } ) = \\pmb { \\mathsf { S } } ( \\sigma _ { 2 } ) } } \\\\ { { \\qquad \\quad \\dots } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            544,
+            596,
+            775
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b34334bcbe1786a2b1afaf4dadbf5b91c50a5554f61c11fcfcb4df81c21cbea7.jpg",
+        "text": "$$\n\\mathsf { \\pmb S } ( \\tau _ { n } ) = \\mathsf { \\pmb S } ( \\sigma _ { n } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            786,
+            593,
+            841
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "En general, la soluci´on a un problema de unificaci´on no es ´unica. ",
+        "bbox": [
+            74,
+            180,
+            892,
+            227
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — problema de unificaci´on con infinitas soluciones ",
+        "bbox": [
+            74,
+            250,
+            881,
+            297
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d5fac0f163d78281055e95a5e7cebeec776c1664dfdf132eed24254c3c2d68a6.jpg",
+        "text": "$$\n\\{ { \\tt X } _ { 1 } \\stackrel { ? } { = } { \\tt X } _ { 2 } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            430,
+            341,
+            566,
+            411
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "tiene infinitos unificadores: ",
+        "bbox": [
+            74,
+            433,
+            414,
+            477
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "${ \\begin{array} { r l } & { \\triangleright ~ \\{ \\mathrm { X } _ { 1 } : = \\mathrm { X } _ { 2 } \\} } \\\\ & { \\triangleright ~ \\{ \\mathrm { X } _ { 2 } : = \\mathrm { X } _ { 1 } \\} } \\\\ & { \\triangleright ~ \\{ \\mathrm { X } _ { 1 } : = \\mathrm { X } _ { 3 } , ~ \\mathrm { X } _ { 2 } : = \\mathrm { X } _ { 3 } \\} } \\\\ & { \\triangleright ~ \\{ \\mathrm { X } _ { 1 } : = \\mathrm { B o o l } , ~ \\mathrm { X } _ { 2 } : = \\mathrm { B o o l } \\} } \\\\ & { \\triangleright ~ \\{ \\mathrm { X } _ { 1 } : = ( \\mathrm { B o o l } \\to \\mathrm { B o o l } ) , ~ \\mathrm { X } _ { 2 } : = ( \\mathrm { B o c } } } \\\\ & { \\mapsto ~ \\dots } \\end{array} $ l → Bool)} ",
+        "bbox": [
+            74,
+            485,
+            732,
+            852
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            496,
+            124,
+            834
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Unificaci´on ",
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Una sustituci´on $\\pmb { \\mathsf { S } } _ { A }$ es m´as general que una sustituci´on SB si existe una sustituci´on SC tal que: ",
+        "bbox": [
+            74,
+            106,
+            867,
+            205
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7c3250b3b836bcb788289b3c78156b3ffa1709c1f315911715d77aed63471e4f.jpg",
+        "text": "$$\n\\pmb { \\mathsf { S } } _ { B } = \\pmb { \\mathsf { S } } _ { C } \\circ \\pmb { \\mathsf { S } } _ { A }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            242,
+            593,
+            297
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "es decir, SB se obtiene instanciando variables de $\\pmb { \\mathsf { S } } _ { A }$ . ",
+        "bbox": [
+            74,
+            334,
+            743,
+            382
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Para el siguiente problema de unificaci´on: ",
+        "bbox": [
+            77,
+            430,
+            602,
+            477
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fd08b2b8609eb0569243a11b16bf80f7607683bcaf7c2f8eb58d1f3071b73955.jpg",
+        "text": "$$\nE = \\{ ( { \\tt X } _ { 1 }  { \\tt B o o l } ) \\stackrel { ? } { = } { \\tt X } _ { 2 } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            511,
+            662,
+            580
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "las siguientes sustituciones son unificadores: ",
+        "bbox": [
+            74,
+            621,
+            629,
+            665
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cbcae44ae2eded38a5fcacfd4522a1a4690c3450499c31bf2efe60c941ee7d6b.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\mathrm { \\bf ~ S } _ { 1 } = \\{ { \\mathrm { X } } _ { 1 } \\mathrm { ~ } } & { \\mathrm { B o o l } , \\mathrm { ~ } { \\mathrm { X } } _ { 2 } \\mathrm { ~ } ( \\mathrm { B o o l } \\to \\mathrm { B c } } \\\\ { \\mathrm { \\bf ~ S } _ { 2 } = \\{ { \\mathrm { X } } _ { 1 } \\mathrm { ~ } } & { \\mathrm { I n t } , \\mathrm { ~ } { \\mathrm { X } } _ { 2 } \\mathrm { ~ } ( \\mathrm { I n t } \\to \\mathrm { B o o l } ) ) } \\\\ { \\mathrm { \\bf ~ S } _ { 3 } = \\{ { \\mathrm { X } } _ { 1 } \\mathrm { ~ } } & { \\mathrm { X } _ { 3 } , \\mathrm { ~ } { \\mathrm { X } } _ { 2 } \\mathrm { ~ } ( \\mathrm { X } _ { 3 } \\to \\mathrm { B o o l } ) \\} } \\\\ { \\mathrm { \\bf ~ S } _ { 4 } = \\{ { \\mathrm { X } } _ { 2 } \\mathrm { ~ } } & { \\mathrm { ( X } _ { 1 } \\to \\mathrm { B o o l } ) \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            107,
+            676,
+            618,
+            915
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e relaci´on hay entre ellas? ¿Cu´al es m´as general que cu´al? ",
+        "bbox": [
+            71,
+            922,
+            867,
+            970
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on de Martelli–Montanari ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            792,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Dado un problema de unificaci´on E (conjunto de ecuaciones): ",
+        "bbox": [
+            74,
+            165,
+            861,
+            213
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Mientras $E \\neq \\emptyset$ , se aplica sucesivamente alguna de las seis reglas que se detallan m´as adelante.   \nLa regla puede resultar en una falla.   \nDe lo contrario, la regla es de la forma $E  \\mathsf { s } E ^ { \\prime } .$ . La resoluci´on del problema $E$ se reduce a resolver otro problema $E ^ { \\prime }$ , aplicando la sustituci´on S. ",
+        "bbox": [
+            113,
+            224,
+            892,
+            544
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Hay dos posibilidades: ",
+        "bbox": [
+            74,
+            602,
+            356,
+            647
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "1. E = $\\bar { E } _ { 0 } \\to _ { \\{ \\pmb { S } _ { 1 } } \\bar { E } _ { 1 } \\to _ { \\pmb { S } _ { 2 } } \\bar { E } _ { 2 } \\to . . . \\to _ { \\pmb { S } _ { n } } \\bar { E } _ { n } \\to _ { \\pmb { S } _ { n + 1 } }$ falla En tal caso el problema de unificaci´on $E$ no tiene soluci´on. 2. $\\mathsf { E } = E _ { 0 } \\to _ { \\mathsf { S } _ { 1 } } E _ { 1 } \\to _ { \\mathsf { S } _ { 2 } } E _ { 2 } \\to . . . \\to _ { \\mathsf { S } _ { n } } E _ { n } =$ ∅ En tal caso el problema de unificaci´on $E$ tiene soluci´on. ",
+        "bbox": [
+            91,
+            661,
+            878,
+            871
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on de Martelli–Montanari ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            29,
+            792,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } { \\{ \\mathtt { X } _ { n } \\overset { ? } { = } \\mathtt { X } _ { n } \\} \\cup E } & { \\xrightarrow { \\mathrm { D e l e t e } } } \\\\ { \\quad } \\\\ { \\tau _ { 1 } , \\dots , \\tau _ { n } ) \\overset { ? } { = } C \\big ( \\sigma _ { 1 } , \\dots , \\sigma _ { n } \\big ) \\} \\cup E } & { \\xrightarrow { \\mathrm { D e c o m p o s e } } \\gamma } \\\\ { \\{ \\tau \\overset { ? } { = } \\mathtt { X } _ { n } \\} \\cup E } & { \\xrightarrow { \\mathtt { S w a p } } \\gamma } \\end{array}$ E   \n{C( $\\{ \\tau _ { 1 } \\stackrel { ? } { = } \\sigma _ { 1 } , . . . , \\tau _ { n } \\stackrel { ? } { = } \\sigma _ { n } \\} \\cup E$ $\\{ \\mathtt { X } _ { n } \\overset { ? } { = } \\tau \\} \\cup E$ si $\\tau$ no es una inc´ognita ",
+        "bbox": [
+            19,
+            158,
+            972,
+            452
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "$\\{ \\mathrm { X } _ { n } \\stackrel { ? } { = } \\tau \\} \\cup E \\stackrel { \\mathrm { E 1 i m } } { \\longrightarrow } \\{ \\mathrm { x } _ { n } { : = } \\tau \\}$ $E ^ { \\prime } = \\{ \\mathrm { X } _ { n } \\qquad \\tau \\} ( E )$ si ${ \\tt X } _ { n }$ no ocurre en $\\tau$ {C (τ $\\left. _ { \\downarrow , . . . , \\tau _ { n } } \\right) \\stackrel { ? } { = } C ^ { \\prime } ( \\sigma _ { 1 } , . . . , \\sigma _ { m } ) \\} \\cup E \\quad \\xrightarrow { \\mathrm { c l a s h } } \\quad$ falla si $C \\neq C ^ { \\prime }$ {Xn ?= τ} ∪ E Occurs-Check falla si $\\mathtt { X } _ { n } \\neq \\tau$ y ${ \\tt X } _ { n }$ ocurre en $\\tau$ ",
+        "bbox": [
+            8,
+            319,
+            903,
+            970
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on de Martelli–Montanari ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            790,
+            84
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Correcci´on del algoritmo de Martelli–Montanari) ",
+        "bbox": [
+            77,
+            194,
+            872,
+            246
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "1. El algoritmo termina para cualquier problema de unificaci´on E . ",
+        "bbox": [
+            88,
+            268,
+            922,
+            316
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2. Si $E$ no tiene soluci´on, el algoritmo llega a una falla. ",
+        "bbox": [
+            104,
+            330,
+            828,
+            375
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3. Si $E$ tiene soluci´on, el algoritmo llega a $\\emptyset$ : ",
+        "bbox": [
+            96,
+            389,
+            679,
+            437
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/865e9f54c6e161dcf7d330bc41af3426fe9d5466348dd09e2ee830b60ece0323.jpg",
+        "text": "$$\n\\mathsf { E } = E _ { 0 } \\to _ { \\mathsf { S } _ { 1 } } E _ { 1 } \\to _ { \\mathsf { S } _ { 2 } } E _ { 2 } \\to . . . \\to _ { \\mathsf { S } _ { n } } E _ { n } =\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            448,
+            770,
+            503
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Adem´as, $\\pmb { \\mathsf { S } } = \\pmb { \\mathsf { S } } _ { n } \\circ . . . \\circ \\pmb { \\mathsf { S } } _ { 2 } \\circ \\pmb { \\mathsf { S } } _ { 1 }$ es un unificador para $E$ ",
+        "bbox": [
+            135,
+            511,
+            839,
+            558
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Adem´as, dicho unificador es el m´as general posible.   \n(Salvo renombre de inc´ognitas). ",
+        "bbox": [
+            132,
+            573,
+            792,
+            672
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Definici´on (Unificador m´as general) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            746,
+            552,
+            797
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Notamos mgu(E) al unificador m´as general de $E$ , si existe. ",
+        "bbox": [
+            80,
+            808,
+            820,
+            856
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on de Martelli–Montanari ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            29,
+            792,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            341,
+            187,
+            386
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Calcular unificadores m´as generales para los siguientes problemas de unificaci´on: ",
+        "bbox": [
+            74,
+            400,
+            900,
+            488
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\mathbf { \\Sigma } \\{ ( \\mathrm { X } _ { 2 } \\to ( \\mathrm { X } _ { 1 } \\to \\mathrm { X } _ { 1 } ) ) \\stackrel { ? } { = } ( ( \\mathrm { B o o l } \\to \\mathrm { B o }   } \\\\ { \\mathbf { \\Sigma }   \\{ \\mathrm { X } _ { 1 } \\overset { ? } { = } ( \\mathrm { X } _ { 2 } \\to \\mathrm { X } _ { 2 } ) , \\mathrm { ~ \\mathrm { X } } _ { 2 } \\overset { ? } { = } ( \\mathrm { X } _ { 1 } \\to \\mathrm { X } _ { 1 } ) \\}  } \\end{array}$ (X1 → X2))} ",
+        "bbox": [
+            82,
+            492,
+            823,
+            636
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            588,
+            118,
+            613
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            194,
+            279,
+            242
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            472,
+            408
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de inferencia de tipos ",
+        "bbox": [
+            74,
+            518,
+            599,
+            573
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "bbox": [
+            77,
+            683,
+            707,
+            738
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Inferencia de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            585,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "El algoritmo $\\mathcal { T }$ recibe un t´ermino U sin anotaciones de tipos. ",
+        "bbox": [
+            71,
+            297,
+            848,
+            341
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Consta de los siguientes pasos: ",
+        "bbox": [
+            74,
+            389,
+            466,
+            437
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1. Rectificaci´on del t´ermino.   \n2. Anotaci´on del t´ermino con variables de tipo frescas.   \n3. Generaci´on de restricciones (ecuaciones entre tipos).   \n4. Unificaci´on de las restricciones. ",
+        "bbox": [
+            93,
+            452,
+            831,
+            680
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7a55be29fa59ad9e9fa27872876371830ee38cb4bb8bc533b5b3eba2c102341e.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Paso 1: rectificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            616,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Decimos que un t´ermino est´a rectificado si: ",
+        "bbox": [
+            77,
+            161,
+            627,
+            205
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1. No hay dos variables ligadas con el mismo nombre. 2. No hay una variable ligada con el mismo nombre que una variable libre. ",
+        "bbox": [
+            91,
+            220,
+            870,
+            378
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo – T´erminos rectificados $\\begin{array} { r l } & { x \\left( \\lambda x . x x \\right) \\left( \\lambda y . y x \\right) } \\\\ & { x \\left( \\lambda z . z z \\right) \\left( \\lambda y . y x \\right) } \\\\ & { \\lambda x . \\lambda x . x y } \\\\ & { \\lambda x . \\lambda z . z y } \\end{array}$ no est´a rectificado est´a rectificado no est´a rectificado est´a rectificado ",
+        "bbox": [
+            77,
+            411,
+            513,
+            459
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            240,
+            507,
+            759,
+            713
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Observaci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            779,
+            240,
+            823
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Siempre se puede rectificar un t´ermino $\\alpha$ -renombr´andolo. ",
+        "bbox": [
+            74,
+            834,
+            798,
+            878
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a83ac279fc9083177c8a74dcd63eaded4568ae34ad7a609a1310d2f7342ef0de.jpg",
+        "text": "$$\n\\mathsf { o r i t m o \\ : \\mathcal { T } \\mathrm { ~ - ~ } P a s o \\ : \\mathcal { Q } : \\mathsf { a n o t a c i d e n } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            19,
+            22,
+            582,
+            88
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Tenemos un t´ermino $U$ , que suponemos ya rectificado. ",
+        "bbox": [
+            77,
+            191,
+            765,
+            238
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Producimos un contexto Γ0 y un t´ermino $M _ { 0 }$ : ",
+        "bbox": [
+            80,
+            264,
+            654,
+            312
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "1. El contexto $\\Gamma _ { 0 }$ le da tipo a todas las variables libres de $U$ . El tipo de cada variable es una inc´ognita fresca.   \n2. El t´ermino $M _ { 0 }$ est´a anotado de tal modo que erase $( M _ { 0 } ) = U $ Todas las anotaciones son inc´ognitas frescas. ",
+        "bbox": [
+            91,
+            327,
+            922,
+            555
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo – Anotaci´on del t´ermino ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            588,
+            524,
+            636
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Dado el t´ermino rectificado $U = \\left( \\lambda x . y x x \\right) \\left( \\lambda z . w \\right)$ , producimos: ",
+        "bbox": [
+            80,
+            647,
+            897,
+            698
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fad58558096275b842d2fd3d9b4139a3b9fcc25a2ec0b3c283675cf198fdefc2.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\Gamma _ { 0 } = \\left( y : \\mathtt { X } _ { 1 } , w : \\mathtt { X } _ { 2 } \\right) } \\\\ & { M _ { 0 } = \\left( \\lambda x : \\mathtt { X } _ { 3 } . y \\times x \\right) \\left( \\lambda z : \\mathtt { X } _ { 4 } . w \\right) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            93,
+            705,
+            629,
+            823
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Paso 3: generaci´on de las restricciones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            911,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Tenemos un contexto Γ y un t´ermino M con anotaciones de tipos. ",
+        "bbox": [
+            74,
+            187,
+            911,
+            235
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Recursivamente calculamos: ",
+        "bbox": [
+            74,
+            264,
+            428,
+            305
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "1. Un tipo $\\tau$ , que corresponde al tipo de M.   \n2. Un conjunto de ecuaciones $E$ . Representan restricciones para que M est´e bien tipado. ",
+        "bbox": [
+            93,
+            323,
+            831,
+            481
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Definimos un algoritmo recursivo: ",
+        "bbox": [
+            74,
+            518,
+            502,
+            562
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7adf4126f84fef9613163cb814de4d3c00b3f26781d09f9211a80fdff02e7207.jpg",
+        "text": "$$\n\\underbrace { ( \\underbrace { \\Gamma } _ { \\mathrm { c o n t e x t o } } | \\underbrace { M } _ { \\mathrm { t e r m i n o } } ) } _ { \\mathrm { e n t r a d a } } = \\underbrace { ( \\underbrace { \\tau } _ { \\mathrm { t i p o } } | \\underbrace { E } _ { \\mathrm { r e s t r i c c i o n e s } } ) } _ { \\mathrm { s a l i d a } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            234,
+            599,
+            770,
+            772
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "con la precondici´on de que Γ le da tipo a todas las variables de M. ",
+        "bbox": [
+            74,
+            797,
+            919,
+            845
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Paso 3: generaci´on de las restricciones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            908,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "1. I(Γ | Tru $\\begin{array} { l } { { \\Theta = \\left( { \\bf B o o l } \\mid \\emptyset \\right) } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { = \\left( { \\bf \\bar { \\Phi } } \\left( { \\bf B o o l } \\mid \\emptyset \\right) \\right. } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\ { { \\mathrm { } } } \\\\  { \\mathrm { } } \\\\ { \\mathrm { { } } } \\\\ { \\mathrm { { } } } \\\\ { \\mathrm { { } } } \\\\ { \\mathrm { { } } } \\\\ { \\mathrm { { } } } \\\\ { } \\\\ { \\mathrm { { } } } \\\\ { \\mathrm { } } \\\\ { } \\\\  \\end{array}$   \n2. I(Γ | Fal   \n3. I(Γ | x )   \n4. I (Γ | if $M _ { 1 }$ ∪ E3)   \ndonde ",
+        "bbox": [
+            91,
+            125,
+            823,
+            610
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "5. I $( \\Gamma \\mid M _ { 1 } M _ { 2 } ) = ( { \\bf { x } } _ { k } \\mid \\{ \\tau _ { 1 } \\stackrel { ? } { = } ( \\tau _ { 2 }  { \\bf { x } } _ { k } ) \\} \\cup { \\cal { L } }$ 1 ∪ E2) ",
+        "bbox": [
+            91,
+            599,
+            770,
+            665
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "donde ${ \\tt X } _ { k }$ es una inc´ognita fresca $\\begin{array} { r } { \\mathcal { I } ( \\Gamma \\vert M _ { 1 } ) = \\left( \\tau _ { 1 } \\vert E _ { 1 } \\right) } \\\\ { \\mathcal { I } ( \\Gamma \\vert M _ { 2 } ) = \\left( \\tau _ { 2 } \\vert E _ { 2 } \\right) } \\end{array}$ ",
+        "bbox": [
+            135,
+            665,
+            566,
+            816
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "6. I (Γ | λx : τ. M ) = (τ → σ | E ) donde I(Γ, x : τ | M) = (σ | E ) ",
+        "bbox": [
+            93,
+            819,
+            524,
+            922
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Algor e las restricciones ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            911,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Recordemos: Γ0 y $M _ { 0 }$ resultan de anotar un t´ermino rectificado U. ",
+        "bbox": [
+            74,
+            268,
+            911,
+            316
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Una vez calculado ${ \\mathcal { T } } ( \\Gamma _ { 0 } | M _ { 0 } ) = ( \\tau | E ) \\colon$ ",
+        "bbox": [
+            74,
+            360,
+            574,
+            411
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "1. Calculamos ${ \\mathsf { \\pmb { \\mathsf { S } } } } = { \\mathsf { m g u } } ( E )$ .   \n2. Si no existe el unificador, el t´ermino $U$ no es tipable.   \n3. Si existe el unificador, el t´ermino $U$ es tipable y vale: ",
+        "bbox": [
+            93,
+            422,
+            809,
+            595
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/36213703c75fc83f0ae43c7304ccd0e5e878c80805e320af637addfbd3cf006b.jpg",
+        "text": "$$\n\\pmb { \\mathsf { S } } ( \\Gamma _ { 0 } ) \\vdash \\pmb { \\mathsf { S } } ( M _ { 0 } ) : \\pmb { \\mathsf { S } } ( \\tau )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            632,
+            668,
+            687
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Correcci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            455,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Sean Γ0 y $M _ { 0 }$ el resultado de anotar un t´ermino rectificado U. Supongamos que ${ \\mathcal { T } } ( \\Gamma _ { 0 } | M _ { 0 } ) = ( \\tau | E )$ . Entonces: ",
+        "bbox": [
+            74,
+            125,
+            870,
+            227
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Correcci´on del algoritmo I) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            246,
+            591,
+            297
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "1. Si U no es tipable, no hay unificador para $E$ .   \n2. Si U es tipable, existe $\\mathsf { \\pmb { S } } = \\mathsf { m g u } ( E ) .$ . Adem´as, $\\pmb { \\mathsf { S } } ( \\Gamma _ { 0 } ) \\vdash \\pmb { \\mathsf { S } } ( M _ { 0 } ) : \\pmb { \\mathsf { S } } ( \\tau )$ es un juicio de tipado v´alido. M´as a´un, el juicio de tipado es el m´as general posible para U. M´as precisamente, si $\\Gamma ^ { \\prime } \\vdash M ^ { \\prime } : \\tau ^ { \\prime }$ es un juicio v´alido y erase $\\left( M ^ { \\prime } \\right) = U$ , existe una sustituci´on $\\bullet ^ { \\prime }$ tal que: ",
+        "bbox": [
+            91,
+            319,
+            914,
+            639
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9b14865298963f2ea85d1d597ae3d4d7f683ddb9c44e6b657390b460f8d5e389.jpg",
+        "text": "$$\n\\begin{array} { r c l } { { \\Gamma ^ { \\prime } } } & { { \\supseteq } } & { { \\mathbb { S } ^ { \\prime } ( \\Gamma _ { 0 } ) } } \\\\ { { M ^ { \\prime } } } & { { = } } & { { \\mathbb { S } ^ { \\prime } ( M _ { 0 } ) } } \\\\ { { \\tau ^ { \\prime } } } & { { = } } & { { \\mathbb { S } ^ { \\prime } ( \\tau ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            676,
+            638,
+            834
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "donde adem´as S es m´as general que S′. ",
+        "bbox": [
+            132,
+            871,
+            638,
+            915
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I de inferencia de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            580,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio. Aplicar el algoritmo de inferencia sobre los siguientes t´erminos: ",
+        "bbox": [
+            74,
+            356,
+            889,
+            452
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bb7252b665024e8aaacaf9f4a582c53af1bba27d91de9f8fa4dc66bf877aba9b.jpg",
+        "text": "$$\n\\begin{array} { l } { > \\lambda x . \\lambda y . y x } \\\\ { > ( \\lambda x . x x ) ( \\lambda x . x x ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            85,
+            466,
+            361,
+            584
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3b68d5b816a9f852a3804e23e5158efd26adf024a5dae54274ded210d493b3c6.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            474,
+            121,
+            503
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            194,
+            279,
+            242
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            472,
+            408
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de inferencia de tipos ",
+        "bbox": [
+            74,
+            518,
+            599,
+            573
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "bbox": [
+            74,
+            683,
+            707,
+            738
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Recordemos: algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            632,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "${ \\begin{array} { r l } { \\left\\{ \\mathbb { X } _ { n } \\stackrel { ? } { = } \\mathbb { X } _ { n } \\right\\} \\cup E } & { { \\xrightarrow { \\mathrm { D e l e t e } } } } \\\\ { , \\dots , \\tau _ { n } ) \\stackrel { ? } { = } C ( \\sigma _ { 1 } , \\dots , \\sigma _ { n } ) \\} \\cup E } & { { \\xrightarrow { \\mathrm { D e c o m p o s e } } } } \\\\ { \\left\\{ \\tau \\stackrel { ? } { = } \\mathbb { X } _ { n } \\right\\} \\cup E } & { { \\xrightarrow { \\mathrm { S u a p } } } } \\end{array} }$ E   \n{C (τ1 $\\{ \\tau _ { 1 } \\stackrel { ? } { = } \\sigma _ { 1 } , . . . , \\tau _ { n } \\stackrel { ? } { = } \\sigma _ { n } \\} \\cup E$ $\\{ \\mathtt { X } _ { n } \\overset { ? } { = } \\tau \\} \\cup E$ si $\\tau$ no es una inc´ognita ",
+        "bbox": [
+            16,
+            180,
+            972,
+            477
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            212,
+            172,
+            977,
+            952
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "$\\{ { \\mathrm { X } } _ { n } { \\overset { ? } { = } } \\tau \\} \\cup E { \\overset { \\scriptstyle { \\mathtt { E 1 i m } } } { \\longrightarrow } } \\{ { \\mathrm { X } } _ { n } \\quad \\tau \\}$ $E \\{ \\mathtt { X } _ { n } : = \\tau \\}$ si ${ \\tt X } _ { n }$ no ocurre en $\\tau$ {C (τ $\\left. _ { \\downarrow , . . . , \\tau _ { n } } \\right) \\stackrel { ? } { = } C ^ { \\prime } ( \\sigma _ { 1 } , . . . , \\sigma _ { m } ) \\} \\cup E \\quad \\xrightarrow { \\mathrm { c l a s h } } \\quad$ falla si $C \\neq C ^ { \\prime }$ $\\left\\{ \\mathrm { X } _ { n } \\overset { ? } { = } \\tau \\right\\} \\cup E \\quad \\xrightarrow { \\mathrm { 0 c c u r s - C h e c k } }$ falla si $\\mathtt { X } _ { n } \\neq \\tau$ y ${ \\tt X } _ { n }$ ocurre en $\\tau$ ",
+        "bbox": [
+            13,
+            426,
+            969,
+            930
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Terminaci´on del algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            679,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Dado un conjunto de ecuaciones de unificaci´on $E$ , definimos: ",
+        "bbox": [
+            71,
+            150,
+            848,
+            194
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "▶ n : cantidad de inc´ognitas distintas en $E$ ▶ n2: tama˜no de E , calculado como P(τ ?=σ)∈E | $\\begin{array} { r } { \\sum _ { ( \\tau \\stackrel { ? } { = } \\sigma ) \\in E } | \\tau | + | \\sigma | } \\end{array}$ ▶ n3: cantidad de ecuaciones de la forma $\\tau \\stackrel { ? } { = } \\mathtt { X } _ { n }$ en E ",
+        "bbox": [
+            104,
+            209,
+            820,
+            411
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Podemos observar que las reglas que no producen falla achican la tripla $\\left( n _ { 1 } , n _ { 2 } , n _ { 3 } \\right)$ , de acuerdo con el orden lexicogr´afico: ",
+        "bbox": [
+            71,
+            466,
+            906,
+            566
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "images/45aa42ef8b3259fe326abd43cd503e4243872aeefdff317bdb27202b485c2ca4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>n1</td><td>n2</td><td>n3</td></tr><tr><td>Elim</td><td>V</td><td></td><td></td></tr><tr><td>Decompose</td><td></td><td>&gt;</td><td></td></tr><tr><td>Delete</td><td>≥</td><td></td><td></td></tr><tr><td>Swap</td><td></td><td></td><td>&gt;</td></tr></table>",
+        "bbox": [
+            325,
+            602,
+            674,
+            863
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            651,
+            88
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Recordemos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            202,
+            240,
+            242
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "1. Una sustituci´on es una funci´on S que le asocia un tipo $\\mathsf { \\pmb { S } } ( \\mathsf { X } _ { n } )$ a cada inc´ognita ${ \\tt X } _ { n }$ . ",
+        "bbox": [
+            93,
+            261,
+            751,
+            356
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "2. S es un unificador de $E$ si para cada $( \\tau \\overset { ? } { = } \\sigma ) \\in E$ se tiene que $\\ \\mathsf { \\pmb S } ( \\tau ) = \\mathsf { \\pmb S } ( \\sigma ) .$ ",
+        "bbox": [
+            93,
+            371,
+            795,
+            470
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "3. S es m´as general que $\\bullet ^ { \\prime }$ si existe T tal que $\\mathsf { \\pmb { S } } ^ { \\prime } = \\mathsf { \\pmb { T } } \\circ \\mathsf { \\pmb { S } } .$ ",
+        "bbox": [
+            93,
+            481,
+            522,
+            577
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "4. S es un m.g.u. de $E$ si S es un unificador de E y para todo unificador $\\bullet ^ { \\prime }$ de E ",
+        "bbox": [
+            96,
+            591,
+            748,
+            687
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "se tiene que S es m´as general que $\\bullet ^ { \\prime }$ ",
+        "bbox": [
+            207,
+            694,
+            685,
+            738
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "T´ecnicamente, nos interesan los m.g.u. idempotentes, es decir ${ \\pmb { \\mathsf { S } } } ( { \\pmb { \\mathsf { S } } } ( \\tau ) ) = { \\pmb { \\mathsf { S } } } ( \\tau )$ para todo t´ermino $\\tau$ . ",
+        "bbox": [
+            132,
+            746,
+            842,
+            841
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            651,
+            88
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Lema — correcci´on de la regla Delete S m.g.u. de $E \\implies$ S m.g.u. de $\\left\\{ \\mathtt { X } _ { n } \\overset { ? } { = } \\mathtt { X } _ { n } \\right\\} \\cup E .$ ",
+        "bbox": [
+            74,
+            180,
+            701,
+            290
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Lema — correcci´on de la regla Swap S m.g.u. de $\\{ \\tau \\stackrel { ? } { = } \\sigma \\} \\cup E \\implies$ S m.g.u. de $\\{ \\sigma \\stackrel { ? } { = } \\tau \\} \\cup E .$ . ",
+        "bbox": [
+            74,
+            319,
+            817,
+            433
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Lema — correcci´on de la regla Decompose S m.g.u. de $\\begin{array} { r l } & { \\{ \\tau _ { 1 } \\stackrel { ? } { = } \\sigma _ { 1 } , \\ldots , \\tau _ { n } \\stackrel { \\overline { { ? } } } { = } \\sigma _ { n } \\} \\cup \\bar { E } } \\\\ & { \\textsf { S m . g . u . d e } \\{ C ( \\tau _ { 1 } , \\ldots , \\tau _ { n } ) \\stackrel { ? } { = } C ( \\sigma _ { 1 } , \\ldots , \\tau _ { n } ) } \\end{array}$ =⇒ σn)} ∪ E . ",
+        "bbox": [
+            71,
+            463,
+            870,
+            643
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Lema — correcci´on de la regla Elim ",
+        "bbox": [
+            74,
+            665,
+            571,
+            716
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "S m.g.u. de $E \\{ \\mathtt { X } _ { n } : = \\tau \\}$ y Xn ∈/ τ =⇒ $\\mathsf { S o } \\left\\{ \\mathbb { X } _ { n } : = \\tau \\right\\}$ m.g.u. de $E$ . ",
+        "bbox": [
+            74,
+            727,
+            577,
+            827
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Usar que si $\\mathsf { S } ( \\mathtt { X } _ { n } ) = \\tau$ entonces $\\mathrm { ~  ~ { ~ \\cal ~ X ~ } ~ } _ { n }$ ",
+        "bbox": [
+            71,
+            834,
+            773,
+            886
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            651,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Probemos la correcci´on del algoritmo en caso de ´exito. ",
+        "bbox": [
+            74,
+            198,
+            767,
+            246
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Sea ${ \\cal E } _ { 0 }  \\pmb { \\varsigma } _ { 1 } \\ : { \\cal E } _ { 1 }  \\pmb { \\varsigma } _ { n } \\ : { \\cal E } _ { 2 }  . . .  \\pmb { \\varsigma } _ { n } \\ : { \\cal E } _ { n } = \\emptyset .$ Veamos que $\\pmb { \\mathsf { S } } _ { n } \\circ \\dots \\circ \\pmb { \\mathsf { S } } _ { 1 }$ es un m.g.u. de $E$ . Por inducci´on en $n$ : ",
+        "bbox": [
+            74,
+            272,
+            646,
+            415
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "1. Si $n = 0$ , la sustituci´on identidad es un m.g.u. de $\\emptyset$ ",
+        "bbox": [
+            99,
+            430,
+            798,
+            477
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "2. Si $n > 0$ , se tiene: ",
+        "bbox": [
+            93,
+            496,
+            367,
+            536
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/23f73773f474b048c5e5244b0f13695b4bb95cf05b389df225267c1e0267e5a9.jpg",
+        "text": "$$\nE _ { 0 }  _ { { \\bf S } _ { 1 } } E _ { 1 } \\qquad E _ { 1 }  _ { { \\bf S } _ { 2 } } . . .  _ { { \\bf S } _ { n } } E _ { n } = \\delta\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            580,
+            770,
+            636
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Por HI, $\\mathbf { S } _ { n } \\circ \\ldots \\circ \\mathbf { S } _ { 2 }$ es un m.g.u. de $E _ { 1 }$ ",
+        "bbox": [
+            132,
+            672,
+            649,
+            720
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Aplicando alguno de los lemas anteriores, se concluye que $\\pmb { \\mathsf { S } } _ { n } \\circ \\dots \\circ \\pmb { \\mathsf { S } } _ { 2 } \\circ \\pmb { \\mathsf { S } } _ { 1 }$ es un m.g.u. de $E _ { 0 }$ . ",
+        "bbox": [
+            132,
+            727,
+            870,
+            819
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            651,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "La correcci´on en caso de falla se prueba de manera similar, con lemas que van “hacia adelante” en lugar de “hacia atr´as”. ",
+        "bbox": [
+            74,
+            415,
+            870,
+            511
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "31 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            143,
+            745,
+            238
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            330,
+            364,
+            371
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Cap´ıtulo 22 del libro de Pierce.   \nBenjamin C. Pierce. Types and Programming Languages.   \nThe MIT Press, 2002. ",
+        "bbox": [
+            74,
+            375,
+            803,
+            522
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Extra: teor´ıa detr´as del m´etodo de unificaci´on Secci´on 4.5 del libro de Baader & Nipkow. Franz Baader y Tobias Nipkow. Term Rewriting and All That. Cambridge University Press, 1998. ",
+        "bbox": [
+            74,
+            580,
+            867,
+            779
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    }
+]

@@ -1,0 +1,337 @@
+[
+    {
+        "type": "text",
+        "text": "Pregunta 1: Sea la extension del Calculo Lambda con listas y sumas: ",
+        "bbox": [
+            62,
+            51,
+            648,
+            70
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/83377e87c67a47405860e34f42fc4f52a969c14c99cb7f32d75ad8ef535f3ac6.jpg",
+        "text": "$$\nM : = \\mathrm { ~ . . . ~ } \\mid M + M \\mid \\left[ \\mid _ { \\tau } \\mid M : : M \\mid { \\mathrm { ~ f o l d r } } M { \\mathrm { b a s e } } \\sim M ; \\operatorname { r e c } ( h , r ) \\sim M \\mid _ { \\mathrm { ~ B } } M \\right] : = \\psi _ { 0 } ( \\psi _ { 0 } ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            194,
+            83,
+            798,
+            99
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Rectificar el siguiente termino:( $\\lambda x$ .foldr $h$ base $ s u c c ( x ) ; \\operatorname { r e c } ( h , r )  s u c c ( h ) + r ) r$ ",
+        "bbox": [
+            68,
+            112,
+            756,
+            131
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:x.foldr base\\~succ(x),rec（c)\\~succ(c)+)r ",
+        "bbox": [
+            65,
+            140,
+            931,
+            165
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 2: Indicar cual seria un paso valido del algoritmo de MGU en el siguiente conjunto de ecuaciones de unificacion $\\{ c \\stackrel { . } { = } X _ { 1 } , [ X _ { 2 } ] \\stackrel { . } { = } [ X _ { 3 } ] \\}$ ",
+        "bbox": [
+            63,
+            184,
+            934,
+            222
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a.{1x]=1xs）}{=x1） ${ \\bf b . \\nabla } \\stackrel { \\mathrm { e 1 i m } } { \\longrightarrow } \\{ c _ { : } = X _ { 1 } \\} \\left\\{ \\left[ X _ { 2 } \\right] \\stackrel { ? } { = } \\left[ X _ { 3 } \\right] \\right\\} \\qquad { \\bf c . \\nabla } \\stackrel { \\mathrm { s u n p } } { \\longrightarrow } \\left\\{ X _ { 1 } \\stackrel { ? } { = } c , \\left[ X _ { 2 } \\right] \\stackrel { ? } { = } \\left[ X _ { 3 } \\right] \\right\\}$ ",
+        "bbox": [
+            82,
+            233,
+            915,
+            260
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:C ",
+        "bbox": [
+            62,
+            281,
+            235,
+            301
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 3: Indicar la sustitucion resultante de aplicar el algoritmo de MGU en el siguiente conjunto de ecuaciones de unifcacin: $\\{ X _ { 1 } \\stackrel { ? } { = } X _ { 2 }  X _ { 3 } , [ X _ { 2 } ] \\stackrel { ? } { = } [ X _ { 4 } ] \\}$ ",
+        "bbox": [
+            55,
+            323,
+            942,
+            364
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: $S = \\{ x _ { 1 } = x _ { 4 } \\vert  x _ { 3 } , x _ { 2 } = x _ { 4 } \\}$ ",
+        "bbox": [
+            53,
+            370,
+            549,
+            397
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 4: Se quiere demostrar en deduccion natural la siguiente formula: ",
+        "bbox": [
+            50,
+            416,
+            707,
+            437
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/57136cbcfc23cd28153fdc5b49b555d223d500f5b9e88645fbbc58a222895e3f.jpg",
+        "text": "$$\n\\exists X . \\forall Y . ( P ( X ) \\land Q ( Y ) ) \\vdash \\exists Z . ( P ( Z ) \\land Q ( Z ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            310,
+            451,
+            678,
+            467
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RenombramosT=X.vY.(P(X)^ Q(Y)) Indicar con cual de las siguientes reglas sepuede avazar en la demostracion y cuales serian las premisas; ",
+        "bbox": [
+            60,
+            478,
+            942,
+            513
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a.3：FP（2）AQ（Z） 3：FFP（X）AQ（x） FFEZ.VY.（P(）AQ(Y)） TvY.(P(Z）AQ（Y)）├3Z.（P(Z）AQ（Z)) .Ninguna de lasanteriores (no es valido) ",
+        "bbox": [
+            77,
+            517,
+            596,
+            633
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:C ",
+        "text_level": 1,
+        "bbox": [
+            65,
+            650,
+            208,
+            667
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 5:Sea la siguiente base de conocimniento en Prolog:   \np(a).   \nq(a).   \nq(b). Cual es el resultado de la siguiente consulta？ not(p(x)）,q(x) a. $X = a$ ； $X = 6$ b. $x = 0$ c.true. ",
+        "bbox": [
+            63,
+            687,
+            642,
+            833
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            92,
+            814,
+            845,
+            836
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            808,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Respuesta:d ",
+        "bbox": [
+            70,
+            855,
+            211,
+            875
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 6:Sea la representacion de arboles con los atomos nil y bin(I,N,D).Se quiere definir un predicado que instancie todos los posibles arboles con los nodos sin instanciar.Indicar cual de las siguientes opciones es correcta: ",
+        "bbox": [
+            72,
+            58,
+            957,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a.arbol(nil). arbol(bin(I,,D)）:-arbol(I）,arbol(D).   \nb.arbol(nil). arbol(A):-A $=$ nil,arbol(bin(I,-,D)).   \nc. Las dos son correctas   \nd. Ninguna es correcta ",
+        "bbox": [
+            87,
+            118,
+            517,
+            254
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:d ",
+        "bbox": [
+            62,
+            276,
+            216,
+            300
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 7:iCual de las siguientes definiciones de predicados instancia en el segundo argumento de p lalongitud dela lista al realizar la consultap([1,2,3],x)？ ",
+        "bbox": [
+            65,
+            319,
+            957,
+            355
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a.p(L,x):-X is length(L). b.p(L,x):-length(L,x). c.p(L,length(L)). d. Ninguna de las anteriores ",
+        "bbox": [
+            80,
+            368,
+            364,
+            473
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:b ",
+        "bbox": [
+            65,
+            498,
+            208,
+            516
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 8: Dadas las siguientes clausulas: ",
+        "bbox": [
+            70,
+            534,
+            453,
+            552
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$1 . \\{ P ( X ) , Q ( X ) , S ( c ) \\}$ $2 . \\{ \\neg P ( X ) , \\neg Q ( X ) , R ( X ) \\}$ $3 . \\{ Q ( a ) , Q ( X ) \\}$ ",
+        "bbox": [
+            65,
+            570,
+            284,
+            623
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Indicar cual es una posible resolvente. ",
+        "bbox": [
+            62,
+            641,
+            379,
+            659
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a. $\\{ S ( c ) , R ( X ) \\}$ (de1y2) b. $\\{ \\neg P ( \\alpha ) , R ( \\alpha ) \\}$ (de2y3) c. $\\{ P ( a ) , S ( c ) \\}$ (de1y3) d $\\{ \\neg P ( X ) , R ( X ) , Q ( X ) \\}$ (de2y3) ",
+        "bbox": [
+            78,
+            671,
+            389,
+            771
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:b ",
+        "bbox": [
+            62,
+            795,
+            201,
+            814
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            810,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 1
+    }
+]

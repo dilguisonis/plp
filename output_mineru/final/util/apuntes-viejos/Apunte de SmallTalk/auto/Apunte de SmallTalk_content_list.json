@@ -1,0 +1,1733 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigma de Objetos: ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            131,
+            277,
+            147
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Objetos que colaboran entre sí enviándose mensajes ",
+        "text_level": 1,
+        "bbox": [
+            304,
+            146,
+            694,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Objetos en Smalltalk ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            174,
+            327,
+            194
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Un objeto expone un protocolo de mensajes, que conforma el conjunto de operaciones que realiza el objeto. La forma de interactuar con un objeto es enviándole mensajes. Un objeto oculta sus datos propios, que sólo son accesibles desde las operaciones del objeto. ",
+        "bbox": [
+            119,
+            211,
+            895,
+            254
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/fd84b580beba15d6b165f641fb61389830e688c685a64f1cbb5a51ace334f067.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            299,
+            279,
+            542,
+            447
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Objetos elementales ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            461,
+            324,
+            480
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "En Smalltalk todo es un objeto. ",
+        "bbox": [
+            94,
+            484,
+            322,
+            497
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Muchos elementos que en otros lenguajes son valores de tipos de datos primitivos, están implementados en Smalltalk como objetos. Pertenecen a esta categoría, entre otros, los números, los strings, los caracteres, los booleanos y los arrays. ",
+        "bbox": [
+            92,
+            497,
+            897,
+            536
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "No obstante, hay ciertas construcciones sintácticas (del lenguaje) que denotan objetos. Estas construcciones, denominadas literales, permiten crear los objetos elementales de manera sencilla. Éstos son algunos objetos elementales: ",
+        "bbox": [
+            92,
+            536,
+            897,
+            578
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/fc8314d3cf9761f5095fd88239bfa65f79c1e9a18ac9f51adff333a54bf8e517.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Objeto</td><td rowspan=1 colspan=1>Descripcion</td></tr><tr><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>El entero 37</td></tr><tr><td rowspan=1 colspan=1>‘Ser o no ser&#x27;</td><td rowspan=1 colspan=1>Un string con el texto“Ser o no ser&quot;</td></tr><tr><td rowspan=1 colspan=1>2.71828</td><td rowspan=1 colspan=1>El punto flotante 2.71828</td></tr><tr><td rowspan=1 colspan=1>$p</td><td rowspan=1 colspan=1>El caracterp</td></tr><tr><td rowspan=1 colspan=1>true</td><td rowspan=1 colspan=1>El valorbooleano trae</td></tr><tr><td rowspan=1 colspan=1>#(123)</td><td rowspan=1 colspan=1>Unarray con los numeros1,2y 3</td></tr><tr><td rowspan=1 colspan=1>#new</td><td rowspan=1 colspan=1>El simbolo new</td></tr></table>",
+        "bbox": [
+            99,
+            589,
+            890,
+            701
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Un símbolo en Smalltalk es una secuencia de 1 o más caracteres que comienza con un #. A diferencia de los strings, no existen dos símbolos con la misma secuencia de caracteres. ",
+        "bbox": [
+            121,
+            714,
+            835,
+            743
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Variables y asignación ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            756,
+            349,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": " Una variable es un puntero o referencia a un objeto o instancia. ",
+        "bbox": [
+            122,
+            780,
+            618,
+            794
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/ae55589696c3cba0c5adea87f15192ebf7edad07bdbded4fb0f80eaa0bb87e30.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            297,
+            805,
+            673,
+            888
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1/10 ",
+        "bbox": [
+            482,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Clase práctica Objetos I ",
+        "bbox": [
+            94,
+            81,
+            363,
+            99
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Las variables son un nombre que empieza con minúscula (los identificadores que empiezan con mayúscula son variables globales, reservadas para el ambiente).   \nLas variables en Smalltalk no tienen tipo. Ejemplos: anObject   \na   \nx   \nmiConjunto trulala112 ",
+        "bbox": [
+            121,
+            79,
+            858,
+            122
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            151,
+            134,
+            238,
+            198
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "La asignación de la referencia a un objeto a una variable se hace con el símbolo := Sintaxis: ",
+        "bbox": [
+            124,
+            201,
+            763,
+            228
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "variable := objeto ",
+        "bbox": [
+            289,
+            239,
+            430,
+            254
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos: ",
+        "bbox": [
+            151,
+            280,
+            226,
+            295
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a := #(1 2 3) unNúmero := 23.3 ",
+        "bbox": [
+            151,
+            306,
+            287,
+            334
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": " Las variables sin asignar apuntan al objeto elemental nil. ",
+        "bbox": [
+            121,
+            347,
+            568,
+            363
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Variables globales. Las variables globales son accesibles desde cualquier scope. Se identifican porque empiezan con mayúscula. ",
+        "bbox": [
+            121,
+            375,
+            860,
+            403
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "A := 1 ",
+        "bbox": [
+            210,
+            415,
+            255,
+            428
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "¡Atención!: no es una buena práctica usar variables globales para almacenar datos de programas. Tienen ciertos usos específicos relacionados con el ambiente (como mantener las referencias a las clases, que veremos luego). ",
+        "bbox": [
+            152,
+            444,
+            887,
+            484
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Mensajes ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            513,
+            200,
+            532
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cuando se le pide a un objeto que haga algo, se le está enviando un mensaje. Un mensaje tiene un nombre de operación o selector y un conjunto de argumentos. Sintáxis de la invocación de mensajes: ",
+        "bbox": [
+            122,
+            548,
+            789,
+            593
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tipos de mensajes: ",
+        "text_level": 1,
+        "bbox": [
+            95,
+            669,
+            312,
+            688
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/121e6303d9cda5fe3b7421fbb2ed352a4197e3a5318de2d04fcb0a1514c54fcf.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Tipo demensaje</td><td rowspan=1 colspan=1>Ejemplo</td><td rowspan=1 colspan=1>Selector</td></tr><tr><td rowspan=1 colspan=1>unario</td><td rowspan=1 colspan=1>&#x27;pitufo&#x27;reverse</td><td rowspan=1 colspan=1>reverse</td></tr><tr><td rowspan=1 colspan=1>binarios</td><td rowspan=1 colspan=1>17&lt;= 14</td><td rowspan=1 colspan=1>&lt;=</td></tr><tr><td rowspan=1 colspan=1>keyword</td><td rowspan=1 colspan=1>miCuenta transferir: 3o0 a: otraCuenta</td><td rowspan=1 colspan=1>transferir:a:</td></tr></table>",
+        "bbox": [
+            109,
+            703,
+            885,
+            762
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/d47db30660f94d8231437c3cbe29a1a4130ba6b87bf5701b834585cc46044a7f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Nota： minusculas!</td></tr></table>",
+        "bbox": [
+            94,
+            787,
+            904,
+            805
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Precedencia de mensajes: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            831,
+            388,
+            850
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": " primero unarios, depués binarios y por último keyword  asociatividad de izquierda a derecha ",
+        "bbox": [
+            121,
+            855,
+            569,
+            883
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2/10 ",
+        "bbox": [
+            480,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "objeto mensaje ",
+        "bbox": [
+            252,
+            610,
+            465,
+            635
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/b09ac9f6b57381dfd6841775cf1eca375112d9605760b10f7a338fdc0de8cbdf.jpg",
+        "table_caption": [
+            "Ejemplos: "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Expresion</td><td rowspan=1 colspan=1>Evaluacion</td></tr><tr><td rowspan=1 colspan=1>5+6*2</td><td rowspan=1 colspan=1>(5 + 6)*2 = 22</td></tr><tr><td rowspan=1 colspan=1>#(6 5432 1) at: 2*3</td><td rowspan=1 colspan=1>#(6 5 4 3 2 1) at: (2* 3) = 1</td></tr><tr><td rowspan=1 colspan=1>‘iglu de mijo&#x27; size * 4 between: 6 negated and: 3factorial * 5</td><td rowspan=1 colspan=1>((iglu de mijo&#x27; size) *4) between: (6 negated) and:(3 factorial) *5) = false</td></tr></table>",
+        "bbox": [
+            100,
+            92,
+            894,
+            206
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "“Todo es un objeto” (I) ",
+        "text_level": 1,
+        "bbox": [
+            110,
+            242,
+            371,
+            262
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": " Los enteros son objetos ",
+        "bbox": [
+            137,
+            266,
+            346,
+            279
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7 + 4 ",
+        "bbox": [
+            168,
+            292,
+            208,
+            305
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "El mensaje $^ { 6 } +$ 4” es enviado al objeto 7. Eventualmente, cuando finaliza la ejecución de la operación, se devuelve otro objeto, el objeto 11. ",
+        "bbox": [
+            151,
+            318,
+            934,
+            345
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Todos los argumentos y los objetos respuesta de los mensajes son objetos  Los mensajes son objetos ",
+        "bbox": [
+            137,
+            359,
+            721,
+            388
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Nota: los enteros, así como otros valores numéricos, son inmutables, es decir no cambian nunca. Otros objetos como las cuentas bancarias son mutables. ",
+        "bbox": [
+            121,
+            406,
+            882,
+            433
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Efecto y respuesta de enviar un mensaje ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            459,
+            551,
+            479
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En Smalltalk, el resultado normal de mandar un mensaje a un objeto es obtener otro objeto como respuesta. ",
+        "bbox": [
+            122,
+            495,
+            868,
+            523
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Enviar un mensaje tienen dos consecuencias: 1) Algo ocurre, es decir, la operación tiene un efecto 2) Un objeto se devuelve como respuesta ",
+        "bbox": [
+            122,
+            524,
+            549,
+            564
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Effect vs. return ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            591,
+            273,
+            610
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En ciertos mensajes es más importante el efecto que producen que el objeto que devuelven como resultado ",
+        "bbox": [
+            119,
+            627,
+            877,
+            655
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ",
+        "bbox": [
+            151,
+            667,
+            218,
+            682
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7 storeOn: someFile ",
+        "bbox": [
+            211,
+            693,
+            363,
+            707
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "El mensaje tiene el efecto de guardar el objeto 7 en algún archivo en el disco al que hace referencia someFile. El efecto es el propósito del mensaje. ",
+        "bbox": [
+            139,
+            719,
+            892,
+            748
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": " En otros mensajes el efecto no tiene importancia y lo que realmente interesa es el resultado. ",
+        "bbox": [
+            121,
+            761,
+            836,
+            776
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ",
+        "bbox": [
+            151,
+            788,
+            216,
+            802
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7 factorial ",
+        "bbox": [
+            211,
+            814,
+            285,
+            828
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En este caso lo que nos interesa es lo que devuelve el mensaje. ",
+        "bbox": [
+            151,
+            840,
+            628,
+            856
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3/10 ",
+        "bbox": [
+            480,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Print it vs. Do it ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            66,
+            268,
+            85
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar una expresión en Smalltalk se puede explicitar si sólo interesa el efecto de un mensaje o si también interesa la respuesta. ",
+        "bbox": [
+            119,
+            102,
+            902,
+            130
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Print it: el efecto del mensaje ocurre y Smalltalk muestra la respuesta en la pantalla Do it: el efecto del mensaje ocurre pero Smalltalk descarta el objeto obtenido como respuesta ",
+        "bbox": [
+            146,
+            142,
+            840,
+            171
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos: ",
+        "bbox": [
+            151,
+            181,
+            226,
+            195
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/3bbfeb427071c5b5b3fa2915d9952780f9d27187d0250ea6fd84b41f9c1504be.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>a := #(1 2 3) copy.</td><td>Crea un arreglo con los numeros 1, 2 y 3.</td></tr><tr><td>a at: 1 put: 5.</td><td>Pone en la primera posicion de A el entero 5. Nos importa el efecto</td></tr><tr><td></td><td></td></tr><tr><td>a at: 1.</td><td>Pide la primera posicion de A. Nos importa lo que devuelve</td></tr></table>",
+        "bbox": [
+            200,
+            206,
+            794,
+            302
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Nota: Los literales de Arrays generan arreglos inmutables. Por eso usamos copy, que crea otro arreglo con el mismo contenido, pero mutable. ",
+        "bbox": [
+            97,
+            315,
+            892,
+            344
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Cascada de mensajes: ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            359,
+            346,
+            377
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": " Para enviar varios mensajes al mismo objeto.   \n Se separan con ; ",
+        "bbox": [
+            122,
+            382,
+            487,
+            410
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis: ",
+        "bbox": [
+            122,
+            423,
+            186,
+            438
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/1c2cd9dffed659ec0f001f8fc2a86b416c4e32f242bac81943b673cb6f04ed81.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            253,
+            440,
+            440,
+            504
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos: ",
+        "bbox": [
+            122,
+            516,
+            196,
+            530
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Transcript cr; show: 'Ser '; show: 'o no '; show: 'ser...'; cr. ",
+        "bbox": [
+            152,
+            542,
+            309,
+            609
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "'salt' copy at: 1 put: \\$m; yourself. ",
+        "bbox": [
+            152,
+            622,
+            393,
+            636
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "yourself pide al objeto receptor que se devuelva a sí mismo. ",
+        "bbox": [
+            121,
+            648,
+            569,
+            663
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Definición de Objetos en Smalltalk ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            676,
+            480,
+            695
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Vimos cómo se opera con objetos.   \nProgramar en Smalltalk consiste en definir nuevos objetos. Estas definiciones de objetos son las clases. ",
+        "bbox": [
+            94,
+            699,
+            855,
+            726
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Clases ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            741,
+            171,
+            757
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": " Los objetos se crean a partir de una clase. La clase define el comportamiento de los objetos de esa clase. Los objetos construidos a partir de la misma clase tienen el mismo comportamiento La clase también define los datos propios de los objetos de esa clase. A los objetos de una clase A se los llama instancias de A. Los datos propios de un objeto se almacenan en variables de instancia. Los datos compartidos por todas las instancias de una clase se almacenan en variables de clase. Son accesibles por cualquier operación de la clase y de la instancia. ",
+        "bbox": [
+            122,
+            762,
+            900,
+            876
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "4/10 ",
+        "bbox": [
+            480,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "“Todo es un objeto” (II) ",
+        "text_level": 1,
+        "bbox": [
+            124,
+            114,
+            391,
+            133
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Las clases son objetos. String es una variable global que apunta al objeto que define la clase String. Reciben mensajes como cualquier objeto. new es un mensaje que pueden recibir las clases y cuyo objetivo es pedir que se construya una nueva instancia (i.e. construyen un objeto de la clase receptora). Los mensajes sin el receptor son instancias de la clase Message.  Los mensajes, incluyendo el receptor, son instancias de la clase MessageSend. ",
+        "bbox": [
+            149,
+            136,
+            882,
+            236
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Métodos y mensajes ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            267,
+            326,
+            286
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Un método es el código que define el comportamiento del objeto cuando recibe un mensaje.   \nEl nombre de un método se llama selector (en otros lenguajes signatura).   \nEl selector sirve para encontrar la implementación (método) correspondiente a un mensaje. ",
+        "bbox": [
+            122,
+            302,
+            836,
+            346
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/1e785dff985b2af29f17a22811677203f92903e6e1aac23fec01a6a9cf94bce0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            245,
+            361,
+            818,
+            586
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo de un método ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            602,
+            347,
+            621
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/d142f81fc4c8a053965a90893d0f942e6f7ec38f92e69948685d445ff39da3ab.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            191,
+            629,
+            741,
+            744
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "La primera línea contiene el selector más un nombre para los argumentos.   \nLa segunda línea contiene un comentario que describe el método.   \nLa siguiente línea declara una variable local. Se pueden declarar varias variables locales, separadas por espacios.   \nself se refiere al objeto receptor del mensaje.   \nLos puntos son separadores de instrucciones.   \n^ indica el objeto que se devuelve. finaliza el método. ",
+        "bbox": [
+            90,
+            756,
+            892,
+            857
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Todos los métodos devuelven algo. Por defecto, self. ",
+        "bbox": [
+            137,
+            871,
+            529,
+            885
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5/10 ",
+        "bbox": [
+            480,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/66ea400b1eb01dfaffb7cbdd18ddc3ca6776990f3af0a9cabc97437f60726292.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Objeto</td><td>Mensaje</td><td>Selector</td><td>Efecto o respuesta</td></tr><tr><td>MiCuenta 195</td><td>MiCuenta withdraw:250 195 -34</td><td>withdraw: 1</td><td>Se realiza una extraccion en MiCuenta Devuelve 161</td></tr><tr><td>`hola</td><td>‘hola mundo!&#x27; size</td><td>size</td><td>Devuelve 11</td></tr><tr><td>mundo!&#x27; MiConjunto</td><td>MiConjunto add:‘hola&#x27;</td><td>add:</td><td>Agrega el objeto &#x27;hola&#x27;a MiConjunto</td></tr></table>",
+        "bbox": [
+            114,
+            78,
+            884,
+            162
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": " Los “nombres” de los métodos que ve el usuario de un objeto pueden denominarse: ",
+        "bbox": [
+            121,
+            175,
+            768,
+            190
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$\\bigcirc$ protocolo   \n$\\bigcirc$ comportamiento   \n$\\bigcirc$ interfaz   \n$\\bigcirc$ servicios   \n$\\bigcirc$ public member functions $( C ^ { + + } )$ ",
+        "bbox": [
+            183,
+            190,
+            448,
+            260
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": " Las variables de instancia también pueden ser llamadas: ",
+        "bbox": [
+            122,
+            262,
+            571,
+            275
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$\\bigcirc$ atributos   \n$\\bigcirc$ características   \n$\\bigcirc$ memoria   \no estado   \no private member data $( C ^ { + + } )$ ",
+        "bbox": [
+            183,
+            276,
+            418,
+            344
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Métodos de instancia y de clase ",
+        "text_level": 1,
+        "bbox": [
+            105,
+            366,
+            468,
+            385
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Las clases son objetos. Hay métodos de clase, que se definen de manera similar. Por ejemplo, new.   \nPuede haber datos propios de cada clase. Estos se almacenan en variables de instancia de clase, y son sólo accesibles por métodos de clase.   \nPuede haber datos compartidos por todas las instancias de una clase. Éstos se almacenan en variables de clase, y son accesibles por los métodos de instancia y de clase. ",
+        "bbox": [
+            134,
+            389,
+            863,
+            472
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Herencia ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            516,
+            194,
+            534
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": " Se pueden estructurar las clases diciendo que una es un tipo especial (kind of) de otra. ",
+        "bbox": [
+            117,
+            539,
+            789,
+            554
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/d5280a59e1ff532bfbf1fb184e79b586abeab63a2aed33a2744b75fe11be2b50.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            300,
+            559,
+            628,
+            642
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Una Mariposa es una subclase de Insecto. Insecto es la superclase de Mariposa y de Cucaracha Se dice que Mariposa hereda de Insecto.   \nLa relación entre una clase y una subclase es la relación Es-un (también A-Kind-Of en otros dominios como IA).   \nIdea: si conecto de alguna manera a las mariposas con los insectos, se establece una agrupación mental que me permite reusar conocimiento que ya tengo sobre los insectos y aplicarlos a las mariposas. Todo lo que es cierto sobre los insectos, automáticamente también es cierto para las mariposas (6 patas, distribución de las patas, metamorfosis, etc.) ",
+        "bbox": [
+            121,
+            656,
+            894,
+            769
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/60dacb4dd4915edbe3b28ccda8d6e544bdeaafb22906e1ec71a0daca1faa648f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            324,
+            781,
+            667,
+            916
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6/10 ",
+        "bbox": [
+            480,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Float es un tipo especial de Number ",
+        "bbox": [
+            124,
+            80,
+            428,
+            95
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Todo lo que es cierto sobre los números (se pueden multiplicar, etc) es cierto también para los puntos flotantes y para los enteros. ",
+        "bbox": [
+            122,
+            96,
+            895,
+            122
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "A su vez todo es subclase de Object en Smalltalk. ",
+        "bbox": [
+            131,
+            123,
+            522,
+            136
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": " Magnitude tiene el comportamiento común entre fechas, horas y números (relación de orden total). ",
+        "bbox": [
+            131,
+            138,
+            882,
+            152
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Intuición: ",
+        "text_level": 1,
+        "bbox": [
+            129,
+            166,
+            205,
+            179
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "los objetos de una subclase tienen más cualidades que los objetos de su superclase los objetos de una subclase son más específicos que los de su superclase, los objetos de una superclase son más generales que los de sus subclases. ",
+        "bbox": [
+            132,
+            179,
+            858,
+            220
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis en Smalltalk para definir una subclase (a mano): ",
+        "bbox": [
+            122,
+            260,
+            541,
+            274
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Herencia y mensajes ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            318,
+            329,
+            338
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Smalltalk ejecuta el primer método, con el selector correspondiente al mensaje, que encuentra en la jerarquía empezando desde la clase a la cual pertenece el objeto y subiendo por las superclases. Esta búsqueda (que se denomina method lookup) se hace en tiempo de ejecución (binding dinámico/late binding/dispatch dinámico).   \nDe este modo una subclase hereda el comportamiento de sus superclases.   \nEn otros lenguajes OO tipados, las clases determinan el tipo de sus instancias. Hay reglas de verificación de tipos que dependen de la jerarquía de clases. No es el caso del Smalltalk, porque no es tipado. ",
+        "bbox": [
+            121,
+            342,
+            889,
+            452
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (Jerarquías) ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            465,
+            334,
+            485
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/fe45dc5968ed5d11ccead062e0447144b27baf4231515a6bab76ff2cc7c92abe.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            100,
+            501,
+            783,
+            744
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Para cada una de estas jerarquías, decidir si es razonable decir que representa una relación de herencia. ",
+        "bbox": [
+            87,
+            757,
+            867,
+            773
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Discusión: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            785,
+            203,
+            802
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Jerarquía 1: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            819,
+            186,
+            833
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Definitivamente no es herencia: los motores no son casos particulares de autos. Es una jerarquía de partes (part-of, aggregation, assembly, whole-part, composite, has-a). Este tipo de jerarquías es todavía más importante que la de herencia (en algunos casos se lo toma como elemento principal de los lenguajes de objetos). ",
+        "bbox": [
+            92,
+            834,
+            895,
+            890
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7/10 ",
+        "bbox": [
+            482,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Insecto subclass: #Mariposa ... ",
+        "bbox": [
+            121,
+            286,
+            905,
+            305
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Jerarquía 2: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            80,
+            186,
+            93
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": " Claro ejemplo de herencia. Las Pick-ups son un tipo especial de Camionetas, que a su vez son Automóviles. ",
+        "bbox": [
+            90,
+            96,
+            715,
+            123
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Jerarquía 3: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            135,
+            186,
+            149
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Charles no es un Reina Elizabeth. El problema fundamental es que la herencia es entre clases y en la jerarquía 3 hay objetos. ",
+        "bbox": [
+            92,
+            150,
+            794,
+            178
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Jerarquía 4: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            191,
+            186,
+            204
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": " Tampoco es herencia.   \n Otro ejemplo de aggregation.   \n En este caso, un mismo nodo aparece más de una vez. ",
+        "bbox": [
+            90,
+            206,
+            532,
+            249
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: herencia en Smalltalk ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            274,
+            443,
+            294
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/302347ee1ff16bc6e1594341993be4291647f741779196407fc6dcb23d3dd079.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            243,
+            300,
+            752,
+            422
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/3987474495b87b67c38d300d1b404051e21b2cf79ffecbabb8c452d03cc14783.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>PerronewdeciAlgo</td><td rowspan=1 colspan=1>new crea una nueva Perro. Smalltalk responde‘No tengo nada para deci...</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Buscamosel método deciAlgo en Perro</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Buscamosel metodo deciAlgo enMamifero</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Buscamos el metodo deciAlgo en Vertebrado-&gt;ahi esta la implementacion</td></tr><tr><td rowspan=1 colspan=1>DelfinnewdeciAlgo</td><td rowspan=1 colspan=1>Responde‘jGraciaspor lospescados!&#x27;</td></tr><tr><td rowspan=1 colspan=1>VertebradonewdeciAlgo</td><td rowspan=1 colspan=1>Sigue respondiendo ‘No tengo nada para decir...&#x27;</td></tr></table>",
+        "bbox": [
+            100,
+            435,
+            900,
+            521
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios: ",
+        "bbox": [
+            92,
+            533,
+            169,
+            547
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": " Agregar una clase Loro y hacer que diga siempre la misma frase aprendida. ",
+        "bbox": [
+            122,
+            560,
+            714,
+            577
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "deciAlgo self display: frase ",
+        "bbox": [
+            141,
+            584,
+            336,
+            628
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": " Hacer que Humano diga “Mi nombre es ",
+        "bbox": [
+            121,
+            641,
+            546,
+            656
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Humano superclass: Mamifero deciAlgo self display: ‘Mi nombre es ‘, nombre ",
+        "bbox": [
+            141,
+            678,
+            473,
+            747
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": " Hacer que Humano diga “Mi nombre es....” , después de lo que dicen los vertebrados. ",
+        "bbox": [
+            119,
+            761,
+            781,
+            777
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "deciAlgo super deciAlgo. self display: ‘Mi nombre es ‘, nombre ",
+        "bbox": [
+            149,
+            793,
+            453,
+            849
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8/10 ",
+        "bbox": [
+            480,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "super altera el orden en que se búscan los métodos, comenzando a buscar por la superclase de la clase donde está definido el método que hace referencia a super. ",
+        "bbox": [
+            95,
+            66,
+            882,
+            96
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Predecir el resultado de: ",
+        "bbox": [
+            122,
+            109,
+            304,
+            123
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/784351ebe983e3b05562c4e2bf2767936aef5a8581a56a5da3072acd5b7d1227.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>‘iglu de mijo&#x27; class</td><td>ByteString</td></tr><tr><td>Kiwi new class superclass</td><td>Ave</td></tr><tr><td>(2/7)class superclass superclass</td><td>ArithmeticValue</td></tr><tr><td>P := Paloma new. P isKindOf: Vertebrado</td><td>true</td></tr><tr><td>PisMemberOf:Vertebrado PisMemberOf:Paloma</td><td>false true</td></tr><tr><td>K := Kiwi new.</td><td></td></tr><tr><td>K class == Kiwi</td><td>true</td></tr><tr><td>K respondsTo: #deciAlgo</td><td>true</td></tr><tr><td>K respondsTo: #vola</td><td>false</td></tr><tr><td>Paloma alllnstances size</td><td>1</td></tr></table>",
+        "bbox": [
+            95,
+            135,
+            899,
+            300
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/bc1c50b9396c3a3cee93a23e510c0845fcc4a820ea820bc60fa11093da5eafd8.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>isKindOf: dice si un objeto es instancia de la clase o alguna subclase isMemberOf: dice si el objeto es exactamente de esa clase</td></tr></table>",
+        "bbox": [
+            95,
+            326,
+            616,
+            355
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "9/10 ",
+        "bbox": [
+            480,
+            919,
+            515,
+            931
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Creación e Inicialización de objetos ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            80,
+            494,
+            99
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": " Un objeto o instancia se crea enviándole un mensaje a la clase correpondiente. Ejemplo: Perro new. ",
+        "bbox": [
+            121,
+            116,
+            736,
+            171
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": " Se pueden definir métodos que creen instancias y reciban parámetros. ",
+        "bbox": [
+            121,
+            184,
+            672,
+            199
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Humano conNombre: ‘Pepe’ (metodo de clase) ^ (self new) nombre: ‘Pepe’. ",
+        "bbox": [
+            176,
+            242,
+            541,
+            296
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Para inicializar instancias se estila crear un método de instancia (por ej. initialize) al que llaman los métodos de clase. ",
+        "bbox": [
+            121,
+            300,
+            875,
+            326
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Re-uso: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            342,
+            183,
+            358
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Desafío: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            363,
+            159,
+            375
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": " Escribir un método pepe en una clase AAA con el código: “... un monton de código importante...” Transcript show: ‘To be or not to be’. “... otro monton de codigo super importante...” Crear una subclase BBB que en el método pepe haga exactamente lo mismo que AAA, pero en lugar de escribir ‘To be or not to be’, escriba ‘My kingdom for a horse’. ",
+        "bbox": [
+            122,
+            376,
+            897,
+            486
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": " No debe quedar código repetido. ",
+        "bbox": [
+            122,
+            486,
+            394,
+            500
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "AAA $> >$ pepe “...un monton de código importante...” Transacript show: (self miFrase). “... otro monton de codigo super importante...”   \nAAA $> >$ miFrase ^ ‘To be or not to be’   \nBBB superclass: AAA   \nBBB $> >$ miFrase ^ ‘My kingdom for a horse’ ",
+        "bbox": [
+            147,
+            503,
+            521,
+            672
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Smalltalk ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            695,
+            198,
+            713
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Imagen: ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            718,
+            156,
+            731
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Contiene todos los objetos que se crearon y se usaron, así como todos los objetos que son críticos para Smalltalk.   \nCuando se carga una imagen, todos los objetos vuelven a estar disponibles   \nEn VisualWorks, las imágenes son archivos con extensión .im. La imagen por defecto se llama visualnc.im y está en el subdirectorio images del directorio de instalación de VisualWorks.   \nHay que generar copias de la imagen.   \nSmalltalk distingue mayúsculas y minúsculas.   \nEs importante respetar la convención de nombres de variables y de métodos.   \nLas variables no tienen tipo pero los objetos son fuertemente tipados.   \nTodas las clases (como Delfín) son instancias de otra clase, que se llama la metaclase. Cada clase es la única instancia de su metaclase. Todas las metaclases son instancias de la misma clase, Metaclass. ",
+        "bbox": [
+            90,
+            732,
+            889,
+            888
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10/10 ",
+        "bbox": [
+            478,
+            919,
+            521,
+            931
+        ],
+        "page_idx": 9
+    }
+]

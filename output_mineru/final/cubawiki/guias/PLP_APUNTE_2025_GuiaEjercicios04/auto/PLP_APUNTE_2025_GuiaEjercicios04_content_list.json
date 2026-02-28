@@ -1,0 +1,1801 @@
+[
+    {
+        "type": "text",
+        "text": "Práctica No 4 - Cálculo- $\\lambda$ : Tipado y Semántica Operacional ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            86,
+            847,
+            108
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Los ejercicios marcados con el símbolo $\\star$ constituyen un subconjunto mínimo de ejercitación. Sin embargo, aconsejamos fuertemente hacer todos los ejercicios. ",
+        "bbox": [
+            90,
+            130,
+            907,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A menos que se especi\u001cquen las extensiones a utilizar, trabajaremos con el cálculo $\\lambda$ con los tipos Bool, Nat y funciones. ",
+        "bbox": [
+            90,
+            164,
+            907,
+            192
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Notación para este segmento de la materia: ",
+        "bbox": [
+            119,
+            199,
+            438,
+            214
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "las letras $M , N , O , P , \\ldots$ denotan términos.   \n$-$ las letras $V , W , \\ldots$ denotan valores.   \nlas letras griegas $\\rho , \\sigma , \\tau , \\ldots$ denotan tipos. ",
+        "bbox": [
+            117,
+            224,
+            453,
+            268
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Gramáticas a tener en cuenta: ",
+        "bbox": [
+            117,
+            287,
+            341,
+            300
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Términos $M : : = x \\mid \\lambda x \\colon \\tau . \\ M \\mid M \\ M \\mid$ true | false $|$ if $M$ then $M$ else M | zero | succ(M ) | pred(M ) | isZero(M ) ",
+        "bbox": [
+            117,
+            312,
+            884,
+            342
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Donde la letra $x$ representa un nombre de variable arbitrario. Dichos nombres se toman de un conjunto in\u001cnito numerable dado X = {w, w1, w2, . . . , x, x1, x2, . . . , y, y1, y2, . . . , z, z1, z2, . . . } ",
+        "bbox": [
+            132,
+            349,
+            907,
+            380
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tipos $\\tau : = { \\sf B o o l } \\mid { \\sf N a t } \\mid \\tau  \\tau$ ",
+        "bbox": [
+            121,
+            386,
+            312,
+            414
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis ",
+        "text_level": 1,
+        "bbox": [
+            457,
+            447,
+            541,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            467,
+            205,
+            481
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Determinar qué expresiones son sintácticamente válidas (es decir, pueden ser generadas con las gramáticas presentadas) y determinar a qué categoría pertenecen (expresiones de términos o expresiones de tipos): ",
+        "bbox": [
+            94,
+            488,
+            905,
+            517
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) $x$   \nb) x x   \nc) M   \nd) M M   \ne) true false   \nf) true succ(false true)   \ng) λx.isZero(x)   \nh) λx : σ. succ(x) i) λx : Bool. succ(x)   \nj) $\\lambda x$ : if true then Bool else Nat. $x$   \nk) $\\sigma$   \nl) Bool   \nm) $\\mathsf { B o o l } \\to \\mathsf { B o o l }$   \nn) $\\mathsf { B o o l } \\to \\mathsf { B o o l } \\to \\mathsf { N a } ^ { \\dag }$ t   \nñ) $( \\mathsf { B o o l } \\to \\mathsf { B o o l } ) \\to \\mathsf { N a t }$   \no) succ true   \np) $\\lambda x$ : Bool. if zero then true else zero succ(true) ",
+        "bbox": [
+            90,
+            531,
+            262,
+            737
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            530,
+            862,
+            737
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            756,
+            184,
+            770
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mostrar un término que utilice al menos una vez todas las reglas de generación de la gramática de los términos y exhibir su árbol sintáctico. ",
+        "bbox": [
+            92,
+            777,
+            907,
+            804
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\textbf { 3 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            813,
+            205,
+            826
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Marcar las ocurrencias del término $x$ como subtérmino en $\\lambda x$ : Nat. succ(( $\\lambda x$ : Nat. x) x). ",
+        "bbox": [
+            87,
+            859,
+            766,
+            875
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b) $\\dot { \\iota }$ Ocurre $x _ { 1 }$ como subtérmino en $\\lambda x _ { 1 }$ : Nat. succ $\\left( x _ { 2 } \\right)$ ? ",
+        "bbox": [
+            92,
+            883,
+            502,
+            898
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c) ¾Ocurre $x$ $( y \\ z )$ como subtérmino en u x $( y \\ z )$ ? ",
+        "bbox": [
+            92,
+            907,
+            470,
+            922
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Página 1 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            206,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Para los siguientes términos: ",
+        "bbox": [
+            97,
+            112,
+            310,
+            127
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) $u \\ x \\ ( y \\ z ) \\ ( \\lambda v : \\mathsf { B o o l . } \\ v \\ y )$   \nb) (λx : Bool → Nat Bool. λy : Bool Nat. $\\lambda z$ : Bool. x z (y z)) u v w   \nc) w ( $\\lambda x$ : Bool → Nat → Bool. λy : Bool Nat. $\\lambda z$ : Bool. x z (y z)) u v Se pide: i Insertar todos los paréntesis de acuerdo a la convención usual.   \nii Dibujar el árbol sintáctico de cada una de las expresiones.   \niii Indicar en el árbol cuáles ocurrencias de variables aparecen ligadas y cuáles libres.   \niv $\\mathrm { i } \\operatorname { E n }$ cuál o cuáles de los términos anteriores ocurre la siguiente expresión como subtérmino ( $\\lambda x \\colon \\mathsf { B o o l } \\to \\mathsf { N a t } \\to \\mathsf { B o o l }$ . λy : Bool Nat. $\\lambda z$ : Bool. x z (y z)) $u$ ",
+        "bbox": [
+            92,
+            135,
+            786,
+            336
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tipado ",
+        "text_level": 1,
+        "bbox": [
+            463,
+            363,
+            536,
+            380
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 5 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            384,
+            184,
+            398
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Mostrar un término que no sea tipable y que no tenga variables libres ni abstracciones. ",
+        "bbox": [
+            94,
+            405,
+            739,
+            420
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 6 (Derivaciones ⋆) ",
+        "bbox": [
+            94,
+            425,
+            315,
+            441
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Dar una derivación $^ { - 0 }$ explicar por qué no es posible dar una derivación\u0015 para cada uno de los siguientes juicios de tipado: ",
+        "bbox": [
+            89,
+            448,
+            904,
+            476
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) $\\vdash$ if true then zero else succ(zero) : Nat   \nb) x : Nat, $y : { \\mathsf { B o o l } } \\vdash$ if true then false else (λz : Bool. $z$ ) true : Bool   \nc) $\\vdash$ if $\\lambda x$ : Bool. $x$ then zero else succ(zero) : Nat   \nd) $x : { \\mathsf { B o o l } } \\to { \\mathsf { N a t } }$ , $y : \\mathsf { B o o l } \\vdash x \\ y : \\mathsf { N }$ Nat ",
+        "bbox": [
+            92,
+            485,
+            588,
+            571
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $^ { 7 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            586,
+            206,
+            600
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se modi\u001cca la regla de tipado de la abstracción y se la cambia por la siguiente regla: ",
+        "bbox": [
+            92,
+            607,
+            722,
+            623
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/eddb25fba40cb8e52af18ed03470eba9540563f402697b61eb5e580b927f75ca.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\tau } { \\Gamma \\vdash \\lambda x : \\sigma . \\ M : \\ \\sigma  \\tau }  _ { i \\mathcal { Q } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            391,
+            630,
+            601,
+            665
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Exhibir un juicio de tipado que sea derivable en el sistema original pero que no lo sea en el sistema actual. ",
+        "bbox": [
+            87,
+            671,
+            873,
+            687
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 8 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            693,
+            184,
+            707
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Determinar qué tipo representa $\\sigma$ en cada uno de los siguientes juicios de tipado. ",
+        "bbox": [
+            94,
+            714,
+            694,
+            730
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) ⊢ succ(zero) : σ   \nb) $\\vdash$ isZero(succ(zero)) : σ   \nc) ⊢ if (if true then false else false) then zero else succ(zero) : $\\sigma$ ",
+        "bbox": [
+            92,
+            738,
+            561,
+            801
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 9 (Tipos habitados) $\\star$ ",
+        "bbox": [
+            94,
+            814,
+            341,
+            831
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Decimos que un tipo $\\tau$ está habitado si existe un término $M$ tal que el juicio $\\vdash M : \\tau$ es derivable. En ese caso, decimos que $M$ es un habitante de $\\tau$ . Por ejemplo, dado un tipo $\\sigma$ , la identidad $\\lambda x : \\sigma . x$ es un habitante del tipo $\\sigma \\to \\sigma$ . Demostrar que los siguientes tipos están habitados (para cualquier $\\sigma , \\tau \\mathrm { ~ y ~ } \\rho$ ): ",
+        "bbox": [
+            92,
+            837,
+            907,
+            879
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) $\\sigma  \\tau  \\sigma$ b) $( \\sigma  \\tau  \\rho )  ( \\sigma  \\tau )  \\sigma  \\rho$ ",
+        "bbox": [
+            90,
+            889,
+            369,
+            928
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            675,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Página 2 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) $( \\sigma \\to \\tau \\to \\rho ) \\to \\tau \\to \\sigma \\to \\rho$ d) $( \\tau \\to \\rho ) \\to ( \\sigma \\to \\tau ) \\to \\sigma \\to \\rho$ ",
+        "bbox": [
+            92,
+            91,
+            334,
+            128
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Para pensar: el tipo b es el de la función conocida como Combinador S. $\\dot { \\iota }$ Con qué función ya conocida de Haskell se corresponden los habitantes de los otros tipos? $\\dot { \\iota }$ Hay tipos que no estén habitados? ¾Si se reemplaza → por $\\Rightarrow$ , las fórmulas habitadas son siempre tautologías? $\\dot { \\iota }$ Las tautologías son siempre fórmulas habitadas? ",
+        "bbox": [
+            92,
+            131,
+            907,
+            175
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 0 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            181,
+            215,
+            196
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Determinar qué tipos representan $\\sigma \\mathrm { ~ y ~ } \\tau$ en cada uno de los siguientes juicios de tipado. Si hay más de una solución, o si no hay ninguna, indicarlo. ",
+        "bbox": [
+            92,
+            200,
+            904,
+            229
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) $x \\colon \\sigma \\vdash \\mathsf { i s Z e r o } ( \\mathsf { s u c c } ( x ) ) \\ : \\ \\tau$   \nb) $\\vdash ( \\lambda x : \\sigma . \\ x ) ( \\lambda y : \\mathsf { B o o l . \\ z e r o } ) \\ : \\ \\sigma$   \nc) $y { : \\tau \\vdash }$ if $( \\lambda x \\colon \\sigma . \\ x )$ then $y$ else succ(zero) : $\\sigma$   \nd) $x : \\sigma \\vdash x \\ y : \\ \\tau$   \ne) $x : \\sigma , y : \\tau \\vdash x \\ y : \\tau$   \nf ) $x \\colon \\sigma \\vdash x$ true : $\\tau$   \ng) $x \\colon \\sigma \\vdash x$ true : $\\sigma$   \nh) $x \\colon \\sigma \\vdash x \\ x : \\ \\tau$ ",
+        "bbox": [
+            92,
+            233,
+            450,
+            399
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 11 (Debilitamiento $y$ fortalecimiento) ",
+        "bbox": [
+            95,
+            410,
+            448,
+            425
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes propiedades, procediendo por inducción en la derivación del juicio correspondiente: ",
+        "bbox": [
+            102,
+            429,
+            894,
+            444
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1. Si $\\Gamma \\vdash M$ : $\\sigma$ es un juicio de tipado derivable y $x$ es una variable que no aparece en $\\Gamma$ , entonces $\\Gamma , x : \\tau \\vdash M : \\sigma$ es derivable para todo tipo $\\tau$ . Esta regla se conoce como debilitamiento o weakening. 2. Si $\\Gamma , x : \\tau \\vdash M : \\sigma$ es un juicio de tipado derivable tal que $x$ no aparece libre en $M$ , entonces $\\Gamma \\vdash M : \\sigma$ es derivable para todo tipo $\\tau$ . Esta regla se conoce como fortalecimiento o strengthening. 3. Dar un contraejemplo para fortalecimiento en el caso en el que $x$ aparece libre en $M$ . ",
+        "bbox": [
+            104,
+            448,
+            907,
+            535
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 12 (Lema de sustitución $\\star$ ) ",
+        "bbox": [
+            94,
+            545,
+            379,
+            560
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Demostrar que si valen $\\Gamma , x : \\sigma \\vdash M : \\tau \\textnormal { y } \\Gamma \\vdash N : \\sigma$ entonces vale $\\Gamma \\vdash M \\{ { \\pmb x } : = { \\bf N } \\} : \\tau$ Sugerencia: proceder por inducción en la estructura del término $M$ . ",
+        "bbox": [
+            102,
+            564,
+            771,
+            594
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Semántica ",
+        "text_level": 1,
+        "bbox": [
+            443,
+            607,
+            552,
+            624
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 3 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            623,
+            215,
+            637
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sean $\\sigma , ~ \\tau , ~ \\rho$ tipos. Según la de\u001cnición de sustitución, calcular: ",
+        "bbox": [
+            94,
+            642,
+            561,
+            657
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) $( \\lambda y \\colon \\sigma . \\ x \\ ( \\lambda x \\colon \\tau . \\ x ) ) \\{ x : = ( \\lambda y \\colon \\rho . \\ x \\ y ) \\}$ b) $( y \\ ( \\lambda v \\colon \\sigma . \\ x \\ v ) ) \\{ x : = ( \\lambda y \\colon \\tau . \\ v \\ y ) \\}$ ",
+        "bbox": [
+            92,
+            661,
+            420,
+            699
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Renombrar variables en ambos términos para que las sustituciones no cambien su signi\u001ccado. ",
+        "bbox": [
+            90,
+            702,
+            779,
+            718
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 14 (Conmutación de sustituciones) ",
+        "bbox": [
+            94,
+            722,
+            431,
+            738
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sean $M$ , $N$ y $P$ términos del cálculo- $\\lambda$ . ",
+        "bbox": [
+            95,
+            743,
+            388,
+            757
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) Por inducción en la estructura del término $M$ , demostrar que si $x$ no aparece libre en $P$ y $x \\neq y$ , entonces: ",
+        "bbox": [
+            95,
+            762,
+            902,
+            776
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a70b7899011e9e4e39b08f381d1176d8675bcb49d1f5a4511991cfd74a9ce4ef.jpg",
+        "text": "$$\nM \\{ x : = \\mathbf { N } \\} \\{ y : = \\mathbf { P } \\} = M \\{ y : = \\mathbf { P } \\} \\{ x : = \\mathbf { N } \\{ y : = \\mathbf { P } \\} \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            285,
+            782,
+            734,
+            797
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "b) Dar un contraejemplo para la ecuación de arriba cuando $x$ aparece libre en $P$ . ",
+        "bbox": [
+            90,
+            806,
+            692,
+            821
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 15 (Valores) ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            832,
+            285,
+            846
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dado el conjunto de valores visto en clase: ",
+        "bbox": [
+            119,
+            865,
+            431,
+            879
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/88e6e40d19bcb89036f195c7d913e4c330af7e58b80ff1fc84e78c950b8df3aa.jpg",
+        "text": "$$\nV : = \\lambda x : \\tau . \\ M \\mid { \\sf t r u e } \\ | { \\sf f a l s e } \\ | \\ z { \\sf e r o } \\ | \\ { \\sf s u c c } ( V )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            339,
+            894,
+            660,
+            909
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Determinar si cada una de las siguientes expresiones es o no un valor: ",
+        "bbox": [
+            117,
+            912,
+            630,
+            927
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Página 3 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) (λx : Bool. x) true b) λx : Bool. 2 c) λx : Bool. pred(2) ",
+        "bbox": [
+            92,
+            90,
+            248,
+            154
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "d) λy : Nat. (λx : Bool. pred(2)) true   \ne) x   \nf) succ(succ(zero)) ",
+        "bbox": [
+            502,
+            90,
+            771,
+            155
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 16 (Programa, Forma Normal) ⋆ ",
+        "bbox": [
+            94,
+            173,
+            420,
+            189
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Para el siguiente ejercicio, considerar el cálculo sin la regla pred(zero) zero ",
+        "bbox": [
+            97,
+            195,
+            672,
+            210
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un programa es un término que tipa en el contexto vacío (es decir, no puede contener variables libres). Para cada una de las siguientes expresiones, ",
+        "bbox": [
+            110,
+            216,
+            873,
+            248
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) Determinar si puede ser considerada un programa. ",
+        "bbox": [
+            92,
+            258,
+            499,
+            273
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b) Si es un programa, $\\dot { \\downarrow } ^ { \\mathrm { C u \\acute { a } l } }$ es el resultado de su evaluación? Determinar si se trata de una forma normal, y en caso de serlo, si es un valor o un error. ",
+        "bbox": [
+            92,
+            281,
+            904,
+            311
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "i ( $\\lambda x$ : Bool. x) true v ( $\\lambda f \\colon { \\mathsf { N a t } }  { \\mathsf { B o o l } } .$ f zero) (λx : Nat. isZero(x)) ii λx : Nat. pred(succ(x)) vi (λf : Nat → Bool. x) (λx : Nat. isZero(x)) iii $\\lambda x$ : Nat. pred(succ(y)) vii (λf : Nat → Bool. $f$ pred(zero)) (λx : Nat. isZero(x)) iv ( $\\lambda x$ : Bool. pred(isZero(x))) true viii \u001cx λy : Nat. succ(y) ",
+        "bbox": [
+            95,
+            323,
+            904,
+            412
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 17 (Determinismo) ",
+        "bbox": [
+            94,
+            430,
+            315,
+            445
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) ¾Es cierto que la relación de\u001cnida $ \\mathrm { e s t \\acute { a } }$ determinada (es una función parcial)? Más precisamente, ¾pasa que si $M  N$ y $M  N ^ { \\prime }$ entonces también vale $N = N ^ { \\prime }$ ? ",
+        "bbox": [
+            90,
+            475,
+            736,
+            505
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b) $\\Dot { \\iota }$ Vale lo mismo con muchos pasos? Es decir, $\\dot { \\iota } ^ { \\mathrm { e s } }$ cierto que si $M \\twoheadrightarrow M ^ { \\prime }$ y $M  M ^ { \\prime \\prime }$ entonces $M ^ { \\prime } = M ^ { \\prime \\prime }$ ? ",
+        "bbox": [
+            85,
+            513,
+            889,
+            529
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "c) ¾Acaso es cierto que si $M  M ^ { \\prime }$ y $M  M ^ { \\prime \\prime }$ entonces $M ^ { \\prime } = M ^ { \\prime \\prime }$ ? ",
+        "bbox": [
+            92,
+            536,
+            605,
+            552
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 18 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            567,
+            193,
+            582
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) $\\dot { \\iota }$ Da lo mismo evaluar succ(pred $( M ) _ { ☉ }$ ) que pred $\\left( \\mathsf { s u c c } ( M ) \\right)$ ? ¾Por qué? ",
+        "bbox": [
+            92,
+            612,
+            615,
+            627
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b) ¾Es verdad que para todo término $M$ vale isZero(succ(M )) →→ false? Si no lo es, ¾para qué términos vale? ",
+        "bbox": [
+            95,
+            636,
+            890,
+            652
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "c) ¾Para qué términos $M$ vale isZero(pred $( M )$ ) $\\twoheadrightarrow$ true? (Hay in\u001cnitos). ",
+        "bbox": [
+            94,
+            659,
+            621,
+            675
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 19 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            690,
+            193,
+            705
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Al agregar la siguiente regla para las abstracciones: ",
+        "bbox": [
+            99,
+            712,
+            477,
+            727
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) Repensar el conjunto de valores para respetar esta modi\u001ccación, pensar por ejemplo si ( $\\lambda x$ : Bool. ( $\\lambda y$ : Bool. y) true) es o no un valor. ",
+        "bbox": [
+            89,
+            768,
+            752,
+            796
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b) $\\dot { \\downarrow } \\mathrm { Q u 6 }$ reglas deberían modi\u001ccarse para no perder el determinismo? ",
+        "bbox": [
+            90,
+            804,
+            605,
+            821
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "c) Utilizando el cálculo modi\u001ccado y los valores de\u001cnidos, reducir la siguiente expresión ( $\\lambda x \\colon \\mathsf { N a t } \\to \\mathsf { N a t . } \\ x \\ \\underline { { 2 3 } } )$ ( $\\lambda x$ : Nat. pred(succ(zero))) $\\dot { \\downarrow } \\mathrm { Q u 6 }$ se puede concluir entonces? ¾Es una buena idea agregar esta regla? ",
+        "bbox": [
+            95,
+            828,
+            744,
+            873
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Página 4 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Extensiones ",
+        "text_level": 1,
+        "bbox": [
+            435,
+            90,
+            563,
+            105
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "En esta sección puede asumirse, siempre que sea necesario, que el cálculo ha sido extendido con la suma de números naturales $( M + N )$ , con las siguiente reglas de tipado y semántica: ",
+        "bbox": [
+            90,
+            109,
+            904,
+            139
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ M : Nat Γ ⊢ N : Nat + Γ ⊢ M + N : Nat Si $M \\to M ^ { \\prime }$ entonces: $M + N  M ^ { \\prime } + N$ (+c1) Si $N  N ^ { \\prime }$ entonces: V + N → V + N ′ $\\left( + _ { \\mathrm { c 2 } } \\right)$ $V + z e r o  V$ $\\left( + _ { 0 } \\right)$ $V _ { 1 } + { \\mathsf { s u c c } } ( V _ { 2 } ) \\to { \\mathsf { s u c c } } ( V _ { 1 } ) + V _ { 2 }$ $( + \\tt s u c c )$ ",
+        "bbox": [
+            126,
+            146,
+            605,
+            237
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 20 (Pares, o productos) ⋆ ",
+        "bbox": [
+            94,
+            241,
+            366,
+            256
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Este ejercicio extiende el cálculo- $\\lambda$ tipado con pares. Las gramáticas de los tipos y los términos se extienden de la siguiente manera: ",
+        "bbox": [
+            94,
+            262,
+            904,
+            290
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/70030c86545d81f9826dd3418ec802ccb42c30e44a2755f203fddd23ca8d3bec.jpg",
+        "text": "$$\n\\begin{array} { l c l } { \\tau } & { \\mathrel { \\mathop : } = } & { \\mathrm { ~ \\dots ~ } \\big | \\mathrm { ~ } \\tau \\times \\tau } \\\\ { M } & { \\mathrel { \\mathop : } = } & { \\mathrm { ~ \\dots ~ } \\big | \\mathrm { ~ } \\langle M , M \\rangle \\mathrm { ~ } | \\mathrm { ~ } \\pi _ { 1 } ( M ) \\mathrm { ~ } | \\mathrm { ~ } \\pi _ { 2 } ( M ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            351,
+            290,
+            645,
+            321
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "donde $\\sigma \\times \\tau$ es el tipo de los pares cuya primera componente es de tipo $\\sigma$ y cuya segunda componente es de tipo $\\tau$ , $\\langle M , N \\rangle$ construye un par y $\\pi _ { 1 } ( M )$ y $\\pi _ { 2 } ( M )$ proyectan la primera y la segunda componente de un par, respectivamente. ",
+        "bbox": [
+            90,
+            324,
+            909,
+            367
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "a) De\u001cnir reglas de tipado para los nuevos constructores de términos. ",
+        "bbox": [
+            92,
+            375,
+            606,
+            391
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "b) Usando las reglas de tipado anteriores, $_ \\mathrm { y }$ dados los tipos $\\sigma , \\tau \\mathrm { ~ y ~ } \\rho$ , exhibir habitantes de los siguientes tipos: ",
+        "bbox": [
+            92,
+            398,
+            905,
+            414
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "i) Constructor de pares: $\\sigma \\to \\tau \\to ( \\sigma \\times \\tau )$   \nii) Proyecciones: $( \\sigma \\times \\tau )  \\sigma$ y $( \\sigma \\times \\tau )  \\tau$   \niii) Conmutatividad: $( \\sigma \\times \\tau ) \\to ( \\tau \\times \\sigma )$ ,   \niv) Asociatividad: $( ( \\sigma \\times \\tau ) \\times \\rho ) \\to ( \\sigma \\times ( \\tau \\times \\rho ) ) \\mathrm { ~ y ~ } ( \\sigma \\times ( \\tau \\times \\rho ) ) \\to ( ( \\sigma \\times \\tau ) \\times \\rho ) .$   \nv) Curri\u001ccación: $( ( \\sigma \\times \\tau ) \\to \\rho ) \\to ( \\sigma \\to \\tau \\to \\rho )$ y $( \\sigma \\to \\tau \\to \\rho ) \\to ( ( \\sigma \\times \\tau ) \\to \\rho )$ . ",
+        "bbox": [
+            121,
+            422,
+            724,
+            514
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "c) $\\Dot { \\iota }$ Cómo se extiende el conjunto de los valores? ",
+        "bbox": [
+            92,
+            520,
+            453,
+            536
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "d) De\u001cnir reglas de semántica operacional manteniendo el determinismo y la preservación de tipos. Importante: no olvidar las reglas de congruencia.   \ne) Demostrar el determinismo de la relación de reducción de\u001cnida. $\\dot { \\iota }$ Se veri\u001cca la propiedad de preservación de tipos? $\\mathcal { L }$ Se veri\u001cca la propiedad de progreso? ",
+        "bbox": [
+            90,
+            543,
+            905,
+            611
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 21 (Uniones disjuntas, también conocidas como co-productos o sumas) ",
+        "bbox": [
+            92,
+            625,
+            695,
+            640
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Este ejercicio extiende el cálculo- $\\lambda$ tipado con uniones disjuntas. Las gramáticas de los tipos y los términos se extienden de la siguiente manera: ",
+        "bbox": [
+            90,
+            646,
+            902,
+            675
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/177aef6d62105704cdd1efa2b42bb5240191075f1d46292535805e27f0aeba45.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\tau } & { : : = \\mathrm { ~ \\dots ~ } | \\mathrm { ~ } \\tau + \\tau } \\\\ { M } & { : : = \\mathrm { ~ \\dots ~ } | \\mathrm { ~ } | \\mathsf { e f t } _ { \\tau } ( M ) \\mathrm { ~ } | \\mathrm { ~ } \\mathrm { r i g h t } _ { \\tau } ( M ) \\mathrm { ~ } | \\mathrm { ~ } \\mathsf { c a s e } M \\mathsf { o f } \\mathrm { ~ } | \\mathsf { e f t } ( x ) \\rrangle  M \\mathrm { ~ } | \\mathrm { ~ r i g h t } ( y ) \\rrangle  M } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            223,
+            684,
+            774,
+            717
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "donde $\\sigma + \\tau$ representa el tipo de la unión disjunta entre $\\sigma$ y $\\tau$ , similar al tipo Either $\\sigma \\tau$ de Haskell, left $\\mathbf { \\Omega } _ { \\sigma } ( M )$ y $\\mathsf { r i g h t } _ { \\tau } ( M )$ inyectan un valor en la unión y case $M$ of $\\mathsf { l e f t } ( x ) \\sim M _ { 1 } \\parallel \\mathsf { r i g h t } ( y ) \\sim M _ { 2 }$ efectúa un análisis de casos del término $M$ comparándolo con los patrones left $\\boldsymbol { \\sigma } ^ { } ( \\boldsymbol { x } )$ y $\\mathfrak { r i g h t } _ { \\tau } ( y )$ . ",
+        "bbox": [
+            90,
+            725,
+            907,
+            769
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "a) De\u001cnir reglas de tipado para los nuevos constructores de términos. ",
+        "bbox": [
+            92,
+            776,
+            606,
+            791
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "b) Usando las reglas de tipado anteriores, $_ \\mathrm { y }$ dados los tipos $\\sigma , \\tau \\mathrm { ~ y ~ } \\rho$ , exhibir habitantes de los siguientes tipos: ",
+        "bbox": [
+            87,
+            800,
+            905,
+            815
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "i) Inyecciones: $\\sigma  ( \\sigma + \\tau ) \\mathrm { ~ y ~ } \\tau  ( \\sigma + \\tau )$ .   \nii) Análisis de casos: $( \\sigma + \\tau )  ( \\sigma  \\rho )  ( \\tau  \\rho )  \\rho$ .   \niii) Conmutatividad: $( \\sigma + \\tau )  ( \\tau + \\sigma )$ .   \niv) Asociatividad: $\\displaystyle { \\big ( ( \\sigma + \\tau ) + \\rho \\big ) \\to \\big ( \\sigma + ( \\tau + \\rho ) \\big ) \\mathrm { ~ y ~ } \\big ( \\sigma + ( \\tau + \\rho ) \\big ) \\to ( ( \\sigma + \\tau ) + \\rho ) . }$   \nv) Distributividad del producto sobre la suma: $( \\sigma \\times ( \\tau + \\rho ) ) \\to ( ( \\sigma \\times \\tau ) + ( \\sigma \\times \\rho ) )$ y $( ( \\sigma \\times \\tau ) + ( \\sigma \\times \\rho ) ) \\to$ ${ \\bf \\chi } ^ { \\prime } \\sigma \\times ( \\tau + \\rho ) )$ . ",
+        "bbox": [
+            122,
+            822,
+            907,
+            928
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Página 5 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "vi) Ley de los exponentes1: $( ( \\sigma + \\tau )  \\rho )  ( ( \\sigma  \\rho ) \\times ( \\tau  \\rho ) )$ y $( ( \\sigma  \\rho ) \\times ( \\tau  \\rho ) )  ( ( \\sigma + \\tau )  \\rho )$ . ",
+        "bbox": [
+            107,
+            90,
+            907,
+            108
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "c) $\\dot { \\iota }$ Cómo se extiende el conjunto de los valores? ",
+        "bbox": [
+            90,
+            115,
+            452,
+            130
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "d) De\u001cnir reglas de semántica operacional manteniendo el determinismo y la preservación de tipos. $\\dot { \\iota }$ Se veri\u001cca la propiedad de progreso? ",
+        "bbox": [
+            89,
+            137,
+            904,
+            167
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "e) Demostrar que la relación de reducción de\u001cnida tiene la propiedad de preservación de tipos. ",
+        "bbox": [
+            89,
+            175,
+            793,
+            191
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 2 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            206,
+            215,
+            221
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Este ejercicio extiende el Cálculo Lambda tipado con listas. Comenzamos ampliando el conjunto de tipos: ",
+        "bbox": [
+            107,
+            228,
+            894,
+            243
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4991d0f886101c4b618498a1762f412a2321d960be34fa9727ae65684cee73cb.jpg",
+        "text": "$$\n\\tau \\quad : : = \\quad . . . \\mid [ \\tau ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            435,
+            253,
+            563,
+            269
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "donde $[ \\tau ]$ representa el tipo de las listas cuyas componentes son de tipo $\\tau$ . El conjunto de términos ahora incluye: ",
+        "bbox": [
+            92,
+            280,
+            904,
+            296
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$M , N , O \\quad : : = \\quad . . . \\mid [ ] _ { \\tau } \\mid M : : N \\mid \\mathsf { c a s e } M \\mathsf { o f } \\left\\{ [ \\mathbf { \\Lambda } ] \\mapsto N \\mid h : t \\mapsto O \\right\\} \\mid \\mathbf { f } \\approx \\mathsf { I } .$ oldr $M$ base ❀ N ; rec(h, r) ❀ O donde ",
+        "bbox": [
+            102,
+            305,
+            899,
+            347
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "■ $[ ] _ { \\sigma }$ es la lista vacía cuyos elementos son de tipo $\\sigma$ ;   \n■ $M : : N$ agrega $M$ a la lista $N$ ;   \ncase $M$ of $\\{ [ \\ ] \\sim N \\ | \\ h : : t \\sim O \\}$ es el observador de listas. Por su parte, los nombres de variables que se indiquen luego del | ( $h \\ y \\ t$ en este caso) son variables que pueden aparecer libres en $O$ y deberán ligarse con la cabeza $_ \\mathrm { y }$ cola de la lista respectivamente;   \nfoldr $M$ base $ N$ ; $\\operatorname { r e c } ( h , r ) \\sim O$ es el operador de recursión estructural (no curri\u001ccado). Los nombres de variables indicados entre paréntesis $\\boldsymbol { h } \\mathrm { ~ y ~ } \\boldsymbol { r }$ en este caso) son variables que pueden aparecer libres en $O$ $_ \\mathrm { y }$ deberán ser ligadas con la cabeza $_ \\mathrm { y }$ el resultado de la recursión respectivamente. ",
+        "bbox": [
+            112,
+            355,
+            909,
+            472
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, ",
+        "bbox": [
+            117,
+            480,
+            211,
+            494
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "case zero :: $\\mathsf { s u c c } ( \\mathsf { z e r o } ) : : [ \\mathbf { \\tau } ] _ { \\mathsf { N a t } }$ of $\\{ [ ] \\sim$ false | x :: xs ❀ isZero(x)} →→ true foldr $\\underline { { 1 } } : : \\underline { { 2 } } : : \\underline { { 3 } } : : ( \\lambda x : [ \\mathsf { N a t } ] . ~ x ) ~ [ ~ ] \\mathsf { N a t }$ base zero; rec(head, rec) ❀ head + rec →→ 6 a) Mostrar el árbol sintáctico para los dos ejemplos dados. ",
+        "bbox": [
+            114,
+            502,
+            752,
+            533
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            92,
+            556,
+            526,
+            571
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "b) Agregar reglas de tipado para las nuevas expresiones. ",
+        "bbox": [
+            92,
+            580,
+            509,
+            595
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "c) Demostrar el siguiente juicio de tipado (recomendación: marcar variables libres y ligadas en el término antes de comenzar). ",
+        "bbox": [
+            84,
+            602,
+            907,
+            633
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "x : Bool, y : [Bool] ⊢ foldr x :: x :: y base $\\sim y$ ; $\\operatorname { r e c } ( y , x ) \\sim$ if $y$ then $x$ else [ ]Bool : [Bool] d) Mostrar cómo se extiende el conjunto de valores. Estos deben re\u001dejar la forma de las listas que un programa podría devolver. ",
+        "bbox": [
+            97,
+            639,
+            779,
+            656
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            90,
+            664,
+            905,
+            693
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "e) Agregar las reglas de reducción asociadas a las nuevas expresiones. ",
+        "bbox": [
+            92,
+            702,
+            606,
+            717
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 3 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            734,
+            213,
+            749
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A partir de la extensión del ejercicio 22, de\u001cnir una nueva extensión que incorpore expresiones de la forma $\\mathtt { m a p } ( M , N )$ , donde $N$ es una lista y $M$ una función que se aplicará a cada uno de los elementos de $N$ . ",
+        "bbox": [
+            97,
+            757,
+            904,
+            784
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Importante: tener en cuenta las anotaciones de tipos al de\u001cnir las reglas de tipado y semántica. ",
+        "bbox": [
+            104,
+            785,
+            826,
+            799
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 4 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            806,
+            213,
+            819
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A partir de la extensión del ejercicio 22, agregaremos términos para representar listas por comprensión, con un selector $_ \\mathrm { y }$ una guarda, de la siguiente manera: $[ M \\mid x  S , P ]$ , donde $x$ es el nombre de una variable que puede aparecer libre en los términos $M _ { \\mathrm { ~ y ~ } } P$ . La semántica es análoga a la de Haskell: para cada valor de la lista representada por el término $S$ , se sustituye $x$ en $P$ y, de resultar verdadero, se agrega $M$ con $x$ sustituido al resultado. De\u001cnir las reglas de tipado, el conjunto de valores $_ \\mathrm { y }$ las reglas de semántica para esta extensión. ",
+        "bbox": [
+            92,
+            827,
+            907,
+            898
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "1Notemos que si escribimos $\\sigma \\to \\tau$ como $\\tau ^ { \\sigma }$ , las dos expresiones nos dicen que $\\rho ^ { \\sigma + \\tau } \\longleftrightarrow \\rho ^ { \\sigma } \\times \\rho ^ { \\tau }$ . ",
+        "bbox": [
+            105,
+            913,
+            726,
+            926
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Página 6 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 25 (Conectivos booleanos) ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            368,
+            105
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir como macros (azúcar sintáctica) los términos Not, And, $\\mathbf { O r }$ , Xor, que simulen desde la reducción los conectivos clásicos usuales, por ej. And M $N $ true $\\Leftrightarrow M $ true y $N $ true. ",
+        "bbox": [
+            92,
+            112,
+            907,
+            140
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Notar que de\u001cnir una macro no es lo mismo que hacer una extensión. Por ejemplo, de\u001cnir el término $I _ { \\sigma } \\ { \\stackrel { \\mathrm { d e f } } { = } } \\ \\lambda x : \\sigma . x$ , que es la función identidad del tipo $\\sigma$ , es distinto de extender la sintaxis del lenguaje con términos de la forma $I ( M )$ , lo cual además requeriría agregar nuevas reglas de tipado y de evaluación. ",
+        "bbox": [
+            92,
+            141,
+            907,
+            187
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 26 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            193,
+            194,
+            208
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir las siguientes funciones en Cálculo Lambda con Listas (visto en el ejercicio 22). Pueden de\u001cnirse como macros o como extensiones al cálculo. ",
+        "bbox": [
+            92,
+            214,
+            905,
+            242
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Nota: en este ejercicio usamos la notación $M : \\sigma$ para decir que la expresión $M$ a de\u001cnir debe tener tipo $\\sigma$ en cualquier contexto. ",
+        "bbox": [
+            90,
+            243,
+            905,
+            272
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5772b9ca24d36e735e8afbdb80f3690420a51785061694a747e23f1462fa8080.jpg",
+        "text": "$$\nh e a d _ { \\sigma } : [ \\sigma ]  \\sigma \\mathrm { ~ y ~ } t a i l _ { \\sigma } : [ \\sigma ]  [ \\sigma ] \\mathrm { ~ ( a s u m i r ~ q u e ~ \\perp _ { \\sigma } ~ } \\stackrel { \\mathrm { d e f } } { = } \\mathrm { f i x ~ } \\lambda x \\colon \\sigma . \\mathrm { ~ } x ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            112,
+            281,
+            601,
+            302
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "b) iterateσ: $( \\sigma  \\sigma )  \\sigma  [ \\sigma ]$ que dadas $f$ y $x$ genera la lista in\u001cnita $x : : f \\ x : : f ( f \\ x ) : : f ( f ( f \\ x ) ) : : . . .$ ",
+        "bbox": [
+            87,
+            309,
+            865,
+            325
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "c) $z i p _ { \\rho , \\sigma } : [ \\rho ] \\to [ \\sigma ] \\to [ \\rho \\times \\sigma ]$ que se comporta como la función homónima de Haskell. ",
+        "bbox": [
+            87,
+            334,
+            727,
+            349
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "d) $t a k e _ { \\sigma } : { \\mathsf { N a t } } \\to ( [ \\sigma ] \\to [ \\sigma ] )$ que se comporta como la función homónima de Haskell. ",
+        "bbox": [
+            89,
+            357,
+            717,
+            372
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 7 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            390,
+            215,
+            404
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Se desea extender el Cálculo Lambda tipado con colas bidireccionales (también conocidas como deque). Se extenderán los tipos $_ \\mathrm { y }$ términos de la siguiente manera: ",
+        "bbox": [
+            92,
+            411,
+            902,
+            441
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/69aab6f521a6f335a2b5ec91f8d5eadbf933539a572fa1b69158d66d205dad04.jpg",
+        "text": "$$\n\\begin{array} { r } { : = \\cdots \\mid \\mathsf { C o l a } _ { \\tau } \\qquad M : = \\cdots \\mid \\langle \\rangle _ { \\tau } \\mid M \\bullet M \\mid \\mathsf { p r o s i m o } ( M ) \\mid \\mathsf { d e s e n c o l a r } ( M ) \\mid \\mathsf { c a s e } M \\mathsf { o f } \\~ \\langle \\rangle  M ; c \\bullet x } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            127,
+            445,
+            847,
+            462
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "donde $\\langle \\rangle _ { \\tau }$ es la cola vacía en la que se pueden encolar elementos de tipo $\\tau$ ; $M _ { 1 } \\bullet M _ { 2 }$ representa el agregado del elemento $M _ { 2 }$ al nal de la cola $M _ { 1 }$ ; los observadores $\\mathsf { p r } \\acute { \\boldsymbol { \\circ } } \\times \\mathsf { i m o } ( M _ { 1 } ) \\ ;$ y desencolar $\\left( M _ { 1 } \\right)$ devuelven, respectivamente, el primer elemento de la cola (el primero que se encoló), $_ \\mathrm { y }$ la cola sin el primer elemento (estos dos últimos solo tienen sentido si la cola no es vacía); $_ \\mathrm { y }$ el observador case $M _ { 1 }$ of $\\langle \\rangle \\sim M _ { 2 } ; c \\bullet x \\sim M _ { 3 }$ permite operar con la cola en sentido contrario, accediendo al último elemento encolado (cuyo valor se ligará a la variable $_ x$ en $M _ { 3 }$ ) $_ \\mathrm { y }$ al resto de la cola (que se ligará a la variable $c$ en el mismo subtérmino). ",
+        "bbox": [
+            92,
+            469,
+            907,
+            541
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1. Introducir las reglas de tipado para la extensión propuesta. ",
+        "bbox": [
+            110,
+            551,
+            571,
+            567
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2. De\u001cnir el conjunto de valores y las nuevas reglas de reducción. Pueden usar los conectivos booleanos de la guía. No es necesario escribir las reglas de congruencia, basta con indicar cuántas son. ",
+        "bbox": [
+            110,
+            574,
+            907,
+            605
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Pista: puede ser necesario mirar más de un nivel de un término para saber a qué reduce. ",
+        "bbox": [
+            131,
+            609,
+            697,
+            623
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3. Mostrar paso por paso cómo reduce la expresión: case $\\left. \\right. _ { \\mathsf { N a t } } \\bullet \\underline { { { 1 } } } \\bullet \\underline { { { 0 } } }$ of $\\langle \\rangle \\sim \\mathsf { p r o x i m o } ( \\langle \\rangle _ { \\mathsf { B o o l } } ) ; c \\bullet x \\sim \\mathsf { i s Z e r o } ( x )$ ",
+        "bbox": [
+            110,
+            632,
+            857,
+            648
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4. De\u001cnir como macro la función último $\\tau$ , que dada una cola devuelve el último elemento que se encoló en ella. Si la cola es vacía, puede colgarse o llegar a una forma normal bien tipada que no sea un valor. Dar un juicio de tipado válido para esta función (no es necesario demostrarlo). ",
+        "bbox": [
+            114,
+            655,
+            910,
+            699
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Página 7 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 6
+    }
+]

@@ -1,0 +1,1023 @@
+[
+    {
+        "type": "text",
+        "text": "Departamento de Computaci´on FCEyN UBA ",
+        "bbox": [
+            287,
+            529,
+            712,
+            628
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/7a221337ba78cbc0f39ae59568380ca22d82706c5a12e7fc2830e0157d930134.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 1/10</td></tr></table>",
+        "bbox": [
+            0,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "2c2025 ",
+        "bbox": [
+            453,
+            680,
+            546,
+            720
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "PLP - Clase de repaso Para el Primer Parcial ",
+        "bbox": [
+            16,
+            205,
+            795,
+            400
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on Funcional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            414,
+            84
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tenemos un tipo de datos Melodia para representar melod´ıas compuestas por sonidos y silencios, dispuestos a lo largo del tiempo: ",
+        "bbox": [
+            24,
+            132,
+            972,
+            227
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "type Tono = Integer   \ndata Melodia $=$ Silencio | Nota Tono | Secuencia Melodia Melodia | Paralelo [ Melodia ] ",
+        "bbox": [
+            71,
+            275,
+            580,
+            529
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tono corresponde a una nota musical que se expresa mediante un entero mayor o igual a 0. Los silencios y las notas duran una unidad de tiempo cada uno (como si fueran todas negras o todas blancas, por ejemplo). En el caso del constructor Secuencia, la segunda melod´ıa empieza inmediatamente cuando finaliza la primera. En el caso de Paralelo, todas las melod´ıas suenan simult´aneamente. Suponemos que Paralelo [] no es una melod´ıa v´alida. ",
+        "bbox": [
+            24,
+            606,
+            975,
+            948
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/2f7c7690d7c7dd541ea82b35bdd2027a9a7cb25fcd67baa1c5630657cc75bd7f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 2/10</td></tr></table>",
+        "bbox": [
+            13,
+            963,
+            988,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Dar el tipo de y definir la funci´on foldMelodia, que implementa el esquema de recursi´on estructural para este tipo de datos. S´olo en este ejercicio est´a permitido usar recursi´on expl´ıcita. ",
+        "bbox": [
+            49,
+            158,
+            977,
+            305
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on duracionTotal :: Melodia -> Integer que, dada una melod´ıa, devuelve la cantidad de unidades de tiempo desde su inicio hasta su fin. ",
+        "bbox": [
+            52,
+            319,
+            969,
+            463
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: duracionTotal \\$ ",
+        "bbox": [
+            88,
+            466,
+            464,
+            507
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Paralelo [Nota 1, Secuencia Silencio (Nota 2), Secuencia (Secuencia Silencio (Nota 2)) (Nota 3)]   \ndevuelve 3. ",
+        "bbox": [
+            58,
+            514,
+            925,
+            643
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on truncar :: Melodia -> Integer -> Melodia que reproduce una melod´ıa hasta una duraci´on determinada, de manera que la duraci´on total de la nueva melod´ıa sea el m´ınimo entre la duraci´on original y la indicada. La duraci´on indicada debe ser mayor a 0. ",
+        "bbox": [
+            58,
+            661,
+            977,
+            908
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/ba9b5eec685a099c543f3fcdf9140d5431c22a187f98df832ac057c5666aa1f2.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyNUBA)</td><td>Repaso</td><td>2c2025 3/10</td></tr></table>",
+        "bbox": [
+            13,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Programaci´on Funcional ",
+        "bbox": [
+            16,
+            0,
+            997,
+            99
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Razonamiento Ecuacional e Inducci´on Estructural 1er Parcial 2c2024 ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            25,
+            828,
+            139
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes definiciones: ",
+        "bbox": [
+            27,
+            205,
+            447,
+            253
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "data AB a $=$ Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            232,
+            286,
+            767,
+            330
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "const :: a -> b -> a $\\{ { \\bf C } \\} \\mathrm { c o n s t } = ( \\backslash { \\bf x } \\mathrm {  ~  ~ } \\backslash \\mathrm { y ~ } \\mathrm {  ~  ~ } { \\bf x } )$ ",
+        "bbox": [
+            24,
+            367,
+            414,
+            452
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "zipAB :: AB a -> AB b -> AB (a,b)   \n$\\{ \\boldsymbol { { \\mathrm { Z 0 } } } \\}$ zipAB Nil $=$ const Nil   \n$\\{ \\mathbf { Z 1 } \\}$ zipAB (Bin i r d) = \\t -> case t of Nil -> Nil Bin i’ r’ d’ -> Bin (zipAB i i’) ",
+        "bbox": [
+            24,
+            669,
+            621,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/532536c7cadcf4e30dc8254759c1d58aeb4ef988cdba0afcfddf04749ab9eb9c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 4/10</td></tr></table>",
+        "bbox": [
+            5,
+            966,
+            991,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Razonamiento Ecuacional e Inducci´on Estructural 1er Parcial 2c2024 ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            25,
+            828,
+            139
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Demostrar la siguiente propiedad: ",
+        "bbox": [
+            27,
+            209,
+            453,
+            257
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "∀ t::AB a.∀ u::AB a. altura t ≥ altura (zipAB t u) ",
+        "bbox": [
+            80,
+            294,
+            911,
+            341
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Se recomienda hacer inducci´on en un ´arbol, utilizando el lema de generaci´on para el otro cuando sea necesario. Se permite definir macros (i.e., poner nombres a expresiones largas para no tener que repetirlas). No es obligatorio escribir los $\\forall$ correspondientes en cada paso, pero es importante recordar que est´an presentes. Recordar tambi´en que los = de las definiciones pueden leerse en ambos sentidos. Se consideran demostradas todas las propiedades conocidas sobre enteros y booleanos, as´ı como tambi´en: ",
+        "bbox": [
+            24,
+            375,
+            975,
+            772
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/4d687a39396709ac2b78eacec35b3cd6cedfc667e48e7dd9e4de814694d5fd88.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 5/10</td></tr></table>",
+        "bbox": [
+            5,
+            966,
+            991,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Demostrar el siguiente teorema usando Deducci´on Natural, sin utilizar principios cl´asicos: $\\rho \\Rightarrow ( \\sigma \\lor ( \\rho \\Rightarrow \\tau ) ) \\Rightarrow ( \\sigma \\lor \\tau )$ ",
+        "bbox": [
+            55,
+            433,
+            950,
+            536
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/8bcbbcad64193c09ba07f2e85db9fc1d7d86ec4771b2a46e2d9b076cc6304da1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyNUBA)</td><td>Repaso</td><td>2c2025 6/10</td></tr></table>",
+        "bbox": [
+            2,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Deducci´on natural 1er Parcial 1c2025 ",
+        "bbox": [
+            19,
+            25,
+            317,
+            132
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Reglas de deducci´on natural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            25,
+            477,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ed50c2b0cc517b4ebbe42ef0e32c9ffdf25a3ce121e313893959b83bc7333719.jpg",
+        "text": "$$\n\\begin{array} { l c r } { { } } & { { \\qquad \\Gamma , \\tau \\vdash \\tau } } & { { \\mathrm { a x } } } \\\\ { { \\frac { \\tau \\vdash \\tau \\land \\sigma } { \\tau \\land \\sigma } \\land _ { i } } } & { { \\qquad \\frac { \\Gamma \\vdash \\tau \\land \\sigma } { \\Gamma \\vdash \\tau } \\land _ { e _ { 1 } } } } \\\\ { { \\frac { \\tau \\vdash \\sigma } { \\tau \\Rightarrow \\sigma } \\Rightarrow _ { i } } } & { { \\qquad \\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma } { \\Gamma \\vdash \\tau } } } \\\\ { { \\mathrm { \\sigma _ { i } } \\quad { \\quad } { \\stackrel { \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\lor \\sigma } } \\lor _ { i _ { 2 } } } } & { { \\qquad \\frac { \\Gamma \\vdash \\tau \\lor \\sigma } { \\Gamma \\vdash \\tau } \\lor _ { i } } } \\\\ { { \\frac { \\tau \\vdash \\bot } { \\Gamma \\vdash \\tau } \\neg _ { i } } } & { { \\qquad \\frac { \\Gamma \\vdash \\tau \\quad \\Gamma } { \\Gamma \\vdash \\tau } } } \\end{array}\n$$$$\n\\begin{array} { r l } { \\overline { { \\overline { { \\mathbf { \\alpha } } } , \\tau \\vdash \\tau } } \\stackrel { \\mathsf { a x } } { = } } & { { } } \\\\ { \\frac { \\Gamma \\vdash \\tau \\land \\sigma } { \\Gamma \\vdash \\tau } \\land _ { e _ { 1 } } \\quad } & { { } \\frac { \\Gamma \\vdash \\tau \\land \\sigma } { \\Gamma \\vdash \\sigma } \\land _ { e _ { 2 } } } \\end{array}\n$$$$\n\\begin{array} { l } { \\displaystyle \\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 1 } } \\frac { \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 2 } } } \\\\ { \\displaystyle \\frac { \\Gamma , \\tau \\vdash \\bot } { \\Gamma \\vdash \\lnot \\tau } \\lnot _ { i } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            191,
+            720,
+            599
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5cb4abd52d5376508deb901dc0ff70b955759cb0581699cca8e2e5ab9bf83010.jpg",
+        "text": "$$\n\\begin{array}{c} \\frac { \\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\vdash \\tau } { \\Gamma \\vdash \\sigma } \\Rightarrow _ { e } } { \\Gamma \\vdash \\sigma } \\vdash \\tau \\vdash \\sigma \\vdash \\infty  \\\\ { \\underbrace { \\Gamma \\vdash \\tau \\lor \\sigma \\vdash \\Gamma , \\tau \\vdash \\rho \\vdash \\Gamma , \\sigma \\vdash \\rho } _ { \\Gamma \\vdash \\rho } \\lor _ { e } } \\\\ { \\underbrace { \\Gamma \\vdash \\tau \\vdash \\Gamma \\vdash \\tau } _ { \\Gamma \\vdash \\bot } \\lnot \\lnot _ { e } } \\\\ { \\underbrace { \\Gamma \\vdash \\bot } _ { \\Gamma \\vdash \\tau } \\bot _ { e } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            522,
+            330,
+            917,
+            669
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "L´ogica cl´asica (las tres son equivalentes entre s´ı) ",
+        "bbox": [
+            146,
+            812,
+            712,
+            856
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/20df0fbfef73886047e7b2f79b104c4d0ff8a23caa7d42fc0aa5fc9c3bd6350c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025</td></tr></table>",
+        "bbox": [
+            11,
+            966,
+            986,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "C´alculo Lambda - Pr´actica 4 Ejercicio 27 ",
+        "text_level": 1,
+        "bbox": [
+            11,
+            25,
+            690,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Se desea extender el C´alculo Lambda tipado con colas bidireccionales (tambi´en conocidas como deque). ",
+        "bbox": [
+            24,
+            172,
+            908,
+            272
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Se extender´an los tipos y t´erminos de la siguiente manera: ",
+        "bbox": [
+            33,
+            275,
+            759,
+            319
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "τ ::= · · · | Colaτ M ::= · · · | ⟨⟩τ | M • M | pr´oximo(M) | desencolar(M) | case M of $\\langle \\rangle  M ; c \\bullet x  M$ ",
+        "bbox": [
+            27,
+            327,
+            715,
+            470
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "donde $\\left. \\right. _ { \\tau }$ es la cola vac´ıa en la que se pueden encolar elementos de tipo $\\tau$ $; M _ { 1 } \\bullet M _ { 2 }$ representa el agregado del elemento $M _ { 2 }$ al final de la cola $M _ { 1 }$ ; los observadores pr´oximo( $M _ { 1 }$ ) y desencolar $M _ { 1 }$ ) devuelven, respectivamente, el primer elemento de la cola (el primero que se encol´o), y la cola sin el primer elemento (estos dos ´ultimos solo tienen sentido si la cola no es vac´ıa); y el observador case $M _ { 1 }$ of $\\langle \\rangle  M _ { 2 } ; c \\bullet x  M _ { 3 }$ permite operar con la cola en sentido contrario, accediendo al ´ultimo elemento encolado (cuyo valor se ligar´a a la variable $_ x$ en $M _ { 3 }$ ) y al resto de la cola (que se ligar´a a la variable c en el mismo subt´ermino). ",
+        "bbox": [
+            24,
+            488,
+            966,
+            882
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/4e0b5d0a0201df8dac0831aff1cbde483f7fb94b36d8116c57fda0c5b1697435.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 8/10</td></tr></table>",
+        "bbox": [
+            11,
+            966,
+            991,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "C´alculo Lambda - Pr´actica 4 Ejercicio 27 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            690,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "τ : $\\begin{array} { r l } & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\mathsf { C o l a } _ { \\tau } } \\\\ & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\big \\langle \\rangle _ { \\tau } \\mid M \\bullet M \\mid \\mathsf { p r } \\acute { \\circ } \\mathrm { x i m o } ( M ) \\mid \\mathsf { d e s } } \\\\ & { \\mathrel { \\phantom { = } } \\mid \\mathsf { c a s e } M \\mathrm { o f } \\big \\langle \\rangle  M ; c \\bullet x  M } \\end{array}$ M encolar(M) ",
+        "bbox": [
+            24,
+            117,
+            712,
+            275
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1. Introducir las reglas de tipado para la extensi´on propuesta. ",
+        "bbox": [
+            44,
+            294,
+            828,
+            341
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/4b0125a04f602f8b6c46732cea9add18e06f508c070ad7333fdd7cbcf308f77a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyNUBA)</td><td>Repaso</td><td>2c2025 9/10</td></tr></table>",
+        "bbox": [
+            0,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "C´alculo Lambda - Pr´actica 4 Ejercicio 27 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            690,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "τ : $\\begin{array} { r l } & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\mathsf { C o l a } _ { \\tau } } \\\\ & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\big \\langle \\rangle _ { \\tau } \\mid M \\bullet M \\mid \\mathsf { p r } \\acute { \\circ } \\mathrm { x i m o } ( M ) \\mid \\mathsf { d e s } } \\\\ & { \\mathrel { \\phantom { = } } \\mid \\mathsf { c a s e } M \\mathrm { o f } \\big \\langle \\rangle  M ; c \\bullet x  M } \\end{array}$ M encolar(M) ",
+        "bbox": [
+            24,
+            117,
+            712,
+            275
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1. Introducir las reglas de tipado para la extensi´on propuesta.   \n2. Definir el conjunto de valores y las nuevas reglas de reducci´on. Pueden usar los conectivos booleanos de la gu´ıa. No es necesario escribir las reglas de congruencia, basta con indicar cu´antas son ",
+        "bbox": [
+            44,
+            294,
+            925,
+            496
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/fa6474648eeb1fbf0390c3741f0865c3cbdf398f7674f3c34f2165e3e1054897.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 9/10</td></tr></table>",
+        "bbox": [
+            2,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "C´alculo Lambda - Pr´actica 4 Ejercicio 27 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            690,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "τ : $\\begin{array} { r l } & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\mathsf { C o l a } _ { \\tau } } \\\\ & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\big \\langle \\rangle _ { \\tau } \\mid M \\bullet M \\mid \\mathsf { p r } \\acute { \\circ } \\mathrm { x i m o } ( M ) \\mid \\mathsf { d e s } } \\\\ & { \\mathrel { \\phantom { = } } \\mid \\mathsf { c a s e } M \\mathrm { o f } \\big \\langle \\rangle  M ; c \\bullet x  M } \\end{array}$ M encolar(M) ",
+        "bbox": [
+            24,
+            117,
+            712,
+            275
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "1. Introducir las reglas de tipado para la extensi´on propuesta. 2. Definir el conjunto de valores y las nuevas reglas de reducci´on. Pueden usar los conectivos booleanos de la gu´ıa. No es necesario escribir las reglas de congruencia, basta con indicar cu´antas son. ",
+        "bbox": [
+            44,
+            294,
+            941,
+            496
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Pista: puede ser necesario mirar m´as de un nivel de un t´ermino para saber a qu´e reduce. ",
+        "bbox": [
+            80,
+            503,
+            955,
+            591
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/2415b5bada6755d6ae69e85e4a20d7dc2264ddf613d378308fb428e4902cc171.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 9/10</td></tr></table>",
+        "bbox": [
+            2,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "C´alculo Lambda - Pr´actica 4 Ejercicio 27 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            690,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "τ : $\\begin{array} { r l } & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\mathsf { C o l a } _ { \\tau } } \\\\ & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\big \\langle \\rangle _ { \\tau } \\mid M \\bullet M \\mid \\mathsf { p r } \\acute { \\circ } \\mathrm { x i m o } ( M ) \\mid \\mathsf { d e s } } \\\\ & { \\mathrel { \\phantom { = } } \\mid \\mathsf { c a s e } M \\mathrm { o f } \\big \\langle \\rangle  M ; c \\bullet x  M } \\end{array}$ M encolar(M) ",
+        "bbox": [
+            24,
+            117,
+            712,
+            275
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Introducir las reglas de tipado para la extensi´on propuesta. ",
+        "bbox": [
+            60,
+            294,
+            825,
+            341
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "2. Definir el conjunto de valores y las nuevas reglas de reducci´on. ",
+        "bbox": [
+            41,
+            349,
+            883,
+            393
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Pueden usar los conectivos booleanos de la gu´ıa. No es necesario escribir las reglas de congruencia, basta con indicar cu´antas son. ",
+        "bbox": [
+            52,
+            404,
+            941,
+            496
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Pista: puede ser necesario mirar m´as de un nivel de un t´ermino para saber a qu´e reduce. ",
+        "bbox": [
+            74,
+            503,
+            958,
+            591
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3. Mostrar paso por paso c´omo reduce la expresi´on: case $\\langle \\rangle _ { \\mathsf { N a t } } \\bullet \\underline { { 1 } } \\bullet 0$ of $\\langle \\rangle  \\mathrm { p r } \\acute { o } \\times \\mathrm { i m o } ( \\langle \\rangle _ { \\mathrm { B o o l } } ) ; c \\bullet x  \\mathrm { i } 5 Z \\mathsf { e r o } ( x )$ ",
+        "bbox": [
+            46,
+            602,
+            715,
+            698
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/10bb9831e8f2a9cb733ca05b88f5fcb50722baa9c18f2a6df25fd39d079964da.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 9/10</td></tr></table>",
+        "bbox": [
+            5,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "C´alculo Lambda - Pr´actica 4 Ejercicio 27 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            690,
+            84
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "τ : $\\begin{array} { r l } & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\mathsf { C o l a } _ { \\tau } } \\\\ & { \\mathrel { \\mathop : } = \\mathrm { \\dots ~ } | \\big \\langle \\rangle _ { \\tau } \\mid M \\bullet M \\mid \\mathsf { p r } \\acute { \\circ } \\mathrm { x i m o } ( M ) \\mid \\mathsf { d e s } } \\\\ & { \\mathrel { \\phantom { = } } \\mid \\mathsf { c a s e } M \\mathrm { o f } \\big \\langle \\rangle  M ; c \\bullet x  M } \\end{array}$ M encolar(M) ",
+        "bbox": [
+            24,
+            117,
+            712,
+            275
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Introducir las reglas de tipado para la extensi´on propuesta. ",
+        "bbox": [
+            60,
+            294,
+            825,
+            341
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "2. Definir el conjunto de valores y las nuevas reglas de reducci´on. ",
+        "bbox": [
+            41,
+            349,
+            883,
+            393
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Pueden usar los conectivos booleanos de la gu´ıa. No es necesario escribir las reglas de congruencia, basta con indicar cu´antas son. ",
+        "bbox": [
+            52,
+            400,
+            944,
+            496
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Pista: puede ser necesario mirar m´as de un nivel de un t´ermino para saber a qu´e reduce. ",
+        "bbox": [
+            74,
+            503,
+            958,
+            588
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3. Mostrar paso por paso c´omo reduce la expresi´on: case $\\langle \\rangle _ { \\mathsf { N a t } } \\bullet \\underline { { 1 } } \\bullet 0$ of $\\langle \\rangle  \\mathrm { p r } \\acute { o } \\times \\mathrm { i m o } ( \\langle \\rangle _ { \\mathrm { B o o l } } ) ; c \\bullet x  \\mathrm { i } 5 Z \\mathsf { e r o } ( x )$ ",
+        "bbox": [
+            49,
+            602,
+            729,
+            698
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "4. Definir como macro la funci´on ´ultimoτ , que dada una cola devuelve el ´ultimo elemento que se encol´o en ella. Si la cola es vac´ıa, puede colgarse o llegar a una forma normal bien tipada que no sea un valor. Dar un juicio de tipado v´alido para esta funci´on (no es necesario demostrarlo). ",
+        "bbox": [
+            55,
+            702,
+            975,
+            944
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 10 ",
+        "bbox": [
+            13,
+            966,
+            986,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "¿Preguntas? ",
+        "bbox": [
+            2,
+            25,
+            223,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "bbox": [
+            251,
+            415,
+            748,
+            511
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "images/ef0e86d1170037552484e5d682851ee59591e21697701a312a544bc296aa944e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>(FCEyN UBA)</td><td>Repaso</td><td>2c2025 10/10</td></tr></table>",
+        "bbox": [
+            0,
+            966,
+            988,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            930,
+            997,
+            959
+        ],
+        "page_idx": 13
+    }
+]

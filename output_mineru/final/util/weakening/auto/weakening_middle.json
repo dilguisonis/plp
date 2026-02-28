@@ -1,0 +1,3988 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        83,
+                        106,
+                        520,
+                        124
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                105,
+                                520,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        105,
+                                        520,
+                                        126
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Demostración (parcial) de Weakening para Deducción Natural",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        135,
+                        307,
+                        148
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                134,
+                                308,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        134,
+                                        308,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Queremos demostrar la siguiente propiedad:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        100,
+                        149,
+                        313,
+                        161
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                147,
+                                314,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        147,
+                                        109,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        109,
+                                        151,
+                                        136,
+                                        159
+                                    ],
+                                    "score": 0.87,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        136,
+                                        147,
+                                        227,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es válido entonces",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        151,
+                                        265,
+                                        161
+                                    ],
+                                    "score": 0.92,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        265,
+                                        147,
+                                        314,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es válido.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        79,
+                        163,
+                        523,
+                        201
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                161,
+                                524,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        161,
+                                        524,
+                                        176
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Dado que la propiedad es una implicación y que, por propiedad de Bool, si el antecedente",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                175,
+                                523,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        175,
+                                        523,
+                                        189
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es falso la implicación es verdadera, suponemos que el antecedente es verdadero \u0015 es decir, que",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                79,
+                                189,
+                                375,
+                                202
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        189,
+                                        101,
+                                        202
+                                    ],
+                                    "score": 1.0,
+                                    "content": "vale",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        102,
+                                        192,
+                                        147,
+                                        202
+                                    ],
+                                    "score": 0.91,
+                                    "content": "\\Gamma \\vdash \\sigma \\mathrm { ~ - ~ y ~ }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        147,
+                                        189,
+                                        375,
+                                        202
+                                    ],
+                                    "score": 1.0,
+                                    "content": "demostramos que el consecuente también lo es.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        80,
+                        203,
+                        523,
+                        229
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                201,
+                                524,
+                                217
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        201,
+                                        447,
+                                        217
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Esto se puede probar mediante inducción estructural en la derivación de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        447,
+                                        205,
+                                        474,
+                                        214
+                                    ],
+                                    "score": 0.81,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        475,
+                                        201,
+                                        524,
+                                        217
+                                    ],
+                                    "score": 1.0,
+                                    "content": "(es decir,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                216,
+                                287,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        216,
+                                        287,
+                                        231
+                                    ],
+                                    "score": 1.0,
+                                    "content": "en su demostración por deduciión natural).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 6.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        78,
+                        230,
+                        521,
+                        256
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                229,
+                                524,
+                                243
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        229,
+                                        524,
+                                        243
+                                    ],
+                                    "score": 1.0,
+                                    "content": "De esta manera, tenemos un caso por cada regla de nuestro sistema deductivo, siendo el",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                79,
+                                244,
+                                303,
+                                257
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        244,
+                                        303,
+                                        257
+                                    ],
+                                    "score": 1.0,
+                                    "content": "caso base la única regla que no tiene premisas.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 8.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        78,
+                        257,
+                        521,
+                        283
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                255,
+                                523,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        255,
+                                        523,
+                                        272
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Vamos a desarrollar solamente algunos casos. El resto queda para que los desarrollen",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                270,
+                                121,
+                                284
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        270,
+                                        121,
+                                        284
+                                    ],
+                                    "score": 1.0,
+                                    "content": "ustedes.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        }
+                    ],
+                    "index": 10.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        80,
+                        302,
+                        188,
+                        318
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                300,
+                                191,
+                                321
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        300,
+                                        191,
+                                        321
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Caso base (ax):",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        329,
+                        294,
+                        342
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                328,
+                                295,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        328,
+                                        193,
+                                        343
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        193,
+                                        331,
+                                        220,
+                                        340
+                                    ],
+                                    "score": 0.86,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        328,
+                                        295,
+                                        343
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es de la forma:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        272,
+                        355,
+                        315,
+                        369
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                272,
+                                355,
+                                315,
+                                369
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        272,
+                                        355,
+                                        315,
+                                        369
+                                    ],
+                                    "score": 0.4,
+                                    "content": "\\overline { { \\Gamma ^ { \\prime } , \\sigma \\vdash \\sigma } }",
+                                    "type": "interline_equation",
+                                    "image_path": "6481a8f7b39ee910de4d3894b0ab7ca8ef5b0477d7685731392c9e4e0e47c3bb.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                272,
+                                355,
+                                315,
+                                369
+                            ],
+                            "spans": [],
+                            "index": 14
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        95,
+                        369,
+                        354,
+                        381
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                366,
+                                357,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        366,
+                                        158,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En este caso",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        370,
+                                        167,
+                                        380
+                                    ],
+                                    "score": 0.75,
+                                    "content": "\\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        366,
+                                        182,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        182,
+                                        369,
+                                        204,
+                                        381
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma ^ { \\prime } , \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        205,
+                                        366,
+                                        219,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        219,
+                                        373,
+                                        227,
+                                        380
+                                    ],
+                                    "score": 0.71,
+                                    "content": "\\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        366,
+                                        357,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es una fórmula cualquiera.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        98,
+                        383,
+                        431,
+                        396
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                381,
+                                433,
+                                397
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        381,
+                                        193,
+                                        397
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        193,
+                                        383,
+                                        232,
+                                        395
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        232,
+                                        381,
+                                        433,
+                                        397
+                                    ],
+                                    "score": 1.0,
+                                    "content": "puede construirse de la siguiente manera:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        267,
+                        407,
+                        320,
+                        422
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                267,
+                                407,
+                                320,
+                                422
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        267,
+                                        407,
+                                        320,
+                                        422
+                                    ],
+                                    "score": 0.69,
+                                    "content": "\\overline { { \\Gamma ^ { \\prime } , \\sigma , \\tau \\vdash \\sigma } }",
+                                    "type": "interline_equation",
+                                    "image_path": "33e1a6e976aa4570d53886d652cd994a482fdc57e094b4b3e83ff99ac1b5c3b6.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                267,
+                                407,
+                                320,
+                                422
+                            ],
+                            "spans": [],
+                            "index": 17
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        96,
+                        423,
+                        339,
+                        435
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                421,
+                                341,
+                                437
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        421,
+                                        128,
+                                        437
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Como",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        128,
+                                        423,
+                                        171,
+                                        435
+                                    ],
+                                    "score": 0.91,
+                                    "content": "\\Gamma ^ { \\prime } , \\sigma = \\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        172,
+                                        421,
+                                        341,
+                                        437
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", con esto queda probado este caso.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        80,
+                        453,
+                        224,
+                        469
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                451,
+                                226,
+                                473
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        451,
+                                        188,
+                                        473
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Caso inductivo",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        188,
+                                        453,
+                                        217,
+                                        470
+                                    ],
+                                    "score": 0.7,
+                                    "content": "( \\Rightarrow _ { i } )",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        218,
+                                        451,
+                                        226,
+                                        473
+                                    ],
+                                    "score": 1.0,
+                                    "content": ":",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        480,
+                        294,
+                        493
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                480,
+                                295,
+                                494
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        480,
+                                        193,
+                                        494
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        194,
+                                        482,
+                                        220,
+                                        492
+                                    ],
+                                    "score": 0.85,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        480,
+                                        295,
+                                        494
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es de la forma:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        260,
+                        503,
+                        340,
+                        529
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                260,
+                                503,
+                                340,
+                                529
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        260,
+                                        503,
+                                        340,
+                                        529
+                                    ],
+                                    "score": 0.94,
+                                    "content": "{ \\frac { \\Gamma , \\sigma _ { 1 } \\vdash \\sigma _ { 2 } } { \\Gamma \\vdash \\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 } } } \\Rightarrow _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "4bdcdf7e215e96488ab766cd0853cc1e4acc09bdeb997cfe7ff1376d76a31709.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                260,
+                                503,
+                                340,
+                                529
+                            ],
+                            "spans": [],
+                            "index": 21
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        96,
+                        543,
+                        370,
+                        556
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                540,
+                                371,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        540,
+                                        159,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En este caso",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        546,
+                                        167,
+                                        554
+                                    ],
+                                    "score": 0.83,
+                                    "content": "\\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        540,
+                                        303,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es un contexto cualquiera y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        303,
+                                        547,
+                                        311,
+                                        554
+                                    ],
+                                    "score": 0.67,
+                                    "content": "\\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        540,
+                                        326,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        326,
+                                        548,
+                                        366,
+                                        555
+                                    ],
+                                    "score": 0.84,
+                                    "content": "\\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        366,
+                                        540,
+                                        371,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        }
+                    ],
+                    "index": 22
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        80,
+                        557,
+                        524,
+                        596
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                555,
+                                524,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        555,
+                                        524,
+                                        571
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La hipótesis inductiva es que la propiedad vale para la premisa, que es el subárbol de la",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                569,
+                                523,
+                                584
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        569,
+                                        215,
+                                        584
+                                    ],
+                                    "score": 1.0,
+                                    "content": "demostración. Es decir, que",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        215,
+                                        571,
+                                        274,
+                                        583
+                                    ],
+                                    "score": 0.91,
+                                    "content": "\\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        274,
+                                        569,
+                                        523,
+                                        584
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es válido. Por completitud, esto signi\u001cca que existe",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                582,
+                                358,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        582,
+                                        295,
+                                        599
+                                    ],
+                                    "score": 1.0,
+                                    "content": "una demostración en deducción natural para",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        295,
+                                        585,
+                                        353,
+                                        596
+                                    ],
+                                    "score": 0.89,
+                                    "content": "\\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        353,
+                                        582,
+                                        358,
+                                        599
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        }
+                    ],
+                    "index": 24
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        95,
+                        597,
+                        432,
+                        610
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                596,
+                                433,
+                                611
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        596,
+                                        193,
+                                        611
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        193,
+                                        598,
+                                        231,
+                                        610
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        232,
+                                        596,
+                                        433,
+                                        611
+                                    ],
+                                    "score": 1.0,
+                                    "content": "puede construirse de la siguiente manera:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        }
+                    ],
+                    "index": 26
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        255,
+                        619,
+                        347,
+                        652
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                255,
+                                619,
+                                347,
+                                652
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        255,
+                                        619,
+                                        347,
+                                        652
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\overline { { \\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 } } } ^ { H I } } { \\Gamma , \\tau \\vdash \\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 } } \\Rightarrow _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "419d53c6e60526cddd36a9ca30f12a689b1af9c510b7968279a197b978b81a36.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                255,
+                                619,
+                                347,
+                                635.5
+                            ],
+                            "spans": [],
+                            "index": 27
+                        },
+                        {
+                            "bbox": [
+                                255,
+                                635.5,
+                                347,
+                                652.0
+                            ],
+                            "spans": [],
+                            "index": 28
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        659,
+                        262,
+                        672
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                659,
+                                263,
+                                673
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        659,
+                                        263,
+                                        673
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Con esto queda probado este caso.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        }
+                    ],
+                    "index": 29
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        298,
+                        764,
+                        304,
+                        774
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                297,
+                                764,
+                                305,
+                                777
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        297,
+                                        764,
+                                        305,
+                                        777
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        83,
+                        106,
+                        520,
+                        124
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                105,
+                                520,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        105,
+                                        520,
+                                        126
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Demostración (parcial) de Weakening para Deducción Natural",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        135,
+                        307,
+                        148
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                134,
+                                308,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        134,
+                                        308,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Queremos demostrar la siguiente propiedad:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1,
+                    "bbox_fs": [
+                        96,
+                        134,
+                        308,
+                        150
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        100,
+                        149,
+                        313,
+                        161
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                147,
+                                314,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        147,
+                                        109,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        109,
+                                        151,
+                                        136,
+                                        159
+                                    ],
+                                    "score": 0.87,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        136,
+                                        147,
+                                        227,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es válido entonces",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        151,
+                                        265,
+                                        161
+                                    ],
+                                    "score": 0.92,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        265,
+                                        147,
+                                        314,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es válido.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "bbox_fs": [
+                        97,
+                        147,
+                        314,
+                        162
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        79,
+                        163,
+                        523,
+                        201
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                161,
+                                524,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        161,
+                                        524,
+                                        176
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Dado que la propiedad es una implicación y que, por propiedad de Bool, si el antecedente",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                175,
+                                523,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        175,
+                                        523,
+                                        189
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es falso la implicación es verdadera, suponemos que el antecedente es verdadero \u0015 es decir, que",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                79,
+                                189,
+                                375,
+                                202
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        189,
+                                        101,
+                                        202
+                                    ],
+                                    "score": 1.0,
+                                    "content": "vale",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        102,
+                                        192,
+                                        147,
+                                        202
+                                    ],
+                                    "score": 0.91,
+                                    "content": "\\Gamma \\vdash \\sigma \\mathrm { ~ - ~ y ~ }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        147,
+                                        189,
+                                        375,
+                                        202
+                                    ],
+                                    "score": 1.0,
+                                    "content": "demostramos que el consecuente también lo es.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 4,
+                    "bbox_fs": [
+                        78,
+                        161,
+                        524,
+                        202
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        80,
+                        203,
+                        523,
+                        229
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                201,
+                                524,
+                                217
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        201,
+                                        447,
+                                        217
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Esto se puede probar mediante inducción estructural en la derivación de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        447,
+                                        205,
+                                        474,
+                                        214
+                                    ],
+                                    "score": 0.81,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        475,
+                                        201,
+                                        524,
+                                        217
+                                    ],
+                                    "score": 1.0,
+                                    "content": "(es decir,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                216,
+                                287,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        216,
+                                        287,
+                                        231
+                                    ],
+                                    "score": 1.0,
+                                    "content": "en su demostración por deduciión natural).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 6.5,
+                    "bbox_fs": [
+                        78,
+                        201,
+                        524,
+                        231
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        78,
+                        230,
+                        521,
+                        256
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                229,
+                                524,
+                                243
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        229,
+                                        524,
+                                        243
+                                    ],
+                                    "score": 1.0,
+                                    "content": "De esta manera, tenemos un caso por cada regla de nuestro sistema deductivo, siendo el",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                79,
+                                244,
+                                303,
+                                257
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        244,
+                                        303,
+                                        257
+                                    ],
+                                    "score": 1.0,
+                                    "content": "caso base la única regla que no tiene premisas.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 8.5,
+                    "bbox_fs": [
+                        79,
+                        229,
+                        524,
+                        257
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        78,
+                        257,
+                        521,
+                        283
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                255,
+                                523,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        255,
+                                        523,
+                                        272
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Vamos a desarrollar solamente algunos casos. El resto queda para que los desarrollen",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                270,
+                                121,
+                                284
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        270,
+                                        121,
+                                        284
+                                    ],
+                                    "score": 1.0,
+                                    "content": "ustedes.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        }
+                    ],
+                    "index": 10.5,
+                    "bbox_fs": [
+                        78,
+                        255,
+                        523,
+                        284
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        80,
+                        302,
+                        188,
+                        318
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                300,
+                                191,
+                                321
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        300,
+                                        191,
+                                        321
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Caso base (ax):",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        329,
+                        294,
+                        342
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                328,
+                                295,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        328,
+                                        193,
+                                        343
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        193,
+                                        331,
+                                        220,
+                                        340
+                                    ],
+                                    "score": 0.86,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        328,
+                                        295,
+                                        343
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es de la forma:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13,
+                    "bbox_fs": [
+                        95,
+                        328,
+                        295,
+                        343
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        272,
+                        355,
+                        315,
+                        369
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                272,
+                                355,
+                                315,
+                                369
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        272,
+                                        355,
+                                        315,
+                                        369
+                                    ],
+                                    "score": 0.4,
+                                    "content": "\\overline { { \\Gamma ^ { \\prime } , \\sigma \\vdash \\sigma } }",
+                                    "type": "interline_equation",
+                                    "image_path": "6481a8f7b39ee910de4d3894b0ab7ca8ef5b0477d7685731392c9e4e0e47c3bb.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                272,
+                                355,
+                                315,
+                                369
+                            ],
+                            "spans": [],
+                            "index": 14
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        95,
+                        369,
+                        354,
+                        381
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                366,
+                                357,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        366,
+                                        158,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En este caso",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        370,
+                                        167,
+                                        380
+                                    ],
+                                    "score": 0.75,
+                                    "content": "\\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        366,
+                                        182,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        182,
+                                        369,
+                                        204,
+                                        381
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma ^ { \\prime } , \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        205,
+                                        366,
+                                        219,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        219,
+                                        373,
+                                        227,
+                                        380
+                                    ],
+                                    "score": 0.71,
+                                    "content": "\\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        366,
+                                        357,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es una fórmula cualquiera.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 15,
+                    "bbox_fs": [
+                        95,
+                        366,
+                        357,
+                        384
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        98,
+                        383,
+                        431,
+                        396
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                381,
+                                433,
+                                397
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        381,
+                                        193,
+                                        397
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        193,
+                                        383,
+                                        232,
+                                        395
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        232,
+                                        381,
+                                        433,
+                                        397
+                                    ],
+                                    "score": 1.0,
+                                    "content": "puede construirse de la siguiente manera:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        }
+                    ],
+                    "index": 16,
+                    "bbox_fs": [
+                        96,
+                        381,
+                        433,
+                        397
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        267,
+                        407,
+                        320,
+                        422
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                267,
+                                407,
+                                320,
+                                422
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        267,
+                                        407,
+                                        320,
+                                        422
+                                    ],
+                                    "score": 0.69,
+                                    "content": "\\overline { { \\Gamma ^ { \\prime } , \\sigma , \\tau \\vdash \\sigma } }",
+                                    "type": "interline_equation",
+                                    "image_path": "33e1a6e976aa4570d53886d652cd994a482fdc57e094b4b3e83ff99ac1b5c3b6.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                267,
+                                407,
+                                320,
+                                422
+                            ],
+                            "spans": [],
+                            "index": 17
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        96,
+                        423,
+                        339,
+                        435
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                421,
+                                341,
+                                437
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        421,
+                                        128,
+                                        437
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Como",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        128,
+                                        423,
+                                        171,
+                                        435
+                                    ],
+                                    "score": 0.91,
+                                    "content": "\\Gamma ^ { \\prime } , \\sigma = \\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        172,
+                                        421,
+                                        341,
+                                        437
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", con esto queda probado este caso.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        }
+                    ],
+                    "index": 18,
+                    "bbox_fs": [
+                        96,
+                        421,
+                        341,
+                        437
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        80,
+                        453,
+                        224,
+                        469
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                451,
+                                226,
+                                473
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        451,
+                                        188,
+                                        473
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Caso inductivo",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        188,
+                                        453,
+                                        217,
+                                        470
+                                    ],
+                                    "score": 0.7,
+                                    "content": "( \\Rightarrow _ { i } )",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        218,
+                                        451,
+                                        226,
+                                        473
+                                    ],
+                                    "score": 1.0,
+                                    "content": ":",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        480,
+                        294,
+                        493
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                480,
+                                295,
+                                494
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        480,
+                                        193,
+                                        494
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        194,
+                                        482,
+                                        220,
+                                        492
+                                    ],
+                                    "score": 0.85,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        480,
+                                        295,
+                                        494
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es de la forma:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        }
+                    ],
+                    "index": 20,
+                    "bbox_fs": [
+                        96,
+                        480,
+                        295,
+                        494
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        260,
+                        503,
+                        340,
+                        529
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                260,
+                                503,
+                                340,
+                                529
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        260,
+                                        503,
+                                        340,
+                                        529
+                                    ],
+                                    "score": 0.94,
+                                    "content": "{ \\frac { \\Gamma , \\sigma _ { 1 } \\vdash \\sigma _ { 2 } } { \\Gamma \\vdash \\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 } } } \\Rightarrow _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "4bdcdf7e215e96488ab766cd0853cc1e4acc09bdeb997cfe7ff1376d76a31709.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                260,
+                                503,
+                                340,
+                                529
+                            ],
+                            "spans": [],
+                            "index": 21
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        96,
+                        543,
+                        370,
+                        556
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                540,
+                                371,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        540,
+                                        159,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En este caso",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        546,
+                                        167,
+                                        554
+                                    ],
+                                    "score": 0.83,
+                                    "content": "\\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        540,
+                                        303,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es un contexto cualquiera y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        303,
+                                        547,
+                                        311,
+                                        554
+                                    ],
+                                    "score": 0.67,
+                                    "content": "\\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        540,
+                                        326,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        326,
+                                        548,
+                                        366,
+                                        555
+                                    ],
+                                    "score": 0.84,
+                                    "content": "\\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        366,
+                                        540,
+                                        371,
+                                        559
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        }
+                    ],
+                    "index": 22,
+                    "bbox_fs": [
+                        95,
+                        540,
+                        371,
+                        559
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        80,
+                        557,
+                        524,
+                        596
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                555,
+                                524,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        555,
+                                        524,
+                                        571
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La hipótesis inductiva es que la propiedad vale para la premisa, que es el subárbol de la",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                569,
+                                523,
+                                584
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        569,
+                                        215,
+                                        584
+                                    ],
+                                    "score": 1.0,
+                                    "content": "demostración. Es decir, que",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        215,
+                                        571,
+                                        274,
+                                        583
+                                    ],
+                                    "score": 0.91,
+                                    "content": "\\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        274,
+                                        569,
+                                        523,
+                                        584
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es válido. Por completitud, esto signi\u001cca que existe",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                582,
+                                358,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        582,
+                                        295,
+                                        599
+                                    ],
+                                    "score": 1.0,
+                                    "content": "una demostración en deducción natural para",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        295,
+                                        585,
+                                        353,
+                                        596
+                                    ],
+                                    "score": 0.89,
+                                    "content": "\\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        353,
+                                        582,
+                                        358,
+                                        599
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        }
+                    ],
+                    "index": 24,
+                    "bbox_fs": [
+                        78,
+                        555,
+                        524,
+                        599
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        95,
+                        597,
+                        432,
+                        610
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                596,
+                                433,
+                                611
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        596,
+                                        193,
+                                        611
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        193,
+                                        598,
+                                        231,
+                                        610
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        232,
+                                        596,
+                                        433,
+                                        611
+                                    ],
+                                    "score": 1.0,
+                                    "content": "puede construirse de la siguiente manera:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        }
+                    ],
+                    "index": 26,
+                    "bbox_fs": [
+                        95,
+                        596,
+                        433,
+                        611
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        255,
+                        619,
+                        347,
+                        652
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                255,
+                                619,
+                                347,
+                                652
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        255,
+                                        619,
+                                        347,
+                                        652
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\overline { { \\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 } } } ^ { H I } } { \\Gamma , \\tau \\vdash \\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 } } \\Rightarrow _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "419d53c6e60526cddd36a9ca30f12a689b1af9c510b7968279a197b978b81a36.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                255,
+                                619,
+                                347,
+                                635.5
+                            ],
+                            "spans": [],
+                            "index": 27
+                        },
+                        {
+                            "bbox": [
+                                255,
+                                635.5,
+                                347,
+                                652.0
+                            ],
+                            "spans": [],
+                            "index": 28
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        659,
+                        262,
+                        672
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                659,
+                                263,
+                                673
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        659,
+                                        263,
+                                        673
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Con esto queda probado este caso.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        }
+                    ],
+                    "index": 29,
+                    "bbox_fs": [
+                        96,
+                        659,
+                        263,
+                        673
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        80,
+                        106,
+                        225,
+                        123
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                104,
+                                227,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        104,
+                                        190,
+                                        126
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Caso inductivo",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        190,
+                                        110,
+                                        214,
+                                        123
+                                    ],
+                                    "score": 0.54,
+                                    "content": "( \\Rightarrow e",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        215,
+                                        104,
+                                        227,
+                                        126
+                                    ],
+                                    "score": 1.0,
+                                    "content": "):",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        96,
+                        134,
+                        295,
+                        147
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                133,
+                                296,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        133,
+                                        193,
+                                        147
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        194,
+                                        137,
+                                        220,
+                                        145
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        133,
+                                        296,
+                                        147
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es de la forma:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        246,
+                        157,
+                        354,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                246,
+                                157,
+                                354,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        246,
+                                        157,
+                                        354,
+                                        181
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\Gamma \\vdash \\rho \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\rho } { \\Gamma \\vdash \\sigma } \\Rightarrow _ { e }",
+                                    "type": "interline_equation",
+                                    "image_path": "1a21cbbca22d7a89eac138f0705ec41d64fb6a972f6006e398d5abe206e2c35f.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                246,
+                                157,
+                                354,
+                                181
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        94,
+                        196,
+                        443,
+                        209
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                195,
+                                441,
+                                210
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        195,
+                                        159,
+                                        210
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En este caso",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        199,
+                                        167,
+                                        207
+                                    ],
+                                    "score": 0.87,
+                                    "content": "\\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        195,
+                                        303,
+                                        210
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es un contexto cualquiera y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        304,
+                                        201,
+                                        311,
+                                        207
+                                    ],
+                                    "score": 0.83,
+                                    "content": "\\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        195,
+                                        441,
+                                        210
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es una fórmula cualquiera.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        82,
+                        210,
+                        522,
+                        236
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                208,
+                                522,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        208,
+                                        461,
+                                        224
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La hipótesis inductiva es que la propiedad vale para las premisas, es decir que",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        461,
+                                        212,
+                                        522,
+                                        223
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\Gamma , \\tau \\vdash \\rho \\Rightarrow \\sigma",
+                                    "type": "inline_equation"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                223,
+                                397,
+                                237
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        223,
+                                        89,
+                                        237
+                                    ],
+                                    "score": 1.0,
+                                    "content": "y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        90,
+                                        226,
+                                        126,
+                                        236
+                                    ],
+                                    "score": 0.92,
+                                    "content": "\\Gamma , \\tau \\vdash \\rho",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        126,
+                                        223,
+                                        397,
+                                        237
+                                    ],
+                                    "score": 1.0,
+                                    "content": "son válidos (y por ende demostrables, por completitud).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 4.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        93,
+                        237,
+                        432,
+                        250
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                235,
+                                433,
+                                251
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        235,
+                                        193,
+                                        251
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        194,
+                                        239,
+                                        231,
+                                        249
+                                    ],
+                                    "score": 0.92,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        231,
+                                        235,
+                                        433,
+                                        251
+                                    ],
+                                    "score": 1.0,
+                                    "content": "puede construirse de la siguiente manera:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        225,
+                        260,
+                        375,
+                        292
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                260,
+                                375,
+                                292
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        260,
+                                        375,
+                                        292
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\overline { { \\Gamma , \\tau \\vdash \\rho \\Rightarrow \\sigma } } ^ { H I } \\quad \\overline { { \\Gamma , \\tau \\vdash \\rho } } ^ { H I } } { \\Gamma , \\tau \\vdash \\sigma } \\Rightarrow _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "92be503207d2159e9979a40c62551fb29633d204138acdc2ef17ecae9c7287e1.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                225,
+                                260,
+                                375,
+                                276.0
+                            ],
+                            "spans": [],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                225,
+                                276.0,
+                                375,
+                                292.0
+                            ],
+                            "spans": [],
+                            "index": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        298,
+                        262,
+                        312
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                298,
+                                263,
+                                313
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        298,
+                                        263,
+                                        313
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Con esto queda probado este caso.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        78,
+                        324,
+                        522,
+                        351
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                323,
+                                522,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        323,
+                                        522,
+                                        337
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Los otros casos son similares. Cada caso inductivo tiene una hipótesis inductiva para cada",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                338,
+                                392,
+                                352
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        338,
+                                        392,
+                                        352
+                                    ],
+                                    "score": 1.0,
+                                    "content": "premisa. Prueben completarlos y, ante cualquier duda, consulten.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        }
+                    ],
+                    "index": 10.5
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        297,
+                        765,
+                        304,
+                        774
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                297,
+                                763,
+                                306,
+                                776
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        297,
+                                        763,
+                                        306,
+                                        776
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        80,
+                        106,
+                        225,
+                        123
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                104,
+                                227,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        104,
+                                        190,
+                                        126
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Caso inductivo",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        190,
+                                        110,
+                                        214,
+                                        123
+                                    ],
+                                    "score": 0.54,
+                                    "content": "( \\Rightarrow e",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        215,
+                                        104,
+                                        227,
+                                        126
+                                    ],
+                                    "score": 1.0,
+                                    "content": "):",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        96,
+                        134,
+                        295,
+                        147
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                133,
+                                296,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        133,
+                                        193,
+                                        147
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        194,
+                                        137,
+                                        220,
+                                        145
+                                    ],
+                                    "score": 0.9,
+                                    "content": "\\Gamma \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        133,
+                                        296,
+                                        147
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es de la forma:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1,
+                    "bbox_fs": [
+                        96,
+                        133,
+                        296,
+                        147
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        246,
+                        157,
+                        354,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                246,
+                                157,
+                                354,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        246,
+                                        157,
+                                        354,
+                                        181
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\Gamma \\vdash \\rho \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\rho } { \\Gamma \\vdash \\sigma } \\Rightarrow _ { e }",
+                                    "type": "interline_equation",
+                                    "image_path": "1a21cbbca22d7a89eac138f0705ec41d64fb6a972f6006e398d5abe206e2c35f.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                246,
+                                157,
+                                354,
+                                181
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        94,
+                        196,
+                        443,
+                        209
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                195,
+                                441,
+                                210
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        195,
+                                        159,
+                                        210
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En este caso",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        199,
+                                        167,
+                                        207
+                                    ],
+                                    "score": 0.87,
+                                    "content": "\\Gamma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        195,
+                                        303,
+                                        210
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es un contexto cualquiera y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        304,
+                                        201,
+                                        311,
+                                        207
+                                    ],
+                                    "score": 0.83,
+                                    "content": "\\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        195,
+                                        441,
+                                        210
+                                    ],
+                                    "score": 1.0,
+                                    "content": "es una fórmula cualquiera.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "bbox_fs": [
+                        95,
+                        195,
+                        441,
+                        210
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        82,
+                        210,
+                        522,
+                        236
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                208,
+                                522,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        208,
+                                        461,
+                                        224
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La hipótesis inductiva es que la propiedad vale para las premisas, es decir que",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        461,
+                                        212,
+                                        522,
+                                        223
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\Gamma , \\tau \\vdash \\rho \\Rightarrow \\sigma",
+                                    "type": "inline_equation"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                223,
+                                397,
+                                237
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        223,
+                                        89,
+                                        237
+                                    ],
+                                    "score": 1.0,
+                                    "content": "y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        90,
+                                        226,
+                                        126,
+                                        236
+                                    ],
+                                    "score": 0.92,
+                                    "content": "\\Gamma , \\tau \\vdash \\rho",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        126,
+                                        223,
+                                        397,
+                                        237
+                                    ],
+                                    "score": 1.0,
+                                    "content": "son válidos (y por ende demostrables, por completitud).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 4.5,
+                    "bbox_fs": [
+                        78,
+                        208,
+                        522,
+                        237
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        93,
+                        237,
+                        432,
+                        250
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                235,
+                                433,
+                                251
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        235,
+                                        193,
+                                        251
+                                    ],
+                                    "score": 1.0,
+                                    "content": "La demostración de",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        194,
+                                        239,
+                                        231,
+                                        249
+                                    ],
+                                    "score": 0.92,
+                                    "content": "\\Gamma , \\tau \\vdash \\sigma",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        231,
+                                        235,
+                                        433,
+                                        251
+                                    ],
+                                    "score": 1.0,
+                                    "content": "puede construirse de la siguiente manera:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6,
+                    "bbox_fs": [
+                        95,
+                        235,
+                        433,
+                        251
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        225,
+                        260,
+                        375,
+                        292
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                260,
+                                375,
+                                292
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        260,
+                                        375,
+                                        292
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\overline { { \\Gamma , \\tau \\vdash \\rho \\Rightarrow \\sigma } } ^ { H I } \\quad \\overline { { \\Gamma , \\tau \\vdash \\rho } } ^ { H I } } { \\Gamma , \\tau \\vdash \\sigma } \\Rightarrow _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "92be503207d2159e9979a40c62551fb29633d204138acdc2ef17ecae9c7287e1.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                225,
+                                260,
+                                375,
+                                276.0
+                            ],
+                            "spans": [],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                225,
+                                276.0,
+                                375,
+                                292.0
+                            ],
+                            "spans": [],
+                            "index": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        97,
+                        298,
+                        262,
+                        312
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                298,
+                                263,
+                                313
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        298,
+                                        263,
+                                        313
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Con esto queda probado este caso.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 9,
+                    "bbox_fs": [
+                        96,
+                        298,
+                        263,
+                        313
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        78,
+                        324,
+                        522,
+                        351
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                323,
+                                522,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        323,
+                                        522,
+                                        337
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Los otros casos son similares. Cada caso inductivo tiene una hipótesis inductiva para cada",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                338,
+                                392,
+                                352
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        338,
+                                        392,
+                                        352
+                                    ],
+                                    "score": 1.0,
+                                    "content": "premisa. Prueben completarlos y, ante cualquier duda, consulten.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        }
+                    ],
+                    "index": 10.5,
+                    "bbox_fs": [
+                        78,
+                        323,
+                        522,
+                        352
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.7.6"
+}

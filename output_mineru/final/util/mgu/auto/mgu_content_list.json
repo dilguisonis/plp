@@ -1,0 +1,227 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Ejemplo de uso del algoritmo de unificac´on ",
+        "text_level": 1,
+        "bbox": [
+            206,
+            85,
+            803,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Entrada: $\\{ ( X _ { 1 } \\to X _ { 2 } \\to X _ { 2 } ) \\to X _ { 2 } \\to [ X _ { 1 } ] \\to X _ { 2 } \\ \\doteq \\ ( ( X _ { 3 } \\to X _ { 4 } ) \\to [ X _ { 3 } ] \\to [ X _ { 4 } ] ) \\to X _ { 5 } \\}$ ",
+        "bbox": [
+            75,
+            134,
+            810,
+            153
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Descomposici´on: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            160,
+            231,
+            175
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\{ X _ { 1 }  X _ { 2 }  X _ { 2 } ~ \\stackrel { . } { = } ~ ( X _ { 3 }  X _ { 4 } )  [ X _ { 3 } ]  [ X _ { 4 } ] , ~ X _ { 2 }  [ X _ { 1 } ]  X _ { 2 } ~ \\stackrel { . } { = } ~ X _ { 5 } \\}$ ",
+        "bbox": [
+            78,
+            178,
+            633,
+            196
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Descomposici´on: ",
+        "bbox": [
+            77,
+            197,
+            230,
+            211
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\{ X _ { 1 } \\ \\doteq \\ { X _ { 3 } }  { X _ { 4 } }$ $X _ { 3 }  X _ { 4 } , \\ X _ { 2 }  X _ { 2 } \\ \\doteq \\ [ X _ { 3 } ]  [ X _ { 4 } ] , \\ X _ { 2 }  [ X _ { 1 } ]  X _ { 2 } \\ \\doteq \\ X _ { 5 } \\}$ ",
+        "bbox": [
+            77,
+            214,
+            616,
+            231
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de variable: ",
+        "bbox": [
+            78,
+            233,
+            302,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\{ X _ { 2 }  X _ { 2 } ~ \\doteq ~ [ X _ { 3 } ]  [ X _ { 4 } ]$ , $X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  X _ { 2 } \\ \\doteq \\ X _ { 5 } \\}$ con $S = \\ X _ { 1 } \\ : = \\ X _ { 3 }  X _ { 4 }$ ",
+        "bbox": [
+            85,
+            249,
+            751,
+            267
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Descomposici´on: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            268,
+            230,
+            282
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\{ X _ { 2 } ~ \\doteq ~ [ X _ { 3 } ]$ , $X _ { 2 } ~ \\doteq ~ [ X _ { 4 } ]$ , $X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  X _ { 2 } \\ \\doteq \\ X _ { 5 } \\}$ con $S = \\ X _ { 1 } \\ : = \\ X _ { 3 }  X _ { 4 }$ ",
+        "bbox": [
+            84,
+            285,
+            746,
+            303
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de variable: ",
+        "bbox": [
+            77,
+            304,
+            302,
+            318
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\{ [ X _ { 3 } ] ~ \\doteq ~ [ X _ { 4 } ]$ , $[ X _ { 3 } ]  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 3 } ] \\ \\doteq \\ X _ { 5 } \\}$ con $S = \\ X _ { 2 } \\ : = \\ [ X _ { 3 } ] \\circ X _ { 1 } \\ : = \\ X _ { 3 }  X _ { 4 }$ ",
+        "bbox": [
+            84,
+            321,
+            784,
+            338
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Descomposici´on: ",
+        "bbox": [
+            77,
+            340,
+            231,
+            354
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\{ X _ { 3 } ~ \\doteq ~ X _ { 4 }$ , $[ X _ { 3 } ]  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 3 } ] \\ \\doteq \\ X _ { 5 } \\}$ con $S = \\ X _ { 2 } \\ : = \\ [ X _ { 3 } ] \\circ X _ { 1 } \\ : = \\ X _ { 3 }  X _ { 4 }$ ",
+        "bbox": [
+            80,
+            356,
+            766,
+            374
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de variable1: $\\{ [ X _ { 3 } ] \\to [ X _ { 3 } \\to X _ { 3 } ] \\to [ X _ { 3 } ] \\ \\doteq \\ X _ { 5 } \\}$ con $. S = X _ { 4 } \\ : = \\ X _ { 3 } \\circ X _ { 2 } \\ : = \\ [ X _ { 3 } ] \\circ X _ { 1 } \\ : = \\ X _ { 3 }  X _ { 4 }$ ",
+        "bbox": [
+            75,
+            375,
+            779,
+            410
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\{ X _ { 5 } \\ \\doteq \\ [ X _ { 3 } ] \\to [ X _ { 3 } \\to X _ { 3 } ] \\to [ X _ { 3 } ] \\}$ con $S = \\ X _ { 4 } \\ : = \\ X _ { 3 } \\circ X _ { 2 } \\ : = \\ [ X _ { 3 } ] \\circ X _ { 1 } \\ : = \\ X _ { 3 }  X _ { 4 }$ ",
+        "bbox": [
+            75,
+            426,
+            783,
+            445
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de variable: ",
+        "bbox": [
+            77,
+            448,
+            302,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/42182b943d0dc5ace0804ab50c4abc2e97cd76748ddb5daeb2f8618160c5dbc3.jpg",
+        "text": "$$\n{ \\begin{array} { r l } { S = { \\mathrm {  ~ { \\cal { X } } _ { 5 } ~ } } : = \\ [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ]  [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } }  { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ]  [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ] \\circ { \\mathrm {  ~ { \\cal { X } } _ { 4 } ~ } } : = { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } \\circ { \\mathrm {  ~ { \\cal { X } } _ { 2 } ~ } } : = \\ [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ] \\circ { \\mathrm {  ~ { \\cal { X } } _ { 1 } ~ } } : = { \\mathrm {  ~ { \\cal { X } } _ { 3 } } }  { \\mathrm {  ~ { \\cal { X } } _ { 4 } ~ } } } \\\\ { \\{ { \\mathrm {  ~ { \\cal { X } } _ { 5 } ~ } } : = \\ [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ]  [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } }  { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ]  [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ] , { \\mathrm {  ~ { \\cal { X } } _ { 4 } ~ } } : = { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } , { \\mathrm {  ~ { \\cal { X } } _ { 2 } ~ } } : = \\ [ { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } ] , { \\mathrm {  ~ { \\cal { X } } _ { 1 } ~ } } : = { \\mathrm {  ~ { \\cal { X } } _ { 3 } } }  { \\mathrm {  ~ { \\cal { X } } _ { 3 } } } \\} } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            463,
+            816,
+            510
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1(Eligiendo $X _ { 4 }$ , el algoritmo que se dio en clase eliminar´ıa $X _ { 3 }$ , pero como ambas son variables es lo mismo). ",
+        "bbox": [
+            95,
+            913,
+            833,
+            927
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            500,
+            948,
+            510,
+            960
+        ],
+        "page_idx": 0
+    }
+]

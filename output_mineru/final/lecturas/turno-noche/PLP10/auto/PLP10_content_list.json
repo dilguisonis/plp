@@ -1,0 +1,3087 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            242,
+            814,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on l´ogica ",
+        "text_level": 1,
+        "bbox": [
+            342,
+            341,
+            657,
+            400
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            441,
+            781,
+            639
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Breve introducci´on a Prolog ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            242,
+            533,
+            297
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica proposicional ",
+        "bbox": [
+            77,
+            430,
+            660,
+            488
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica de primer orden ",
+        "bbox": [
+            77,
+            621,
+            704,
+            680
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4e87ccc848daa80252c7fda7801b6b881ac643f8dbe5aa1d3f0dda412348f95b.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            375,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — genealog´ıa del pante´on mitol´ogico griego ",
+        "bbox": [
+            71,
+            125,
+            795,
+            176
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "padre(cronos, zeus).   \npadre(zeus, atenea).   \npadre(zeus, hefesto).   \npadre(zeus, ares).   \nabuelo(X, Y) :- padre(X, Z), padre(Z, Y). ?- padre(zeus, atenea). ?- abuelo(cronos, X). true. >> X = atenea ; ?- padre(zeus, cronos). >> X = hefesto ; >> false. >> X = ares. ?- abuelo(X, atenea). ?- abuelo(X, Y). >> $\\texttt { X } =$ cronos. >> X = cronos, $\\begin{array} { r l } { \\mathsf { Y } } & { { } = } \\end{array}$ atenea ; $\\ ? -$ abuelo(X, zeus). >> X = cronos, $\\begin{array} { r l } { \\mathsf { Y } } & { { } = } \\end{array}$ hefesto ;   \n>> false. >> X = cronos, $\\begin{array} { r l } { \\mathsf { Y } } & { { } = } \\end{array}$ ares. ",
+        "bbox": [
+            71,
+            205,
+            406,
+            404
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            444,
+            947,
+            922
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            375,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6cc5262f6845f55ab4c7730e388832c07e535a9b66d4fea3a59dd3bcd91808df.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Prolog opera con t´erminos de primer orden: ",
+        "bbox": [
+            77,
+            290,
+            660,
+            341
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "X Y succ(succ(zero)) bin(I, R, D) ",
+        "bbox": [
+            154,
+            382,
+            837,
+            430
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Las f´ormulas at´omicas son de la forma pred(t1, . . . , tn): ",
+        "bbox": [
+            69,
+            470,
+            828,
+            518
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "padre(zeus, atenea) suma(zero, X, X) ",
+        "bbox": [
+            179,
+            562,
+            814,
+            610
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            375,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Un programa es un conjunto de reglas. Cada regla es de la forma: ",
+        "bbox": [
+            74,
+            154,
+            922,
+            205
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "donde $\\sigma , \\tau _ { 1 } , \\ldots , \\tau _ { n }$ son f´ormulas at´omicas. ",
+        "bbox": [
+            74,
+            378,
+            607,
+            426
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Las reglas en las que $n = 0$ se llaman hechos y se escriben: ",
+        "bbox": [
+            80,
+            441,
+            825,
+            488
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "$\\sigma$ . Ej.: padre(zeus, ares). ",
+        "bbox": [
+            339,
+            533,
+            729,
+            577
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Las reglas tienen la siguiente interpretaci´on l´ogica: ",
+        "bbox": [
+            74,
+            617,
+            715,
+            669
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4d9469086b4223916cff554932050e308f86215b19c85fd148eb533ac759b532.jpg",
+        "text": "$$\n\\forall \\mathtt { X } _ { 1 } \\dots \\forall \\mathtt { X } _ { k } . ( ( \\tau _ { 1 } \\wedge \\dots \\wedge \\tau _ { n } ) \\Rightarrow \\sigma )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            705,
+            709,
+            761
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "donde $\\mathtt { X } _ { 1 } , \\ldots , \\mathtt { X } _ { k }$ son todas las variables libres de las f´ormulas. ",
+        "bbox": [
+            74,
+            797,
+            870,
+            845
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ej.: $\\forall \\mathbf { X } . \\forall \\mathbf { Y } . \\forall \\mathbf { Z }$ . ((padre(X, Z) ∧ padre(Z, Y)) $\\Rightarrow$ abuelo(X, Y)) ",
+        "bbox": [
+            196,
+            852,
+            922,
+            900
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            375,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Una consulta es de la forma: ",
+        "bbox": [
+            74,
+            187,
+            450,
+            231
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Las consultas tienen la siguiente interpretaci´on l´ogica: ",
+        "bbox": [
+            74,
+            430,
+            759,
+            477
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f3080b33ec289c68e6b9daeac998badd581d5139fa16d50cdd9d6184c7df2f93.jpg",
+        "text": "$$\n\\exists \\mathbf { X } _ { 1 } \\dots \\exists \\mathbf { X } _ { k } . \\left( \\sigma _ { 1 } \\land \\dots \\land \\sigma _ { n } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            328,
+            518,
+            671,
+            573
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "donde $\\mathtt { X } _ { 1 } , \\ldots , \\mathtt { X } _ { k }$ son todas las variables libres de las f´ormulas. ",
+        "bbox": [
+            74,
+            610,
+            870,
+            658
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "El entorno de Prolog busca demostrar la f´ormula $\\tau$ de la consulta. En realidad busca refutar ¬τ , o sea, demostrar $\\neg \\tau \\Rightarrow \\bot$ La b´usqueda de la refutaci´on se basa en el m´etodo de resoluci´on. ",
+        "bbox": [
+            74,
+            702,
+            919,
+            849
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Breve introducci´on a Prolog ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            242,
+            533,
+            297
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica proposicional ",
+        "bbox": [
+            77,
+            430,
+            660,
+            488
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica de primer orden ",
+        "bbox": [
+            77,
+            621,
+            704,
+            680
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            604,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Entrada: una f´ormula $\\sigma$ de la l´ogica proposicional.   \nSalida: un booleano que indica si $\\sigma$ es v´alida. ",
+        "bbox": [
+            91,
+            136,
+            751,
+            231
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "M´etodo de resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            275,
+            367,
+            323
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1. Escribir ¬σ como un conjunto $\\mathcal { C }$ de cl´ausulas. (Pasar a forma clausal ).   \n2. Buscar una refutaci´on de C. Una refutaci´on de $\\mathcal { C }$ es una derivaci´on de C ⊢ ⊥. ",
+        "bbox": [
+            93,
+            338,
+            751,
+            544
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Si se encuentra una refutaci´on de $\\mathcal { C }$ : ",
+        "bbox": [
+            74,
+            617,
+            535,
+            658
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Vale ¬σ ⊢ ⊥. Es decir, ¬σ es insatisfactible/contradicci´on. ",
+        "bbox": [
+            113,
+            665,
+            859,
+            709
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Luego vale ⊢ σ. Es decir, $\\sigma$ es v´alida/tautolog´ıa. ",
+        "bbox": [
+            88,
+            716,
+            734,
+            761
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Si no se encuentra una refutaci´on de $\\mathcal { C }$ : ",
+        "bbox": [
+            74,
+            768,
+            577,
+            808
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "No vale $\\neg \\sigma \\vdash \\bot$ . Es decir, $\\sigma$ es satisfactible. ",
+        "bbox": [
+            113,
+            816,
+            676,
+            860
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Luego no vale ⊢ $\\sigma$ . Es decir, $\\sigma$ no es v´alida. ",
+        "bbox": [
+            110,
+            867,
+            674,
+            908
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            383,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Una f´ormula se pasa a forma clausal aplicando las siguientes reglas.   \nTodas las reglas transforman la f´ormula en otra equivalente. ",
+        "bbox": [
+            77,
+            125,
+            925,
+            220
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Paso 1. Deshacerse del conectivo $\" \\Rightarrow \"$ : ",
+        "bbox": [
+            77,
+            227,
+            585,
+            272
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1f1a83105c873ff14a5b97461518f4ee1a680cc4a7178d12137e4a220bae3ce1.jpg",
+        "text": "$$\n\\begin{array} { r } { \\sigma \\Rightarrow \\boldsymbol { \\tau } \\Rightarrow \\neg \\sigma \\lor \\boldsymbol { \\tau } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            319,
+            638,
+            360
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "La f´ormula resultante s´olo usa los conectivos $\\{ \\neg , \\lor , \\land \\}$ . Paso 2. Empujar el conectivo “¬” hacia adentro: ",
+        "bbox": [
+            74,
+            404,
+            779,
+            500
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e406bab7e74c1b05f33b37f494788c08f1762cce5046ab56ad7e97eaf5b67fca.jpg",
+        "text": "$$\n\\begin{array} { l r } { \\neg ( \\sigma \\wedge \\tau ) } & { \\to } & { \\neg \\sigma \\vee \\neg \\tau } \\\\ { \\neg ( \\sigma \\vee \\tau ) } & { \\to } & { \\neg \\sigma \\wedge \\neg \\tau } \\\\ { \\neg \\neg \\sigma } & { \\to } & { \\sigma } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            536,
+            665,
+            691
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "La f´ormula resultante est´a en forma normal negada (NNF): ",
+        "bbox": [
+            74,
+            731,
+            850,
+            775
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b4376efd84cf7b9c31120bf6beef7177ebde2850b8fb0517b18dc48eb640cd0a.jpg",
+        "text": "$$\n\\sigma _ { \\mathrm { n n f } } : : = \\mathsf { P } \\mid \\neg \\mathsf { P } \\mid \\sigma _ { \\mathrm { n n f } } \\wedge \\sigma _ { \\mathrm { n n f } } \\mid \\sigma _ { \\mathrm { n n f } } \\vee \\sigma _ { \\mathrm { n } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            229,
+            827,
+            737,
+            882
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            383,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Paso 3. Distribuir ∨ sobre ∧: ",
+        "bbox": [
+            74,
+            209,
+            455,
+            257
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c72f053c7179e0422fbaccb8c4bc61773d70596e4154e8c70e535a5a1ed54e59.jpg",
+        "text": "$$\n\\begin{array} { r } { \\begin{array} { l l l } { \\sigma \\vee ( \\tau \\wedge \\rho ) } & {  } & { ( \\sigma \\vee \\tau ) \\wedge ( \\sigma \\vee \\rho ) } \\\\ { ( \\sigma \\wedge \\tau ) \\vee \\rho } & {  } & { ( \\sigma \\vee \\rho ) \\wedge ( \\tau \\vee \\rho ) } \\end{array} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            283,
+            732,
+            393
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "La f´ormula resultante est´a en forma normal conjuntiva (CNF). Una f´ormula en CNF es conjunci´on de disyunciones de literales (asumiendo que permitimos asociar libremente ∧ y ∨): ",
+        "bbox": [
+            74,
+            426,
+            889,
+            577
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "F´ormulas en CNF Cl´ausulas $\\begin{array} { l l l } { \\sigma _ { \\mathrm { c n f } } } & { : : = } & { \\left( \\kappa _ { 1 } \\wedge \\kappa _ { 2 } \\wedge \\ldots \\wedge \\kappa _ { n } \\right) } \\\\ { \\kappa } & { : : = } & { \\left( \\ell _ { 1 } \\vee \\ell _ { 2 } \\vee \\ldots \\vee \\ell _ { m } \\right) } \\\\ { \\ell } & { : : = } & { \\mathbf { P } \\mid \\lnot \\mathbf { P } } \\end{array}$ Literales ",
+        "bbox": [
+            174,
+            613,
+            825,
+            768
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            383,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Por ´ultimo, usando el hecho de que la disyunci´on $( \\vee )$ es: ",
+        "bbox": [
+            77,
+            139,
+            792,
+            187
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c392c704e406ecf3c72e0a6dcd6be684720748056d30d3182bc3892489f6ccd9.jpg",
+        "text": "$$\n\\begin{array} { l } { \\sigma \\vee ( \\tau \\vee \\rho ) \\longleftrightarrow ( \\sigma \\vee \\tau ) \\vee \\rho } \\\\ { \\sigma \\vee \\tau \\longleftrightarrow \\tau \\vee \\sigma } \\\\ { \\sigma \\vee \\sigma \\longleftrightarrow \\sigma } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            224,
+            784,
+            382
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "notamos una cl´ausula (disyunci´on de literales) como un conjunto: ",
+        "bbox": [
+            74,
+            419,
+            903,
+            466
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1239c1f2dca9f3d6a2be0c0e7aedb4dbc4a66aa61e23179e1f63d1766c138386.jpg",
+        "text": "$$\n^ { \\prime } \\ell _ { 2 } \\vee \\ldots \\vee \\ell _ { n } \\big ) \\quad \\mathsf { s e ~ n o t a } \\quad \\{ \\ell _ { 1 } , \\ell _ { 2 } , \\ldots , \\ell _ { n } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            503,
+            770,
+            562
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "An´alogamente, usando el hecho de que la conjunci´on $( \\wedge )$ es asociativa, conmutativa e idempotente notamos una conjunci´on de cl´ausulas como un conjunto: ",
+        "bbox": [
+            74,
+            599,
+            837,
+            746
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/77ed8274aee3f6ef1562689ea98c5cf90abd2d4afcd16e6b73a70adad2b62b77.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\mathrm { ~ : } 2 \\ r \\wedge \\ldots \\wedge \\kappa _ { n } \\big ) } & { { } \\mathrm { ~ s e ~ n o t a ~ } \\quad \\big \\{ \\kappa _ { 1 } , \\kappa _ { 2 } , \\ldots , \\kappa _ { r } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            279,
+            783,
+            812,
+            841
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/71f43155a21f4e9e16ce49440919e96daa5db65cf0b8965aa5e0adcdf8580728.jpg",
+        "text": "$$\n\\mathsf { P a s a j e \\textsf { a f o r m a } c l a u s a l }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            389,
+            91
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Resumen — pasaje a forma clausal ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            360,
+            552,
+            408
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "1. Reescribir $\\Rightarrow$ usando ¬ y ∨.   \n2. Pasar a f.n. negada, empujando ¬ hacia adentro.   \n3. Pasar a f.n. conjuntiva, distribuyendo ∨ sobre ∧. ",
+        "bbox": [
+            93,
+            433,
+            762,
+            599
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            383,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — pasaje a forma clausal ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            538,
+            205
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Queremos ver que $\\sigma \\equiv ( ( ( \\boldsymbol { \\mathsf { P } } \\Rightarrow ( \\boldsymbol { \\mathsf { Q } } \\land \\boldsymbol { \\mathsf { R } } ) ) \\land \\boldsymbol { \\mathsf { P } } ) \\Rightarrow \\boldsymbol { \\mathsf { Q } } )$ es v´alida. Primero la negamos: $\\neg \\sigma \\equiv \\neg ( ( ( \\boldsymbol { \\mathsf { P } } \\Rightarrow ( \\boldsymbol { \\mathsf { Q } } \\land \\boldsymbol { \\mathsf { R } } ) ) \\land \\boldsymbol { \\mathsf { P } } ) \\Rightarrow \\boldsymbol { \\mathsf { Q } } ) .$ Pasamos ¬σ a forma clausal: ",
+        "bbox": [
+            74,
+            213,
+            850,
+            363
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a3bc1828777e19817c1b6ffb38f6b0280718fbcff9e375701d52be996558e8b0.jpg",
+        "text": "$$\n{ \\begin{array} { r l } & { \\lnot ( (  ( \\mathbf { Q } \\land \\mathbf { R } ) ) \\land \\mathbf { P } ) \\Rightarrow \\mathbf { Q } ) } \\\\ { \\implies } & { \\lnot ( \\lnot ( \\lnot ( \\mathbf { \\lnot ~ P } \\lor ( \\mathbf { Q } \\land \\mathbf { R } ) ) \\land \\mathbf { P } ) \\lor \\mathbf { Q } ) } \\\\ { \\implies } & { ( \\lnot \\ l ( \\lnot ( \\lnot \\mathbf { P } \\lor ( \\mathbf { Q } \\land \\mathbf { R } ) ) \\land \\mathbf { P } ) \\land \\lnot \\mathbf { Q } ) } \\\\ { \\implies } & { ( ( \\lnot \\ l \\mathbf { P } \\lor ( \\mathbf { Q } \\land \\mathbf { R } ) ) \\land \\mathbf { P } ) \\land \\lnot \\mathbf { Q } ) } \\\\ { \\implies } & { ( ( \\lnot \\mathbf { P } \\lor \\mathbf { Q } ) \\land ( \\lnot \\mathbf { P } \\lor \\mathbf { R } ) ) \\land \\mathbf { P } ) \\land \\lnot \\mathbf { Q } } \\\\ { \\implies } & { ( \\lnot \\mathbf { P } \\lor \\mathbf { Q } ) \\land ( \\lnot \\mathbf { P } \\lor \\mathbf { R } ) \\land \\mathbf { P } \\land \\lnot \\mathbf { Q } } \\\\ { \\implies } & { ( \\lnot \\mathbf { P } \\lor \\mathbf { Q } ) \\land ( \\lnot \\mathbf { P } \\lor \\mathbf { R } ) \\land \\mathbf { P } \\land \\lnot \\mathbf { Q } } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            389,
+            737,
+            705
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "La forma clausal es: ",
+        "bbox": [
+            74,
+            731,
+            328,
+            775
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9cc2ac109d433b5d136de96e11afecba20a6911dde4e2e27466c4d6ccb96b42b.jpg",
+        "text": "$$\n\\mathcal { C } = \\{ \\{ \\neg { \\bf P } , { \\bf Q } \\} , \\{ \\neg { \\bf P } , { \\bf R } \\} , \\{ { \\bf P } \\} , \\{ \\neg { \\bf Q } \\} \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            259,
+            819,
+            737,
+            875
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Una vez obtenido un conjunto de cl´ausulas $\\mathcal { C } = \\{ \\kappa _ { 1 } , . . . , \\kappa _ { n } \\}$ , se busca una refutaci´on, es decir, una demostraci´on de C ⊢ ⊥. ",
+        "bbox": [
+            74,
+            165,
+            870,
+            257
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "El m´etodo de refutaci´on se basa en la siguiente regla de deducci´on: ",
+        "bbox": [
+            74,
+            286,
+            922,
+            334
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Regla de resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            356,
+            339,
+            404
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dce796108177222f28c245b6f2f2e81830f8042bdd52329dfda101ae738b5457.jpg",
+        "text": "$$\n\\frac { \\lor \\ell _ { 1 } \\lor \\dots \\lor \\ell _ { n } \\lor \\ell _ { 1 } \\lor \\ell _ { 1 } ^ { \\prime } \\lor \\dots \\lor \\ell _ { m } ^ { \\prime } } { \\ell _ { 1 } \\lor \\dots \\lor \\ell _ { n } \\lor \\ell _ { 1 } ^ { \\prime } \\lor \\dots \\lor \\ell _ { m } ^ { \\prime } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            444,
+            737,
+            573
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Escrita con notaci´on de cl´ausulas: ",
+        "bbox": [
+            74,
+            591,
+            505,
+            636
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/22c943b0b6a2c66d14438fdf8a8aa85deae85fd033831524f0f8cf5a22c3add7.jpg",
+        "text": "$$\n\\frac { \\{ \\mathbf { P } , \\boldsymbol { \\ell } _ { 1 } , \\dots , \\boldsymbol { \\ell } _ { n } \\} \\{ \\neg \\mathbf { P } , \\boldsymbol { \\ell } _ { 1 } ^ { \\prime } , \\dots , \\boldsymbol { \\ell } _ { m } ^ { \\prime } \\} } { \\{ \\boldsymbol { \\ell } _ { 1 } , \\dots , \\boldsymbol { \\ell } _ { n } , \\boldsymbol { \\ell } _ { 1 } ^ { \\prime } , \\dots , \\boldsymbol { \\ell } _ { m } ^ { \\prime } \\} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            665,
+            715,
+            790
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "La conclusi´on se llama la resolvente de las premisas. ",
+        "bbox": [
+            74,
+            827,
+            748,
+            871
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/eab9713bcf2f7efa83d41c24cb781c8d0e3a2b5007a8c06b8f3ea2ba019b793d.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Entrada: un conjunto de cl´ausulas $\\mathcal { C } _ { 0 } = \\{ \\kappa _ { 1 } , . . . , \\kappa _ { n } \\}$ . Salida: SAT/INSAT indicando si $\\mathcal { C } _ { 0 }$ es insatisfactible $( { \\mathcal { C } } _ { 0 } \\vdash \\bot ) .$ ",
+        "bbox": [
+            80,
+            172,
+            925,
+            272
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de refutaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            297,
+            397,
+            341
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sea $\\mathcal { C } : = \\mathcal { C } _ { 0 }$ . Repetir mientras sea posible: ",
+        "bbox": [
+            77,
+            356,
+            613,
+            400
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "1. Si $\\{ \\} \\in { \\mathcal { C } }$ , devolver INSAT. ",
+        "bbox": [
+            96,
+            415,
+            480,
+            463
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "2. Elegir dos cl´ausulas $\\kappa , \\kappa ^ { \\prime } \\in \\mathcal { C }$ , tales que: ",
+        "bbox": [
+            93,
+            474,
+            640,
+            522
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6039fd72d73bcd834ec02e8337843c39a64e10dd55e5977a385eb15270d0b236.jpg",
+        "text": "$$\n\\begin{array} { l } { \\kappa = \\{  { \\mathsf { P } } , \\ell _ { 1 } , \\dots , \\ell _ { n } \\} } \\\\ { \\kappa ^ { \\prime } = \\{ \\neg  { \\mathsf { P } } , \\ell _ { 1 } ^ { \\prime } , \\dots , \\ell _ { m } ^ { \\prime } \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            533,
+            455,
+            650
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "La resolvente $\\rho = \\{ \\ell _ { 1 } , \\ldots , \\ell _ { n } , \\ell _ { 1 } ^ { \\prime } , \\ldots , \\ell _ { m } ^ { \\prime } \\}$ no est´a en C. ",
+        "bbox": [
+            154,
+            658,
+            870,
+            709
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Si no es posible, devolver SAT. ",
+        "bbox": [
+            132,
+            720,
+            522,
+            764
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3. Tomar ${ \\mathcal { C } } : = { \\mathcal { C } } \\cup \\{ \\rho \\}$ y volver al paso 1. ",
+        "bbox": [
+            93,
+            779,
+            632,
+            830
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — m´etodo de resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            165,
+            527,
+            209
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Queremos demostrar $\\sigma \\equiv ( ( ( { \\bf P } \\Rightarrow ( { \\bf Q } \\land { \\bf R } ) ) \\land { \\bf P } ) \\Rightarrow { \\bf Q } ) .$ Equivalentemente, veamos que ¬σ ⊢ ⊥.   \nLa forma clausal de $\\neg \\sigma$ era: Luego C ⊢ ⊥.   \nLuego ¬σ ⊢ ⊥.   \nLuego ⊢ σ. ",
+        "bbox": [
+            74,
+            220,
+            784,
+            371
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/ac3eb50d3dc77e2fbf2dabe4f34d1f2b080d101fa6061cd54c2f424d7a010ba7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            259,
+            408,
+            737,
+            555
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/090506cc983a299be6422d444b6ac70308b7fab72d4aeadc71430fa458ad42a3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            99,
+            606,
+            743,
+            735
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            132,
+            746,
+            328,
+            889
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Refutaci´on ",
+        "bbox": [
+            19,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del m´etodo de resoluci´on proposicional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            834,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Teorema (correcci´on del pasaje a forma clausal) ",
+        "bbox": [
+            77,
+            341,
+            720,
+            393
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Dada una f´ormula $\\sigma$ : ",
+        "bbox": [
+            77,
+            408,
+            342,
+            452
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1. El pasaje a forma clausal termina.   \n2. El conjunto de cl´ausulas $\\mathcal { C }$ obtenido es equivalente a $\\sigma$ . Es decir, ⊢ $\\sigma \\iff { \\mathcal { C } } .$ . ",
+        "bbox": [
+            93,
+            466,
+            839,
+            621
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/43cf4506c75471204f82cd11140f3ad654d61dbc69c913c5b98e7c9bbbddd159.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del m´etodo de resoluci´on proposicional ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            834,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Teorema (correcci´on del algoritmo de refutaci´on) ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            143,
+            732,
+            191
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Dado un conjunto de cl´ausulas $\\mathcal { C } _ { 0 }$ ",
+        "bbox": [
+            77,
+            205,
+            513,
+            250
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1. El algoritmo de refutaci´on termina.   \n2. El algoritmo retorna INSAT si y s´olo si $\\mathcal { C } _ { 0 } \\vdash \\bot$ . ",
+        "bbox": [
+            91,
+            268,
+            729,
+            375
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ideas de la demostraci´on: ",
+        "bbox": [
+            74,
+            408,
+            397,
+            452
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1. Si en $\\mathcal { C } _ { 0 }$ aparecen $n$ literales distintos, se pueden formar $2 ^ { n }$ cl´ausulas posibles. Cada paso agrega una cl´ausula. Luego el algoritmo no puede tomar m´as de de $2 ^ { n }$ pasos. ",
+        "bbox": [
+            71,
+            459,
+            856,
+            602
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "$2 . ( \\Rightarrow )$ . El algoritmo preserva el invariante de que para cada cl´ausula $\\kappa \\in { \\mathcal { C } }$ se tiene que $\\mathcal { C } _ { 0 } \\vdash \\kappa$ . La observaci´on clave es que si $\\kappa , \\kappa ^ { \\prime } \\in \\mathcal { C }$ y $\\rho$ es la resolvente, entonces $\\kappa , \\kappa ^ { \\prime } \\vdash \\rho$ . ",
+        "bbox": [
+            69,
+            606,
+            914,
+            753
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "$2 . ( \\Leftarrow ) .$ . M´as dif´ıcil. Se puede probar por inducci´on en el n´umero de variables proposicionales que aparecen en $\\mathcal { C } _ { 0 }$ . ",
+        "bbox": [
+            71,
+            757,
+            925,
+            849
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ver Handbook of Proof Theory. Samuel R. Buss (editor). Elsevier, 1998. Secci´on 2.6. ",
+        "bbox": [
+            74,
+            856,
+            925,
+            948
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Breve introducci´on a Prolog ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            242,
+            533,
+            297
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica proposicional ",
+        "bbox": [
+            77,
+            430,
+            660,
+            488
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica de primer orden ",
+        "bbox": [
+            77,
+            617,
+            704,
+            680
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on para l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            649,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Entrada: una f´ormula $\\sigma$ cerrada de la l´ogica de primer ord Salida: un booleano indicando si $\\sigma$ es v´alida. Si $\\sigma$ es v´alida, el m´etodo siempre termina. Si $\\cdot$ no es v´alida, el m´etodo puede no terminar. ",
+        "bbox": [
+            82,
+            202,
+            845,
+            400
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "M´etodo de resoluci´on de primer orden (Procedimiento de semi-decisi´on) ",
+        "bbox": [
+            74,
+            455,
+            591,
+            555
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "1. Escribir ¬σ como un conjunto $\\mathcal { C }$ de cl´ausulas. 2. Buscar una refutaci´on de C. Si existe alguna refutaci´on, el m´etodo encuentra alguna. Si no existe una refutaci´on, el m´etodo puede “colgarse” ",
+        "bbox": [
+            91,
+            580,
+            853,
+            786
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Una f´ormula se pasa a forma clausal aplicando las siguientes reglas. Paso 1. Deshacerse del conectivo “⇒”: ",
+        "bbox": [
+            69,
+            95,
+            925,
+            191
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7b58942a4acb24651d8d31e3a528d6c8742f1615cb1dd6bdf4c00a0393948a01.jpg",
+        "text": "$$\n\\begin{array} { r } { \\sigma \\Rightarrow \\boldsymbol { \\tau } \\quad \\Rightarrow \\quad \\supset \\ : \\sigma \\vee \\boldsymbol { \\tau } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            238,
+            640,
+            283
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "La f´ormula resultante s´olo usa los conectivos $\\{ \\neg , \\vee , \\wedge , \\forall , \\exists \\} .$ Paso 2. Empujar el conectivo “¬” hacia adentro: ",
+        "bbox": [
+            74,
+            323,
+            839,
+            419
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8f0bb3a580483266013fdbf78f4f8ad217dda3ee08c1ba79dcd89993505a4896.jpg",
+        "text": "$$\n\\begin{array} { l l l } { \\neg ( \\sigma \\wedge \\tau ) } & { \\to } & { \\neg \\sigma \\vee \\neg \\tau } \\\\ { \\neg ( \\sigma \\vee \\tau ) } & { \\to } & { \\neg \\sigma \\wedge \\neg \\tau } \\\\ { \\neg \\neg \\sigma } & { \\to } & { \\sigma } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            455,
+            665,
+            709
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "La f´ormula resultante est´a en forma normal negada (NNF): ",
+        "bbox": [
+            74,
+            746,
+            853,
+            794
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "σnnf ::= P( $\\begin{array} { r l r l } { | } & { { } | } & { \\qquad } & { { } | \\ \\sigma _ { \\mathrm { n n f } } \\wedge \\sigma _ { \\mathrm { n n f } } \\ | \\ \\sigma _ { \\mathrm { r e f } } } \\end{array}$ nnf ∨ σnnf ∀X. ",
+        "bbox": [
+            82,
+            827,
+            917,
+            937
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Paso 3. Extraer los cuantificadores (“∀/∃”) hacia afuera. Se asume siempre $\\mathtt { X } \\notin \\mathsf { f v } ( \\tau )$ : ",
+        "bbox": [
+            71,
+            150,
+            812,
+            253
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(∀X. σ (∀X. σ ${ \\begin{array} { r l } { { \\mathord { / { \\vphantom { | { \\mathrm { X } } }  }  } } ( { \\mathord { | { \\mathrm { X } }  }  } ( { \\sigma } \\wedge \\tau )  } & { \\tau \\wedge ( { \\forall { \\mathrm { X } } } . \\sigma ) \\longrightarrow } \\\\ { { \\mathrm { V } } \\tau \\implies { \\forall { \\mathrm { X } } } . ( { \\sigma } \\vee \\tau ) } & { \\tau \\vee ( { \\forall { \\mathrm { X } } } . \\sigma ) \\longrightarrow } \\\\ { { \\mathrm { I } } \\wedge \\tau \\implies \\exists { \\mathrm { X } } . ( { \\sigma } \\wedge \\tau ) } & { \\tau \\wedge ( \\exists { \\mathrm { X } } . \\sigma ) \\longrightarrow } \\\\ { { \\mathrm { V } } \\tau \\implies \\exists { \\mathrm { X } } . ( { \\sigma } \\vee \\tau ) } & { \\tau \\vee ( \\exists { \\mathrm { X } } . \\sigma ) \\longrightarrow } \\end{array} }$ ∀X. (τ ∧ σ) ∀X. (τ ∨ σ) (∃X. σ ∃X. (τ ∧ σ) (∃X. σ ∃X. (τ ∨ σ) ",
+        "bbox": [
+            135,
+            286,
+            861,
+            500
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Todas las reglas transforman la f´ormula en otra equivalente. ",
+        "bbox": [
+            74,
+            529,
+            839,
+            573
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "La f´ormula resultante est´a en forma normal prenexa: ",
+        "bbox": [
+            74,
+            621,
+            770,
+            669
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9730d5c480797ecacc2fff55f90e92c6ffc6f9d24279f70effb4532a4e23f603.jpg",
+        "text": "$$\n\\sigma _ { \\mathrm { p r e } } : : = \\mathcal { Q } _ { 1 } \\mathtt { X } _ { 1 } . \\mathcal { Q } _ { 2 } \\mathtt { X } _ { 2 } . \\ . \\ . . \\ \\mathcal { Q } _ { n } \\mathtt { X } _ { n } . \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            290,
+            713,
+            712,
+            764
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "donde cada $\\mathcal { Q } _ { j }$ es un cuantificador {∀, ∃} y $\\tau$ representa una f´ormula en NNF libre de cuantificadores. ",
+        "bbox": [
+            71,
+            801,
+            837,
+            900
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Paso 4. Deshacerse de los cuantificadores existenciales (∃). Para ello se usa la siguiente t´ecnica de Herbrand y Skolem: ",
+        "bbox": [
+            74,
+            128,
+            828,
+            224
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Lema (Skolemizaci´on) ",
+        "bbox": [
+            74,
+            246,
+            375,
+            297
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "∀X. ∃Y. $\\sigma ( { \\tt X } , { \\tt Y } )$ es sat. sii ∀X $\\therefore \\sigma ( { \\mathbb X } , { \\mathbb f } ( { \\mathbb X } ) )$ es sat. ∀X1X2. ∃Y. $\\sigma ( { \\tt X } _ { 1 } , { \\tt X } _ { 2 } , { \\tt Y } )$ es sat. sii $\\forall { \\mathrm { X } } _ { 1 } { \\mathrm { X } } _ { 2 } . \\sigma { \\big ( } { \\mathrm { X } } _ { 1 } , { \\mathrm { X } } _ { 2 } , { \\mathrm { f } } { \\big ( } { \\mathrm { X } } _ { 1 } , { \\mathrm { X } } _ { 2 } { \\big ) } { \\big ) }$ es sat. .. ",
+        "bbox": [
+            77,
+            327,
+            958,
+            488
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "∀⃗X. ∃Y. $\\sigma ( \\vec { \\tt X } , \\tt Y )$ es sat. sii $\\forall \\vec { \\bf X } . \\sigma ( \\vec { \\bf X } , { \\bf f } ( \\vec { \\bf X } ) )$ es sat. ",
+        "bbox": [
+            185,
+            496,
+            801,
+            551
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "El lado izquierdo es una f´ormula en el lenguaje $\\mathcal { L }$ .   \nEl lado derecho es una f´ormula el lenguaje ${ \\mathcal { L } } \\cup \\{ \\mathbf { f } \\}$ . ",
+        "bbox": [
+            74,
+            613,
+            729,
+            713
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Caso particular cuando |⃗X| = 0 ",
+        "bbox": [
+            77,
+            727,
+            494,
+            783
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "∃Y. $\\sigma ( \\Upsilon )$ es sat. sii $\\sigma ( \\mathsf { c } )$ es sat. ",
+        "bbox": [
+            270,
+            805,
+            723,
+            856
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "El lenguaje se extiende con una nueva constante c. ",
+        "bbox": [
+            77,
+            882,
+            723,
+            926
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cdffa1c58443feb2fc567dbcd72891332675fa6652fa0fa37a28c03453d13b56.jpg",
+        "text": "$$\n^ { 2 3 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "La Skolemizaci´on preserva la satisfactibilidad.   \nPero no siempre produce f´ormulas equivalentes.   \nEs decir no preserva la validez. ",
+        "bbox": [
+            74,
+            275,
+            676,
+            422
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — la Skolemizaci´on no preserva la validez ",
+        "bbox": [
+            74,
+            466,
+            762,
+            518
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b1daac76e2d5ae804c1568bf02375d89e6b297a1c0feffcb258474186eefd865.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\underbrace { \\exists \\mathbf { X } . \\left( \\mathbf { P } ( 0 ) \\Rightarrow \\mathbf { P } ( \\mathrm { X } ) \\right) } _ { \\forall \\mathrm { \\bar { d } } \\mathrm { l i d a } } } & { } & { \\underbrace { \\mathbf { P } ( 0 ) \\Rightarrow \\mathbf { P } ( \\mathrm { c } ) } _ { \\mathrm { i n v \\bar { d } } \\mathrm { l i d a } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            248,
+            569,
+            748,
+            687
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Dada una f´ormula en forma normal prenexa, se aplica la regla: ",
+        "bbox": [
+            74,
+            250,
+            870,
+            301
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c6f01e905bb5e1fe222da39aa7168fe04e57115c6f6364d866f8405da9107aed.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\Upsilon . \\sigma } & { { }  } & { \\forall \\Upsilon _ { 1 } . . . \\forall \\Upsilon _ { n } . \\sigma \\big \\{ \\Upsilon : = { \\bf f } \\big ( \\Upsilon _ { 1 } , . . . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            338,
+            803,
+            397
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "donde f es un s´ımbolo de funci´on nuevo de aridad $n \\geq 0$ ",
+        "bbox": [
+            77,
+            430,
+            798,
+            477
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "La f´ormula resultante est´a en forma normal de Skolem: ",
+        "bbox": [
+            77,
+            525,
+            801,
+            573
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aa06349829a90a6d333887a3c04f62d673803868a4967eaed87ffd6b4a74a51e.jpg",
+        "text": "$$\n\\sigma _ { \\mathrm { S k } } : : = \\forall \\mathtt { X } _ { 1 } \\mathtt { X } _ { 2 } \\dots \\mathtt { X } _ { n } . \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            356,
+            617,
+            646,
+            665
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "donde $\\tau$ representa una f´ormula en NNF libre de cuantificadores. ",
+        "bbox": [
+            71,
+            702,
+            897,
+            753
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Paso 5. Dada una f´ormula en forma normal de Skolem: ",
+        "bbox": [
+            74,
+            150,
+            790,
+            198
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "se pasa $\\tau$ a forma normal conjuntiva usando las reglas ya vistas: ",
+        "bbox": [
+            77,
+            330,
+            889,
+            378
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cf2574d50d5382073daa0db8d605b6e5cb846b14e90d4820efc19c2d570514e6.jpg",
+        "text": "$$\n\\begin{array} { r } { \\begin{array} { l l l } { \\sigma \\vee ( \\tau \\wedge \\rho ) } & {  } & { ( \\sigma \\vee \\tau ) \\wedge ( \\sigma \\vee \\rho ) } \\\\ { ( \\sigma \\wedge \\tau ) \\vee \\rho } & {  } & { ( \\sigma \\vee \\rho ) \\wedge ( \\tau \\vee \\rho ) } \\end{array} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            415,
+            732,
+            522
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "El resultado es una f´ormula de la forma: ",
+        "bbox": [
+            74,
+            551,
+            582,
+            599
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5f0201f97ae7ad50996eb2c6e2dda1d79ad1da0e9d719a66c89fac9a3e23952d.jpg",
+        "text": "$$\n\\begin{array}{c} \\begin{array} { r } { \\forall \\mathtt { X } _ { 1 } \\dotsc \\dotsc \\mathtt { X } _ { n } . } \\\\ { \\forall \\mathtt { X } _ { 1 } \\dotsc \\dotsc \\mathtt { X } _ { n } . } \\\\ { \\dotsc \\dotsc \\dotsc } \\\\ { \\bigwedge \\dotsc ( \\ell _ { 1 } ^ { ( 1 ) } \\vee \\dotsc \\vee \\ell _ { m _ { k } } ^ { ( k ) } ) } \\end{array} )  \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            256,
+            625,
+            734,
+            863
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Paso 6. Empujar los cuantificadores universales hacia adentro: ",
+        "bbox": [
+            71,
+            172,
+            878,
+            220
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/17c7d7ea2ee939c2cf12558b069b16509bf2df15505cc6e1e0fa3efcdfc54ad1.jpg",
+        "text": "$$\n\\begin{array} { r } { \\left( \\begin{array} { c c } { ( \\ell _ { 1 } ^ { ( 1 ) } \\vee \\ldots \\vee \\ell _ { m _ { 1 } } ^ { ( 1 ) } ) } \\\\ { \\wedge \\ ( \\ell _ { 1 } ^ { ( 2 ) } \\vee \\ldots \\vee \\ell _ { m _ { 2 } } ^ { ( 2 ) } ) } \\\\ { \\cdots } \\\\ { \\wedge \\ ( \\ell _ { 1 } ^ { ( k ) } \\vee \\ldots \\vee \\ell _ { m _ { k } } ^ { ( k ) } ) } \\end{array} \\right) \\longrightarrow \\left( \\begin{array} { c c } { \\forall { \\texttt X } _ { 1 } \\ldots { \\texttt X } _ { i } } \\\\ { \\wedge \\ \\forall { \\texttt X } _ { 1 } \\ldots { \\texttt X } _ { i } } \\\\ { \\cdots } \\\\ { \\wedge \\ \\forall { \\texttt X } _ { 1 } \\ldots { \\texttt X } _ { i } } \\end{array} \\right) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            253,
+            720,
+            444
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Por ´ultimo la forma clausal es: ",
+        "bbox": [
+            74,
+            496,
+            477,
+            540
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bcfa5b98428644b35fba0d7ff6c9bf7711c056db079c74e9966bd65683597dfd.jpg",
+        "text": "$$\n\\left\\{ \\begin{array} { l } { \\{ \\ell _ { 1 } ^ { ( 1 ) } , \\ldots , \\ell _ { m _ { 1 } } ^ { ( 1 ) } \\} , } \\\\ { \\{ \\ell _ { 1 } ^ { ( 2 ) } , \\ldots , \\ell _ { m _ { 2 } } ^ { ( 2 ) } \\} , } \\\\ { \\vdots } \\\\ { \\{ \\ell _ { 1 } ^ { ( k ) } , \\ldots , \\ell _ { m _ { k } } ^ { ( k ) } \\} } \\end{array} \\right\\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            353,
+            569,
+            640,
+            827
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ceba89f2da48172d303fa225b2f3723e89b62e15f160a0dea34d309275c7dd36.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            809,
+            88
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Resumen — pasaje a forma clausal en l´ogica de primer orden ",
+        "bbox": [
+            80,
+            242,
+            906,
+            294
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "1. Reescribir $\\Rightarrow$ usando ¬ y ∨.   \n2. Pasar a f.n. negada, empujando ¬ hacia adentro.   \n3. Pasar a f.n. prenexa, extrayendo ∀, ∃ hacia afuera.   \n4. Pasar a f.n. de Skolem, Skolemizando los existenciales.   \n5. Pasar a f.n. conjuntiva, distribuyendo ∨ sobre ∧.   \n6. Empujar los cuantificadores hacia adentro de las conjunciones. ",
+        "bbox": [
+            77,
+            316,
+            930,
+            669
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Cada paso produce una f´ormula equivalente, excepto la Skolemizaci´on que s´olo preserva satisfactibilidad. ",
+        "bbox": [
+            74,
+            698,
+            831,
+            794
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a forma clausal en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            812,
+            88
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — pasaje a forma clausal ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            110,
+            538,
+            158
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Queremos ver que $\\sigma \\equiv \\exists \\mathrm { X } . ( \\forall \\mathrm { Y } . \\mathbf { P } ( \\mathrm { X } , \\mathrm { Y } ) ) \\Rightarrow \\forall \\mathrm { Y } . \\mathbf { P } ( \\mathrm { Y } , \\mathrm { X } ) )$ es v´alida. Primero la negamos: $\\lnot \\sigma \\equiv \\lnot \\exists \\mathrm { X } . \\left( \\forall \\mathrm { Y } . \\mathbf { P } ( \\mathrm { X } , \\mathrm { Y } ) \\Rightarrow \\forall \\mathrm { Y } . \\mathbf { P } ( \\mathrm { Y } , \\mathrm { X } ) \\right)$ . Pasamos ¬σ a forma clausal: ",
+        "bbox": [
+            74,
+            165,
+            883,
+            316
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "¬∃X. (∀Y. P(X, Y) ⇒ ∀Y. P(Y, X)) ¬∃X. (¬∀Y. P(X, Y) ∨ ∀Y. P(Y, X)) ∀X. ¬(¬∀Y. P(X, Y) ∨ ∀Y. P(Y, X)) ∀X. (¬¬∀Y. P(X, Y) ∧ ¬∀Y. P(Y, X)) ∀X. (∀Y. P(X, Y) ∧ ∃Y. ¬P(Y, X)) ∀X. ∃Y. (∀Y. P(X, Y) ∧ ¬P(Y, X)) ∀X. ∃Y. ∀Z. (P(X, Z) ∧ ¬P(Y, X)) ∀X. ∀Z. (P(X, Z) ∧ ¬P(f(X), X)) ∀X. ∀Z. P(X, Z) ∧ ∀X. ∀Z. ¬P(f(X), X) ",
+        "bbox": [
+            229,
+            341,
+            759,
+            797
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "La forma clausal es: ",
+        "bbox": [
+            74,
+            830,
+            328,
+            878
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/16238e8a0649effbf6f5c085d8b66de2da44bbcb9541f1b5c8c46761fc354c17.jpg",
+        "text": "$$\n2 ) \\} , \\{ \\lnot \\mathbf { P } ( \\mathbf { f } ( \\mathbf { X } ) , \\ l \\mathbf { X } ) \\} \\} \\equiv \\{ \\{ \\mathbf { P } ( \\mathbf { X } , \\mathbf { Y } ) \\} , \\{ \\lnot \\mathbf { P } (\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            915,
+            737,
+            974
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            618,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Una vez obtenido un conjunto de cl´ausulas $\\mathcal { C } = \\{ \\kappa _ { 1 } , . . . , \\kappa _ { n } \\}$ , se busca una refutaci´on, es decir, una demostraci´on de C ⊢ ⊥. ",
+        "bbox": [
+            74,
+            139,
+            870,
+            235
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Recordemos la regla de resoluci´on proposicional: ",
+        "bbox": [
+            77,
+            264,
+            685,
+            308
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cc0d7bf997cf0ff9697e86f0026d7b418ae1a720ea1fc6a537c22f79a97239d7.jpg",
+        "text": "$$\n\\frac { \\{ \\ : \\ : , \\ell _ { 1 } , \\ldots , \\ell _ { n } \\} \\{  \\ : , \\ell _ { 1 } ^ { \\prime } , \\ldots , \\ell _ { m } ^ { \\prime } \\} } { \\{ \\ell _ { 1 } , \\ldots , \\ell _ { n } , \\ell _ { 1 } ^ { \\prime } , \\ldots , \\ell _ { m } ^ { \\prime } \\} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            341,
+            715,
+            466
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Queremos adaptarla a l´ogica de primer orden. ",
+        "bbox": [
+            77,
+            503,
+            651,
+            551
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "En lugar de una variable proposicional P vamos a tener una f´ormula at´omica P $\\cdot$ . ",
+        "bbox": [
+            74,
+            573,
+            837,
+            672
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos escribir la regla as´ı?: ",
+        "bbox": [
+            74,
+            680,
+            472,
+            720
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7f49daeb23ec93a3c0875db621870f9bcd9b172463490c5853ec912d61479879.jpg",
+        "text": "$$\n, \\ell _ { 1 } , \\ldots , \\ell _ { n } \\} \\qquad \\{ \\begin{array} { l l } { { \\ldots } } &  { \\qquad , \\ell _ { 1 } , \\ldots , \\ell _ { n } \\} } \\end{array}  \\quad \\{ \\begin{array} { l l } { { \\ldots } } &  { \\qquad \\ell _ { 1 } , \\ldots , \\ell _ { n } \\} } \\end{array}  \\quad \\{ \\begin{array} { l l } { { \\ldots } } & { { \\qquad \\ell _ { 1 } , \\ldots , \\ell _ { n } } } \\end{array}  \\quad [ \\begin{array} { c l } { { \\ldots } } & { { \\qquad \\ell _ { 1 } , \\ldots , \\ell _ { n } } } \\end{array} ] \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            757,
+            720,
+            808
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/079bc0479604c557e6d0d02ffa98d28f689c36959fe09b48a897ada0809d79ff.jpg",
+        "text": "$$\n\\{ \\ell _ { 1 } , \\ldots , \\ell _ { n } , \\ell _ { 1 } ^ { \\prime } , \\ldots , \\ell _ { m } ^ { \\prime } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            827,
+            629,
+            878
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            621,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Consideremos la f´ormula: ",
+        "bbox": [
+            74,
+            191,
+            395,
+            235
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Deber´ıa ser refutable, pues es insatisfactible. Su forma clausal consta de dos cl´ausulas: ",
+        "bbox": [
+            74,
+            371,
+            638,
+            466
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e22dd57ee84f92a42a9143997f7cc2e17133879c58cf20607effae79df90834f.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\{ \\pmb { \\mathsf { P } } ( \\mathbb { X } ) \\} } & { { } \\{ \\lnot \\mathbf { P } ( 0 ) \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            507,
+            624,
+            566
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on propuesta no aplica pues $\\mathbf { P } ( \\mathbf { X } ) \\neq \\mathbf { P } ( 0 ) .$ . ",
+        "bbox": [
+            74,
+            650,
+            853,
+            698
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Los t´erminos no necesariamente tienen que ser iguales.   \nRelajamos la regla para permitir que sean unificables. ",
+        "bbox": [
+            74,
+            746,
+            767,
+            845
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            621,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on de primer orden es: ",
+        "bbox": [
+            74,
+            205,
+            604,
+            253
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f9681f94cdb9b771c0c07c1783faf34429d76cf5c00f416caac4c1c3c35c362b.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\{ \\sigma _ { 1 } , \\ldots , \\sigma _ { p } , \\ell _ { 1 } , \\ldots , \\ell _ { n } \\} \\qquad \\{ \\neg { \\tau _ { 1 } } , \\ldots , \\neg { \\tau _ { q } } , \\ell _ { 1 } ^ { \\prime } , } \\\\ & { \\mathbf { S } = \\mathbf { m g u } ( \\{ \\sigma _ { 1 } \\stackrel { ? } { = } \\sigma _ { 2 } \\stackrel { ? } { = } \\ldots \\stackrel { ? } { = } \\sigma _ { p } \\stackrel { ? } { = } \\tau _ { 1 } \\stackrel { ? } { = } \\tau _ { 2 } \\stackrel { ? } { = } }  \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            338,
+            720,
+            444
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0f6795f3339adcf144d462182b82b5b9c25d347cf9963a044200ba5e9f04c323.jpg",
+        "text": "$$\n\\pmb { \\mathsf { S } } ( \\{ \\ell _ { 1 } , \\hdots , \\ell _ { n } , \\ell _ { 1 } ^ { \\prime } , \\hdots , \\ell _ { m } ^ { \\prime } \\} )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            270,
+            455,
+            651,
+            511
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Se asume impl´ıcitamente que las cl´ausulas est´an renombradas de tal modo que $\\left\\{ \\begin{array} { l l } \\end{array} \\right. \\quad , \\ldots ,$ , ℓ1, . . . , ℓn} y {¬τ1, . . . , ¬ τq, ℓ′ , ℓ ′m } no tienen variables en com´un. ",
+        "bbox": [
+            74,
+            680,
+            911,
+            827
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "32 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            621,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "El algoritmo de refutaci´on se adapta sin mayores cambios.   \nSe usa la nueva regla de resoluci´on para calcular la resolvente. ",
+        "bbox": [
+            74,
+            415,
+            859,
+            511
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            621,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — m´etodo de resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            209,
+            527,
+            257
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Queremos demostrar $\\sigma \\equiv \\exists \\mathrm { X . } \\left( \\forall \\mathrm { Y . } \\mathbf { P } ( \\mathrm { X , Y } ) \\right) \\Rightarrow \\forall \\mathrm { Y . } \\mathbf { P } ( \\mathrm { Y , X } ) \\big ) .$ Equivalentemente, veamos que ¬σ ⊢ ⊥.   \nLa forma clausal de $\\neg \\sigma$ era: ",
+        "bbox": [
+            74,
+            268,
+            803,
+            415
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "img_path": "images/21ff6b9fc16d9634e30543cacb1d303175e9adff75e316db07bdebfc944d91eb.jpg",
+        "text": "$$\n\\mathcal { C } = \\{ \\underset { \\left[ 1 \\right] } { \\{ \\mathbf { P } ( \\mathrm { X } , \\mathrm { Y } ) \\} } , \\underset { \\left[ 2 \\right] } { \\underbrace { \\{ \\neg \\mathbf { P } ( \\mathrm { f } ( \\mathrm { Z } ) , \\mathrm { Z } ) \\} } } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            292,
+            452,
+            701,
+            595
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "De 1 y 2 calculamos   \nmgu(P $( \\mathtt { X } , \\mathtt { Y } ) \\overset { ? } { = } \\mathbf { P } ( \\mathtt { f } ( \\mathtt { Z } ) , \\mathtt { Z } ) ) = \\{ \\mathtt { X } : = \\mathtt { f } ( \\mathtt { Z } ) , \\mathtt { Y } : = :$ Z} y se obtiene la resolvente $\\{ \\}$ . ",
+        "bbox": [
+            129,
+            654,
+            765,
+            827
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            669,
+            118,
+            698
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Refutaci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            621,
+            88
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on binaria ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            224,
+            323,
+            268
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Considerar la siguiente variante de la regla de resoluci´on: ",
+        "bbox": [
+            80,
+            275,
+            790,
+            319
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c6ead253485b3cdb0578299a278967b48e9822a7ec7972f50d8d89692c788350.jpg",
+        "text": "$$\n, \\ldots , \\ell _ { n } \\} \\quad \\{ \\to \\ , \\ell _ { 1 } ^ { \\prime } , \\ldots , \\ell _ { m } ^ { \\prime } \\} \\quad { \\bf 5 } = { \\sf m g u } ( \\{\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            356,
+            770,
+            419
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cd9b4c3b931c1e6c4750725b3540ba787c2ba6510ec1ff01225371d1768d475c.jpg",
+        "text": "$$\n { \\mathsf { S } } ( \\{ \\ell _ { 1 } , \\dots , \\ell _ { n } , \\ell _ { 1 } ^ { \\prime } , \\dots , \\ell _ { m } ^ { \\prime } \\} )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            325,
+            430,
+            651,
+            488
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "No es completa. ",
+        "bbox": [
+            74,
+            577,
+            303,
+            621
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            650,
+            187,
+            694
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "{{P(X), P(Y)}, $\\{ \\neg \\mathsf { P } ( \\mathsf { Z } ) , \\neg \\mathsf { P } ( \\mathsf { W } ) \\} \\}$ es insatisfactible.   \nNo es posible alcanzar la cl´ausula vac´ıa $\\{ \\}$ con resoluci´on binaria. ",
+        "bbox": [
+            71,
+            702,
+            911,
+            805
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del m´etodo de resoluci´on de primer orden ",
+        "bbox": [
+            22,
+            29,
+            878,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Teorema (correcci´on del pasaje a forma clausal) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            341,
+            720,
+            393
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Dada una f´ormula $\\sigma$ : ",
+        "bbox": [
+            77,
+            408,
+            342,
+            448
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "1. El pasaje a forma clausal termina.   \n2. El conjunto de cl´ausulas $\\mathcal { C }$ obtenido es equisatisfactible a $\\sigma$ . Es decir, $\\sigma$ es sat. si y s´olo si $\\mathcal { C }$ es sat.. ",
+        "bbox": [
+            91,
+            466,
+            897,
+            625
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del m´etodo de resoluci´on de primer orden ",
+        "bbox": [
+            22,
+            29,
+            878,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Teorema (correcci´on del algoritmo de refutaci´on) ",
+        "bbox": [
+            77,
+            319,
+            737,
+            371
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Dado un conjunto de cl´ausulas $\\mathcal { C } _ { 0 }$ : ",
+        "bbox": [
+            77,
+            382,
+            513,
+            430
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "1. Si $\\mathcal { C } _ { 0 } \\vdash \\bot$ , existe una manera de elegir las cl´ausulas tal que el algoritmo de refutaci´on termina. ",
+        "bbox": [
+            93,
+            441,
+            922,
+            536
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "2. El algoritmo retorna INSAT si y s´olo si ${ \\mathcal { C } } _ { 0 } \\vdash \\bot .$ ",
+        "bbox": [
+            96,
+            555,
+            723,
+            599
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Si $\\cdot$ , no hay garant´ıa de terminaci´on. ",
+        "bbox": [
+            74,
+            632,
+            618,
+            680
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6bf7642714acfbc998e405e074693daa7958c8619f8be2104595ecae6dd81e78.jpg",
+        "text": "$$\n3 7\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            915,
+            1000,
+            1000
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            461,
+            84
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — no terminaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            132,
+            441,
+            176
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "La siguiente f´ormula $\\sigma$ no es v´alida: ",
+        "bbox": [
+            77,
+            191,
+            527,
+            235
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "img_path": "images/32b171343fb10528d5ddb9100c99099d285f8433844413853d5a0b4306d01547.jpg",
+        "text": "$$\n\\forall \\mathrm { X . } \\left( \\mathbf { P ( s u c c ( x ) ) } \\Rightarrow \\mathbf { P ( X ) } \\right) \\Rightarrow \\mathbf { P ( 0 ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            276,
+            275,
+            718,
+            330
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Tratemos de probar que es v´alida usando el m´etodo de resoluci´on. Para ello pasamos ¬σ a forma clausal: ",
+        "bbox": [
+            77,
+            367,
+            911,
+            463
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5fe86ecb3dc1d6d2627dc8530c1cb018d0643240c099562f29747ef849b04033.jpg",
+        "text": "$$\n\\{ \\underbrace { \\{ \\neg { \\bf P } ( \\mathrm { s u c c } ( \\mathrm { x } ) ) , { \\bf P } ( \\mathrm { x } ) \\} } _ { \\mathrm { \\bf 1 } } , \\underbrace { \\{ \\neg { \\bf P } ( 0 ) \\} } _ { \\mathrm { \\bf \\left[ 2 \\right] } } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            281,
+            503,
+            715,
+            647
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/754e4e7b6c449296110bce2dca073e0d32f08db64e5e2910b810ebfd6e81eeb2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            91,
+            698,
+            875,
+            952
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "38 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            213,
+            745,
+            308
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            397,
+            364,
+            441
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Art´ıculo original de Robinson. ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            448,
+            486,
+            492
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "J. A. Robinson. A Machine-Oriented Logic Based on the Resolution Principle.   \nJournal of the Association for Computing Machinery, Vol. 12, No. 1 (enero de 1965), pp. 23-41. ",
+        "bbox": [
+            74,
+            500,
+            853,
+            694
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "39 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 38
+    }
+]

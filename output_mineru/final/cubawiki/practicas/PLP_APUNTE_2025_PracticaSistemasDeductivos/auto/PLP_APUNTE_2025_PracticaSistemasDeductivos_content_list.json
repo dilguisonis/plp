@@ -1,0 +1,1260 @@
+[
+    {
+        "type": "text",
+        "text": "⊢ Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            295,
+            164,
+            699,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas de Lenguajes de Programación ",
+        "bbox": [
+            269,
+            415,
+            732,
+            466
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Ciencias de la Computación Universidad de Buenos Aires ",
+        "bbox": [
+            302,
+            556,
+            697,
+            643
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "19 de septiembre de 2025 ",
+        "bbox": [
+            379,
+            733,
+            620,
+            780
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos   \nDeducción natural   \nLógica intuicionista vs. clásica   \nDemo de weakening por inducción en la derivación ",
+        "bbox": [
+            101,
+            372,
+            573,
+            596
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "1 / 14 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Vamos a ver ",
+        "bbox": [
+            15,
+            35,
+            181,
+            82
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            68,
+            364,
+            97,
+            588
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos ",
+        "bbox": [
+            450,
+            972,
+            547,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            156,
+            134,
+            200
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f4b5faf0cd4bbcff73814ee69ef9af318f707b261bba36d4a9d535909dff000f.jpg",
+        "text": "$$\n\\tau : : = P \\mid \\bot \\mid \\neg \\tau \\mid \\tau \\land \\tau \\mid \\tau \\lor \\tau \\mid \\tau \\Rightarrow \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            247,
+            682,
+            301
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Valuaciones ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            352,
+            169,
+            392
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Una valuación es una función $v : \\mathcal { V } \\to \\{ V , F \\}$ . Una valuación $v$ satisface una proposición $\\tau$ si $v \\models \\tau$ , donde: ",
+        "bbox": [
+            55,
+            396,
+            620,
+            490
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a67cb5f6fa5179261d3bd2cc2b867c2db3b8e9d647f81179a1b584925ef3fec4.jpg",
+        "text": "$$\n\\begin{array} { r l } { v \\vdash P \\quad } & { { } { \\mathrm { s i i } } \\quad } & { v ( P ) = V } \\\\ { v \\vdash \\neg \\quad } & { { } { \\mathrm { s i i } } \\quad } & { v \\nmid \\tau } \\\\ { v \\vdash \\tau \\land \\sigma \\quad } & { { } { \\mathrm { s i i } } \\quad } & { v \\models \\tau \\quad \\forall \\quad v \\models \\sigma } \\\\ { v \\vdash \\tau \\lor \\sigma \\quad } & { { } { \\mathrm { s i i } } \\quad } & { v \\models \\tau \\quad \\circ \\quad v \\models \\sigma } \\\\ { v \\vdash \\tau \\Rightarrow \\quad } & { { } { \\mathrm { s i i } } \\quad } & { v \\nmid \\tau \\quad \\circ \\quad v \\models \\sigma } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            320,
+            517,
+            684,
+            819
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "2 / 14 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos ",
+        "bbox": [
+            450,
+            972,
+            549,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Lógica proposicional ",
+        "bbox": [
+            17,
+            35,
+            280,
+            90
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Lógica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            35,
+            280,
+            90
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Valuaciones ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            141,
+            169,
+            176
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Una valuación v satisface una proposición $\\tau$ si $v \\models \\tau$ , donde: ",
+        "bbox": [
+            59,
+            184,
+            618,
+            227
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a1d40cf1ca60c754bb9cfe1afef5ec9e125afef5fe77aff124d70a7c4449a136.jpg",
+        "text": "$$\n{ \\begin{array} { r l } { v \\vdash P } & { \\ \\operatorname { s i i } } & { \\quad v ( P ) = V } \\\\ { v \\vdash \\neg \\tau } & { \\ \\operatorname { s i i } } & { \\quad v \\not \\vdash \\tau } \\\\ { v \\vdash \\tau \\land \\sigma } & { \\ \\operatorname { s i i } } & { \\quad v \\vdash \\ \\tau \\quad y \\quad v \\vdash \\sigma } \\\\ { v \\vdash \\tau \\lor \\sigma } & { \\ \\operatorname { s i i } } & { \\quad v \\vdash \\ \\tau \\quad \\circ \\quad v \\vdash \\sigma } \\\\ { v \\vdash \\tau \\Rightarrow \\sigma } & { \\ \\operatorname { s i i } } & { \\quad v \\not \\vdash \\ \\tau \\quad \\circ \\quad v \\vdash \\sigma } \\\\ { v \\vdash \\bot } & { \\ \\operatorname { s i e m p r e } } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            258,
+            682,
+            607
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Equivalencia de fórmulas ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            658,
+            291,
+            698
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\tau$ es lógicamente equivalente a $\\sigma$ cuando $v \\models \\tau$ sii $v \\models \\sigma$ para toda valuación $v$ ",
+        "bbox": [
+            61,
+            705,
+            790,
+            749
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio de la guía: ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            760,
+            280,
+            803
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mostrar que cualquier fórmula de la lógica proposicional que utilice los conectivos ¬ (negación), $\\wedge$ (conjunción), ∨ (disyunción), $\\Rightarrow$ (implicación) puede reescribirse a otra fórmula equivalente que usa sólo los conectivos $\\lnot \\mathrm { ~ y ~ } \\lor$ . ",
+        "bbox": [
+            57,
+            807,
+            894,
+            945
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "3 / 14 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            278,
+            86
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/1a4e4f13dd47fc8af60f2c8cda1b4fd4565efa9fa1138d0f221acb3b2e2f6049.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            70,
+            129,
+            97,
+            227
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Definidos por un conjunto de reglas Las reglas son de la forma: ",
+        "bbox": [
+            101,
+            137,
+            452,
+            235
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Premisa1 Premisa2 . . . Premisan Nombre de Conclusión la regla ",
+        "bbox": [
+            304,
+            262,
+            739,
+            360
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Un caso particular: $n = 0$ ",
+        "bbox": [
+            101,
+            403,
+            344,
+            447
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Nombre de Conclusión la regla ",
+        "bbox": [
+            426,
+            443,
+            615,
+            517
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo,1 ",
+        "bbox": [
+            103,
+            549,
+            229,
+            592
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/c8373457c206caed85f5ffcb54dc3245c3b5e1116b662d6b462e319182bf64df.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            112,
+            639,
+            924,
+            901
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "1Ningún animal fue dañado durante la producción de este sistema deductivo. ",
+        "bbox": [
+            75,
+            925,
+            688,
+            964
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            541,
+            94,
+            584
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            396,
+            94,
+            439
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos 4 / 14 ",
+        "bbox": [
+            37,
+            956,
+            997,
+            1000
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Un sistema deductivo: deducción natural ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            549,
+            90
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Secuentes: ",
+        "bbox": [
+            90,
+            176,
+            181,
+            211
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Una regla de deducción ",
+        "bbox": [
+            90,
+            298,
+            293,
+            337
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "intuitivamente se puede pensar que expresa: ",
+        "bbox": [
+            88,
+            458,
+            476,
+            498
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4c882657fd7bb3b66e26b8254b6116ca04c56a69c56b5a3a062018b5a908fbe3.jpg",
+        "text": "$$\n\\left. { \\begin{array} { l } { { \\mathsf { P r e m i s a } } _ { 1 } } \\\\ { { \\mathsf { P r e m i s a } } _ { 2 } } \\\\ { \\vdots } \\\\ { { \\mathsf { P r e m i s a } } _ { n } } \\end{array} } \\right\\} \\Longrightarrow { \\mathsf { C o n c l u s i } } \\dot { \\mathsf { o n } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            501,
+            450,
+            701
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo... ",
+        "bbox": [
+            556,
+            172,
+            675,
+            211
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/23f6165d44736ad873f2d4ae81cd7453c709225edf6aa2f23a4e77a5982a3f3b.jpg",
+        "text": "$$\nP , Q \\vdash P \\land Q\n$$",
+        "text_format": "latex",
+        "bbox": [
+            671,
+            211,
+            792,
+            258
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0e4c22b4d3f3788a60be2c4b4a6377b3dfffb38577201545a279c7b5f36020d2.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau \\quad \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\land \\sigma } \\land i \\quad \\frac { } { \\Gamma , \\tau \\vdash \\tau } \\mathsf { a x }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            589,
+            329,
+            871,
+            419
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/50c3a466738619ff2f1ddeb0e8715dc963093cd63eaa5dfb53503386a6465303.jpg",
+        "text": "$$\n\\left. \\begin{array} { l } { { \\Gamma \\vdash \\tau } } \\\\ { { \\Gamma \\vdash \\sigma } } \\end{array} \\right\\} \\implies \\Gamma \\vdash \\tau \\wedge \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            624,
+            509,
+            849,
+            619
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2cf3f30df45d33d0925d652a1611c2825ab0085a2da5b5613838d8692998d2c5.jpg",
+        "text": "$$\n{ \\mathsf { T r u e } } \\implies \\Gamma , \\tau \\vdash \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            646,
+            643,
+            816,
+            690
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "La demostración de un secuente es un árbol formado por reglas de deducción: ",
+        "bbox": [
+            64,
+            729,
+            724,
+            772
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1f4c3e2ec55ea000d976d071ddc1e5a73983cf6b920d5ae64a140be17885d403.jpg",
+        "text": "$$\n\\frac { \\overline { { P , Q \\vdash P } } ^ { \\mathrm { ~ a x ~ } } \\overline { { P , Q \\vdash Q } } ^ { \\mathrm { ~ a x ~ } } } { P , Q \\vdash P \\land Q } \\land _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            800,
+            622,
+            909
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "5 / 14 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos ",
+        "bbox": [
+            448,
+            972,
+            547,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Deducción natural ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            253,
+            86
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Reglas básicas ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            101,
+            130,
+            133
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/edb17c5997a1f731eaf7361929adb4d93f92e62ba7cb08aac1026fff0721502a.jpg",
+        "text": "$$\n\\begin{array} { r l r } & { \\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\tau \\setminus \\sigma } } & { \\frac { \\Gamma \\vdash \\tau } { \\tau \\vdash \\tau } \\overset { \\mathbf { x } } { \\simeq } } \\\\ & { \\frac { \\Gamma \\vdash \\tau \\land \\tau } { \\Gamma \\vdash \\tau \\land \\sigma } \\land _ { i } } & { \\frac { \\Gamma \\vdash \\tau \\land \\sigma } { \\Gamma \\vdash \\tau } \\land _ { e _ { 1 } } \\frac { \\Gamma \\vdash \\tau } { \\Gamma } } \\\\ & { \\frac { \\Gamma , \\tau \\vdash \\sigma } { \\Gamma \\vdash \\tau \\Rightarrow \\sigma } \\Rightarrow _ { i } } & { \\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma } { \\Gamma \\vdash \\sigma } \\mathrm { ~ T \\vdash \\tau ~ } } \\\\ & { \\frac { \\textnormal { \\texttt { r } } \\lor _ { i } } { \\sigma } \\quad \\frac { \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 2 } } } & { \\frac { \\Gamma \\vdash \\tau \\lor \\sigma } { \\Gamma \\vdash \\rho } \\mathrm { ~ T \\vdash \\rho ~ } } \\\\ & { \\frac { \\Gamma , \\tau \\vdash \\bot } { \\Gamma \\vdash \\tau } \\neg _ { i } } & { \\frac { \\Gamma \\vdash \\tau \\land \\tau } { \\Gamma \\vdash \\tau } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            227,
+            235,
+            737,
+            678
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1d5294e9171a914548e9aa3f3af7fc231d0420355bf6a4a7b110cf1ef4abc6bc.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\lnot \\lnot \\tau } { \\Gamma \\vdash \\tau } \\lnot \\lnot \\lnot \\lnot e\n$$",
+        "text_format": "latex",
+        "bbox": [
+            649,
+            780,
+            788,
+            866
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "6 / 14 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos ",
+        "bbox": [
+            448,
+            972,
+            547,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Deducción natural ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            253,
+            86
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Reglas derivadas ",
+        "bbox": [
+            15,
+            101,
+            147,
+            133
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/963dc7dfd35e08a89e631e1ca7a466581afb7d2b04b2ea11a52ca9a5718a13b5.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\lnot \\tau } \\lnot \\lnot _ { i } \\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\vdash \\Gamma \\vdash \\lnot \\sigma } { \\Gamma \\vdash \\lnot \\tau } \\mathsf { M } \\mathsf { T }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            289,
+            317,
+            699,
+            411
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/46c7abe153203017ff2014757be517c709cc0810831a745c6c9de44a5c118e58.jpg",
+        "text": "$$\n\\frac { \\Gamma , \\neg \\tau \\vdash \\bot } { \\Gamma \\vdash \\tau } \\mathsf { P B C } \\qquad \\frac { \\sum \\sqsubset \\tau \\vdash \\tau } { \\Gamma \\vdash \\tau \\lor \\lnot \\tau } \\mathsf { L E M }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            521,
+            671,
+            619
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Todas las reglas derivadas, incluyendo las que hayan probado en la guía de ejercicios, pueden usarse para resolver otros ejercicios y los parciales. ",
+        "bbox": [
+            101,
+            698,
+            898,
+            788
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Recuerden que en la sección Útil del campus tienen el Machete de Deducción Natural con todas las reglas. ",
+        "bbox": [
+            97,
+            800,
+            933,
+            894
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 14 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            690,
+            94,
+            733
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            796,
+            94,
+            839
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos ",
+        "bbox": [
+            448,
+            972,
+            547,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Deducción natural en lógica intuicionista ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            27,
+            547,
+            90
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio de la guía ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            239,
+            273,
+            286
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Demostrar en deducción natural que las siguientes fórmulas son teoremas sin usar principios de razonamiento clásicos salvo que se indique lo contrario. Una fórmula es un teorema cuando el juicio $\\vdash \\tau$ es derivable. ",
+        "bbox": [
+            57,
+            290,
+            916,
+            427
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Reducción al absurdo: $( \\rho \\Rightarrow \\bot ) \\Rightarrow \\neg \\rho$   \nIntroducción de la doble negación: $\\rho \\Rightarrow \\neg \\neg \\rho$   \nEliminación de la triple negación: $\\neg \\neg \\neg \\rho \\Rightarrow \\neg \\rho$   \nde Morgan (II): $\\neg ( \\rho \\land \\sigma ) \\Leftrightarrow ( \\neg \\rho \\lor \\neg \\sigma )$   \nPara la dirección es necesario usar principios de razonamiento clásicos. Conmutatividad (∨): $( \\rho \\lor \\sigma ) \\Rightarrow ( \\sigma \\lor \\rho )$ ",
+        "bbox": [
+            101,
+            439,
+            816,
+            780
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/487aac6216b3792b2442c83243b379df301df24eeea9649063e9e39143ea14ca.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            68,
+            431,
+            97,
+            768
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos 8 / 14 ",
+        "bbox": [
+            218,
+            968,
+            997,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Deducción natural en lógica clásica ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            27,
+            472,
+            90
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Veamos que las reglas $\\neg \\neg _ { e }$ , PBC y LEM son equivalentes. ",
+        "bbox": [
+            57,
+            443,
+            593,
+            486
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 14 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos ",
+        "bbox": [
+            450,
+            972,
+            547,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Deducción natural en lógica clásica ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            27,
+            472,
+            90
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio de la guía ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            325,
+            273,
+            368
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Demostrar en deducción natural que las siguientes fórmulas son teoremas. Para cada una de ellas es imprescindible usar lógica clásica: ",
+        "bbox": [
+            55,
+            372,
+            924,
+            462
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Absurdo clásico: $( \\neg \\tau \\Rightarrow \\bot ) \\Rightarrow \\tau$ Ley de Peirce: $( \\rho \\Rightarrow \\sigma ) \\Rightarrow \\rho ) \\Rightarrow \\rho$ Análisis de casos: $( \\tau \\Rightarrow \\sigma ) \\Rightarrow ( \\neg \\tau \\Rightarrow \\sigma ) \\Rightarrow \\sigma$ ",
+        "bbox": [
+            101,
+            474,
+            536,
+            654
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "10 / 14 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            68,
+            466,
+            97,
+            643
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos ",
+        "bbox": [
+            448,
+            972,
+            547,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Debilitamiento o weakening ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            375,
+            86
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio de la guía ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            156,
+            273,
+            200
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Probar la siguiente propiedad: ",
+        "bbox": [
+            59,
+            203,
+            353,
+            247
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Si $\\Gamma \\vdash \\sigma$ es válido entonces $\\Gamma , \\tau \\vdash \\sigma$ es válido.   \nPista: utilizar inducción estructural sobre la derivación o inducción global sobre su tamaño. ",
+        "bbox": [
+            59,
+            250,
+            940,
+            341
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, ",
+        "bbox": [
+            103,
+            384,
+            220,
+            423
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4a314047edabbf110b3b042e5c542d9d6d78ac840d0d7ab0906313ccea66a3a9.jpg",
+        "text": "$$\n\\frac { \\overline { { Q \\vdash P } } ^ { \\mathrm { \\tiny ~ a x } } \\overline { { P , Q \\vdash Q } } ^ { \\mathrm { \\tiny ~ a x } } } { \\overline { { P , Q \\vdash P \\land Q } } ^ { \\mathrm { \\tiny ~ \\ddots ~ } } \\lor A _ { 1 } } \\lor _ { i _ { 1 } } ^ { \\mathrm { \\tiny ~ a x } } \\lor _ { i } ^ { \\mathrm { \\tiny ~ \\overline { { P , Q , S \\vdash P } } } ^ { \\mathrm { \\tiny ~ a x } } \\mathrm { \\Pi } \\overline { { P , Q } } } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            227,
+            458,
+            737,
+            635
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Para usar esta propiedad como regla en otras derivaciones: ",
+        "bbox": [
+            105,
+            709,
+            646,
+            756
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ab03b7d78e9a85e9480224131ca1438b0268b35f948c9d012b6415f362afe069.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\sigma } { \\Gamma , \\tau \\vdash \\sigma } \\ : \\mathsf { w }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            463,
+            784,
+            578,
+            878
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            376,
+            94,
+            415
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            705,
+            94,
+            745
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos 11 / 14 ",
+        "bbox": [
+            214,
+            968,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Debilitamiento o weakening ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            375,
+            90
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "En la sección Útil del campus pueden encontrar una   \nDemostración (parcial) de Weakening para Deducción Natural, hecha con inducción estructural sobre la derivación. ",
+        "bbox": [
+            52,
+            407,
+            942,
+            549
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos 12 / 14 ",
+        "bbox": [
+            220,
+            968,
+            997,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Último ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            419,
+            238,
+            466
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Demostrar en deducción natural que vale $\\vdash ( \\rho \\lor \\tau ) \\land ( \\sigma \\lor \\tau ) \\Rightarrow \\tau \\lor ( \\rho \\land \\sigma ) .$ ",
+        "bbox": [
+            64,
+            470,
+            777,
+            517
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Deducción natural ",
+        "bbox": [
+            17,
+            31,
+            253,
+            86
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas deductivos 13 / 14 ",
+        "bbox": [
+            218,
+            968,
+            997,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/9d5cd92a8c30f4e1392ade2a4e7cff3b22c58ef45149da6d4e0e8305794a7640.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            11,
+            74,
+            300,
+            556
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "¿Preguntas? ",
+        "bbox": [
+            364,
+            360,
+            631,
+            462
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            774,
+            423,
+            913,
+            658
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            205,
+            639,
+            355,
+            890
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            607,
+            11,
+            706,
+            180
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            607,
+            780,
+            708,
+            972
+        ],
+        "page_idx": 14
+    }
+]

@@ -1,0 +1,990 @@
+[
+    {
+        "type": "text",
+        "text": "Práctica No 2 - Razonamiento ecuacional e inducción estructural ",
+        "text_level": 1,
+        "bbox": [
+            115,
+            86,
+            875,
+            107
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Para resolver esta práctica se recomienda tener a mano las soluciones de los ejercicios de la práctica 1, así como también los apuntes de las clases teóricas y prácticas de Programación Funcional. ",
+        "bbox": [
+            99,
+            131,
+            904,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "En las demostraciones por inducción estructural, justi\u001cque todos los pasos: por qué axioma, por qué lema, por qué puede aplicarse la hipótesis inductiva, etc. Es importante escribir el esquema de inducción, planteando claramente los casos base e inductivos, e identi\u001ccando la hipótesis inductiva y la tesis inductiva. ",
+        "bbox": [
+            92,
+            160,
+            907,
+            203
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "El alcance de todos los cuanti\u001ccadores que se utilicen debe estar claramente de\u001cnido (si no hay paréntesis, se entiende que llegan hasta el \u001cnal). ",
+        "bbox": [
+            92,
+            203,
+            902,
+            230
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Demuestre todas las propiedades auxiliares (lemas) que utilice. ",
+        "bbox": [
+            114,
+            231,
+            584,
+            246
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Los ejercicios marcados con el símbolo $\\star$ constituyen un subconjunto mínimo de ejercitación. Sin embargo, aconsejamos fuertemente hacer todos los ejercicios. ",
+        "bbox": [
+            92,
+            247,
+            902,
+            273
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Extensionalidad y lemas de generación ",
+        "text_level": 1,
+        "bbox": [
+            292,
+            288,
+            705,
+            303
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            307,
+            205,
+            322
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sean las siguientes de\u001cniciones de funciones: ",
+        "bbox": [
+            99,
+            329,
+            425,
+            344
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "- intercambiar $( { \\bf x } , { \\bf y } ) \\ = \\ ( { \\bf y } , { \\bf x } )$ - espejar (Left x) = Right $\\mathtt { x }$ espejar (Right $\\mathtt { x }$ ) $=$ Left $\\mathtt { x }$ - asociarI $( { \\bf x } , ( { \\bf y } , { \\bf z } ) ) = ( ( { \\bf x } , { \\bf y } ) , { \\bf z } )$ ",
+        "bbox": [
+            94,
+            359,
+            347,
+            412
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3c119db43867dca8bd52f3c72105780b7eeffd7d62d8b7fa30d2c95d7cbdf586.jpg",
+        "text": "$$\n\\begin{array} { l l l l l } { - } & { \\mathbf { a s o c i a r D } } & { ( ( \\mathbf { x } , \\mathbf { y } ) , \\mathbf { z } ) ) } & { = } & { ( \\mathbf { x } , ( \\mathbf { y } , \\mathbf { z } ) ) } \\\\ { - } & { \\mathbf { f l i p } \\texttt { f x y } } & { \\mathbf { y } \\texttt { = f y x } } \\\\ { - } & { \\mathbf { c u r r y } \\texttt { f x y } } & { = \\texttt { f } ( \\mathbf { x } , \\mathbf { y } ) } \\\\ { - } & { \\mathbf { u n c u r r y } \\texttt { f } ( \\mathbf { x } , \\mathbf { y } ) } & { = \\texttt { f x y } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            502,
+            357,
+            771,
+            414
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes igualdades usando los lemas de generación cuando sea necesario: ",
+        "bbox": [
+            92,
+            425,
+            751,
+            439
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. $\\forall \\ \\mathtt { p } : : ( \\mathtt { a } , \\mathtt { b } )$ . intercambiar (intercambiar ${ \\mathfrak { p } } ) = { \\mathfrak { p } }$   \nii. $\\forall \\mathtt { p } : : ( \\mathtt { a } , ( \\mathtt { b } , \\mathtt { c } ) )$ . asociarD (asociarI p) = p   \niii. $\\forall \\ : \\mathtt { p }$ ::Either a b . espejar (espejar p) = p   \niv. ∀ f::a->b->c . ∀ x::a . ∀ y::b . flip (flip f) $\\texttt { x y } = \\texttt { f x y }$   \nv. ∀ f::a->b->c . ∀ x::a . ∀ y::b . curry (uncurry f) $\\texttt { x y } = \\texttt { f x y }$ ",
+        "bbox": [
+            105,
+            449,
+            648,
+            560
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 } ~ \\star$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            574,
+            205,
+            588
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes igualdades utilizando el principio de extensionalidad funcional: ",
+        "bbox": [
+            99,
+            595,
+            742,
+            611
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. flip . $\\mathtt { f } 1 \\mathtt { i p } = \\mathtt { i d }$   \nii. $\\forall ~ \\mathbf { f } : : ( \\mathtt { a } , \\mathtt { b } )  \\mathtt { c }$ . uncurry (curry f) = f   \niii. flip const $=$ const id   \niv. $\\begin{array} { r l } & { \\forall \\textup { f } \\colon \\colon \\colon \\mathsf { a } \\mathrm { - } > \\flat \\ \\cdot \\forall \\ \\mathsf { g } \\colon \\colon \\flat \\mathrm { - } > \\mathsf { c } \\ . \\ \\cdot \\forall \\ \\mathrm { h } \\colon \\colon \\mathsf { c } \\mathrm { - } > \\mathsf { d } \\ \\cdot \\ \\left( \\mathrm { (  ~ h ~ \\cdot ~ } \\ \\textup { g } ) \\ \\mathrm { \\texttt { . } f } \\right) \\ = \\ \\mathrm { ( \\mathrm { h } ~ \\cdot ~ } \\ \\textup { ( \\mathsf { g } . ~ f ) } \\ ) } \\\\ & { \\mathrm { c o n ~ l a ~ d e f i n i c i o n ~ u s u a l ~ d e ~ l a ~ c o m p o s i c i o n } \\ \\cdot \\mathrm { ( \\cdot , ~ ) } \\ \\textup { f } \\ \\mathsf { g } \\ \\textup { x } = \\textup { f } \\ \\textup { ( \\ ' \\textup { g } x ) } . } \\end{array}$ ",
+        "bbox": [
+            105,
+            621,
+            675,
+            724
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inducción sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            383,
+            755,
+            616,
+            769
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "En esta sección usaremos las siguientes de\u001cniciones (y las de elem, foldr, foldl, map y \u001clter vistas en clase): ",
+        "bbox": [
+            115,
+            774,
+            904,
+            789
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "length :: [a] -> Int {L0} length $\\ \\left[ \\begin{array} { l l } { \\right] } & { = \\ 0 } \\end{array}$ {L1} length $\\mathrm { { ( \\mathbf { x } : \\mathbf { x } s ) \\ = \\ \\mathbf { 1 } \\ + \\ \\mathbf { 1 } e n g t h \\ x s } }$ ",
+        "bbox": [
+            94,
+            803,
+            394,
+            846
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "duplicar :: [a] -> [a] {D0} duplicar $\\begin{array} { l l } { \\left[ \\begin{array} { l l l } \\end{array} \\right] } \\end{array} =  &  \\left[ \\begin{array} { l l l } \\end{array} \\right]$ {D1} duplicar $( { \\bf { x } } : { \\bf { x } } { \\bf { s } } ) \\ = \\ { \\bf { x } }$ : x : duplicar xs $\\begin{array} { l } { { ( + + ) \\quad : : \\quad [ { \\mathsf { a } } ] \\quad - > \\quad [ { \\mathsf { a } } ] \\quad - > \\quad [ { \\mathsf { a } } ] } } \\\\ { { \\{ + + 0 \\} \\quad [ ] \\quad + + \\mathrm {  ~ \\ y s ~ } = \\mathrm {  ~ \\ y s ~ } } } \\\\ { { \\{ + + 1 \\} \\quad ( \\mathrm {  ~ x : x s } ) \\quad + + \\mathrm {  ~ \\ y s ~ } = \\mathrm {  ~ x ~ } : \\quad ( \\mathrm { \\bf x s } + + \\mathrm {  ~ \\ y s } ) } } \\end{array}$ append :: [a] -> [a] -> [a] {A0} append xs ys $=$ foldr (:) ys xs reverse :: [a] -> [a] {R0} reverse $=$ foldl (flip (:)) [] ",
+        "bbox": [
+            92,
+            859,
+            465,
+            903
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            504,
+            801,
+            818,
+            933
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Página 1 de 5 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            91,
+            206,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes propiedades: ",
+        "bbox": [
+            117,
+            124,
+            394,
+            139
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. ∀ xs::[a] . length (duplicar xs) = 2 \\* length xs   \nii. ∀ xs::[a] . $\\forall$ ys::[a] . length $( \\bf { x } \\ l { s } + \\bf { y } { s } ) \\ l { \\tau } = \\mathrm { ~ 1 ~ }$ ength xs $^ +$ length ys   \niii. ∀ xs::[a] . ∀ x::a . [x] ++ xs = x:xs   \niv. ∀ xs::[a] . xs ++ [] = xs   \nv. ∀ xs::[a] . ∀ ys::[a] . ∀ zs::[a] . (xs ++ ys) ++ zs = xs ++ (ys ++ zs)   \nvi. ∀ xs::[a] . ∀ f::(a->b) . length (map f xs) $=$ length xs   \nvii. ∀ xs::[a] . ∀ p::a->Bool . ∀ e::a . (elem e (filter p xs) $\\Rightarrow$ elem e xs) (si vale Eq a) ",
+        "bbox": [
+            105,
+            145,
+            820,
+            291
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $^ { 4 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            303,
+            206,
+            317
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes propiedades: ",
+        "bbox": [
+            99,
+            322,
+            374,
+            337
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. reverse $=$ foldr (\\x rec -> rec ++ (x:[])) [] ii. ∀ xs::[a] . ∀ ys::[a] . reverse (xs ++ ys) = reverse ys $^ { + + }$ reverse xs iii. ∀ xs::[a] . ∀ x::a . reverse $\\mathbf { \\bar { x } s } \\ \\mathbf { \\eta } + + \\mathbf { \\eta } \\left[ \\mathbf { x } \\right] \\mathbf { \\eta } ) \\ = \\ \\mathbf { x }$ :reverse xs ",
+        "bbox": [
+            107,
+            342,
+            724,
+            400
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nota: en adelante, siempre que se necesite usar reverse, se podrá utilizar cualquiera de las dos de\u001cniciones, según se considere conveniente. ",
+        "bbox": [
+            92,
+            406,
+            904,
+            435
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 5 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            442,
+            184,
+            455
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes propiedades utilizando inducción estructural sobre listas, lemas de generación y el principio de extensionalidad funcional. ",
+        "bbox": [
+            92,
+            461,
+            905,
+            489
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. reverse . reverse $=$ id ii. append $= ( + + )$ iii. map $\\mathrm { i d } \\ = \\ \\mathrm { i d }$ iv. ∀ f::a->b . ∀ g::b->c . map (g . f) = map g . map f v. ∀ f::a->b . ∀ p::b->Bool . map f . filter (p . f) $=$ filter p . map f vi. ∀ f::a->b . ∀ e::a . $\\forall$ xs::[a] . (elem e xs $\\Rightarrow$ elem (f e) (map f xs)) (con Eq a y Eq b) vii. ∀ xs::[a] . ∀ e::a . (elem e $\\mathbf { x s } \\Rightarrow \\textsf { e }$ $\\leq$ maximum xs) (si vale Ord a), donde: maximum :: Ord a $= >$ [a] -> a {M0} maximum $[ \\mathbf { x } ] ~ = ~ \\mathbf { x }$ {M1} maximum (x:y:xs) = max x (maximum (y:xs)) ",
+        "bbox": [
+            95,
+            497,
+            833,
+            690
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: usar $\\forall \\mathtt { w } : : \\mathtt { m t }$ . ∀ x::Int . ∀ y::Int . ∀ z::Int . w ≤ x ∧ y ≤ z ⇒ max w $\\textrm { y } \\leq$ max x z ",
+        "bbox": [
+            102,
+            695,
+            828,
+            711
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\textbf { 6 } \\star$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            717,
+            205,
+            731
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes funciones: ",
+        "bbox": [
+            99,
+            736,
+            326,
+            750
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "zip :: [a] -> [b] -> [(a,b)] {Z0} zip $=$ foldr (\\x rec ys -> if null ys then [] else (x, head ys) : rec (tail ys)) (const []) ",
+        "bbox": [
+            94,
+            755,
+            589,
+            841
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { z i p } ^ { \\prime } : : [ \\mathbf { a } ] \\ - > [ \\mathbf { b } ] \\ - > [ ( \\mathbf { a } , \\mathbf { b } ) ]$   \n{Z'0} zip' [] $\\tt y s = \\tt [ \\tt ]$   \n{Z'1} zip' (x:xs) $\\mathrm { ~ y ~ s ~ } = \\mathrm { ~ i f ~ }$ null ys then [] else (x, head ys):zip' xs (tail ys) ",
+        "bbox": [
+            90,
+            853,
+            779,
+            898
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar que $\\mathsf { z i p } = \\mathsf { z i p } ^ { \\mathsf { , } }$ utilizando inducción estructural y el principio de extensionalidad. ",
+        "bbox": [
+            105,
+            902,
+            811,
+            919
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            675,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Página 2 de 5 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 7 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            205,
+            105
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes funciones: ",
+        "bbox": [
+            99,
+            112,
+            326,
+            127
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "nub :: Eq a $= >$ [a] -> [a]   \n{N0} nub $\\begin{array} { l l } { \\left[ \\begin{array} { l l l } \\end{array} \\right] } \\end{array} =  &  \\left[ \\begin{array} { l l l } \\end{array} \\right]$   \n{N1} nub $( { \\bf { x } } : { \\bf { x } } { \\bf { s } } ) \\ = \\ { \\bf { x } }$ : filter (\\y -> x /= y) (nub xs) ",
+        "bbox": [
+            94,
+            137,
+            552,
+            183
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "union :: Eq a $= >$ [a] -> [a] -> [a] {U0} union xs ys $=$ nub ( $\\bf { \\sigma } _ { x s + + y s } ,$ ) ",
+        "bbox": [
+            94,
+            195,
+            436,
+            224
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "intersect :: Eq a $= >$ [a] -> [a] -> [a] {I0} intersect xs ys $=$ filter (\\e -> elem e ys) xs ",
+        "bbox": [
+            94,
+            237,
+            536,
+            267
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Y la siguiente propiedad que vale para todos los tipos a y b pertenecientes a la clase Eq: {CONGRUENCIA $= = \\}$ ∀ x::a . $\\forall$ y::a . ∀ f::a->b . $( \\texttt { a } = \\texttt { b } \\Rightarrow \\texttt { f } \\texttt { a } = \\texttt { f b } )$ ",
+        "bbox": [
+            109,
+            278,
+            768,
+            307
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Indicar si las siguientes propiedades son verdaderas o falsas. Si son verdaderas, realizar una demostración. Si son falsas, presentar un contraejemplo. ",
+        "bbox": [
+            94,
+            307,
+            905,
+            335
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. Eq a $= >$ ∀ xs::[a] . ∀ e::a . ∀ p::a -> Bool . elem e xs && p $\\begin{array} { r l } { \\mathsf { a } } & { { } = } \\end{array}$ elem e (filter p xs) ii. Eq a $\\Rightarrow \\forall$ xs::[a] . $\\forall$ e::a . elem e xs = elem e (nub xs) iii. Eq a $\\Rightarrow \\forall$ xs::[a] . $\\forall$ ys::[a] . $\\forall$ e::a . elem e (union xs ys) $=$ (elem e xs) || (elem e ys) iv. Eq a $\\Rightarrow \\forall$ xs::[a]. ∀ ys::[a]. ∀ e::a . elem e (intersect xs ys) $=$ (elem e xs) && (elem e ys) v. Eq a $\\Rightarrow \\forall$ xs::[a] . $\\forall$ ys::[a] . length (union xs ys) $=$ length xs $^ +$ length ys vi. Eq a $= >$ ∀ xs::[a] . ∀ ys::[a] . length (union xs ys) $\\leq$ length xs $^ +$ length ys ",
+        "bbox": [
+            105,
+            347,
+            905,
+            482
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 8 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            498,
+            184,
+            512
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dadas las de\u001cniciones usuales de foldr y foldl, demostrar las siguientes propiedades: ",
+        "bbox": [
+            94,
+            519,
+            731,
+            535
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. ∀ f::a->b->b . ∀ z::b . ∀ xs, ys::[a] . foldr f z (xs ++ ys) $=$ foldr f (foldr f z ys) xs ii. ∀ f::b->a->b . ∀ z::b . ∀ xs, ys::[a] . foldl f z (xs ++ ys) $=$ foldl f (foldl f z xs) ys ",
+        "bbox": [
+            110,
+            543,
+            877,
+            583
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Página 3 de 5 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Otras estructuras de datos ",
+        "text_level": 1,
+        "bbox": [
+            352,
+            90,
+            647,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 9 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            108,
+            184,
+            121
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Demostrar que la función potencia de\u001cnida en la práctica 1 usando foldNat funciona correctamente mediante inducción en el exponente. ",
+        "bbox": [
+            92,
+            127,
+            904,
+            155
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 0 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            162,
+            213,
+            177
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Dadas las funciones altura y cantNodos de\u001cnidas en la práctica 1 para árboles binarios, demostrar la siguiente propiedad: ",
+        "bbox": [
+            94,
+            183,
+            902,
+            210
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "∀ x::AB a . altura $\\texttt { x } \\leq$ cantNodos x ",
+        "bbox": [
+            117,
+            212,
+            403,
+            225
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 11 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            233,
+            193,
+            247
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Dada la siguiente función: ",
+        "bbox": [
+            99,
+            253,
+            290,
+            267
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "truncar :: AB a $^ { - > }$ Int $^ { - > }$ AB a   \n{T0} truncar $\\mathbb { N } \\mathrm { i } \\mathrm { 1 ~ \\Omega ~ } \\setminus \\mathrm { ~ \\Omega ~ } = \\mathrm { ~ \\mathbb { N } i \\mathrm { 1 } ~ }$   \n{T1} truncar (Bin i r d) n = if $\\texttt { n } = = \\texttt { 0 }$ then Nil else Bin (truncar i (n-1)) r (truncar d (n-1)) ",
+        "bbox": [
+            100,
+            275,
+            848,
+            316
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Y los siguientes lemas: ",
+        "bbox": [
+            115,
+            336,
+            272,
+            349
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1. ∀ x:: 2. ∀ x:: ${ \\begin{array} { r l } & { \\colon { \\mathrm { I n t ~ . ~ } } \\forall : \\colon { \\mathrm { I n t ~ . ~ } } \\forall z : \\colon { \\mathrm { I n t ~ . ~ } } { \\mathrm { ~ m a x ~ } } ( { \\mathrm { m i n ~ x ~ y } } ) \\ ( { \\mathrm { m i n ~ x ~ z } } ) = { \\mathrm { m i n ~ x ~ } } ( { \\mathrm { m a x ~ y ~ z } } ) } \\\\ & { \\colon { \\mathrm { I n t ~ . ~ } } \\forall : \\colon { \\mathrm { I n t ~ . ~ } } \\forall z : \\colon { \\mathrm { I n t ~ . ~ z } } + { \\mathrm { m i n ~ x ~ y } } = { \\mathrm { m i n ~ } } ( \\mathbf { z } + \\mathbf { x } ) \\ ( \\mathbf { z } + \\mathbf { y } ) } \\end{array} }$ Demostrar las siguientes propiedades: i. ∀ t::AB a . altura $\\mathrm { ~ t ~ } \\geq 0$   \nii. ∀ t::AB a . ∀ n::Int . $\\left( \\mathbf { n } \\geq \\ 0 \\Rightarrow \\right.$ (altura (truncar t n) = min n (altura t))) ",
+        "bbox": [
+            92,
+            354,
+            714,
+            437
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 12 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            445,
+            194,
+            460
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes funciones: ",
+        "bbox": [
+            94,
+            467,
+            352,
+            480
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "inorder :: AB a -> [a] {I0} inorder $=$ foldAB [] (\\ri x rd -> ri ++ (x:rd)) elemAB :: Eq a => a -> AB a -> Bool {A0} elemAB e $=$ foldAB False (\\ri x rd -> ( $\\mathbf { \\Psi } _ { \\mathbf { { e } } } \\ = \\mathbf { \\Psi } \\mathbf { x } .$ ) || ri || rd) elem :: Eq a $= >$ a $^ { - > }$ [a] -> Bool {E0} elem e $=$ foldr (\\x rec $^ { - > }$ ( $\\mathbf { \\Psi } _ { \\mathbf { e } } \\ = \\ \\mathbf { x } .$ ) || rec) False ",
+        "bbox": [
+            110,
+            487,
+            667,
+            602
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Demostrar la siguiente propiedad: Eq $\\textsf { a } = > \\forall$ e::a . elemAB $\\begin{array} { r l } { \\mathtt { e } } & { { } = } \\end{array}$ elem e . inorder ",
+        "bbox": [
+            115,
+            623,
+            495,
+            651
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 3 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            657,
+            213,
+            671
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Dados el tipo Polinomio y su esquema de recursión estructural foldPoli de\u001cnidos en la práctica 1, y las siguientes funciones: ",
+        "bbox": [
+            87,
+            677,
+            905,
+            706
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "evaluar :: Num a $= >$ a -> Polinomio a -> a {E} evaluar n $=$ foldPoli n id $( + )$ (\\*) ",
+        "bbox": [
+            92,
+            714,
+            457,
+            741
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "derivado :: Num a $= >$ Polinomio a -> Polinomio a   \n{D} derivado poli $=$ case poli of X $^ { - > }$ Cte 1 Cte _ $^ { - > }$ Cte 0 Suma p q $^ { - > }$ Suma (derivado p) (derivado q) Prod p q -> Suma (Prod (derivado p) q) (Prod (derivado q) p) ",
+        "bbox": [
+            92,
+            756,
+            657,
+            841
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "sinConstantesNegativas :: Num a $= >$ Polinomio a $^ { - > }$ Bool {S} sinConstantesNegativas $=$ foldPoli True ( $\\scriptstyle \\cdot > = 0$ ) (&&) (&&) ",
+        "bbox": [
+            92,
+            856,
+            605,
+            884
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "esRaiz :: Num a $= >$ a $^ { - > }$ Polinomio a $^ { - > }$ Bool {ER} esRaiz n p $=$ evaluar n $\\texttt { p } = = \\texttt { 0 }$ ",
+        "bbox": [
+            92,
+            898,
+            473,
+            927
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Página 4 de 5 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes propiedades: ",
+        "bbox": [
+            94,
+            91,
+            371,
+            105
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "i. Num a $\\Rightarrow \\forall$ p::Polinomio a . $\\forall$ q::Polinomio a . $\\forall$ r::a . (esRaiz r p $\\Rightarrow$ esRaiz r (Prod p q)) ii. Num a $\\Rightarrow \\forall$ p::Polinomio a . ∀ k::a . $\\forall$ e::a . evaluar e (derivado (Prod (Cte k) p)) $=$ evaluar e (Prod (Cte k) (derivado p)) iii. Num a $\\Rightarrow \\forall$ p::Polinomio a. (sinConstantesNegativas $\\mathtt { p } \\Rightarrow$ sinConstantesNegativas (derivado p)) ",
+        "bbox": [
+            94,
+            117,
+            909,
+            195
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "La recursión utilizada en la de\u001cnición de la función derivado ¾es estructural, primitiva o ninguna de las dos? ",
+        "bbox": [
+            89,
+            205,
+            904,
+            221
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 14 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            240,
+            194,
+            254
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes de\u001cniciones: ",
+        "bbox": [
+            94,
+            261,
+            369,
+            275
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "data AIH a $=$ Hoja a | Bin (AIH a) (AIH a) ",
+        "bbox": [
+            99,
+            285,
+            463,
+            300
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "hojas :: AIH a -> [a] espejo :: AIH a -> AIH a {H0} hojas (Hoja h) = [h] {E0} espejo (Hoja h) $=$ Hoja h {H1} hojas (Bin i d) $=$ hojas a $^ { + + }$ hojas d {E1} espejo (Bin i d) $=$ Bin (espejo d) (espejo i) ",
+        "bbox": [
+            100,
+            313,
+            946,
+            357
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes propiedades: ",
+        "bbox": [
+            94,
+            385,
+            371,
+            399
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "i. $\\forall ~ \\mathbf { x } : : \\mathsf { A I H }$ a . $\\forall ~ \\mathtt { y } : \\mathtt { A I H }$ a . ∀ z::AIH a . hojas (Bin x (Bin y z)) $=$ hojas (Bin (Bin x y) z)   \nii. espejo . espejo = id   \niii. ∀ x::AIH a . hojas (espejo x) $=$ reverse (hojas x) ",
+        "bbox": [
+            104,
+            407,
+            870,
+            472
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Página 5 de 5 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 4
+    }
+]

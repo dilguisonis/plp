@@ -1,0 +1,4461 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        12,
+                        12,
+                        176,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                10,
+                                177,
+                                30
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        10,
+                                        177,
+                                        30
+                                    ],
+                                    "score": 0.999,
+                                    "content": "Machete: Tipos y Términos",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        9,
+                        33,
+                        223,
+                        45
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                33,
+                                224,
+                                45
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        33,
+                                        224,
+                                        45
+                                    ],
+                                    "score": 0.996,
+                                    "content": "Las expresiones de tipos (o simplemente tipos) son",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        127,
+                        51,
+                        234,
+                        65
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                51,
+                                234,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        51,
+                                        234,
+                                        65
+                                    ],
+                                    "score": 0.71,
+                                    "content": "\\sigma : : = { \\mathsf { B o o l } } \\mid { \\mathsf { N a t } } \\mid \\sigma \\to \\sigma",
+                                    "type": "interline_equation",
+                                    "image_path": "b03ebef1fb6e904a53634e302997221c7dae5096d0ac4a38e54c6b03bcc601fa.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                127,
+                                51,
+                                234,
+                                65
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        9,
+                        72,
+                        349,
+                        96
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                72,
+                                348,
+                                84
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        72,
+                                        27,
+                                        84
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Sea",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        27,
+                                        73,
+                                        38,
+                                        83
+                                    ],
+                                    "score": 0.66,
+                                    "content": "\\mathcal { X }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        38,
+                                        72,
+                                        235,
+                                        84
+                                    ],
+                                    "score": 0.996,
+                                    "content": "un conjunto infinito enumerable de variables y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        235,
+                                        73,
+                                        262,
+                                        83
+                                    ],
+                                    "score": 0.59,
+                                    "content": "x \\in \\mathcal { X }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        263,
+                                        72,
+                                        348,
+                                        84
+                                    ],
+                                    "score": 0.967,
+                                    "content": ". Los términos estan",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                8,
+                                83,
+                                54,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        8,
+                                        83,
+                                        54,
+                                        97
+                                    ],
+                                    "score": 0.996,
+                                    "content": "dados por",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 3.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        131,
+                        104,
+                        234,
+                        251
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                103,
+                                167,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        103,
+                                        167,
+                                        116
+                                    ],
+                                    "score": 0.894,
+                                    "content": "M := x",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                118,
+                                187,
+                                131
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        118,
+                                        187,
+                                        131
+                                    ],
+                                    "score": 0.803,
+                                    "content": "|入x : σ.M",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                133,
+                                173,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        133,
+                                        173,
+                                        146
+                                    ],
+                                    "score": 0.834,
+                                    "content": "|M M",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                138,
+                                147,
+                                168,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        138,
+                                        147,
+                                        168,
+                                        162
+                                    ],
+                                    "score": 0.944,
+                                    "content": "|true",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                162,
+                                169,
+                                177
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        162,
+                                        169,
+                                        177
+                                    ],
+                                    "score": 0.904,
+                                    "content": "| false",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                178,
+                                234,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        178,
+                                        234,
+                                        190
+                                    ],
+                                    "score": 0.896,
+                                    "content": "|if M then M else M",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                141,
+                                193,
+                                168,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        141,
+                                        193,
+                                        168,
+                                        207
+                                    ],
+                                    "score": 0.989,
+                                    "content": "zero",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                141,
+                                208,
+                                185,
+                                222
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        141,
+                                        208,
+                                        185,
+                                        222
+                                    ],
+                                    "score": 0.949,
+                                    "content": "| succ(M)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                222,
+                                186,
+                                237
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        222,
+                                        186,
+                                        237
+                                    ],
+                                    "score": 0.973,
+                                    "content": "| pred(M)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                236,
+                                192,
+                                253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        236,
+                                        192,
+                                        253
+                                    ],
+                                    "score": 0.966,
+                                    "content": "| isZero(M)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        }
+                    ],
+                    "index": 9.5
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                362,
+                272
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        268,
+                        262,
+                        361,
+                        271
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                268,
+                                261,
+                                362,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        268,
+                                        262,
+                                        324,
+                                        271
+                                    ],
+                                    "score": 0.997,
+                                    "content": "28 de abril de 2025",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        261,
+                                        362,
+                                        272
+                                    ],
+                                    "score": 0.999,
+                                    "content": "1/7",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        262,
+                        120,
+                        271
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        0,
+                        181,
+                        9
+                    ],
+                    "lines": []
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        12,
+                        12,
+                        176,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                10,
+                                177,
+                                30
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        10,
+                                        177,
+                                        30
+                                    ],
+                                    "score": 0.999,
+                                    "content": "Machete: Tipos y Términos",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        9,
+                        33,
+                        223,
+                        45
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                33,
+                                224,
+                                45
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        33,
+                                        224,
+                                        45
+                                    ],
+                                    "score": 0.996,
+                                    "content": "Las expresiones de tipos (o simplemente tipos) son",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1,
+                    "bbox_fs": [
+                        9,
+                        33,
+                        224,
+                        45
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        127,
+                        51,
+                        234,
+                        65
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                51,
+                                234,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        51,
+                                        234,
+                                        65
+                                    ],
+                                    "score": 0.71,
+                                    "content": "\\sigma : : = { \\mathsf { B o o l } } \\mid { \\mathsf { N a t } } \\mid \\sigma \\to \\sigma",
+                                    "type": "interline_equation",
+                                    "image_path": "b03ebef1fb6e904a53634e302997221c7dae5096d0ac4a38e54c6b03bcc601fa.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                127,
+                                51,
+                                234,
+                                65
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        9,
+                        72,
+                        349,
+                        96
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                72,
+                                348,
+                                84
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        72,
+                                        27,
+                                        84
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Sea",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        27,
+                                        73,
+                                        38,
+                                        83
+                                    ],
+                                    "score": 0.66,
+                                    "content": "\\mathcal { X }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        38,
+                                        72,
+                                        235,
+                                        84
+                                    ],
+                                    "score": 0.996,
+                                    "content": "un conjunto infinito enumerable de variables y",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        235,
+                                        73,
+                                        262,
+                                        83
+                                    ],
+                                    "score": 0.59,
+                                    "content": "x \\in \\mathcal { X }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        263,
+                                        72,
+                                        348,
+                                        84
+                                    ],
+                                    "score": 0.967,
+                                    "content": ". Los términos estan",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                8,
+                                83,
+                                54,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        8,
+                                        83,
+                                        54,
+                                        97
+                                    ],
+                                    "score": 0.996,
+                                    "content": "dados por",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 3.5,
+                    "bbox_fs": [
+                        8,
+                        72,
+                        348,
+                        97
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        131,
+                        104,
+                        234,
+                        251
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                103,
+                                167,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        103,
+                                        167,
+                                        116
+                                    ],
+                                    "score": 0.894,
+                                    "content": "M := x",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                118,
+                                187,
+                                131
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        118,
+                                        187,
+                                        131
+                                    ],
+                                    "score": 0.803,
+                                    "content": "|入x : σ.M",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                133,
+                                173,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        133,
+                                        173,
+                                        146
+                                    ],
+                                    "score": 0.834,
+                                    "content": "|M M",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                138,
+                                147,
+                                168,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        138,
+                                        147,
+                                        168,
+                                        162
+                                    ],
+                                    "score": 0.944,
+                                    "content": "|true",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                162,
+                                169,
+                                177
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        162,
+                                        169,
+                                        177
+                                    ],
+                                    "score": 0.904,
+                                    "content": "| false",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                178,
+                                234,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        178,
+                                        234,
+                                        190
+                                    ],
+                                    "score": 0.896,
+                                    "content": "|if M then M else M",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                141,
+                                193,
+                                168,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        141,
+                                        193,
+                                        168,
+                                        207
+                                    ],
+                                    "score": 0.989,
+                                    "content": "zero",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                141,
+                                208,
+                                185,
+                                222
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        141,
+                                        208,
+                                        185,
+                                        222
+                                    ],
+                                    "score": 0.949,
+                                    "content": "| succ(M)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                222,
+                                186,
+                                237
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        222,
+                                        186,
+                                        237
+                                    ],
+                                    "score": 0.973,
+                                    "content": "| pred(M)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                140,
+                                236,
+                                192,
+                                253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        140,
+                                        236,
+                                        192,
+                                        253
+                                    ],
+                                    "score": 0.966,
+                                    "content": "| isZero(M)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        }
+                    ],
+                    "index": 9.5,
+                    "bbox_fs": [
+                        128,
+                        103,
+                        234,
+                        253
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        229,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                10,
+                                230,
+                                29
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        10,
+                                        230,
+                                        29
+                                    ],
+                                    "score": 0.991,
+                                    "content": "Machete: Axiomas y reglas de tipado",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        67,
+                        75,
+                        295,
+                        93
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                73,
+                                296,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        73,
+                                        169,
+                                        93
+                                    ],
+                                    "score": 0.931,
+                                    "content": "「├ true : Bool T-True",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        191,
+                                        80,
+                                        258,
+                                        93
+                                    ],
+                                    "score": 0.907,
+                                    "content": "├ false : Bool",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        259,
+                                        74,
+                                        296,
+                                        89
+                                    ],
+                                    "score": 0.999,
+                                    "content": "T-False",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        133,
+                        106,
+                        229,
+                        124
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                133,
+                                106,
+                                229,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        133,
+                                        106,
+                                        229,
+                                        124
+                                    ],
+                                    "score": 0.31,
+                                    "content": "\\overline { { \\Gamma , x : \\sigma \\vdash x : \\sigma } } ^ { } ^ { } \\overline { { \\cal T } } \\ l V a r",
+                                    "type": "interline_equation",
+                                    "image_path": "f8a14388249302295acd4d7a1e5234aff017024ebe9527654d5c9b05e8ba8395.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                133,
+                                106,
+                                229,
+                                124
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        92,
+                        136,
+                        271,
+                        161
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                136,
+                                271,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        136,
+                                        271,
+                                        161
+                                    ],
+                                    "score": 0.59,
+                                    "content": "\\frac { \\Gamma \\vdash M : \\mathsf { B o o l } \\quad \\Gamma \\vdash P : \\sigma \\quad \\Gamma \\vdash Q : \\sigma } { \\Gamma \\vdash \\mathsf { i f } M \\ t h e n \\ : P \\ : \\mathsf { e l s e } \\ : Q : \\sigma } \\quad T . I f",
+                                    "type": "interline_equation",
+                                    "image_path": "732a59c2352f0f73baced0bac01dde42f79f33de6b68901e6849cc852b27f341.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                92,
+                                136,
+                                271,
+                                161
+                            ],
+                            "spans": [],
+                            "index": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        70,
+                        173,
+                        254,
+                        198
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                173,
+                                254,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        173,
+                                        254,
+                                        198
+                                    ],
+                                    "score": 0.62,
+                                    "content": "\\frac { \\therefore \\sigma vdash M : \\tau } { : \\sigma . M : \\sigma  \\tau } \\ T . A b s \\quad \\frac { \\Gamma \\vdash M : \\sigma  \\tau \\quad \\Gamma } { \\Gamma \\vdash M \\ : N : \\tau }",
+                                    "type": "interline_equation",
+                                    "image_path": "fd15d5e70c5536530d2da31e7d596f915741d9c6089ac6f66ab581d2fe551f3e.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                70,
+                                173,
+                                254,
+                                198
+                            ],
+                            "spans": [],
+                            "index": 4
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                362,
+                272
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        268,
+                        262,
+                        361,
+                        271
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                268,
+                                261,
+                                361,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        268,
+                                        262,
+                                        324,
+                                        271
+                                    ],
+                                    "score": 0.997,
+                                    "content": "28 de abril de 2025",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        261,
+                                        361,
+                                        272
+                                    ],
+                                    "score": 0.998,
+                                    "content": "2/7",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        262,
+                        120,
+                        271
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        1,
+                        0,
+                        181,
+                        9
+                    ],
+                    "lines": []
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        229,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                10,
+                                230,
+                                29
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        10,
+                                        230,
+                                        29
+                                    ],
+                                    "score": 0.991,
+                                    "content": "Machete: Axiomas y reglas de tipado",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        67,
+                        75,
+                        295,
+                        93
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                73,
+                                296,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        73,
+                                        169,
+                                        93
+                                    ],
+                                    "score": 0.931,
+                                    "content": "「├ true : Bool T-True",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        191,
+                                        80,
+                                        258,
+                                        93
+                                    ],
+                                    "score": 0.907,
+                                    "content": "├ false : Bool",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        259,
+                                        74,
+                                        296,
+                                        89
+                                    ],
+                                    "score": 0.999,
+                                    "content": "T-False",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1,
+                    "bbox_fs": [
+                        68,
+                        73,
+                        296,
+                        93
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        133,
+                        106,
+                        229,
+                        124
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                133,
+                                106,
+                                229,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        133,
+                                        106,
+                                        229,
+                                        124
+                                    ],
+                                    "score": 0.31,
+                                    "content": "\\overline { { \\Gamma , x : \\sigma \\vdash x : \\sigma } } ^ { } ^ { } \\overline { { \\cal T } } \\ l V a r",
+                                    "type": "interline_equation",
+                                    "image_path": "f8a14388249302295acd4d7a1e5234aff017024ebe9527654d5c9b05e8ba8395.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                133,
+                                106,
+                                229,
+                                124
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        92,
+                        136,
+                        271,
+                        161
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                136,
+                                271,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        136,
+                                        271,
+                                        161
+                                    ],
+                                    "score": 0.59,
+                                    "content": "\\frac { \\Gamma \\vdash M : \\mathsf { B o o l } \\quad \\Gamma \\vdash P : \\sigma \\quad \\Gamma \\vdash Q : \\sigma } { \\Gamma \\vdash \\mathsf { i f } M \\ t h e n \\ : P \\ : \\mathsf { e l s e } \\ : Q : \\sigma } \\quad T . I f",
+                                    "type": "interline_equation",
+                                    "image_path": "732a59c2352f0f73baced0bac01dde42f79f33de6b68901e6849cc852b27f341.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                92,
+                                136,
+                                271,
+                                161
+                            ],
+                            "spans": [],
+                            "index": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        70,
+                        173,
+                        254,
+                        198
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                173,
+                                254,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        173,
+                                        254,
+                                        198
+                                    ],
+                                    "score": 0.62,
+                                    "content": "\\frac { \\therefore \\sigma vdash M : \\tau } { : \\sigma . M : \\sigma  \\tau } \\ T . A b s \\quad \\frac { \\Gamma \\vdash M : \\sigma  \\tau \\quad \\Gamma } { \\Gamma \\vdash M \\ : N : \\tau }",
+                                    "type": "interline_equation",
+                                    "image_path": "fd15d5e70c5536530d2da31e7d596f915741d9c6089ac6f66ab581d2fe551f3e.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                70,
+                                173,
+                                254,
+                                198
+                            ],
+                            "spans": [],
+                            "index": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        228,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                10,
+                                230,
+                                30
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        10,
+                                        230,
+                                        30
+                                    ],
+                                    "score": 0.992,
+                                    "content": "Machete: Axiomas y reglas de tipado",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            ],
+            "page_idx": 2,
+            "page_size": [
+                362,
+                272
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        268,
+                        263,
+                        361,
+                        271
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                268,
+                                262,
+                                361,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        268,
+                                        262,
+                                        324,
+                                        271
+                                    ],
+                                    "score": 0.996,
+                                    "content": "28 de abril de 2025",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        262,
+                                        361,
+                                        272
+                                    ],
+                                    "score": 0.999,
+                                    "content": "3/7",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        262,
+                        120,
+                        271
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        1,
+                        0,
+                        181,
+                        9
+                    ],
+                    "lines": []
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        228,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                10,
+                                230,
+                                30
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        10,
+                                        230,
+                                        30
+                                    ],
+                                    "score": 0.992,
+                                    "content": "Machete: Axiomas y reglas de tipado",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        202,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                9,
+                                203,
+                                29
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        9,
+                                        203,
+                                        29
+                                    ],
+                                    "score": 0.976,
+                                    "content": "Machete: Semäntica operacional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        89,
+                        78,
+                        273,
+                        91
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                76,
+                                275,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        76,
+                                        166,
+                                        93
+                                    ],
+                                    "score": 0.952,
+                                    "content": "V : = true | false |",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        78,
+                                        210,
+                                        91
+                                    ],
+                                    "score": 0.42,
+                                    "content": "\\lambda x : \\sigma . M \\mid",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        210,
+                                        76,
+                                        275,
+                                        93
+                                    ],
+                                    "score": 0.966,
+                                    "content": " zero | succ(V)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        11,
+                        97,
+                        317,
+                        109
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                95,
+                                318,
+                                111
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        95,
+                                        197,
+                                        111
+                                    ],
+                                    "score": 0.982,
+                                    "content": "(Los valores de tipo Nat pueden escribirse como",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        198,
+                                        100,
+                                        204,
+                                        108
+                                    ],
+                                    "score": 0.69,
+                                    "content": "\\underline { n }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        205,
+                                        95,
+                                        318,
+                                        111
+                                    ],
+                                    "score": 0.946,
+                                    "content": ", lo cual abrevia succ\"(zero)).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        10,
+                        123,
+                        148,
+                        134
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                121,
+                                149,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        121,
+                                        149,
+                                        136
+                                    ],
+                                    "score": 0.976,
+                                    "content": "Reglas de Evaluacion en un paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        53,
+                        139,
+                        309,
+                        206
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                52,
+                                136,
+                                310,
+                                156
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        137,
+                                        67,
+                                        154
+                                    ],
+                                    "score": 0.981,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        67,
+                                        140,
+                                        109,
+                                        152
+                                    ],
+                                    "score": 0.89,
+                                    "content": "M _ { 1 }  M _ { 1 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        109,
+                                        137,
+                                        158,
+                                        154
+                                    ],
+                                    "score": 0.96,
+                                    "content": ", entonces",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        140,
+                                        226,
+                                        153
+                                    ],
+                                    "score": 0.9,
+                                    "content": "M _ { 1 } M _ { 2 }  M _ { 1 } ^ { \\prime } M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        137,
+                                        228,
+                                        154
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        248,
+                                        136,
+                                        310,
+                                        156
+                                    ],
+                                    "score": 0.865,
+                                    "content": "(E-App1 O μ)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                163,
+                                310,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        163,
+                                        71,
+                                        181
+                                    ],
+                                    "score": 0.989,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        166,
+                                        113,
+                                        178
+                                    ],
+                                    "score": 0.92,
+                                    "content": "M _ { 2 }  M _ { 2 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        114,
+                                        163,
+                                        163,
+                                        181
+                                    ],
+                                    "score": 0.931,
+                                    "content": ", entonces",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        166,
+                                        221,
+                                        178
+                                    ],
+                                    "score": 0.75,
+                                    "content": "V M _ { 2 }  V M _ { 2 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        163,
+                                        224,
+                                        181
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        248,
+                                        163,
+                                        310,
+                                        182
+                                    ],
+                                    "score": 0.899,
+                                    "content": "(E-App2 0 ν)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                79,
+                                189,
+                                310,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        191,
+                                        200,
+                                        205
+                                    ],
+                                    "score": 0.87,
+                                    "content": "( \\lambda x : \\sigma . M ) V \\to M \\{ x : = V \\}",
+                                    "type": "inline_equation",
+                                    "image_path": "97fb5e23f3bbc05834dc1049e01d92ba84bfe17ddd95e1f687a0121b486b70e9.jpg"
+                                },
+                                {
+                                    "bbox": [
+                                        234,
+                                        189,
+                                        291,
+                                        207
+                                    ],
+                                    "score": 0.976,
+                                    "content": "(E-AppAbs 0",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        292,
+                                        194,
+                                        299,
+                                        204
+                                    ],
+                                    "score": 0.34,
+                                    "content": "\\beta",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        300,
+                                        189,
+                                        310,
+                                        207
+                                    ],
+                                    "score": 0.992,
+                                    "content": "）",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 5
+                }
+            ],
+            "page_idx": 3,
+            "page_size": [
+                362,
+                272
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        268,
+                        262,
+                        361,
+                        271
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                268,
+                                261,
+                                362,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        268,
+                                        262,
+                                        324,
+                                        271
+                                    ],
+                                    "score": 0.997,
+                                    "content": "28 de abril de 2025",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        261,
+                                        362,
+                                        272
+                                    ],
+                                    "score": 0.999,
+                                    "content": "4/7",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        0,
+                        182,
+                        9
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        262,
+                        120,
+                        271
+                    ],
+                    "lines": []
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        202,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                9,
+                                203,
+                                29
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        9,
+                                        203,
+                                        29
+                                    ],
+                                    "score": 0.976,
+                                    "content": "Machete: Semäntica operacional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        89,
+                        78,
+                        273,
+                        91
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                76,
+                                275,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        76,
+                                        166,
+                                        93
+                                    ],
+                                    "score": 0.952,
+                                    "content": "V : = true | false |",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        78,
+                                        210,
+                                        91
+                                    ],
+                                    "score": 0.42,
+                                    "content": "\\lambda x : \\sigma . M \\mid",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        210,
+                                        76,
+                                        275,
+                                        93
+                                    ],
+                                    "score": 0.966,
+                                    "content": " zero | succ(V)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1,
+                    "bbox_fs": [
+                        87,
+                        76,
+                        275,
+                        93
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        11,
+                        97,
+                        317,
+                        109
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                95,
+                                318,
+                                111
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        95,
+                                        197,
+                                        111
+                                    ],
+                                    "score": 0.982,
+                                    "content": "(Los valores de tipo Nat pueden escribirse como",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        198,
+                                        100,
+                                        204,
+                                        108
+                                    ],
+                                    "score": 0.69,
+                                    "content": "\\underline { n }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        205,
+                                        95,
+                                        318,
+                                        111
+                                    ],
+                                    "score": 0.946,
+                                    "content": ", lo cual abrevia succ\"(zero)).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "bbox_fs": [
+                        9,
+                        95,
+                        318,
+                        111
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        10,
+                        123,
+                        148,
+                        134
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                121,
+                                149,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        121,
+                                        149,
+                                        136
+                                    ],
+                                    "score": 0.976,
+                                    "content": "Reglas de Evaluacion en un paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        53,
+                        139,
+                        309,
+                        206
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                52,
+                                136,
+                                310,
+                                156
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        137,
+                                        67,
+                                        154
+                                    ],
+                                    "score": 0.981,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        67,
+                                        140,
+                                        109,
+                                        152
+                                    ],
+                                    "score": 0.89,
+                                    "content": "M _ { 1 }  M _ { 1 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        109,
+                                        137,
+                                        158,
+                                        154
+                                    ],
+                                    "score": 0.96,
+                                    "content": ", entonces",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        159,
+                                        140,
+                                        226,
+                                        153
+                                    ],
+                                    "score": 0.9,
+                                    "content": "M _ { 1 } M _ { 2 }  M _ { 1 } ^ { \\prime } M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        137,
+                                        228,
+                                        154
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        248,
+                                        136,
+                                        310,
+                                        156
+                                    ],
+                                    "score": 0.865,
+                                    "content": "(E-App1 O μ)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                163,
+                                310,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        163,
+                                        71,
+                                        181
+                                    ],
+                                    "score": 0.989,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        166,
+                                        113,
+                                        178
+                                    ],
+                                    "score": 0.92,
+                                    "content": "M _ { 2 }  M _ { 2 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        114,
+                                        163,
+                                        163,
+                                        181
+                                    ],
+                                    "score": 0.931,
+                                    "content": ", entonces",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        166,
+                                        221,
+                                        178
+                                    ],
+                                    "score": 0.75,
+                                    "content": "V M _ { 2 }  V M _ { 2 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        163,
+                                        224,
+                                        181
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        248,
+                                        163,
+                                        310,
+                                        182
+                                    ],
+                                    "score": 0.899,
+                                    "content": "(E-App2 0 ν)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                79,
+                                189,
+                                310,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        191,
+                                        200,
+                                        205
+                                    ],
+                                    "score": 0.87,
+                                    "content": "( \\lambda x : \\sigma . M ) V \\to M \\{ x : = V \\}",
+                                    "type": "inline_equation",
+                                    "image_path": "97fb5e23f3bbc05834dc1049e01d92ba84bfe17ddd95e1f687a0121b486b70e9.jpg"
+                                },
+                                {
+                                    "bbox": [
+                                        234,
+                                        189,
+                                        291,
+                                        207
+                                    ],
+                                    "score": 0.976,
+                                    "content": "(E-AppAbs 0",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        292,
+                                        194,
+                                        299,
+                                        204
+                                    ],
+                                    "score": 0.34,
+                                    "content": "\\beta",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        300,
+                                        189,
+                                        310,
+                                        207
+                                    ],
+                                    "score": 0.992,
+                                    "content": "）",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 5,
+                    "bbox_fs": [
+                        52,
+                        136,
+                        310,
+                        207
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        202,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                9,
+                                203,
+                                29
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        9,
+                                        203,
+                                        29
+                                    ],
+                                    "score": 0.976,
+                                    "content": "Machete: Semäntica operacional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        10,
+                        87,
+                        148,
+                        98
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                85,
+                                149,
+                                100
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        85,
+                                        149,
+                                        100
+                                    ],
+                                    "score": 0.964,
+                                    "content": "Reglas de Evaluacion en un paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        85,
+                        104,
+                        316,
+                        117
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                102,
+                                317,
+                                119
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        102,
+                                        140,
+                                        119
+                                    ],
+                                    "score": 0.991,
+                                    "content": " if true then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        141,
+                                        105,
+                                        155,
+                                        116
+                                    ],
+                                    "score": 0.83,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        155,
+                                        102,
+                                        175,
+                                        119
+                                    ],
+                                    "score": 0.996,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        176,
+                                        105,
+                                        217,
+                                        116
+                                    ],
+                                    "score": 0.91,
+                                    "content": "M _ { 3 }  M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        218,
+                                        102,
+                                        220,
+                                        119
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        266,
+                                        102,
+                                        317,
+                                        119
+                                    ],
+                                    "score": 0.979,
+                                    "content": "(E-IfTrue)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        90,
+                        130,
+                        311,
+                        144
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                128,
+                                312,
+                                145
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        128,
+                                        141,
+                                        145
+                                    ],
+                                    "score": 0.96,
+                                    "content": "if false then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        142,
+                                        131,
+                                        155,
+                                        142
+                                    ],
+                                    "score": 0.87,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        156,
+                                        128,
+                                        176,
+                                        145
+                                    ],
+                                    "score": 0.996,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        176,
+                                        131,
+                                        218,
+                                        142
+                                    ],
+                                    "score": 0.89,
+                                    "content": "M _ { 3 }  M _ { 3 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        219,
+                                        128,
+                                        220,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        264,
+                                        128,
+                                        312,
+                                        145
+                                    ],
+                                    "score": 0.98,
+                                    "content": "(E-IfFalse)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        50,
+                        156,
+                        259,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                100,
+                                155,
+                                205,
+                                170
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        100,
+                                        155,
+                                        114,
+                                        170
+                                    ],
+                                    "score": 0.995,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        114,
+                                        157,
+                                        156,
+                                        169
+                                    ],
+                                    "score": 0.92,
+                                    "content": "M _ { 1 }  M _ { 1 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        156,
+                                        155,
+                                        205,
+                                        170
+                                    ],
+                                    "score": 0.939,
+                                    "content": "， entonces",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                48,
+                                164,
+                                259,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        164,
+                                        60,
+                                        183
+                                    ],
+                                    "score": 0.989,
+                                    "content": "if",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        169,
+                                        74,
+                                        180
+                                    ],
+                                    "score": 0.85,
+                                    "content": "M _ { 1 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        164,
+                                        98,
+                                        183
+                                    ],
+                                    "score": 0.999,
+                                    "content": "then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        98,
+                                        169,
+                                        112,
+                                        180
+                                    ],
+                                    "score": 0.85,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        113,
+                                        164,
+                                        133,
+                                        183
+                                    ],
+                                    "score": 0.994,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        169,
+                                        184,
+                                        181
+                                    ],
+                                    "score": 0.82,
+                                    "content": "M _ { 3 }  \\mathsf { i f } \\ M _ { 1 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        184,
+                                        164,
+                                        208,
+                                        183
+                                    ],
+                                    "score": 0.998,
+                                    "content": "then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        208,
+                                        169,
+                                        222,
+                                        180
+                                    ],
+                                    "score": 0.79,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        164,
+                                        242,
+                                        183
+                                    ],
+                                    "score": 0.998,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        243,
+                                        169,
+                                        256,
+                                        180
+                                    ],
+                                    "score": 0.59,
+                                    "content": "M _ { 3 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        164,
+                                        259,
+                                        183
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 4.5
+                }
+            ],
+            "page_idx": 4,
+            "page_size": [
+                362,
+                272
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        268,
+                        263,
+                        361,
+                        271
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                267,
+                                261,
+                                362,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        267,
+                                        262,
+                                        324,
+                                        271
+                                    ],
+                                    "score": 0.994,
+                                    "content": "28 de abril de 2025",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        261,
+                                        362,
+                                        272
+                                    ],
+                                    "score": 0.999,
+                                    "content": "5/7",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        202,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                9,
+                                203,
+                                29
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        9,
+                                        203,
+                                        29
+                                    ],
+                                    "score": 0.976,
+                                    "content": "Machete: Semäntica operacional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        10,
+                        87,
+                        148,
+                        98
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                85,
+                                149,
+                                100
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        85,
+                                        149,
+                                        100
+                                    ],
+                                    "score": 0.964,
+                                    "content": "Reglas de Evaluacion en un paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        85,
+                        104,
+                        316,
+                        117
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                102,
+                                317,
+                                119
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        102,
+                                        140,
+                                        119
+                                    ],
+                                    "score": 0.991,
+                                    "content": " if true then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        141,
+                                        105,
+                                        155,
+                                        116
+                                    ],
+                                    "score": 0.83,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        155,
+                                        102,
+                                        175,
+                                        119
+                                    ],
+                                    "score": 0.996,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        176,
+                                        105,
+                                        217,
+                                        116
+                                    ],
+                                    "score": 0.91,
+                                    "content": "M _ { 3 }  M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        218,
+                                        102,
+                                        220,
+                                        119
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        266,
+                                        102,
+                                        317,
+                                        119
+                                    ],
+                                    "score": 0.979,
+                                    "content": "(E-IfTrue)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "bbox_fs": [
+                        86,
+                        102,
+                        317,
+                        119
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        90,
+                        130,
+                        311,
+                        144
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                128,
+                                312,
+                                145
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        128,
+                                        141,
+                                        145
+                                    ],
+                                    "score": 0.96,
+                                    "content": "if false then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        142,
+                                        131,
+                                        155,
+                                        142
+                                    ],
+                                    "score": 0.87,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        156,
+                                        128,
+                                        176,
+                                        145
+                                    ],
+                                    "score": 0.996,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        176,
+                                        131,
+                                        218,
+                                        142
+                                    ],
+                                    "score": 0.89,
+                                    "content": "M _ { 3 }  M _ { 3 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        219,
+                                        128,
+                                        220,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        264,
+                                        128,
+                                        312,
+                                        145
+                                    ],
+                                    "score": 0.98,
+                                    "content": "(E-IfFalse)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "bbox_fs": [
+                        88,
+                        128,
+                        312,
+                        145
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        50,
+                        156,
+                        259,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                100,
+                                155,
+                                205,
+                                170
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        100,
+                                        155,
+                                        114,
+                                        170
+                                    ],
+                                    "score": 0.995,
+                                    "content": "Si",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        114,
+                                        157,
+                                        156,
+                                        169
+                                    ],
+                                    "score": 0.92,
+                                    "content": "M _ { 1 }  M _ { 1 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        156,
+                                        155,
+                                        205,
+                                        170
+                                    ],
+                                    "score": 0.939,
+                                    "content": "， entonces",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                48,
+                                164,
+                                259,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        164,
+                                        60,
+                                        183
+                                    ],
+                                    "score": 0.989,
+                                    "content": "if",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        169,
+                                        74,
+                                        180
+                                    ],
+                                    "score": 0.85,
+                                    "content": "M _ { 1 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        164,
+                                        98,
+                                        183
+                                    ],
+                                    "score": 0.999,
+                                    "content": "then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        98,
+                                        169,
+                                        112,
+                                        180
+                                    ],
+                                    "score": 0.85,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        113,
+                                        164,
+                                        133,
+                                        183
+                                    ],
+                                    "score": 0.994,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        169,
+                                        184,
+                                        181
+                                    ],
+                                    "score": 0.82,
+                                    "content": "M _ { 3 }  \\mathsf { i f } \\ M _ { 1 } ^ { \\prime }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        184,
+                                        164,
+                                        208,
+                                        183
+                                    ],
+                                    "score": 0.998,
+                                    "content": "then",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        208,
+                                        169,
+                                        222,
+                                        180
+                                    ],
+                                    "score": 0.79,
+                                    "content": "M _ { 2 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        164,
+                                        242,
+                                        183
+                                    ],
+                                    "score": 0.998,
+                                    "content": "else",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        243,
+                                        169,
+                                        256,
+                                        180
+                                    ],
+                                    "score": 0.59,
+                                    "content": "M _ { 3 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        164,
+                                        259,
+                                        183
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 4.5,
+                    "bbox_fs": [
+                        48,
+                        155,
+                        259,
+                        183
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        202,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                9,
+                                204,
+                                30
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        9,
+                                        204,
+                                        30
+                                    ],
+                                    "score": 0.979,
+                                    "content": "Machete: Semäntica operacional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        10,
+                        45,
+                        148,
+                        57
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                43,
+                                149,
+                                59
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        43,
+                                        149,
+                                        59
+                                    ],
+                                    "score": 0.969,
+                                    "content": "Reglas de Evaluacion en un paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        48,
+                        59,
+                        359,
+                        209
+                    ],
+                    "blocks": [
+                        {
+                            "type": "table_body",
+                            "bbox": [
+                                48,
+                                59,
+                                359,
+                                209
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        59,
+                                        359,
+                                        209
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                48,
+                                                59,
+                                                359,
+                                                209
+                                            ],
+                                            "score": 0.38,
+                                            "html": "<table><tr><td>pred(succ(n)) → n</td><td>(E-PredSucc)</td></tr><tr><td>Opcional*: pred(zero) -→ zero</td><td>(E-Predo)</td></tr><tr><td>isZero(zero) → true</td><td>(E-IsZeroo)</td></tr><tr><td>isZero(succ(n)) → false</td><td>(E-IsZeron)</td></tr><tr><td>Si M -&gt; N, entonces succ(M) -→ succ(N)</td><td>(E-Succ)</td></tr><tr><td>Si M → N, entonces pred(M) → pred(N)</td><td>(E-Pred)</td></tr><tr><td>Si M →→ N, entonces isZero(M) → isZero(N)</td><td>(E-IsZero)</td></tr></table>",
+                                            "type": "table",
+                                            "image_path": "f65e6f04b0bcbd5327c66b8e63a59f2e9e92265e7b7a0208f5ea408c494fe9a4.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        59,
+                                        359,
+                                        109.0
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        48,
+                                        109.0,
+                                        359,
+                                        159.0
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                },
+                                {
+                                    "bbox": [
+                                        48,
+                                        159.0,
+                                        359,
+                                        209.0
+                                    ],
+                                    "spans": [],
+                                    "index": 4
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        9,
+                        228,
+                        334,
+                        251
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                227,
+                                332,
+                                240
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        227,
+                                        86,
+                                        240
+                                    ],
+                                    "score": 0.991,
+                                    "content": "*lntroducir la regla",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        229,
+                                        108,
+                                        239
+                                    ],
+                                    "score": 0.38,
+                                    "content": "\\mathsf { p r e d } _ { 0 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        108,
+                                        227,
+                                        332,
+                                        240
+                                    ],
+                                    "score": 0.982,
+                                    "content": "restaura la propiedad de Progreso,pero ya no modela los",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                9,
+                                240,
+                                171,
+                                251
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        240,
+                                        171,
+                                        251
+                                    ],
+                                    "score": 0.986,
+                                    "content": "naturales tradicionales, sino una variante.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 5.5
+                }
+            ],
+            "page_idx": 5,
+            "page_size": [
+                362,
+                272
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        0,
+                        181,
+                        9
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        268,
+                        263,
+                        361,
+                        271
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                267,
+                                261,
+                                362,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        267,
+                                        262,
+                                        324,
+                                        271
+                                    ],
+                                    "score": 0.991,
+                                    "content": "28 de abril de 2025",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        261,
+                                        362,
+                                        272
+                                    ],
+                                    "score": 0.999,
+                                    "content": "6/7",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        11,
+                        12,
+                        202,
+                        28
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                9,
+                                204,
+                                30
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        9,
+                                        204,
+                                        30
+                                    ],
+                                    "score": 0.979,
+                                    "content": "Machete: Semäntica operacional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        10,
+                        45,
+                        148,
+                        57
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                43,
+                                149,
+                                59
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        43,
+                                        149,
+                                        59
+                                    ],
+                                    "score": 0.969,
+                                    "content": "Reglas de Evaluacion en un paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        48,
+                        59,
+                        359,
+                        209
+                    ],
+                    "blocks": [
+                        {
+                            "type": "table_body",
+                            "bbox": [
+                                48,
+                                59,
+                                359,
+                                209
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        59,
+                                        359,
+                                        209
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                48,
+                                                59,
+                                                359,
+                                                209
+                                            ],
+                                            "score": 0.38,
+                                            "html": "<table><tr><td>pred(succ(n)) → n</td><td>(E-PredSucc)</td></tr><tr><td>Opcional*: pred(zero) -→ zero</td><td>(E-Predo)</td></tr><tr><td>isZero(zero) → true</td><td>(E-IsZeroo)</td></tr><tr><td>isZero(succ(n)) → false</td><td>(E-IsZeron)</td></tr><tr><td>Si M -&gt; N, entonces succ(M) -→ succ(N)</td><td>(E-Succ)</td></tr><tr><td>Si M → N, entonces pred(M) → pred(N)</td><td>(E-Pred)</td></tr><tr><td>Si M →→ N, entonces isZero(M) → isZero(N)</td><td>(E-IsZero)</td></tr></table>",
+                                            "type": "table",
+                                            "image_path": "f65e6f04b0bcbd5327c66b8e63a59f2e9e92265e7b7a0208f5ea408c494fe9a4.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        59,
+                                        359,
+                                        109.0
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        48,
+                                        109.0,
+                                        359,
+                                        159.0
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                },
+                                {
+                                    "bbox": [
+                                        48,
+                                        159.0,
+                                        359,
+                                        209.0
+                                    ],
+                                    "spans": [],
+                                    "index": 4
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        9,
+                        228,
+                        334,
+                        251
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                227,
+                                332,
+                                240
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        227,
+                                        86,
+                                        240
+                                    ],
+                                    "score": 0.991,
+                                    "content": "*lntroducir la regla",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        229,
+                                        108,
+                                        239
+                                    ],
+                                    "score": 0.38,
+                                    "content": "\\mathsf { p r e d } _ { 0 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        108,
+                                        227,
+                                        332,
+                                        240
+                                    ],
+                                    "score": 0.982,
+                                    "content": "restaura la propiedad de Progreso,pero ya no modela los",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                9,
+                                240,
+                                171,
+                                251
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        240,
+                                        171,
+                                        251
+                                    ],
+                                    "score": 0.986,
+                                    "content": "naturales tradicionales, sino una variante.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 5.5,
+                    "bbox_fs": [
+                        9,
+                        227,
+                        332,
+                        251
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        138,
+                        92,
+                        226,
+                        106
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                138,
+                                92,
+                                226,
+                                106
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        138,
+                                        92,
+                                        226,
+                                        106
+                                    ],
+                                    "score": 0.85,
+                                    "content": "M : : = \\dots | \\mu x : \\tau . M",
+                                    "type": "interline_equation",
+                                    "image_path": "00ddee05ec6b68ccf18f53a5c9a7627904b3bb425c00a831de99af91549b6416.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                138,
+                                92,
+                                226,
+                                106
+                            ],
+                            "spans": [],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        130,
+                        124,
+                        232,
+                        150
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                130,
+                                124,
+                                232,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        130,
+                                        124,
+                                        232,
+                                        150
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\Gamma , x : \\sigma \\vdash M : \\sigma } { \\Gamma \\vdash \\mu x : \\sigma . M : \\sigma } T . F i x",
+                                    "type": "interline_equation",
+                                    "image_path": "073a4baa93ac0473568f87d7ce06e228b4cee7d042cf9afa925dbbc70a2dd191.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                130,
+                                124,
+                                232,
+                                137.0
+                            ],
+                            "spans": [],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                130,
+                                137.0,
+                                232,
+                                150.0
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        95,
+                        167,
+                        268,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                167,
+                                268,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        167,
+                                        268,
+                                        181
+                                    ],
+                                    "score": 0.89,
+                                    "content": "\\mu x : \\sigma . M  M \\{ x : = \\mu x : \\sigma . M \\} \\quad ( E . F i x )",
+                                    "type": "interline_equation",
+                                    "image_path": "34b06318dd2b49ba3a81bbe33e5f25310525a5d55a753ca8df7f4dfcfbe087ff.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                95,
+                                167,
+                                268,
+                                181
+                            ],
+                            "spans": [],
+                            "index": 3
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 6,
+            "page_size": [
+                362,
+                272
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        11,
+                        12,
+                        167,
+                        27
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                9,
+                                169,
+                                30
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        9,
+                                        169,
+                                        30
+                                    ],
+                                    "score": 0.975,
+                                    "content": "Machete: Extensión con μ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        344,
+                        263,
+                        357,
+                        271
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                342,
+                                262,
+                                359,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        342,
+                                        262,
+                                        359,
+                                        272
+                                    ],
+                                    "score": 0.992,
+                                    "content": "7/7",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        262,
+                        120,
+                        271
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        268,
+                        263,
+                        322,
+                        270
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                268,
+                                262,
+                                323,
+                                271
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        268,
+                                        262,
+                                        323,
+                                        271
+                                    ],
+                                    "score": 0.994,
+                                    "content": "28 de abril de 2025",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        0,
+                        0,
+                        181,
+                        9
+                    ],
+                    "lines": []
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        138,
+                        92,
+                        226,
+                        106
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                138,
+                                92,
+                                226,
+                                106
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        138,
+                                        92,
+                                        226,
+                                        106
+                                    ],
+                                    "score": 0.85,
+                                    "content": "M : : = \\dots | \\mu x : \\tau . M",
+                                    "type": "interline_equation",
+                                    "image_path": "00ddee05ec6b68ccf18f53a5c9a7627904b3bb425c00a831de99af91549b6416.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                138,
+                                92,
+                                226,
+                                106
+                            ],
+                            "spans": [],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        130,
+                        124,
+                        232,
+                        150
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                130,
+                                124,
+                                232,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        130,
+                                        124,
+                                        232,
+                                        150
+                                    ],
+                                    "score": 0.93,
+                                    "content": "\\frac { \\Gamma , x : \\sigma \\vdash M : \\sigma } { \\Gamma \\vdash \\mu x : \\sigma . M : \\sigma } T . F i x",
+                                    "type": "interline_equation",
+                                    "image_path": "073a4baa93ac0473568f87d7ce06e228b4cee7d042cf9afa925dbbc70a2dd191.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                130,
+                                124,
+                                232,
+                                137.0
+                            ],
+                            "spans": [],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                130,
+                                137.0,
+                                232,
+                                150.0
+                            ],
+                            "spans": [],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        95,
+                        167,
+                        268,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                167,
+                                268,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        167,
+                                        268,
+                                        181
+                                    ],
+                                    "score": 0.89,
+                                    "content": "\\mu x : \\sigma . M  M \\{ x : = \\mu x : \\sigma . M \\} \\quad ( E . F i x )",
+                                    "type": "interline_equation",
+                                    "image_path": "34b06318dd2b49ba3a81bbe33e5f25310525a5d55a753ca8df7f4dfcfbe087ff.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                95,
+                                167,
+                                268,
+                                181
+                            ],
+                            "spans": [],
+                            "index": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.7.6"
+}

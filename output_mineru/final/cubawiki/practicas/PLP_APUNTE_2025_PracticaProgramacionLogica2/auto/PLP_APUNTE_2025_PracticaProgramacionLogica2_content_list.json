@@ -1,0 +1,3466 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas (de Lenguajes) de Programaci´on ",
+        "bbox": [
+            240,
+            433,
+            759,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            320,
+            533,
+            679,
+            591
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "7 de noviembre de 2025 ",
+        "bbox": [
+            359,
+            639,
+            640,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Programaci´on L´ogica - Parte 2 ",
+        "bbox": [
+            80,
+            224,
+            939,
+            382
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nomenclatura para patrones de instanciaci´on ",
+        "text_level": 1,
+        "bbox": [
+            127,
+            25,
+            867,
+            88
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Por convenci´on se aclara mediante prefijos en los comentarios: ",
+        "bbox": [
+            80,
+            198,
+            792,
+            242
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1 $\\mathtt { p } ( { + } \\mathtt { A } )$ indica que A debe proveerse instanciado. ",
+        "bbox": [
+            104,
+            253,
+            676,
+            294
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "p(-A) indica que A no debe estar instanciado. ",
+        "bbox": [
+            116,
+            308,
+            665,
+            349
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "p(?A) indica que A puede o no proveerse instanciado. ",
+        "bbox": [
+            116,
+            363,
+            754,
+            404
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Existe un ´ultimo caso en donde un argumento puede aparecer sem instanciado (es decir, contiene variables libres), por ejemplo: [p,r,o,X,o, ] unifica con [p,r,o,l,o,g] pero no con [] o prolog. ",
+        "bbox": [
+            107,
+            419,
+            895,
+            595
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nomenclatura para patrones de instanciaci´on ",
+        "text_level": 1,
+        "bbox": [
+            127,
+            25,
+            870,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por convenci´on se aclara mediante prefijos en los comentarios: ",
+        "bbox": [
+            80,
+            198,
+            792,
+            242
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\mathtt { p } ( { + } \\mathtt { A } )$ indica que A debe proveerse instanciado.   \np(-A) indica que A no debe estar instanciado.   \np(?A) indica que A puede o no proveerse instanciado.   \nExiste un ´ultimo caso en donde un argumento puede aparecer semi instanciado (es decir, contiene variables libres), por ejemplo: [p,r,o,X,o, ] unifica con [p,r,o,l,o,g] pero no con [] o prolog. ",
+        "bbox": [
+            102,
+            224,
+            917,
+            595
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Predicados ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            625,
+            273,
+            665
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "var(A) tiene ´exito si A es una variable libre.   \nnonvar(A) tiene ´exito si A no es una variable libre.   \nground(A) tiene ´exito si A no contiene variables libres. ",
+        "bbox": [
+            102,
+            683,
+            720,
+            834
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: i´esimo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            382,
+            265,
+            422
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Implementar el predicado iesimo $( + \\mathbb { I }$ , $+ \\mathbb { L }$ , -X), donde X es el i´esimo elemento de la lista L. ",
+        "bbox": [
+            99,
+            437,
+            872,
+            522
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            29,
+            571,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: i´esimo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            382,
+            265,
+            422
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Implementar el predicado iesimo $( + \\mathbb { I }$ , $+ \\mathbb { L }$ , -X), donde X es el i´esimo elemento de la lista L. ",
+        "bbox": [
+            99,
+            437,
+            878,
+            522
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "¿Es nuestra implementaci´on reversible en I? Si no lo es, hacer una versi´on reversible. ",
+        "bbox": [
+            116,
+            536,
+            900,
+            621
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            29,
+            571,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El predicado desde. ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            327,
+            306,
+            367
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "desde(X, X).   \ndesde(X, Y) :- N is ${ \\tt X } { + } 1$ , desde(N, Y). ",
+        "bbox": [
+            71,
+            386,
+            558,
+            466
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            29,
+            571,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "El predicado desde. ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            327,
+            306,
+            367
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "desde(X, X).   \ndesde(X, Y) :- N is ${ \\tt X } { + } 1$ , desde(N, Y). ",
+        "bbox": [
+            74,
+            386,
+            558,
+            466
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: desde ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            514,
+            256,
+            555
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo deben instanciarse los par´ametros para que el predicado funcione? (es decir, para que no se cuelgue ni produzca un error). ¿Por qu´e? ",
+        "bbox": [
+            99,
+            569,
+            895,
+            698
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            29,
+            571,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "El predicado desde. ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            272,
+            306,
+            308
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "desde(X, X).   \ndesde(X, Y) :- N is ${ \\tt X } { + } 1$ , desde(N, Y). ",
+        "bbox": [
+            74,
+            327,
+            558,
+            408
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: desde ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            455,
+            256,
+            500
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo deben instanciarse los par´ametros para que el predicado funcione? (es decir, para que no se cuelgue ni produzca un error). ¿Por qu´e? ",
+        "bbox": [
+            102,
+            514,
+            892,
+            639
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Implementar el predicado desdeReversible( $+ \\tt X$ ,?Y) tal que si Y est´a instanciada, sea verdadero si Y es mayor o igual que X, y si no lo est´a, genere todos los Y de X en adelante. ",
+        "bbox": [
+            102,
+            658,
+            906,
+            786
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            25,
+            571,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado pmq( $( + \\tt X$ , -Y) que genera todos los naturales pares menores o iguales a X. ",
+        "bbox": [
+            74,
+            400,
+            906,
+            485
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            77,
+            514,
+            124,
+            555
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "R is X mod Y unifica R con el resto de dividir X por Y. ",
+        "bbox": [
+            107,
+            569,
+            773,
+            610
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            29,
+            571,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Una t´ecnica que usaremos muy a menudo es: ",
+        "bbox": [
+            74,
+            161,
+            602,
+            202
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1 Generar todas las posibles soluciones de un problema. (L´ease, los candidatos a soluci´on, seg´un cierto criterio general) ",
+        "bbox": [
+            93,
+            257,
+            748,
+            345
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "2 Testear cada una de las soluciones generadas. ",
+        "bbox": [
+            93,
+            397,
+            654,
+            437
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(Hacer que fallen los candidatos que no cumplan cierto criterio particular) ",
+        "bbox": [
+            93,
+            448,
+            773,
+            481
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "La idea se basa fuertemente en el orden en que se procesan las reglas. ",
+        "bbox": [
+            82,
+            500,
+            823,
+            536
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/72a6e0592f970e6e87e36257cd948c0c1169cfb51a5562efdb4986cb9336a06d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            298,
+            562,
+            701,
+            886
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Esquema general de Generate & Test ",
+        "bbox": [
+            0,
+            0,
+            809,
+            99
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Esquema general de Generate & Test ",
+        "text_level": 1,
+        "bbox": [
+            193,
+            25,
+            803,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Un predicado que usa el esquema G&T se define mediante otros dos: ",
+        "bbox": [
+            66,
+            264,
+            886,
+            308
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "pred(X1,...,Xn) :- generate(X1, ...,Xm), test(X1, ...,Xm). ",
+        "bbox": [
+            74,
+            341,
+            917,
+            393
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Esta divisi´on de tareas implica que: ",
+        "bbox": [
+            74,
+            507,
+            483,
+            547
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "generate(...) deber´a instanciar ciertas variables. ",
+        "bbox": [
+            107,
+            580,
+            729,
+            625
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "test(...) deber´a verificar si los valores intanciados pertenecen a la soluci´on, pudiendo para ello asumir que ya est´a instanciada. ",
+        "bbox": [
+            102,
+            658,
+            906,
+            746
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            176,
+            400
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado coprimos(-X, -Y) que instancia en X e Y todos los pares de n´umeros coprimos. ",
+        "bbox": [
+            102,
+            415,
+            878,
+            500
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Tip: utilizar la funci´on gcd del motor aritm´etico. X is gcd(15, 8) instancia ${ \\tt X } { = } 1$ , por lo que 15 y 8 son coprimos. ",
+        "bbox": [
+            104,
+            511,
+            919,
+            599
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Generate & Test ",
+        "bbox": [
+            361,
+            25,
+            638,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            176,
+            400
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado coprimos(-X, -Y) que instancia en X e Y todos los pares de n´umeros coprimos. ",
+        "bbox": [
+            102,
+            415,
+            878,
+            500
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Tip: utilizar la funci´on gcd del motor aritm´etico. X is gcd(15, 8) instancia ${ \\tt X } { = } 1$ , por lo que 15 y 8 son coprimos. ",
+        "bbox": [
+            107,
+            511,
+            922,
+            599
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "¿Es reversible en X e Y? Justificar. ",
+        "bbox": [
+            121,
+            613,
+            524,
+            654
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Generate & Test ",
+        "bbox": [
+            361,
+            25,
+            638,
+            84
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            224,
+            511,
+            264
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            41,
+            279,
+            433,
+            397
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            41,
+            441,
+            461,
+            522
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y). pariente(X,Y) :- abuela(X,Y) ",
+        "bbox": [
+            41,
+            566,
+            486,
+            647
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Soluciones repetidas ",
+        "bbox": [
+            331,
+            25,
+            668,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Soluciones repetidas ",
+        "text_level": 1,
+        "bbox": [
+            331,
+            25,
+            668,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            224,
+            511,
+            264
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            41,
+            279,
+            433,
+            397
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Consulta ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            224,
+            734,
+            261
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            41,
+            441,
+            461,
+            522
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y). pariente(X,Y) :- abuela(X,Y) ",
+        "bbox": [
+            41,
+            566,
+            486,
+            647
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "?- pariente(yocasta,X). ",
+        "bbox": [
+            638,
+            275,
+            939,
+            316
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            224,
+            511,
+            264
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            41,
+            279,
+            433,
+            397
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            41,
+            441,
+            461,
+            522
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y). pariente(X,Y) :- abuela(X,Y) ",
+        "bbox": [
+            41,
+            566,
+            486,
+            647
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Consulta ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            224,
+            734,
+            261
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "?- pariente(yocasta,X). ",
+        "bbox": [
+            638,
+            275,
+            939,
+            316
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Resultados ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            389,
+            756,
+            422
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "$=$ edipo; ",
+        "bbox": [
+            638,
+            441,
+            770,
+            477
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Soluciones repetidas ",
+        "bbox": [
+            331,
+            25,
+            668,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            224,
+            511,
+            264
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            41,
+            275,
+            433,
+            397
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            41,
+            441,
+            461,
+            522
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y). pariente(X,Y) :- abuela(X,Y) ",
+        "bbox": [
+            41,
+            566,
+            486,
+            647
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Consulta ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            224,
+            734,
+            261
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "?- pariente(yocasta,X). ",
+        "bbox": [
+            638,
+            275,
+            939,
+            316
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Resultados ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            389,
+            756,
+            422
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "X = edipo;   \nX = ant´ıgona; ",
+        "bbox": [
+            635,
+            441,
+            809,
+            536
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Soluciones repetidas ",
+        "bbox": [
+            331,
+            25,
+            668,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            224,
+            511,
+            264
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            41,
+            275,
+            433,
+            397
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            41,
+            441,
+            461,
+            522
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y). pariente(X,Y) :- abuela(X,Y) ",
+        "bbox": [
+            41,
+            566,
+            486,
+            647
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Consulta ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            224,
+            734,
+            261
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "?- pariente(yocasta,X). ",
+        "bbox": [
+            638,
+            275,
+            939,
+            316
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Resultados ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            389,
+            756,
+            422
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "X = edipo;   \nX = ant´ıgona;   \n$\\texttt { X } =$ ant´ıgona; ",
+        "bbox": [
+            635,
+            441,
+            812,
+            595
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Soluciones repetidas ",
+        "bbox": [
+            331,
+            25,
+            668,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            224,
+            511,
+            264
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            41,
+            275,
+            433,
+            397
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            41,
+            441,
+            461,
+            522
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y). pariente(X,Y) :- abuela(X,Y) ",
+        "bbox": [
+            41,
+            566,
+            486,
+            647
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "¿Razonable o err´oneo? ",
+        "bbox": [
+            124,
+            705,
+            395,
+            746
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Consulta ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            224,
+            734,
+            261
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "?- pariente(yocasta,X). ",
+        "bbox": [
+            638,
+            275,
+            939,
+            316
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Resultados ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            389,
+            756,
+            422
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "X = edipo;   \n$\\texttt { X } =$ ant´ıgona;   \n$\\texttt { X } =$ ant´ıgona;   \nfalse. ",
+        "bbox": [
+            635,
+            441,
+            812,
+            650
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            104,
+            720,
+            118,
+            738
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Soluciones repetidas ",
+        "bbox": [
+            331,
+            25,
+            668,
+            88
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            224,
+            511,
+            264
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            41,
+            275,
+            433,
+            397
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            41,
+            441,
+            461,
+            522
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y). pariente(X,Y) :- abuela(X,Y) ",
+        "bbox": [
+            41,
+            566,
+            486,
+            647
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Consulta ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            224,
+            734,
+            261
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "?- pariente(yocasta,X). ",
+        "bbox": [
+            638,
+            275,
+            939,
+            316
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Resultados ",
+        "text_level": 1,
+        "bbox": [
+            638,
+            389,
+            756,
+            422
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "X = edipo;   \n$\\texttt { X } =$ ant´ıgona;   \n$\\texttt { X } =$ ant´ıgona;   \nfalse. ",
+        "bbox": [
+            635,
+            441,
+            812,
+            650
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "¿Razonable o err´oneo? ",
+        "bbox": [
+            121,
+            705,
+            395,
+            746
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo hacer para evitar repeticiones no deseadas? ",
+        "bbox": [
+            107,
+            783,
+            720,
+            827
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Soluciones repetidas ",
+        "bbox": [
+            331,
+            25,
+            665,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "El metapredicado not ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            305,
+            193,
+            341
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "not(P) :- call(P), !, fail.   \nnot(P). ",
+        "bbox": [
+            71,
+            360,
+            464,
+            441
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "El metapredicado not ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            305,
+            193,
+            341
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "not(P) :- call(P), !, fail.   \nnot(P). ",
+        "bbox": [
+            74,
+            360,
+            464,
+            441
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "not(p(X1, ..., Xn)) tiene ´exito si no existe instanciaci´on posible para las variables no instanciadas en $\\{ \\mathtt { X } 1 \\ldots \\mathtt { X } \\mathtt { n } \\}$ que haga que P tenga ´exito. ",
+        "bbox": [
+            102,
+            544,
+            922,
+            676
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "el not no deja instanciadas las variables libres luego de su ejecuci´on. ",
+        "bbox": [
+            104,
+            687,
+            922,
+            731
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "C´omo evitar soluciones repetidas ",
+        "text_level": 1,
+        "bbox": [
+            232,
+            29,
+            767,
+            84
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Una buena idea: usando cl´ausulas excluyentes. ",
+        "bbox": [
+            270,
+            91,
+            726,
+            128
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            82,
+            272,
+            535,
+            308
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            74,
+            327,
+            466,
+            444
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            74,
+            488,
+            726,
+            533
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y), not(abuela(X,Y)).   \npariente(X,Y) :- abuela(X,Y). ",
+        "bbox": [
+            71,
+            573,
+            751,
+            654
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "C´omo evitar soluciones repetidas ",
+        "text_level": 1,
+        "bbox": [
+            232,
+            29,
+            767,
+            84
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Una buena idea: usando cl´ausulas excluyentes. ",
+        "bbox": [
+            270,
+            91,
+            726,
+            128
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Algunos hechos sobre la tragedia de Edipo ",
+        "text_level": 1,
+        "bbox": [
+            82,
+            272,
+            535,
+            308
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "progenitorx(yocasta,edipo).   \nprogenitorx(yocasta,ant´ıgona).   \nprogenitorx(edipo,ant´ıgona). ",
+        "bbox": [
+            74,
+            327,
+            466,
+            444
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "abuela(X,Y) :- progenitorx(X,Z), progenitorx(Z,Y). ",
+        "bbox": [
+            74,
+            488,
+            726,
+            533
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- progenitorx(X,Y), not(abuela(X,Y)).   \npariente(X,Y) :- abuela(X,Y). ",
+        "bbox": [
+            71,
+            573,
+            751,
+            654
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "¡Esto no funciona! ¿Por qu´e? ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            705,
+            389,
+            746
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "pariente(X,Y) :- not(abuela(X,Y)), progenitorx(X,Y).   \npariente(X,Y) :- abuela(X,Y). ",
+        "bbox": [
+            71,
+            761,
+            754,
+            838
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on por Falla ",
+        "text_level": 1,
+        "bbox": [
+            342,
+            25,
+            654,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            198,
+            176,
+            235
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado corteM´asParejo $\\cdot { + \\mathbb { L } }$ ,-L1,-L2) donde L es una lista de n´umeros, y L1 y L2 representan el corte m´as parejo posible de L respecto a la suma de sus elementos (predicado sumlist/2). Puede haber m´as de un resultado. ",
+        "bbox": [
+            71,
+            250,
+            911,
+            422
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on por Falla ",
+        "text_level": 1,
+        "bbox": [
+            342,
+            25,
+            654,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            198,
+            176,
+            235
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado corteM´asParejo $\\cdot { + \\mathbb { L } }$ ,-L1,-L2) donde L es una lista de n´umeros, y L1 y L2 representan el corte m´as parejo posible de L respecto a la suma de sus elementos (predicado sumlist/2). Puede haber m´as de un resultado. ",
+        "bbox": [
+            74,
+            250,
+            914,
+            422
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "corteM´asParejo([1,2,3,4,2],I,D). ⇝ I = [1, 2, 3], $\\mathrm { ~ D ~ } =$ [4, 2] ; false.   \ncorteM´asParejo([1,2,1],I,D). $ { \\mathcal { W } }  { \\mathrm { ~ T ~ } } = \\ [ 1 ]$ , $\\tt { D } = \\psi [ 2$ , 1] ; I = [1, 2], D = [1] ; false. ",
+        "bbox": [
+            82,
+            500,
+            917,
+            764
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on por Falla ",
+        "text_level": 1,
+        "bbox": [
+            342,
+            25,
+            654,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            198,
+            176,
+            235
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado corteM´asParejo $\\cdot { + \\mathbb { L } }$ ,-L1,-L2) donde L es una lista de n´umeros, y L1 y L2 representan el corte m´as parejo posible de L respecto a la suma de sus elementos (predicado sumlist/2). Puede haber m´as de un resultado. ",
+        "bbox": [
+            74,
+            250,
+            914,
+            422
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "corteM´asParejo([1,2,3,4,2],I,D). ⇝ I = [1, 2, 3], $\\mathrm { ~ D ~ } =$ [4, 2] ; false.   \ncorteM´asParejo([1,2,1],I,D). ⇝ I = [1], $\\tt { D } = \\psi [ 2$ , 1] ; I = [1, 2], D = [1] ; false. ",
+        "bbox": [
+            82,
+            500,
+            917,
+            764
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Tip: Definir un predicado auxiliar unCorte(+L,?L1,?L2,-D) que genera todos los cortes posibles de L en L1 y L2. En D se unifica la diferencia absoluta entre las sumas de L1 y L2. ",
+        "bbox": [
+            71,
+            786,
+            919,
+            919
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on por Falla ",
+        "text_level": 1,
+        "bbox": [
+            342,
+            25,
+            654,
+            88
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            338,
+            176,
+            378
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado pr´oximoPrimo( $( + \\mathbb { N }$ ,-P) que instancia en P el siguiente n´umero primo a partir de N. ",
+        "bbox": [
+            74,
+            397,
+            839,
+            481
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on por Falla ",
+        "text_level": 1,
+        "bbox": [
+            342,
+            25,
+            654,
+            88
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            338,
+            176,
+            378
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado pr´oximoPrimo( $\\cdot + \\mathbb { N }$ ,-P) que instancia en P el siguiente n´umero primo a partir de N. ",
+        "bbox": [
+            74,
+            397,
+            839,
+            481
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "pr´oximoPrimo(32,P). ⇝ P = 37; false.   \npr´oximoPrimo(37,P). $\\ r  \\textsf { P } = \\ 4 1$ ; false. setof(-Var, +Goal, -Set)   \nunifica Set con la lista ordenada y sin repetidos de Var que satisfacen Goal. ",
+        "bbox": [
+            88,
+            522,
+            524,
+            694
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            250,
+            895,
+            375
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Otros metapredicados ",
+        "bbox": [
+            0,
+            0,
+            828,
+            99
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "setof(-Var, +Goal, -Set)   \nunifica Set con la lista ordenada y sin repetidos de Var que satisfacen Goal. ",
+        "bbox": [
+            71,
+            250,
+            895,
+            375
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            404,
+            124,
+            441
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "setof(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            96,
+            455,
+            925,
+            500
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "setof(-Var, +Goal, -Set)   \nunifica Set con la lista ordenada y sin repetidos de Var que satisfacen Goal. ",
+        "bbox": [
+            69,
+            250,
+            897,
+            375
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            404,
+            124,
+            441
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "setof(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            99,
+            455,
+            925,
+            500
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Un ejemplo: ",
+        "bbox": [
+            107,
+            514,
+            273,
+            555
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "primeraComponente([(X, )| ],X).   \nprimeraComponente([ |XS],X) :- primeraComponente(XS,X). ",
+        "bbox": [
+            124,
+            577,
+            845,
+            658
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "setof(-Var, +Goal, -Set)   \nunifica Set con la lista ordenada y sin repetidos de Var que satisfacen Goal. ",
+        "bbox": [
+            71,
+            250,
+            895,
+            375
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            404,
+            124,
+            441
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "setof(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            96,
+            455,
+            925,
+            500
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Un ejemplo: ",
+        "bbox": [
+            107,
+            514,
+            273,
+            555
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "primeraComponente([(X, )| ],X).   \nprimeraComponente([ |XS],X) :- primeraComponente(XS,X). ",
+        "bbox": [
+            121,
+            577,
+            850,
+            658
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "?- setof(X,primeraComponente([(2,2),(1,3),(1,4)],X),L). ",
+        "bbox": [
+            132,
+            680,
+            842,
+            720
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "setof(-Var, +Goal, -Set)   \nunifica Set con la lista ordenada y sin repetidos de Var que satisfacen Goal. ",
+        "bbox": [
+            69,
+            250,
+            897,
+            375
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            404,
+            124,
+            441
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "setof(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            96,
+            455,
+            925,
+            500
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Un ejemplo: ",
+        "bbox": [
+            104,
+            514,
+            273,
+            555
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "primeraComponente([(X, )| ],X).   \nprimeraComponente([ |XS],X) :- primeraComponente(XS,X). ?- setof(X,primeraComponente([(2,2),(1,3),(1,4)],X),L).   \n$\\mathrm { ~ L ~ } = \\ \\left[ 1 , 2 \\right]$ . bagof(-Var, +Goal, -Set)   \nigual que setof pero la lista mantiene el orden en el que obtiene las soluciones y puede tener repetidos. ",
+        "bbox": [
+            124,
+            577,
+            848,
+            658
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            127,
+            680,
+            850,
+            761
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            246,
+            872,
+            375
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "Otros metapredicados ",
+        "bbox": [
+            0,
+            0,
+            834,
+            99
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "bagof(-Var, +Goal, -Set) ",
+        "bbox": [
+            74,
+            250,
+            422,
+            286
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "igual que setof pero la lista mantiene el orden en el que obtiene las soluciones y puede tener repetidos. ",
+        "bbox": [
+            74,
+            290,
+            875,
+            375
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            408,
+            124,
+            444
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "bagof(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            93,
+            463,
+            928,
+            507
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "bagof(-Var, +Goal, -Set) ",
+        "bbox": [
+            74,
+            250,
+            422,
+            286
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "igual que setof pero la lista mantiene el orden en el que obtiene las soluciones y puede tener repetidos. ",
+        "bbox": [
+            74,
+            290,
+            875,
+            375
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            408,
+            124,
+            444
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "bagof(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            93,
+            463,
+            928,
+            503
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Un ejemplo: ",
+        "bbox": [
+            107,
+            518,
+            273,
+            558
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "primeraComponente([(X, )| ],X).   \nprimeraComponente([ |XS],X) :- primeraComponente(XS,X). ",
+        "bbox": [
+            124,
+            580,
+            850,
+            661
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "?- bagof(X,primeraComponente([(2,2),(1,3),(1,4)],X),L). ",
+        "bbox": [
+            132,
+            683,
+            845,
+            727
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "Otros metapredicados ",
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "bagof(-Var, +Goal, -Set) ",
+        "bbox": [
+            74,
+            250,
+            422,
+            286
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "igual que setof pero la lista mantiene el orden en el que obtiene las soluciones y puede tener repetidos. ",
+        "bbox": [
+            71,
+            290,
+            875,
+            375
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            408,
+            124,
+            444
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "bagof(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            93,
+            463,
+            928,
+            503
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Un ejemplo: ",
+        "bbox": [
+            104,
+            518,
+            273,
+            558
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "primeraComponente([(X, )| ],X).   \nprimeraComponente([ |XS],X) :- primeraComponente(XS,X). ?- bagof(X,primeraComponente([(2,2),(1,3),(1,4)],X),L).   \n$\\mathrm { ~ \\cal ~ L ~ } = \\mathrm { ~ \\ o ~ { ~ [ } ~ } 2 , 1 , 1 ]$ . ",
+        "bbox": [
+            127,
+            580,
+            848,
+            661
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            127,
+            683,
+            850,
+            768
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "Otros metapredicados ",
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "findall(-Var, +Goal, -Set) ",
+        "bbox": [
+            74,
+            275,
+            453,
+            312
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "igual que bagof pero ignora otras variables libres dentro del Goal que no sea Var. Adem´as devuelve la lista vac´ıa si no existen soluciones. ",
+        "bbox": [
+            74,
+            319,
+            928,
+            400
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "findall(-Var, +Goal, -Set) ",
+        "bbox": [
+            74,
+            275,
+            453,
+            312
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "igual que bagof pero ignora otras variables libres dentro del Goal que no sea Var. Adem´as devuelve la lista vac´ıa si no existen soluciones. ",
+        "bbox": [
+            74,
+            319,
+            928,
+            400
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            430,
+            124,
+            463
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "findall(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            99,
+            481,
+            895,
+            566
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "findall(-Var, +Goal, -Set) ",
+        "bbox": [
+            74,
+            275,
+            453,
+            312
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "igual que bagof pero ignora otras variables libres dentro del Goal que no sea Var. Adem´as devuelve la lista vac´ıa si no existen soluciones. ",
+        "bbox": [
+            74,
+            319,
+            928,
+            400
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            430,
+            124,
+            463
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "findall(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            96,
+            481,
+            897,
+            566
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Un ejemplo: ?- findall(X, member((X,Y),[(1,2),(3,4)]),L). ",
+        "bbox": [
+            102,
+            584,
+            718,
+            687
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "findall(-Var, +Goal, -Set) ",
+        "bbox": [
+            74,
+            275,
+            453,
+            312
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "igual que bagof pero ignora otras variables libres dentro del Goal que no sea Var. Adem´as devuelve la lista vac´ıa si no existen soluciones. ",
+        "bbox": [
+            74,
+            319,
+            928,
+            400
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            430,
+            124,
+            463
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "findall(X, p(X), L) instancia L en el conjunto de X tales que p(X). ",
+        "bbox": [
+            93,
+            481,
+            900,
+            566
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Un ejemplo: ",
+        "bbox": [
+            104,
+            580,
+            273,
+            621
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "?- findall(X, member((X,Y),[(1,2),(3,4)]),L).   \n$\\mathrm { ~ \\cal ~ L ~ } = \\mathrm { ~ \\ o ~ { ~ [ 1 ~ , 3 ] ~ } ~ }$ . ",
+        "bbox": [
+            104,
+            632,
+            718,
+            727
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List) es verdadero cuando el Goal satisface a todos los elementos de la lista ",
+        "bbox": [
+            60,
+            272,
+            900,
+            360
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "Otros metapredicados ",
+        "bbox": [
+            0,
+            0,
+            825,
+            99
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List) es verdadero cuando el Goal satisface a todos los elementos de la lista ",
+        "bbox": [
+            63,
+            272,
+            903,
+            360
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            386,
+            124,
+            419
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "esPar(X) :- mod(X,2) $\\mathit { \\Theta } = : = \\mathit { \\Theta } 0$ .   \nuno(1). ",
+        "bbox": [
+            74,
+            437,
+            425,
+            514
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "?- maplist(esPar,[2,6,8]). ",
+        "bbox": [
+            74,
+            540,
+            414,
+            580
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List) es verdadero cuando el Goal satisface a todos los elementos de la lista ",
+        "bbox": [
+            66,
+            272,
+            903,
+            360
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            386,
+            124,
+            419
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "esPar(X) :- mod(X,2) $\\mathit { \\Theta } = : = \\mathit { \\Theta } 0$ .   \nuno(1). ",
+        "bbox": [
+            74,
+            437,
+            425,
+            514
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "?- maplist(esPar,[2,6,8]). ",
+        "bbox": [
+            74,
+            540,
+            414,
+            617
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List) es verdadero cuando el Goal satisface a todos los elementos de la lista ",
+        "bbox": [
+            63,
+            272,
+            903,
+            360
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            386,
+            124,
+            419
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "esPar(X) :- mod(X,2) $\\mathit { \\Theta } = : = \\mathit { \\Theta } 0$ .   \nuno(1). ",
+        "bbox": [
+            74,
+            437,
+            425,
+            514
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "?- maplist(esPar,[2,6,8]). ",
+        "bbox": [
+            74,
+            540,
+            414,
+            617
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "?- length(L,4), maplist(uno,L). ",
+        "bbox": [
+            74,
+            643,
+            480,
+            683
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List) es verdadero cuando el Goal satisface a todos los elementos de la lista ",
+        "bbox": [
+            63,
+            272,
+            903,
+            360
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            386,
+            124,
+            419
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "esPar(X) :- mod(X,2) $\\mathit { \\Theta } = : = \\mathit { \\Theta } 0$ .   \nuno(1). ",
+        "bbox": [
+            74,
+            437,
+            425,
+            514
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "?- maplist(esPar,[2,6,8]). ",
+        "bbox": [
+            74,
+            540,
+            414,
+            617
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "?- length(L,4), maplist(uno,L).   \nL = [1, 1, 1, 1]. ",
+        "bbox": [
+            74,
+            643,
+            477,
+            727
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List) es verdadero cuando el Goal satisface a todos los elementos de la lista ",
+        "bbox": [
+            63,
+            272,
+            903,
+            360
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            386,
+            124,
+            419
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "esPar(X) :- mod(X,2) $\\mathit { \\Theta } = : = \\mathit { \\Theta } 0$ .   \nuno(1). ",
+        "bbox": [
+            74,
+            437,
+            425,
+            514
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "?- maplist(esPar,[2,6,8]). ",
+        "bbox": [
+            74,
+            540,
+            414,
+            617
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "?- length(L,4), maplist(uno,L).   \nL = [1, 1, 1, 1]. ",
+        "bbox": [
+            74,
+            643,
+            477,
+            727
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List1, ?List2) es verdadero cuando el Goal satisface a todos los elementos de las listas ",
+        "bbox": [
+            66,
+            334,
+            928,
+            419
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "discarded",
+        "text": "Otros metapredicados ",
+        "bbox": [
+            0,
+            0,
+            820,
+            99
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List1, ?List2) es verdadero cuando el Goal satisface a todos los elementos de las listas ",
+        "bbox": [
+            69,
+            334,
+            919,
+            419
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            444,
+            124,
+            481
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "sumarK(K,X,Y) :- Y is $x { + } K$ . ",
+        "bbox": [
+            74,
+            496,
+            414,
+            536
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "?- maplist(sumarK(4),[1,2,3],L). ",
+        "bbox": [
+            74,
+            558,
+            491,
+            599
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "maplist(+Goal, ?List1, ?List2) es verdadero cuando el Goal satisface a todos los elementos de las listas ",
+        "bbox": [
+            66,
+            334,
+            919,
+            419
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            444,
+            124,
+            481
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "sumarK(K,X,Y) :- Y is $x { + } K$ . ",
+        "bbox": [
+            74,
+            496,
+            414,
+            536
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "?- maplist(sumarK(4),[1,2,3],L).   \n$\\mathrm { ~ L ~ } =$ [5,6,7]. ",
+        "bbox": [
+            74,
+            558,
+            491,
+            636
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "discarded",
+        "text": "Otros metapredicados ",
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "limit(+Count,+Goal) limita el n´umero de soluciones del Goal. ",
+        "bbox": [
+            74,
+            297,
+            541,
+            378
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "limit(+Count,+Goal) limita el n´umero de soluciones del Goal. ",
+        "bbox": [
+            74,
+            297,
+            541,
+            378
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            404,
+            124,
+            441
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "?- limit(5,desde(1,X)). ",
+        "bbox": [
+            74,
+            459,
+            375,
+            496
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "limit(+Count,+Goal) limita el n´umero de soluciones del Goal. ",
+        "bbox": [
+            74,
+            297,
+            541,
+            378
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            404,
+            124,
+            441
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "?- limit(5,desde(1,X)). ",
+        "bbox": [
+            74,
+            459,
+            375,
+            496
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "$\\texttt { X } = \\texttt { 1 }$ $\\tt { X } = \\tt { 2 }$ $\\tt { X } = \\tt { 3 }$ $\\tt { X } = \\tt { 4 }$ ",
+        "bbox": [
+            74,
+            503,
+            154,
+            698
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "forall(+Gen,+Cond) verifica que todas las soluciones de Gen satisfagan Cond. ",
+        "bbox": [
+            74,
+            371,
+            729,
+            455
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Otros metapredicados ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            679,
+            88
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "forall(+Gen,+Cond) verifica que todas las soluciones de Gen satisfagan Cond. ",
+        "bbox": [
+            74,
+            371,
+            729,
+            455
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Uso ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            488,
+            124,
+            525
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "unCorte(L,L1,L2,D), forall(unCorte(L, , ,D2),D2 >= D). ",
+        "bbox": [
+            74,
+            540,
+            767,
+            580
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Generaci´on infinita: tri´angulos ",
+        "text_level": 1,
+        "bbox": [
+            262,
+            25,
+            743,
+            88
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Suponiendo que los tri´angulos se representan con tri(A,B,C) cuyos lados tienen longitudes A, B y C respectivamente. Se asume que las longitudes de los lados son siempre n´umeros naturales mayores a cero. Se cuenta con el predicado esTriangulo(+T) que es verdadero cuando T es una estructura de la forma tri(A,B,C) que representa un tri´angulo v´alido (cada lado es menor que la suma de los otros dos, y mayor que su diferencia). ",
+        "bbox": [
+            74,
+            150,
+            928,
+            455
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Generaci´on infinita: tri´angulos ",
+        "text_level": 1,
+        "bbox": [
+            259,
+            25,
+            745,
+            88
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Suponiendo que los tri´angulos se representan con tri(A,B,C) cuyos lados tienen longitudes A, B y C respectivamente. Se asume que las longitudes de los lados son siempre n´umeros naturales mayores a cero. Se cuenta con el predicado esTriangulo(+T) que es verdadero cuando T es una estructura de la forma tri(A,B,C) que representa un tri´angulo v´alido (cada lado es menor que la suma de los otros dos, y mayor que su diferencia). ",
+        "bbox": [
+            74,
+            150,
+            930,
+            455
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            492,
+            176,
+            533
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Implementar un predicado per´ımetro(?T,?P) que es verdadero cuando T es un tri´angulo y P es su per´ımetro. No se deben generar resultados repetidos (no tendremos en cuenta la congruencia entre tri´angulos: si dos tri´angulos tienen las mismas longitudes, pero en diferente orden, se considerar´an diferentes entre s´ı). El predicado debe funcionar para cualquier instanciaci´on de T y P (no es necesario que funcione para tri´angulos parcialmente instanciados). ",
+        "bbox": [
+            102,
+            547,
+            911,
+            852
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Generaci´on infinita: tri´angulos ",
+        "text_level": 1,
+        "bbox": [
+            259,
+            25,
+            745,
+            88
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Suponiendo que los tri´angulos se representan con tri(A,B,C) cuyos lados tienen longitudes A, B y C respectivamente. Se asume que las longitudes de los lados son siempre n´umeros naturales mayores a cero. Se cuenta con el predicado esTriangulo(+T) que es verdadero cuando T es una estructura de la forma tri(A,B,C) que representa un tri´angulo v´alido (cada lado es menor que la suma de los otros dos, y mayor que su diferencia). ",
+        "bbox": [
+            74,
+            150,
+            930,
+            455
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            492,
+            176,
+            533
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Implementar un predicado per´ımetro(?T,?P) que es verdadero cuando T es un tri´angulo y P es su per´ımetro. No se deben generar resultados repetidos (no tendremos en cuenta la congruencia entre tri´angulos: si dos tri´angulos tienen las mismas longitudes, pero en diferente orden, se considerar´an diferentes entre s´ı). El predicado debe funcionar para cualquier instanciaci´on de T y P (no es necesario que funcione para tri´angulos parcialmente instanciados). ",
+        "bbox": [
+            99,
+            547,
+            911,
+            852
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Implementar un generador de tri´angulos v´alidos, sin repetir resultados: tri´angulo(-T). ",
+        "bbox": [
+            116,
+            867,
+            812,
+            952
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿Preguntas? ? ? ? ? ? ",
+        "bbox": [
+            204,
+            408,
+            795,
+            507
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "Fin ",
+        "bbox": [
+            469,
+            29,
+            527,
+            80
+        ],
+        "page_idx": 59
+    }
+]

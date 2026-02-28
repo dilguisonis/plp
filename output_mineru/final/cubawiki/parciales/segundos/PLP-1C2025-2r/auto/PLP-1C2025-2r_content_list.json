@@ -1,0 +1,431 @@
+[
+    {
+        "type": "text",
+        "text": "PLP-Segundo Recuperatorio- ${ \\bf 1 } ^ { \\mathrm { e r } }$ cuatrimestre de 2025 ",
+        "text_level": 1,
+        "bbox": [
+            198,
+            38,
+            890,
+            58
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/dd71dec7dd21d1fa2f4e37a5a3f8637c5ed65a59a3bf66d627fa6191b2ab2346.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Turno</td><td rowspan=1 colspan=1>Libreta</td><td rowspan=1 colspan=1>ApellidoyNombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej1Ej2Ej3NotaFinal</td></tr></table>",
+        "bbox": [
+            142,
+            67,
+            942,
+            115
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Esteexamen seapruebaobteniendoalmenosdosejerciciosbien(B)yunoregular(R)，ysepromocionaconal menos dos ejerciciosmuybien（MB)yunobien（B).Esposibleobtenerunaaprobaci6ncondicionalconunejerciciomuy bien（MB)，uno bien(B)yunoinsuficiente(I），pero habiendoentregadoalgoquecontribuyaalasoluciondelejercicio.Lasnotasparacada ejercicioson-I,R,,,E.Entregaradaejercicioenhjasseparadas.Ponernombreapelldoyumeroderdenentodas lashojas.ynumerarlas.Sepuedeutilizartodolodefinidoenlaspracticasytodoloquesedioenclase,colocandoreferencias claras.Elordendelos ejercicios esarbitrario.Recomendamos leer elparcial completoantesdeempezararesolverlo. ",
+        "bbox": [
+            152,
+            128,
+            937,
+            216
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1-Programacion Logica ",
+        "text_level": 1,
+        "bbox": [
+            154,
+            230,
+            448,
+            246
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementarlospredicadosrespetandoencadacasolainstanciacionpedida.Los generadoresdebencubrir todaslasinstanciasvalidasdeaquelo quegeneransinrepetirdos veceslamisma.Sedeben indicarlospatronesdeinstanciacionde todoslosprecicadesauxiliares.Nousarmacrosquecolapsenclusulas,cut（）nipredicadosdealtoordenconlainica excepcion denc:.No estapermitido el uso de estructuras auxiliares. ",
+        "bbox": [
+            147,
+            248,
+            936,
+            304
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a)Deriepredicado unico(+L,-U)quees verdadero cuando Uaparece una sola vez en la listaL. Resolversir contar apariciones.Por ejemplo: ？-ioo（a,b，c,a,a,b,d]，U）. =c； $\\ ' = \\dot { \\mathsf { z } }$ ； ase.   \nb)Denir el preicaio sinRepetidos(+L) que represente la siguiente propiedad:una lista L hace veraadero c sixRepetidos si todos sus elementos son unicos.   \nc)Eneste inciso vamos a representar a un subconjunto de las formulas de l6gica proposicional con negacion eimplicacion.Losatomos utilizados seran neg(P）eimp(P,Q）conPyQ f6rmulas.Definirel predicado formula(+Vs,-F) que instancia enF todas las fornulas que usan iasvariable; proposicionales que aparecen en la lista ${ \\tt V E }$ Por ejemplo:   \n$? -$ f   \n${ \\sf F } = { \\sf p }$   \n${ \\mathrm { ~ F ~ } } = { \\mathrm { ~ q } } ;$   \n$\\mathbb { F } = \\mathtt { n e g } ( \\mathtt { p } )$   \n$\\mathbb { F } = \\mathtt { n e g } ( \\mathtt { q } )$ ",
+        "bbox": [
+            164,
+            313,
+            937,
+            511
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            193,
+            521,
+            357,
+            590
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6582c7aebf6c608de6356b2a1969304c769f7748a35b94377e56e1e08d3c4e9e.jpg",
+        "text": "$$\n\\begin{array} { r l r l r l } & { \\mathrm { i o r m u l a } ( \\{ \\mathrm { p , q } \\} , \\mathrm { F } ) , \\qquad } & & { \\mathbb { F } = \\mathrm { \\ n e g ( n e g ( \\mathrm { p } ) ) } , } & & { \\qquad \\mathrm { F } = \\mathrm { \\ n e g ( \\mathrm { i n p ( q , q ) ) } } , } \\\\ & { \\mathrm { p } ; } & & { \\qquad \\mathrm { F } = \\mathrm { \\ n e g ( n e g ( \\mathrm { q } ) ) } ; } & & { \\qquad \\mathrm { F } = \\mathrm { \\ i n p ( \\mathrm { p , n e g ( \\mathrm { p } ) ) } } ; } \\\\ & { \\mathrm { q } ; } & & { \\qquad \\mathrm { F } = \\mathrm { \\ i n p ( \\mathrm { p , p } ) } ; } & & { \\qquad \\mathrm { ~ \\cdots ~ } } \\\\ & { \\mathrm { n e g ( \\mathrm { p } ) } ; } & & { \\qquad \\mathrm { F } = \\mathrm { \\ i n p ( \\mathrm { p , q } ) } ; } & & { \\qquad \\mathrm { F } = \\mathrm { \\ i n p ( \\mathrm { n e g ( q ) , i m p ( \\mathrm { n e g ( \\mathrm { p } ) , p } ) } , } } \\\\ & { \\mathrm { n e g ( \\mathrm { q } ) } ; } & & { \\qquad \\mathrm { ~ \\cdots ~ } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            523,
+            939,
+            594
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sugerencia:prestar atencion al orden en que se devuelven los resultados.No es necesario que se mantenga el orden del ejemplo,pero si que se instancien todas las formulas. ",
+        "bbox": [
+            189,
+            600,
+            931,
+            630
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d) $_ \\mathrm { i } \\mathrm { E l }$ predicado anterior es reversibleenF? Justificar brevemente. ",
+        "bbox": [
+            164,
+            637,
+            675,
+            652
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Resolucion ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            667,
+            356,
+            682
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Consideremos el siguiente lenguaje del dominio de funciones numericas: ",
+        "bbox": [
+            178,
+            693,
+            714,
+            709
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "X≤Y:predicado binario que representa que Xes menor o igual queY cota(F,X）:predicado binario que representa que Xes una cota superiorde la funci6nF sup(F):simbolo de funcion unario que representa el supremo de la funcion F ev(F,N):simbolo de funcion binario que representael resultado de evaluar la funcion Fe ",
+        "bbox": [
+            174,
+            717,
+            867,
+            804
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sean los siguientes axiomas: ",
+        "bbox": [
+            149,
+            810,
+            361,
+            826
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "· $\\forall F . \\forall X . ( c o t a ( F , X ) \\Leftrightarrow \\forall N . e v ( F , N ) \\leq X )$ (definicion de cota superior）   \nAF.(cota（F,sup（F））△Y.（cota（F,Y）=sup（F）≤Y）） (el supremo deuna funcion es una cota superior,yes la mas chicade las cotas superiores) $\\langle X . \\forall Y . \\forall Z . ( ( X \\leq Y \\land Y \\leq Z ) \\Rightarrow X \\leq Z )$ (transitividad dela relacion menoroigual) ",
+        "bbox": [
+            174,
+            833,
+            873,
+            944
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            532,
+            966,
+            544,
+            977
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            848,
+            3,
+            957,
+            41
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            863,
+            947,
+            873,
+            954
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            48,
+            84,
+            63,
+            92
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Se pide: ",
+        "bbox": [
+            104,
+            39,
+            166,
+            52
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a.Pasara forma clausal cada f6rmula   \nb.Demostrar usando resoluci6n que si una funcion es mas chica que otra en todo punto,el supremo tambien es mas chico: $\\begin{array} { r } { \\vartheta F . \\forall G . ( ( \\forall N . e v ( F , N ) \\leq e v ( G , N ) ) \\Rightarrow s u p ( F ) \\leq s u p ( G ) ) } \\end{array}$ , ",
+        "bbox": [
+            117,
+            60,
+            885,
+            131
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c.La resolucion utilizada en el punto anterior 𝑖fue SLD? Justificar. ",
+        "bbox": [
+            124,
+            136,
+            633,
+            153
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3-Inferencia,Deduccion Natural y POO ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            167,
+            544,
+            184
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Consideremos el Calculo Lambda tipado extendido con intervalos de numeros naturales: ",
+        "bbox": [
+            121,
+            193,
+            808,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\sigma : : = \\dots 1$ Intervalo $M : = \\dots | [ M , M ] |$ case $M$ of $[ ] \\sim M ; x : x \\sim M$ donde $[ M , N ]$ es el intervalo que va desdeel numero $M$ hasta $N$ (inclusive)ycase $M$ of $[ ] \\sim N ; x$ ： y\\~Oes un observador que recorreel intervalo M como si fuese una lista: con un caso para el intervalo vacio (N)y otro para un intervalo con al menos un elemento (O).Enel segundo caso,las apariciones libres de la variablexen Ose ligaran al primer elemento del intervalo y las apariciones libres $\\mathrm { d e } \\ y$ en $O$ seligaran al intervalo sin su primer elemento. ",
+        "bbox": [
+            186,
+            215,
+            576,
+            249
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            151,
+            250,
+            889,
+            324
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Seextiende tambien el algoritmo de inferencia de la siguiente manera: ",
+        "bbox": [
+            151,
+            329,
+            675,
+            344
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathcal { T } ( \\Gamma \\mid$ case $M _ { 1 }$ of $[ \\ ] \\sim M _ { 2 } ; x \\because y \\sim M _ { 3 } ) =$ $\\begin{array} { r l } & { \\begin{array} { r l } { \\mathcal { L } ( \\mathfrak { x } , \\mathrm { ~ \\mathfrak { i } ~ } \\overset { . } { | } \\mathrm { ~ \\mathfrak { i } ~ } _ { 2 } \\overset { . } { = } \\tau _ { 3 } , \\tau _ { 1 } \\overset { . } { = } | { \\mathfrak { n t e r v a l o } } , X _ { x } \\overset { . } { = } N a t , X _ { y } \\overset { . } { = } | { \\mathfrak { n t e r v a l o } } \\rangle \\cup E _ { 1 } \\cup E _ { 2 } \\cup E _ { 3 } ) } \\end{array} } \\end{array}$ ",
+        "bbox": [
+            156,
+            414,
+            475,
+            430
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            154,
+            430,
+            694,
+            447
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Usar el algoritmo $\\mathcal { L }$ para inferir el tipo de la siguiente expresion,o demostrar que no es tipable: ",
+        "bbox": [
+            152,
+            523,
+            868,
+            538
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b)Demostrar el siguiente teorema usando deducci6n natural,sin utilizar principios clasicos: ",
+        "bbox": [
+            129,
+            599,
+            820,
+            615
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ce4b96b8a76424416d699b917fa419597282a57490c2ae2fc2c27071ab685eec.jpg",
+        "text": "$$\n( \\forall X . \\exists Y . ( P ( X , Y ) \\land Q ( Y , X ) ) ) \\Rightarrow \\exists X . \\exists Y . Q ( Y , X )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            633,
+            707,
+            649
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) En una empresa,al final del dia se realizan varias tareas rutinarias sobre distintas estructuras de datos.Estas tareas se encapsulan en bloques de codigo y deben ejecutarse secuencialmente sobre un mismo objeto.Se desea implementar un mecanismo genérico que permita realizar esta secuencia de operaciones sobre cualquier objeto. ",
+        "bbox": [
+            136,
+            681,
+            897,
+            740
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Implementar en la clase Object el método runBatch, que reciba como parametro una coleccion de bloques. Cada bloque debe tomar el objeto receptor como argumento,y se debe ejecutar en orden. Elmétodo debe devolver el resultado dela ejecucion del ultimo bloque. ",
+        "bbox": [
+            159,
+            740,
+            894,
+            783
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: ",
+        "bbox": [
+            163,
+            785,
+            258,
+            799
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "丨lista resultado   \nlista： $=$ OrderedCollection new.   \nresultado $=$ lista runBatch:#（ [:obj丨objadd:1] [:obj丨objadd:2] [:obj丨‘ultimopaso']） ",
+        "bbox": [
+            161,
+            813,
+            443,
+            901
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Alfinal de la ejecucion,resultado es‘ultimo paso',mientras que lista contiene1 y 2. ",
+        "bbox": [
+            159,
+            912,
+            838,
+            927
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            504,
+            960,
+            517,
+            971
+        ],
+        "page_idx": 1
+    }
+]

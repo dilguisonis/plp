@@ -1,0 +1,499 @@
+[
+    {
+        "type": "text",
+        "text": "Demostración de una implicación mediante inducción estructural (entre otras cosas) ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            113,
+            867,
+            161
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sean las siguientes definiciones: data AEB a $=$ Hoja a | Bin (AEB a) a (AEB a) ",
+        "bbox": [
+            55,
+            180,
+            415,
+            215
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "const :: a -> b -> a $\\{ { \\mathsf { C } } \\} { \\mathsf { c o n s t } } = ( \\backslash \\times \\to \\lfloor \\ y \\to \\mathsf { x } )$ ",
+        "bbox": [
+            53,
+            236,
+            266,
+            271
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "head :: [a] -> a {H} head $( { \\sf x } { : } { \\sf x } { \\sf s } ) = { \\sf x }$ ",
+        "bbox": [
+            57,
+            290,
+            207,
+            325
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "length :: [a] $\\mathbf { \\delta } _ { - > }$ Int   \n$\\{ \\mathsf { L O } \\}$ length $[ ] = 0$   \n{L1} length $( { \\mathsf { X } } ; { \\mathsf { X } } { \\mathsf { S } } ) = 1 +$ length xs ",
+        "bbox": [
+            501,
+            252,
+            764,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "tail :: [a] $\\mathbf { \\delta } _ { - > }$ [a] $\\{ \\top \\}$ tail $( { \\sf x } ; { \\sf x } { \\sf s } ) = { \\sf x } { \\sf s }$ null :: [a] $\\mathbf { \\delta } _ { - > }$ Bool {N0} null $[ ] =$ True {N1} null (x:xs) $=$ False ",
+        "bbox": [
+            55,
+            345,
+            199,
+            381
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            501,
+            327,
+            687,
+            381
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "altura :: AEB a $\\mathbf { \\delta } _ { - > }$ Int   \n$\\{ \\mathsf { A O } \\}$ altura $( \\mathsf { H o j a \\_ } ) = 1$   \n$\\{ \\mathsf { A } 1 \\}$ altura $( \\mathsf { B i n } \\mathrm { ~ i ~ r ~ d ~ } ) = 1 + \\mathsf { m a x }$ (altura i) (altura d)   \nesPreRama :: Eq $\\tt a = \\tt$ AEB a $\\mathbf { \\delta } _ { - > }$ [a] $\\mathbf { \\delta } _ { - > }$ Bool   \n{E0} esPreRama $( \\mathsf { H o j a x } ) = \\mathsf { U s s } \\to$ null xs || $( \\mathsf { x s } = \\mathbf { \\bar { \\rho } } ( \\mathsf { x l } ) )$ )   \n{E1} esPreRama (Bin i r d) $1 = \\mathsf { \\backslash x s \\_ s > }$ null xs || ( ${ \\sf r } = =$ head xs && (esPreRama i (tail xs) $\\parallel$ esPreRama d (tail xs))) ",
+        "bbox": [
+            55,
+            400,
+            455,
+            454
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            473,
+            637,
+            545
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { ( = = ) { \\cdot } : \\mathsf { E q a } \\Rightarrow [ \\mathsf { a } ] \\to [ \\mathsf { a } ] \\to \\mathsf { B o o l } ( \\mathsf { E s c r i t a e n } 4 \\mathsf { c a s o s } 1 } \\\\ & { \\{ = = 0 \\} \\mathbb { I } = = \\mathbb { I } = \\mathbb { T } \\mathsf { r u e } } \\\\ & { \\{ = = 1 \\} \\mathbb { I } = = \\left( \\_ { \\cdot } : \\_ { - } \\right) = \\mathsf { F a l s e } } \\\\ & { \\{ = = 2 \\} \\left( \\_ { \\cdot } : \\_ { - } \\right) = = \\mathbb { I } = \\mathsf { F a l s e } } \\\\ & { \\{ = = 3 \\} \\left( \\mathsf { x } : \\mathsf { x s } \\right) = = \\left( \\mathsf { y } : \\mathsf { y s } \\right) = \\left( \\mathsf { x } = = \\mathsf { y } \\right) \\& \\mathsf { A } \\left( \\mathsf { x s } = = \\mathsf { y s } \\right) } \\end{array}$ para facilitar la demostración) ",
+        "bbox": [
+            53,
+            563,
+            596,
+            657
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lema: ∀t::AEB a . $0 \\leq$ altura t ",
+        "bbox": [
+            55,
+            675,
+            243,
+            709
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Asumiendo Eq a, demostrar la siguiente propiedad: ∀ ∀t::AEB a. xs::[a].(esPreRama t xs $\\Rightarrow$ length xs ≤ altura t) ",
+        "bbox": [
+            53,
+            728,
+            710,
+            765
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { P } ( \\mathsf { t } ) = \\forall \\mathsf { x s } \\colon :$ [a].(esPreRama t xs $\\Rightarrow$ length xs $\\leq$ altura t) ",
+        "bbox": [
+            55,
+            122,
+            450,
+            138
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hacemos inducción estructural en t, desplegando definiciones y propiedades hasta probar que la implicación es verdadera. No copiamos el $\\forall$ xs::[a] en cada paso, sabemos que está. ",
+        "bbox": [
+            55,
+            156,
+            867,
+            189
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Caso t $=$ Hoja x: ",
+        "text_level": 1,
+        "bbox": [
+            57,
+            205,
+            181,
+            222
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "esPreRama (Hoja x) $\\tt X S \\Rightarrow$ length xs ≤ altura $( { \\mathsf { H o j a } } \\times ) = \\{ { \\mathsf { A } } 0 \\}$ esPreRama (Hoja x) $\\tt X S \\Rightarrow$ length $\\mathsf { x s } \\leq 1 = \\{ \\mathsf { E 0 } \\}$ ( $\\mathsf { l x s \\mathsf { \\_ } } >$ null xs $| |$ $\\mathbf { \\langle x s \\circ = = [ x ] \\rangle }$ ) $\\tt X S \\Rightarrow$ length xs ≤ 1 = {β} null xs $\\parallel$ $\\scriptstyle \\mathbf { \\left[ x s \\right] } = = [ \\mathbf { x } ] ) \\Rightarrow$ length xs ≤ 1 ",
+        "bbox": [
+            55,
+            239,
+            486,
+            306
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Por lema de generación de listas, xs es de la forma $[ ]$ o y:ys (para alguna y::a e ys::[a]). Caso $\\mathsf { x s } = \\left[ \\begin{array} { r l r l } \\end{array} \\right]$ : null $[ ] \\begin{array} { r } {  \\mathbf { \\Lambda } ( [ \\begin{array} { l } { } \\end{array} ] = = [ \\mathbf { x } ] ) \\Rightarrow | \\mathbf { e n g t h } [ [ \\mathbf { \\Lambda } ] \\leq 1 = \\{ \\mathsf { L } \\boldsymbol { 0 } \\} } \\end{array} $ null $[ [ \\begin{array} { l } {  \\mathbf { \\Lambda } ( [ \\mathbf { \\Lambda } ] = = [ \\mathbf { x } ] ) \\Rightarrow 0 \\leq 1 = \\{ | \\mathsf { n t } \\} } \\end{array}  $ null $\\ [ \\| \\ ( \\boldsymbol { \\mathrm { I } } ) = - \\boldsymbol { \\mathrm { I } } \\boldsymbol { \\mathrm { x } } \\| ) \\Rightarrow \\mathsf { T r u e } = \\{ \\mathsf { B o o l } \\}$ True Caso ${ \\tt X S } = { \\tt y } { \\tt : y s }$ : $\\begin{array} { r l } & { \\mathsf { n u l l \\ ( y { : } y s ) } \\left. \\right. \\left( \\left( y { : } y s \\right) = = \\left[ x \\right] \\right) \\Rightarrow \\mathsf { l e n g t h \\ ( y { : } y s ) } \\le 1 = \\{ \\mathsf { N } 1 \\} } \\\\ & { \\mathsf { F a l s e \\ | | \\left( \\left( y { : } y s \\right) = = \\left[ x \\right] \\right) } \\Rightarrow \\mathsf { l e n g t h \\ ( y { : } y s ) } \\le 1 = \\{ \\mathsf { B o o l } \\} } \\\\ & { \\left( \\left( y { : } y s \\right) = = \\left[ x \\right] \\right) \\Rightarrow \\mathsf { l e n g t h \\ ( y { : } y s ) } \\le 1 = \\{ = = 3 \\} } \\\\ & { \\left( y = - \\mathsf { x } \\right) \\& \\& \\left( y \\mathsf { s } = = \\left[ \\right] \\right) \\Rightarrow \\mathsf { l e n g t h \\ ( y { : } y s ) } \\le 1 } \\end{array}$ Por lema de generación de listas, ys puede ser $\\mathbb { I } \\circ z { : } Z \\mathsf { s }$ . Caso ys ${ \\bf { \\dot { \\rho } } } = { \\bf { Z } } { : \\bf { { Z S } } }$ : $\\begin{array} { r } { ( \\mathsf { y } = \\mathsf { x } ) \\& \\& ( z : z \\mathsf { s } = = [ \\mathsf { I } ) \\Rightarrow \\mathsf { l e n g t h } ( \\mathsf { y } : \\mathsf { y } \\mathsf { s } ) \\mathsf { s }  \\mathsf { I } = \\{ = 2 \\}  } \\\\ {  ( \\mathsf { y } = \\mathsf { x } ) \\& \\& \\mathsf { F a l s e } \\Rightarrow \\mathsf { l e n g t h } ( \\mathsf { y } : \\mathsf { y } \\mathsf { s } ) \\mathsf { s }  \\mathsf { 1 } = \\{ \\mathsf { B o o l } \\} \\mathsf { T r u e } } \\end{array}$ e Caso $\\mathsf { y } \\mathsf { s } = \\left[ \\mathsf { l } \\right]$ : $\\begin{array} { r l } & { \\mathrm { ( y ^ { - } = = x ) } \\& { \\& ~ ( I = = [ I ] ) } \\Rightarrow \\mathsf { l e n g t h } \\mathrm { ( y : [ I ] ) } \\le 1 = \\{ \\mathsf { L } 1 \\} } \\\\ & { \\mathrm { ( y = = x ) } \\& \\& ~ ( I = = [ I ] ) \\Rightarrow 1 + \\mathsf { l e n g t h } \\mathrm { [ I \\le 1 = \\{ L 0 \\} } } \\\\ & { \\mathrm { ( y = = x ) } \\& \\& ~ ( I = = [ I ] ) \\Rightarrow 1 + 0 \\le 1 = \\{ \\mathsf { I n t } \\} } \\\\ & { \\mathrm { ( y = = x ) } \\& \\& ~ ( I = = [ I ] ) \\Rightarrow \\mathsf { T r u e = \\{ B o o l \\} T r u e } } \\end{array}$ ",
+        "bbox": [
+            53,
+            321,
+            692,
+            642
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Con esto queda probado el caso base ${ \\mathfrak { t } } = { \\mathsf { H o j a x } } .$ . ",
+        "bbox": [
+            57,
+            656,
+            413,
+            672
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Caso t ${ \\bf \\Phi } _ { \\cdot } =$ Bin i r d:   \nHipótesis inductiva: ${ \\mathsf { P } } ( { \\mathsf { i } } ) \\wedge { \\mathsf { P } }$ (d), es decir:   \n( xs::[a].(esPreRama i xs∀ $\\Rightarrow$ length xs $\\leq$ altura i)) $\\wedge$ ( xs::[a].(esPreRama d ∀ $\\tt X S \\Rightarrow$ length xs ≤ altura d))   \nesPreRama (Bin i r d) ${ \\tt X S } \\Rightarrow$ length xs $\\leq$ altura $( \\mathsf { B i n } \\mathrm { ~ i ~ r ~ d ~ } ) = \\{ \\mathsf { E } 1 \\}$   \n( $\\backslash \\ltimes \\ltimes \\lnot \\ltimes$ null xs ||(r $= =$ head xs && (esPreRama i (tail xs) $\\Vert$ esPreRama d (tail xs)))) ${ \\tt X S } \\Rightarrow$ length xs $\\leq$ altura $( { \\mathsf { B i n } } { \\mathrm { ~ i ~ r ~ d ~ } } ) = \\{ { \\mathsf { \\beta } } \\}$   \nnull xs ||(r $= =$ head xs && (esPreRama i (tail xs) $| |$ esPreRama d (tail xs))) $\\Rightarrow$ length xs $\\leq$ altura $( \\mathsf { B i n i r d } ) = \\{ \\mathsf { A } 1 \\}$   \nnull xs ||(r $= =$ head xs && (esPreRama i (tail xs) $| |$ esPreRama d (tail xs))) $\\Rightarrow$ length $\\mathsf { x s } \\leq 1 + \\mathsf { m a x }$ (altura i) (altura d) ",
+        "bbox": [
+            55,
+            690,
+            803,
+            739
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            53,
+            756,
+            857,
+            856
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Queremos ver que t::AEB a. xs::[a].(esPreRama t xs∀ ∀ $\\Rightarrow$ length xs $\\leq$ altura t). ",
+        "bbox": [
+            58,
+            89,
+            625,
+            106
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Por lema de generación de listas, xs es [] o y:ys. ",
+        "bbox": [
+            55,
+            90,
+            408,
+            104
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Caso $\\mathsf { x s } = \\left[ \\mathsf { l } \\right]$ ",
+        "bbox": [
+            78,
+            107,
+            171,
+            121
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "null [] ||(r $= =$ head $\\mathbb { I } ^ { \\ \\& \\alpha }$ (esPreRama i (tail []) || esPreRama d (tail []))) $\\Rightarrow$ null [] ||(r == head $\\mathbb { I } ^ { \\ \\& \\alpha }$ (esPreRama i (tail []) $| |$ esPreRama d (tail []))) $\\Rightarrow 0 \\leq 1 + \\mathsf { r }$ ax (altura i) (altura d) Por lema, $0 \\leq$ altura i $\\wedge 0 \\leq$ altura d. ",
+        "bbox": [
+            116,
+            125,
+            653,
+            138
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            114,
+            156,
+            859,
+            188
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Luego, por Int: $0 \\leq \\mathsf { m a x }$ (altura i) (altura d) $\\leq 1 + \\mathsf { m a x }$ (altura i) (altura d). ",
+        "bbox": [
+            116,
+            190,
+            645,
+            205
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Luego el consecuente de la implicación es verdadero, y por Bool la implicación es verdadera. ",
+        "bbox": [
+            91,
+            207,
+            790,
+            222
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Caso xs $=$ y:ys: ",
+        "bbox": [
+            76,
+            224,
+            192,
+            238
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "null (y:ys) ||(r $\\cdot = =$ head (y:ys) && (esPreRama i (tail (y:ys)) $\\parallel$ esPreRama d (tail (y:ys)))) $\\Rightarrow$ length (y:ys) $\\leq 1 + \\mathsf { m a x }$ (altura i) (altura d) $\\begin{array} { r l } & { \\mathrel { = } \\{ \\uparrow \\} } \\\\ & { \\mathrel { } } \\\\ & { \\mathrel { = } \\{ \\mathsf { N } 1 \\} } \\\\ & { \\mathrel { } } \\\\ & { \\mathrel { = } \\{ \\mathsf { B o o l } \\} } \\end{array}$ null (y:ys) ||(r $= =$ head (y:ys) && (esPreRama i ys) $\\Vert$ esPreRama d ys)) $\\Rightarrow$ length (y:ys) $\\leq 1 +$ max (altura i) (altura d) False ||(r $= =$ head (y:ys) && (esPreRama i ys) $| |$ esPreRama d ys)) $\\Rightarrow$ length (y:ys) $\\leq 1 + \\mathsf { m a x }$ (altura i) (altura d) ( $\\mathsf { r } = \\mathsf { = }$ head (y:ys) && (esPreRama i ys) $| |$ esPreRama d ys)) $\\Rightarrow$ length (y:ys) $\\leq 1 + \\mathsf { m a x }$ (altura i) (altura d) ",
+        "bbox": [
+            53,
+            239,
+            851,
+            372
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sean: ",
+        "bbox": [
+            114,
+            373,
+            161,
+            387
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { A } = \\mathsf { r } = =$ head (y:ys) B = (esPreRama i ys) $\\parallel$ esPreRama d ys) ${ \\mathsf C } =$ length (y:ys) ≤ 1 + max (altura i) (altura d) ",
+        "bbox": [
+            171,
+            390,
+            509,
+            439
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Si probamos $\\mathsf { B } \\Rightarrow \\mathsf { C }$ , entonces, por Bool, vale $( \\mathsf { A } \\land \\mathsf { B } ) \\Rightarrow \\mathsf { C }$ ",
+        "bbox": [
+            116,
+            440,
+            539,
+            455
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Probemos que vale $\\mathsf { B } \\Rightarrow \\mathsf { C }$ . ",
+        "bbox": [
+            117,
+            457,
+            312,
+            472
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "esPreRama i ys $| |$ esPreRama d ys $\\Rightarrow$ length (y:ys) $\\leq 1 + \\mathsf { m a x }$ (altura i) (altura d) $) = \\{ \\mathsf { L } 1 \\}$ esPreRama i ys $| |$ esPreRama d ys $\\Rightarrow 1 +$ length ys $\\leq 1 +$ max (altura i) (altura d) $=$ {Int} esPreRama i ys $| |$ esPreRama d ys $\\Rightarrow$ length ys ≤ max (altura i) (altura d) ",
+        "bbox": [
+            179,
+            473,
+            808,
+            522
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por lema de generación de Bool, esPreRama i xs es True o False. ",
+        "bbox": [
+            111,
+            540,
+            598,
+            554
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Caso True: ",
+        "bbox": [
+            173,
+            558,
+            256,
+            570
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "True || esPreRama d ys $\\Rightarrow$ length ys $\\leq$ max (altura i) (altura d) $=$ {Bool} length ys $\\leq$ max (altura i) (altura d) ",
+        "bbox": [
+            232,
+            574,
+            741,
+            606
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por HI, sabemos que: esPreRama i ys $\\Rightarrow$ length ys $\\leq$ altura i. ",
+        "bbox": [
+            232,
+            623,
+            671,
+            638
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por caso True, True $\\Rightarrow$ length ys $\\leq$ altura i. ",
+        "bbox": [
+            233,
+            641,
+            537,
+            655
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por Bool, length ys $\\leq$ altura i. ",
+        "bbox": [
+            233,
+            657,
+            444,
+            671
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por Int, altura i ≤ max (altura i) (altura d). ",
+        "bbox": [
+            235,
+            674,
+            527,
+            688
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Luego, por Int, length ys $\\leq$ max (altura i) (altura d), que es lo que queríamos demostrar. ",
+        "bbox": [
+            196,
+            690,
+            864,
+            705
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Caso False: ",
+        "bbox": [
+            176,
+            708,
+            264,
+            720
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "False || esPreRama d ys $\\Rightarrow$ length ys ≤ max (altura i) (altura d) $=$ {Bool} esPreRama d ys $\\Rightarrow$ length ys $\\leq$ max (altura i) (altura d) ",
+        "bbox": [
+            232,
+            723,
+            750,
+            756
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por HI, esPreRama d ys $\\Rightarrow$ length ys ≤ altura d.   \nPor Int, altura d ≤ max (altura i) (altura d).   \nLuego, por Int, esPreRama d ys $\\Rightarrow$ length ys ≤ max (altura i) (altura d), que es lo que queríamos demostrar. $\\boxed { \\begin{array} { r l } \\end{array} }$ ",
+        "bbox": [
+            230,
+            772,
+            740,
+            838
+        ],
+        "page_idx": 2
+    }
+]

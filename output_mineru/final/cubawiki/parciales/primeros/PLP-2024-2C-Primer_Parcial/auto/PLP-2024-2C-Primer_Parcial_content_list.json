@@ -1,0 +1,896 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/2e1612601eb09b42faf6378bebe47c7176f9dc69fcd5cb5f6f775ff61063a819.jpg",
+        "table_caption": [
+            "PLP-Primer Parcial-2do cuatrimestre de 2024 "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>#Orden</td><td>Libreta</td><td>Apellido y Nombre</td><td></td><td></td><td></td><td>Ej1Ej2 Ej3Nota Final</td></tr><tr><td></td><td></td><td></td><td>EEEA</td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            149,
+            84,
+            860,
+            130
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            732,
+            134,
+            788,
+            149
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "LFvrelenleekamen ",
+        "bbox": [
+            734,
+            134,
+            897,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eteexamenseapruebaobteniendoalmenosdosejerciciosbien(B)yunoregular(R)，ysepromocionaconalmenosdos ejerciciosmuybien(MB)yunobien(B).Esposibleobtenerunaaprobacincondicionalconunjerciciomuybien(M)，nobien (B)yunoinsuficiente(I)peroabiendoentregadalgoquecontribuyalsolucindelejereicioLsnotasparaadaejecii son:-IEregrderiepsoeelidydededl ynumerarlas.SepuedeutilizartodolodfinidoenlaspracticasytodoloquesedioenclasecolocandoreferencisclarasEl ordendelosejerciciosesarbitrario.Recomendamoslerelparcialcompletoantesdeempezararesoverlo ",
+        "bbox": [
+            109,
+            148,
+            912,
+            235
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio1-Programacion funcional ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            242,
+            428,
+            257
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Aclaracion:eneste ejercicio no esta permitido utilizar recursion explicita,a menos que se indique lo contrario. ",
+        "bbox": [
+            105,
+            262,
+            910,
+            289
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "El siguiente tipo de datos sirve para representarun bufer con historia que permite escribir o leer en cualquiera de sus posiciones (las posiciones tienen tipo Int).El tipo del bufer es parametricoen el tipode los contenidos que se pueden guardar enel.Siseeseribedos vecesenlamisma posicion,el nuevo contenido pisaalanterior(porsimplicidad).Laleturaeliminaelcontenidoleido1 ",
+        "bbox": [
+            107,
+            292,
+            909,
+            352
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ata Buffer a $=$ Empty 丨 Write Int a (Buffer a) | Read Int (Buffer a) ",
+        "bbox": [
+            122,
+            353,
+            717,
+            369
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definimos el siguientebufferpara los ejemplos: ",
+        "bbox": [
+            107,
+            369,
+            460,
+            383
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "buf=Write1‘a''\\$Write2‘b'\\$ Write1‘c\"\\$ Empty a) Darel tipoydefinir la funcion foldBuffer y recBuffer,que implementan respectivamente loses quemas de recursion estructuraly primitiva para el tipo Buffer a.Soloen este inciso se permiteusar recursion explicita. ",
+        "bbox": [
+            109,
+            385,
+            643,
+            401
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            115,
+            416,
+            914,
+            460
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b)Definir la funcion posicionesOcupadas::Buffer a ->[Int],que lista las pesiciones ocupadas eu un buffer (sin posiciones repetidas). ",
+        "bbox": [
+            109,
+            470,
+            917,
+            500
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: posicionesOcupadas buf $ [ 1$ ，2] ",
+        "bbox": [
+            139,
+            504,
+            536,
+            520
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c)Definir lafuncioncontenido：Int-> Buffer a -> Maybe aquedevuelva elcontenido de ua po sicionenunbersihyaloenellayothingencasootrio ",
+        "bbox": [
+            107,
+            530,
+            910,
+            561
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: contenido 1 buf Just $( ) _ { a } ( )$ contenido （-2） buf Nothing. contenido 1 (Read 1 buf) Nothing. ",
+        "bbox": [
+            137,
+            562,
+            462,
+            625
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d)Definir la funcion puedeCompletarLecturas:Buffer a-> Boolque indiquesi todas las lecturas puedencompleaseeianteeseciiadavqueentlerosiiono escrito en ella). ",
+        "bbox": [
+            105,
+            636,
+            912,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: ",
+        "bbox": [
+            139,
+            686,
+            242,
+            700
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "puedeCompletarLecturas (Read 1 Empty) $\\tilde { \\bf \\Phi }$ False, puedeCompletarLecturas (Read 1 buf) True. puedeCompletarLecturas（Read 1 \\$Read 1buf）\\~False e)Definir lafunciondesacer:Bufera->Int->Bufferaque dadosunbfferyunro natural n (es decir,un Int que por contexto deuso no es negativo),deshaga las tltimas n operaciones del buffersacando los n constructores mas externos para obtener un bufer como el original antes de realizar dichas operaciones.Si se realizaron menos den operaciones,el resultado debe quedar vacio ",
+        "bbox": [
+            136,
+            703,
+            618,
+            749
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            112,
+            758,
+            915,
+            821
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Porejemplo:deshacer2buf\\~ Write1‘c'' Empty. ",
+        "bbox": [
+            136,
+            826,
+            581,
+            843
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pista:aprovechar la currficacion yutilizar evaluacionparcial. ",
+        "bbox": [
+            137,
+            846,
+            621,
+            863
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            495,
+            950,
+            509,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Porejemplofebrite2uEptyie2uerite2aleEty) bed1tepelee tienendistinta historia ypodrfan distinguirse mirando el historial deoperaciones realizadas ",
+        "bbox": [
+            89,
+            869,
+            917,
+            910
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            865,
+            54,
+            952,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            45,
+            193,
+            80,
+            230
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Demostracion de propiedades ",
+        "bbox": [
+            105,
+            51,
+            468,
+            65
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes definiciones2 data ABa=Nil | Bin (ABa)a （AB a) ",
+        "bbox": [
+            105,
+            67,
+            389,
+            83
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            95,
+            435,
+            111
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "const::a->b->a ",
+        "bbox": [
+            146,
+            124,
+            329,
+            138
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "C}const=（\\x->\\y->x) ",
+        "bbox": [
+            107,
+            138,
+            369,
+            153
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "{ZO} zipAB Nil $\\mathbf { \\equiv }$ const Nil {Z1}zipAB（Binird）=\\t->casetof a) Demostrar la siguiente propiedad: ",
+        "bbox": [
+            102,
+            199,
+            334,
+            212
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            102,
+            213,
+            460,
+            226
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            114,
+            273,
+            396,
+            288
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bd71c7536d0770ba515f80d7c86d596a5bef0041b360335b975408cbecef2d97.jpg",
+        "text": "$$\n\\forall \\mathrm { ~ t : : A B ~ \\ a ~ . ~ } \\forall \\mathrm { ~ u : : A B ~ \\ a ~ , ~ a l t u r a ~ t \\geq a l t u r a ~ ( z i p A B ~ t ~ u ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            312,
+            301,
+            734,
+            318
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Serecomienda hacer inducion enunarbol,utilizandoextensionalidad para elotro cuando sea necesario.Sepermitedefinirmacros (i.e.poner nombresaexpresioneslargas parano tenerquerepetirlas). ",
+        "bbox": [
+            136,
+            332,
+            917,
+            364
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Noes obligatorio escribir los Vcorrespondientes en cada paso,pero es importante recordar que estan presentes.Recordar tambien que $\\log = \\mathrm { d e }$ las definiciones pueden leerse en ambos sentidos ",
+        "bbox": [
+            136,
+            369,
+            914,
+            399
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Seconsiderandemostradas todaslaspropiedadesconocidas sobreenterosy booleanosasi como tambien ",
+        "bbox": [
+            134,
+            403,
+            915,
+            432
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b)Demostrarelsiguienteteoremausandodeduccionatural,sinutilizarprincipioselsios: ",
+        "bbox": [
+            107,
+            461,
+            816,
+            477
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6deace270b264a20406c2c470cf073c1f04f5612b9fc8c511326fc177df7906f.jpg",
+        "text": "$$\n( ( \\rho \\land \\sigma ) \\lor ( \\rho \\land \\tau ) ) \\Rightarrow ( \\sigma \\land \\rho ) \\lor \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            400,
+            490,
+            645,
+            504
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3-Calculo Lambda Tipado ",
+        "bbox": [
+            99,
+            521,
+            420,
+            536
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sedesea extender el calculo lambda simplemente tipado para modelar arboles ternarios.Para eso se extienden los tipos y expresiones de la siguiente manera: ",
+        "bbox": [
+            102,
+            540,
+            917,
+            570
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "T=.·|AT(T) $M : = : \\cdots | \\ \\operatorname { T M 1 } _ { \\tau } \\mid \\operatorname { T e r n } ( M , M , M , M ) \\mid \\ \\mathsf { f o l d A T } \\ M \\triangleright \\ \\mathsf { T N i l } \\ \\sim : M ; \\ \\mathsf { T e r n } ( x , r \\dot { a } , r m , r d ) \\sim M .$ ",
+        "bbox": [
+            131,
+            571,
+            820,
+            606
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "· $\\mathtt { A T } ( \\tau )$ es el tipodelosarboles ternariosconnodosde tipo $\\boldsymbol { \\tau }$ ",
+        "bbox": [
+            119,
+            618,
+            600,
+            634
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "TNil,esunArbol ternariovacioqueadmite valores detipo $\\boldsymbol { \\cdot }$ · $\\operatorname { T e r n } ( M _ { 1 } , M _ { 2 } , M _ { 3 } , M _ { 4 } )$ esunrbolternarioconraiz $M _ { 1 }$ ehijos $M _ { 2 }$ M3yM4. ",
+        "bbox": [
+            117,
+            643,
+            611,
+            659
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            112,
+            668,
+            732,
+            686
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldATMlM2;Tern(xideselemadeecursiestructuralaaes ternariosdondelasribles,imydselganalazylosresuladosdelarecuriosobe loshijos izquierdomedioyderechoelbol $M _ { 1 }$ respectivamente. ",
+        "bbox": [
+            115,
+            693,
+            919,
+            741
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Introducir las reglas de tipado para la extensionpropuesta. ",
+        "bbox": [
+            105,
+            755,
+            589,
+            771
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b)Definirelconjuntodevaloesyasuevasreglasdereduinenpas c) Mostrar paso por paso c6mo reduce la expresion: ",
+        "bbox": [
+            107,
+            781,
+            702,
+            799
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            807,
+            512,
+            823
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "At:AT(Nat)fotil\\~Fse;Ter(imrdZeroPed)rn(1latlt d)DetinircomomacrolafuncionmapATa,,que toma unAT(g)yuna funciondeg enT,yaplica dicha funcion a todos los elementos del Arbol. ",
+        "bbox": [
+            105,
+            828,
+            942,
+            849
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            110,
+            855,
+            936,
+            885
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Escritas con recursion explicita para facilitar las demostraciones. ",
+        "bbox": [
+            109,
+            908,
+            537,
+            925
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            490,
+            946,
+            504,
+            958
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pral PLP-2c2oRy ",
+        "bbox": [
+            89,
+            16,
+            336,
+            38
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "dbBufF=Empty|Wrire IncBufFuo）|Red 工nt(BiffU  \nd)[olB(erb-（nc-ob）（c-6-Db)→Bfcr=-DbFoldBufuCEmpTgcWrneCRcodC=CsctoFEmpty-cEmmptyWrte△×b-cW²tcn×（re6）Readb→cReod（ecb）Whucree=FodBurfoCEmpty cWritccReao",
+        "bbox": [
+            100,
+            40,
+            801,
+            270
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ecBff:6→（LC>-Dbuf-Db→6)-（t-Dffra-b→6）→Bufu→b rcBuFfcEmptyCWrirecRd=Coretof ",
+        "bbox": [
+            109,
+            294,
+            887,
+            349
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6FosicuvocuPad5Buffe-[Int] Fa5iunoOcupdy=foldBuff[(\\n-rec-onian5n)rec) (nrec-DF1tvrec(le-De≠n） ",
+        "bbox": [
+            105,
+            496,
+            828,
+            584
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "cConteido.Inc-DBurfu→nybe Contenidoe=faldsuffoNoChingnxrec-iFn==eThnJostxesrrec) nrec-0ifn=eThNningelsc rcc) ",
+        "bbox": [
+            107,
+            611,
+            909,
+            699
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "d)PuedeCamplet>lectur:Buffur-D BolPuedeCemplesrcacturs=recBuff-Tue(rec-Drec)nbrec-D（elemn（Posicnuocopdsb)Be)desHctDUfr-Dtnc-DBFF dsurec（e-1))deHcu=recBofFu（cnxTmptg）Oxbrec-D-Dife=oThu（wrrx6）（nbrec-De-）iFe=oTn（co n6）tssre(e-1）",
+        "bbox": [
+            104,
+            728,
+            875,
+            818
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            105,
+            846,
+            932,
+            951
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/09f1426b81d0518d0792858f00f6345785a080a1cab17176e844fd9b38482fa6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            90,
+            8,
+            126,
+            32
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Csobse.P(Ni1) ",
+        "bbox": [
+            99,
+            87,
+            272,
+            108
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "tUrN;12ətur（2eADN) AO >>Ituh（2PAB Ni)a) 0alturs（totNi)u） (Corsr 。≥ltunNil HADy D ",
+        "bbox": [
+            89,
+            118,
+            554,
+            197
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Demostrodo P(Nil ",
+        "bbox": [
+            603,
+            191,
+            774,
+            210
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1+mx（sItuni）（oltund)≥>ltors（²iPAD（Bin55d）Nil) S2+p 1+mox（Tun=）(>itund）≥əltur（Nil） EAo' 1+m>x（sup）（altnd）≥0 ",
+        "bbox": [
+            72,
+            366,
+            697,
+            419
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Por3leno，（2/turc）2oy（sltund）≥0，Luego，mxblturi)（1tund)2O.εTenco：",
+        "bbox": [
+            75,
+            431,
+            850,
+            452
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1+mx（>lturs）（2tud）≥↑≥0",
+        "bbox": [
+            163,
+            461,
+            531,
+            484
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1+mx（slanc)（olTund）≥alur（2rAB（Binird）（Bin×yz)） ？<m×（2toni）(Tund）2>（turs（2pW@Bin（EPAB×）（r,y）（2iPADd2）） 2+mx2lturi）（sitund）>smy1+mx（1tun（2ipAD×））（situr（2pADd2) mx△[Turi）（2ltund）≥mx（>ltun/²iPABix)）（>ror（2PADd2) ",
+        "bbox": [
+            78,
+            527,
+            895,
+            598
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Serro1mxzcsos.mox2lruh=1lrursd）={tun0m）(slturc）(sTursd）=△tordCSoMx(sltur)(stord=altorsc.GTancv，atursi>alfundPmakys >lturC≥mx（21tur（2PABix)）（1tur[2PADd21）",
+        "bbox": [
+            82,
+            611,
+            909,
+            701
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "PorHtend，2(tuti>2tu（ePAx)，PorHIltudlur2AB) Lcgo，/ton>21turd2əur（²PAD）.Lego ",
+        "bbox": [
+            72,
+            712,
+            914,
+            751
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "21tur(≥mx（2ltuh（2pADcx））（alfur>[2PA0d2) ",
+        "bbox": [
+            206,
+            764,
+            751,
+            787
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Comoxti)otund=（fud.CTonce△ltudatur (maxy turd3mx（s（tar（2PAx）（stu2iPADd2) ",
+        "bbox": [
+            77,
+            798,
+            747,
+            858
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "PorHJdstorod32lfuc2PADdePorM+acuni22Tun2PABCx) Lueg,dlturod2s1or2>ltu（2.PADx）Lzg tond2nmx（o1tu，2PA(x））a1ur2iPADd2)√ ",
+        "bbox": [
+            77,
+            869,
+            939,
+            957
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Demostvd Por ",
+        "bbox": [
+            630,
+            965,
+            831,
+            991
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "-oxP,PnQ-PnQ PAQ-PQNez Ae1r,PQHQ r,PnQIP C,P△t-PAT厂,P△Q卜Q△PNr-(P△Q}（PA+） rPnQ-（QNP）vT 、PAT├QP)vT-Ver=（PQ）（p△t）卜-（QP）TF（Pna）u（PA+））-D（aAP）vT",
+        "bbox": [
+            50,
+            380,
+            981,
+            612
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3↑=At（)  \nM=-.1tNi丨n(n.n，n，n）|(uAt n>tNi）mM；ton(.r.r,ro）\\~DM) -AXAT r-M:r-N:ArrrO:△)r-PA(T)P-TNil:At(r) PHtun(m，N,O，m）：A+(T)F-MATN)CI-N:O ，x：r,ro：σ，rm:σ，rd:σ-O：σ troldr├foldAt MOTNi）mbN;Ter（xrs,ra，d）noO：6)V:=..N1er(vNy)",
+        "bbox": [
+            90,
+            16,
+            910,
+            248
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "tern(M,N,O，P）-0tern(M',No，p) e-ten Tern(v，M，NO)tern（V,n'N,O） e-corn Tern(v，V，nN)-tUn(NVnNN) e-tUn3 Tern(VV,v,n）tUn(NN,V,n') e-tutny folATM△↑Nn\\~DN;TUn（x，ro,rm,a\\~>O →FdAtM‘>tN;}mN;tun|xrormrd） ",
+        "bbox": [
+            161,
+            286,
+            705,
+            472
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(oUA+tNi\\~柳tN；]→n，TUn（x,ro，Ym,rd）mNM e-CFN   \nFoUAtTen（vVUy)TN丨△DM;tUn(XForan,d）mDN e-DFT DN{×=V,5=（odATVN1\\~>M;tUn（x，rsrm,rdDN rm:=（olATVDtN)\\~M;TUn（xVrm，d）△DN rd:=[oAtVuDtNiMDM;tn（x，Hmm△N3 ",
+        "bbox": [
+            109,
+            496,
+            892,
+            650
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(A(N)tTNe））TnBDouATn（2,Ni,tNr,TN(t）△tN{mfUTen（x，c,m，d}ms(md（x)）efs²o（r（)=is2o（Pred（su(2））Dis²eo2o）e[oUAtCDTNN\\~DTNpTe(xrc,tnd）mD↑Un(Fx，ron，d）",
+        "bbox": [
+            75,
+            694,
+            927,
+            787
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            178,
+            880,
+            878,
+            906
+        ],
+        "page_idx": 5
+    }
+]

@@ -1,0 +1,3566 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on (TM) ",
+        "text_level": 1,
+        "bbox": [
+            104,
+            238,
+            883,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on orientada a objetos ",
+        "bbox": [
+            190,
+            345,
+            812,
+            404
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            444,
+            781,
+            643
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            191,
+            279,
+            242
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Conceptos fundamentales de POO ",
+        "bbox": [
+            74,
+            356,
+            632,
+            408
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a la POO en Smalltalk ",
+        "bbox": [
+            74,
+            514,
+            662,
+            573
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4f3d3b5c0505febf6561876256cb97d1c15f36307ec72bb636e98da217d2fb25.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Un poco m´as de pr´actica ¿Por qu´e vamos a ver un paradigma m´as? ",
+        "bbox": [
+            74,
+            683,
+            483,
+            738
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            19,
+            29,
+            701,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e conocen de la POO?   \n¿Qu´e aporta con respecto a los paradigmas que vimos?   \n¿Habr´a problemas que ser´an m´as f´aciles/claros/simples de   \nresolver por medio de la POO?   \n¿Pasaba algo parecido con los anteriores paradigmas?   \n¿Qu´e implica aprender un paradigma nuevo? ",
+        "bbox": [
+            124,
+            316,
+            875,
+            665
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            319,
+            121,
+            654
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Distintos modos de concebir la programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            754,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6f20788336f3efb83b96d8f5df411b643b8deacf8476ce5d00dc417ca7a18343.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Los paradigmas que hemos visto se fundamentan en la l´ogica: ",
+        "bbox": [
+            77,
+            216,
+            859,
+            261
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on funcional los programas son demostraciones.   \nProgramaci´on l´ogica los programas son f´ormulas. ",
+        "bbox": [
+            99,
+            301,
+            897,
+            400
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Los programas est´an conformados por componentes, llamadas objetos, que interact´uan intercambiando mensajes. ",
+        "bbox": [
+            74,
+            466,
+            867,
+            562
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Las entidades f´ısicas o conceptuales del dominio del problema que se quiere modelar se representan como objetos. ",
+        "bbox": [
+            74,
+            588,
+            908,
+            683
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "El comportamiento de los objetos debe reflejar fielmente aquellos aspectos que nos interesan de las entidades de la “realidad”. ",
+        "bbox": [
+            71,
+            709,
+            903,
+            805
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Breve perspectiva hist´orica ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            455,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "La POO surgi´o alrededor de 1970 para abstraer t´ecnicas comunes de la programaci´on procedural: ",
+        "bbox": [
+            71,
+            180,
+            903,
+            272
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1. Pasaje de registros1 para permitir c´odigo reentrante. (Alternativa superadora a las variables globales).   \n2. Agrupamiento de las funciones en m´odulos.   \n3. Polimorfismo por indirecci´on: un registro contiene punteros a funciones que lo manipulan. ",
+        "bbox": [
+            88,
+            286,
+            895,
+            558
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Algunos lenguajes orientados a objetos muy influyentes: ",
+        "bbox": [
+            77,
+            595,
+            776,
+            639
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "▶ Simula . O-J. Dahl & K. Nygaard, ∼1967   \n▶ Smalltalk . A. Kay, D. Ingalls & A. Goldberg, ∼1972   \n▶ Self . . D. Ungar & R. Smith, ∼1987 ",
+        "bbox": [
+            107,
+            654,
+            928,
+            827
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "1Es decir, tuplas o structs. ",
+        "bbox": [
+            110,
+            952,
+            411,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            191,
+            279,
+            242
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Conceptos fundamentales de POO ",
+        "bbox": [
+            74,
+            352,
+            635,
+            411
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a la POO en Smalltalk ",
+        "bbox": [
+            74,
+            514,
+            660,
+            573
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Un poco m´as de pr´actica ",
+        "bbox": [
+            74,
+            683,
+            483,
+            738
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Objetos y mensajes ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            337,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1. Un entorno OO est´a compuesto por objetos. ",
+        "bbox": [
+            99,
+            172,
+            704,
+            216
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2. Un objeto puede enviar un mensaje a otro. Un mensaje representa una solicitud al objeto receptor, para que lleve a cabo una de sus operaciones. ",
+        "bbox": [
+            93,
+            231,
+            892,
+            375
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3. La interfaz de un objeto es el conjunto de mensajes que es capaz de responder. ",
+        "bbox": [
+            93,
+            393,
+            895,
+            488
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4. Un m´etodo es el procedimiento que usa un objeto para responder un mensaje. Es decir, es la implementaci´on efectiva de la operaci´on solicitada por el mensaje. ",
+        "bbox": [
+            93,
+            503,
+            925,
+            650
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5. La forma en la que un objeto lleva a cabo una operaci´on puede depender de colaboradores externos2 as´ı como de su estado interno, dado por un conjunto de colaboradores internos3. ",
+        "bbox": [
+            93,
+            665,
+            928,
+            812
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "2Tambi´en llamados par´ametros o argumentos del mensaje recibido. 3Tambi´en llamados atributos o variables de instancia del objeto receptor. ",
+        "bbox": [
+            104,
+            911,
+            900,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 ",
+        "bbox": [
+            972,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Objetos y mensajes ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            337,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            283,
+            187,
+            330
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Objeto que representa un rect´angulo de $5 \\times 2$ : ",
+        "bbox": [
+            80,
+            341,
+            662,
+            386
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/eac6c3974210d2dbcf1ee69cba91965a0c3e3a39daa746effa223a640f878b6d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Interfaz:</td><td rowspan=1 colspan=1>area</td></tr><tr><td rowspan=1 colspan=1>Atributos:</td><td rowspan=1 colspan=1>ancho....      (objeto que representa al 5)alto..           (objeto que representa al 2)</td></tr><tr><td rowspan=1 colspan=1>Metodos:</td><td rowspan=1 colspan=1>area^ ancho * alto</td></tr></table>",
+        "bbox": [
+            127,
+            426,
+            867,
+            683
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Encapsulamiento ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            295,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Principio de encapsulamiento ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            132,
+            469,
+            180
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "S´olo se puede interactuar con un objeto a trav´es de su interfaz.   \nEl estado interno de un objeto es inaccesible desde el exterior. ",
+        "bbox": [
+            77,
+            191,
+            872,
+            286
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Consecuencias del encapsulamiento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            323,
+            552,
+            367
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1. Alternar entre dos representaciones de una misma entidad no modifica el comportamiento observable del sistema. Ejemplo. Un conjunto de enteros se puede representar con una lista enlazada o con un ´arbol binario balanceado, sin que el usuario pueda notar una diferencia de comportamiento. ",
+        "bbox": [
+            93,
+            393,
+            917,
+            636
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "2. “Duck typing”. Un objeto se puede intercambiar por otro que implemente la misma interfaz. ",
+        "bbox": [
+            93,
+            654,
+            922,
+            746
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo. Si espero interactuar con un buscador que responde el mensaje “buscar: texto”, me pueden suministrar un objeto que responde ese mensaje y adem´as mantiene estad´ısticas de uso. ",
+        "bbox": [
+            129,
+            753,
+            917,
+            944
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/91396b399efda75ca285f8a12df025217b68ef333a68e90681e4f31d03ca1161.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            952,
+            997,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Variantes de la orientaci´on a objetos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            613,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Los entornos OO pueden tener distintas caracter´ısticas: ",
+        "bbox": [
+            74,
+            257,
+            773,
+            305
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Env´ıo de mensajes sincr´onico vs. asincr´onico.   \nEnv´ıo de mensajes con respuesta vs. sin respuesta.   \nObjetos mutables vs. inmutables.   \nClasificaci´on vs. prototipado.   \nHerencia simple vs. herencia m´ultiple. ",
+        "bbox": [
+            118,
+            319,
+            784,
+            669
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "El entorno que usaremos (Smalltalk) tiene caracter´ısticas t´ıpicas. ",
+        "bbox": [
+            77,
+            683,
+            895,
+            735
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            327,
+            124,
+            665
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Clases e instancias ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            323,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Todo objeto es instancia de alguna clase. ",
+        "bbox": [
+            77,
+            209,
+            610,
+            253
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Una clase es un objeto que abstrae el comportamiento com´un de todas sus instancias. Ejemplo. (1 @ 2) es una instancia de la clase Point. ",
+        "bbox": [
+            121,
+            272,
+            925,
+            415
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Todas las instancias de una clase tienen los mismos atributos.   \nEjemplo. Todas las instancias de Point tienen atributos x e y. ",
+        "bbox": [
+            129,
+            430,
+            925,
+            525
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Todas las instancias de una clase usan el mismo m´etodo para responder un mismo mensaje. ",
+        "bbox": [
+            129,
+            540,
+            917,
+            636
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo. Los mensajes (1 @ 2) rho y (3 @ 4) rho se resuelven con un m´etodo implementado en la clase Point. ",
+        "bbox": [
+            132,
+            643,
+            875,
+            735
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Veremos m´as sobre method dispatch m´as adelante. ",
+        "bbox": [
+            135,
+            761,
+            776,
+            805
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Subclasificaci´on y herencia ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            450,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Cada clase es subclase de alguna otra clase. ",
+        "bbox": [
+            77,
+            143,
+            640,
+            187
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Las clases se estructuran en una jerarqu´ıa. Por ejemplo: ",
+        "bbox": [
+            80,
+            198,
+            779,
+            238
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/8c7a8295bba589e8f99483531c8eb26853b0071cf462e172e3fdb03dbe350333.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            99,
+            246,
+            919,
+            514
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Una clase hereda todos los m´etodos de su superclase. ",
+        "bbox": [
+            80,
+            540,
+            754,
+            584
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Una clase puede elegir reemplazar (en ingl´es, override) un m´etodo definido en la superclase por otro m´as espec´ıfico. ",
+        "bbox": [
+            74,
+            632,
+            928,
+            727
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Hay clases que est´an destinadas a abstraer el comportamiento de sus subclases, pero no tienen instancias (e.g., la clase Number). Estas se llaman clases abstractas. ",
+        "bbox": [
+            74,
+            775,
+            906,
+            922
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            191,
+            279,
+            242
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Conceptos fundamentales de POO ",
+        "bbox": [
+            74,
+            356,
+            632,
+            408
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a la POO en Smalltalk ",
+        "bbox": [
+            74,
+            514,
+            662,
+            573
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Un poco m´as de pr´actica ",
+        "bbox": [
+            74,
+            683,
+            483,
+            738
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos b´asicos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            298,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Evaluemos los siguientes comandos: ",
+        "bbox": [
+            77,
+            99,
+            527,
+            143
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(Cuidado con la precedencia) ",
+        "bbox": [
+            552,
+            209,
+            922,
+            253
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "1. 1 + 2   \n2. 1 + 2 \\* 3   \n3. 1 class   \n4. 1 class superclass   \n5. 3 squared / 2 squared   \n6. a := Array new: 10   \n7. a at: 1 put: ’hola’   \n8. a at: 1 ",
+        "bbox": [
+            93,
+            154,
+            475,
+            599
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(Juguemos un poco con el entorno) ",
+        "bbox": [
+            273,
+            628,
+            723,
+            672
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Definamos una clase Par y los siguientes m´etodos: ",
+        "bbox": [
+            82,
+            705,
+            720,
+            750
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "1. Par x: unObjeto y: otroObjeto — construye un par.   \n2. par x, par y — proyectan las componentes.   \n3. par + otroPar — suma dos pares   \n4. ¿Qu´e sucede si anidamos pares y usamos la suma? ",
+        "bbox": [
+            91,
+            764,
+            864,
+            988
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c2709bd97fab1ada346cd022f6876f95f4f6397afee2b6c3e1a910b734ff3d56.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de expresiones y comandos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            596,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Smalltalk es un entorno orientado a objetos (no s´olo un lenguaje). ",
+        "bbox": [
+            74,
+            99,
+            823,
+            191
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Pero necesitamos una sintaxis concreta para describir los m´etodos. ",
+        "bbox": [
+            77,
+            198,
+            919,
+            242
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis “m´ınima” de expresiones y comandos ",
+        "bbox": [
+            74,
+            261,
+            698,
+            308
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Expr ::= x nombre local | X nombre global Expr msg mensaje unario Expr ⟨op⟩ Expr mensaje binario Expr msg1:Expr1 . . . msgN:ExprN mensaje keyword x := Expr asignaci´on   \nCmd ::= Expr expresi´on ∧Expr retorno Expr. Cmd secuencia Los nombres locales refieren a variables, atributos y par´ametros.   \nLos globales refieren a clases, objetos singleton o variables globales.   \nPrecedencia: mensajes unarios $>$ binarios > keyword. ",
+        "bbox": [
+            74,
+            349,
+            936,
+            797
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            830,
+            930,
+            981
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de Smalltalk ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Algunos otros elementos sint´acticos: ",
+        "bbox": [
+            74,
+            224,
+            535,
+            268
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Las variables locales se declaran con |x1 ... xn|.   \nLos mensajes se pueden encadenar con “;”.   \nHay seis palabras reservadas: nil true false self super thisContext ",
+        "bbox": [
+            127,
+            283,
+            911,
+            511
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Se incluye notaci´on para diversos tipos de literales: ",
+        "bbox": [
+            132,
+            522,
+            779,
+            566
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Constantes num´ericas: 29, -1.5, . . ..   \nCaracteres: \\$a, \\$b, \\$c, . . ..   \nS´ımbolos: #hola, . . .   \nStrings: ’hola’, . . . ",
+        "bbox": [
+            157,
+            577,
+            629,
+            790
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Polimorfismo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            232,
+            84
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Una misma operaci´on puede operar con objetos que implementan la misma interfaz de distinta manera. ",
+        "bbox": [
+            74,
+            121,
+            903,
+            213
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Esta caracter´ıstica de la POO se puede aprovechar para construir programas gen´ericos, que operan con objetos independientemente de sus caracter´ısticas espec´ıficas. ",
+        "bbox": [
+            74,
+            261,
+            903,
+            408
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            477,
+            185,
+            522
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "z := OrderedCollection new. z add: Gato new; add: Perro new; add: Pato new. z do: [:animal | animal hablar]. \"miau guau cuac\" ",
+        "bbox": [
+            71,
+            558,
+            820,
+            683
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "▶ No es necesario hacer un switch/case para analizar de qu´e especie de animal se trata. ▶ Cada objeto implementa su propio m´etodo para responder al mensaje “hablar” de forma correspondiente. ",
+        "bbox": [
+            104,
+            724,
+            908,
+            930
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/63cbe2bfc6f928c7f01bd17518a1864c13d6f4844a1eb968852e8fb5cce36ce2.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            911,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Polimorfismo y estructuras de control ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            627,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Smalltalk no tiene estructuras de control (if, for, while, etc.).   \nEstos comportamientos se implementan con env´ıos de mensajes. ",
+        "bbox": [
+            74,
+            99,
+            895,
+            191
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Veamos c´omo implementar manualmente un condicional. ",
+        "bbox": [
+            82,
+            224,
+            790,
+            268
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1. Definamos la siguiente jerarqu´ıa de clases: ",
+        "bbox": [
+            96,
+            275,
+            668,
+            323
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/aa6ee7e1c2ce10aebed6a5c40853b086439407b667439fc69a454e8dea263de1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            395,
+            330,
+            665,
+            485
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "2. Definamos m´etodos para implementar el mensaje: unValorDeVerdad siEsVerdadero: x siEsFalso: y ",
+        "bbox": [
+            93,
+            507,
+            892,
+            599
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "3. Definamos m´etodos para implementar el mensaje: unValorDeVerdad not aprovechando el polimorfismo. ",
+        "bbox": [
+            93,
+            610,
+            776,
+            757
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "4. ¿Qu´e sucede si evaluamos el siguiente comando? ",
+        "bbox": [
+            96,
+            764,
+            751,
+            808
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Verdad new siEsVerdadero: 1 siEsFalso: Misil new lanzar ",
+        "bbox": [
+            196,
+            827,
+            803,
+            919
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Bloques ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            151,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Un bloque o clausura es un objeto que representa un comando, es decir una secuencia de env´ıos de mensajes. ",
+        "bbox": [
+            74,
+            99,
+            914,
+            191
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Se extiende la sintaxis: ",
+        "bbox": [
+            74,
+            209,
+            364,
+            253
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Expr ::= . . [Cmd] bloque sin par´ametros [:x1 ... :xN |Cmd] bloque con par´ametros ",
+        "bbox": [
+            110,
+            272,
+            895,
+            419
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Los bloques sin par´ametros se pueden evaluar con el mensaje: ",
+        "bbox": [
+            74,
+            459,
+            864,
+            507
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "bloque value ",
+        "bbox": [
+            104,
+            529,
+            301,
+            569
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Los bloques con N par´ametros se pueden evaluar con el mensaje: ",
+        "bbox": [
+            63,
+            588,
+            903,
+            636
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "bloque value: arg1 value: arg2 ... value: argN ",
+        "bbox": [
+            99,
+            658,
+            837,
+            705
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            735,
+            187,
+            783
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "1. [1 + 1] value   \n2. [:x :y | x + y] value: 1 value: 2   \n3. [1 + 1. 3] value ",
+        "bbox": [
+            93,
+            805,
+            665,
+            974
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — recorrido sobre ´arboles ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            585,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "1. Definamos la siguiente jerarqu´ıa de clases: ",
+        "bbox": [
+            96,
+            106,
+            671,
+            150
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/52a022aebf5847968ed2bb64c05e868f2c300a184c500dc5eada1a45eab17cdc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            439,
+            165,
+            621,
+            305
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "y los siguientes m´etodos, con la sem´antica esperable: ",
+        "bbox": [
+            132,
+            327,
+            803,
+            371
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Nil new Bin izq: unArbol raiz: unDato der: otroArbol ",
+        "bbox": [
+            187,
+            382,
+            834,
+            463
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "2. Definamos m´etodos para implementar el siguiente mensaje, que recibe un bloque de un par´ametro y lo ejecuta sobre todos los elementos del ´arbol siguiendo el recorrido inorder: ",
+        "bbox": [
+            93,
+            470,
+            925,
+            602
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "arbol do: bloque ",
+        "bbox": [
+            193,
+            613,
+            430,
+            650
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "3. Definamos un m´etodo para implementar el mensaje: arbol size (implementarlo usando ",
+        "bbox": [
+            93,
+            661,
+            870,
+            753
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Dos puntos interesantes: ",
+        "bbox": [
+            77,
+            768,
+            389,
+            812
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Los bloques pueden mutar el estado de variables capturadas. El m´etodo size funciona para cualquier colecci´on que acepte el mensaje do:. ",
+        "bbox": [
+            118,
+            823,
+            919,
+            977
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Manejo de mensajes incomprendidos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            613,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e sucede si evaluamos el siguiente comando? ",
+        "bbox": [
+            74,
+            327,
+            693,
+            371
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "10 contarHasta: 20 ",
+        "bbox": [
+            107,
+            404,
+            397,
+            441
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "El objeto 10 recibe un mensaje doesNotUnderstand: msg. msg es una instancia de la clase Message que reifica el mensaje “contarHasta: 20”. ",
+        "bbox": [
+            124,
+            485,
+            895,
+            628
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Herencia y reutilizaci´on de c´odigo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            569,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Definamos una clase Robot con la siguiente interfaz: ",
+        "bbox": [
+            80,
+            113,
+            745,
+            158
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "1. robot initialize — lo inicializa en la posici´on 0@0. 2. robot posicion — devuelve la posici´on actual. 3. robot desplazar: vector — modifica la posici´on actual sum´andole un vector (que acepta mensajes x e y). ",
+        "bbox": [
+            91,
+            172,
+            889,
+            389
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Definamos ahora una subclase RobotConUndo: ",
+        "bbox": [
+            80,
+            404,
+            665,
+            448
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "1. robot undo — deshace el ´ultimo desplazamiento4. ",
+        "bbox": [
+            91,
+            466,
+            779,
+            511
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Nos vemos obligados a reemplazar (override) los m´etodos initialize y posicion. Pero no queremos copiar y pegar el c´odigo. ",
+        "bbox": [
+            71,
+            525,
+            875,
+            672
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "text_level": 1,
+        "bbox": [
+            74,
+            720,
+            154,
+            764
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "La palabra reservada super se refiere al mismo objeto que self. Pero super m indica que la b´usqueda del m´etodo que implementa el mensaje m debe comenzar desde la superclase de la clase actual. ",
+        "bbox": [
+            74,
+            779,
+            911,
+            922
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "4Podemos usar OrderedCollection, add: y removeLast. ",
+        "bbox": [
+            93,
+            955,
+            729,
+            992
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "22 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de resoluci´on de m´etodos (method dispatch) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            922,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Entrada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            176,
+            176,
+            216
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "O: objeto al que se le desea enviar un mensaje. S: selector del mensaje que se desea enviar. (e.g., at:put:) C : clase en la que se desea buscar el m´etodo. ",
+        "bbox": [
+            129,
+            235,
+            925,
+            404
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Salida ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            419,
+            154,
+            459
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "M: m´etodo que se debe ejecutar para responder el mensaje, o NotUnderstood en caso de que no exista. ",
+        "bbox": [
+            127,
+            481,
+            900,
+            584
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Procedimiento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            602,
+            259,
+            643
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "1. Si C define un m´etodo M para S, devolver M.   \n2. Si no, sea $C ^ { \\prime }$ la superclase de C .   \n2.1 Si $C ^ { \\prime }$ es nil, devolver NotUnderstood.   \n2.2 Si no, asignar $C : = C ^ { \\prime }$ y volver al paso 1. ",
+        "bbox": [
+            91,
+            661,
+            732,
+            860
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de resoluci´on de m´etodos (method dispatch) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            922,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "En general, cuando se env´ıa un mensaje, se usa el algoritmo de resoluci´on de m´etodos tomando como C la clase del objeto O. ",
+        "bbox": [
+            127,
+            268,
+            925,
+            363
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Caso particular: ",
+        "text_level": 1,
+        "bbox": [
+            132,
+            378,
+            353,
+            422
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "cuando se env´ıa un mensaje a self, O es el mismo objeto receptor. ",
+        "bbox": [
+            132,
+            430,
+            883,
+            522
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Excepci´on: ",
+        "text_level": 1,
+        "bbox": [
+            135,
+            540,
+            284,
+            580
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "cuando se env´ıa un mensaje a super, O es el mismo objeto receptor mientras que C es la superclase de la clase del m´etodo que contiene el env´ıo de mensaje a super. ",
+        "bbox": [
+            132,
+            591,
+            897,
+            735
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            191,
+            279,
+            242
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Conceptos fundamentales de POO ",
+        "bbox": [
+            74,
+            356,
+            632,
+            408
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a la POO en Smalltalk ",
+        "bbox": [
+            74,
+            514,
+            662,
+            573
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "25 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Un poco m´as de pr´actica ",
+        "bbox": [
+            74,
+            683,
+            483,
+            738
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Conociendo Pharo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            317,
+            84
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Algunas herramientas b´asicas: ",
+        "bbox": [
+            74,
+            238,
+            455,
+            283
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Playground/Workspace: para interactuar con el sistema. ",
+        "bbox": [
+            129,
+            301,
+            872,
+            345
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Transcript: para registrar lo que pasa. ",
+        "bbox": [
+            132,
+            363,
+            627,
+            408
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "System browser: para navegar las clases definidas. ",
+        "bbox": [
+            129,
+            422,
+            784,
+            466
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Inspector: para inspeccionar un objeto. ",
+        "bbox": [
+            129,
+            485,
+            640,
+            529
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Debugger: para ver si algo falla o ver en detalle la secuencia de mensajes. ",
+        "bbox": [
+            127,
+            544,
+            917,
+            639
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Tip: Con shift+enter pueden navegar m´as r´apido ",
+        "bbox": [
+            80,
+            727,
+            740,
+            772
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            305,
+            121,
+            599
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios Integer - Seguimiento ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            535,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Implementar ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            136,
+            245,
+            180
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Implementar el m´etodo mcm: aNumber en la clase Integer para poder calcular el m´ınimo com´un m´ultiplo entre dos n´umeros. ",
+        "bbox": [
+            124,
+            205,
+            889,
+            345
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Recordar que el mismo se calcula c´omo $\\begin{array} { r } { m c m ( a , b ) = \\frac { a * b } { g c d ( a , b ) } . } \\end{array}$ Asumir que cuenta con el mensaje gcd: aNumber implementado. ",
+        "bbox": [
+            74,
+            371,
+            917,
+            470
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            496,
+            243,
+            540
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Realizar un seguimiento de la expresi´on 6 mcm: 10 y hacer el diagrama de secuencia correspondiente. ",
+        "bbox": [
+            124,
+            566,
+            903,
+            661
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Con esa informaci´on, completar la siguiente tabla: ",
+        "bbox": [
+            127,
+            676,
+            770,
+            720
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "images/b7d9e5fb89224f5adfd6e53457fcb8d170c06e885ad0e89d8c34cdce38561d00.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Mensaje</td><td>Receptor</td><td>Colaboradores</td><td>Resultado</td></tr><tr><td>mcm:</td><td>6</td><td>10</td><td>：</td></tr><tr><td>：</td><td>：</td><td>：</td><td>：</td></tr><tr><td>：</td><td>：</td><td>：</td><td>：</td></tr></table>",
+        "bbox": [
+            204,
+            731,
+            856,
+            937
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5a48065fb3e84dde6364a6daaaf5fc6b338057dcda5d4ef5c0a05278741e1d2b.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            573,
+            118,
+            595
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "M´etodos de clase ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            303,
+            84
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e ocurre cuando mandamos un mensaje a una clase? ",
+        "bbox": [
+            71,
+            128,
+            845,
+            176
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "¡Lo mismo que siempre!   \nLas clases son objetos.   \nComo todo objeto, tienen sus colaboradores internos y su clase. ",
+        "bbox": [
+            116,
+            202,
+            864,
+            415
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "C´omo funciona el new ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            466,
+            375,
+            507
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Dada la siguiente implementaci´on: ",
+        "bbox": [
+            77,
+            518,
+            511,
+            558
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Person class >> newWithName: nombre instancia := (self new). instancia firstName: nombre. nInstancias := nInstancias + 1. ∧ instancia. ",
+        "bbox": [
+            91,
+            577,
+            665,
+            819
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e ocurre si ejecutamos la siguiente colaboraci´on? Person newWithName: 'roberto' ",
+        "bbox": [
+            74,
+            867,
+            743,
+            963
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Closures ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            157,
+            84
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Permiten representar un conjunto de colaboraciones. En definitiva, es segmento de c´odigo al cual no me importa ponerle un nombre (y tiene algunas caracter´ısticas m´as, que veremos luego). ",
+        "bbox": [
+            74,
+            110,
+            919,
+            257
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            279,
+            182,
+            323
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "¿Bloque, Lambda o Closure? ",
+        "bbox": [
+            77,
+            654,
+            466,
+            702
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Bloque: t´ermino gen´erico, designa una porci´on de c´odigo. Expresi´on lambda: proveniente del mundo funcional (Lisp). Closure: bloque con un entorno capturado, que tambi´en es un objeto, ¡obviamente! ",
+        "bbox": [
+            124,
+            727,
+            928,
+            941
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Closures: Seguimiento ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            381,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Los closures se ligan al contexto de ejecuci´on donde son creados.   \nTanto las variables como el return. ",
+        "bbox": [
+            74,
+            139,
+            897,
+            235
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            261,
+            190,
+            308
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e retorna cada env´ıo de #value en el siguiente c´odigo si ejecutamos B new m2? ¿Qu´e devuelve? ",
+        "bbox": [
+            74,
+            319,
+            839,
+            415
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f7215e2c87b6e86691dcdaeab6717a61402240c06b9d4908f61092d4858dce83.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\gg \\textnormal { m } 1 } \\\\ & { \\left. \\begin{array} { l } { \\textnormal { x } \\textnormal { y } \\mid } \\\\ { \\textnormal { y } : = \\textnormal { 0 } . } \\end{array} \\right. } \\\\ & { \\textnormal { x } : = \\textnormal { [ y } : = \\textnormal { y } + \\textnormal { 1 } ] \\textnormal { . } } \\\\ & { \\land \\textnormal { x } . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            96,
+            470,
+            392,
+            716
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "B >> m2 | a aBlock anotherBlock a := A new. aBlock := a m1. aBlock value. aBlock value. anotherBlock := a m1. anotherBlock value. ∧ aBlock value. ",
+        "bbox": [
+            491,
+            474,
+            892,
+            915
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Closures: Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            337,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes mensajes en donde corresponda: ",
+        "bbox": [
+            74,
+            172,
+            878,
+            224
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "#curry ",
+        "bbox": [
+            132,
+            250,
+            234,
+            290
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "#timesDo: ",
+        "bbox": [
+            132,
+            308,
+            276,
+            349
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            393,
+            198,
+            437
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "|currificado nuevo| currificado : $=$ [ :x :res | x + res ] curry.   \nnuevo : $=$ currificado value: 10.   \nnuevo value: 2.   \nLa ´ultima expresi´on debe evaluarse a 12. |count copy|   \ncount : $\\qquad = \\ 0$ .   \n10 timesDo: [copy := count. count := count + 2]. Al terminar, count debe valer 20, y copy debe ser 18. ",
+        "bbox": [
+            74,
+            448,
+            690,
+            669
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            713,
+            798,
+            889
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios Integer - Seguimiento ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            535,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Implementar ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            245,
+            202
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Implementar el m´etodo fact en donde corresponda para que los n´umeros sepan responder a este mensaje que obtiene el factorial del n´umero. ",
+        "bbox": [
+            121,
+            227,
+            903,
+            367
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            419,
+            243,
+            463
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Realizar un seguimiento de la expresi´on 3 fact y hacer el diagrama de secuencia correspondiente. ",
+        "bbox": [
+            129,
+            488,
+            872,
+            580
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Con esa informaci´on, completar la siguiente tabla: ",
+        "bbox": [
+            129,
+            599,
+            767,
+            643
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "table",
+        "img_path": "images/b48e8bdfe5cad7c62e1cefb24461f6a63ee8c6a23c11513ede79209221cc4c03.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Mensaje</td><td>Receptor</td><td>Colaboradores</td><td>Resultado</td></tr><tr><td>fact</td><td>3</td><td>：</td><td>·</td></tr><tr><td>：</td><td></td><td>·</td><td>：</td></tr><tr><td>：</td><td></td><td></td><td>：</td></tr></table>",
+        "bbox": [
+            174,
+            676,
+            825,
+            882
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            606,
+            118,
+            632
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            496,
+            118,
+            518
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Colecciones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            209,
+            84
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Algunas conocidas ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            132,
+            328,
+            176
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Bag (Multiconjunto)   \nSet (Conjunto)   \nArray (Arreglo)   \nOrderedCollection (Lista)   \nSortedCollection (Lista ordenada)   \nDictionary (Hash) ",
+        "bbox": [
+            121,
+            198,
+            563,
+            555
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Los mensajes #with: with: ... ",
+        "bbox": [
+            77,
+            606,
+            483,
+            654
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Forma de crear estas colecciones. ",
+        "bbox": [
+            77,
+            669,
+            497,
+            709
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            750,
+            187,
+            794
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Bag with: 1 with: 2 with: 4   \n#(1 2 4) $=$ (Array with: 1 with: 2 with: 4)   \nBag withAll: #(1 2 4) ",
+        "bbox": [
+            74,
+            808,
+            790,
+            952
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c1c6695ece235ec1319f0c73a8184cd4f783ec48327cb682bb2e6648461732a6.jpg",
+        "text": "$$\n3 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            947,
+            922,
+            1000,
+            1000
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            205,
+            124,
+            547
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Mensajes m´as comunes ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            312,
+            392,
+            356
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "add: agrega un elemento.   \nat: devuelve el elemento en una posici´on.   \nat:put: agrega un elemento a una posici´on.   \nincludes: responde si un elemento pertenece o no.   \nincludesKey: responde si una clave pertenece o no. ",
+        "bbox": [
+            116,
+            382,
+            812,
+            672
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Colecciones ",
+        "bbox": [
+            19,
+            33,
+            209,
+            84
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            389,
+            121,
+            661
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Colecciones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            209,
+            84
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Mensajes m´as comunes ",
+        "bbox": [
+            74,
+            99,
+            372,
+            139
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "do: eval´ua un bloque con cada elemento de la colecci´on. ",
+        "bbox": [
+            132,
+            150,
+            856,
+            191
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "keysAndValuesDo: eval´ua un bloque con cada par clave-valor. ",
+        "bbox": [
+            129,
+            202,
+            803,
+            290
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "keysDo: eval´ua un bloque con cada clave. ",
+        "bbox": [
+            124,
+            297,
+            679,
+            341
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "select: devuelve los elementos de una colecci´on que cumplen un predicado (filter de funcional). ",
+        "bbox": [
+            129,
+            349,
+            823,
+            441
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "reject: la negaci´on del select:. ",
+        "bbox": [
+            132,
+            448,
+            577,
+            492
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "collect: devuelve una colecci´on que es resultado de aplicarle un bloque a cada elemento de la colecci´on original (map de funcional). ",
+        "bbox": [
+            127,
+            500,
+            895,
+            643
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "detect: devuelve el primer elemento que cumple un predicado. ",
+        "bbox": [
+            129,
+            647,
+            814,
+            738
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "detect:ifNone: como detect:, pero permite ejecutar un bloque si no se encuentra ning´un elemento. ",
+        "bbox": [
+            129,
+            750,
+            897,
+            838
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "reduce: toma un bloque de dos o m´as par´ametros de entrada y hace fold de los elementos de izquierda a derecha (foldl de funcional). ",
+        "bbox": [
+            129,
+            845,
+            895,
+            992
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Colecciones: Map ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            309,
+            84
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "El mensaje #do: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            117,
+            301,
+            161
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "La forma de iterar queda definida por la colecci´on ",
+        "bbox": [
+            77,
+            172,
+            704,
+            220
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "#map: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            253,
+            171,
+            301
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Implementemos el siguiente m´etodo en la clase Collection: ",
+        "bbox": [
+            77,
+            308,
+            748,
+            352
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "map: aBlock ",
+        "bbox": [
+            74,
+            389,
+            237,
+            430
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Al ejecutarse, retorna la colecci´on resultante de aplicar ese bloque a cada elemento de la colecci´on original. ",
+        "bbox": [
+            71,
+            463,
+            925,
+            547
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: res debe contener 6, 7 y 9 luego de ejecutar lo siguiente ",
+        "bbox": [
+            85,
+            551,
+            837,
+            595
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "| s res| s : $=$ Set with: 1 with: 2 with: 4. res := s map: [ :x | x + 5 ]. ",
+        "bbox": [
+            74,
+            628,
+            552,
+            761
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se decide qu´e clase de colecci´on usar para el resultado, si el receptor podr´ıa ser de cualquier subclase? ",
+        "bbox": [
+            118,
+            823,
+            925,
+            919
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se logra acceder desde el bloque al resultado parcial? ",
+        "bbox": [
+            124,
+            930,
+            908,
+            977
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "36 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Colecciones: M´ınimo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            359,
+            84
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "#minimo: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            180,
+            212,
+            224
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Agregar a la clase Collection un m´etodo con la siguiente interfaz: ",
+        "bbox": [
+            74,
+            238,
+            903,
+            283
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "minimo: aBlock ",
+        "bbox": [
+            74,
+            323,
+            301,
+            363
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "aBlock es un bloque con un par´ametro de entrada cuya evaluaci´on devuelve un n´umero. ",
+        "bbox": [
+            129,
+            415,
+            842,
+            507
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "El m´etodo debe evaluar el bloque en todos los elementos de la colecci´on receptora, y devolver el m´ınimo de todos los valores obtenidos. ",
+        "bbox": [
+            127,
+            525,
+            925,
+            665
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Se asume que la colecci´on receptora no est´a vac´ıa. ",
+        "bbox": [
+            132,
+            687,
+            779,
+            731
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo inicializar un primer valor? ",
+        "bbox": [
+            129,
+            779,
+            569,
+            819
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "¿Funciona para Set? ",
+        "bbox": [
+            132,
+            838,
+            403,
+            882
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Colecciones: M´ınimo Posible soluci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            361,
+            136
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "minimo: aBlock | minElement minValue | self do: [:each | | val | minValue ifNotNil: [ (val : $=$ aBlock value: each) $<$ minValue ifTrue: [ minElement : $=$ each. minValue : $=$ val]] ifNil: [\"first element\" minElement : $=$ each. minValue : $=$ aBlock value: each]. ]. ^minElement ",
+        "bbox": [
+            55,
+            294,
+            947,
+            775
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "El mensaje collect: ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            367,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e devuelven las siguientes colaboraciones? ",
+        "bbox": [
+            71,
+            121,
+            654,
+            165
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "▶ #hola collect: [ :x | Unicode toUppercase: x ]. (Interval from: 1 to: 5) collect: [ :x | x\\*2 ]. ",
+        "bbox": [
+            116,
+            180,
+            897,
+            338
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Pista: los s´ımbolos e intervalos son inmutables. ",
+        "bbox": [
+            77,
+            375,
+            671,
+            419
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Ve´amoslo en el entorno. ",
+        "bbox": [
+            74,
+            448,
+            381,
+            488
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "El mensaje species ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            518,
+            353,
+            566
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Las clases Interval y ByteSymbol redefinen el m´etodo species para poder responder a collect:. ",
+        "bbox": [
+            74,
+            577,
+            878,
+            672
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Interval >> species   \n^Array.   \nByteSymbol >> species ^ByteString. ",
+        "bbox": [
+            77,
+            698,
+            414,
+            941
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "39 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se implementa el ifTrue:? ",
+        "bbox": [
+            19,
+            29,
+            558,
+            88
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Recordar: Boolean tiene dos subclases. ",
+        "bbox": [
+            74,
+            231,
+            602,
+            279
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "image",
+        "img_path": "images/6ef85038d838125c848f2d88c47c16a7c0b71939316723836a936d2399de4c64.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            372,
+            301,
+            627,
+            485
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "True >> ifTrue: unBloque ^unBloque value. ",
+        "bbox": [
+            77,
+            547,
+            477,
+            654
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "False >> ifTrue: unBloque ^nil. ",
+        "bbox": [
+            74,
+            683,
+            480,
+            786
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Otros m´etodos de Boolean ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            458,
+            84
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "ifFalse:   \nifTrue:ifFalse:   \n&   \n|   \nand:   \nor:   \nnot   \n¿Por qu´e habr´ıa and: y or: si ya hay & y |?   \n¿Por qu´e los booleanos no entienden el mensaje whileTrue:?   \n¿Qu´e objetos lo entienden?   \n¿D´onde est´a implementado el m´etodo? ",
+        "bbox": [
+            102,
+            209,
+            375,
+            617
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            69,
+            639,
+            867,
+            830
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ▶ ? ",
+        "bbox": [
+            96,
+            205,
+            121,
+            625
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            235,
+            745,
+            330
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            419,
+            367,
+            463
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Cap´ıtulos 1–4 del libro de Goldberg y Robson. ",
+        "bbox": [
+            80,
+            466,
+            712,
+            514
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Adele Goldberg y David Robson. Smalltalk-80: the language and its implementation. ",
+        "bbox": [
+            74,
+            518,
+            903,
+            606
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Addison-Wesley, 1983. ",
+        "bbox": [
+            74,
+            617,
+            361,
+            661
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 41
+    }
+]

@@ -1,0 +1,1742 @@
+[
+    {
+        "type": "text",
+        "text": "Práctica No 7 - Resolución en Lógica ",
+        "text_level": 1,
+        "bbox": [
+            282,
+            86,
+            714,
+            107
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Resolución en Lógica Proposicional ",
+        "bbox": [
+            309,
+            151,
+            689,
+            167
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            178,
+            205,
+            192
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Convertir a Forma Normal Conjuntiva y luego a Forma Clausal (notación de conjuntos) las siguientes fórmulas proposicionales: ",
+        "bbox": [
+            99,
+            204,
+            905,
+            234
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. $P \\Rightarrow P$   \nii. $( P \\land Q ) \\Rightarrow P$   \niii. $( P \\lor Q ) \\Rightarrow P$   \niv. $\\lnot ( P \\Leftrightarrow \\lnot P )$ ",
+        "bbox": [
+            104,
+            246,
+            236,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\prime . \\neg ( P \\land Q ) \\Rightarrow ( \\neg P \\lor \\neg Q )$ vi. $( P \\land Q ) \\lor ( P \\land R )$ vii. $( P \\land Q ) \\Rightarrow R$ viii. $P \\Rightarrow ( Q \\Rightarrow R )$ ",
+        "bbox": [
+            507,
+            246,
+            726,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            360,
+            205,
+            374
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. ¾Cuáles de las fórmulas del ejercicio anterior son tautologías? Demostrarlas utilizando el método de resolución para la lógica proposicional. Para las demás, indicar qué pasa si se intenta demostrarlas usando este método. ",
+        "bbox": [
+            112,
+            403,
+            907,
+            445
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\mathrm { \\Omega _ { i } S e }$ deduce $( P \\land Q )$ de $( \\neg P \\Rightarrow Q ) \\land ( P \\Rightarrow Q ) \\land ( \\neg P \\Rightarrow \\neg Q ) ^ { \\cdot }$ ? Contestar utilizando el método de resolución para la lógica proposicional. ",
+        "bbox": [
+            107,
+            454,
+            904,
+            485
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            506,
+            184,
+            520
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes tautologías utilizando el método de resolución para la lógica proposicional. Notar que no siempre es necesario usar todas las cláusulas. ",
+        "bbox": [
+            92,
+            533,
+            904,
+            562
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ae387dda67c47a67f98f66bbd6eecacafe64e19d40517155ed3cb96a03d6113b.jpg",
+        "text": "$$\n\\begin{array} { l l } { { } } & { { ( P \\Rightarrow ( P \\Rightarrow Q ) ) \\Rightarrow ( P \\Rightarrow Q ) } } \\\\ { { } } & { { ( R \\Rightarrow \\neg Q ) \\Rightarrow ( ( R \\land Q ) \\Rightarrow P ) } } \\\\ { { } } & { { ( ( P \\Rightarrow Q ) \\Rightarrow ( R \\Rightarrow \\neg Q ) ) \\Rightarrow \\neg ( R \\land Q ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            115,
+            575,
+            415,
+            623
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            642,
+            206,
+            656
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Un grupo de amigos quería juntarse a comer en una casa, pero no decidían en cuál. Prevalecían dos propuestas: la casa de Fabiana, que era cómoda y espaciosa, y la de Manuel, más chica pero con un amplio jardín y parrilla al aire libre. Finalmente acordaron basar su elección en el pronóstico del tiempo. Si anunciaban lluvia, se reunirían en la casa de Fabiana; y si no, en la de Manuel (desde ya, la reunión tendría lugar en una sola casa). ",
+        "bbox": [
+            92,
+            669,
+            907,
+            726
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Finalmente llego el día de la reunión, y el grupo se juntó a comer en la casa de Fabiana, pero no llovió. ",
+        "bbox": [
+            92,
+            732,
+            855,
+            746
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Utilizar las siguientes proposiciones para demostrar - mediante el método de resolución - que el pronóstico se equivocó (anunció lluvia y no llovió, o viceversa). ",
+        "bbox": [
+            90,
+            752,
+            905,
+            781
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$P = { } ^ { 6 } \\mathrm { E l }$ pronóstico anunció lluvia.\u0011 ",
+        "bbox": [
+            94,
+            787,
+            352,
+            801
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$F = { } ^ { 6 } \\mathrm { E l }$ grupo se reúne en la casa de Fabiana.\u0011 ",
+        "bbox": [
+            94,
+            807,
+            442,
+            821
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$M = { } ^ { 6 } \\mathrm { E l }$ grupo se reúne en la casa de Manuel.\u0011 ",
+        "bbox": [
+            95,
+            827,
+            442,
+            841
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$L =$ \u0010Llueve en el día de la reunión.\u0011 ",
+        "bbox": [
+            94,
+            847,
+            364,
+            862
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: por la descripción de arriba sabemos que $P \\Rightarrow F$ , $\\neg P \\Rightarrow M$ y $\\neg ( F \\land M )$ , además de que $F$ y $\\neg L$ son verdaderas. Pensar en lo que se quiere demostrar para decidir qué pares de cláusulas utilizar. ",
+        "bbox": [
+            90,
+            866,
+            907,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Página 1 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Resolución en Lógica de Primer Orden ",
+        "text_level": 1,
+        "bbox": [
+            292,
+            89,
+            704,
+            107
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "En esta sección, salvo que se haga referencia a SLD, la palabra resolución denota el método de resolución general. Siempre que se demuestre una propiedad, se deberá indicar la sustitución utilizada en cada paso de resolución. ",
+        "bbox": [
+            90,
+            117,
+            904,
+            145
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 5 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            151,
+            184,
+            165
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Convertir a Forma Normal Negada (NNF) las siguientes fórmulas de primer orden: ",
+        "bbox": [
+            92,
+            177,
+            702,
+            193
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. ∀ $\\operatorname { \\mathcal { X } } . \\forall Y . ( \\neg Q ( X , Y ) \\Rightarrow \\neg P ( X , Y ) )$ ii. $\\forall X . \\forall Y . ( ( P ( X , Y ) \\land Q ( X , Y ) ) \\Rightarrow R ( X , Y ) )$ iii. $\\forall X . \\exists Y . ( P ( X , Y ) \\Rightarrow Q ( X , Y ) )$ ) ",
+        "bbox": [
+            107,
+            205,
+            445,
+            272
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 6 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            291,
+            205,
+            305
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Convertir a Forma Normal de Skolem y luego a Forma Clausal las siguientes fórmulas de primer orden: ",
+        "bbox": [
+            97,
+            318,
+            857,
+            334
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. $\\exists X . \\exists Y . X < Y$ , siendo $<$ un predicado binario usado de forma in\u001cja. ",
+        "bbox": [
+            112,
+            350,
+            638,
+            366
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\forall X . \\exists Y . X < Y$ ",
+        "bbox": [
+            110,
+            374,
+            242,
+            388
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "iii. $\\forall X . \\neg ( P ( X ) \\land \\forall Y . ( \\neg P ( Y ) \\lor Q ( Y ) ) )$ ",
+        "bbox": [
+            105,
+            397,
+            396,
+            413
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "iv. $\\exists X . \\forall Y . ( P ( X , Y ) \\land Q ( X ) \\land \\neg R ( Y ) )$ ",
+        "bbox": [
+            105,
+            420,
+            393,
+            437
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "v. $\\forall X . ( P ( X ) \\land \\exists Y . ( Q ( Y ) \\lor \\forall Z . \\exists W . ( P ( Z ) \\land \\lnot Q ( W ) ) ) )$ ",
+        "bbox": [
+            109,
+            444,
+            515,
+            461
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 7 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            483,
+            184,
+            498
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Para pensar (o jugar): ",
+        "bbox": [
+            94,
+            511,
+            258,
+            526
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. Exhibir una cláusula que arroje un resolvente consigo misma.   \nii. Exhibir dos cláusulas, cada una con no más de dos literales, que arrojen tres o más resolventes distintos entre sí.   \niii. Exhibir dos cláusulas que arrojen como resolvente $\\sqcup$ si se uni\u001ccan tres o más términos a la vez, pero no si se uni\u001cca solamente un término de cada lado. ",
+        "bbox": [
+            102,
+            541,
+            907,
+            632
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 8 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            652,
+            206,
+            667
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "La computadora de la policía registró que el Sr. Smullyan no pagó una multa. Cuando el Sr. Smullyan pagó la multa, la computadora grabó este hecho pero, como el programa tenía errores, no borró el hecho que expresaba que no había pagado la multa. A partir de la información almacenada en la computadora, mostrar utilizando resolución que el jefe de gobierno es un espía. ",
+        "bbox": [
+            94,
+            680,
+            907,
+            738
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Utilizar los siguientes predicados y constantes: $P a g \\theta ( X )$ para expresar que $X$ pagó su multa, $E s p i a ( X )$ para $X$ es un espía, smullyan para el Sr. Smullyan y jefeGob para el jefe de gobierno. ",
+        "bbox": [
+            90,
+            743,
+            905,
+            772
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\textbf { 9 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            783,
+            206,
+            799
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "¾Cuáles de las siguientes fórmulas son lógicamente válidas? Demostrar las que lo sean usando resolución. ",
+        "bbox": [
+            99,
+            810,
+            868,
+            826
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. $[ \\exists X . \\forall Y . R ( X , Y ) ] \\Rightarrow \\forall Y . \\exists X . R ( X , Y )$   \nii. $[ \\forall X . \\exists Y . R ( X , Y ) ] \\Rightarrow \\exists Y . \\forall X . R ( X , Y )$   \niii. $\\exists X . [ P ( X ) \\Rightarrow \\forall X . P ( X ) ]$   \niv. $\\exists X . [ P ( X ) \\lor Q ( X ) ] \\Rightarrow [ \\exists X . P ( X ) \\lor \\exists X . Q ( X ) ]$ v. $\\forall X . [ P ( X ) \\lor Q ( X ) ] \\Rightarrow [ \\forall X . P ( X ) \\lor \\forall X . Q ( X ) ]$   \nvi. $\\boxed { \\exists X . P ( X ) \\land \\forall X . Q ( X ) } \\Rightarrow \\exists X . [ P ( X ) \\land Q ( X ) ]$   \nvii. $\\forall X . \\exists Y . \\forall Z . \\exists W . [ P ( X , Y ) \\lor \\neg P ( W , Z ) ]$   \nviii. $\\forall X . \\forall Y . \\forall Z . ( [ \\neg P ( f ( \\mathfrak { a } ) ) \\lor \\neg P ( Y ) \\lor Q ( Y ) ] \\land P ( f ( Z ) ) \\land [ \\neg P ( f ( f ( X ) ) ) \\lor \\neg Q ( f ( X ) ) ] )$ ",
+        "bbox": [
+            105,
+            839,
+            470,
+            928
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Página 2 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            95,
+            89,
+            737,
+            174
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 10 (Aplicaciones del método de resolución) ",
+        "bbox": [
+            92,
+            190,
+            492,
+            206
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. Expresar en forma clausal la regla del modus ponens y mostrar que es válida, usando resolución. ",
+        "bbox": [
+            110,
+            230,
+            842,
+            246
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ii. Lo mismo para la regla del modus tollens. ",
+        "bbox": [
+            107,
+            252,
+            442,
+            267
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iii. Lo mismo para la regla de especialización: de $\\forall X P ( X )$ concluir $P ( t )$ cualquiera sea el término $t$ . ",
+        "bbox": [
+            102,
+            274,
+            845,
+            290
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 11 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            307,
+            215,
+            322
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes cláusulas: ",
+        "bbox": [
+            99,
+            334,
+            322,
+            348
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\{ P ( X ) , \\neg P ( X ) , Q ( \\mathsf { a } ) \\}$ $\\begin{array} { r l } { \\mathbf { \\lambda } } & { \\left\\{ \\lnot P ( X , X , Z ) , \\lnot Q ( X , Y ) , \\lnot Q ( Y , Z ) \\right\\} } \\\\ { \\mathbf { \\lambda } } & { \\left\\{ M ( 1 , 2 , X ) \\right\\} } \\end{array}$ ■ $\\{ P ( X ) , \\neg Q ( Y ) , \\neg R ( X , Y ) \\}$ ",
+        "bbox": [
+            107,
+            359,
+            823,
+            391
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. $\\Dot { \\iota }$ Cuáles son cláusulas de Horn? ",
+        "bbox": [
+            114,
+            403,
+            366,
+            417
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ii. Para cada cláusula de Horn indicar si es una cláusula de de\u001cnición (hecho o regla) o una cláusula objetivo. ",
+        "bbox": [
+            104,
+            424,
+            907,
+            439
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iii. Dar, para cada cláusula, la fórmula de primer orden que le corresponde. ",
+        "bbox": [
+            107,
+            447,
+            667,
+            462
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 2 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            481,
+            215,
+            495
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Indicar cuáles de las siguientes condiciones son necesarias para que una demostración por resolución sea SLD. ",
+        "bbox": [
+            100,
+            508,
+            902,
+            523
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Realizarse de manera lineal (utilizando en cada paso el resolvente obtenido en el paso anterior).   \nUtilizar únicamente cláusulas de Horn.   \nUtilizar cada cláusula a lo sumo una vez.   \nEmpezar por una cláusula objetivo (sin literales positivos).   \nEmpezar por una cláusula que provenga de la negación de lo que se quiere demostrar.   \nRecorrer el espacio de búsqueda de arriba hacia abajo y de izquierda a derecha.   \nUtilizar la regla de resolución binaria en lugar de la general. ",
+        "bbox": [
+            115,
+            535,
+            842,
+            634
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 13 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            652,
+            215,
+            667
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Alan es un robot japonés. Cualquier robot que puede resolver un problema lógico es inteligente. Todos los robots japoneses pueden resolver todos los problemas de esta práctica. Todos los problemas de esta práctica son lógicos. Existe al menos un problema en esta práctica. $\\mathrm { \\ ; Q u i e n }$ es inteligente? Encontrarlo utilizando resolución SLD y composición de sustituciones. ",
+        "bbox": [
+            92,
+            677,
+            907,
+            736
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Utilizar los siguientes predicados y constantes: $R ( X )$ para expresar que $X$ es un robot, $R e s ( X , Y )$ para $X$ puede resolver $Y$ , $P L ( X )$ para $X$ es un problema lógico, $P r ( X )$ para $X$ es un problema de esta práctica, $I ( X )$ para $X$ es inteligente, $J ( X )$ para $X$ es japonés y la constante alan para Alan. ",
+        "bbox": [
+            94,
+            740,
+            905,
+            784
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $^ { 1 4 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            796,
+            215,
+            810
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sean las siguientes cláusulas (en forma clausal), donde suma y par son predicados, suc es una función y cero una constante: ",
+        "bbox": [
+            90,
+            821,
+            905,
+            851
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b6b97b3b9436d6c79e2e585a12a4753640a86126cbfd96ec6dbe6340f3bb72c7.jpg",
+        "text": "$$\n\\begin{array}{c} { \\begin{array} { r l r } { - s u m a ( X , Y , Z ) , s u m a ( X , s u c ( Y ) , s u c ( Z ) ) } \\end{array} } \\quad { \\mathrm { 2 . ~ } } \\left\\{ s u m a ( X , c e r o , X ) \\right\\}  & { { \\textrm { 3 . } } \\left\\{ \\neg s u m a ( X , X , Y ) , p a r ( Y ) \\right\\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            127,
+            856,
+            847,
+            872
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Demostrar utilizando resolución que suponiendo (1), (2), (3) se puede probar $p a r ( s u c ( s u c ( c e r o ) ) )$ . Si es posible, aplicar resolución SLD. En caso contrario, utilizar resolución general. Mostrar en cada aplicación de la regla de resolución la sustitución utilizada. ",
+        "bbox": [
+            94,
+            877,
+            902,
+            920
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Página 3 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 15 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            91,
+            194,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "i. Pasar las siguientes fórmulas en lógica de primer orden a forma clausal. ",
+        "bbox": [
+            121,
+            131,
+            673,
+            147
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/473ce0ccbb5732f5153100068c8dd483917216567e5868e18408733174689cc9.jpg",
+        "text": "$$\n{ \\begin{array} { r l r l r l } { { \\mathcal { I } } C . ( V ( C ) \\lor \\exists E . P ( E , C ) ) } & { } & { b ) } & {  \\exists C . ( V ( C ) \\land \\exists E . P ( E , C ) ) } & & { c ) \\forall E . \\forall C . ( P ( E , i ( C ) ) \\Leftrightarrow P ( E , C ) ) } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            151,
+            894,
+            167
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "ii. A partir de las cláusulas de\u001cnidas en el punto anterior, ¾puede demostrarse $\\forall C . ( V ( i ( C ) ) \\Rightarrow V ( C ) )$ usando resolución SLD? Si se puede, hacerlo. Si no, demostrarlo usando el método de resolución general. ",
+        "bbox": [
+            109,
+            183,
+            909,
+            212
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 16 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            231,
+            215,
+            246
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un lógico estaba sentado en un bar cuando se le ocurrió usar el método de resolución para demostrar el teorema del bebedor: siempre que haya alguien en el bar, habrá allí alguien tal que, si está bebiendo, todos en el bar están bebiendo. Sin embargo, el lógico en cuestión había bebido demasiado y la prueba no le salió muy bien. Esto fue lo que escribió en una servilleta del bar: ",
+        "bbox": [
+            92,
+            278,
+            905,
+            334
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Teorema del bebedor: $( \\exists X . \\mathtt { e n B a r } ( X ) ) \\Rightarrow \\exists Y . ( \\mathtt { e n B a r } ( Y ) \\land ( \\mathtt { b e b e } ( Y ) \\Rightarrow \\forall Z . ( \\mathtt { e n B a r } ( Z ) \\Rightarrow \\mathtt { b e b e } ( Z ) ) ) )$ Elimino implicaciones: $\\left( \\neg \\exists X . \\mathsf { e n B a r } ( X ) \\right) \\lor \\exists Y . ( \\mathsf { e n B a r } ( Y ) \\land ( \\neg \\mathsf { b e b e } ( Y ) \\lor \\lor Z . ( \\neg \\mathsf { e n B a r } ( Z ) \\lor \\mathsf { b e b e } ( Z ) ) )$ )) Skolemizo: $( \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\to \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\neg \\to \\neg \\neg \\neg \\neg \\neg \\to \\neg \\neg \\neg \\neg \\to \\neg \\neg \\neg \\neg \\to \\to \\neg \\neg \\neg \\to \\neg \\to \\neg \\to \\neg \\to \\to \\to \\neg \\to \\neg \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to \\to $ Paso a Forma Clausal: 1. {¬enBar(c)} 2. {enBar(k)} 3. {¬bebe(k)} 4. {¬enBar(Z), bebe(Z)} ",
+        "bbox": [
+            100,
+            346,
+            865,
+            405
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Aplico resolución: ",
+        "bbox": [
+            94,
+            409,
+            223,
+            423
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "De 3 y 4 con $\\sigma = \\{ k  Z \\}$ : ",
+        "bbox": [
+            94,
+            428,
+            295,
+            444
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5. $\\{ \\neg { \\in } \\mathrm { n B a r } ( Z ) \\}$ ",
+        "bbox": [
+            92,
+            449,
+            211,
+            463
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "De 5 y 1 con $\\sigma = \\{ Z  c \\}$ ",
+        "bbox": [
+            94,
+            468,
+            292,
+            483
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) Identi\u001ccar los 5 errores cometidos en la demostración. (La fórmula original es correcta, notar que salteó pasos importantes e hizo mal otros).   \nb) Demostrar el teorema de manera correcta, usando resolución.   \nc) Indicar si la resolución utilizada en el punto b es o no SLD. Justi\u001ccar. ",
+        "bbox": [
+            92,
+            518,
+            904,
+            594
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 17 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            614,
+            194,
+            629
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes a\u001crmaciones: ",
+        "bbox": [
+            94,
+            661,
+            341,
+            675
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Toda persona tiene un contacto en Facebook: ∀X.∃Y.esContacto $( X , Y )$ 1. {esContacto $\\left. ( X , \\mathsf { f } ( X ) ) \\right\\}$ ",
+        "bbox": [
+            117,
+            688,
+            470,
+            732
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "La relación entre contactos es simétrica: $\\forall X . \\forall Y .$ (esContacto(X, Y ) ⇒ esContacto $( Y , X )$ ) 2. $\\{$ ¬esContacto $( X , Y )$ , esContacto $( Y , X ) \\}$ ",
+        "bbox": [
+            531,
+            688,
+            892,
+            731
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "i. La siguiente es una demostración de que toda persona es contacto de sí misma, es decir, de que $\\forall X$ esContacto $( X , X )$ . ",
+        "bbox": [
+            110,
+            745,
+            907,
+            775
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Negando la conclusión: $\\neg \\forall X$ .esContacto $( X , X )$ Forma normal negada: ∃X.¬esContacto $( X , X )$ ",
+        "bbox": [
+            154,
+            787,
+            342,
+            845
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Skolemizando y en forma clausal: 3. $\\{ \\neg { \\sf e s C o n t a c t o ( c , c ) } \\}$   \nDe 1 y 3, con $\\sigma = \\{ X : = { \\mathsf { c } } , { \\mathsf { f } } ( X ) : = { \\mathsf { c } } \\}$ : ✷ ",
+        "bbox": [
+            547,
+            787,
+            848,
+            843
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "¾Es correcta? Si no lo es, indicar el o los errores. ",
+        "bbox": [
+            132,
+            860,
+            494,
+            875
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\dot { \\iota }$ Puede deducirse de las dos premisas que toda persona es contacto de alguien (es decir, de que ∀Y.∃X.esContacto $( X , Y ) )$ ? En caso a\u001crmativo dar una demostración, y en caso contrario explicar por qué. ",
+        "bbox": [
+            110,
+            883,
+            907,
+            927
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Página 4 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "✷ ",
+        "bbox": [
+            92,
+            489,
+            107,
+            501
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ${ \\bf 1 8 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            91,
+            215,
+            105
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes de\u001cniciones de Descendiente y Abuelo a partir de la relación Progenitor: ",
+        "bbox": [
+            90,
+            136,
+            768,
+            152
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "{¬Progenitor $( X , Y )$ , Descendiente $( Y , X ) \\}$ {¬Descendiente $( X , Y )$ , ¬Descendiente $( Y , Z )$ , Descendiente $( X , Z ) \\}$ $\\{ \\neg { \\sf A b u e l o } ( X , Y ) ,$ Progenitor( $X , \\mathsf { m e d i o } ( X , Y ) ) \\}$ $\\{ \\neg { \\sf A b u e l o } ( X , Y )$ , Progenitor $( \\mathsf { m e d i o } ( X , Y ) , Y ) \\}$ ",
+        "bbox": [
+            95,
+            156,
+            919,
+            187
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Demostrar usando resolución general que los nietos son descendientes; es decir, que ",
+        "bbox": [
+            92,
+            193,
+            707,
+            209
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f569dfc4fb0c1270eee8315cc5ebb9b754de3d9e30d78fbc0039242c78cb3fbc.jpg",
+        "text": "$$\n\\forall X . \\forall Y . ( \\mathsf { A b u e l o } ( X , Y ) \\Rightarrow \\mathsf { D e s c e n d i e n t e } ( Y , X ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            215,
+            665,
+            230
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: tratar de aplicar el método a ciegas puede traer problemas. Conviene tener en mente lo que se quiere demostrar. ",
+        "bbox": [
+            90,
+            237,
+            909,
+            265
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 9 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            278,
+            215,
+            292
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "En este ejercicio usaremos el método de resolución para demostrar una propiedad de las relaciones binarias; a saber, que una relación no vacía no puede ser a la vez irre\u001dexiva, simétrica $_ \\mathrm { y }$ transitiva. ",
+        "bbox": [
+            92,
+            304,
+            909,
+            332
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Para esto se demostrará la propiedad deseada para una relación arbitraria $R$ . ",
+        "bbox": [
+            94,
+            338,
+            662,
+            353
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes de\u001cniciones: ",
+        "bbox": [
+            94,
+            359,
+            336,
+            372
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1. $R$ es irre\u001dexiva: $\\forall X . \\neg R ( X , X )$ 3. $R$ es transitiva: $\\forall X . \\forall Y . \\forall Z . ( ( R ( X , Y ) \\land R ( Y , Z ) ) \\Rightarrow R ( X , Z ) )$   \n2. $R$ es simétrica: $\\forall X . \\forall Y . ( R ( X , Y ) \\Rightarrow R ( Y , X ) )$ 4. $R$ es vacía: $\\forall X . \\lnot \\exists Y . R ( X , Y )$ ",
+        "bbox": [
+            90,
+            376,
+            961,
+            406
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Utilizando resolución, demostrar que si $R$ cumple las propiedades 1 a 3, entonces es vacía. Indicar si el método de resolución utilizado es o no SLD (Y justi\u001ccar). ",
+        "bbox": [
+            92,
+            406,
+            910,
+            435
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 0 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            447,
+            215,
+            461
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes de\u001cniciones en Prolog: ",
+        "bbox": [
+            99,
+            473,
+            448,
+            486
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "natural(cero). mayorOIgual(suc(X),Y) :- mayorOIgual(X, Y).   \nnatural(suc(X)) :- natural(X). mayorOIgual(X,X) :- natural(X).   \n■ $\\dot { \\downarrow } \\mathrm { Q u } \\dot { \\mathrm { e } }$ sucede al realizar la consulta ?- mayorOIgual(suc(suc(N)), suc(cero))?   \nUtilizar el método de resolución para probar la validez de la consulta del ítem 1. Para ello, convertir las cláusulas a forma clausal.   \nIndicar si el método de resolución utilizado es o no SLD, y justi\u001ccar. En caso de ser SLD, ¾respeta el orden en que Prolog hubiera resuelto la consulta? ",
+        "bbox": [
+            100,
+            492,
+            699,
+            519
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            109,
+            529,
+            907,
+            601
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 21 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            619,
+            193,
+            633
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente programa en Prolog, pasarlo a forma clausal y demostrar utilizando resolución que hay alguien que es inteligente pero analfabeto. ",
+        "bbox": [
+            92,
+            644,
+            904,
+            673
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "analfabeto(X) :- vivo(X), noSabeLeer(X). noSabeLeer(X) :- mesa(X).   \nvivo(X) :- delfín(X). noSabeLeer(X) :- delfín(X).   \ninteligente(flipper). delfín(flipper).   \ninteligente(alan). ",
+        "bbox": [
+            100,
+            677,
+            653,
+            731
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 22 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            741,
+            194,
+            756
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes de\u001cniciones en prolog: ",
+        "bbox": [
+            94,
+            768,
+            443,
+            782
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "preorder(nil,[]). ",
+        "bbox": [
+            92,
+            793,
+            213,
+            804
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "append([],YS,YS). ",
+        "bbox": [
+            507,
+            793,
+            628,
+            804
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "preorder(bin(I,R,D),[R|L]) :- append(LI,LD,L), append([X|XS],YS,[X|L]) :- append(XS,YS,L). ",
+        "bbox": [
+            94,
+            809,
+            425,
+            822
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            809,
+            813,
+            822
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "preorder(I,LI), preorder(D,LD). ",
+        "bbox": [
+            201,
+            826,
+            423,
+            840
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "¾Qué sucede al realizar la consulta ?- preorder(bin(bin(nil,2,nil),1,nil),Lista).?   \nUtilizar el método de resolución para encontrar la solución al problema.   \nIndicar si el método de resolución utilizado es o no SLD, y justi\u001ccar. En caso de ser SLD, $>$ respeta el orden en que Prolog hubiera resuelto la consulta? ",
+        "bbox": [
+            112,
+            853,
+            909,
+            910
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Página 5 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 23 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            193,
+            105
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Dada la siguiente base de conocimientos en Prolog: ",
+        "bbox": [
+            95,
+            117,
+            470,
+            131
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "parPositivo(X,Y) :- mayor(X, 0), mayor(Y, 0). ",
+        "bbox": [
+            100,
+            141,
+            457,
+            155
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "natural(0).   \nnatural(succ(N)) :- natural(N). mayor(succ(X),0) :- natural(X).   \nmayor(succ(X),succ(Y)) :- mayor(X,Y). ",
+        "bbox": [
+            99,
+            167,
+            346,
+            195
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            510,
+            154,
+            808,
+            181
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a) Explicar con palabras qué sucede al realizar la siguiente consulta: parPositivo(A,B), mayor(A,B). ",
+        "bbox": [
+            92,
+            209,
+            598,
+            242
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "b) Expresar la base de conocimientos y la consulta anterior como fórmulas lógicas, y luego encontrar una solución a la consulta utilizando resolución SLD. ",
+        "bbox": [
+            89,
+            250,
+            905,
+            279
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 24 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            302,
+            194,
+            316
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sea la siguiente base de conocimientos en Prolog, que describe una parte de las reglas de reducción de un cierto lenguaje: ",
+        "bbox": [
+            90,
+            328,
+            907,
+            356
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "reduce(const $* \\texttt { X * } _ { - } , \\texttt { X } )$ .   \nreduce $\\mathrm { ~ \\ i d ~ } * \\mathrm { ~ \\tt ~ X ~ }$ , X).   \nreduce(flip $^ *$ F \\* X \\* Y, $\\texttt { F * Y * X }$ ).   \nreduce $\\mathrm { ~ \\mathcal ~ ~ } | \\mathbb { M } \\ast \\mathbb { N }$ , $\\mathbb { M } 1 \\ * \\ \\mathbb { N } ,$ ) :- reduce(M, M1). ",
+        "bbox": [
+            92,
+            372,
+            401,
+            425
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Donde el operador $^ *$ representa la aplicación. Este operador asocia a izquierda. Si les resulta más cómodo, pueden reescribir las expresiones de la forma $\\mathrm { ~ A ~ } ^ { * } \\mathrm { ~ B ~ }$ como ap(A, B). ",
+        "bbox": [
+            92,
+            442,
+            907,
+            469
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Se realiza la siguiente consulta: ",
+        "bbox": [
+            92,
+            475,
+            324,
+            489
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "? reduce(flip $^ *$ const $* \\texttt { X * Y }$ , A), reduce(A, Z), reduce(const \\* id \\* X \\* Y, B), reduce(B,Z).",
+        "bbox": [
+            92,
+            495,
+            820,
+            511
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a) Reescribir la base de conocimientos y la consulta como fórmulas lógicas. ",
+        "bbox": [
+            92,
+            525,
+            650,
+            541
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "b) Resolver la consulta utilizando el método de resolución para obtener los valores de A y B. ",
+        "bbox": [
+            87,
+            548,
+            771,
+            563
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "c) La resolución utilizada en el punto anterior, ¾fue SLD? Justi\u001ccar. En caso a\u001crmativo, ¾fue la misma resolución que habría utilizado Prolog? ",
+        "bbox": [
+            90,
+            571,
+            904,
+            601
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 25 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            623,
+            193,
+            637
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "El siguiente es un programa escrito en Prolog que de\u001cne los números naturales, su relación de orden estricto, y un intento fallido de generar todos los pares de naturales. ",
+        "bbox": [
+            89,
+            650,
+            904,
+            677
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "natural(0). mayor(suc(X),X).   \nnatural(suc(X)) :- natural(X). mayor(suc(X),Y) :- mayor(X,Y). ",
+        "bbox": [
+            92,
+            681,
+            746,
+            709
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "parDeNat(X,Y) :- natural(X), natural(Y). ",
+        "bbox": [
+            94,
+            724,
+            410,
+            737
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Puede observarse que el programa no funciona correctamente, ya que, por ejemplo, la siguiente consulta se cuelga en lugar de arrojar una solución: ",
+        "bbox": [
+            94,
+            752,
+            907,
+            781
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "?- parDeNat(X,Y), mayor(X,Y). ",
+        "bbox": [
+            94,
+            787,
+            346,
+            802
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sin embargo, las de\u001cniciones son lógicamente correctas. Veámoslo usando resolución. ",
+        "bbox": [
+            94,
+            807,
+            714,
+            822
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a) Convertir la base de conocimientos a forma clausal.   \nb) Utilizar el método de resolución para hallar una solución a la consulta.   \nc) La resolución realizada en el punto anterior ¾fue SLD? Justi\u001ccar. En caso a\u001crmativo, ¾en qué di\u001cere de lo que habría hecho Prolog? En caso contrario, ¾sería posible encontrar una solución mediante resolución SLD? (No es necesario escribirla, solo justi\u001ccar por qu'e es o no es posible.) ",
+        "bbox": [
+            87,
+            837,
+            910,
+            927
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Página 6 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 26 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            91,
+            194,
+            105
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "a) Representar en forma clausal las siguientes fórmulas de lógica de primer orden referidas a números enteros. ",
+        "bbox": [
+            85,
+            147,
+            902,
+            164
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "i. $\\forall X . ( p a r ( X ) \\Rightarrow \\exists Y . ( Y > X \\land \\lnot p a r ( Y ) ) )$ ) - Para todo $X$ par existe un impar mayor que él.   \nii. $\\forall X . ( \\neg p a r ( X ) \\Rightarrow \\exists Y . ( Y > X \\land p a r ( Y ) ) )$ - Para todo $X$ impar existe un par mayor que él.   \niii. $\\forall X . \\forall Y . \\forall Z . ( ( X > Y \\land Y > Z ) \\Rightarrow X > Z$ ) - La relación de mayor es transitiva. ",
+        "bbox": [
+            122,
+            171,
+            806,
+            225
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "b) Usando resolución demostrar que para todo par existe otro par mayor, es decir, $\\forall X . ( p a r ( X ) \\Rightarrow \\exists Y . ( Y > X \\land p a r ( Y ) ) )$ ). ",
+        "bbox": [
+            89,
+            233,
+            702,
+            263
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "c) Indicar si la demostración es SLD y justi\u001ccar. ",
+        "bbox": [
+            92,
+            285,
+            455,
+            300
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Página 7 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 6
+    }
+]

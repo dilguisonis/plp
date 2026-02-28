@@ -1,0 +1,3013 @@
+[
+    {
+        "type": "text",
+        "text": "Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Funcional Imperativa) ",
+        "text_level": 1,
+        "bbox": [
+            146,
+            283,
+            850,
+            415
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eduardo Bonelli ",
+        "text_level": 1,
+        "bbox": [
+            397,
+            507,
+            602,
+            551
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Computación FCEyN UBA ",
+        "bbox": [
+            345,
+            599,
+            654,
+            702
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3 de octubre, 2006 ",
+        "bbox": [
+            378,
+            750,
+            621,
+            794
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            959,
+            980,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Interprete para SFL conasignacion ",
+        "bbox": [
+            99,
+            0,
+            1000,
+            110
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "SFL es un lenguaje funcional puro ",
+        "bbox": [
+            74,
+            308,
+            524,
+            360
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Toda expresión se evalua exclusivamente para obtener su valor ",
+        "bbox": [
+            96,
+            382,
+            928,
+            430
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sin embargo, a veces es necesario utilizar recursos imperativos (principalmente por cuestiones de eficiencia) como: ",
+        "bbox": [
+            74,
+            455,
+            878,
+            551
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Asignación de valores a variables   \n● Actualización in-place de estructuras de datos   \n• Operaciones de Entrada/Salida ",
+        "bbox": [
+            102,
+            577,
+            726,
+            746
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Todas estas expresiones se evaluan para obtener un efecto ",
+        "bbox": [
+            77,
+            768,
+            814,
+            816
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            922,
+            997,
+            955
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Expresiones con efectos ",
+        "bbox": [
+            2,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fu ",
+        "bbox": [
+            2,
+            963,
+            986,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion IntepreploernSFconasigacion xpresiones con efectos ",
+        "bbox": [
+            80,
+            0,
+            1000,
+            106
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hoy retomamos SFL， nuestro lenguaje funcional puro ",
+        "bbox": [
+            107,
+            290,
+            828,
+            338
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En SFL el valor asignado a un identificador (o variable) no puede alterarse; en este sentido las variables de SFL se asemejan a las variables usadas en Matemäticas o en Lógica ",
+        "bbox": [
+            102,
+            352,
+            900,
+            496
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En SFL a las variables se les asignaban valores expresados (valores que retornan las expresiones al ser evaluadas) ",
+        "bbox": [
+            102,
+            511,
+            895,
+            606
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Esto se resume como sigue ",
+        "bbox": [
+            104,
+            625,
+            480,
+            669
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "· Valores denotados $=$ Number $^ +$ Procval ",
+        "bbox": [
+            107,
+            720,
+            588,
+            761
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "· Valores expresados $=$ Number $^ +$ Procval ",
+        "bbox": [
+            107,
+            786,
+            591,
+            827
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Referencias ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            187
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Expresiones con efectos Referencias ",
+        "bbox": [
+            522,
+            25,
+            704,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hoy vamos a extender SFL con una operación de asignación ",
+        "bbox": [
+            104,
+            301,
+            919,
+            349
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "La expresion set $\\mathrm { ~ x ~ } =$ e representa la operacion de asignacin ",
+        "bbox": [
+            104,
+            367,
+            922,
+            411
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "· Primero se evalua e para obtener un valor v Luego se obtiene la dirección de memoria asociada a x Finalmente se asigna v al contenido de la dirección de x ",
+        "bbox": [
+            162,
+            430,
+            848,
+            562
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Observar que en set $\\textbf { x } = \\mathbf { \\kappa } + ( \\mathbf { x } , 2 )$ ",
+        "bbox": [
+            107,
+            584,
+            574,
+            628
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "La ocurrencia de x a la derecha del $\" = \"$ se refiere a su contenido (\"r-value\" de x) ",
+        "bbox": [
+            168,
+            647,
+            837,
+            735
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "La ocurrencia de x a la izquierda del $\" = \"$ se refiere a su dirección de memoria (\"l-value” de x) ",
+        "bbox": [
+            168,
+            738,
+            848,
+            823
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Referencias ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            187
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Expresiones con efectos Referencias ",
+        "bbox": [
+            522,
+            25,
+            704,
+            73
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fu ",
+        "bbox": [
+            2,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ahora a las variables se les asignan ",
+        "bbox": [
+            104,
+            308,
+            580,
+            352
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• referencias a una dirección mutable de memoria ",
+        "bbox": [
+            110,
+            404,
+            687,
+            448
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• cuyo contenido puede ser modificado a través la operación de asignación ",
+        "bbox": [
+            107,
+            470,
+            853,
+            558
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Por lo tanto,ahora tendremos ",
+        "bbox": [
+            104,
+            599,
+            522,
+            639
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "· Valores denotados $=$ ReferenciaA(Number + Procval) • Valores expresados $=$ Number + Procval ",
+        "bbox": [
+            104,
+            691,
+            779,
+            801
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Referencias ",
+        "bbox": [
+            5,
+            106,
+            1000,
+            187
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Expresiones con efectos Referencias ",
+        "bbox": [
+            522,
+            25,
+            704,
+            73
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fu ",
+        "bbox": [
+            5,
+            963,
+            980,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Asignacion ",
+        "text_level": 1,
+        "bbox": [
+            522,
+            3,
+            604,
+            25
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Representaciondeestadolocal Modalidadesde pasaje de parametro Secuenciamiento ",
+        "bbox": [
+            522,
+            25,
+            801,
+            99
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Extendemos la sintaxis concreta de SFL con una operacion de asignacion (SFLA): ",
+        "bbox": [
+            71,
+            279,
+            878,
+            382
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "<expr> ::= ... | set <identifier> = <expr> ",
+        "bbox": [
+            77,
+            419,
+            745,
+            470
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            525,
+            179,
+            569
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "let $\\scriptstyle { \\mathtt { y } } = 3$ in let dummy $=$ set y = 4 in y ",
+        "bbox": [
+            74,
+            584,
+            491,
+            727
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Evalua a 4 ",
+        "bbox": [
+            107,
+            790,
+            276,
+            830
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/c2d858379052d91dbb5d07b51dd0d7fe6db014aa5cb455c60629ded8c65922a8.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td></td><td></td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            988,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos en SFL con asignacion ",
+        "bbox": [
+            8,
+            113,
+            1000,
+            183
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Asignacion ",
+        "text_level": 1,
+        "bbox": [
+            522,
+            3,
+            604,
+            25
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Representaciondeestadolocal Modalidadesde pasaje de parametro Secuenciamiento ",
+        "bbox": [
+            522,
+            25,
+            801,
+            99
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Pregunta: iA qué valor debe evaluar la siguiente expresión? ",
+        "bbox": [
+            74,
+            253,
+            839,
+            301
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "let $\\texttt { x } = \\texttt { 2 }$ in set x = 3 ",
+        "bbox": [
+            74,
+            338,
+            303,
+            430
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            470,
+            212,
+            507
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "O a ninguno (o bien a cualquier valor arbitrario que designemos)   \no la expresion se evalua exclusivamente por su efecto (el de cambiar el contenido de x) NO se espera ningun valor como resultado de la evaluacion de una asignacion Asumimos (arbitrariamente) que toda asignación evalua a 0 ",
+        "bbox": [
+            102,
+            536,
+            930,
+            875
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            959,
+            988,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos en SFL con asignacion ",
+        "bbox": [
+            8,
+            113,
+            1000,
+            183
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Asignacion ",
+        "text_level": 1,
+        "bbox": [
+            522,
+            3,
+            604,
+            25
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Representaciondeestadolocal Modalidadesde pasaje de parametro Secuenciamiento ",
+        "bbox": [
+            522,
+            25,
+            801,
+            99
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Pregunta: iA qué valor debe evaluar la siguiente expresión? ",
+        "bbox": [
+            74,
+            253,
+            839,
+            301
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "let $\\texttt { x } = \\texttt { 2 }$ in set $\\texttt { x } = \\texttt { 3 }$ ",
+        "bbox": [
+            74,
+            338,
+            301,
+            430
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            466,
+            209,
+            507
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "a ninguno (o bien a cualquier valor arbitrario que designemos) ",
+        "bbox": [
+            102,
+            536,
+            925,
+            580
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "la expresión se evalua exclusivamente por su efecto (el de cambiar el contenido de x) ",
+        "bbox": [
+            102,
+            595,
+            881,
+            694
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "NO se espera ningun valor como resultado de la evaluación de una asignacion ",
+        "bbox": [
+            104,
+            705,
+            928,
+            801
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "? Asumimos (arbitrariamente) que toda asignación evalua a 0 ",
+        "bbox": [
+            104,
+            816,
+            903,
+            867
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Ful ",
+        "bbox": [
+            0,
+            959,
+            988,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos en SFL con asignacion ",
+        "bbox": [
+            11,
+            110,
+            1000,
+            183
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Asignacion   \nRepresentaciondeestado local   \nModalidadesdepasajedeparametro   \nSecuenciamiento ",
+        "bbox": [
+            522,
+            0,
+            801,
+            99
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Pregunta: iA qué valor debe evaluar la siguiente expresión? ",
+        "bbox": [
+            74,
+            242,
+            837,
+            290
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "let count $=$ let localState = 0   \nin proc () let dummy $=$ set localState $=$ add1(localState) in localState   \nin $^ +$ ((count),(count)) ",
+        "bbox": [
+            82,
+            316,
+            922,
+            547
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            584,
+            212,
+            625
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "count mantiene una variable privada localState esta variable privada representa su estado local localState lleva la cuenta de cuantas veces fue llamad o la expresion evalua a 3 ",
+        "bbox": [
+            102,
+            654,
+            850,
+            882
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/a391223e9f9c701038fe37d087ab261ce9be5c36cb6e20f62435c023d07cf4be.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Eduardo Bonelli</td><td>Extendiendo SFLconasignacion</td><td></td></tr></table>",
+        "bbox": [
+            2,
+            959,
+            988,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Representación de estado local ",
+        "bbox": [
+            0,
+            110,
+            1000,
+            187
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Interprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            99
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Asignacion   \nRepresentaciondeestado local   \nModalidadesdepasajedeparametro   \nSecuenciamiento ",
+        "bbox": [
+            524,
+            0,
+            801,
+            102
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Pregunta: iA qué valor debe evaluar la siguiente expresión? ",
+        "bbox": [
+            74,
+            242,
+            837,
+            290
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "let count $=$   \nlet localState = 0   \nin proc () let dummy $=$ set localState $=$ add1(localState) in localState   \nin $^ +$ ((count),(count)) ",
+        "bbox": [
+            82,
+            316,
+            922,
+            547
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            584,
+            212,
+            625
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "count mantiene una variable privada localState esta variable privada representa su estado local localState lleva la cuenta de cuäntas veces fue llamado la expresión evaluaa 3 ",
+        "bbox": [
+            102,
+            654,
+            878,
+            882
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Representación de estado local ",
+        "bbox": [
+            0,
+            110,
+            1000,
+            187
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            102
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fur ",
+        "bbox": [
+            0,
+            959,
+            991,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Asignacion   \nRepresentacion de estado local   \nModalidadesdepasajedeparametro   \nSecuenciamiento ",
+        "bbox": [
+            522,
+            0,
+            803,
+            102
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Modalidades de pasaje de parámetros ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            117,
+            640,
+            176
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "let $\\mathtt { x } = 1 0 0$ ",
+        "bbox": [
+            77,
+            356,
+            223,
+            393
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "in let p = proc (y) let d = set y = add1(y) in y in $+ ( \\textbf { ( p ) } \\textbf { x } )$ ,(p x)) ",
+        "bbox": [
+            102,
+            404,
+            875,
+            500
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Hay dos modalidades de pasaje de parámetros bien diferenciadas ",
+        "bbox": [
+            104,
+            566,
+            784,
+            658
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Pasaje por valor: crear una nueva referencia (ie. una copia) por cada parämetro formal   \nPasaje por referencia: pasar la referencia existente como parämetro en lugar de una copia   \nAsignacion   \nRepresentacion de estado local   \nModalidadesdepasajedeparametro   \nSecuenciamiento ",
+        "bbox": [
+            165,
+            680,
+            883,
+            856
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos ",
+        "bbox": [
+            66,
+            290,
+            944,
+            345
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            959,
+            988,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            803,
+            102
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Modalidades de pasaje de parámetros ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            117,
+            640,
+            176
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "let $\\mathtt { x } = 1 0 0$ ",
+        "bbox": [
+            77,
+            356,
+            223,
+            393
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "in let p = proc (y) let d = set y = add1(y) in y in $+ ( \\textbf { ( p ) } \\textbf { x } )$ ,(p x)) ",
+        "bbox": [
+            102,
+            404,
+            872,
+            500
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Hay dos modalidades de pasaje de parámetros bien diferenciadas ",
+        "bbox": [
+            102,
+            566,
+            784,
+            658
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "·Pasaje por valor: retorna 202   \n·Pasaje por referencia: retorna 203 ",
+        "bbox": [
+            168,
+            683,
+            593,
+            768
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos ",
+        "bbox": [
+            66,
+            290,
+            944,
+            345
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Asignacion   \nRepresentacion de estado local   \nModalidadesde pasajede parametro   \nSecuenciamiento   \nEn la presencia de expresiones que arrojan efectos el orden de   \nevaluación es crucial   \nConsidere la siguiente expresion ",
+        "bbox": [
+            522,
+            0,
+            801,
+            102
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            102,
+            301,
+            922,
+            459
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "let in +(y,let d = set y= 4 in y) $\\scriptstyle \\mathtt { y } = 2$ ",
+        "bbox": [
+            74,
+            496,
+            569,
+            595
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Si los argumentos se evaluan de izquierda a derecha,arroja 6 como resultado   \nSi los argumentos se evaluan de derecha a izquierda,arroja 8 como resultado   \nAsignacion   \nRepresentacion de estado local   \nModalidadesde pasajede parametro   \nSecuenciamiento ",
+        "bbox": [
+            102,
+            628,
+            917,
+            838
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fu ",
+        "bbox": [
+            2,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Secuenciamiento ",
+        "bbox": [
+            11,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            801,
+            102
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Como consecuencia,un mecanismo explicito de secuenciamiento es necesario ",
+        "bbox": [
+            104,
+            305,
+            737,
+            400
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Extendemos la sintaxis concreta de SFL <expr> ::= ... | set <identifier> = <expr> I (begin {<expr>}\\*) ",
+        "bbox": [
+            102,
+            415,
+            649,
+            459
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            492,
+            740,
+            591
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "En la expresión (begin e1 e2 ... en) ",
+        "bbox": [
+            104,
+            632,
+            671,
+            676
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "。 las expresiones e1，e2，.., en se evaluan en ese orden • los valores retornados por e1，e2，..， en-1 son descartados 。 el valor retornado por en es el resultado de toda la expresión ",
+        "bbox": [
+            165,
+            694,
+            897,
+            827
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Secuenciamiento ",
+        "bbox": [
+            11,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            959,
+            986,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Asignacion   \nRepresentacion de estado local   \nModalidadesde pasaje de parametro   \nSecuenciamiento ",
+        "bbox": [
+            522,
+            0,
+            803,
+            102
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "El siguiente ejemplo evalua a 4 let $\\tt { y } = \\tt { 2 }$ in (begin set y = 4, y) ",
+        "bbox": [
+            104,
+            327,
+            530,
+            371
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            411,
+            441,
+            507
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "El siguiente ejemplo evalua a O. El valor de la primera expresión argumento de begin (ie. y) se descarta. ",
+        "bbox": [
+            102,
+            540,
+            828,
+            643
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "let $\\tt { y } = \\tt { 2 }$ in (begin y, set $\\ y \\ = \\ 4 )$ ",
+        "bbox": [
+            74,
+            680,
+            441,
+            779
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Secuenciamiento ",
+        "bbox": [
+            13,
+            106,
+            997,
+            183
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fu ",
+        "bbox": [
+            8,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLamemoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "data Program = Pgm Exp ",
+        "bbox": [
+            74,
+            334,
+            428,
+            382
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "data Exp = LitExp Int | VarExp Symbol I ... SetExp Symbol Exp I BeginExp [Exp] data PrimOp $=$ AddPrim I SubtractPrim I MultPrim | IncrPrim l DecrPrim I ZeroTestPrim ",
+        "bbox": [
+            74,
+            433,
+            781,
+            533
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            580,
+            853,
+            680
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "type Symbol = String ",
+        "bbox": [
+            74,
+            735,
+            397,
+            779
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "images/4f7f720f8bd4d1f83e74b6c0e5f3056f53c7388f770fa96cc7e56f6b6c7e726f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>ExtendiendoSFLconasignacion</td><td></td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis abstracta ",
+        "bbox": [
+            2,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLamemoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "El intérprete ahora toma como entrada una expresión a evaluar ",
+        "bbox": [
+            74,
+            352,
+            574,
+            397
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            93,
+            415,
+            433,
+            455
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "2 un entorno que mapea variables a referencias una memoria (llamada “store\") que mapea referencias (direcciones de memoria) a valores expresados (su contenido) ",
+        "bbox": [
+            96,
+            474,
+            709,
+            518
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            91,
+            533,
+            919,
+            632
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "type Store $=$ Reference -> ExpressedValue ",
+        "bbox": [
+            77,
+            669,
+            715,
+            716
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "images/1c56f6ae766d92d2aad495595a479394b5e014788f6a239d099c8c5ad9eb79dd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>(SFLA) 1 (SFLA=Prog. Fu</td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos y stores ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLa memoria (\"Store\")   \nEl interprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "• El entorno mapea variables a referencias ",
+        "bbox": [
+            102,
+            345,
+            649,
+            389
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Las referencias representan direcciones de memoria Se implementan como enteros ",
+        "bbox": [
+            165,
+            411,
+            787,
+            496
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "type Reference $=$ Int data Env $=$ EmptyEnv ",
+        "bbox": [
+            74,
+            536,
+            367,
+            577
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            625,
+            353,
+            665
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "I ExtendedEnvRecord [Symbol] [Reference] Env ",
+        "bbox": [
+            232,
+            665,
+            878,
+            709
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "images/12b4a344b6ddde38859fd50a32d2715f1df4d84ed1c518e471708393bad85e33.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli ExtendiendoSFLconasignacion</td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            980,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLa memoria (\"Store\")   \nEl interprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Creación de entorno vacio emptyEnv :: Env emptyEnv $=$ EmptyEnv ",
+        "bbox": [
+            104,
+            341,
+            466,
+            386
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            419,
+            353,
+            507
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Extensión de un entorno con lista de variables extendEnv :: [Symbol] -> Reference -> Env -> Env extendEnv ids ref env $=$ ExtendedEnvRecord ids [ref..ref $^ +$ (length ids)-1] env ",
+        "bbox": [
+            104,
+            544,
+            720,
+            588
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            617,
+            897,
+            753
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos-operaciones ",
+        "bbox": [
+            30,
+            121,
+            406,
+            176
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLa memoria (\"Store\")   \nEl interprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Lookup en un entorno ",
+        "bbox": [
+            104,
+            301,
+            419,
+            341
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "applyEnv:: Env -> Store -> Symbol -> ExpressedValue applyEnv env st sym $=$ st (applyEnvRef env sym) ",
+        "bbox": [
+            74,
+            382,
+            820,
+            466
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "applyEnvRef:: Env -> Symbol -> Reference   \napplyEnvRef EmptyEnv sym $=$ error (\"applyEnv: Sin binding para \"++ show sym)   \napplyEnvRef (ExtendedEnvRecord syms refs env) sym $=$ case findInList syms sym of (Just n) -> refs!!n -> applyEnvRef env sym   \nSintaxisabstracta   \nEntornos   \nLa memoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            71,
+            511,
+            925,
+            823
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos - operaciones ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fu ",
+        "bbox": [
+            2,
+            959,
+            986,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "La memoria se llama store Un store mapea referencias a valores expresados type Store $=$ Reference -> ExpressedValue ",
+        "bbox": [
+            104,
+            360,
+            748,
+            466
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            503,
+            715,
+            547
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Asumimos que si s es un store,entonces s aplicado a O indica   \nla siguiente referencia libre para ser asignada   \nVamos a ver algunas operaciones sobre stores   \nSintaxisabstracta   \nEntornos   \nLamemoria(\"Store\")   \nEl interprete ",
+        "bbox": [
+            102,
+            588,
+            928,
+            742
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Store ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Creacion de un store vacio ",
+        "bbox": [
+            104,
+            316,
+            475,
+            356
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "emptyStore :: Store   \nemptyStore = \\ref-> if ref==0 then Nro 1 else error \"Store vacio!\" ",
+        "bbox": [
+            66,
+            386,
+            900,
+            584
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Siguiente referencia disponible para ser asignada nextAvail :: Store -> Reference nextAvail $\\mathrm { ~ \\bf ~ s ~ } =$ stripNro (s 0) ",
+        "bbox": [
+            104,
+            613,
+            748,
+            661
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            698,
+            571,
+            794
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Store - operaciones ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLamemoria(\"Store\")   \nEl interprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Actualizar contenido de una referencia ",
+        "bbox": [
+            104,
+            360,
+            624,
+            404
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "updateStore :: Store -> Reference -> ExpressedValue -> Store   \nupdateStore s ref a $=$ let newStore r | ref==r = a l otherwise = s r in newStore   \nSintaxisabstracta   \nEntornos   \nLamemoria(\"Store\")   \nEl interprete ",
+        "bbox": [
+            69,
+            404,
+            895,
+            731
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Store- operaciones ",
+        "bbox": [
+            2,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Asignar espacio nuevo en la memoria e inicializar ",
+        "bbox": [
+            107,
+            275,
+            756,
+            323
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "extendStoreUnit :: ExpressedValue -> Store -> Store   \nextendStoreUnit a $\\tt { s } = \\tt { l e t }$ nextPos $=$ nextAvail s in let newStore ref 一 $\\mathtt { r e f } \\mathtt { = } \\mathtt { = } 0 \\ = \\ \\mathtt { N r o }$ (nextPos+1) l ref==nextPos = a l otherwise $=$ s ref in newStore   \nextendStore :: Store -> [ExpressedValue] -> Store   \nextendStore s xs $=$ foldr extendStoreUnit s (reverse xs)   \nSintaxisabstracta   \nEntornos   \nLamemoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            66,
+            349,
+            947,
+            860
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Store - operaciones ",
+        "bbox": [
+            2,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            959,
+            988,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Antes el resultado de evaluar una expresion consistia solo en un valor expresado (numero o clausura) ",
+        "bbox": [
+            102,
+            253,
+            906,
+            352
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "data ExpressedValue $=$ Nro {stripNro: :Int} l Closure [Symbol] Exp Env ",
+        "bbox": [
+            77,
+            393,
+            726,
+            481
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Ahora una expresión puede tener un efecto (alterar la memoria) El resultado de evaluar una expresión consiste en Un valor expresado (numero o clausura) 。 Un store: el estado resultante de la memoria ",
+        "bbox": [
+            99,
+            522,
+            812,
+            783
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "data Answer $=$ AnAnswer {value::ExpressedValue, store: :Store] ",
+        "bbox": [
+            74,
+            834,
+            941,
+            882
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Inteérprete ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            187
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fur ",
+        "bbox": [
+            5,
+            959,
+            988,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis abstracta   \nEntornos   \nLa memoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Intérprete de programas ",
+        "bbox": [
+            104,
+            286,
+            439,
+            330
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "evalProgram :: Program -> Answer   \nevalProgram (Pgm body) $=$ evalExpression body emptyEnv emptyStore ",
+        "bbox": [
+            74,
+            367,
+            762,
+            500
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Intérprete de expresiones ",
+        "bbox": [
+            104,
+            536,
+            450,
+            580
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "evalExpression :: Exp -> Env -> Store -> AnswerevalExpression (LitExp n) env st $=$ AnAnswer (Nro n） stevalExpression (VarExp id) env st $=$ AnAnswer (applyEnv env st id） st",
+        "bbox": [
+            69,
+            617,
+            864,
+            841
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Intéprete - Main ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fur ",
+        "bbox": [
+            5,
+            959,
+            988,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLamemoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Operaciones primitivas ",
+        "bbox": [
+            104,
+            349,
+            425,
+            393
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "evalExpression (PrimApp prim rands) env st = let (args,s1) $=$ foldl (\\(xs,s) x-> let ans=evalExpression x env s in ((value ans):xs,store ans)) ([],st) rands in AnAnswer (applyPrimitive prim (reverse args)） s1 ",
+        "bbox": [
+            66,
+            426,
+            925,
+            746
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Intérprete-PrimApp ",
+        "bbox": [
+            30,
+            117,
+            375,
+            176
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLamemoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Interpretando if-then-else ",
+        "bbox": [
+            104,
+            386,
+            455,
+            430
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "evalExpression (IfExp testExp trueExp falseExp) env st = let ans $=$ evalExpression testExp env st in if isTrueValue (value ans) then evalExpression trueExp env (store ans) else evalExpression falseExp env (store ans) ",
+        "bbox": [
+            74,
+            470,
+            886,
+            691
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "table",
+        "img_path": "images/24b183ea48aa5231276968ffc3f89541362dabf9ea64008a26d524f4d40aafa9.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>ExtendiendoSFLconasignacion （SFLA) 1 (SFLA=Prog. Fu</td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Interprete - IfExp ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLamemoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Interpretando la asignacion ",
+        "bbox": [
+            107,
+            301,
+            480,
+            341
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "evalExpression (SetExp id rhs) env st = let ans=evalExpression rhs env st in let ref=applyEnvRef env id in AnAnswer (Nro O) (updateStore (store ans) ref (value ans)) ",
+        "bbox": [
+            74,
+            378,
+            972,
+            606
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "El valor expresado resultante de evaluar una asignación es (Nro 0) 。 Es el valor que fijamos (arbitrariamente) al principio de la clase 。 De interés es el store actualizado que es retornado ",
+        "bbox": [
+            162,
+            658,
+            933,
+            830
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Intérprete - Asignación ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            959,
+            986,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisabstracta   \nEntornos   \nLamemoria (\"Store\")   \nElinterprete ",
+        "bbox": [
+            522,
+            0,
+            693,
+            102
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Interpretando begin ",
+        "bbox": [
+            104,
+            316,
+            397,
+            360
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "evalExpression (BeginExp exps) env st = let (args,s1) $=$ foldl (\\(xs,s) x-> let ans=evalExpression x env s in ((value ans):xs,store ans)) ([],st) exps in if (null args) then AnAnswer (Nro O) s1 else AnAnswer (head args) s1 ",
+        "bbox": [
+            63,
+            389,
+            925,
+            797
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Introduccion Ejemplos en SFL con asignacion Intérprete para SFL con asignacion ",
+        "bbox": [
+            207,
+            11,
+            477,
+            91
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Extendiendo SFL con asignacion (SFLA) (SFLA = Prog. Fu ",
+        "bbox": [
+            2,
+            963,
+            986,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Intérprete-Secuenciamiento ",
+        "bbox": [
+            0,
+            110,
+            1000,
+            183
+        ],
+        "page_idx": 29
+    }
+]

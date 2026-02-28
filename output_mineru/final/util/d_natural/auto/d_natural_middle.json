@@ -1,0 +1,1247 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        304,
+                        36,
+                        537,
+                        61
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                302,
+                                33,
+                                540,
+                                64
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        302,
+                                        33,
+                                        540,
+                                        64
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deducci´on Natural",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        57,
+                        78,
+                        147,
+                        90
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                77,
+                                149,
+                                91
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        77,
+                                        149,
+                                        91
+                                    ],
+                                    "score": 1.0,
+                                    "content": "L´ogica Intuicionista",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        58,
+                        100,
+                        126,
+                        113
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                98,
+                                127,
+                                113
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        98,
+                                        127,
+                                        113
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Reglas B´asicas",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        130,
+                        174,
+                        340,
+                        246
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                130,
+                                174,
+                                340,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        130,
+                                        174,
+                                        340,
+                                        246
+                                    ],
+                                    "score": 0.29,
+                                    "content": "\\begin{array} { c } { { \\displaystyle \\frac { \\Gamma \\vdash \\tau \\quad \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\wedge \\sigma } \\wedge _ { i } } } \\\\ { { \\mathrm { } } } \\\\ { { \\displaystyle \\frac { \\Gamma \\vdash \\tau \\wedge \\sigma } { \\Gamma \\vdash \\tau } \\wedge _ { e _ { 1 } } \\qquad \\frac { \\Gamma \\vdash \\tau \\wedge \\sigma } { \\Gamma \\vdash \\sigma } \\wedge _ { e _ { 2 } } } } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "ec3f51470585a2b87a44d376b133c4db61842f213ac72ee72d95821af34b4f82.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                130,
+                                174,
+                                340,
+                                210.0
+                            ],
+                            "spans": [],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                130,
+                                210.0,
+                                340,
+                                246.0
+                            ],
+                            "spans": [],
+                            "index": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        529,
+                        174,
+                        684,
+                        246
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                529,
+                                174,
+                                684,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        529,
+                                        174,
+                                        684,
+                                        246
+                                    ],
+                                    "score": 0.42,
+                                    "content": "\\begin{array} { c } { { \\frac { \\Gamma , \\tau \\vdash \\sigma } { \\Gamma \\vdash \\tau \\Rightarrow \\sigma } \\Rightarrow _ { i } } } \\\\ { { } } \\\\ { { \\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\tau \\Rightarrow _ { e } } { \\Gamma \\vdash \\sigma } \\quad \\Rightarrow _ { e } } } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "d785635c130b8aff4d40af1a97e145c8ff2efa2e19a0f05730ea44a4da5f2e15.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                529,
+                                174,
+                                684,
+                                210.0
+                            ],
+                            "spans": [],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                529,
+                                210.0,
+                                684,
+                                246.0
+                            ],
+                            "spans": [],
+                            "index": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        124,
+                        274,
+                        351,
+                        346
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                124,
+                                274,
+                                351,
+                                346
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        124,
+                                        274,
+                                        351,
+                                        346
+                                    ],
+                                    "score": 0.62,
+                                    "content": "\\begin{array} { r l } & { \\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 1 } } \\quad \\frac { \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 2 } } } \\\\ & { \\underline { { \\Gamma \\vdash \\tau \\lor \\sigma } } \\quad \\Gamma , \\tau \\vdash \\rho \\quad \\Gamma , \\sigma \\vdash \\rho } \\\\ & { \\quad \\quad \\quad \\Gamma \\vdash \\rho } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "e5485f1396c06aba8708edd82372fb3cdfdc428c2f8b124cb8c77c932c428c00.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                124,
+                                274,
+                                351,
+                                292.0
+                            ],
+                            "spans": [],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                124,
+                                292.0,
+                                351,
+                                310.0
+                            ],
+                            "spans": [],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                124,
+                                310.0,
+                                351,
+                                328.0
+                            ],
+                            "spans": [],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                124,
+                                328.0,
+                                351,
+                                346.0
+                            ],
+                            "spans": [],
+                            "index": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        542,
+                        274,
+                        671,
+                        347
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                542,
+                                274,
+                                671,
+                                347
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        542,
+                                        274,
+                                        671,
+                                        347
+                                    ],
+                                    "score": 0.45,
+                                    "content": "\\begin{array} { c } { \\frac { \\Gamma , \\tau \\vdash \\bot } { \\Gamma \\vdash \\lnot } \\lnot _ { i } } \\\\ { \\frac { \\Gamma \\vdash \\ l \\tau \\ l } { \\Gamma \\vdash \\ l \\textsc { i } } \\lnot _ { e } } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "8358015b489a3353685a409142c6a5983052b4355e63825713fb3a165e47c608.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                542,
+                                274,
+                                671,
+                                310.5
+                            ],
+                            "spans": [],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                542,
+                                310.5,
+                                671,
+                                347.0
+                            ],
+                            "spans": [],
+                            "index": 12
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        57,
+                        372,
+                        136,
+                        384
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                371,
+                                137,
+                                385
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        371,
+                                        137,
+                                        385
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Reglas Derivadas",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        192,
+                        413,
+                        279,
+                        439
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                413,
+                                279,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        413,
+                                        279,
+                                        439
+                                    ],
+                                    "score": 0.74,
+                                    "content": "\\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\lnot \\lnot \\tau } \\lnot \\lnot \\lnot _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "7ab89e8a7150e5fc0029a1adac62bfd8bea30f98a727f438dd4b17db4e6b4e07.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                192,
+                                413,
+                                279,
+                                439
+                            ],
+                            "spans": [],
+                            "index": 14
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        479,
+                        412,
+                        650,
+                        440
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                479,
+                                412,
+                                650,
+                                440
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        479,
+                                        412,
+                                        650,
+                                        440
+                                    ],
+                                    "score": 0.6,
+                                    "content": "\\frac { \\ \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\neg \\sigma } { \\Gamma \\vdash \\neg \\tau } M T",
+                                    "type": "interline_equation",
+                                    "image_path": "a576494da53acd9a2c82b491d26619aada34dbc6aa18dfa6913210eb145a50b1.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                479,
+                                412,
+                                650,
+                                440
+                            ],
+                            "spans": [],
+                            "index": 15
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        58,
+                        461,
+                        124,
+                        474
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                460,
+                                125,
+                                475
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        460,
+                                        125,
+                                        475
+                                    ],
+                                    "score": 1.0,
+                                    "content": "L´ogica Cl´asica",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        57,
+                        487,
+                        118,
+                        500
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                485,
+                                119,
+                                501
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        485,
+                                        119,
+                                        501
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Regla B´asica",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        192,
+                        531,
+                        282,
+                        557
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                531,
+                                282,
+                                557
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        531,
+                                        282,
+                                        557
+                                    ],
+                                    "score": 0.88,
+                                    "content": "\\frac { \\Gamma \\vdash \\lnot \\lnot \\tau } { \\Gamma \\vdash \\tau } \\lnot \\lnot \\lnot e",
+                                    "type": "interline_equation",
+                                    "image_path": "9a72cce6add5ace767ee9630a15534160de359e48ce9b7ccc37b4669216d7442.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                192,
+                                531,
+                                282,
+                                557
+                            ],
+                            "spans": [],
+                            "index": 18
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                841,
+                595
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        426,
+                        487,
+                        506,
+                        501
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                487,
+                                507,
+                                500
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        487,
+                                        507,
+                                        500
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Reglas Derivadas",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        304,
+                        36,
+                        537,
+                        61
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                302,
+                                33,
+                                540,
+                                64
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        302,
+                                        33,
+                                        540,
+                                        64
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deducci´on Natural",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        57,
+                        78,
+                        147,
+                        90
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                77,
+                                149,
+                                91
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        77,
+                                        149,
+                                        91
+                                    ],
+                                    "score": 1.0,
+                                    "content": "L´ogica Intuicionista",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        58,
+                        100,
+                        126,
+                        113
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                98,
+                                127,
+                                113
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        98,
+                                        127,
+                                        113
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Reglas B´asicas",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "bbox_fs": [
+                        56,
+                        98,
+                        127,
+                        113
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        130,
+                        174,
+                        340,
+                        246
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                130,
+                                174,
+                                340,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        130,
+                                        174,
+                                        340,
+                                        246
+                                    ],
+                                    "score": 0.29,
+                                    "content": "\\begin{array} { c } { { \\displaystyle \\frac { \\Gamma \\vdash \\tau \\quad \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\wedge \\sigma } \\wedge _ { i } } } \\\\ { { \\mathrm { } } } \\\\ { { \\displaystyle \\frac { \\Gamma \\vdash \\tau \\wedge \\sigma } { \\Gamma \\vdash \\tau } \\wedge _ { e _ { 1 } } \\qquad \\frac { \\Gamma \\vdash \\tau \\wedge \\sigma } { \\Gamma \\vdash \\sigma } \\wedge _ { e _ { 2 } } } } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "ec3f51470585a2b87a44d376b133c4db61842f213ac72ee72d95821af34b4f82.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                130,
+                                174,
+                                340,
+                                210.0
+                            ],
+                            "spans": [],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                130,
+                                210.0,
+                                340,
+                                246.0
+                            ],
+                            "spans": [],
+                            "index": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        529,
+                        174,
+                        684,
+                        246
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                529,
+                                174,
+                                684,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        529,
+                                        174,
+                                        684,
+                                        246
+                                    ],
+                                    "score": 0.42,
+                                    "content": "\\begin{array} { c } { { \\frac { \\Gamma , \\tau \\vdash \\sigma } { \\Gamma \\vdash \\tau \\Rightarrow \\sigma } \\Rightarrow _ { i } } } \\\\ { { } } \\\\ { { \\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\tau \\Rightarrow _ { e } } { \\Gamma \\vdash \\sigma } \\quad \\Rightarrow _ { e } } } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "d785635c130b8aff4d40af1a97e145c8ff2efa2e19a0f05730ea44a4da5f2e15.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                529,
+                                174,
+                                684,
+                                210.0
+                            ],
+                            "spans": [],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                529,
+                                210.0,
+                                684,
+                                246.0
+                            ],
+                            "spans": [],
+                            "index": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        124,
+                        274,
+                        351,
+                        346
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                124,
+                                274,
+                                351,
+                                346
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        124,
+                                        274,
+                                        351,
+                                        346
+                                    ],
+                                    "score": 0.62,
+                                    "content": "\\begin{array} { r l } & { \\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 1 } } \\quad \\frac { \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 2 } } } \\\\ & { \\underline { { \\Gamma \\vdash \\tau \\lor \\sigma } } \\quad \\Gamma , \\tau \\vdash \\rho \\quad \\Gamma , \\sigma \\vdash \\rho } \\\\ & { \\quad \\quad \\quad \\Gamma \\vdash \\rho } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "e5485f1396c06aba8708edd82372fb3cdfdc428c2f8b124cb8c77c932c428c00.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                124,
+                                274,
+                                351,
+                                292.0
+                            ],
+                            "spans": [],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                124,
+                                292.0,
+                                351,
+                                310.0
+                            ],
+                            "spans": [],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                124,
+                                310.0,
+                                351,
+                                328.0
+                            ],
+                            "spans": [],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                124,
+                                328.0,
+                                351,
+                                346.0
+                            ],
+                            "spans": [],
+                            "index": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        542,
+                        274,
+                        671,
+                        347
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                542,
+                                274,
+                                671,
+                                347
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        542,
+                                        274,
+                                        671,
+                                        347
+                                    ],
+                                    "score": 0.45,
+                                    "content": "\\begin{array} { c } { \\frac { \\Gamma , \\tau \\vdash \\bot } { \\Gamma \\vdash \\lnot } \\lnot _ { i } } \\\\ { \\frac { \\Gamma \\vdash \\ l \\tau \\ l } { \\Gamma \\vdash \\ l \\textsc { i } } \\lnot _ { e } } \\end{array}",
+                                    "type": "interline_equation",
+                                    "image_path": "8358015b489a3353685a409142c6a5983052b4355e63825713fb3a165e47c608.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11.5,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                542,
+                                274,
+                                671,
+                                310.5
+                            ],
+                            "spans": [],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                542,
+                                310.5,
+                                671,
+                                347.0
+                            ],
+                            "spans": [],
+                            "index": 12
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        57,
+                        372,
+                        136,
+                        384
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                371,
+                                137,
+                                385
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        371,
+                                        137,
+                                        385
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Reglas Derivadas",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13,
+                    "bbox_fs": [
+                        56,
+                        371,
+                        137,
+                        385
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        192,
+                        413,
+                        279,
+                        439
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                413,
+                                279,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        413,
+                                        279,
+                                        439
+                                    ],
+                                    "score": 0.74,
+                                    "content": "\\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\lnot \\lnot \\tau } \\lnot \\lnot \\lnot _ { i }",
+                                    "type": "interline_equation",
+                                    "image_path": "7ab89e8a7150e5fc0029a1adac62bfd8bea30f98a727f438dd4b17db4e6b4e07.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                192,
+                                413,
+                                279,
+                                439
+                            ],
+                            "spans": [],
+                            "index": 14
+                        }
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        479,
+                        412,
+                        650,
+                        440
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                479,
+                                412,
+                                650,
+                                440
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        479,
+                                        412,
+                                        650,
+                                        440
+                                    ],
+                                    "score": 0.6,
+                                    "content": "\\frac { \\ \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\neg \\sigma } { \\Gamma \\vdash \\neg \\tau } M T",
+                                    "type": "interline_equation",
+                                    "image_path": "a576494da53acd9a2c82b491d26619aada34dbc6aa18dfa6913210eb145a50b1.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                479,
+                                412,
+                                650,
+                                440
+                            ],
+                            "spans": [],
+                            "index": 15
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        58,
+                        461,
+                        124,
+                        474
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                460,
+                                125,
+                                475
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        460,
+                                        125,
+                                        475
+                                    ],
+                                    "score": 1.0,
+                                    "content": "L´ogica Cl´asica",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        }
+                    ],
+                    "index": 16,
+                    "bbox_fs": [
+                        56,
+                        460,
+                        125,
+                        475
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        57,
+                        487,
+                        118,
+                        500
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                485,
+                                119,
+                                501
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        485,
+                                        119,
+                                        501
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Regla B´asica",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 17,
+                    "bbox_fs": [
+                        56,
+                        485,
+                        119,
+                        501
+                    ]
+                },
+                {
+                    "type": "interline_equation",
+                    "bbox": [
+                        192,
+                        531,
+                        282,
+                        557
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                531,
+                                282,
+                                557
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        531,
+                                        282,
+                                        557
+                                    ],
+                                    "score": 0.88,
+                                    "content": "\\frac { \\Gamma \\vdash \\lnot \\lnot \\tau } { \\Gamma \\vdash \\tau } \\lnot \\lnot \\lnot e",
+                                    "type": "interline_equation",
+                                    "image_path": "9a72cce6add5ace767ee9630a15534160de359e48ce9b7ccc37b4669216d7442.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "virtual_lines": [
+                        {
+                            "bbox": [
+                                192,
+                                531,
+                                282,
+                                557
+                            ],
+                            "spans": [],
+                            "index": 18
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.7.6"
+}

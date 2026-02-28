@@ -1,0 +1,3733 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            205,
+            814,
+            275
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on a la materia Programaci´on funcional b´asica ",
+        "bbox": [
+            220,
+            323,
+            781,
+            452
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            220,
+            492,
+            784,
+            694
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Presentaci´on de la materia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            154,
+            508,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tipos b´asicos y secuencias ",
+        "bbox": [
+            77,
+            301,
+            508,
+            356
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos inductivos ",
+        "bbox": [
+            77,
+            448,
+            497,
+            500
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tipos abstractos de datos ",
+        "bbox": [
+            77,
+            595,
+            497,
+            647
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Enumeraciones combinatorias ",
+        "bbox": [
+            77,
+            738,
+            555,
+            794
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/647bf952bc89258e8f37b9aa964188191fc1130354c1b0aaeab5fb639807cb44.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/76cdc60d31103d5fa358b52efeec7c24eb3df4c8e044520f3bc997d25cddae71.jpg",
+        "text": "$$\n\\mathsf { D o c e n t e s } \\left( \\mathsf { T u r n o \\ M a } \\tilde { \\mathsf { n } } \\mathsf { a n a } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            18,
+            461,
+            95
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Profesor ",
+        "text_level": 1,
+        "bbox": [
+            93,
+            264,
+            209,
+            305
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Christian Cossio-Mercado ",
+        "bbox": [
+            149,
+            323,
+            475,
+            367
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Jefes de trabajos pr´acticos ",
+        "bbox": [
+            91,
+            386,
+            461,
+            430
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Malena Ivnisky Brian Cardiff Daniel Grimaldi ",
+        "bbox": [
+            146,
+            448,
+            348,
+            610
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ayudantes de primera ",
+        "text_level": 1,
+        "bbox": [
+            91,
+            628,
+            397,
+            672
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sebasti´an Felgueras ",
+        "bbox": [
+            149,
+            691,
+            403,
+            735
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ayudantes de segunda ",
+        "text_level": 1,
+        "bbox": [
+            546,
+            268,
+            861,
+            308
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Josefina Negrotto Facundo Chenlo Magali Kruel Pedro Arce Montoiro ",
+        "bbox": [
+            602,
+            323,
+            878,
+            551
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            569,
+            327,
+            593,
+            544
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            116,
+            698,
+            135,
+            720
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            113,
+            330,
+            135,
+            356
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            110,
+            448,
+            138,
+            602
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "D´ıas y horarios de cursada ",
+        "bbox": [
+            22,
+            33,
+            447,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b37bf79b47f75c169bb608754f65e011fbef2277b9dd90123db4fb5fdc57533b.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Martes de 9:00 a 14:00   \nViernes de 9:00 a 14:00 ",
+        "bbox": [
+            118,
+            330,
+            439,
+            433
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "generalmente pr´actica generalmente te´orica ",
+        "bbox": [
+            640,
+            330,
+            925,
+            437
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            334,
+            118,
+            363
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "D´ıas y horarios de cursada ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            447,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0aacaf882f46028344aa9922e128bac9ac5fb521ed782526c66d3cd966e0c8f5.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Martes de 9:00 a 14:00   \nViernes de 9:00 a 14:00 ",
+        "bbox": [
+            118,
+            330,
+            439,
+            433
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "generalmente pr´actica generalmente te´orica ",
+        "bbox": [
+            640,
+            330,
+            925,
+            437
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Consultas: ",
+        "bbox": [
+            77,
+            496,
+            207,
+            536
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Martes y viernes, cuando termine la clase ( 13:00/13:30 hs) hasta las 14 hs. ",
+        "bbox": [
+            121,
+            555,
+            895,
+            647
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            334,
+            118,
+            363
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            562,
+            118,
+            588
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            397,
+            118,
+            422
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Modalidad de evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            422,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Parciales ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            154,
+            201,
+            198
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Primer parcial martes 7 de octubre Segundo parcial martes 25 de noviembre Recuperatorio del primer parcial martes 2 de diciembre Recuperatorio del segundo parcial martes 9 de diciembre ",
+        "bbox": [
+            116,
+            216,
+            925,
+            444
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Trabajos pr´acticos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            503,
+            328,
+            547
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "TP 1 (con su recuperatorio) TP 2 (con su recuperatorio) ",
+        "bbox": [
+            129,
+            562,
+            494,
+            672
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Los TPs son en grupos de 4 integrantes. ",
+        "bbox": [
+            74,
+            705,
+            621,
+            753
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Examen final ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            801,
+            256,
+            841
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(Con posibilidad de promoci´on). ",
+        "bbox": [
+            74,
+            852,
+            480,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            220,
+            121,
+            433
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Materiales ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            190,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Todo el material de la materia va a estar disponible en el campus: https://campus.exactas.uba.ar/course/view.php?id=737 ",
+        "bbox": [
+            71,
+            246,
+            908,
+            341
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Diapositivas de las clases   \nGu´ıas de ejercicios   \nApuntes   \nEnunciados de los trabajos pr´acticos   \nCalendario ",
+        "bbox": [
+            99,
+            356,
+            599,
+            702
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Revisen la secci´on “´util”. ",
+        "bbox": [
+            74,
+            724,
+            397,
+            764
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            363,
+            121,
+            698
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "V´ıas de comunicaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            372,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Docentes alumnxs Avisos a trav´es del campus. ",
+        "bbox": [
+            74,
+            257,
+            425,
+            352
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Alumnxs → docentes   \nLista de correo: plp-docentes@dc.uba.ar (para consultas administrativas) ",
+        "bbox": [
+            69,
+            404,
+            922,
+            551
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Discusi´on entre estudiantes fuera del horario de la materia ",
+        "bbox": [
+            66,
+            595,
+            900,
+            639
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Servidor de Discord: https://tinyurl.com/plpdiscord (con eventual participaci´on de docentes) ",
+        "bbox": [
+            77,
+            647,
+            922,
+            742
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "7 ",
+        "bbox": [
+            972,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Tres aspectos de los lenguajes de programaci´on: ",
+        "bbox": [
+            77,
+            231,
+            715,
+            275
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/89012713cf226e749584ef5f7c22a3e9d4bed0aff8daa79495e536a59eb15611.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            190,
+            319,
+            707,
+            735
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Contenidos ",
+        "bbox": [
+            19,
+            33,
+            204,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Cronograma ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            218,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/ec98cd079279d38479d1b1bfff5bca6d0d03d338bbb8ae41cf47d0f78d58e73b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Programacion funcional                 2 semanas</td></tr><tr><td rowspan=1 colspan=1>Razonamiento ecuacional               1 semana</td></tr><tr><td rowspan=1 colspan=1>L6gica proposicional                      1 semana</td></tr><tr><td rowspan=1 colspan=1>Calculo-入                                   2 semanas</td></tr><tr><td rowspan=1 colspan=1>(Repaso /consultas)</td></tr><tr><td rowspan=1 colspan=1>Primerparcial</td></tr><tr><td rowspan=1 colspan=1>Intérpretes e inferencia de tipos       1 semana</td></tr><tr><td rowspan=1 colspan=1>Unificacion y l6gica de primer orden 1 semana</td></tr><tr><td rowspan=1 colspan=1>Resolucion                                  1 semana</td></tr><tr><td rowspan=1 colspan=1>Programacion l6gica                      1,5 semanas</td></tr><tr><td rowspan=1 colspan=1>Programacion orientada a objetos     1 semana</td></tr><tr><td rowspan=1 colspan=1>(Repaso /consultas)</td></tr><tr><td rowspan=1 colspan=1>Segundo parcial</td></tr></table>",
+        "bbox": [
+            157,
+            205,
+            839,
+            882
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Los lenguajes de programaci´on tienen distintas caracter´ısticas. ",
+        "bbox": [
+            71,
+            132,
+            878,
+            176
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Etiquetado din´amico vs. tipado est´atico.   \nAdministraci´on manual vs. autom´atica de memoria.   \nFunciones de primer orden vs. funciones de orden superior.   \nMutabilidad vs. inmutabilidad.   \nAlcance din´amico vs. est´atico.   \nResoluci´on de nombres temprana vs. tard´ıa.   \nInferencia de tipos.   \nDeterminismo vs. no determinismo.   \nPasaje de par´ametros por copia o por referencia.   \nEvaluaci´on estricta (por valor) o diferida (por necesidad).   \nTipos de datos inductivos, co-inductivos, GADTs, familias dependientes.   \nPattern matching, unificaci´on.   \nPolimorfismo param´etrico.   \nSubclasificaci´on, polimorfismo de subtipos, herencia simple vs. m´ultiple.   \nEstructuras de control no local. ",
+        "bbox": [
+            102,
+            183,
+            908,
+            952
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Distintas caracter´ısticas permiten abordar un mismo problema de distintas maneras. ",
+        "bbox": [
+            74,
+            128,
+            900,
+            224
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "11 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "CMXXIV + MCXLI ",
+        "bbox": [
+            182,
+            301,
+            361,
+            397
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Distintas caracter´ısticas permiten abordar un mismo problema de distintas maneras. ",
+        "bbox": [
+            74,
+            128,
+            900,
+            224
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "11 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "CMXXIV + MCXLI ",
+        "bbox": [
+            179,
+            301,
+            361,
+            397
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "924 + 1141 ",
+        "bbox": [
+            640,
+            301,
+            770,
+            397
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Distintas caracter´ısticas permiten abordar un mismo problema de distintas maneras. ",
+        "bbox": [
+            74,
+            128,
+            900,
+            224
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9813db3392e6fb8396baf9cfdd257256007cbab1029326c9798a23dc37e05b89.jpg",
+        "text": "$$\nC = \\{ ( x , y ) \\mid x ^ { 2 } + y ^ { 2 } = r ^ { 2 } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            93,
+            496,
+            447,
+            551
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "CMXXIV + MCXLI ",
+        "bbox": [
+            171,
+            301,
+            367,
+            400
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "924 + 1141 ",
+        "bbox": [
+            640,
+            301,
+            767,
+            397
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Distintas caracter´ısticas permiten abordar un mismo problema de distintas maneras. ",
+        "bbox": [
+            74,
+            128,
+            900,
+            224
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aa724dc69dd2d2ae45fd41f2c5291bf82952b3c51787d06097c0471720ee03d2.jpg",
+        "text": "$$\n\\{ ( x , y ) \\mid x ^ { 2 } + y ^ { 2 } = r ^ { 2 } \\} \\quad C = \\{ ( r \\sin \\theta ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            496,
+            651,
+            551
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/31ed00828c96295d765f862c6d8e9d8202d8c60d578c16fb82a446fb6b030818.jpg",
+        "text": "$$\nC = \\{ ( r \\sin \\theta , r \\cos \\theta ) | 0 \\leq \\theta < 2 \\pi \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            472,
+            496,
+            933,
+            551
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "CMXXIV + MCXLI ",
+        "bbox": [
+            168,
+            297,
+            367,
+            400
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Distintas caracter´ısticas permiten abordar un mismo problema de distintas maneras. ",
+        "bbox": [
+            74,
+            128,
+            900,
+            224
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "11 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ccfcb3104ffa01201337e1f498840161eeaf0de656aa2f9bac2a5891b6ad886a.jpg",
+        "text": "$$\n\\{ ( x , y ) \\mid x ^ { 2 } + y ^ { 2 } = r ^ { 2 } \\} \\quad C = \\{ ( r \\sin \\theta ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            496,
+            651,
+            551
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/66d0a47d1c4f0bb866aa8a3770257b84127ad1853a4027b8ae6201868dc8d03e.jpg",
+        "text": "$$\nC = \\{ ( r \\sin \\theta , r \\cos \\theta ) | 0 \\leq \\theta < 2 \\pi \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            472,
+            496,
+            933,
+            551
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "r := 1   \nwhile n > 0 { $\\begin{array} { r } { \\textbf { r } : = \\textbf { r } * \\textbf { n } } \\\\ { \\textbf { n } : = \\textbf { n } - \\textbf { 1 } } \\end{array}$   \n} ",
+        "bbox": [
+            160,
+            654,
+            375,
+            893
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "CMXXIV + MCXLI ",
+        "bbox": [
+            171,
+            297,
+            364,
+            397
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Distintas caracter´ısticas permiten abordar un mismo problema de distintas maneras. ",
+        "bbox": [
+            74,
+            128,
+            900,
+            224
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "11 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ab4ecf38fa42414f4c3c1440393e67deda6319975a809de152fdf88ec3023327.jpg",
+        "text": "$$\n\\{ ( x , y ) \\mid x ^ { 2 } + y ^ { 2 } = r ^ { 2 } \\} \\quad C = \\{ ( r \\sin \\theta ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            496,
+            651,
+            551
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f1129772fece048e28cb000b895b54edd64e85c9424f5f473603c93cde239cf0.jpg",
+        "text": "$$\nC = \\{ ( r \\sin \\theta , r \\cos \\theta ) | 0 \\leq \\theta < 2 \\pi \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            472,
+            496,
+            933,
+            551
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "r := 1   \nwhile n > 0 { $\\begin{array} { r } { \\textbf { r } : = \\textbf { r } * \\textbf { n } } \\\\ { \\textbf { n } : = \\textbf { n } - \\textbf { 1 } } \\end{array}$   \n} ",
+        "bbox": [
+            160,
+            654,
+            375,
+            897
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "CMXXIV + MCXLI ",
+        "bbox": [
+            168,
+            297,
+            367,
+            397
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: sem´antica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            411,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Dependemos del software en aplicaciones cr´ıticas. ",
+        "bbox": [
+            77,
+            165,
+            698,
+            209
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Telecomunicaciones.   \nProcesos industriales.   \nReactores nucleares.   \nEquipamiento m´edico.   \nPrevisi´on meteorol´ogica.   \nAeron´autica.   \nVeh´ıculos aut´onomos.   \nTransacciones monetarias.   \nAn´alisis de datos en ciencia o toma de decisiones. ",
+        "bbox": [
+            110,
+            227,
+            773,
+            812
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Las fallas cuestan recursos monetarios y vidas humanas. ",
+        "bbox": [
+            74,
+            834,
+            781,
+            882
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ▶ ▶ ▶ ▶ ▶ ",
+        "bbox": [
+            93,
+            227,
+            121,
+            812
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: sem´antica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            411,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos confiar en que un programa hace lo que queremos? ",
+        "bbox": [
+            71,
+            257,
+            864,
+            305
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: sem´antica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            411,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos confiar en que un programa hace lo que queremos? ¿Y si el programa est´a escrito por el enemigo? ",
+        "bbox": [
+            71,
+            257,
+            861,
+            352
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: sem´antica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            411,
+            84
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos confiar en que un programa hace lo que queremos? ¿Y si el programa est´a escrito por el enemigo? ¿Y si el programa est´a escrito por una IA? ",
+        "bbox": [
+            63,
+            257,
+            861,
+            404
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: sem´antica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            411,
+            84
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos confiar en que un programa hace lo que queremos? ¿Y si el programa est´a escrito por el enemigo? ¿Y si el programa est´a escrito por una IA? ",
+        "bbox": [
+            69,
+            257,
+            861,
+            404
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Objetivo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            452,
+            196,
+            496
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "▶ Probar teoremas sobre el comportamiento de los programas. ¿C´omo darle significado matem´atico a los programas? ",
+        "bbox": [
+            113,
+            514,
+            895,
+            617
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "13 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: sem´antica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            411,
+            84
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos confiar en que un programa hace lo que queremos? ¿Y si el programa est´a escrito por el enemigo? ¿Y si el programa est´a escrito por una IA? ",
+        "bbox": [
+            69,
+            257,
+            859,
+            404
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Objetivo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            452,
+            196,
+            496
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Probar teoremas sobre el comportamiento de los programas. ¿C´omo darle significado matem´atico a los programas? En AED vimos una manera de hacerlo (triplas de Hoare). En PLP veremos otras maneras de dar sem´antica. ",
+        "bbox": [
+            124,
+            514,
+            897,
+            738
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            514,
+            121,
+            731
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "13 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: implementaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            516,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Una computadora f´ısica ejecuta programas escritos en un lenguaje. (El “c´odigo m´aquina”). ",
+        "bbox": [
+            74,
+            297,
+            919,
+            397
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b5b46b2f5302b2f7c9f26b6f4a80e49024e3bf29a9b339fd1ea3c517657975d3.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: implementaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            516,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Una computadora f´ısica ejecuta programas escritos en un lenguaje. (El “c´odigo m´aquina”). ",
+        "bbox": [
+            74,
+            297,
+            919,
+            397
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo es capaz de ejecutar programas escritos en otros lenguajes? ",
+        "bbox": [
+            71,
+            441,
+            925,
+            488
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "img_path": "images/55c02f49c678628994aaafde68971eec2c9576e488bf6fde9ceda33d909b745f.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on: implementaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            516,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Una computadora f´ısica ejecuta programas escritos en un lenguaje. (El “c´odigo m´aquina”). ",
+        "bbox": [
+            74,
+            297,
+            919,
+            397
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo es capaz de ejecutar programas escritos en otros lenguajes? ",
+        "bbox": [
+            71,
+            441,
+            925,
+            488
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Interpretaci´on (o evaluaci´on). Chequeo e inferencia de tipos.   \n▶ Compilaci´on (traducci´on de un lenguaje a otro). ",
+        "bbox": [
+            102,
+            503,
+            745,
+            672
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Bibliograf´ıa (no exhaustiva) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            469,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "L´ogica proposicional y de primer orden ",
+        "bbox": [
+            135,
+            102,
+            674,
+            150
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Logic and Structure ",
+        "bbox": [
+            174,
+            158,
+            430,
+            198
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "D. van Dalen. ",
+        "bbox": [
+            212,
+            205,
+            389,
+            246
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica y fundamentos de la implementaci´on ",
+        "bbox": [
+            135,
+            261,
+            803,
+            308
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Introduction to the Theory of Programming Languages ",
+        "bbox": [
+            168,
+            316,
+            875,
+            356
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "J.-J. L´evy, G. Dowek. Springer, 2010. ",
+        "bbox": [
+            215,
+            363,
+            682,
+            404
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Types and Programming Languages ",
+        "bbox": [
+            182,
+            415,
+            629,
+            455
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "B. Pierce. The MIT Press, 2002. ",
+        "bbox": [
+            209,
+            463,
+            629,
+            503
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on funcional Introduction to Functional Programming using Haskell R. Bird. Prentice Hall, 1998. ",
+        "bbox": [
+            135,
+            518,
+            870,
+            661
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on l´ogica ",
+        "text_level": 1,
+        "bbox": [
+            135,
+            676,
+            419,
+            720
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Logic Programming with Prolog ",
+        "bbox": [
+            176,
+            727,
+            585,
+            768
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "M. Bramer. Springer-Verlag, 2013. ",
+        "bbox": [
+            212,
+            775,
+            654,
+            819
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on orientada a objetos ",
+        "text_level": 1,
+        "bbox": [
+            135,
+            834,
+            607,
+            878
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Smalltalk-80 the Language and its Implementation ",
+        "bbox": [
+            174,
+            886,
+            817,
+            926
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "A. Goldberg, D. Robson. Addison-Wesley, 1983. ",
+        "bbox": [
+            212,
+            933,
+            820,
+            977
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Presentaci´on de la materia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            154,
+            508,
+            209
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Tipos b´asicos y secuencias ",
+        "bbox": [
+            77,
+            301,
+            508,
+            356
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos inductivos ",
+        "bbox": [
+            77,
+            448,
+            497,
+            500
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Tipos abstractos de datos ",
+        "bbox": [
+            77,
+            595,
+            497,
+            647
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Enumeraciones combinatorias ",
+        "bbox": [
+            77,
+            738,
+            555,
+            794
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "16 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on con tipos b´asicos y secuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            748,
+            88
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            77,
+            136,
+            472,
+            180
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "factorial :: Int -> Int dado un entero $n \\geq 0$ , devuelve n!. ",
+        "bbox": [
+            129,
+            198,
+            580,
+            290
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7f9d1f5bf7c6dfdb652baef8673163f8b77edb1a6818c52912b9dea250a80fb2.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            202,
+            118,
+            231
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on con tipos b´asicos y secuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            748,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            77,
+            136,
+            472,
+            180
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "▶ factorial :: Int -> Int dado un entero $n \\geq 0$ , devuelve n!.   \n▶ sumaN :: Int -> [Int] -> [Int] dado un entero $k$ y una lista xs, devuelve la lista que resulta de sumarle $k$ a cada elemento de xs. ",
+        "bbox": [
+            102,
+            198,
+            903,
+            452
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on con tipos b´asicos y secuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            748,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            77,
+            136,
+            472,
+            180
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "factorial :: Int -> Int dado un entero $n \\geq 0$ , devuelve n!.   \n▶ sumaN :: Int -> [Int] -> [Int] dado un entero $k$ y una lista xs, devuelve la lista que resulta de sumarle $k$ a cada elemento de xs.   \n▶ aparece :: Char -> String -> Bool dado un caracter c y un string s, devuelve un booleano que indica si c aparece en s. ",
+        "bbox": [
+            113,
+            198,
+            903,
+            613
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9906ccb4a60a0e41635c1c9fb1af7964b6d2466f2b4ae362bb8bd6d098fedee4.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on con tipos b´asicos y secuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            748,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            77,
+            136,
+            472,
+            180
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "factorial :: Int -> Int dado un entero $n \\geq 0$ , devuelve n!.   \nsumaN :: Int -> [Int] -> [Int] dado un entero $k$ y una lista xs, devuelve la lista que resulta de sumarle $k$ a cada elemento de xs. aparece :: Char -> String -> Bool   \ndado un caracter c y un string s, devuelve un booleano que indica si c aparece en s. ",
+        "bbox": [
+            113,
+            198,
+            900,
+            452
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            124,
+            466,
+            897,
+            610
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "M´as en general: ",
+        "bbox": [
+            138,
+            621,
+            337,
+            661
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "aparece :: Eq a => a -> [a] -> Bool ",
+        "bbox": [
+            198,
+            665,
+            754,
+            713
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2d7c04897d2e484356fdcb3c69b4bf9a78e9650413b92d16be8588c43103f7ad.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on con tipos b´asicos y secuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            748,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            77,
+            136,
+            472,
+            180
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "factorial :: Int -> Int dado un entero $n \\geq 0$ , devuelve n!. sumaN :: Int -> [Int] -> [Int] dado un entero $k$ y una lista xs, devuelve la lista que resulta de sumarle $k$ a cada elemento de xs. aparece :: Char -> String -> Bool dado un caracter c y un string s, devuelve un booleano que indica si c aparece en s. M´as en general: aparece :: Eq a => a -> [a] -> Bool ordenar :: [Float] -> [Float] dada una lista, devuelve su permutaci´on ordenada. ",
+        "bbox": [
+            113,
+            198,
+            900,
+            849
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "img_path": "images/863d34eccce351f84ebc6731c19a74f1bf28fb72c6bdb17a7283ad343cf90754.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on con tipos b´asicos y secuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            748,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            77,
+            136,
+            472,
+            180
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "factorial :: Int -> Int dado un entero $n \\geq 0$ , devuelve n!.   \nT sumaN :: Int -> [Int] -> [Int] dado un entero $k$ y una lista xs, devuelve la lista que resulta de sumarle $k$ a cada elemento de xs. aparece :: Char -> String -> Bool   \ndado un caracter c y un string s, devuelve un booleano que indica si c aparece en s. ",
+        "bbox": [
+            116,
+            198,
+            900,
+            452
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            124,
+            466,
+            897,
+            610
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "M´as en general: ",
+        "bbox": [
+            138,
+            621,
+            337,
+            661
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "aparece :: Eq a => a -> [a] -> Bool ",
+        "bbox": [
+            196,
+            665,
+            751,
+            713
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "ordenar :: [Float] -> [Float]   \ndada una lista, devuelve su permutaci´on ordenada. M´as en general: ",
+        "bbox": [
+            129,
+            727,
+            776,
+            871
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "img_path": "images/34f9992efe45bf9cbbdfd133c07e3218057351439a575ba0bf50921ae4226e98.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "ordenar :: Ord a => [a] -> [a] ",
+        "bbox": [
+            198,
+            878,
+            674,
+            922
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Presentaci´on de la materia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            508,
+            209
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Tipos b´asicos y secuencias ",
+        "bbox": [
+            77,
+            301,
+            508,
+            356
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos inductivos ",
+        "bbox": [
+            77,
+            444,
+            497,
+            500
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Tipos abstractos de datos ",
+        "bbox": [
+            77,
+            595,
+            497,
+            647
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Enumeraciones combinatorias ",
+        "bbox": [
+            77,
+            738,
+            555,
+            794
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "18 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Tipos enumerados ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            317,
+            84
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo de datos: ",
+        "bbox": [
+            74,
+            356,
+            480,
+            400
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "data Direccion $=$ Norte | Este | Sur | Oeste definir la funci´on ",
+        "bbox": [
+            71,
+            408,
+            831,
+            496
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "opuesta :: Direccion -> Direccion que dada una direcci´on $d$ , devuelve la direcci´on opuesta a $d$ . ",
+        "bbox": [
+            74,
+            507,
+            848,
+            599
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Tipos opcionales ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            292,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on ",
+        "bbox": [
+            77,
+            246,
+            298,
+            290
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "´ultimo´IndiceDe :: Eq a => a -> [a] -> Int que dado un elemento $x \\ y$ una lista de elementos xs, devuelve el ´ındice de la ´ultima ocurrencia de x en xs. ",
+        "bbox": [
+            74,
+            297,
+            900,
+            441
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Tipos opcionales ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            292,
+            88
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on ",
+        "bbox": [
+            77,
+            246,
+            298,
+            290
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "´ultimo´IndiceDe :: Eq a => a -> [a] -> Int que dado un elemento $x \\ y$ una lista de elementos xs, devuelve el ´ındice de la ´ultima ocurrencia de x en xs. ",
+        "bbox": [
+            74,
+            297,
+            900,
+            441
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Es una funci´on parcial. ",
+        "bbox": [
+            74,
+            470,
+            364,
+            514
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Tipos opcionales ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            292,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on ",
+        "bbox": [
+            77,
+            246,
+            298,
+            290
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "´ultimo´IndiceDe :: Eq a => a -> [a] -> Int que dado un elemento $x \\ y$ una lista de elementos xs, devuelve el ´ındice de la ´ultima ocurrencia de x en xs. ",
+        "bbox": [
+            74,
+            297,
+            900,
+            441
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Es una funci´on parcial. ¿C´omo la podemos hacer total? ",
+        "bbox": [
+            74,
+            470,
+            784,
+            514
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Tipos opcionales ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            295,
+            88
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on ",
+        "bbox": [
+            74,
+            246,
+            298,
+            290
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "´ultimo´IndiceDe :: Eq a => a -> [a] -> Int que dado un elemento $x \\ y$ una lista de elementos xs, devuelve el ´ındice de la ´ultima ocurrencia de x en xs. ",
+        "bbox": [
+            74,
+            297,
+            900,
+            441
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Es una funci´on parcial. ¿C´omo la podemos hacer total? ",
+        "bbox": [
+            74,
+            470,
+            784,
+            514
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Podemos usar el siguiente tipo de datos: ",
+        "bbox": [
+            77,
+            540,
+            588,
+            584
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "data Maybe a $=$ Nothing | Just a ",
+        "bbox": [
+            138,
+            595,
+            638,
+            636
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Tipos opcionales ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            295,
+            88
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on ",
+        "bbox": [
+            74,
+            246,
+            298,
+            290
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "´ultimo´IndiceDe :: Eq a => a -> [a] -> Int que dado un elemento $x \\ y$ una lista de elementos xs, devuelve el ´ındice de la ´ultima ocurrencia de x en xs. ",
+        "bbox": [
+            74,
+            297,
+            903,
+            441
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Es una funci´on parcial. ¿C´omo la podemos hacer total? ",
+        "bbox": [
+            74,
+            470,
+            784,
+            514
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Podemos usar el siguiente tipo de datos: ",
+        "bbox": [
+            77,
+            540,
+            588,
+            584
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "data Maybe a $=$ Nothing | Just a ",
+        "bbox": [
+            132,
+            595,
+            638,
+            639
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Redefinir ahora la funci´on para que sea total, con el siguiente tipo: ´ultimo´IndiceDe :: Eq a $\\Rightarrow$ a -> [a] -> Maybe Int ",
+        "bbox": [
+            74,
+            661,
+            914,
+            761
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo de datos: data AB a $=$ Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            74,
+            286,
+            726,
+            382
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "Arboles´ ",
+        "bbox": [
+            19,
+            22,
+            143,
+            84
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo de datos: ",
+        "bbox": [
+            74,
+            290,
+            480,
+            334
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "data AB a $=$ Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            132,
+            338,
+            726,
+            382
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Dibujar y escribir en Haskell todos los ´arboles que tienen 3 nodos, en todos los cuales se encuentra el n´umero 0. ",
+        "bbox": [
+            129,
+            397,
+            881,
+            492
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "Arboles ´ ",
+        "bbox": [
+            19,
+            22,
+            143,
+            80
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            404,
+            118,
+            430
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo de datos: ",
+        "bbox": [
+            74,
+            290,
+            480,
+            334
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "data AB a $=$ Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            138,
+            338,
+            726,
+            382
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Dibujar y escribir en Haskell todos los ´arboles que tienen 3 nodos, en todos los cuales se encuentra el n´umero 0. ",
+        "bbox": [
+            132,
+            397,
+            881,
+            492
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Definir las funciones: ",
+        "bbox": [
+            135,
+            503,
+            400,
+            547
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "1. preorder :: AB a -> [a]   \n2. inorder :: AB a -> [a]   \n3. postorder :: AB a -> [a] ",
+        "bbox": [
+            157,
+            558,
+            544,
+            687
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "Arboles´ ",
+        "bbox": [
+            19,
+            22,
+            143,
+            84
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            507,
+            118,
+            536
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            404,
+            118,
+            430
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Presentaci´on de la materia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            508,
+            209
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Tipos b´asicos y secuencias ",
+        "bbox": [
+            77,
+            301,
+            508,
+            356
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos inductivos ",
+        "bbox": [
+            77,
+            448,
+            497,
+            500
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Tipos abstractos de datos ",
+        "bbox": [
+            77,
+            595,
+            497,
+            647
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Enumeraciones combinatorias ",
+        "bbox": [
+            77,
+            738,
+            555,
+            794
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f8d4a03e4c550bea6efed33f3bbac9078c9226244937ae3dd7f711a1282626f5.jpg",
+        "text": "$$\n^ { 2 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Conjunto sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Implementemos un conjunto con la siguiente interfaz: ",
+        "bbox": [
+            71,
+            231,
+            765,
+            279
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "vac´ıo :: Conj a insertar :: Eq a => a -> Conj a -> Conj a pertenece :: Eq a => a -> Conj a -> Bool eliminar :: Eq a => a -> Conj a -> Conj a ",
+        "bbox": [
+            102,
+            316,
+            779,
+            514
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Conjunto sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Implementemos un conjunto con la siguiente interfaz: ",
+        "bbox": [
+            71,
+            231,
+            765,
+            279
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "vac´ıo :: Conj a insertar :: Eq a => a -> Conj a -> Conj a pertenece :: Eq a => a -> Conj a -> Bool eliminar :: Eq a => a -> Conj a -> Conj a ",
+        "bbox": [
+            99,
+            316,
+            779,
+            514
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Elegimos la siguiente estructura de representaci´on: data Conj a = CConj [a] ",
+        "bbox": [
+            74,
+            566,
+            715,
+            665
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Conjunto sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Implementemos un conjunto con la siguiente interfaz: ",
+        "bbox": [
+            71,
+            231,
+            765,
+            279
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "vac´ıo :: Conj a insertar :: Eq a => a -> Conj a -> Conj a pertenece :: Eq a => a -> Conj a -> Bool eliminar :: Eq a => a -> Conj a -> Conj a ",
+        "bbox": [
+            102,
+            316,
+            779,
+            514
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Elegimos la siguiente estructura de representaci´on: ",
+        "bbox": [
+            77,
+            569,
+            712,
+            613
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "data Conj a = CConj [a] con el siguiente invariante: ",
+        "bbox": [
+            74,
+            621,
+            502,
+            713
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "La lista no debe contener elementos repetidos. ",
+        "bbox": [
+            118,
+            727,
+            723,
+            772
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            735,
+            118,
+            761
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Diccionario sobre ´arboles binarios de b´usqueda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            779,
+            88
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Implementemos un diccionario con la siguiente interfaz: ",
+        "bbox": [
+            74,
+            187,
+            792,
+            238
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "vac´ıo :: Dict k v definir :: Ord k => k -> v -> Dict k v -> Dict k v buscar :: Ord k => k -> Dict k v -> Maybe v ",
+        "bbox": [
+            102,
+            275,
+            906,
+            419
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cda310b2fcd0f2399fa9a9052fb258bf9e126dc2056de82b764c46d47afa6247.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Diccionario sobre ´arboles binarios de b´usqueda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            779,
+            88
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Implementemos un diccionario con la siguiente interfaz: ",
+        "bbox": [
+            74,
+            187,
+            792,
+            238
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "vac´ıo :: Dict k v definir :: Ord k => k -> v -> Dict k v -> Dict k v buscar :: Ord k => k -> Dict k v -> Maybe v ",
+        "bbox": [
+            99,
+            275,
+            903,
+            419
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Elegimos la siguiente estructura de representaci´on: data Dict k $\\begin{array} { r l } { \\triangledown } & { { } = } \\end{array}$ CDict (AB (k, v)) ",
+        "bbox": [
+            74,
+            477,
+            715,
+            573
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Diccionario sobre ´arboles binarios de b´usqueda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            779,
+            84
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Implementemos un diccionario con la siguiente interfaz: ",
+        "bbox": [
+            74,
+            187,
+            792,
+            235
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "vac´ıo :: Dict k v definir :: Ord k => k -> v -> Dict k v -> Dict k v buscar :: Ord k => k -> Dict k v -> Maybe v ",
+        "bbox": [
+            102,
+            275,
+            903,
+            419
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Elegimos la siguiente estructura de representaci´on: ",
+        "bbox": [
+            80,
+            477,
+            718,
+            522
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "data Dict k $\\begin{array} { r l } { \\triangledown } & { { } = } \\end{array}$ CDict (AB (k, v)) con el siguiente invariante: ",
+        "bbox": [
+            74,
+            529,
+            665,
+            621
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "El ´arbol binario debe ser un ´arbol binario de b´usqueda. Es decir, en cada sub´arbol: ",
+        "bbox": [
+            127,
+            639,
+            859,
+            735
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Las claves del sub´arbol izquierdo son menores que la ra´ız.   \nLas claves del sub´arbol derecho son mayores que la ra´ız. ",
+        "bbox": [
+            157,
+            746,
+            859,
+            834
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            643,
+            118,
+            672
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Presentaci´on de la materia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            508,
+            209
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Tipos b´asicos y secuencias ",
+        "bbox": [
+            77,
+            301,
+            508,
+            356
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos inductivos ",
+        "bbox": [
+            77,
+            448,
+            497,
+            500
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Tipos abstractos de datos ",
+        "bbox": [
+            77,
+            595,
+            497,
+            647
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Enumeraciones combinatorias ",
+        "bbox": [
+            77,
+            738,
+            555,
+            794
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "25 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Subsecuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            251,
+            84
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Definir una funci´on: subsecuencias :: [a] -> [[a]] que dada una lista, devuelva la lista de todas sus posibles subsecuencias. ",
+        "bbox": [
+            74,
+            338,
+            928,
+            437
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Subsecuencias ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            254,
+            84
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Definir una funci´on: subsecuencias :: [a] -> [[a]] que dada una lista, devuelva la lista de todas sus posibles subsecuencias. ",
+        "bbox": [
+            74,
+            338,
+            933,
+            433
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, las subsecuencias de [1, 2, 3] son: ",
+        "bbox": [
+            80,
+            463,
+            715,
+            507
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "[[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]] ",
+        "bbox": [
+            104,
+            540,
+            961,
+            595
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Permutaciones ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            259,
+            84
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Definir una funci´on: permutaciones :: [a] -> [[a]] que dada una lista, devuelva la lista de todas sus posibles permutaciones. ",
+        "bbox": [
+            74,
+            319,
+            928,
+            415
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a44cf4c843922ba75174112fe0dffd49818bc4c64fa7e70c25a651341cbe20d1.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Permutaciones ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            259,
+            84
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Definir una funci´on: permutaciones :: [a] -> [[a]] que dada una lista, devuelva la lista de todas sus posibles permutaciones. ",
+        "bbox": [
+            74,
+            319,
+            925,
+            415
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, las permutaciones de [1, 2, 3] son: ",
+        "bbox": [
+            82,
+            441,
+            723,
+            485
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "[[1, 2, 3], [1, 3, 2], [2, 1, 3] [2, 3, 1], [3, 1, 2], [3, 2, 1]] ",
+        "bbox": [
+            110,
+            522,
+            627,
+            621
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "equation",
+        "img_path": "images/22ed6f69b9aea7f55b342f50ebe27f3f29dd02c61b13dc4b83a6fa591321611a.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            235,
+            745,
+            330
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada   \nCap´ıtulos 1–3 del libro de Bird.   \nRichard Bird. Thinking functionally with Haskell. Cambridge University Press, 2015. ",
+        "bbox": [
+            74,
+            466,
+            701,
+            661
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 56
+    }
+]

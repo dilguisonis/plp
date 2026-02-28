@@ -1,0 +1,325 @@
+[
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            65,
+            190,
+            85
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dos tipos son isomorfos si existen 2 funciones: ",
+        "bbox": [
+            99,
+            102,
+            489,
+            117
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "。 $\\mathsf { f } \\mathrel { \\mathop : } \\mathrel { \\mathsf { a } } \\mathrel { \\mathop  } \\mathsf { b } ,$   \ng :: b -> a   \ntales que f . g = id y g . f = id ",
+        "bbox": [
+            148,
+            122,
+            393,
+            177
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Teniendo los siguientes tipos de dato: ",
+        "bbox": [
+            99,
+            180,
+            420,
+            196
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Either a b $=$ left a | right b   \nAB a $=$ nil | bin a (AB a) (AB a)   \nAX a b $=$ vacio | nodoA a (AX a b) (AX a b) | nodoAB a b (AX a) (AX a) ",
+        "bbox": [
+            95,
+            249,
+            835,
+            299
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Demostrar que los tipos (AX a b) y AB (either a (a,b)) son isomorfos. ",
+        "bbox": [
+            99,
+            351,
+            653,
+            369
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            385,
+            191,
+            406
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Se cuenta con cálculo lambda extendido con booleanos y pares. Se quiere extender para introducir pattern matching. El patrón P puede tomar las siguientes formas: ",
+        "bbox": [
+            97,
+            423,
+            622,
+            479
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "P ::= x | V | <P, P> ",
+        "bbox": [
+            97,
+            512,
+            314,
+            530
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Que representan una variable, un valor, y un par de patrones respectivamente. ",
+        "bbox": [
+            101,
+            565,
+            740,
+            583
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Se agrega el siguiente término: ",
+        "bbox": [
+            99,
+            587,
+            368,
+            602
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Match P \\~ M1 then M2 else M3 ",
+        "bbox": [
+            99,
+            637,
+            398,
+            652
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "El comportamiento esperado es el siguiente: ",
+        "bbox": [
+            99,
+            690,
+            476,
+            707
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Se evalua M1 hasta obtener un valor.   \nSi ese valor \"concuerda\" con P, se procede a evaluar M2.   \nDe lo contrario se evalua M3. ",
+        "bbox": [
+            148,
+            709,
+            612,
+            765
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "P y M1 \"concuerdan\" de la siguente manera: ",
+        "bbox": [
+            97,
+            769,
+            471,
+            784
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Si P es una variable x , concuerda con cualquier valor ligandose a ese valor.   \nSi P es un valor , solo concuerda con el mismo valor.   \nSi P es un par ${ \\tt - P 1 }$ , $\\mathsf { P } 2 \\mathsf { > }$ , concuerda con otro valor si ese valor es un par <x, y> donde P1 concuerda con x y P2 concuerda con y. ",
+        "bbox": [
+            148,
+            788,
+            856,
+            863
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Extender las reglas de tipado para que los patrones esten tipados correctamente. ",
+        "bbox": [
+            102,
+            866,
+            786,
+            884
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b) dar una derivación de tipo para la siguente expresión: Match $< \\mathsf { X } , \\mathsf { y } > \\sim \\mathsf { p }$ then <y, $\\mathsf { X } \\mathrm { > }$ else p ",
+        "bbox": [
+            97,
+            888,
+            565,
+            922
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c) Extender el conjunto de valores y dar las nuevas reglas de semántica. ",
+        "bbox": [
+            99,
+            926,
+            683,
+            942
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d) reducir la siguiente expresión: ",
+        "bbox": [
+            99,
+            946,
+            380,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Match < $x , y > \\sim < 1 , 2 >$ then <y, $\\mathsf { X } \\mathsf { \\Sigma } >$ else ${ < } 0 , 0 >$ ",
+        "bbox": [
+            148,
+            51,
+            510,
+            66
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            84,
+            191,
+            104
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Dos listas l1 y l2 son componibles si tienen un elemento en común que los permite \"concatenar\" Por ejemplo [1,2,3] es componible con [3,4,5] y la concatenación de esas dos listas es [1,2,3,4,5].   \nSe extiende de manera obvia a n listas, [l1,...,ln]: Por ejemplo [1,2] [2,3] [3,4] [4,5] son componibles y resulta en la lista [1,2,3,4,5]   \nUn rompecabezas es una lista de listas tal que son componibles para algún orden: Ej la solución [1,2,3,4,5] tiene como rompecabezas la lista [[2,3,4],[1,2],[4,5]] (en este caso es la única solución)   \nImplementar el predicado generarRompecabezas( $( + 5 ,$ -R) que dado una lista solución S, instancia en R todos los rompecabezas que tienen a S como solución. ",
+        "bbox": [
+            95,
+            121,
+            924,
+            296
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            311,
+            191,
+            332
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se extiende deducción natural con las siguientes reglas: ",
+        "bbox": [
+            97,
+            348,
+            562,
+            366
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ α Γ, τ ⊢ ⊥ _ϴi Γ ⊢ α ϴ τ ",
+        "bbox": [
+            95,
+            417,
+            304,
+            466
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ α ϴ τ Γ,α ⊢ τ _ϴe Γ ⊢ ρ ",
+        "bbox": [
+            425,
+            416,
+            676,
+            467
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar que: ",
+        "bbox": [
+            99,
+            505,
+            247,
+            519
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) $\\lnot ( { \\ l } { \\ l } { \\mathsf { a } } = \\ l { \\mathsf { s } } { \\mathrm { ~ } } { \\mathrm { ~ } } { \\mathrm { ~ } } { \\mathrm { ~ } } { \\ l } )  { \\ l } { \\ l } { \\mathsf { a } } \\ominus { \\mathrm { ~ } } { \\mathrm { ~ } }$ b) ¬(α ϴ τ) ⊢ α => τ ",
+        "bbox": [
+            148,
+            524,
+            323,
+            560
+        ],
+        "page_idx": 1
+    }
+]

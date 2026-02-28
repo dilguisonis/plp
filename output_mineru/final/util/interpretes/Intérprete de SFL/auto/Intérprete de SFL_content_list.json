@@ -1,0 +1,3460 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/f5d1a705dfe2b505f650a69764d6914487902440e591c2ea206a0034b7e5f83c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td></td></tr></table>",
+        "bbox": [
+            2,
+            0,
+            994,
+            110
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Un lenguaje funcional puro sencillo (SFL) y su intérprete ",
+        "text_level": 1,
+        "bbox": [
+            149,
+            286,
+            848,
+            415
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eduardo Bonelli ",
+        "bbox": [
+            397,
+            507,
+            602,
+            551
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Computación FCEyN UBA ",
+        "bbox": [
+            345,
+            595,
+            654,
+            698
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3 de octubre, 2006 ",
+        "bbox": [
+            378,
+            750,
+            621,
+            794
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            959,
+            975,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/63b862c061371664bc2c9c4ea388b0e7f04c9b3925e4eef6efa890e30fead709.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td></td></tr></table>",
+        "bbox": [
+            2,
+            0,
+            997,
+            106
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Intérprete para un lenguaje funcional sencillo (SFL) ",
+        "bbox": [
+            22,
+            117,
+            889,
+            180
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "· Componentes de un intérprete • Sintaxis concreta y abstracta de SFL ",
+        "bbox": [
+            104,
+            360,
+            522,
+            408
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            107,
+            422,
+            610,
+            466
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "· Intérprete • Extensiones ",
+        "bbox": [
+            107,
+            485,
+            262,
+            529
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            107,
+            547,
+            287,
+            588
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "O binding local (let) ",
+        "bbox": [
+            154,
+            610,
+            422,
+            650
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "@ procedimientos (proc) ",
+        "bbox": [
+            154,
+            654,
+            458,
+            698
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3 recursion (letrec) ",
+        "bbox": [
+            157,
+            698,
+            419,
+            742
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/ab3f04d38221e301582b9e17fadeced0477ddd1e7dd2a2d44dc50be06c081b9a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>purosencillg</td><td>o (SFL)ysuintérprete</td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            969,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/2c108744fb11089c223ea4b8617ba48b993ec73898dbfda3e0ec0dfc078119e9.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxis Ejemplos Intérprete Extensiones Recursion</td><td></td></tr></table>",
+        "bbox": [
+            0,
+            0,
+            994,
+            106
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Definicion inductiva de ",
+        "bbox": [
+            107,
+            268,
+            430,
+            308
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": ". las expresiones sintácticamente correctas (sintaxis concreta) 。 la representaci6n interna de las expresiones (sintaxis abstracta) ",
+        "bbox": [
+            162,
+            330,
+            925,
+            419
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Designar los valores expresados: subconjunto de expresiones a los que puede evaluar una expresión arbitraria ",
+        "bbox": [
+            104,
+            441,
+            925,
+            536
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Un entorno (\"environment\"): estructura de datos que liga variables con valores denotados ",
+        "bbox": [
+            104,
+            551,
+            878,
+            647
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Un entorno inicial ",
+        "bbox": [
+            104,
+            665,
+            367,
+            705
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Intérprete como funcion recursiva sobre el conjunto inductivo de las expresiones (ie. de la sintaxis abstracta) ",
+        "bbox": [
+            102,
+            724,
+            922,
+            819
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Salida del intérprete: valores expresados ",
+        "bbox": [
+            104,
+            834,
+            640,
+            878
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Componentes de un intérprete ",
+        "bbox": [
+            2,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su interprete ",
+        "bbox": [
+            0,
+            959,
+            969,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "SintaxisyEjemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            99
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "SintaxisConcreta Sintaxis Abstracta Valores ",
+        "bbox": [
+            522,
+            11,
+            662,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "La sintaxis de SFL viene dada por la siguiente gramática BNF: ",
+        "bbox": [
+            71,
+            341,
+            883,
+            389
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un lenguaje funcional puro sencillo (SFL) y su interprete ",
+        "bbox": [
+            519,
+            966,
+            961,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "<program> := <expr>   \n<expr> ::= <number> | <identifier> I <primitive> ( $\\{ < \\tt e x p r > ^ { * ( \\tt , ) } \\} ;$ | if <expr> then <expr> else <expr>   \n<primitive> ::= + | - | \\* | add1 | sub1 | isZero ",
+        "bbox": [
+            66,
+            411,
+            925,
+            735
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Eduardo Bonelli ",
+        "text_level": 1,
+        "bbox": [
+            353,
+            966,
+            477,
+            992
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis Concreta de SFL ",
+        "bbox": [
+            5,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos de expresiones validas: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            272,
+            522,
+            316
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3   \nn   \n${ \\mathfrak { + ( 3 , n ) } }$   \nadd1(add1(3,n),4)   \nif -(2,+(3,4)) then 2 else 3   \n+(if 2 then 3 else 3,7) ",
+        "bbox": [
+            74,
+            352,
+            530,
+            650
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "NOTA: if testea valores expresados ",
+        "bbox": [
+            74,
+            687,
+            546,
+            731
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "falso: 0   \nverdadero: cualquier valor expresado distinto de 0 ",
+        "bbox": [
+            102,
+            746,
+            781,
+            852
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            187
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su intérprete ",
+        "bbox": [
+            0,
+            959,
+            972,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "SintaxisConcreta Sintaxis Abstracta Valores ",
+        "bbox": [
+            522,
+            11,
+            662,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Interprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis Concreta SintaxisAbstracta Valores ",
+        "bbox": [
+            522,
+            11,
+            662,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "data Program $=$ Pgm Exp data Exp $=$ LitExp Int I VarExp Symbol I IfExp Exp Exp Exp I PrimApp PrimOp [Exp] data PrimOp $=$ AddPrim I SubtractPrim I MultPrim | IncrPrim DecrPrim | ZeroTestPrim ",
+        "bbox": [
+            74,
+            319,
+            397,
+            363
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            408,
+            524,
+            584
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            625,
+            925,
+            713
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "type Symbol $=$ String ",
+        "bbox": [
+            74,
+            761,
+            370,
+            801
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/c4629bd9269c349a15a0e673fac660062ac49e79760aac69e5906f125842e2d6.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>purosencillg TSFLI ysuintérprete</td></tr></table>",
+        "bbox": [
+            8,
+            963,
+            969,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis abstracta ",
+        "bbox": [
+            30,
+            121,
+            323,
+            172
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            480,
+            102
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis Concreta SintaxisAbstracta Valores ",
+        "bbox": [
+            522,
+            11,
+            662,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "El mapeo de sintaxis concreta a sintaxis abstracta se realiza en dos pasos: ",
+        "bbox": [
+            104,
+            250,
+            900,
+            345
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Anälisis léxico（\"lexer\"） Anälisis sintáctico （\"parser\") ",
+        "bbox": [
+            151,
+            363,
+            530,
+            455
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "La cätedra los proveerä de modo que puedan probar el intérprete ",
+        "bbox": [
+            104,
+            474,
+            828,
+            569
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Para el ejemplo:let $\\mathtt { x } = 3$ in \\*(2,x) ",
+        "bbox": [
+            104,
+            588,
+            624,
+            632
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "salida del lexer: [TokenLet,TokenVar \"x\",TokenEq,TokenInt3,TokenIn,TokenTimes， Token0B， TokenInt 2， TokenComma,TokenVar \"x\"， TokenCB]",
+        "bbox": [
+            107,
+            650,
+            919,
+            794
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "O salida del parser: Pgm (LetExp [\"x\"] [LitExp 3] (PrimApp MultPrim [LitExp 2,VarExp \"x\"])) ",
+        "bbox": [
+            104,
+            808,
+            908,
+            904
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/aafe601aeff507304f971551c5f5f9140903e4794ea75688e08552b4d131f7df.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Eduardo Bonelli</td><td>Unlenguajefuncional purosencillg （SFL） )ysuintérprete</td></tr></table>",
+        "bbox": [
+            0,
+            959,
+            972,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Mapeo de Sintaxis Concreta a Abstracta ",
+        "bbox": [
+            16,
+            117,
+            994,
+            183
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis Concreta SintaxisAbstracta Valores ",
+        "bbox": [
+            522,
+            11,
+            662,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "El mapeo de sintaxis concreta a sintaxis abstracta se realiza en dos pasos: ",
+        "bbox": [
+            104,
+            250,
+            900,
+            345
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Anälisis léxico（\"lexer\"） Anälisis sintáctico（\"parser\"） ",
+        "bbox": [
+            151,
+            363,
+            530,
+            455
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "La cätedra los proveerä de modo que puedan probar el   \nintérprete   \nPara el ejemplo: let $\\mathtt { x } = 3$ in \\*(2,x)   \nsalida del lexer: [TokenLet,TokenVar \"x\",TokenEq,TokenInt   \n3,TokenIn,TokenTimes，TokenOB，TokenInt 2，TokenComma,   \nTokenVar \"x\"，TokenCB] ",
+        "bbox": [
+            104,
+            477,
+            919,
+            794
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "salida del parser: Pgm (LetExp [\"x\"] [LitExp 3] (PrimApp MultPrim [LitExp 2,VarExp \"x\"])) ",
+        "bbox": [
+            104,
+            808,
+            906,
+            904
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL)y su intérprete ",
+        "bbox": [
+            0,
+            959,
+            972,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Mapeo de Sintaxis Concreta a Abstracta ",
+        "bbox": [
+            16,
+            117,
+            994,
+            183
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Mapeo de Sintaxis Concreta a Abstracta ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            117,
+            704,
+            176
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "El mapeo de sintaxis concreta a sintaxis abstracta se realiza en dos pasos: ",
+        "bbox": [
+            104,
+            253,
+            900,
+            345
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Anälisis léxico（\"lexer\"） Anälisis sintáctico（\"parser\"） ",
+        "bbox": [
+            151,
+            363,
+            530,
+            455
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "La cätedra los proveerä de modo que puedan probar el   \nintérprete   \nPara el ejemplo: let $\\mathtt { x } = 3$ in \\*(2,x)   \nsalida del lexer: [TokenLet,TokenVar \"x\",TokenEq,TokenInt   \n3,TokenIn,TokenTimes，TokenOB，TokenInt 2，TokenComma,   \nTokenVar \"x\"，TokenCB]   \nsalida del parser: Pgm (LetExp [\"x\"] [LitExp 3] (PrimApp   \nMultPrim [LitExp 2,VarExp \"x\"])) ",
+        "bbox": [
+            102,
+            470,
+            919,
+            911
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL)y su intérprete ",
+        "bbox": [
+            0,
+            959,
+            975,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            0,
+            997,
+            106
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis Concreta Sintaxis Abstracta Valores ",
+        "bbox": [
+            522,
+            11,
+            662,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Valores que puede arojar la evaluación de una expresión. · Ej. numeros, procedimientos ",
+        "bbox": [
+            71,
+            338,
+            806,
+            455
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Valoresdenotados ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            518,
+            306,
+            555
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Valores que se ligan a los identificadores (ie. a las variables). ",
+        "bbox": [
+            74,
+            573,
+            881,
+            621
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "。 Ej. numeros, procedimientos Mas adelante: referencias ",
+        "bbox": [
+            102,
+            647,
+            500,
+            750
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "NOTA: Con la simple descripcion del conjunto de valores expresados y denotas ya se dice bastante sobre el lenguaje objeto. ",
+        "bbox": [
+            71,
+            783,
+            917,
+            882
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Valores ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Valoresexpresados ",
+        "bbox": [
+            66,
+            275,
+            939,
+            327
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            959,
+            966,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "El valor expresado resultante de evaluar $^ +$ (3,4) es claro. ",
+        "bbox": [
+            74,
+            312,
+            795,
+            356
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "iQué sucede con la expresión $+ ( \\mathbf { x } , 5 ) ?$ iA qué valor expresado debe evaluar? ",
+        "bbox": [
+            102,
+            382,
+            629,
+            488
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Es necesario contar con un entorno: estructura de datos que liga variables con valores denotados   \nDado el entorno que liga el valor 2 a la variable,podemos   \nresponder que $^ +$ (x,5) debe evaluar al valor 7.   \nAsumiremos que el intérprete comienza su ejecución contando con un entorno inicial. ",
+        "bbox": [
+            71,
+            518,
+            922,
+            808
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Intérpete de programas ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL)ysu interprete ",
+        "bbox": [
+            5,
+            963,
+            977,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos Expresiones ",
+        "bbox": [
+            522,
+            25,
+            613,
+            77
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Representación de entornos en Haskell ",
+        "bbox": [
+            104,
+            294,
+            624,
+            338
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/24795a0de8670533733c91e7d8dae93364973f0b125afd2c661ef3710b4d781b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"11\">data Env = EmptyEnv l</td></tr><tr><td>ExtendedEnvRecord [Symbol]</td></tr><tr><td>[ExpressedValue]</td></tr><tr><td>Env</td></tr><tr><td></td></tr><tr><td>data ExpressedValue = Nro {stripNro::Int}</td></tr><tr><td></td></tr><tr><td>-- extender entorno con nuevo rib</td></tr><tr><td>extendEnv: :[Symbol]-&gt;[ExpressedValue]-&gt;Env-&gt;Env</td></tr><tr><td>extendEnv ids vals env = ExtendedEnvRecord ids vals env</td></tr></table>",
+        "bbox": [
+            66,
+            397,
+            953,
+            841
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos Expresiones ",
+        "bbox": [
+            522,
+            25,
+            613,
+            77
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            187
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            959,
+            983,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Buscar el valor expresado asociado a una variable ",
+        "bbox": [
+            104,
+            290,
+            762,
+            338
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "applyEnv: : Env->Symbol->ExpressedValue   \napplyEnv EmptyEnv sym $=$ error (\"applyEnv: Sin binding para \"++ show sym)   \napplyEnv (ExtendedEnvRecord syms vals env) sym $=$ case findInList syms sym of (Just n) -> vals!!n - -> applyEnv env sym ",
+        "bbox": [
+            69,
+            393,
+            897,
+            709
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "-- buscar simbolo en lista de simbolos (retornar posicion) findInList:: [a]->a->Maybe Int ",
+        "bbox": [
+            71,
+            750,
+            925,
+            838
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos Expresiones ",
+        "bbox": [
+            522,
+            25,
+            613,
+            77
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            187
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su interprete ",
+        "bbox": [
+            5,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Intérpete de programas ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            121,
+            411,
+            176
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "-- interprete de programas   \nevalProgram (Pgm body) $=$ evalExpr body initEnv entorno inicial   \ninitEnv $=$ ExtendedEnvRecord [\"i\",\"v\",\"x\"] [Nro 1,Nro 5,Nro 10] EmptyEnv ",
+        "bbox": [
+            69,
+            386,
+            812,
+            698
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL)ysu interprete ",
+        "bbox": [
+            5,
+            963,
+            972,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos Expresiones ",
+        "bbox": [
+            522,
+            25,
+            610,
+            77
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "evalExpr (LitExp n) env $=$ Nro n   \nevalExpr (VarExp id) env $=$ applyEnv env id   \nevalExpr (PrimApp prim rands) env $=$ let args $=$ map (\\x->evalExpr x env) rands in applyPrimitive prim args   \nevalExpr (IfExp testExp trueExp falseExp) env $=$ if isTrueValue (evalExpr testExp env) then evalExpr trueExp env else evalExpr falseExp env ",
+        "bbox": [
+            71,
+            301,
+            762,
+            702
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "isTrueValue: :ExpressedValue->Bool isTrueValue $=$ not. $\\scriptstyle ( = = 0 )$ ）.stripNro ",
+        "bbox": [
+            74,
+            746,
+            599,
+            830
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Interpretando expresiones ",
+        "bbox": [
+            2,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL) ysu intérprete ",
+        "bbox": [
+            2,
+            963,
+            977,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos Expresiones ",
+        "bbox": [
+            522,
+            25,
+            613,
+            77
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "applyPrimitive AddPrim args $=$ Nro (stripNro (args!!0) $^ +$ stripNro (args!!1))   \napplyPrimitive SubtractPrim args $=$ ",
+        "bbox": [
+            71,
+            334,
+            795,
+            466
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Nro (stripNro (args!!O) - stripNro (args!!1)) applyPrimitive MultPrim args $=$ ",
+        "bbox": [
+            74,
+            470,
+            787,
+            555
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Nro (stripNro (args!!0) $^ *$ stripNro (args!!1)) applyPrimitive IncrPrim args $=$ Nro (stripNro (args!!0) + 1) applyPrimitive DecrPrim args $=$ Nro (stripNro (args!!0) - 1) applyPrimitive ZeroTestPrim args = ",
+        "bbox": [
+            69,
+            555,
+            933,
+            731
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Nro (if stripNro $( \\mathsf { a r g s } ! ! 0 ) \\mathsf { = } \\mathsf { = } 0$ then 1 else 0) ",
+        "bbox": [
+            132,
+            735,
+            773,
+            775
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicando primitivas ",
+        "bbox": [
+            2,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Entornos Expresiones ",
+        "bbox": [
+            522,
+            25,
+            613,
+            77
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL) ysu interprete ",
+        "bbox": [
+            5,
+            963,
+            969,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "images/8d6fd3c69b05ccd0dcd1434cd7e04cb337072b78e14e057d729f665c455663e2.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Declaracioneslocales:ejemplosysintaxis Procedimientos:ejemplosysintaxis Declaracioneslocales:extensiondel intérprete Procedimientos:extensiondel intérprete</td></tr></table>",
+        "bbox": [
+            5,
+            0,
+            925,
+            106
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Declaraciones localesa travésde ejemplos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            117,
+            720,
+            176
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "let $\\texttt { x } = \\texttt { 5 }$ ， $\\mathtt { y } \\ = \\ 6$   \nin ${ \\bf \\Xi } + ( { \\bf x } , { \\bf y } )$ dependencia entre declaraciones   \nlet $\\texttt { x } = \\texttt { 3 }$ in let $y ~ = ~ + ( \\mathbf { x } , 4 )$ $\\mathrm { i n } \\ * ( \\mathbf { x } , \\mathbf { y } )$   \nlet $\\texttt { x } = \\texttt { 3 }$ ， $y ~ = ~ + ( \\mathbf { x } , 4 )$   \nin $\\mathbf { \\boldsymbol { * } } ( \\mathbf { \\boldsymbol { x } } , \\mathbf { \\boldsymbol { y } } )$ ",
+        "bbox": [
+            69,
+            279,
+            574,
+            860
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su intérprete ",
+        "bbox": [
+            5,
+            963,
+            977,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "images/248fd6e13e1f90d949e5a1c8e51b8b1d2836fbf301d85dcaa0ba4f0808a843fc.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Declaracioneslocales:ejemplosysintaxis Procedimientos:ejemplosysintaxis Declaracioneslocales:extensiondel interprete Procedimientos:extensiondel intérprete</td></tr></table>",
+        "bbox": [
+            8,
+            0,
+            941,
+            106
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Declaraciones locales a traves de ejemplos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            121,
+            720,
+            176
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "-- declaraciones internas enmascaran las externas ",
+        "bbox": [
+            74,
+            430,
+            781,
+            466
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "let $\\texttt { x } = \\texttt { 3 }$ in let $\\textbf { x } = { \\boldsymbol { \\mathbf { \\rho } } } { * } \\left( \\mathbf { x } , \\mathbf { x } \\right)$ in ${ \\bf { \\Psi } } + ( { \\bf { x } } , { \\bf { x } } )$ ",
+        "bbox": [
+            74,
+            518,
+            323,
+            643
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "images/e78d56110ee5e96cec82327af30dcf2ab14d1a2d4019f187284ee1c7a2b47cb0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>Unlenguaje funcionalpuro sencillo</td><td>lo(SFL)ysuintérprete</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            972,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Interprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Declaracioneslocales:ejemplosy sintaxis Procedimientos:ejemplosy sintaxis Declaraciones locales: extension del interprete Procedimientos:extensiondel interprete ",
+        "bbox": [
+            522,
+            0,
+            875,
+            102
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "let var1 = exp1, varn-1 = expn-1, varn $=$ expn in cuerpo ",
+        "bbox": [
+            74,
+            231,
+            392,
+            477
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            514,
+            314,
+            558
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "<expr> := let {<ident> = <expr>}\\*(） in <expr>",
+        "bbox": [
+            74,
+            577,
+            795,
+            628
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Region La region asociada con var1...,varn es cuerpo Evaluación ",
+        "bbox": [
+            77,
+            647,
+            792,
+            738
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "cada expi (en ningun orden en particular!)   \nligar cada vari al valor de expi   \nevaluar cuerpo y retornar su resultado como el resultado de toda la expresion. ",
+        "bbox": [
+            102,
+            750,
+            908,
+            948
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "table",
+        "img_path": "images/7f0c8f637a359acfe80522eb7455bf89f9166a6963abd0323026ac4034186af0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Eduardo Bonelli</td><td>Unlenguajefuncional purosencillg (SFL)ysuintérprete</td></tr><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Declaraciones locales:ejemplosysintaxis Procedimientos:ejemplosysintaxis Declaracioneslocales:extensiondel intérprete Procedimientos:extensiondel intérprete</td></tr></table>",
+        "bbox": [
+            0,
+            959,
+            972,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Declaraciones locales ",
+        "bbox": [
+            8,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            643,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            5,
+            0,
+            925,
+            106
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Procedimientos a través de ejemplos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            121,
+            627,
+            172
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "let f = proc (y,z) +(y,-(z,5)) in (f 2 28)   \n(proc (y,z) +(y,-(z,5)) 2 28)   \n-- si bien no tenemos letrec， podemos hacer esto   \nlet factAux $=$ proc(next,x) if zero?(x) then 1 else (next next sub1(x))   \nin let fact $=$ proc(x) (factAux factAux x) in (fact 3) ",
+        "bbox": [
+            69,
+            272,
+            790,
+            863
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su intérprete ",
+        "bbox": [
+            0,
+            959,
+            980,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Interprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Declaraciones locales:ejemplosy sintaxis Procedimientos:ejemplosysintaxis Declaraciones locales:extensiondel interprete Procedimientos: extensiondel interprete ",
+        "bbox": [
+            524,
+            0,
+            875,
+            102
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            257,
+            314,
+            301
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "e ",
+        "bbox": [
+            74,
+            338,
+            765,
+            433
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            470,
+            325,
+            514
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "data Exp $=$ LitExp Int | VarExp Symbol I IfExp Exp Exp Exp I PrimApp PrimOp [Exp]I LetExp[Symbol] [Exp] Exp ProcExp [Symbol] Exp I AppExp Exp [Exp] ",
+        "bbox": [
+            71,
+            547,
+            629,
+            860
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Procedimientos: ejemplos ",
+        "bbox": [
+            0,
+            106,
+            1000,
+            183
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencill (SFL) ysu intérprete ",
+        "bbox": [
+            2,
+            959,
+            983,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Declaraciones locales:ejemplosy sintaxis Procedimientos:ejemplos y sintaxis Declaraciones locales:extensiondel interprete Procedimientos:extensiondel interprete ",
+        "bbox": [
+            524,
+            0,
+            875,
+            102
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Extendiendo el intérprete (let) ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            117,
+            541,
+            176
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "evalExpr (LitExp n） env $=$ Nro n  \nevalExpr (LetExp ids rands body) env =let args $=$ map ( $\\left( \\mathbf { \\boldsymbol { x } } - \\mathbf { \\boldsymbol { > } } \\right)$ evalExpr x env) randsinevalExpr body (extendEnv ids args env)",
+        "bbox": [
+            69,
+            386,
+            878,
+            694
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "images/540b7b699abcdd952f456457554b35fa1a6dc5ae7fc3416d240e8d1043298e2e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>Unlenguaje funcional purosencillg</td><td></td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            969,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "images/bae5f447fab1ca9feb72ccf893bb03607300567ef81c2fcb170884621d1e839c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Declaraciones locales:ejemplosysintaxis Procedimientos:ejemplosy sintaxis Declaracioneslocales:extensiondel interprete Procedimientos:extensiondel intérprete</td></tr></table>",
+        "bbox": [
+            0,
+            0,
+            911,
+            106
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Extendiendo el intérprete (proced.) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            117,
+            596,
+            176
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "iA qué valor deberia evaluar un procedimiento? Ejemplo: ",
+        "bbox": [
+            74,
+            253,
+            679,
+            349
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "let $\\texttt { x } = \\texttt { 5 }$   \nin let f = proc (y,z) +(y，-(z,x)) $\\mathrm { ~ x ~ } = \\ 2 8$ in (f 2 x) ",
+        "bbox": [
+            74,
+            382,
+            632,
+            580
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Observar: el cuerpo es evaluado ",
+        "bbox": [
+            74,
+            617,
+            497,
+            661
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "。 solamente cuando es aplicado en un entorno que liga los parámetros formales a los argumentos de la aplicacion iY qué hay de las variables que ocurren libres en el procedimiento? ",
+        "bbox": [
+            74,
+            672,
+            930,
+            893
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            959,
+            980,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Interprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Declaraciones locales:ejemplosy sintaxis Procedimientos:ejemplosy sintaxis Declaraciones locales:extension del interprete Procedimientos:extensiondel interprete ",
+        "bbox": [
+            524,
+            0,
+            875,
+            102
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            224,
+            198,
+            272
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "let $\\texttt { x } = \\texttt { 5 }$   \nin let f = proc (y,z) +(y，-(z,x)) $\\mathrm { ~ x ~ } = \\ 2 8$ in (f 2 x) ",
+        "bbox": [
+            74,
+            308,
+            632,
+            503
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Respecto a las variables que ocurren libres en el procedimiento deben respetar scoping leéxico (o estätico) ",
+        "bbox": [
+            77,
+            536,
+            875,
+            584
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            599,
+            690,
+            647
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": ". deben evaluarse usando el entorno en efecto en el momento de la creación ",
+        "bbox": [
+            162,
+            665,
+            928,
+            746
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Por lo tanto, debemos retener (junto con el cuerpo y los parämetros formales) las valores asociados a las variables libres en el momento en el que el procedimiento fue creado ",
+        "bbox": [
+            102,
+            772,
+            878,
+            919
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "table",
+        "img_path": "images/e160de573644c44e5567420c71b8a53ca8fc8f709427ee1d0ef5bb1fe5ef3d93.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Eduardo Bonelli</td><td>Unlenguajefuncional purosencillg (SFL) ）ysuintérprete</td></tr></table>",
+        "bbox": [
+            0,
+            959,
+            980,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Evaluacion de procedimientos ",
+        "bbox": [
+            8,
+            110,
+            1000,
+            183
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Interprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Declaraciones locales:ejemplosy sintaxis Procedimientos:ejemplosy sintaxis Declaraciones locales: extension del interprete Procedimientos:extensiondelinterprete ",
+        "bbox": [
+            522,
+            0,
+            875,
+            102
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "cuerpo junto con un entorno y parámetros formales data ExpressedValue $=$ Nro {stripNro::Int} l Closure [Symbol] Exp Env ",
+        "bbox": [
+            104,
+            349,
+            787,
+            393
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            430,
+            834,
+            547
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Volviendo a los valores expresados/denotados: ",
+        "bbox": [
+            107,
+            613,
+            720,
+            661
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "· Valores expresados = Numeros + Clausuras • Valores denotados = Numeros + Clausuras ",
+        "bbox": [
+            165,
+            680,
+            756,
+            764
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Clausuras ",
+        "bbox": [
+            8,
+            106,
+            997,
+            183
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su interprete ",
+        "bbox": [
+            5,
+            963,
+            972,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Interprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Declaraciones locales:ejemplosy sintaxis Procedimientos:ejemplosy sintaxis Declaraciones locales:extension del interprete Procedimientos:extensiondel intérprete ",
+        "bbox": [
+            524,
+            0,
+            875,
+            102
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "evalExpr (ProcExp ids body) env $=$ Closure ids body env   \nevalExpr (AppExp rator rands) env $=$ let proc $=$ evalExpr rator env args $=$ map (\\x->evalExpr x env) rands in case proc of (Closure - - -) -> applyProcVal proc args - -> error (\"evalExpr: Intento de aplicar un no-procedimiento \"++show proc)   \napplyProcVal (Closure ids body env) args = evalExpr body (extendEnv ids args env) ",
+        "bbox": [
+            58,
+            297,
+            900,
+            834
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su interprete ",
+        "bbox": [
+            2,
+            963,
+            983,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Extendiendo el intérprete ",
+        "bbox": [
+            5,
+            110,
+            1000,
+            183
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "images/ca3a0c71defe9577a26c7a3f2e0f1918c2168517cd653fd5db07e5d9132bcf19.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos</td><td>Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacioningenua Creacion de clausurasal hacer lookup Creacionunicadeclausuras</td></tr></table>",
+        "bbox": [
+            5,
+            0,
+            870,
+            106
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Extendiendo el intérprete para SFL con recursion ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            117,
+            848,
+            176
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos ",
+        "bbox": [
+            104,
+            275,
+            254,
+            319
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta y abstracta ",
+        "bbox": [
+            107,
+            338,
+            502,
+            382
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Implementando recursión a través de la creación de clausuras durante el lookup (V1) ",
+        "bbox": [
+            102,
+            397,
+            917,
+            496
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Entornos en notacion de sintaxis abstracta (anexando un nuevo tipo de rib) 。 Entornos en notacion procedural ",
+        "bbox": [
+            165,
+            514,
+            859,
+            643
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Implementando recursión armando clausura una ünica vez (V2) ",
+        "bbox": [
+            102,
+            665,
+            872,
+            761
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Entornos en notación de sintaxis abstracta (utilizando estructuras circulares) ",
+        "bbox": [
+            168,
+            779,
+            825,
+            867
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) ysu interprete ",
+        "bbox": [
+            0,
+            959,
+            986,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "images/c3b4ef552107222568335c052a8e9427378a4adcb42d19723c9a0868d6576688.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacioningenua Creacion de clausuras al hacer lookup Creacionunicadeclausuras</td></tr></table>",
+        "bbox": [
+            2,
+            0,
+            906,
+            106
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos en SFL con recursion ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            117,
+            549,
+            176
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "letrec fact(x) = if zero?(x) then 1 else ${ \\ast } \\left( \\mathbf { \\bar { x } } \\right.$ ,(odd sub1(x)))   \nin (fact 6)   \nletrec $\\mathtt { e v e n } ( \\mathbf { x } ) \\ = \\ \\mathtt { i f } \\ \\mathtt { z e r o ? } ( \\mathbf { x } )$ then 1 else (odd sub1(x)) odd(x) = if zero?(x) then 0 else (even sub1(x)) ()da 12) ",
+        "bbox": [
+            102,
+            275,
+            712,
+            838
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL)y su intérprete ",
+        "bbox": [
+            0,
+            959,
+            977,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion intaxisconcretayabstracta:ejemplos mplementacioningenua Lreacionde clausurasal hacer lookup Treacionunica de clausuras ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            530,
+            0,
+            823,
+            102
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta y abstracta ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            121,
+            502,
+            176
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            323,
+            292,
+            360
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "<expr> ::= letrec {<identifier> $( \\{ < { \\mathrm { i } } { \\mathrm { d e n t i f } } { \\mathrm { i } } { \\mathrm { e r } } > \\} ^ { * ( , ) } ) ~ = ~ < { \\mathrm { e x p r } } > \\} ^ { * }$ in <expr> ",
+        "bbox": [
+            74,
+            375,
+            790,
+            551
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            606,
+            301,
+            647
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "data Exp $=$ LitExp Int I LetRecExp [Symbol] [Symbol] [Exp] Exp ",
+        "bbox": [
+            74,
+            661,
+            806,
+            797
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "images/90ec2138c6eaa4b549bdb33bc2f580f316c35f5b10b80fbc7c1f68306e52e47e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>Unlenguaje funcional puro sencillo</td><td></td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            972,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "images/da6aa7f06aca681b1766e480033e875ab46274ec6a3307dca57a121773de43cb.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacioningenua Creacion de clausurasal hacer lookup Creacionunica de clausuras</td></tr></table>",
+        "bbox": [
+            2,
+            0,
+            917,
+            106
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Implementacion: version ingenua ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            121,
+            566,
+            172
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "letrec ",
+        "bbox": [
+            74,
+            235,
+            165,
+            268
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "even(x) = if zero?(x) then 1 else (odd sub1(x)) odd(x) $=$ if zero?(x) then O else (even sub1(x)) in (odd 13) ",
+        "bbox": [
+            74,
+            275,
+            784,
+            404
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Manipulaci6n ingenua de entornos y clausuras: ",
+        "bbox": [
+            74,
+            437,
+            662,
+            481
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "/ /+--- -+ 一 丨丨 var1丨val1| 一 —+-- -+- ---+ l old-env 一 一 —+- -+ envi Il varn| valnI 一 +-------+-------+ 一 levenI (Clausura ... old-env) 一 +-- -+ 一 丨 oddI (Clausura ...old-env) +--- + ----+ ",
+        "bbox": [
+            71,
+            500,
+            654,
+            882
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Clausuras deben referenciar env (y no old-env). Circularidadl &@ ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            911,
+            994,
+            959
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            82,
+            959,
+            983,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "images/d4cda88d1e93ffbe2c533cfb9d7fa7caea20664f154cdd33fce840fab812a711.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacion ingenua Creaciondeclausurasal hacerlookup Creacionunicadeclausuras</td></tr></table>",
+        "bbox": [
+            2,
+            0,
+            919,
+            106
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Implementacion: Creacion de clausuras al hacer lookup ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            117,
+            939,
+            176
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Idea: demorar creación de clausuras hasta que el procedimiento recursivo es llamado ",
+        "bbox": [
+            104,
+            297,
+            754,
+            393
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "/ /+--- --+ 一 Il var1Ival1I 一 —+-- + --+ i old-env 一 ： 一 —+-- + --+ env Il varn 丨 valnI 一 +-------+-------+ 一 l even 丨 al hacer lookup (Closure ... env) 一 +---- -+ 一 丨 odd丨 al hacer lookup (Closure ... env) +--- -+- ---+ ",
+        "bbox": [
+            71,
+            430,
+            784,
+            812
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL)ysu interprete ",
+        "bbox": [
+            5,
+            963,
+            975,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "table",
+        "img_path": "images/92f48f7e0af25c08a8e0fba303d42b44c0084b48f7af5538a946b0b4679fcc21.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacion ingenua Creaciondeclausurasal hacer lookup Creacionunicade clausuras</td></tr></table>",
+        "bbox": [
+            2,
+            0,
+            892,
+            106
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Creacion de clausuras al hacer Lookup - v1 ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            117,
+            737,
+            176
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "En ésta versión los entornos se representan como un tipo algebraico . Se agrega un nuevo constructor para extender entornos con declaraciones recursivas locales ",
+        "bbox": [
+            99,
+            268,
+            886,
+            474
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "data Env $=$ EmptyEnv I ExtendedEnvRecord [Symbol] [ExpressedValue] Env| RecursivelyExtendedEnvRecord [Symbol] [[Symbol]] [Exp] Env ",
+        "bbox": [
+            66,
+            518,
+            837,
+            893
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            959,
+            975,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "table",
+        "img_path": "images/5035546cbc7e9c91925c36068775eb612e94fe5693621dc55d0ee60bbbae313f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacion ingenua Creaciondeclausurasal hacer lookup Creacionunicade clausuras</td></tr></table>",
+        "bbox": [
+            5,
+            0,
+            889,
+            106
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Creacion de clausuras al hacer Lookup - v1 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            117,
+            737,
+            176
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "El c6digo para evalExpr es el esperado ",
+        "bbox": [
+            104,
+            301,
+            643,
+            349
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "evalExpr (LetRecExp procNames idss bodies letrecBody) env = (evalExpr letrecBody (extendEnvRecursively procNames idss bodies env))   \nextendEnvRecursively procNames idss bodies env $=$ RecursivelyExtendedEnvRecord procNames idss bodies ",
+        "bbox": [
+            69,
+            408,
+            950,
+            676
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Lo interesante es cómo se realiza el lookup de un procedimiento recursivo en el entorno... ",
+        "bbox": [
+            104,
+            735,
+            762,
+            827
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            997,
+            955
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            959,
+            983,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "table",
+        "img_path": "images/c7b81fbd15c2589eb278c3554168f7fc9f8e8a15143f2df935b79c9a3208a38a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacion ingenua Creaciondeclausurasal hacer lookup Creacionunicadeclausuras</td></tr></table>",
+        "bbox": [
+            5,
+            0,
+            883,
+            106
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Creacion de clausuras al hacer Lookup - v1 ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            117,
+            737,
+            176
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "applyEnv: : Env->Symbol->ExpressedValue   \napplyEnv EmptyEnv sym $=$ error (\"applyEnv: Sin binding para $\" + +$ show sym)   \napplyEnv (ExtendedEnvRecord syms vals env) sym $=$ case findInList syms sym of (Just n) -> vals!!n _ -> applyEnv env sym   \napplyEnv env@(RecursivelyExtendedEnvRecord procNames idss bodie: $=$ case findInList procNames sym of (Just n) -> Closure (idss!!n) (bodies!!n) env - -> applyEnv oldEnv sym ",
+        "bbox": [
+            66,
+            297,
+            991,
+            794
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Unlenguaje funcional puro sencillo (SFL)ysu interprete ",
+        "bbox": [
+            2,
+            963,
+            980,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "table",
+        "img_path": "images/1e6da7c383c2923e9b59a545ace798a6cdba05080e3d5bc481cb760d1a740912.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacioningenua Creaciondeclausurasal hacer lookup Creacionunicade clausuras</td></tr></table>",
+        "bbox": [
+            5,
+            0,
+            886,
+            106
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Creacion de clausuras al hacer Lookup - v2 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            117,
+            740,
+            176
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Entornos representados como funciones ",
+        "bbox": [
+            102,
+            294,
+            635,
+            338
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "empty-env sym $=$ error (\"empty-env: Sin binding para \"++ show sym)   \nextend-env syms vals env sym = let pos $=$ findInList sym syms in case pos of (Just n) -> vals!!n 1V apply-env env sym ",
+        "bbox": [
+            66,
+            393,
+            864,
+            753
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "apply-env env sym $=$ env sym ",
+        "bbox": [
+            74,
+            797,
+            469,
+            834
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Un lenguaje funcional puro sencillo (SFL) y su interprete ",
+        "bbox": [
+            5,
+            963,
+            980,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "table",
+        "img_path": "images/1baf21ae039a2a3166ddd95a6a3ec8b521c0fb008086fa0dbdad9fbee2d970d1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacioningenua Creaciondeclausurasal hacer lookup Creacionunicade clausuras</td></tr></table>",
+        "bbox": [
+            5,
+            0,
+            886,
+            106
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Creacion de clausuras al hacer Lookup - v2 ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            117,
+            740,
+            176
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Agregamos una nueva operación para extender entornos extend-env-recursively proc-names idss bodies old-env $=$ let rec-env sym $=$ let pos $=$ findInList sym proc-names in case pos of (Just n) -> Closure idss!!pos bodies!!pos rec-env _ -> apply-env old-env sym in rec-env ",
+        "bbox": [
+            102,
+            349,
+            853,
+            397
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            80,
+            452,
+            950,
+            761
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "table",
+        "img_path": "images/9bd6df9e6ef7a23d951c72f5cf3faed9db286f458ab3d57938c7c814b6e1160d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>purosencillg TSFL</td><td>）ysuintérprete</td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            969,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "table",
+        "img_path": "images/35d4aeb25fe49f4fc2eefcf55bb556a6f87ca3b04615839ba9987a1377fd7081.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacioningenua Creaciondeclausurasal hacer lookup Creacionunica declausuras</td></tr></table>",
+        "bbox": [
+            5,
+            0,
+            883,
+            106
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Creacion de clausuras al hacer Lookup - v2 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            117,
+            740,
+            176
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "。 evalExpr: sin cambios respecto a v1 ",
+        "bbox": [
+            104,
+            363,
+            610,
+            408
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "evalExpr (LetRecExp procNames idss bodies letrecBody) env = (evalExpr letrecBody (extendEnvRecursively procNames idss bodies env))   \nextendEnvRecursively procNames idss bodies env $=$ RecursivelyExtendedEnvRecord procNames idss bodies env ",
+        "bbox": [
+            71,
+            470,
+            941,
+            735
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "table",
+        "img_path": "images/6841f104600d16b6684954ad351e8f81281a1983a49868ae2bcf5ce48472695c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Eduardo Bonelli</td><td>o(SFL)ysuintérprete</td></tr></table>",
+        "bbox": [
+            5,
+            963,
+            972,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Sintaxisy Ejemplos Intérprete Extensiones Recursion ",
+        "bbox": [
+            325,
+            0,
+            477,
+            102
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concretay abstracta: ejemplos Implementacion ingenua Creacionde clausuras al hacer lookup Creacionunicadeclausuras ",
+        "bbox": [
+            522,
+            0,
+            825,
+            99
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Creacion ünica de clausuras ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            117,
+            486,
+            172
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "En los dos casos previos las clausuras se creaban a la hora de hacer lookup . Esto no es necesario dado que el entorno de la clausura creada siempre es el mismo Utilizando estructuras circulares podemos limitarnos a construir clausuras una sola vez Asumimos representación eständar de entornos ",
+        "bbox": [
+            99,
+            268,
+            928,
+            647
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "table",
+        "img_path": "images/debb66f669f37e5119d61db87a1793865cad3346cb7a6691696783994075a96d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"3\">data Env = EmptyEnv I</td></tr><tr><td rowspan=\"3\"></td><td> ExtendedEnvRecord [Symbol]</td><td></td></tr><tr><td></td><td>[ExpressedValue]</td></tr><tr><td>Env</td><td></td></tr></table>",
+        "bbox": [
+            74,
+            694,
+            953,
+            889
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "table",
+        "img_path": "images/735ed108af8ad769f252501bf1bffa009b5ba0fb3324d6d7b17b1fd9830bd9bc.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Eduardo Bonelli</td><td>SFL ）ysuintérprete</td></tr><tr><td>Sintaxisy Ejemplos Intérprete Extensiones Recursion</td><td>Sintaxisconcretayabstracta:ejemplos Implementacion ingenua Creacion de clausurasal hacer lookup Creacionunicadeclausuras</td></tr></table>",
+        "bbox": [
+            8,
+            959,
+            986,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            5,
+            0,
+            895,
+            106
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Implementacion: Creacion unica de clausuras ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            117,
+            776,
+            176
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "El evaluador de expresiones es el mismo que antes evalExpr (LetRecExp procNames idss bodies letrecBody) env = (evalExpr letrecBody (extendEnvRecursively procNames idss bodies env)) ",
+        "bbox": [
+            104,
+            264,
+            773,
+            308
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            371,
+            939,
+            503
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Pero las clausuras se crean al procesar la declaración extendEnvRecursively procNames idss bodies oldEnv $=$ let env $=$ ExtendedEnvRecord procNames lst oldEnv lst $=$ map (\\(xs,y) -> Closure xs y env) (zip idss bodies) in env ",
+        "bbox": [
+            102,
+            566,
+            803,
+            610
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            69,
+            665,
+            994,
+            889
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "table",
+        "img_path": "images/22b8ff30dfbef450d74e4ec339e4bb3319748876c0fb48162b2c00aee3b77bdb.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Eduardo Bonelli</td><td></td><td>SFL) )ysuintérprete</td></tr></table>",
+        "bbox": [
+            2,
+            959,
+            986,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            640,
+            926,
+            994,
+            955
+        ],
+        "page_idx": 38
+    }
+]

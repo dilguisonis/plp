@@ -1,0 +1,5618 @@
+[
+    {
+        "type": "text",
+        "text": "Programaci´on Funcional en Haskell Primera parte ",
+        "text_level": 1,
+        "bbox": [
+            209,
+            231,
+            790,
+            352
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas de Lenguajes de Programaci´on ",
+        "bbox": [
+            226,
+            459,
+            776,
+            503
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Ciencias de la Computaci´on Universidad de Buenos Aires ",
+        "bbox": [
+            273,
+            555,
+            726,
+            628
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "26 de agosto de 2025 ",
+        "bbox": [
+            361,
+            676,
+            638,
+            716
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Repaso: usando GHCi ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            375,
+            80
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "C´omo empezar: ",
+        "bbox": [
+            74,
+            139,
+            276,
+            183
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/31b5b4bca5b1f0a56a655149c97f6dc6249e762e29ca7782610e3fbea971e75e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            63,
+            205,
+            933,
+            672
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 / 90 ",
+        "bbox": [
+            939,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Repaso: usando GHCi ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            375,
+            80
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "C´omo empezar: ",
+        "bbox": [
+            74,
+            139,
+            276,
+            183
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/057d9f77e615e8aa75fc0323ad7c3cdcb6aa77b1f8d3f6d8d748df9ff1b04c47.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            60,
+            209,
+            930,
+            669
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            939,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Repaso: usando GHCi ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            375,
+            80
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "C´omo empezar: ",
+        "bbox": [
+            74,
+            139,
+            276,
+            183
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/65adedf9a3adcb87a3ee20d3c350bd8604ab3e08cb68fae2cc2a32f415954fef.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            58,
+            209,
+            930,
+            672
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            939,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Repaso: usando GHCi ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            378,
+            80
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "C´omo empezar: ",
+        "bbox": [
+            74,
+            139,
+            276,
+            183
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "\\$ ghci   \nLoading   \nPrelude>:q   \nLeaving GHCi.   \n\\$ ghci test.hs   \nLoading .   \n[1 of 1] Compiling Main ( test.hs, interpreted Ok, modules loaded: Main.   \n\\*Main> ",
+        "bbox": [
+            63,
+            209,
+            908,
+            665
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            939,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Repaso: usando GHCi ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            375,
+            80
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "C´omo empezar: ",
+        "bbox": [
+            74,
+            139,
+            276,
+            183
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "\\$ ghci   \nLoading ..   \nPrelude>:q   \nLeaving GHCi.   \n\\$ ghci test.hs   \nLoading .   \n[1 of 1] Compiling Main ( test.hs, interpreted ) Ok, modules loaded: Main.   \n\\*Main> ",
+        "bbox": [
+            66,
+            209,
+            897,
+            665
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Otros comandos ´utiles: ",
+        "bbox": [
+            74,
+            702,
+            367,
+            746
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "。 Para recargar: :r Para cargar otro archivo: :l archivo.hs Para conocer el tipo de una expresi´on: :t Tru ",
+        "bbox": [
+            102,
+            768,
+            720,
+            930
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 / 90 ",
+        "bbox": [
+            936,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> Int -> Int prod’ x y = x \\* y ",
+        "bbox": [
+            71,
+            147,
+            491,
+            375
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e hacen estas funciones? ",
+        "bbox": [
+            74,
+            422,
+            439,
+            470
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 90 ",
+        "bbox": [
+            939,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> Int -> Int prod’ x $\\dot { \\mathrm { ~ \\bf ~ y ~ } } = \\textbf { x } * \\textbf { y }$ ",
+        "bbox": [
+            71,
+            150,
+            491,
+            371
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e hacen estas funciones? ",
+        "bbox": [
+            74,
+            422,
+            439,
+            466
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Podr´ıa decirse que ambas “toman dos argumentos $\\left( x , y \\right)$ y devuelven su producto”. Pero esto no es del todo as´ı... ",
+        "bbox": [
+            74,
+            496,
+            823,
+            591
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 / 90 ",
+        "bbox": [
+            936,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> Int -> Int prod’ x y = x \\* y ",
+        "bbox": [
+            71,
+            147,
+            491,
+            375
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. ",
+        "bbox": [
+            107,
+            411,
+            886,
+            459
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 90 ",
+        "bbox": [
+            936,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> Int -> Int prod’ x y = x \\* y ",
+        "bbox": [
+            71,
+            147,
+            491,
+            375
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. Entonces ¿qu´e hacen estas funciones? ",
+        "bbox": [
+            71,
+            411,
+            889,
+            518
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10 / 90 ",
+        "bbox": [
+            930,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> Int -> Int prod’ $\\texttt { \\textbf { \\small y } } = \\texttt { \\textbf { x } } * \\texttt { y }$ ",
+        "bbox": [
+            71,
+            150,
+            491,
+            371
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. ",
+        "bbox": [
+            93,
+            411,
+            886,
+            459
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Entonces ¿qu´e hacen estas funciones? ",
+        "bbox": [
+            77,
+            474,
+            555,
+            518
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": ". prod recibe una tupla de dos elementos. ",
+        "bbox": [
+            104,
+            533,
+            649,
+            580
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> Int -> Int prod’ $\\texttt { \\textbf { \\small y } } = \\texttt { \\textbf { x } } * \\texttt { y }$ ",
+        "bbox": [
+            71,
+            150,
+            491,
+            371
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. ",
+        "bbox": [
+            93,
+            411,
+            886,
+            459
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Entonces ¿qu´e hacen estas funciones? ",
+        "bbox": [
+            77,
+            474,
+            555,
+            518
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "prod recibe una tupla de dos elementos. ¿¿Y prod’?? ",
+        "bbox": [
+            104,
+            533,
+            649,
+            643
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 / 90 ",
+        "bbox": [
+            930,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> (Int -> Int) (prod’ x) y = x \\* y ",
+        "bbox": [
+            71,
+            150,
+            519,
+            375
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. ",
+        "bbox": [
+            93,
+            411,
+            889,
+            459
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Entonces ¿qu´e hacen estas funciones? ",
+        "bbox": [
+            77,
+            474,
+            555,
+            518
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "prod recibe una tupla de dos elementos.   \nprod’ es una funci´on que toma un x de tipo Int y devuelve una funci´on de tipo Int -> Int, cuyo comportamiento es tomar un entero y multiplicarlo por x. ",
+        "bbox": [
+            104,
+            533,
+            925,
+            742
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "13 / 90 ",
+        "bbox": [
+            930,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> (Int -> Int) (prod’ x) y = x \\* y ",
+        "bbox": [
+            71,
+            150,
+            519,
+            375
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. ",
+        "bbox": [
+            93,
+            411,
+            889,
+            459
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Entonces ¿qu´e hacen estas funciones? ",
+        "bbox": [
+            77,
+            474,
+            555,
+            518
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "prod recibe una tupla de dos elementos.   \nprod’ es una funci´on que toma un x de tipo Int y devuelve una funci´on de tipo Int -> Int, cuyo comportamiento es tomar un entero y multiplicarlo por x.   \nEn particular, (prod’ 2) es la funci´on que duplica. ",
+        "bbox": [
+            104,
+            533,
+            928,
+            794
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "14 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> (Int -> Int) (prod’ x) y = x \\* y ",
+        "bbox": [
+            71,
+            150,
+            519,
+            375
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. ",
+        "bbox": [
+            96,
+            411,
+            886,
+            459
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Entonces ¿qu´e hacen estas funciones? ",
+        "bbox": [
+            77,
+            474,
+            555,
+            518
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "prod recibe una tupla de dos elementos. prod’ es una funci´on que toma un x de tipo Int y devuelve una funci´on de tipo Int -> Int, cuyo comportamiento es tomar un entero y multiplicarlo por x . En particular, (prod’ 2) es la funci´on que duplica. Una definici´on equivalente de prod’ usando funciones an´onimas: ",
+        "bbox": [
+            104,
+            533,
+            928,
+            886
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b167a92ca1f0e2a45c0c3a0422b6ddc3cf21bb0d2a1f0e767fced227d000c138.jpg",
+        "text": "$$\n\\mathtt { p r o d } ^ { \\prime } \\mathtt { x } \\ = \\ \\backslash \\ \\mathtt { y } \\ \\to \\ \\mathtt { x } \\ast \\mathtt { y }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            187,
+            889,
+            494,
+            944
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Currificaci´on y aplicaci´on parcial ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            546,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "prod :: (Int, Int) -> Int prod (x, y) = x \\* y prod’ :: Int -> (Int -> Int) (prod’ x) y = x \\* y ",
+        "bbox": [
+            71,
+            147,
+            519,
+            375
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Las funciones en Haskell siempre toman un ´unico argumento. ",
+        "bbox": [
+            99,
+            411,
+            886,
+            459
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Entonces ¿qu´e hacen estas funciones? ",
+        "bbox": [
+            77,
+            474,
+            555,
+            518
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "prod recibe una tupla de dos elementos.   \nprod’ es una funci´on que toma un x de tipo Int y devuelve una funci´on de tipo Int -> Int, cuyo comportamiento es tomar un entero y multiplicarlo por x . En particular, (prod’ 2) es la funci´on que duplica. Una definici´on equivalente de prod’ usando funciones an´onimas: ",
+        "bbox": [
+            104,
+            533,
+            928,
+            886
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Decimos que prod’ es la versi´on currificada de prod. ",
+        "bbox": [
+            74,
+            952,
+            751,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/006053370de84c0a727565cbd4a67f6dc5eae9ab6cf663aad35b975f941a67dc.jpg",
+        "text": "$$\n\\mathtt { p r o d } ^ { \\prime } \\mathtt { x } \\ = \\ \\backslash \\ \\mathtt { y } \\ \\to \\ \\mathtt { x } \\ast \\mathtt { y }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            187,
+            889,
+            494,
+            944
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            74,
+            294,
+            472,
+            338
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "curry :: ((a,b) -> c) -> (a -> b -> c)   \nque devuelve la versi´on currificada de una funci´on no currificada.   \nuncurry :: (a -> b -> c) -> ((a,b) -> c) que devuelve la versi´on no currificada de una funci´on currificada. ",
+        "bbox": [
+            88,
+            349,
+            814,
+            654
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "17 / 90 ",
+        "bbox": [
+            930,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "curry – uncurry ",
+        "bbox": [
+            16,
+            29,
+            273,
+            80
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            69,
+            227,
+            933,
+            283
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Los par´entesis en gris no son necesarios, pero es ´util escribirlos cuando estamos aprendiendo y queremos ver m´as expl´ıcitamente que estamos devolviendo una funci´on. ",
+        "bbox": [
+            74,
+            665,
+            906,
+            716
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sea la funci´on: ",
+        "bbox": [
+            77,
+            294,
+            248,
+            330
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "prod :: Int -> Int -> Int prod $\\texttt { x y = x * y }$ ",
+        "bbox": [
+            74,
+            341,
+            441,
+            426
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 / 90 ",
+        "bbox": [
+            930,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicaci´on parcial ",
+        "bbox": [
+            16,
+            22,
+            309,
+            80
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            66,
+            231,
+            933,
+            283
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sea la funci´on: ",
+        "bbox": [
+            74,
+            294,
+            248,
+            330
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "prod :: Int -> Int -> Int prod $\\texttt { x y = x * y }$ ",
+        "bbox": [
+            74,
+            338,
+            441,
+            426
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Definimos doble $\\mathrm { ~ x ~ } =$ prod 2 x ",
+        "bbox": [
+            77,
+            452,
+            464,
+            488
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "1 ¿Cu´al es el tipo de doble? ",
+        "bbox": [
+            93,
+            507,
+            450,
+            547
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 / 90 ",
+        "bbox": [
+            930,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicaci´on parcial ",
+        "bbox": [
+            16,
+            22,
+            309,
+            80
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            231,
+            933,
+            283
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Sea la funci´on: ",
+        "bbox": [
+            77,
+            294,
+            248,
+            330
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "prod :: Int -> Int -> Int prod $\\texttt { x y = x * y }$ ",
+        "bbox": [
+            74,
+            341,
+            439,
+            426
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Definimos doble $\\mathrm { ~ x ~ } =$ prod 2 x ",
+        "bbox": [
+            77,
+            452,
+            464,
+            488
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "1 ¿Cu´al es el tipo de doble? $\\mathbf { \\^ {  } }$ ¿Qu´e pasa si cambiamos la definici´on por doble $=$ prod 2? ",
+        "bbox": [
+            91,
+            507,
+            845,
+            602
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "20 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicaci´on parcial ",
+        "bbox": [
+            16,
+            22,
+            309,
+            80
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            231,
+            933,
+            283
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Sea la funci´on: ",
+        "bbox": [
+            77,
+            294,
+            248,
+            330
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "prod :: Int -> Int -> Int prod $\\texttt { x y = x * y }$ ",
+        "bbox": [
+            74,
+            341,
+            439,
+            426
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Definimos doble $\\mathrm { ~ x ~ } =$ prod 2 x ",
+        "bbox": [
+            77,
+            452,
+            464,
+            488
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es el tipo de doble? ¿Qu´e pasa si cambiamos la definici´on por doble $=$ prod 2? 3 ¿Qu´e significa (+) 1? ",
+        "bbox": [
+            91,
+            503,
+            845,
+            658
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicaci´on parcial ",
+        "bbox": [
+            16,
+            22,
+            309,
+            80
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            231,
+            933,
+            283
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Sea la funci´on: ",
+        "bbox": [
+            77,
+            294,
+            248,
+            330
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "prod :: Int -> Int -> Int prod $\\texttt { x y = x * y }$ ",
+        "bbox": [
+            74,
+            341,
+            439,
+            426
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Definimos doble $\\mathrm { ~ x ~ } =$ prod 2 x ",
+        "bbox": [
+            77,
+            452,
+            464,
+            488
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es el tipo de doble? ¿Qu´e pasa si cambiamos la definici´on por doble $=$ prod 2? ¿Qu´e significa (+) 1?   \n$\\mathbf { o }$ Definir las siguientes funciones de forma similar a $( + ) 1$ : ",
+        "bbox": [
+            91,
+            507,
+            845,
+            713
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "22 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicaci´on parcial ",
+        "bbox": [
+            16,
+            22,
+            309,
+            80
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            231,
+            933,
+            283
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Sea la funci´on: ",
+        "bbox": [
+            77,
+            294,
+            248,
+            330
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "prod :: Int -> Int -> Int prod $\\texttt { x y = x * y }$ ",
+        "bbox": [
+            74,
+            341,
+            439,
+            426
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Definimos doble $\\mathrm { ~ x ~ } =$ prod 2 x ",
+        "bbox": [
+            77,
+            452,
+            464,
+            488
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es el tipo de doble?   \n¿Qu´e pasa si cambiamos la definici´on por doble $=$ prod 2?   \n¿Qu´e significa (+) 1?   \nDefinir las siguientes funciones de forma similar a $( + ) 1$ : triple :: Float -> Float ",
+        "bbox": [
+            91,
+            503,
+            845,
+            761
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "23 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicaci´on parcial ",
+        "bbox": [
+            16,
+            22,
+            309,
+            80
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            231,
+            933,
+            283
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Sea la funci´on: ",
+        "bbox": [
+            77,
+            294,
+            248,
+            330
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "prod :: Int -> Int -> Int prod $\\texttt { x y = x * y }$ ",
+        "bbox": [
+            74,
+            341,
+            439,
+            426
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Definimos doble $\\mathrm { ~ x ~ } =$ prod 2 x ",
+        "bbox": [
+            77,
+            452,
+            464,
+            488
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es el tipo de doble?   \n¿Qu´e pasa si cambiamos la definici´on por doble $=$ prod 2?   \n¿Qu´e significa (+) 1?   \nDefinir las siguientes funciones de forma similar a (+)1: triple :: Float -> Float esMayorDeEdad :: Int -> Bool ",
+        "bbox": [
+            91,
+            503,
+            845,
+            805
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "24 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Aplicaci´on parcial ",
+        "bbox": [
+            16,
+            22,
+            309,
+            80
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            231,
+            933,
+            283
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Funciones muy ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            361,
+            80
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "1 Implementar y dar los tipos de las siguientes funciones: ",
+        "bbox": [
+            93,
+            257,
+            767,
+            301
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Pueden ver m´as funciones ´utiles en la secci´on Util del Campus. ´ ",
+        "bbox": [
+            74,
+            827,
+            875,
+            882
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            191,
+            933,
+            246
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Funciones muy ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            361,
+            80
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "1 Implementar y dar los tipos de las siguientes funciones: ",
+        "bbox": [
+            91,
+            257,
+            770,
+            301
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "a (.) que compone dos funciones. Por ejemplo: ( $( \\backslash \\textbf { x } \\to \\textbf { x } * \\textbf { 4 } )$ . $( { \\bf \\zeta } ) { \\bf \\zeta }  { \\bf \\zeta } { \\bf { y } } \\mathrm { ~ - ~ } 3 )$ ) 10 devuelve 28. ",
+        "bbox": [
+            143,
+            308,
+            823,
+            389
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Pueden ver m´as funciones ´utiles en la secci´on Util del Campus. ´ ",
+        "bbox": [
+            74,
+            830,
+            875,
+            882
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "26 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            191,
+            936,
+            246
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Funciones muy ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            361,
+            80
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            198,
+            196,
+            242
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "1 Implementar y dar los tipos de las siguientes funciones: ",
+        "bbox": [
+            93,
+            257,
+            770,
+            301
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(.) que compone dos funciones. Por ejemplo: ( $( \\backslash \\textbf { x } \\to \\textbf { x } * \\textbf { 4 } )$ ). $( { \\bf \\zeta } ) { \\bf \\zeta }  { \\bf \\zeta } { \\bf { y } } \\mathrm { ~ - ~ } 3 )$ ) 10 devuelve 28.   \nflip que invierte los argumentos de una funci´on. Por ejemplo: flip $( \\backslash \\textbf { x } \\textrm { y } \\to \\textbf { x } - \\textbf { y } )$ 1 5 devuelve 4. ",
+        "bbox": [
+            138,
+            308,
+            867,
+            477
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Pueden ver m´as funciones ´utiles en la secci´on Util del Campus. ´ ",
+        "bbox": [
+            74,
+            830,
+            875,
+            882
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "27 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Funciones muy ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            361,
+            80
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "1 Implementar y dar los tipos de las siguientes funciones: ",
+        "bbox": [
+            93,
+            257,
+            770,
+            301
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "(.) que compone dos funciones. Por ejemplo: ( $( \\backslash \\textbf { x } \\to \\textbf { x } * \\textbf { 4 } )$ ). $( { \\bf \\zeta } ) { \\bf \\zeta }  { \\bf \\zeta } { \\bf { y } } \\mathrm { ~ - ~ } 3 )$ ) 10 devuelve 28.   \nflip que invierte los argumentos de una funci´on. Por ejemplo: flip $( \\backslash \\textbf { x } \\textrm { y } \\to \\textbf { x } - \\textbf { y } )$ 1 5 devuelve 4.   \n(\\$) que aplica una funci´on a un argumento. Por ejemplo: id $\\$ 1$ 6 devuelve 6. ",
+        "bbox": [
+            143,
+            308,
+            870,
+            566
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Pueden ver m´as funciones ´utiles en la secci´on Util del Campus. ´ ",
+        "bbox": [
+            74,
+            827,
+            875,
+            882
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "28 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            191,
+            933,
+            246
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Funciones muy ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            361,
+            80
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "1 Implementar y dar los tipos de las siguientes funciones: ",
+        "bbox": [
+            96,
+            257,
+            770,
+            301
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "(.) que compone dos funciones. Por ejemplo: ( $( \\backslash \\textbf { x } \\to \\textbf { x } * \\textbf { 4 } )$ ). $( { \\bf \\zeta } ) { \\bf \\zeta }  { \\bf \\zeta } { \\bf { y } } \\mathrm { ~ - ~ } 3 )$ ) 10 devuelve 28.   \nflip que invierte los argumentos de una funci´on. Por ejemplo: flip $( \\backslash \\textbf { x } \\textrm { y } \\to \\textbf { x } - \\textbf { y } )$ 1 5 devuelve 4.   \n(\\$) que aplica una funci´on a un argumento. Por ejemplo: id $\\$ 6$ devuelve 6.   \nconst que, dado un valor, retorna una funci´on constante que   \ndevuelve siempre ese valor. Por ejemplo: const 5 ‘‘casa’’ devuelve 5. ",
+        "bbox": [
+            138,
+            305,
+            864,
+            694
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Pueden ver m´as funciones ´utiles en la secci´on Util del Campus. ´ ",
+        "bbox": [
+            77,
+            830,
+            875,
+            882
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            191,
+            933,
+            246
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Funciones muy ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            361,
+            80
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            198,
+            196,
+            242
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "1 Implementar y dar los tipos de las siguientes funciones: ",
+        "bbox": [
+            96,
+            257,
+            770,
+            301
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "(.) que compone dos funciones. Por ejemplo: ( $( \\backslash \\textbf { x } \\to \\textbf { x } * \\textbf { 4 } )$ ). $( { \\bf \\zeta } ) { \\bf \\zeta }  { \\bf \\zeta } { \\bf { y } } \\mathrm { ~ - ~ } 3 )$ ) 10 devuelve 28.   \nflip que invierte los argumentos de una funci´on. Por ejemplo: flip $( \\backslash \\textbf { x } \\textrm { y } \\to \\textbf { x } - \\textbf { y } )$ 1 5 devuelve 4.   \n(\\$) que aplica una funci´on a un argumento. Por ejemplo: id $\\$ 6$ devuelve 6.   \nconst que, dado un valor, retorna una funci´on constante que   \ndevuelve siempre ese valor. Por ejemplo: const 5 ‘‘casa’’ devuelve 5. ",
+        "bbox": [
+            143,
+            305,
+            870,
+            691
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { \\^ {  } }$ ¿Qu´e hace flip (\\$) 0? ",
+        "bbox": [
+            93,
+            705,
+            428,
+            746
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Pueden ver m´as funciones ´utiles en la secci´on Util del Campus. ´ ",
+        "bbox": [
+            77,
+            830,
+            875,
+            882
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "30 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Funciones muy ´utiles ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            361,
+            80
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "1 Implementar y dar los tipos de las siguientes funciones: ",
+        "bbox": [
+            96,
+            257,
+            770,
+            301
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(.) que compone dos funciones. Por ejemplo: ( $( \\backslash \\textbf { x } \\to \\textbf { x } * \\textbf { 4 } )$ ). $( { \\bf \\zeta } ) { \\bf \\zeta }  { \\bf \\zeta } { \\bf { y } } \\mathrm { ~ - ~ } 3 )$ ) 10 devuelve 28.   \nflip que invierte los argumentos de una funci´on. Por ejemplo: flip $( \\backslash \\textbf { x } \\textrm { y } \\to \\textbf { x } - \\textbf { y } )$ 1 5 devuelve 4.   \n(\\$) que aplica una funci´on a un argumento. Por ejemplo: id $\\$ 6$ devuelve 6.   \nconst que, dado un valor, retorna una funci´on constante que   \ndevuelve siempre ese valor. Por ejemplo: const 5 ‘‘casa’’ devuelve 5. ",
+        "bbox": [
+            140,
+            305,
+            870,
+            702
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "2 ¿Qu´e hace flip (\\$) 0? ",
+        "bbox": [
+            93,
+            705,
+            428,
+            746
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "3 ¿Y $( = = 0 )$ ) . (flip mod 2)? ",
+        "bbox": [
+            93,
+            761,
+            483,
+            801
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Pueden ver m´as funciones ´utiles en la secci´on Util del Campus. ´ ",
+        "bbox": [
+            77,
+            830,
+            875,
+            882
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicios ",
+        "bbox": [
+            69,
+            191,
+            933,
+            246
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Hay varias macros para definir listas: ",
+        "bbox": [
+            74,
+            147,
+            549,
+            191
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "32 / 90 ",
+        "bbox": [
+            928,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            19,
+            22,
+            118,
+            77
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Hay varias macros para definir listas: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            147,
+            549,
+            191
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Por extensi´on ",
+        "bbox": [
+            107,
+            209,
+            306,
+            250
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Esto es, dar la lista expl´ıcita, escribiendo todos sus elementos.   \nPor ejemplo: [4, 3, 3, 4, 6, 5, 4, 5, 4, 5]. ",
+        "bbox": [
+            129,
+            257,
+            925,
+            352
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "33 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            19,
+            22,
+            118,
+            77
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Hay varias macros para definir listas: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            147,
+            549,
+            191
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Por extensi´on ",
+        "bbox": [
+            107,
+            209,
+            306,
+            250
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Esto es, dar la lista expl´ıcita, escribiendo todos sus elementos.   \nPor ejemplo: [4, 3, 3, 4, 6, 5, 4, 5, 4, 5]. ",
+        "bbox": [
+            129,
+            257,
+            925,
+            352
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Secuencias ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            389,
+            276,
+            430
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Son progresiones aritm´eticas en un rango particular. ",
+        "bbox": [
+            127,
+            441,
+            795,
+            481
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: [3..7] es la lista que tiene todos los n´umeros enteros entre 3 y 7, mientras que [2, 5..18] es la lista que contiene 2, 5, 8, 11, 14 y 17. ",
+        "bbox": [
+            129,
+            488,
+            928,
+            636
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "34 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            19,
+            22,
+            118,
+            77
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Hay varias macros para definir listas: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            147,
+            549,
+            191
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Por extensi´on ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            209,
+            306,
+            250
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Esto es, dar la lista expl´ıcita, escribiendo todos sus elementos.   \nPor ejemplo: [4, 3, 3, 4, 6, 5, 4, 5, 4, 5]. ",
+        "bbox": [
+            132,
+            257,
+            925,
+            352
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Secuencias ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            389,
+            276,
+            430
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Son progresiones aritm´eticas en un rango particular. ",
+        "bbox": [
+            124,
+            441,
+            795,
+            481
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: [3..7] es la lista que tiene todos los n´umeros enteros entre 3 y 7, mientras que [2, 5..18] es la lista que contiene 2, 5, 8, 11, 14 y 17. ",
+        "bbox": [
+            129,
+            488,
+            928,
+            636
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Por comprensi´on ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            669,
+            348,
+            713
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Se definen de la siguiente manera: ",
+        "bbox": [
+            135,
+            720,
+            569,
+            764
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "[expresi´on | selectores, condiciones] Por ejemplo: [(x,y) | x <- [0..5], y <- [0..3], x+y==4] ",
+        "bbox": [
+            135,
+            772,
+            964,
+            867
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            19,
+            22,
+            118,
+            77
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Hay varias macros para definir listas: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            147,
+            549,
+            191
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Por extensi´on ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            209,
+            306,
+            250
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Esto es, dar la lista expl´ıcita, escribiendo todos sus elementos.   \nPor ejemplo: [4, 3, 3, 4, 6, 5, 4, 5, 4, 5]. ",
+        "bbox": [
+            132,
+            257,
+            922,
+            352
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Secuencias ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            389,
+            276,
+            430
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Son progresiones aritm´eticas en un rango particular. ",
+        "bbox": [
+            124,
+            441,
+            795,
+            481
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: [3..7] es la lista que tiene todos los n´umeros enteros entre 3 y 7, mientras que [2, 5..18] es la lista que contiene 2, 5, 8, 11, 14 y 17. ",
+        "bbox": [
+            129,
+            488,
+            928,
+            632
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Por comprensi´on ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            669,
+            348,
+            713
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Se definen de la siguiente manera: ",
+        "bbox": [
+            135,
+            720,
+            569,
+            764
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "[expresi´on | selectores, condiciones] Por ejemplo: [(x,y) | x <- [0..5], y <- [0..3], $\\tt x + y = = 4 ]$ es la lista que tiene los pares (1,3), (2,2), (3,1) y (4,0). ",
+        "bbox": [
+            132,
+            772,
+            966,
+            919
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "36 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            19,
+            22,
+            118,
+            77
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Haskell tambi´en nos permite trabajar con listas infinitas. ",
+        "bbox": [
+            74,
+            139,
+            779,
+            187
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "37 / 90 ",
+        "bbox": [
+            928,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "Listas infinitas ",
+        "bbox": [
+            16,
+            22,
+            256,
+            77
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Listas infinitas ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            256,
+            77
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Haskell tambi´en nos permite trabajar con listas infinitas. ",
+        "bbox": [
+            77,
+            139,
+            779,
+            187
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Algunos ejemplos: ",
+        "bbox": [
+            74,
+            205,
+            306,
+            250
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "naturales = [1..] 1, 2, 3, 4, ... ",
+        "bbox": [
+            104,
+            268,
+            403,
+            363
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "38 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Listas infinitas ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            256,
+            77
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Haskell tambi´en nos permite trabajar con listas infinitas. ",
+        "bbox": [
+            74,
+            139,
+            779,
+            187
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Algunos ejemplos: ",
+        "bbox": [
+            74,
+            205,
+            306,
+            250
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "naturales = [1..] 1, 2, 3, 4, ... ",
+        "bbox": [
+            104,
+            268,
+            406,
+            363
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "multiplosDe3 = [0,3..] 0, 3, 6, 9, ... ",
+        "bbox": [
+            104,
+            389,
+            486,
+            488
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "39 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Listas infinitas ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            256,
+            77
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Haskell tambi´en nos permite trabajar con listas infinitas. ",
+        "bbox": [
+            77,
+            139,
+            779,
+            187
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Algunos ejemplos: ",
+        "bbox": [
+            74,
+            205,
+            306,
+            250
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "naturales = [1..] 1, 2, 3, 4, ... ",
+        "bbox": [
+            104,
+            268,
+            406,
+            363
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "multiplosDe3 = [0,3..] 0, 3, 6, 9, ... ",
+        "bbox": [
+            104,
+            389,
+            483,
+            488
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "repeat ‘‘hola’’ “hola”, “hola”, “hola”, “hola”, ... ",
+        "bbox": [
+            104,
+            518,
+            624,
+            610
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "40 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Listas infinitas ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            256,
+            77
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Haskell tambi´en nos permite trabajar con listas infinitas. ",
+        "bbox": [
+            77,
+            139,
+            779,
+            187
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Algunos ejemplos: ",
+        "bbox": [
+            74,
+            205,
+            306,
+            250
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "naturales = [1..] 1, 2, 3, 4, ... ",
+        "bbox": [
+            104,
+            268,
+            406,
+            363
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "multiplosDe3 = [0,3..] 0, 3, 6, 9, ... ",
+        "bbox": [
+            104,
+            389,
+            483,
+            488
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "repeat ‘‘hola’’ “hola”, “hola”, “hola”, “hola”, ... ",
+        "bbox": [
+            104,
+            518,
+            624,
+            610
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "primos = [n | n <- [2..], esPrimo n] (asumiendo esPrimo definida) 2, 3, 5, 7, ... ",
+        "bbox": [
+            104,
+            639,
+            751,
+            738
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "41 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Listas infinitas ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            256,
+            77
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Haskell tambi´en nos permite trabajar con listas infinitas. ",
+        "bbox": [
+            77,
+            139,
+            779,
+            187
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Algunos ejemplos: ",
+        "bbox": [
+            74,
+            205,
+            306,
+            250
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "naturales = [1..] 1, 2, 3, 4, ... ",
+        "bbox": [
+            104,
+            268,
+            403,
+            363
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "multiplosDe3 = [0,3..] 0, 3, 6, 9, ... ",
+        "bbox": [
+            104,
+            389,
+            483,
+            488
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "repeat ‘‘hola’’ “hola”, “hola”, “hola”, “hola”, ... ",
+        "bbox": [
+            104,
+            518,
+            624,
+            610
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "primos = [n | n <- [2..], esPrimo n] (asumiendo esPrimo definida) 2, 3, 5, 7, ... ",
+        "bbox": [
+            104,
+            639,
+            751,
+            738
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "infinitosUnos = 1 : infinitosUnos 1, 1, 1, 1, ... ",
+        "bbox": [
+            104,
+            764,
+            662,
+            863
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "42 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Haskell tambi´en nos permite trabajar con listas infinitas. ",
+        "bbox": [
+            77,
+            139,
+            779,
+            187
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Algunos ejemplos: ",
+        "bbox": [
+            74,
+            205,
+            306,
+            250
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "naturales = [1..] 1, 2, 3, 4, ... ",
+        "bbox": [
+            104,
+            268,
+            406,
+            363
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "multiplosDe3 = [0,3..] 0, 3, 6, 9, ... ",
+        "bbox": [
+            104,
+            389,
+            483,
+            488
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "repeat ‘‘hola’’ “hola”, “hola”, “hola”, “hola”, ... ",
+        "bbox": [
+            104,
+            518,
+            624,
+            610
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "primos = [n | n <- [2..], esPrimo n] (asumiendo esPrimo definida) 2, 3, 5, 7, ... ",
+        "bbox": [
+            102,
+            639,
+            751,
+            738
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "infinitosUnos = 1 : infinitosUnos 1, 1, 1, 1, ... ",
+        "bbox": [
+            104,
+            764,
+            662,
+            863
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo es posible trabajar con listas infinitas sin que se cuelgue? ",
+        "bbox": [
+            77,
+            886,
+            897,
+            937
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "43 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "Listas infinitas ",
+        "bbox": [
+            16,
+            22,
+            256,
+            77
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            276,
+            80
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "take :: Int -> [a] -> [a]   \ntake $0 \\mathrm { ~ \\it ~ \\ / ~ } = \\mathrm { ~ \\it ~ \\ / ~ } [ ]$   \ntake $\\begin{array} { l l l } { { \\displaystyle \\left[ \\begin{array} { l l l } { } \\end{array} \\right] } } & { { = } } & { { \\displaystyle \\left[ \\begin{array} { l l l } { } \\end{array} \\right] } } \\end{array}$   \ntake n $( { \\bf { x } } : { \\bf { x } } { \\bf { s } } ) \\ = \\ { \\bf { x } }$ : take (n-1) xs   \ninfinitosUnos :: [Int]   \ninfinitosUnos $\\ c = ~ 1$ : infinitosUnos   \nnUnos :: Int -> [Int]   \nnUnos $\\mathrm { ~ n ~ } =$ take n infinitosUnos ",
+        "bbox": [
+            71,
+            161,
+            560,
+            562
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "44 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            273,
+            80
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "take :: Int -> [a] -> [a]   \ntake $0 \\mathrm { ~ \\it ~ \\ / ~ } = \\mathrm { ~ \\it ~ \\ / ~ } [ ]$   \ntake $\\begin{array} { l l l } { { \\displaystyle \\left[ \\begin{array} { l l l } { } \\end{array} \\right] } } & { { = } } & { { \\displaystyle \\left[ \\begin{array} { l l l } { } \\end{array} \\right] } } \\end{array}$   \ntake n $( { \\bf { x } } : { \\bf { x } } { \\bf { s } } ) \\ = \\ { \\bf { x } }$ : take (n-1) xs   \ninfinitosUnos :: [Int]   \ninfinitosUnos $\\ c = ~ 1$ : infinitosUnos   \nnUnos :: Int -> [Int]   \nnUnos n = take n infinitosUnos ",
+        "bbox": [
+            74,
+            161,
+            558,
+            562
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Si ejecutamos nUnos 2... ",
+        "bbox": [
+            74,
+            610,
+            397,
+            650
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "discarded",
+        "text": "45 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            273,
+            80
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "take :: Int -> [a] -> [a]   \ntake $0 \\mathrm { ~ \\it ~ \\ / ~ } = \\mathrm { ~ \\it ~ \\ / ~ } [ ]$   \ntake $\\begin{array} { l l l } { { \\displaystyle \\left[ \\begin{array} { l l l } { } \\end{array} \\right] } } & { { = } } & { { \\displaystyle \\left[ \\begin{array} { l l l } { } \\end{array} \\right] } } \\end{array}$   \ntake n $( { \\bf { x } } : { \\bf { x } } { \\bf { s } } ) \\ = \\ { \\bf { x } }$ : take (n-1) xs ",
+        "bbox": [
+            74,
+            165,
+            555,
+            338
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "infinitosUnos :: [Int] infinitosUnos $\\ c = ~ 1$ : infinitosUnos nUnos :: Int -> [Int] nUnos n = take n infinitosUnos ",
+        "bbox": [
+            71,
+            363,
+            560,
+            452
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            474,
+            513,
+            562
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Si ejecutamos nUnos 2...   \nnUnos $2 $ take 2 infinitosUnos take 2 (1:infinitosUnos) $ 1$ : take (2-1) infinitosUnos   \n$ 1$ : take 1 infinitosUnos   \n$ 1$ : take 1 (1:infinitosUnos)   \n→ 1 : 1 : take (1-1) infinitosUnos   \n→ 1 : 1 : take 0 infinitosUnos   \n→ 1 : 1 : [] ",
+        "bbox": [
+            69,
+            610,
+            825,
+            944
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "discarded",
+        "text": "46 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            276,
+            80
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e suceder´ıa si us´aramos otra estrategia de reducci´on? ",
+        "bbox": [
+            102,
+            397,
+            861,
+            444
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "discarded",
+        "text": "47 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            276,
+            80
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e suceder´ıa si us´aramos otra estrategia de reducci´on? Si para alg´un t´ermino existe una reducci´on finita, entonces la estrategia de reducci´on lazy termina. ",
+        "bbox": [
+            102,
+            397,
+            914,
+            555
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "discarded",
+        "text": "48 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy: Fibonacci ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            18,
+            450,
+            80
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "infinitosUnos es un ejemplo sencillo de lista infinita. ¿C´omo definir´ıan la sucesi´on de Fibonacci como lista infinita? ",
+        "bbox": [
+            69,
+            205,
+            925,
+            301
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "fibs = 0 : 1 : ",
+        "bbox": [
+            74,
+            334,
+            306,
+            371
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "discarded",
+        "text": "49 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy: Fibonacci ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            18,
+            450,
+            80
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "infinitosUnos es un ejemplo sencillo de lista infinita. ¿C´omo definir´ıan la sucesi´on de Fibonacci como lista infinita? ",
+        "bbox": [
+            69,
+            205,
+            928,
+            305
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "fibs = 0 : 1 : fibsAPartirDe 0 1 where fibsAPartirDe a b = (a+b) : fibsAPartirDe b (a+b) ",
+        "bbox": [
+            69,
+            327,
+            853,
+            463
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "discarded",
+        "text": "50 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy: Fibonacci ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            18,
+            450,
+            80
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "infinitosUnos es un ejemplo sencillo de lista infinita. ¿C´omo definir´ıan la sucesi´on de Fibonacci como lista infinita? ",
+        "bbox": [
+            69,
+            205,
+            928,
+            305
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "fibs = 0 : 1 : fibsAPartirDe 0 1 where fibsAPartirDe a b = (a+b) : fibsAPartirDe b (a+b) ",
+        "bbox": [
+            69,
+            327,
+            861,
+            463
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "La siguiente implementaci´on tambi´en anda. Queda como curiosidad entender en detalle c´omo anda. ",
+        "bbox": [
+            69,
+            488,
+            930,
+            584
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "fibs = 0 : 1 : zipWith ( $^ +$ ) fibs (drop 1 fibs) ",
+        "bbox": [
+            74,
+            617,
+            723,
+            661
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "discarded",
+        "text": "51 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Evaluaci´on lazy: Fibonacci ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            18,
+            450,
+            80
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "infinitosUnos es un ejemplo sencillo de lista infinita. ¿C´omo definir´ıan la sucesi´on de Fibonacci como lista infinita? ",
+        "bbox": [
+            69,
+            205,
+            928,
+            305
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "fibs = 0 : 1 : fibsAPartirDe 0 1 where fibsAPartirDe a b = (a+b) : fibsAPartirDe b (a+b) ",
+        "bbox": [
+            69,
+            327,
+            856,
+            463
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "La siguiente implementaci´on tambi´en anda. Queda como curiosidad entender en detalle c´omo anda. ",
+        "bbox": [
+            69,
+            488,
+            930,
+            584
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "fibs = 0 : 1 : zipWith ( $^ +$ ) fibs (drop 1 fibs) ",
+        "bbox": [
+            74,
+            617,
+            723,
+            661
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Obtener el n-´esimo elemento de la serie ",
+        "bbox": [
+            74,
+            694,
+            577,
+            738
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "fib $\\mathrm { ~ n ~ } =$ head (drop n fibs) ",
+        "bbox": [
+            74,
+            772,
+            453,
+            816
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "discarded",
+        "text": "52 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Funciones totales vs parciales ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            500,
+            80
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´ales de estas funciones pueden ser totales? ",
+        "bbox": [
+            74,
+            338,
+            660,
+            386
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "null :: [a] -> Bool tail :: [a] -> [a] head :: [a] -> a safeHead :: [a] -> Maybe a ",
+        "bbox": [
+            104,
+            400,
+            552,
+            632
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "discarded",
+        "text": "53 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Composici´on de funciones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            18,
+            444,
+            80
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Las siguientes funciones son totales ¿por qu´e? ",
+        "bbox": [
+            74,
+            305,
+            654,
+            352
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "dobleHeadA l = if null l then Nothing else Just (2 \\* head l) ",
+        "bbox": [
+            74,
+            378,
+            687,
+            522
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "dobleHeadB l = case l of [] -> Nothing (x: ) -> Just (2 \\* x) ",
+        "bbox": [
+            71,
+            551,
+            671,
+            694
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "discarded",
+        "text": "54 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Funciones de alto orden ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            408,
+            77
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Definamos las siguientes funciones Precondici´on: las listas tienen alg´un elemento. ",
+        "bbox": [
+            74,
+            216,
+            660,
+            312
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "maximo :: Ord a $\\Rightarrow$ [a] -> a minimo :: Ord a $\\Rightarrow$ [a] -> a listaMasCorta :: [[a]] -> [a] ",
+        "bbox": [
+            102,
+            327,
+            593,
+            496
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "discarded",
+        "text": "55 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Funciones de alto orden ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            408,
+            77
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Definamos las siguientes funciones Precondici´on: las listas tienen alg´un elemento. ",
+        "bbox": [
+            74,
+            216,
+            660,
+            308
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "maximo :: Ord a $\\Rightarrow$ [a] -> a minimo :: Ord a $\\Rightarrow$ [a] -> a listaMasCorta :: [[a]] -> [a] ",
+        "bbox": [
+            102,
+            327,
+            593,
+            496
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Siempre hago lo mismo... ¿Se podr´a generalizar? ¿C´omo? ",
+        "bbox": [
+            71,
+            558,
+            803,
+            606
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "discarded",
+        "text": "56 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Funciones de alto orden ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            408,
+            77
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Definamos las siguientes funciones Precondici´on: las listas tienen alg´un elemento. ",
+        "bbox": [
+            74,
+            216,
+            660,
+            312
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "maximo :: Ord a $\\Rightarrow$ [a] -> a minimo :: Ord a => [a] -> a listaMasCorta :: [[a]] -> [a] ",
+        "bbox": [
+            102,
+            327,
+            593,
+            496
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Siempre hago lo mismo... ¿Se podr´a generalizar? ¿C´omo? ",
+        "bbox": [
+            74,
+            558,
+            806,
+            606
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            636,
+            185,
+            680
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "mejorSegun :: ",
+        "bbox": [
+            104,
+            698,
+            342,
+            742
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "discarded",
+        "text": "57 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Funciones de alto orden ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            408,
+            77
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Definamos las siguientes funciones Precondici´on: las listas tienen alg´un elemento. ",
+        "bbox": [
+            74,
+            216,
+            660,
+            312
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "maximo :: Ord a $\\Rightarrow$ [a] -> a minimo :: Ord a => [a] -> a listaMasCorta :: [[a]] -> [a] ",
+        "bbox": [
+            102,
+            327,
+            593,
+            496
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Siempre hago lo mismo... ¿Se podr´a generalizar? ¿C´omo? ",
+        "bbox": [
+            74,
+            558,
+            806,
+            606
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            636,
+            185,
+            680
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "mejorSegun :: (a -> a -> Bool) -> [a] -> a ",
+        "bbox": [
+            102,
+            694,
+            795,
+            742
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "discarded",
+        "text": "58 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Funciones de alto orden ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            408,
+            77
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Definamos las siguientes funciones Precondici´on: las listas tienen alg´un elemento. ",
+        "bbox": [
+            74,
+            216,
+            660,
+            312
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "maximo :: Ord a $\\Rightarrow$ [a] -> a minimo :: Ord a => [a] -> a listaMasCorta :: [[a]] -> [a] ",
+        "bbox": [
+            102,
+            327,
+            593,
+            496
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Siempre hago lo mismo... ¿Se podr´a generalizar? ¿C´omo? ",
+        "bbox": [
+            74,
+            558,
+            806,
+            606
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            636,
+            185,
+            680
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "mejorSegun :: (a -> a -> Bool) -> [a] -> a Reescribir maximo y listaMasCorta en base a mejorSegun ",
+        "bbox": [
+            93,
+            694,
+            914,
+            801
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "discarded",
+        "text": "59 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Filtrar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            497,
+            80
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "60 / 90 ",
+        "bbox": [
+            928,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Filtrar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            497,
+            80
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a] ",
+        "bbox": [
+            71,
+            187,
+            627,
+            235
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "discarded",
+        "text": "61 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "Filtrar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            497,
+            80
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a] filter [] = [] ",
+        "bbox": [
+            71,
+            187,
+            629,
+            286
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "discarded",
+        "text": "62 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "Filtrar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            497,
+            80
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a]   \nfilter [] = []   \nfilter p (x:xs) = if p x then x : filter p xs else filter p xs ",
+        "bbox": [
+            71,
+            183,
+            629,
+            485
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "discarded",
+        "text": "63 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Filtrar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            497,
+            80
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a]   \nfilter [] = []   \nfilter p (x:xs) = if p x then x : filter p xs else filter p xs ",
+        "bbox": [
+            71,
+            183,
+            629,
+            485
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            518,
+            198,
+            558
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Definir usando filter: ",
+        "bbox": [
+            104,
+            573,
+            436,
+            617
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "discarded",
+        "text": "64 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Filtrar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            497,
+            80
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a]   \nfilter [] = []   \nfilter p (x:xs) = if p x then x : filter p xs else filter p xs ",
+        "bbox": [
+            71,
+            183,
+            629,
+            485
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            518,
+            196,
+            558
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "Definir usando filter: ",
+        "bbox": [
+            104,
+            573,
+            436,
+            617
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "deLongitudN :: Int -> [[a]] -> [[a]] ",
+        "bbox": [
+            168,
+            628,
+            715,
+            672
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "discarded",
+        "text": "65 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "Filtrar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            497,
+            77
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a]   \nfilter [] = []   \nfilter p (x:xs) = if p x then x : filter p xs else filter p xs ",
+        "bbox": [
+            71,
+            183,
+            629,
+            485
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            514,
+            196,
+            558
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Definir usando filter: ",
+        "bbox": [
+            104,
+            573,
+            433,
+            617
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "deLongitudN :: Int -> [[a]] -> [[a]]   \nsoloPuntosFijosEnN :: Int -> [Int->Int] -> [Int->Int] Dados un n´umero n y una lista de funciones, deja las funciones que al aplicarlas a $^ { n }$ dan $n$ ",
+        "bbox": [
+            165,
+            628,
+            928,
+            845
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "discarded",
+        "text": "66 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Transformar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            22,
+            593,
+            80
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "discarded",
+        "text": "67 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Transformar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            596,
+            80
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "discarded",
+        "text": "68 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "Transformar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            22,
+            596,
+            80
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map [] = [] ",
+        "bbox": [
+            71,
+            172,
+            535,
+            275
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "discarded",
+        "text": "69 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "Transformar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            22,
+            596,
+            80
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map [] = [] map f (x:xs) = f x : map f xs ",
+        "bbox": [
+            71,
+            172,
+            538,
+            327
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "discarded",
+        "text": "70 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "Transformar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            22,
+            596,
+            80
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map [] = [] map f (x:xs) = f x : map f xs ",
+        "bbox": [
+            71,
+            172,
+            538,
+            323
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            185,
+            400
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "Definir usando map: ",
+        "bbox": [
+            104,
+            415,
+            386,
+            459
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "discarded",
+        "text": "71 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "Transformar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            22,
+            596,
+            77
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map [] = [] map f (x:xs) = f x : map f xs ",
+        "bbox": [
+            71,
+            172,
+            538,
+            323
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            185,
+            400
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Definir usando map: ",
+        "bbox": [
+            104,
+            415,
+            386,
+            459
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "reverseAnidado :: [[Char]] -> [[Char]] que, dada una lista de strings, devuelve una lista con cada string dado vuelta y la lista completa dada vuelta. Por ejemplo: reverseAnidado [‘‘quedate’’, ‘‘en’’, ‘‘casa’’] devuelve [‘‘asac\", ‘‘ne’’, ‘‘etadeuq’’]. ",
+        "bbox": [
+            165,
+            466,
+            925,
+            687
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: ya existe la funci´on reverse que invierte una lista. ",
+        "bbox": [
+            198,
+            687,
+            872,
+            727
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "discarded",
+        "text": "72 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Transformar elementos de una lista ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            22,
+            596,
+            77
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map [] = [] map f (x:xs) = f x : map f xs ",
+        "bbox": [
+            71,
+            172,
+            538,
+            323
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            185,
+            400
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Definir usando map: ",
+        "bbox": [
+            104,
+            415,
+            386,
+            459
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "reverseAnidado :: [[Char]] -> [[Char]] que, dada una lista de strings, devuelve una lista con cada string dado vuelta y la lista completa dada vuelta. Por ejemplo: reverseAnidado [‘‘quedate’’, ‘‘en’’, ‘‘casa’’] devuelve [‘‘asac\", ‘‘ne’’, ‘‘etadeuq’’]. ",
+        "bbox": [
+            165,
+            466,
+            925,
+            683
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: ya existe la funci´on reverse que invierte una lista. ",
+        "bbox": [
+            190,
+            687,
+            875,
+            727
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "paresCuadrados :: [Int] -> [Int] que, dada una lista de enteros, devuelve una lista con los cuadrados de los n´umeros pares y los impares sin modificar. ",
+        "bbox": [
+            165,
+            735,
+            928,
+            860
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "discarded",
+        "text": "73 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "¿Hay similitud entre estas definiciones? ",
+        "bbox": [
+            13,
+            18,
+            657,
+            84
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a]   \nfilter [] = []   \nfilter p (x:xs) = if p x then x : filter p xs else filter p xs ",
+        "bbox": [
+            66,
+            158,
+            837,
+            378
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map [] = [] map f (x:xs) = f x : map f xs ¿Hay similitud entre estas definiciones? ",
+        "bbox": [
+            71,
+            415,
+            566,
+            573
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "discarded",
+        "text": "74 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            13,
+            18,
+            657,
+            84
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a]   \nfilter [] = []   \nfilter p (x:xs) = if p x then x : filter p xs else filter p xs ",
+        "bbox": [
+            69,
+            161,
+            837,
+            378
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map [] = [] map f (x:xs) = f x : map f xs ",
+        "bbox": [
+            71,
+            415,
+            566,
+            573
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "En el caso base devolvemos un valor determinado. ",
+        "bbox": [
+            132,
+            606,
+            770,
+            650
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "discarded",
+        "text": "75 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            74,
+            610,
+            124,
+            654
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "¿Hay similitud entre estas definiciones? ",
+        "bbox": [
+            13,
+            18,
+            657,
+            84
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "image",
+        "img_path": "images/2d13059de6edfb7624cc24dfb3818f5d795375a73bc09bf48f03832aea56634d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            158,
+            839,
+            577
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "En el caso base devolvemos un valor determinado. En el caso recursivo devolvemos algo en funci´on de: ",
+        "bbox": [
+            132,
+            606,
+            787,
+            705
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "La cabeza de la lista. ",
+        "bbox": [
+            193,
+            716,
+            441,
+            757
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "discarded",
+        "text": "76 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            138,
+            720,
+            182,
+            761
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            77,
+            613,
+            121,
+            650
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "¿Hay similitud entre estas definiciones? ",
+        "bbox": [
+            13,
+            18,
+            657,
+            80
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "image",
+        "img_path": "images/35f1ec57f907e676a272135f3bf0a436921e67e96bbacae48630512ff58cf4c8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            69,
+            158,
+            845,
+            580
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "En el caso base devolvemos un valor determinado. En el caso recursivo devolvemos algo en funci´on de: ",
+        "bbox": [
+            132,
+            606,
+            784,
+            705
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "La cabeza de la lista.   \nEl llamado recursivo sobre la cola de la lista. ",
+        "bbox": [
+            193,
+            716,
+            712,
+            801
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "discarded",
+        "text": "77 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            77,
+            613,
+            121,
+            650
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            135,
+            720,
+            182,
+            805
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "¿Hay similitud entre estas definiciones? ",
+        "bbox": [
+            13,
+            18,
+            657,
+            80
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "image",
+        "img_path": "images/dd18335e3d727a3bcf42f2e1f84af153b393231ea7392d11cfcc9367bd1e4406.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            69,
+            158,
+            845,
+            580
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "En el caso base devolvemos un valor determinado. En el caso recursivo devolvemos algo en funci´on de: ",
+        "bbox": [
+            132,
+            606,
+            784,
+            705
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "La cabeza de la lista.   \nEl llamado recursivo sobre la cola de la lista. ",
+        "bbox": [
+            193,
+            716,
+            712,
+            801
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "¿Se puede generalizar? ",
+        "bbox": [
+            353,
+            841,
+            646,
+            889
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "discarded",
+        "text": "78 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            77,
+            613,
+            121,
+            650
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            135,
+            720,
+            182,
+            805
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "foldr :: (a -> b -> b) -> b -> [a] -> b foldr z [] = z foldr f z (x:xs) = f x (foldr f z xs) ",
+        "bbox": [
+            71,
+            150,
+            696,
+            305
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "discarded",
+        "text": "79 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "discarded",
+        "text": "foldr ",
+        "bbox": [
+            16,
+            22,
+            99,
+            73
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "discarded",
+        "text": "r de right (derecha) ",
+        "bbox": [
+            745,
+            33,
+            983,
+            77
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "foldr :: (a -> b -> b) -> b -> [a] -> b foldr z [] = z foldr f z (x:xs) = f x (foldr f z xs) ",
+        "bbox": [
+            74,
+            150,
+            696,
+            301
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "text",
+        "text": "z es el valor que devolvemos para una lista vac´ıa. ",
+        "bbox": [
+            107,
+            338,
+            756,
+            386
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "discarded",
+        "text": "80 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "discarded",
+        "text": "foldr ",
+        "bbox": [
+            16,
+            22,
+            99,
+            73
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "discarded",
+        "text": "r de right (derecha) ",
+        "bbox": [
+            745,
+            33,
+            983,
+            77
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            80,
+            345,
+            116,
+            382
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "text",
+        "text": "foldr :: (a -> b -> b) -> b -> [a] -> b foldr z [] = z foldr f z (x:xs) = f x (foldr f z xs) ",
+        "bbox": [
+            74,
+            150,
+            696,
+            305
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "text",
+        "text": "z es el valor que devolvemos para una lista vac´ıa. ",
+        "bbox": [
+            118,
+            341,
+            759,
+            386
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "text",
+        "text": "f es una funci´on que computa el resultado sobre la lista entera a partir de: ",
+        "bbox": [
+            104,
+            397,
+            848,
+            481
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "text",
+        "text": "La cabeza de la lista. ",
+        "bbox": [
+            190,
+            496,
+            441,
+            533
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "discarded",
+        "text": "81 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            135,
+            500,
+            182,
+            536
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "discarded",
+        "text": "foldr ",
+        "bbox": [
+            16,
+            22,
+            99,
+            73
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "discarded",
+        "text": "r de right (derecha) ",
+        "bbox": [
+            745,
+            33,
+            980,
+            77
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            80,
+            345,
+            116,
+            382
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "text",
+        "text": "foldr :: (a -> b -> b) -> b -> [a] -> b foldr z [] = z foldr f z (x:xs) = f x (foldr f z xs) ",
+        "bbox": [
+            74,
+            150,
+            698,
+            308
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "z es el valor que devolvemos para una lista vac´ıa. ",
+        "bbox": [
+            121,
+            341,
+            762,
+            386
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "f es una funci´on que computa el resultado sobre la lista entera a partir de: ",
+        "bbox": [
+            104,
+            397,
+            845,
+            481
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "La cabeza de la lista.   \nEl llamado recursivo sobre la cola de la lista. ",
+        "bbox": [
+            193,
+            496,
+            709,
+            580
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "discarded",
+        "text": "82 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "discarded",
+        "text": "foldr ",
+        "bbox": [
+            16,
+            22,
+            99,
+            73
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "discarded",
+        "text": "r de right (derecha) ",
+        "bbox": [
+            745,
+            33,
+            983,
+            77
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            80,
+            345,
+            116,
+            382
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            135,
+            496,
+            185,
+            580
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "foldr :: (a -> b -> b) -> b -> [a] -> b foldr z [] = z foldr f z (x:xs) = f x (foldr f z xs) ",
+        "bbox": [
+            74,
+            150,
+            698,
+            308
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "z es el valor que devolvemos para una lista vac´ıa. ",
+        "bbox": [
+            118,
+            341,
+            762,
+            386
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "f es una funci´on que computa el resultado sobre la lista entera a partir de: ",
+        "bbox": [
+            104,
+            397,
+            845,
+            481
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "La cabeza de la lista.   \nEl llamado recursivo sobre la cola de la lista. ",
+        "bbox": [
+            193,
+            496,
+            712,
+            580
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            650,
+            179,
+            691
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Si xs $=$ [x1, x2, x3] entonces: foldr f z xs = f x1 (f x2 (f x3 z)) Equivalentemente con notaci´on infija: foldr ⋆ z xs = x1 ⋆ (x2 ⋆ (x3 ⋆ z)) ",
+        "bbox": [
+            74,
+            705,
+            629,
+            900
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "discarded",
+        "text": "83 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "discarded",
+        "text": "foldr ",
+        "bbox": [
+            16,
+            22,
+            99,
+            73
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "discarded",
+        "text": "r de right (derecha) ",
+        "bbox": [
+            745,
+            33,
+            980,
+            77
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "discarded",
+        "text": "→ ",
+        "bbox": [
+            80,
+            349,
+            116,
+            382
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            135,
+            496,
+            185,
+            580
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Reescribiendo filter y map con foldr ",
+        "text_level": 1,
+        "bbox": [
+            13,
+            18,
+            602,
+            84
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a]   \nfilter p xs = foldr (\\x r -> if p x then x:r else r) [] xs ",
+        "bbox": [
+            69,
+            283,
+            870,
+            437
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "discarded",
+        "text": "84 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "Reescribiendo filter y map con foldr ",
+        "text_level": 1,
+        "bbox": [
+            13,
+            18,
+            602,
+            84
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map f xs $=$ foldr (\\x r -> f x : r) [] xs ",
+        "bbox": [
+            69,
+            474,
+            740,
+            577
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "discarded",
+        "text": "85 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "text",
+        "text": "Reescribiendo filter y map con foldr ",
+        "text_level": 1,
+        "bbox": [
+            13,
+            18,
+            602,
+            84
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "image",
+        "img_path": "images/ead1b12c0336a5fd4dd78effb1da3fe61e0ee11b8d3d2f844eaeecc713b9dd6e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            60,
+            275,
+            878,
+            580
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "¿Es necesario el argumento xs? ",
+        "bbox": [
+            298,
+            661,
+            701,
+            709
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "discarded",
+        "text": "86 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "Reescribiendo filter y map con foldr ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            602,
+            84
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (para la casa) ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            305,
+            367,
+            352
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Escribir filterMap que dada una funci´on se queda con los valores Just y descarta los Nothing luego de aplicarla a cada elemento de la lista. ",
+        "bbox": [
+            74,
+            363,
+            928,
+            507
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "filterMap :: (a -> Maybe b) -> [a] -> [b] ",
+        "bbox": [
+            74,
+            536,
+            726,
+            584
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "¿La implementaci´on que hicieron es total por construcci´on o usan funciones parciales? ",
+        "bbox": [
+            71,
+            606,
+            908,
+            702
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "discarded",
+        "text": "87 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Desplegando la macro de las listas por comprensi´on ",
+        "bbox": [
+            16,
+            18,
+            861,
+            84
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Definir una expresi´on equivalente a la siguiente utilizando map y filter: ",
+        "bbox": [
+            74,
+            330,
+            889,
+            426
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            474,
+            185,
+            518
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "listaComp :: (a -> Bool) -> (a -> b) -> [a] -> [b] listaComp p f xs $=$ [f x | x <- xs, p x] ",
+        "bbox": [
+            74,
+            529,
+            875,
+            632
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "discarded",
+        "text": "88 / 90 ",
+        "bbox": [
+            928,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "En la secci´on ´util del campus pueden encontrar: ",
+        "bbox": [
+            77,
+            386,
+            676,
+            433
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "。 “Introducci´on a la programaci´on funcional” “Repaso de Funciones Totales y Maybe” ¡Nuevo! ",
+        "bbox": [
+            102,
+            448,
+            767,
+            555
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "discarded",
+        "text": "89 / 90 ",
+        "bbox": [
+            928,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "discarded",
+        "text": "Referencias ",
+        "bbox": [
+            16,
+            22,
+            209,
+            77
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "bbox": [
+            265,
+            433,
+            734,
+            529
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "discarded",
+        "text": "Fin ",
+        "bbox": [
+            16,
+            22,
+            77,
+            77
+        ],
+        "page_idx": 89
+    }
+]

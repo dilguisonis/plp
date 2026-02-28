@@ -1,0 +1,254 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/7099eea62b7ec0d01da5f000b59eff878dd536fc9b54c53c21a624039e595872.jpg",
+        "table_caption": [
+            "PLP - Segundo Parcial - ${ \\bf 1 } ^ { \\bf { e r } }$ cuatrimestre de 2024 "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Nro.Libreta</td><td rowspan=1 colspan=1>Apellido yNombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            121,
+            82,
+            877,
+            126
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien menos (B-) y uno regular (R). Las notas para cada ejercicio son: $-$ , I, R, $\\mathtt { B ^ { - } }$ , B. Entregar cada ejercicio en hojas separadas. Poner nombre, apellido $_ \\textrm { y }$ n´umero de orden en todas las hojas, y numerarlas. Se puede utilizar todo lo definido en las pr´acticas $_ \\textrm { y }$ todo lo que se dio en clase, colocando referencias claras. El orden de los ejercicios es arbitrario. Recomendamos leer el parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            117,
+            140,
+            880,
+            195
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 - Resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            210,
+            317,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Representar en forma clausal las siguientes f´ormulas de l´ogica de primer orden: ",
+        "bbox": [
+            115,
+            234,
+            721,
+            249
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. ∀X $\\therefore ( \\mathtt { R a d i o } ( X ) \\implies \\mathtt { R u i d o s o } ( X ) )$ Todas las radios son ruidosas.   \n2 ${ \\textrm { . } } \\forall X . \\forall Y . ( ( \\mathtt { P o s e e } ( X , Y ) \\land \\mathtt { L i b r o } ( Y ) ) \\implies \\neg \\exists Z . ( \\mathtt { P o s e e } ( X , Z ) \\land \\mathtt { R e v i s t a } ( Z ) ) )$ Toda persona que posee un libro no posee revistas.   \n$3 . \\ \\forall X . ( \\mathtt { E s D o r m i l o n } ( X ) \\ \\Longrightarrow \\ \\lnot \\exists Y . ( \\mathtt { P o s e e } ( X , Y ) \\land \\mathtt { R u i d o s o } ( Y ) ) )$ Las personas que son dormilonas no poseen nada ruidoso.   \n$4 . \\ \\exists X . ( \\mathtt { P o s e e ( p e p e , } X ) \\land ( \\mathtt { L i b r o ( } X ) \\lor \\mathtt { R a d i o ( } X ) ) )$ Pepe posee un libro o una radio.   \nb) Utilizando resoluci´on, determinar si la siguiente f´ormula es consecuencia del conjunto anterior: $\\mathtt { E s D o r m i l o n ( p e p e ) } \\implies \\neg \\exists Z . ( \\mathtt { P o s e e ( p e p e , } Z ) \\land \\mathtt { R e v i s t a ( } Z ) )$ Si Pepe es dormil´on, entonces no posee revistas. Indicar la sustituci´on utilizada en cada paso. Es importante tener un plan, ya sea escrito o en la cabeza.   \nc) Mirando la resoluci´on utilizada en el punto anterior, ¿fue SLD? Justificar. ",
+        "bbox": [
+            137,
+            256,
+            719,
+            382
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            115,
+            392,
+            884,
+            491
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 - Programaci´on L´ogica ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            506,
+            405,
+            520
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementar los predicados respetando en cada caso la instanciaci´on pedida. Los generadores deben cubrir todas las instancias v´alidas de aquello que generan sin repetir dos veces la misma. No usar cut (!) ni predicados de alto orden como setof, con la ´unica excepci´on de not. ",
+        "bbox": [
+            117,
+            521,
+            882,
+            562
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "En este ejercicio ayudaremos a un grupo de jurados a analizar las notas de las materias que cursaron algunos estudiantes para presentarse a concurso. Se cuenta con el predicado estudiante(?E) que es verdadero cuando E es un estudiante, y con el predicado notas(-XS) que instancia en XS una lista de triplas correspondientes a las notas de los estudiantes en cada materia de la siguiente forma: (Estudiante,Materia,Nota). En la lista de notas pueden aparecer aplazos, pero se asume que est´a bien formada (es decir, puede haber muchos aplazos para un estudiante en una materia, pero a lo sumo un aprobado). Se pide: ",
+        "bbox": [
+            115,
+            577,
+            882,
+            676
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Definir el predicado tieneMateriaAprobada $( + \\mathbb { E } , + \\mathbb { M } )$ que es verdadero cuando el estudiante E tiene la materia M aprobada (es decir, la nota es mayor o igual a 4).   \nb) Definir el predicado eliminarAplazos( $+ \\tt N S$ ,-L) que es verdadero cuando NS es una lista de notas y L es la misma lista, pero eliminando los aplazos. Los aplazos s´olo pueden eliminarse si el estudiante finalmente aprob´o la materia. Por ejemplo: ?- eliminarAplazos([(juan,plp,3),(juan,plp,9),(maria,tlen,2)],L). L = [(juan,plp,9),(maria,tlen,2)].   \nc) Definir el predicado promedio $( + \\mathtt { A } , - \\mathtt { P } )$ que es verdadero cuando A es un estudiante, y P es el promedio de todas sus notas luego de eliminar los aplazos. Sugerencia: armar una lista de notas de A.   \nd) Definir el predicado mejorEstudiante(-A) que es verdadero cuando A es el estudiante cuyo promedio es el m´as alto. Puede haber m´as de una soluci´on en caso de que haya m´as de un estudiante con el promedio m´as alto. En este inciso no est´a permitido utilizar estructuras auxiliares. ",
+        "bbox": [
+            114,
+            686,
+            885,
+            909
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            494,
+            931,
+            504,
+            942
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 - Objetos y Deducci´on Natural ",
+        "text_level": 1,
+        "bbox": [
+            115,
+            63,
+            477,
+            78
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) i. Considerar las siguientes definiciones: ",
+        "bbox": [
+            117,
+            89,
+            450,
+            104
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Object subclass: A [ a: x b: y ^ x a: (y c) b: self. c ^ 2.   \n]   \nB subclass: C [ a: x b: y ^ x. c 1 [self a: super c b: self].   \n]   \nA subclass: B [ a: x b: y ^ $\\texttt { y c + x }$ value. c ^ 1.   \n] ",
+        "bbox": [
+            169,
+            118,
+            393,
+            217
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            532,
+            117,
+            816,
+            217
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            171,
+            231,
+            349,
+            331
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hacer una tabla donde se indique, en orden, cada mensaje se env´ıa, qu´e objeto lo recibe, con qu´e colaboradores, en qu´e clase est´a el m´etodo respectivo, y cu´al es el resultado final de cada colaboraci´on tras ejecutar el siguiente c´odigo: ",
+        "bbox": [
+            173,
+            348,
+            882,
+            391
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(A new) a: (B new) b: (C new) ",
+        "bbox": [
+            191,
+            399,
+            448,
+            414
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ii. Implementar un m´etodo para el mensaje #divisores, cuyo objeto receptor es un n´umero entero, que devuelve una colecci´on con sus divisores.' ' Sugerencia: utilizar el mensaje binario $\\# ^ { \\prime } \\setminus \\setminus ^ { \\prime }$ que devuelve el resto de la divisi´on entera entre dos n´umeros. ",
+        "bbox": [
+            147,
+            423,
+            882,
+            481
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar en deducci´on natural que vale la siguiente f´ormula sin usar principios de razonamiento cl´asicos: ",
+        "bbox": [
+            107,
+            489,
+            884,
+            518
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2b72bfd093ef7c8852b49bf2a21f8c8e1331739f3f1a8a9908c23fdbc19c0b4a.jpg",
+        "text": "$$\n\\forall X . \\forall Y . ( \\exists Z . ( P ( X , Z ) \\land P ( Z , Y ) ) \\implies \\exists W . P ( X , W ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            538,
+            704,
+            552
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            932,
+            504,
+            941
+        ],
+        "page_idx": 1
+    }
+]

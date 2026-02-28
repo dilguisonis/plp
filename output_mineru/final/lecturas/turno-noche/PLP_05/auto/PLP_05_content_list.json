@@ -1,0 +1,2401 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            242,
+            814,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λ ",
+        "text_level": 1,
+        "bbox": [
+            411,
+            341,
+            585,
+            397
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 ",
+        "bbox": [
+            301,
+            441,
+            696,
+            488
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            220,
+            496,
+            781,
+            639
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            74,
+            194,
+            281,
+            246
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sintaxis y tipado ",
+        "bbox": [
+            74,
+            352,
+            541,
+            415
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sem´antica operacional ",
+        "bbox": [
+            77,
+            518,
+            635,
+            580
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/81e87e9f987402c11ae238e07bad8e1635b9e2725c0a44f26854876084a0bc6c.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λbn: extensi´on con n´umeros naturales ",
+        "bbox": [
+            74,
+            687,
+            820,
+            746
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es el c´alculo-λ? ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            370,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de programaci´on definido de manera rigurosa.   \nSe basa s´olo en dos operaciones: construir funciones y aplicarlas. ",
+        "bbox": [
+            69,
+            113,
+            897,
+            209
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hist´oricamente ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            235,
+            281,
+            279
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Concebido en la d´ecada de 1930 por Alonzo Church para formalizar la noci´on de funci´on efectivamente computable. Usado desde la d´ecada de 1960 para estudiar sem´antica formal de lenguajes de programaci´on. ",
+        "bbox": [
+            116,
+            297,
+            875,
+            503
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Actualmente ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            558,
+            248,
+            602
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "N´ucleo de lenguajes de programaci´on funcionales y asistentes de demostraci´on. Lisp, OCaml, Haskell, Coq, Agda, Lean, . . .. ",
+        "bbox": [
+            124,
+            617,
+            917,
+            764
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Laboratorio para investigar nuevas caracter´ısticas de lenguajes. ",
+        "bbox": [
+            129,
+            779,
+            922,
+            827
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Fuertemente conectado con la teor´ıa de la demostraci´on, matem´atica constructiva, teor´ıa de categor´ıas, . . . ",
+        "bbox": [
+            129,
+            841,
+            864,
+            937
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            279,
+            246
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sintaxis y tipado ",
+        "bbox": [
+            74,
+            352,
+            541,
+            415
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sem´antica operacional ",
+        "bbox": [
+            74,
+            518,
+            635,
+            580
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/55b6e8d7549b9972b828518a66f60115490e8d668ce0611c12146553ffdfccb8.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λbn: extensi´on con n´umeros naturales ",
+        "bbox": [
+            74,
+            687,
+            820,
+            746
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c992dbe83a73185131c634d607c7f2abd43b72420882c5724153268c7099c33b.jpg",
+        "text": "$$\nE | \\mathsf { c a l c u l o - } \\lambda ^ { b }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            2,
+            18,
+            237,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de los tipos ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            279,
+            348,
+            323
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c20e59cb470ff718391f944203cf0ff627d30193c526f361be6739c5fda5229f.jpg",
+        "text": "$$\n\\begin{array} { c c } { { \\tau , \\sigma , \\rho , \\ldots } } & { { \\mathrel { \\mathop : } \\mathrel { : } = } } & { { \\mathsf { b o o l } } } \\\\ { { \\mid } } & { { \\tau \\to \\sigma } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            371,
+            654,
+            477
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Asumimos que el constructor de tipos “→” es asociativo a derecha: ",
+        "bbox": [
+            77,
+            522,
+            925,
+            573
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cc2c01756205bca4accac5c274819b051e668f2eb97d336ee7f7a7d695e73f17.jpg",
+        "text": "$$\n\\begin{array} { r l r l r l r l } { { } ~ \\to \\rho } & { { } } & { = { } } & { \\tau \\to ( \\sigma \\to \\rho ) } & { { } } & { \\neq } & { { } ( \\tau \\to } & { } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            610,
+            754,
+            665
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo-λb ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            232,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Suponemos dado un conjunto infinito numerable de variables: ",
+        "bbox": [
+            71,
+            95,
+            856,
+            143
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/71a3f539af2d8f53a068f71bf002c23a3a718350587b1d6567d5f313399d810f.jpg",
+        "text": "$$\n\\mathcal { X } = \\{ x , y , z , \\ldots \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            161,
+            613,
+            213
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de los t´erminos ",
+        "bbox": [
+            74,
+            242,
+            400,
+            290
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "${ \\begin{array} { l l l } { M , N , P , \\dots } & { : : = } & { x } \\\\ & { \\mid } & { \\lambda x : \\tau . M } \\\\ & { \\mid } & { M N } \\\\ & { \\mid } & { { \\mathrm { t r u e } } } \\\\ & { \\mid } & { { \\mathrm { f a l s e } } } \\\\ & { \\mid } & { { \\mathrm { i f } } \\ M { \\mathrm { t h e n } } \\ N { \\mathrm { \\ e l s e } } \\ P } \\end{array} }$ variable abstracci´on aplicaci´on verdadero falso condicional ",
+        "bbox": [
+            143,
+            316,
+            864,
+            632
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Asumimos que la aplicaci´on es asociativa a izquierda: ",
+        "bbox": [
+            77,
+            683,
+            754,
+            731
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/985e26b256b617e8f5788d67dff049438653f0573c71d59b3084c14ea7a2b3d7.jpg",
+        "text": "$$\n\\begin{array} { r l r } { { \\cal M } { \\cal N } { \\cal P } } & { { } = } & { \\left( { \\cal M } { \\cal N } \\right) { \\cal P } \\quad \\ne \\quad { \\cal M } \\left( { \\cal N } \\right. } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            229,
+            746,
+            737,
+            805
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "La abstracci´on y el “if” tienen menor precedencia que la aplicaci´on: ",
+        "bbox": [
+            77,
+            819,
+            917,
+            867
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "λx : τ. M N $\\begin{array} { r l r } { = { } } & { { } \\lambda x : \\tau . \\left( M N \\right) \\quad \\neq { } } & { \\left( \\lambda x : \\tau . \\Lambda \\right. } \\end{array}$ ) N ",
+        "bbox": [
+            129,
+            882,
+            870,
+            941
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/60dbd642a2fff1eabce955f73caf729c08f9d7bf5d1640a6ccef19bbf01e8d20.jpg",
+        "text": "$$\n\\begin{array} { r l } & { { \\mathsf { E j e m p l o s ~ d e ~ t e r m i n o s } } } \\\\ & { \\bullet \\quad \\lambda x : { \\mathsf { b o o l . } } x } \\\\ & { \\bullet \\quad \\lambda x : { \\mathsf { b o o l . } } } \\\\ & { \\bullet \\quad ( \\lambda x : { \\mathsf { b o o l . } } x ) { \\mathsf { f a l s e } } } \\\\ & { \\bullet \\quad ( \\lambda x : { \\mathsf { b o o l . } } x ) { \\mathsf { f a l s e } } } \\\\ & { \\bullet \\quad ( \\lambda x : { \\mathsf { b o o l . } } \\mapsto { \\mathsf { b o o l . } } x ) ( \\lambda y : { \\mathsf { b o o l . } } y ) } \\\\ & { \\bullet \\quad ( \\lambda x : { \\mathsf { b o o l . } } \\lambda y : { \\mathsf { b o o l . } }  { \\mathsf { b o o l . } } y x ) { \\mathsf { t r } } } \\\\ & { \\bullet \\quad \\lambda x : { \\mathsf { b o o l . } } { \\mathsf { i f ~ } } x { \\mathsf { \\ t h e n ~ f a l s e ~ e l s e ~ t r u e } } } \\\\ & { \\bullet { \\mathsf { t r u e ~ f r u e } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            74,
+            176,
+            616,
+            786
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            301,
+            121,
+            790
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            19,
+            25,
+            232,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Variables libres y ligadas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            417,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Una ocurrencia de x est´a ligada si aparece adentro de una abstracci´on “λ x”. Una ocurrencia de $x$ est´a libre si no est´a ligada. ",
+        "bbox": [
+            74,
+            95,
+            925,
+            191
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            216,
+            187,
+            264
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Marcar ocurrencias de variables libres y ligadas: ",
+        "bbox": [
+            77,
+            275,
+            676,
+            319
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(λx : bool → bool. λy : bool. x y) (λy : bool. x y) y ",
+        "bbox": [
+            176,
+            363,
+            823,
+            415
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            500,
+            190,
+            540
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Definir el conjunto de variables libres $\\mathsf { f v } ( M )$ de M. ",
+        "bbox": [
+            77,
+            555,
+            712,
+            602
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Alfa equivalencia ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            636,
+            303,
+            683
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Los t´erminos que difieren s´olo en el nombre de variables ligadas se consideran iguales: ",
+        "bbox": [
+            74,
+            694,
+            919,
+            794
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "λx : τ. ${ \\begin{array} { r } { . } \\lambda y : \\sigma . x \\ = \\ \\lambda y : \\tau . \\lambda x : \\sigma . y \\ = \\ \\lambda a : \\tau . } \\\\ { . } \\lambda y : \\sigma . x \\ \\neq \\ \\lambda x : \\tau . \\lambda y : \\sigma . y \\ = \\ \\lambda x : \\tau .  \\end{array} $ λb : σ. a λx : τ. λx : σ. x ",
+        "bbox": [
+            143,
+            827,
+            853,
+            933
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Sistema de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            292,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "La noci´on de “tipabilidad” se formaliza con un sistema deductivo. ",
+        "bbox": [
+            71,
+            95,
+            906,
+            143
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            165,
+            204,
+            209
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e tipo tiene x? ",
+        "bbox": [
+            77,
+            216,
+            317,
+            261
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Contextos de tipado ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            297,
+            350,
+            341
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Un contexto de tipado es un conjunto finito de pares $\\left( x _ { i } : \\tau _ { i } \\right)$ : ",
+        "bbox": [
+            74,
+            356,
+            883,
+            404
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fa1646b649d794f9f86e0b4083e87911f6e10d8e9caf35825c0b536331acd8b8.jpg",
+        "text": "$$\n\\{ x _ { 1 } : \\tau _ { 1 } , \\ldots , x _ { n } : \\tau _ { n } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            444,
+            635,
+            496
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "sin variables repetidas $( i \\neq j \\Rightarrow x _ { i } \\neq x _ { j } ) .$ ",
+        "bbox": [
+            74,
+            536,
+            585,
+            584
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Se nota con letras griegas may´usculas (Γ, ∆, . . .). ",
+        "bbox": [
+            74,
+            588,
+            696,
+            632
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "A veces notamos do $\\mathfrak { n } ( \\Gamma ) = \\{ x _ { 1 } , \\dots , x _ { n } \\}$ ",
+        "bbox": [
+            74,
+            636,
+            593,
+            683
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Juicios de tipado ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            716,
+            306,
+            764
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "El sistema de tipos predica sobre juicios de tipado, de la forma: ",
+        "bbox": [
+            74,
+            790,
+            897,
+            838
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Sistema de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            292,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Reglas de tipado ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            202,
+            303,
+            250
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "t-true t-false Γ ⊢ true : bool Γ ⊢ false : bool Γ ⊢ M : bool Γ ⊢ N : τ Γ ⊢ P : τ t-if Γ ⊢ if M then N else P : τ $\\frac { \\Gamma , x : \\tau \\vdash M : \\sigma } { : \\tau \\vdash x : \\tau } \\mathrm { T } \\mathrm { - V A R } \\qquad \\Gamma \\vdash \\lambda x : \\tau . M : \\tau $ t-abs Γ, x σ $\\frac { \\Gamma \\vdash M : \\tau  \\sigma \\quad \\Gamma \\vdash N : \\tau } { \\Gamma \\vdash M N : \\sigma } \\mathrm { T } \\lnot \\mathrm { A P P }$ ",
+        "bbox": [
+            160,
+            312,
+            839,
+            816
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Sistema de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            292,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — derivaciones de juicios de tipado ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            250,
+            682,
+            297
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Derivar, si es posible, juicios de tipado para los siguientes t´erminos: ",
+        "bbox": [
+            80,
+            308,
+            922,
+            360
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "1. λx : bool. if $x$ then false else x   \n2. λy : bool → bool → bool. λz : bool. y (y x z)   \n3. x z (y z)   \n4. λx : bool → bool. λx : bool. x   \n5. true (λx : bool. x)   \n6. x x ",
+        "bbox": [
+            91,
+            415,
+            707,
+            768
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Propiedades del sistema de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            552,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Unicidad de tipos) ",
+        "bbox": [
+            74,
+            334,
+            464,
+            382
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Si Γ ⊢ M : τ y Γ ⊢ M : σ son derivables, entonces $\\tau = \\sigma$ . ",
+        "bbox": [
+            74,
+            397,
+            801,
+            441
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Weakening + Strengthening) ",
+        "bbox": [
+            77,
+            496,
+            613,
+            547
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Si Γ ⊢ M : τ es derivable y $\\mathsf { f v } ( M ) \\subseteq \\mathsf { d o m } ( \\Gamma \\cap \\Gamma ^ { \\prime } )$ entonces $\\Gamma ^ { \\prime } \\vdash M : \\tau$ es derivable. ",
+        "bbox": [
+            74,
+            558,
+            817,
+            654
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            279,
+            246
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sintaxis y tipado ",
+        "bbox": [
+            74,
+            352,
+            541,
+            415
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sem´antica operacional ",
+        "bbox": [
+            74,
+            518,
+            635,
+            580
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λbn: extensi´on con n´umeros naturales ",
+        "bbox": [
+            74,
+            687,
+            820,
+            746
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica formal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            303,
+            84
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "El sistema de tipos indica c´omo se construyen los programas.   \nQueremos adem´as darles significado (sem´antica). ",
+        "bbox": [
+            71,
+            117,
+            848,
+            213
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Distintas maneras de dar sem´antica formal ",
+        "bbox": [
+            77,
+            235,
+            651,
+            283
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "1. Sem´antica operacional. ",
+        "text_level": 1,
+        "bbox": [
+            96,
+            297,
+            455,
+            341
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Indica c´omo se ejecuta el programa hasta llegar a un resultado. ",
+        "bbox": [
+            127,
+            349,
+            922,
+            393
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica small-step: ejecuci´on paso a paso.   \nSem´antica big-step: evaluaci´on directa al resultado. ",
+        "bbox": [
+            149,
+            415,
+            856,
+            511
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2. Sem´antica denotacional. Interpreta los programas como objetos matem´aticos. ",
+        "bbox": [
+            96,
+            547,
+            803,
+            639
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3. Sem´antica axiom´atica. Establece relaciones l´ogicas entre el estado del programa antes y despu´es de la ejecuci´on. ",
+        "bbox": [
+            104,
+            658,
+            928,
+            801
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "4. ",
+        "bbox": [
+            96,
+            819,
+            174,
+            860
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Vamos a trabajar con sem´antica operacional small-step. ",
+        "bbox": [
+            77,
+            911,
+            773,
+            955
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "14 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional small-step ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            566,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Programas ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            136,
+            223,
+            180
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Un programa es un t´ermino M tipable y cerrado $( \\mathsf { f v } ( M ) = \\emptyset )$ : ",
+        "bbox": [
+            74,
+            191,
+            875,
+            238
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "El juicio de tipado ⊢ M : τ debe ser derivable para alg´un $\\tau$ ",
+        "bbox": [
+            124,
+            253,
+            883,
+            301
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Juicios de evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            375,
+            359,
+            422
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "La sem´antica operacional predica sobre juicios de evaluaci´on: ",
+        "bbox": [
+            74,
+            441,
+            872,
+            488
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "donde M y N son programas. ",
+        "bbox": [
+            82,
+            639,
+            461,
+            683
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            720,
+            176,
+            764
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los posibles resultados de evaluar programas: ",
+        "bbox": [
+            74,
+            772,
+            853,
+            816
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            257,
+            121,
+            286
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional small-step ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            566,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            264,
+            734,
+            316
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/01e4c12dbe20d4c9a83fa3f75943c579bcaacb7b4df78557c21bfed40c0d1ab3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            201,
+            264,
+            798,
+            720
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional small-step ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            566,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            209,
+            187,
+            257
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1. Derivar el siguiente juicio: ",
+        "bbox": [
+            96,
+            283,
+            464,
+            327
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "if (if false then false else true) then false else true → if true then false else true ",
+        "bbox": [
+            187,
+            367,
+            872,
+            463
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "2. ¿Para qu´e t´erminos M vale que true → M? ",
+        "bbox": [
+            99,
+            540,
+            687,
+            588
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "3. ¿Es posible derivar el siguiente juicio? ",
+        "bbox": [
+            96,
+            602,
+            613,
+            650
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "if true then (if false then false else false) else true → if true then false else true ",
+        "bbox": [
+            187,
+            687,
+            872,
+            786
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1409e42353b68b9bf53ba01c792167fdc240b35ae04f6bf483fe137afb78f59e.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional small-step ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            566,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Reglas de evaluaci´on para funciones (abstracci´on y aplicaci´on) ",
+        "bbox": [
+            77,
+            253,
+            919,
+            308
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "$\\frac { M \\to M ^ { \\prime } } { M N \\to M ^ { \\prime } N } \\mathrm { E - A P P 1 }$ $\\begin{array} { c } { { N  N ^ { \\prime } } } \\\\ { { \\overline { { { \\lambda x : \\tau . M ) N  ( \\lambda x : \\tau . M ) N ^ { \\prime } } } } ^ { \\mathrm { E - A P P 2 } } } } \\\\ { { { } } } \\\\ { { \\overline { { { \\lambda x : \\tau . M ) V  M \\{ x : = V \\} } } } ^ { \\mathrm { E - A P P A B S } } } } \\end{array}$ ",
+        "bbox": [
+            237,
+            345,
+            765,
+            750
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "La operaci´on de sustituci´on: ",
+        "bbox": [
+            74,
+            341,
+            444,
+            386
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/946c69d447a013cdeb75cb2c751b57dc881eb85eb2226fe97e7c3c09f2b18d1e.jpg",
+        "text": "$$\nM \\{ x : = N \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            422,
+            430,
+            574,
+            481
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "denota el t´ermino que resulta de reemplazar todas las ocurrencias libres de x en M por N. ",
+        "bbox": [
+            74,
+            522,
+            906,
+            617
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Definici´on de sustituci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            128,
+            408,
+            176
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\begin{array} { l l l } { x \\{ x : = N \\} } & { { \\stackrel { \\mathrm { d e f } } { = } } } & { N } \\\\ { a \\{ x : = N \\} } & { { \\stackrel { \\mathrm { d e f } } { = } } } & { a { \\mathsf { s i } } \\ a \\in \\{ { \\mathrm { t r u e } } , { \\mathsf { f a l s e } } \\} } \\\\ { Q ) \\{ x : = N \\} } & { { \\stackrel { \\mathrm { d e f } } { = } } } & { { \\mathsf { i f } } \\ M \\{ x : = N \\} } \\end{array} } \\end{array}$ ∪ X \\ {x} (if M then $P$ else then $P \\{ x : = N \\}$ else $Q \\{ x : = N \\}$ (M1 M2){x := N} def = def = $M _ { 1 } \\{ x : = N \\} M _ { 2 } \\{ x : = N \\}$ (λy : τ. M){x := N} $\\left\\{ \\begin{array} { l l } { \\lambda y : \\tau . M } & { \\mathrm { ~ s i ~ } x = y } \\\\ { \\lambda y : \\tau . M \\{ x : = N \\} } & { \\mathrm { ~ s i ~ } x \\not = y } \\\\ { \\lambda z : \\tau . M \\{ y : = z \\} \\{ x : = N \\} } & { \\mathrm { ~ s i ~ } x \\not = y } \\\\ { \\qquad z \\not \\in \\{ x , } \\end{array} \\right.$ , y ∈/ fv(N) , y ∈ fv(N ), y } ∪ fv(M) ∪ fv(N) ",
+        "bbox": [
+            104,
+            242,
+            986,
+            941
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Sustituci´on ",
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "20 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Definici´on de sustituci´on (alternativa) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            585,
+            209
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } { x \\{ x : = N \\} } & { \\stackrel { \\mathrm { d e f } } { = } } \\\\ { \\quad \\partial \\{ x : = N \\} } & { \\stackrel { \\mathrm { d e f } } { = } } \\\\ { Q ) \\{ x : = N \\} } & { \\stackrel { \\mathrm { d e f } } { = } } & { \\stackrel { \\partial } { \\operatorname { d } } \\{ x : n \\} } \\\\ & { \\qquad \\mathrm { t h e n } \\ P \\{ x : = N \\} } \\\\ & { \\qquad \\mathrm { e l s e } \\ Q \\{ x : = N \\} } \\\\ { M _ { 2 } ) \\{ x : = N \\} } & { \\stackrel { \\mathrm { d e f } } { = } } & { M _ { 1 } \\{ x : = N \\} M _ { 2 } \\{ x : = N \\} } \\\\ { M \\} \\{ x : = N \\} } & { \\stackrel { \\mathrm { d e f } } { = } } & { \\lambda y : \\tau . M \\{ x : = N \\} } \\end{array}$ ∪ X \\ {x } (if M then $P$ else (M1 $\\begin{array} { r l } & { M _ { 1 } \\{ x : = N \\} M _ { 2 } \\{ x : = N \\} } \\\\ & { \\lambda y : \\tau . M \\{ x : = N \\} } \\\\ & { \\mathsf { a s u m i e n d o } y \\notin \\{ x \\} \\cup \\mathsf { f v } ( N ) } \\end{array}$ (λy : τ. ",
+        "bbox": [
+            88,
+            286,
+            964,
+            764
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "La asunci´on se puede cumplir siempre, renombrando la variable ligada “y” en caso de conflicto. ",
+        "bbox": [
+            74,
+            827,
+            878,
+            922
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Sustituci´on ",
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional small-step ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            566,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Definimos un juicio de evaluaci´on en muchos pasos: ",
+        "bbox": [
+            74,
+            253,
+            776,
+            301
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "donde M y N son programas. ",
+        "bbox": [
+            82,
+            452,
+            461,
+            496
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Reglas de evaluaci´on en muchos pasos ",
+        "bbox": [
+            77,
+            522,
+            599,
+            569
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/815865440b0455c4f9713716c87afdd91f8fe7674938b4babf50388188e12441.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\frac { } { M \\twoheadrightarrow M } } & { { } \\frac { M  N \\quad N \\twoheadrightarrow P } { M \\twoheadrightarrow N } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            303,
+            613,
+            698,
+            720
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional small-step ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            566,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            363,
+            381,
+            411
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Reducir repetidamente el siguiente t´ermino hasta llegar a un valor: ",
+        "bbox": [
+            74,
+            422,
+            919,
+            470
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(λx : bool. λf : bool → bool. $f \\left( f x \\right) )$ true (λx : bool. x) ",
+        "bbox": [
+            151,
+            511,
+            850,
+            562
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "img_path": "images/52a1cf9462c1aebaf1243191a95b33dce7cf10505b6ebcabf805eb4ec1ca68c7.jpg",
+        "text": "$$\n^ { 2 3 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Propiedades de la evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            488,
+            84
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Determinismo) ",
+        "bbox": [
+            77,
+            136,
+            417,
+            187
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Si $M  N _ { 1 }$ y $M  N _ { 2 }$ entonces $N _ { 1 } = N _ { 2 }$ . ",
+        "bbox": [
+            77,
+            198,
+            610,
+            246
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Preservaci´on de tipos) ",
+        "bbox": [
+            77,
+            279,
+            516,
+            330
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Si ⊢ M : τ y $M  N$ entonces ⊢ N : τ . ",
+        "bbox": [
+            77,
+            341,
+            574,
+            386
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Progreso) ",
+        "bbox": [
+            77,
+            422,
+            348,
+            474
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Si ⊢ M : τ entonces: ",
+        "bbox": [
+            74,
+            485,
+            337,
+            529
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "1. O bien M es un valor.   \n2. O bien existe N tal que $M  N$ . ",
+        "bbox": [
+            93,
+            547,
+            552,
+            654
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Terminaci´on) ",
+        "bbox": [
+            77,
+            705,
+            395,
+            757
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Si ⊢ M : τ , entonces no hay una cadena infinita de pasos: ",
+        "bbox": [
+            71,
+            768,
+            806,
+            816
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1b8d618ca4d32601f66aceb242347f993b80e2ae5c95f6444a9a392cb032ddeb.jpg",
+        "text": "$$\nM  M _ { 1 }  M _ { 2 }  . . .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            353,
+            856,
+            646,
+            904
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Propiedades de la evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            488,
+            84
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Corolario (Canonicidad) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            283,
+            397,
+            334
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "1. Si ⊢ M : bool es derivable, entonces la evaluaci´on de M termina y el resultado es true o false. ",
+        "bbox": [
+            93,
+            356,
+            850,
+            452
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "2. ${ \\mathsf { S i } } \\vdash M : \\tau  \\sigma$ es derivable, entonces la evaluaci´on de M termina y el resultado es una abstracci´on. ",
+        "bbox": [
+            93,
+            466,
+            878,
+            562
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Slogan ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            617,
+            171,
+            665
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Well typed programs cannot go wrong. ",
+        "bbox": [
+            77,
+            680,
+            569,
+            724
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "(Robin Milner) ",
+        "bbox": [
+            734,
+            676,
+            922,
+            720
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            279,
+            246
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sintaxis y tipado ",
+        "bbox": [
+            74,
+            352,
+            541,
+            415
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λb: sem´antica operacional ",
+        "bbox": [
+            74,
+            518,
+            635,
+            580
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λbn: extensi´on con n´umeros naturales ",
+        "bbox": [
+            74,
+            683,
+            823,
+            746
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/92a5849008bd0b4761226a99bccb2481e2974c4b6e1bbf9df74b3bca0369e2a0.jpg",
+        "text": "$$\nE | \\mathsf { c a l c u l o } \\lambda ^ { b n }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            2,
+            18,
+            248,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis: tipos ",
+        "bbox": [
+            74,
+            180,
+            273,
+            227
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "τ , σ, . . . ::= . . . | nat ",
+        "bbox": [
+            350,
+            290,
+            649,
+            338
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis: t´erminos ",
+        "bbox": [
+            74,
+            408,
+            323,
+            455
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica informal ",
+        "text_level": 1,
+        "bbox": [
+            378,
+            485,
+            649,
+            533
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "M ::= ",
+        "bbox": [
+            88,
+            540,
+            251,
+            580
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "zero el n´umero cero succ(M) el sucesor del n´umero que representa M pred(M) el predecesor del n´umero que representa M isZero(M) representa un booleano true/false, dependiendo de si M representa al cero o n ",
+        "bbox": [
+            80,
+            577,
+            928,
+            834
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a0c25835be728c315b4f02c5828cfb3dc7d19f1a89dfc3b38a6bec637b3a14c2.jpg",
+        "text": "$$\n\\mathsf { E I ~ c a l c u l o ~ \\lambda ^ { b n } : ~ r e g l a s ~ d e ~ t i p a d o }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            18,
+            533,
+            91
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "t-zero Γ ⊢ zero : nat ",
+        "bbox": [
+            359,
+            330,
+            640,
+            400
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ M : nat Γ ⊢ M : nat t-succ t-pred Γ ⊢ succ(M) : nat Γ ⊢ pred(M) : nat ",
+        "bbox": [
+            149,
+            433,
+            853,
+            547
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ M : nat t-isZero Γ ⊢ isZero(M) : bool ",
+        "bbox": [
+            301,
+            580,
+            701,
+            691
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cb1dbbedbc55b9a3774818cdfe920dff2245081a10eecfd06c2cd8ec48d61aa2.jpg",
+        "text": "$$\nE | \\mathsf { c } \\acute { \\mathsf { a } } | \\mathsf { c } \\mathsf { u } | \\mathsf { o } \\lambda ^ { b n } \\mathrm { : ~ } \\mathsf { v a l o r e s }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            13,
+            18,
+            386,
+            84
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el conjunto de valores: ",
+        "bbox": [
+            74,
+            382,
+            530,
+            426
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e8d4f64260ba414b8c81c09de10a221b7a7b3000e46a2b8562e91c135bcc4f31.jpg",
+        "text": "$$\nV : : = \\dots | \\sf { z e r o } | \\sf { s u c c } ( V )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            463,
+            665,
+            522
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo λbn: sem´antica operacional ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            25,
+            629,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l r } & { } & { \\xrightarrow { M  M ^ { \\prime } } \\mathrm { E - S U C C } } \\\\ & { } & { \\xrightarrow { \\mathrm { s u c c } ( M )  \\mathrm { s u c c } ( M ^ { \\prime } ) } \\mathrm { E - S U C C } } \\\\ & { } & { \\xrightarrow { M  M ^ { \\prime } } \\mathrm { E - P R E D } } \\\\ & { } & { \\mathrm { p r e d } ( M )  \\mathrm { p r e d } ( M ^ { \\prime } ) } \\end{array}$ e-predSucc   \npred(succ(V )) → V M → M′ e-isZero   \nisZero(M) → isZero(M′) e-isZeroZero   \nisZero(zero) → true e-isZeroSucc   \nisZero(succ(V )) → false ",
+        "bbox": [
+            243,
+            143,
+            756,
+            933
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo λbn: sem´antica operacional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            629,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            187,
+            238
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "1. Evaluar isZero(succ(pred(succ(zero)))).   \n2. Evaluar isZero(pred(pred(succ(zero)))). ",
+        "bbox": [
+            93,
+            261,
+            635,
+            375
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(¿Qu´e ocurre?) ",
+        "bbox": [
+            256,
+            323,
+            925,
+            378
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Forma normal (“f.n.”) ",
+        "bbox": [
+            74,
+            426,
+            378,
+            474
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Un programa M es una f.n. si no existe M′ tal que $M  M ^ { \\prime }$ . ",
+        "bbox": [
+            74,
+            488,
+            859,
+            536
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "¿Todas las f.n.’s cerradas y tipables son valores? ",
+        "bbox": [
+            77,
+            588,
+            726,
+            639
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "En el c´alculo-λb s´ı. En el c´alculo- $\\lambda ^ { b n }$ no. (¿Qu´e propiedad deja de valer?) ",
+        "bbox": [
+            132,
+            672,
+            861,
+            775
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Las f.n.’s que no son valores se llaman t´erminos de error. ",
+        "bbox": [
+            74,
+            812,
+            825,
+            860
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            253,
+            745,
+            352
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada   \nCap´ıtulos 5 y 9 del libro de Pierce.   \nBenjamin C. Pierce. Types and Programming Languages The MIT Press, 2002. ",
+        "bbox": [
+            71,
+            441,
+            801,
+            636
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    }
+]

@@ -1,0 +1,5614 @@
+[
+    {
+        "type": "text",
+        "text": "Cálculo (λx.Lxmbdx) a ",
+        "text_level": 1,
+        "bbox": [
+            282,
+            164,
+            717,
+            254
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas de Lenguajes de Programación ",
+        "bbox": [
+            267,
+            423,
+            732,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Ciencias de la Computación Universidad de Buenos Aires ",
+        "bbox": [
+            302,
+            560,
+            697,
+            647
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "26 de septiembre de 2025 ",
+        "bbox": [
+            379,
+            741,
+            620,
+            784
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dada la siguiente expresión: ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            384,
+            362,
+            435
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\lambda x$ : Bool. λy : Bool Bool. y $( y \\ x )$ ) ( $\\lambda z$ : Bool. true) false) (λw : Bool. w) ",
+        "bbox": [
+            61,
+            447,
+            671,
+            494
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "¿Qué significa esto? ¿Significa algo? ¿Es válido? ¿Es un valor? ¿Cómo nos damos cuenta? ",
+        "bbox": [
+            57,
+            564,
+            905,
+            615
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "1 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Objetivo de la clase ",
+        "bbox": [
+            15,
+            31,
+            273,
+            90
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            61,
+            384,
+            77,
+            423
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vamos a ver ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            35,
+            181,
+            82
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis del cálculo lambda   \nTipado   \nSemántica operacional, estrategias de reducción   \nExtensión de números naturales ",
+        "bbox": [
+            101,
+            376,
+            547,
+            600
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            992
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "2 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            68,
+            368,
+            97,
+            592
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Los tipos del cálculo lambda simplemente tipado con booleanos se definen mediante la siguiente gramática: ",
+        "bbox": [
+            55,
+            156,
+            883,
+            235
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/56123754954f59a6b36b60e603ee62a440084f2e189b0b391244113a2b1f74bc.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            239,
+            584,
+            286
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "3 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis ",
+        "bbox": [
+            15,
+            31,
+            119,
+            82
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            119,
+            82
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Los tipos del cálculo lambda simplemente tipado con booleanos se definen mediante la siguiente gramática: ",
+        "bbox": [
+            57,
+            156,
+            885,
+            239
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c7f841ad13c1e55ad21ee285596673727e0d4c6fa47623c6e259bcf550d8dfdc.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            412,
+            239,
+            584,
+            286
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "y sus términos son los siguientes: ",
+        "bbox": [
+            59,
+            301,
+            344,
+            345
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "$M : : = x \\mid \\lambda x : \\sigma . M \\mid M M \\mid { \\mathsf { t r u e } } \\mid { \\mathsf { f a l s e } } \\mid { \\mathsf { i f } } \\ N$ $M$ then $M$ else $M$ ",
+        "bbox": [
+            229,
+            372,
+            766,
+            423
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "donde $x \\in \\mathcal { X }$ , el conjunto de todas las variables. Llamamos $\\tau$ al conjunto de todos los términos. ",
+        "bbox": [
+            41,
+            450,
+            885,
+            498
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "3 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            119,
+            82
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Los tipos del cálculo lambda simplemente tipado con booleanos se definen mediante la siguiente gramática: ",
+        "bbox": [
+            57,
+            156,
+            885,
+            235
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/94cee6bcdfb7b941accbe7ddcaf3909f3ba27a7f3cf89d823fba0a655ee8075f.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            412,
+            239,
+            584,
+            286
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "y sus términos son los siguientes: ",
+        "bbox": [
+            59,
+            301,
+            344,
+            345
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$M : : = x \\mid \\lambda x : \\sigma . M \\mid M M \\mid { \\mathrm { t r u e } } \\mid { \\mathsf { f a l s e } } \\mid { \\mathsf { i f } } \\ N$ $M$ then $M$ else $M$ ",
+        "bbox": [
+            229,
+            372,
+            766,
+            423
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "donde $x \\in \\mathcal { X }$ , el conjunto de todas las variables. Llamamos $\\tau$ al conjunto de todos los términos. ",
+        "bbox": [
+            48,
+            450,
+            880,
+            494
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Variables libres y ligadas ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            537,
+            271,
+            576
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Las variables libres son todas aquellas fuera del alcance de las λs. Se define la función $\\mathsf { f v } : { \\mathcal T } \\to { \\mathcal P } ( { \\mathcal X } )$ , que dado un término devuelve un conjunto de las variables libres en él. ",
+        "bbox": [
+            57,
+            580,
+            940,
+            662
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "3 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            119,
+            82
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Los tipos del cálculo lambda simplemente tipado con booleanos se definen mediante la siguiente gramática: ",
+        "bbox": [
+            57,
+            156,
+            885,
+            235
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9b9df40c5904f9ad94624afcb8a66992e146fdb271a1813945aa0a4f0360b06a.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            412,
+            239,
+            584,
+            286
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "y sus términos son los siguientes: ",
+        "bbox": [
+            59,
+            301,
+            344,
+            345
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$M : : = x \\mid \\lambda x : \\sigma . M \\mid M M \\mid { \\mathrm { t r u e } } \\mid { \\mathsf { f a l s e } } \\mid { \\mathsf { i f } } \\ N$ $M$ then $M$ else $M$ ",
+        "bbox": [
+            229,
+            372,
+            766,
+            423
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "donde $x \\in \\mathcal { X }$ , el conjunto de todas las variables. Llamamos $\\tau$ al conjunto de todos los términos. ",
+        "bbox": [
+            48,
+            450,
+            883,
+            494
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Variables libres y ligadas ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            537,
+            271,
+            576
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Las variables libres son todas aquellas fuera del alcance de las $\\lambda s$ . Se define la función $\\mathsf { f v } : { \\mathcal T } \\to { \\mathcal P } ( { \\mathcal X } )$ , que dado un término devuelve un conjunto de las variables libres en él. ",
+        "bbox": [
+            59,
+            580,
+            942,
+            662
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/decb89fa104086b940ea549de451eccaaa4da31b14d6053362c26d1423f132ac.jpg",
+        "text": "$$\n\\begin{array} { c } { \\mathsf { f v } ( x ) = \\mathsf { \\{ x \\} } } \\\\ { \\mathsf { f v } ( \\lambda x : \\sigma . M ) = \\mathsf { f v } ( M ) \\backslash \\{ x \\} } \\\\ { \\mathsf { f v } ( M N ) = \\mathsf { f v } ( M ) \\cup \\mathsf { f v } ( N ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            682,
+            373,
+            847
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/90d2827487a723815736d1990453f679618691f8ec107040daa87724fd42ebfc.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mathsf { f v } ( \\mathsf { t r u e } ) = \\emptyset } \\\\ { \\mathsf { f v } ( \\mathsf { f a l s e } ) = \\emptyset } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            633,
+            678,
+            748,
+            788
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "fv(if M then $N$ else $O ) = { \\mathsf { f v } } ( M ) \\cup { \\mathsf { f v } } ( N ) \\cup { \\mathsf { f v } } ( O )$ ",
+        "bbox": [
+            501,
+            796,
+            929,
+            839
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "3 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Los tipos del cálculo lambda simplemente tipado con booleanos se definen mediante la siguiente gramática: ",
+        "bbox": [
+            57,
+            156,
+            885,
+            235
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6694085ba9df1632db083dae905cf0e818a18603807d031750c24d2a04a7c350.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            412,
+            239,
+            584,
+            286
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "y sus términos son los siguientes: ",
+        "bbox": [
+            59,
+            301,
+            344,
+            345
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "$M : : = x \\mid \\lambda x : \\sigma . M \\mid M M \\mid { \\mathrm { t r u e } } \\mid { \\mathsf { f a l s e } } \\mid { \\mathsf { i f } } \\ N$ $M$ then $M$ else $M$ ",
+        "bbox": [
+            229,
+            372,
+            766,
+            423
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "donde $x \\in \\mathcal { X }$ , el conjunto de todas las variables. Llamamos $\\tau$ al conjunto de todos los términos. ",
+        "bbox": [
+            48,
+            450,
+            883,
+            494
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Variables libres y ligadas ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            537,
+            271,
+            576
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Las variables libres son todas aquellas fuera del alcance de las λs. Se define la función $\\mathsf { f v } : { \\mathcal T } \\to { \\mathcal P } ( { \\mathcal X } )$ , que dado un término devuelve un conjunto de las variables libres en él. ",
+        "bbox": [
+            59,
+            580,
+            942,
+            662
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4c69f4872dfad74ae71fb8533fbfe11c0a866cb693c5f42d4dd85f8236173887.jpg",
+        "text": "$$\n\\begin{array} { c } { \\mathsf { f v } ( x ) = \\mathsf { \\{ x \\} } } \\\\ { \\mathsf { f v } ( \\lambda x : \\sigma . M ) = \\mathsf { f v } ( M ) \\backslash \\{ x \\} } \\\\ { \\mathsf { f v } ( M N ) = \\mathsf { f v } ( M ) \\cup \\mathsf { f v } ( N ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            678,
+            373,
+            847
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2df7a98c449a80f6b8b61ff42b61cafa8911c2c0e12085700bab063f3f76a004.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mathsf { f v } ( \\mathsf { t r u e } ) = \\emptyset } \\\\ { \\mathsf { f v } ( \\mathsf { f a l s e } ) = \\emptyset } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            633,
+            678,
+            748,
+            788
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "fv(if M then N else $O ) = { \\mathsf { f v } } ( M ) \\cup { \\mathsf { f v } } ( N ) \\cup { \\mathsf { f v } } ( O )$ ",
+        "bbox": [
+            501,
+            796,
+            929,
+            839
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Un término se llama cerrado si no tiene variables libres, es decir, $M$ es cerrado si y sólo si ${ \\mathfrak { f v } } ( M ) = \\emptyset$ . ",
+        "bbox": [
+            64,
+            866,
+            933,
+            913
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "3 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis ",
+        "bbox": [
+            15,
+            31,
+            119,
+            82
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Asociatividad y precedencia $\\sigma  \\tau  \\rho = \\sigma  ( \\tau  \\rho ) \\neq ( \\sigma  \\tau )  \\rho$ $M N O = ( M N ) O \\neq M ( N O )$ $\\lambda x : \\sigma . M N = \\lambda x : \\sigma . ( M N ) \\neq ( \\lambda x : \\sigma . M ) N$ ",
+        "bbox": [
+            59,
+            164,
+            317,
+            211
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            57,
+            247,
+            476,
+            419
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Las flechas en los tipos asocian a derecha. La aplicación asocia a izquierda. El cuerpo de la lambda se extiende hasta el final del término, excepto que haya paréntesis. ",
+        "bbox": [
+            490,
+            250,
+            942,
+            474
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "4 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis ",
+        "bbox": [
+            15,
+            31,
+            119,
+            82
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Asociatividad y precedencia ",
+        "bbox": [
+            59,
+            164,
+            317,
+            211
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$\\sigma  \\tau  \\rho = \\sigma  ( \\tau  \\rho ) \\neq ( \\sigma  \\tau )  \\rho$ Las flechas en los tipos asocian a derecha. $M N O = ( M N ) O \\neq M ( N O )$ La aplicación asocia a izquierda.   \n$\\lambda x : \\sigma . M N = \\lambda x : \\sigma . ( M N ) \\neq ( \\lambda x : \\sigma . M ) N$ El cuerpo de la lambda se extiende hasta el final del término, excepto que haya paréntesis. ",
+        "bbox": [
+            48,
+            247,
+            942,
+            470
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de las siguientes expresiones son términos del cálculo lambda? En los casos que sí lo sean, dibujar su árbol sintáctico y marcar las ocurrencias libres de las variables. ",
+        "bbox": [
+            55,
+            529,
+            927,
+            623
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "a) $\\lambda x : \\mathsf { B o o l } \\to \\mathsf { B o o l } . x$ true   \nb) $x \\ y \\ \\lambda x : \\mathsf { B o o l } \\to \\mathsf { B o o l } . x \\ y$   \nc) $( \\lambda x : { \\mathsf { B o o l } } \\to { \\mathsf { B o o l } } . x \\ y ) ( \\lambda y : { \\mathsf { B o o l } } . x )$   \nd) λx : Bool   \ne) λx.x   \nf ) if $x$ then $y$ else $\\lambda z : \\mathsf { B o o l } . z$   \ng) $\\lambda y : \\sigma . y$   \nh) true false   \ni) $\\textit { x M }$   \nj) if $x$ then $\\lambda x : \\mathsf { B o o l } . x$ ",
+        "bbox": [
+            50,
+            643,
+            423,
+            929
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            529,
+            647,
+            814,
+            929
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "4 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            459,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis ",
+        "bbox": [
+            15,
+            31,
+            119,
+            82
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Tipado ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            31,
+            110,
+            86
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Tipos: La gramática que define los tipos del cálculo lambda simplemente tipado con booleanos es: ",
+        "bbox": [
+            57,
+            125,
+            940,
+            215
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/05d1ae61e8bea435dca48dc57db78112528cc426485d98ea2688e77b27a84dac.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            219,
+            591,
+            270
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "5 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Tipado ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            110,
+            86
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Tipos: La gramática que define los tipos del cálculo lambda simplemente tipado con booleanos es: ",
+        "bbox": [
+            57,
+            125,
+            942,
+            215
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4a37e8317f10708de67ae948a2f8ffff5b6a38db69fb89b877117eb8c2175d60.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            219,
+            591,
+            270
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Los contextos son conjuntos finitos de asociaciones entre tipos y variables. Por ejemplo: ",
+        "bbox": [
+            46,
+            286,
+            876,
+            333
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/842dbddb0ce2dd44eb92772d23aaa1159c71b8a84f787168335c1f50a3484163.jpg",
+        "text": "$$\n\\Gamma _ { 1 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } \\qquad \\Gamma _ { 2 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } , x { \\mathrm { : } } { \\mathrm { B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            249,
+            356,
+            752,
+            411
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "son contextos válidos, ",
+        "bbox": [
+            59,
+            439,
+            262,
+            482
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "5 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Tipado ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            110,
+            86
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Tipos: La gramática que define los tipos del cálculo lambda simplemente tipado con booleanos es: ",
+        "bbox": [
+            57,
+            125,
+            940,
+            215
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8df916ff850b65561d0ac41973b4a49bb10188a143f787b499bfa4e80f4935da.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            219,
+            591,
+            270
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Los contextos son conjuntos finitos de asociaciones entre tipos y variables. Por ejemplo: ",
+        "bbox": [
+            59,
+            286,
+            876,
+            333
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cf7967d0b70a8e38888df6352d1f459aed14852c21119baf56748dc8a31e8377.jpg",
+        "text": "$$\n\\Gamma _ { 1 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } \\qquad \\Gamma _ { 2 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } , x { \\mathrm { : } } { \\mathrm { B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            247,
+            360,
+            754,
+            411
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "son contextos válidos, pero ",
+        "bbox": [
+            59,
+            439,
+            313,
+            482
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d3979e33a18e949d464e79cb21801239f8c2bfef55bd533e85586f57c5d3c884.jpg",
+        "text": "$$\n\\Gamma _ { 3 } = y { \\mathrm { : B o o l } } \\to { \\mathsf { B o o l } } , y { \\mathrm { : B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            482,
+            642,
+            533
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "no lo es. ",
+        "bbox": [
+            59,
+            552,
+            139,
+            592
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "5 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Tipado ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            110,
+            86
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Tipos: La gramática que define los tipos del cálculo lambda simplemente tipado con booleanos es: ",
+        "bbox": [
+            57,
+            125,
+            942,
+            215
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c2698a3409477e78741a29508248694be9d4825542a2c0c4b4d8602d3d4f04d4.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            219,
+            591,
+            270
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Los contextos son conjuntos finitos de asociaciones entre tipos y variables. Por ejemplo: ",
+        "bbox": [
+            46,
+            286,
+            876,
+            333
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ed22d9f910e0c0e90c160975ac9195ff0bb7e4aeb7400ac42dd63639e29c4acb.jpg",
+        "text": "$$\n\\Gamma _ { 1 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } \\qquad \\Gamma _ { 2 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } , x { \\mathrm { : } } { \\mathrm { B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            247,
+            360,
+            752,
+            411
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "son contextos válidos, pero ",
+        "bbox": [
+            59,
+            439,
+            313,
+            482
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4defe090003f3a9ae50bfb8f66787303eef64cbfda13c8374cb16334bb79ce7c.jpg",
+        "text": "$$\n\\Gamma _ { 3 } = y { \\mathrm { : B o o l } } \\to { \\mathsf { B o o l } } , y { \\mathrm { : B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            482,
+            640,
+            533
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "no lo es. ",
+        "bbox": [
+            59,
+            552,
+            139,
+            592
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Juicios de tipado: Un juicio de tipado es la relación $\\Gamma \\vdash M : \\tau$ y se lee “en el contexto $\\Gamma$ , $M$ es de tipo $\\tau$ ”. ",
+        "bbox": [
+            57,
+            596,
+            944,
+            686
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "5 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Tipado ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            110,
+            86
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Tipos: La gramática que define los tipos del cálculo lambda simplemente tipado con booleanos es: ",
+        "bbox": [
+            57,
+            125,
+            942,
+            215
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/771f4554986c30bf65846835b2bd10f5053cdd66530975ba3b76143b8a3417be.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            219,
+            591,
+            270
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Los contextos son conjuntos finitos de asociaciones entre tipos y variables. Por ejemplo: ",
+        "bbox": [
+            46,
+            286,
+            876,
+            333
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fbedfdaf9c342c7c8e709dff76ef8156d8b34ef4505b89bef6c75ad4c65a3f5f.jpg",
+        "text": "$$\n\\Gamma _ { 1 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } \\qquad \\Gamma _ { 2 } = y { \\mathrm { : } } { \\mathrm { B o o l } } \\to { \\mathrm { B o o l } } , x { \\mathrm { : } } { \\mathrm { B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            247,
+            360,
+            752,
+            411
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "son contextos válidos, pero ",
+        "bbox": [
+            59,
+            439,
+            313,
+            482
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2d5b07c4a9da1dc213b979e32c3d41ca84439c3035b1728fdb98f907dc309548.jpg",
+        "text": "$$\n\\Gamma _ { 3 } = y { \\mathrm { : B o o l } } \\to { \\mathsf { B o o l } } , y { \\mathrm { : B o o l } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            482,
+            637,
+            533
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "no lo es. ",
+        "bbox": [
+            59,
+            552,
+            139,
+            592
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Juicios de tipado: Un juicio de tipado es la relación $\\Gamma \\vdash M : \\tau$ y se lee “en el contexto $\\Gamma$ , $M$ es de tipo $\\tau$ ”. Por ejemplo: ",
+        "bbox": [
+            59,
+            596,
+            947,
+            690
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1101db1c13b0b1b1b9f471516be9a838d89d5f358b8fa6446ee0d64bbac1d476.jpg",
+        "text": "$$\n\\begin{array} { c } { { \\{ x { : } \\mathsf { B o o l } \\to \\mathsf { B o o l } \\} \\vdash x : \\mathsf { B o o l } \\to \\mathsf { B o o l } } } \\\\ { { \\vdash \\mathsf { t r u e } : \\mathsf { B o o l } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            344,
+            713,
+            708,
+            823
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1cb8aa4eaa9e94e58fe8e1b3f888fbacca21b0e16e53b095f1b2ef1b2763a6ff.jpg",
+        "text": "$$\n\\{ f \\colon \\mathsf { B o o l } \\to \\mathsf { B o o l } , x \\colon \\mathsf { B o o l } \\} \\vdash f x : \\mathsf { B o o l }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            291,
+            831,
+            642,
+            886
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "son juicios de tipado válidos. ",
+        "bbox": [
+            59,
+            913,
+            324,
+            956
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "5 / 20 ",
+        "bbox": [
+            944,
+            968,
+            977,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            459,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sistema de tipado ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            294,
+            229,
+            333
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Los juicios de tipado $\\Gamma \\vdash M : \\tau$ válidos se pueden derivar mediante el siguiente sistema de reglas de deducción: ",
+        "bbox": [
+            59,
+            341,
+            900,
+            431
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4fd536dfed7b6b3afaec1a212e0293d6ff3148a51d2ddd7428e639a3a657106f.jpg",
+        "text": "$$\n\\frac { \\Gamma , x : \\tau \\vdash M : \\sigma } { \\Gamma \\vdash \\lambda x : \\tau . M : \\tau  \\sigma } \\ T . A b s \\qquad \\frac { \\Gamma \\vdash M : \\tau  \\sigma \\quad \\Gamma \\vdash \\sigma } { \\Gamma \\vdash M N : \\sigma }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            298,
+            458,
+            803,
+            560
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "6 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            31,
+            110,
+            86
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: chequeo de tipos Derivar los siguientes juicios de tipado, o explicar por qué no son válidos. a) ⊢ (λx : Bool.λy : Bool.if $x$ then true else $y$ ) false : Bool Bool ",
+        "bbox": [
+            57,
+            321,
+            737,
+            478
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            35,
+            110,
+            90
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: chequeo de tipos   \nDerivar los siguientes juicios de tipado, o explicar por qué no son válidos. a) ⊢ (λx : Bool.λy : Bool.if $x$ then true else $y$ ) false : Bool Bool b) $\\{ x : \\mathsf { B o o l } \\} \\vdash$ true : Bool ",
+        "bbox": [
+            59,
+            325,
+            737,
+            537
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            35,
+            110,
+            90
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: chequeo de tipos Derivar los siguientes juicios de tipado, o explicar por qué no son válidos. ",
+        "bbox": [
+            59,
+            325,
+            737,
+            415
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "a) $\\vdash ( \\lambda x : \\mathsf { B o o l } . \\lambda y : \\mathsf { B o o l }$ .if $x$ then true else $y$ ) false : Bool Bool   \nb) $\\{ x : \\mathsf { B o o l } \\} \\vdash$ true : Bool   \n${ \\mathsf { c } } ) \\vdash$ if $x$ then $x$ else $z$ : Bool ",
+        "bbox": [
+            70,
+            427,
+            701,
+            592
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            31,
+            110,
+            90
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: chequeo de tipos Derivar los siguientes juicios de tipado, o explicar por qué no son válidos. ",
+        "bbox": [
+            59,
+            325,
+            737,
+            415
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "a) ⊢ (λx : Bool.λy : Bool.if $x$ then true else $y$ ) false : Bool Bool   \nb) $\\{ x : { \\mathsf { B o o l } } \\} \\vdash \\mathsf { t r u e } : { \\mathsf { B o o l } }$   \n${ \\mathsf { c } } ) \\vdash { \\mathsf { i f } } \\ x$ then $x$ else $z$ : Bool   \nd) $\\{ x : \\mathsf { B o o l } \\} \\vdash$ if $x$ then $x$ else $( \\lambda y : \\mathsf { B o o l } . y ) : \\mathsf { B o o l } \\to \\mathsf { B o o l }$   \nEjercicio: chequeo de tipos con incógnitas   \nDerivar un juicio de tipado para el siguiente término:   \n$\\lambda x : \\rho . \\lambda y : \\sigma . \\lambda z : \\tau . x ( x y z )$ (identificando qué tipos pueden ser $\\tau$ , $\\sigma$ y $\\rho$ )   \nEjercicio: chequeo de tipos con incógnitas   \nDerivar un juicio de tipado para el siguiente término:   \n$\\lambda x : \\rho . \\lambda y : \\sigma . \\lambda z : \\tau . x ( x y z )$ (identificando qué tipos pueden ser $\\tau$ , $\\sigma$ y $\\rho$ ) ",
+        "bbox": [
+            66,
+            427,
+            704,
+            654
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            31,
+            110,
+            90
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            57,
+            243,
+            730,
+            384
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "8 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            35,
+            110,
+            90
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            59,
+            243,
+            732,
+            380
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: tipos habitados ",
+        "bbox": [
+            61,
+            443,
+            298,
+            482
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Decimos que un tipo $\\tau$ está habitado si existe un término $M$ tal que el juicio $\\vdash M : \\tau$ es derivable. ",
+        "bbox": [
+            59,
+            490,
+            878,
+            576
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "8 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            19,
+            35,
+            110,
+            90
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: chequeo de tipos con incógnitas ",
+        "bbox": [
+            61,
+            243,
+            450,
+            286
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Derivar un juicio de tipado para el siguiente término: ",
+        "bbox": [
+            61,
+            290,
+            545,
+            333
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\lambda x : \\rho . \\lambda y : \\sigma . \\lambda z : \\tau . x ( x y z )$ (identificando qué tipos pueden ser $\\tau$ , $\\sigma$ y $\\rho$ ) ",
+        "bbox": [
+            59,
+            337,
+            730,
+            380
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: tipos habitados ",
+        "bbox": [
+            59,
+            443,
+            298,
+            482
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Decimos que un tipo $\\tau$ está habitado si existe un término $M$ tal que el juicio $\\vdash M : \\tau$ es derivable. ",
+        "bbox": [
+            59,
+            490,
+            880,
+            576
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Demostrar si los siguientes tipos están habitados (para cualquier $\\sigma , \\tau , \\rho )$ ",
+        "bbox": [
+            61,
+            580,
+            730,
+            627
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "a) $\\sigma  \\tau  \\sigma$ ",
+        "bbox": [
+            72,
+            639,
+            214,
+            686
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "8 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            35,
+            110,
+            90
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: chequeo de tipos con incógnitas   \nDerivar un juicio de tipado para el siguiente término:   \n$\\lambda x : \\rho . \\lambda y : \\sigma . \\lambda z : \\tau . x ( x y z )$ (identificando qué tipos pueden ser $\\tau$ , $\\sigma$ y $\\rho$ ) ",
+        "bbox": [
+            59,
+            243,
+            732,
+            384
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: tipos habitados ",
+        "bbox": [
+            59,
+            443,
+            298,
+            482
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Decimos que un tipo $\\tau$ está habitado si existe un término $M$ tal que el juicio $\\vdash M : \\tau$ es derivable. ",
+        "bbox": [
+            59,
+            490,
+            880,
+            576
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Demostrar si los siguientes tipos están habitados (para cualquier $\\sigma , \\tau , \\rho )$ ",
+        "bbox": [
+            61,
+            580,
+            728,
+            627
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "a) $\\sigma  \\tau  \\sigma$ b) $( \\tau  \\rho )  ( \\sigma  \\tau )  ( \\sigma  \\rho )$ ",
+        "bbox": [
+            70,
+            639,
+            403,
+            745
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "8 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            35,
+            110,
+            90
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: chequeo de tipos con incógnitas   \nDerivar un juicio de tipado para el siguiente término:   \n$\\lambda x : \\rho . \\lambda y : \\sigma . \\lambda z : \\tau . x ( x y z )$ (identificando qué tipos pueden ser $\\tau$ , $\\sigma$ y $\\rho$ ) ",
+        "bbox": [
+            59,
+            243,
+            732,
+            384
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: tipos habitados ",
+        "bbox": [
+            59,
+            443,
+            298,
+            482
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Decimos que un tipo $\\tau$ está habitado si existe un término $M$ tal que el juicio $\\vdash M : \\tau$ es derivable. ",
+        "bbox": [
+            59,
+            490,
+            880,
+            576
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Demostrar si los siguientes tipos están habitados (para cualquier $\\sigma , \\tau , \\rho )$ ",
+        "bbox": [
+            61,
+            580,
+            728,
+            627
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "a) $\\sigma  \\tau  \\sigma$   \nb) $( \\tau  \\rho )  ( \\sigma  \\tau )  ( \\sigma  \\rho )$   \nc) $\\sigma \\to \\tau$ ",
+        "bbox": [
+            72,
+            639,
+            403,
+            803
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "8 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Tipado ",
+        "bbox": [
+            17,
+            35,
+            110,
+            90
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Consiste en un conjunto de reglas que definen la relación de reducción entre términos.   \nCuando $M  N$ , decimos que $M$ reduce o reescribe a $N$ . ",
+        "bbox": [
+            57,
+            176,
+            880,
+            266
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            306,
+            90
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Consiste en un conjunto de reglas que definen la relación de reducción entre términos.   \nCuando $M  N$ , decimos que $M$ reduce o reescribe a $N$ . ",
+        "bbox": [
+            59,
+            176,
+            885,
+            266
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Formas normales ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            321,
+            218,
+            360
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Un término es o está en forma normal cuando no existe ninguna regla que lo reduzca a otro. ",
+        "bbox": [
+            75,
+            368,
+            909,
+            411
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            306,
+            86
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Consiste en un conjunto de reglas que definen la relación de reducción entre términos.   \nCuando $M  N$ , decimos que $M$ reduce o reescribe a $N$ . ",
+        "bbox": [
+            59,
+            176,
+            885,
+            266
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Formas normales ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            321,
+            218,
+            360
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "n término es o está en forma normal cuando no existe ninguna regla que lo reduzca a otro. ",
+        "bbox": [
+            75,
+            368,
+            907,
+            411
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Determinismo ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            462,
+            189,
+            501
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Decimos que la reducción está determinada (hay determinismo) cuando cada término que no está en forma normal tiene una única forma de reducir. ",
+        "bbox": [
+            59,
+            509,
+            920,
+            600
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            306,
+            86
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Consiste en un conjunto de reglas que definen la relación de reducción entre términos.   \nCuando $M  N$ , decimos que $M$ reduce o reescribe a $N$ . ",
+        "bbox": [
+            59,
+            176,
+            885,
+            266
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Formas normales ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            321,
+            218,
+            360
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "n término es o está en forma normal cuando no existe ninguna regla que lo reduzca a otro. ",
+        "bbox": [
+            75,
+            368,
+            907,
+            411
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Determinismo ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            462,
+            189,
+            501
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Decimos que la reducción está determinada (hay determinismo) cuando cada término que no está en forma normal tiene una única forma de reducir. ",
+        "bbox": [
+            59,
+            509,
+            920,
+            600
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Estrategias de reducción ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            654,
+            284,
+            694
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Para implementar un lenguaje, necesitamos una relación de reducción que esté determinada. Existen estrategias call-by-name y call-by-value. En la parte práctica de la materia vamos a usar la estrategia call-by-value, y en particular nos va a interesar mantener el determinismo de las reglas de reducción. ",
+        "bbox": [
+            61,
+            701,
+            935,
+            882
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 20 ",
+        "bbox": [
+            944,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "La siguiente gramática de valores y las reglas de reducción definen la estrategia call-by-value. ",
+        "bbox": [
+            55,
+            156,
+            920,
+            203
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cdd473ceedef0243a5daf061487e7297adf7910ddb81f2a42022ad4bf7f2ba58.jpg",
+        "text": "$$\nV : : = \\mathsf { t r u e } \\mid \\mathsf { f a l s e } \\mid \\lambda x : \\sigma . M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            239,
+            631,
+            294
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "10 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "La siguiente gramática de valores y las reglas de reducción definen la estrategia call-by-value. ",
+        "bbox": [
+            55,
+            156,
+            920,
+            203
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fa19bdc8c99c70ec49e44aa3fe500185af9fdf58328c4528c8061d59e2f2ad5b.jpg",
+        "text": "$$\nV : : = \\mathsf { t r u e } \\mid \\mathsf { f a l s e } \\mid \\lambda x : \\sigma . M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            239,
+            631,
+            294
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "$( \\lambda x : \\sigma . M ) V \\to M \\{ x : = V \\}$ if true then $M$ else $N  M$ if false then $M$ else $N  N$ ",
+        "bbox": [
+            183,
+            411,
+            543,
+            580
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(E-AppAbs o β) (E-IfTrue) (E-IfFalse) ",
+        "bbox": [
+            662,
+            411,
+            816,
+            580
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "10 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Semántica operacional ",
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "La siguiente gramática de valores y las reglas de reducción definen la estrategia call-by-value. ",
+        "bbox": [
+            55,
+            156,
+            920,
+            203
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/36afd3fcdb847feef47e002d654a752a29625cc329f4edd3286f298cfe45e948.jpg",
+        "text": "$$\nV : : = \\mathsf { t r u e } \\mid \\mathsf { f a l s e } \\mid \\lambda x : \\sigma . M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            239,
+            631,
+            294
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "$( \\lambda x : \\sigma . M ) V \\to M \\{ x : = V \\}$ (E-AppAbs o β) if true then $M$ else $N  M$ (E-IfTrue) if false then $M$ else $N  N$ (E-IfFalse) ",
+        "bbox": [
+            181,
+            407,
+            821,
+            584
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Si $M  N$ , entonces: ",
+        "bbox": [
+            59,
+            619,
+            264,
+            662
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/075cf2513201ac8ce15ba779e4638401616660c36ea4aa55a03e87f17c17e230.jpg",
+        "text": "$$\n\\begin{array} { c } { { M O  N O } } \\\\ { { { } } } \\\\ { { V M  V N } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            698,
+            439,
+            811
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(E-App1 o µ) ",
+        "bbox": [
+            693,
+            705,
+            818,
+            752
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(E-App2 o ν)",
+        "bbox": [
+            695,
+            764,
+            818,
+            811
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "if $M$ then $O$ else $P $ if $N$ then $O$ else $P$ ",
+        "bbox": [
+            176,
+            819,
+            576,
+            870
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "10 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            86
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            992
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            86
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            57,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false) ",
+        "bbox": [
+            50,
+            447,
+            518,
+            494
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            57,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false) b) λx : Bool.false ",
+        "bbox": [
+            52,
+            447,
+            518,
+            552
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            59,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false)   \nb) $\\lambda x : \\mathsf { B o o l }$ .false   \nc) $( \\lambda x : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            50,
+            447,
+            518,
+            611
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            57,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else $( \\lambda x : \\mathsf { B o o l . f a l s e } )$ d) true   \nb) $\\lambda x : \\mathsf { B o o l }$ .false   \nc) $( \\lambda x : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            50,
+            415,
+            646,
+            611
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            57,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false)   \nb) $\\lambda x : \\mathsf { B o o l }$ .false   \nc) $( \\lambda x : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            50,
+            443,
+            518,
+            611
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "d) true e) if $x$ then true else false ",
+        "bbox": [
+            573,
+            415,
+            825,
+            521
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            57,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false)   \nb) $\\lambda x : \\mathsf { B o o l }$ .false   \nc) $( \\lambda x : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            50,
+            447,
+            518,
+            611
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "d) true e) if $x$ then true else false f) λx : Bool. $( \\lambda y : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            573,
+            419,
+            874,
+            584
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            59,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false)   \nb) $\\lambda x : \\mathsf { B o o l }$ .false   \nc) $( \\lambda x : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            50,
+            447,
+            518,
+            631
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "d) true e) if $x$ then true else false f ) λx : Bool. $( \\lambda y : \\mathsf { B o o l } . x )$ false g) $\\lambda x : \\mathsf { B o o l } \\to \\mathsf { B o o l } . x$ true ",
+        "bbox": [
+            573,
+            415,
+            874,
+            643
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            57,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false)   \nb) λx : Bool.false   \nc) $( \\lambda x : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            52,
+            443,
+            518,
+            623
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "d) true e) if $x$ then true else false f ) λx : Bool. $( \\lambda y : \\mathsf { B o o l } . x )$ false g) $\\lambda x : \\mathsf { B o o l } \\to \\mathsf { B o o l } . x$ true ",
+        "bbox": [
+            573,
+            415,
+            874,
+            643
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuál es el resultado de evaluar las siguientes expresiones? ¿El resultado es siempre un valor? Escribir la reducción paso por paso. ",
+        "bbox": [
+            55,
+            674,
+            924,
+            764
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "a) $( \\lambda x : \\mathsf { B o o l } . \\lambda y : \\mathsf { B o o l }$ .if $x$ then true else $y$ ) false) true ",
+        "bbox": [
+            66,
+            780,
+            600,
+            827
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            309,
+            90
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            168,
+            130,
+            207
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Los valores son los resultados esperados de los programas. Se definen como los términos cerrados y bien tipados $V$ producidos por la gramática de valores. ",
+        "bbox": [
+            59,
+            215,
+            878,
+            305
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuáles de los siguientes términos son valores? ",
+        "bbox": [
+            57,
+            349,
+            587,
+            392
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "a) if true then $( \\lambda x : \\mathsf { B o o l } . x )$ else (λx : Bool.false)   \nb) λx : Bool.false   \nc) $( \\lambda x : \\mathsf { B o o l } . x )$ false ",
+        "bbox": [
+            52,
+            443,
+            518,
+            623
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "d) true e) if $x$ then true else false f ) λx : Bool. $( \\lambda y : \\mathsf { B o o l } . x )$ false g) $\\lambda x : \\mathsf { B o o l } \\to \\mathsf { B o o l } . x$ true ",
+        "bbox": [
+            573,
+            415,
+            874,
+            643
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: ¿Cuál es el resultado de evaluar las siguientes expresiones? ¿El resultado es siempre un valor? Escribir la reducción paso por paso. ",
+        "bbox": [
+            57,
+            674,
+            922,
+            764
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "a) $( \\lambda x : \\mathsf { B o o l } . \\lambda y : \\mathsf { B o o l }$ .if $x$ then true else $y$ ) false) true b) (λx : Bool.λy : Bool → Bool.y(yx))(( $\\lambda z$ : Bool.true) false)(λw : Bool.w) ",
+        "bbox": [
+            70,
+            780,
+            777,
+            886
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: Probar que la semántica operacional de cálculo lambda con booleanos, con la estrategia call-by-value, está determinada. ",
+        "bbox": [
+            57,
+            403,
+            876,
+            490
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Es decir, probar que si $M  M _ { 1 }$ y $M  M _ { 2 }$ , entonces $M _ { 1 } = M _ { 2 }$ ",
+        "bbox": [
+            61,
+            498,
+            675,
+            545
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "12 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "Determinismo ",
+        "bbox": [
+            17,
+            35,
+            198,
+            82
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            445,
+            86
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis y tipado ",
+        "bbox": [
+            15,
+            98,
+            150,
+            137
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Se extienden las gramáticas de términos y tipos de la siguiente manera: ",
+        "bbox": [
+            59,
+            254,
+            719,
+            301
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "equation",
+        "img_path": "images/468191921ae9c8d7c73b9b032b601fad604de32ff507b57cac0b5e3971847286.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\sigma : : = \\dots \\mid \\mathsf { N a t } } \\\\ & { M : : = \\dots \\mid \\mathsf { z e r o } \\mid \\mathsf { s u c c } ( M ) \\mid \\mathsf { p r e d } ( M ) \\mid \\mathsf { i s Z e r o } ( M ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            329,
+            732,
+            450
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "13 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis y tipado ",
+        "bbox": [
+            15,
+            98,
+            150,
+            137
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Se extienden las gramáticas de términos y tipos de la siguiente manera: ",
+        "bbox": [
+            59,
+            254,
+            717,
+            301
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2d8a70dfc1dc34537eaa5f2566d2b44e9594229f1d10cb8be323c84bd03ed857.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\sigma : : = \\dots \\mid \\mathsf { N a t } } \\\\ & { M : : = \\dots \\mid \\mathsf { z e r o } \\mid \\mathsf { s u c c } ( M ) \\mid \\mathsf { p r e d } ( M ) \\mid \\mathsf { i s Z e r o } ( M ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            333,
+            732,
+            454
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Se extiende el sistema de tipado con las siguientes reglas: ",
+        "bbox": [
+            57,
+            486,
+            589,
+            533
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "discarded",
+        "text": "13 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "bbox": [
+            17,
+            98,
+            194,
+            133
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Se extienden los valores de la siguiente manera: ",
+        "bbox": [
+            59,
+            168,
+            498,
+            211
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f4799f33b2b7d64673999f1952d3baaecf5a4fd384740b6b0cb416e89ddb106a.jpg",
+        "text": "$$\nV : : = \\dots | \\mathsf { z e r o } | \\mathsf { s u c c } ( V )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            379,
+            247,
+            618,
+            301
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Además, usamos la notación $\\underline { n }$ para succn(zero) con $n \\geq 0$ ",
+        "bbox": [
+            59,
+            337,
+            611,
+            380
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            992
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "discarded",
+        "text": "14 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "bbox": [
+            17,
+            98,
+            194,
+            133
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Se extienden los valores de la siguiente manera: ",
+        "bbox": [
+            59,
+            168,
+            498,
+            215
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b62a38affccc5fdc16beab56015b962ca3ed17b97d583244a9f96bd5d18bdf9d.jpg",
+        "text": "$$\nV : : = \\dots | \\mathsf { z e r o } | \\mathsf { s u c c } ( V )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            379,
+            247,
+            618,
+            301
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Además, usamos la notación $\\underline { n }$ para succn(zero) con $n \\geq 0$ . Se extiende la semántica operacional con las siguientes reglas: ",
+        "bbox": [
+            57,
+            337,
+            633,
+            427
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { p r e d } ( \\mathsf { s u c c } ( V ) ) \\to V$ (E-PredSucc) $\\mathsf { i s Z e r o } ( \\mathsf { z e r o } ) \\to \\mathsf { t r u e }$ (E-IsZero0) $\\mathsf { i s Z e r o } ( \\mathsf { s u c c } ( V ) ) \\to \\mathsf { f a l s e }$ (E-IsZeron) ",
+        "bbox": [
+            229,
+            458,
+            763,
+            635
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "discarded",
+        "text": "14 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Semántica operacional ",
+        "bbox": [
+            17,
+            98,
+            194,
+            133
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Se extienden los valores de la siguiente manera: ",
+        "bbox": [
+            59,
+            168,
+            498,
+            215
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6bc947600d7b9a0dab46182f37b86c09e3ea52f54348725056ce64bb1169d6c8.jpg",
+        "text": "$$\nV : : = \\dots | \\mathsf { z e r o } | \\mathsf { s u c c } ( V )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            379,
+            247,
+            618,
+            301
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Además, usamos la notación $\\underline { n }$ para succn(zero) con $n \\geq 0$ . Se extiende la semántica operacional con las siguientes reglas: ",
+        "bbox": [
+            57,
+            337,
+            633,
+            427
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\mathsf { p r e d } ( \\mathsf { s u c c } ( V ) ) \\to V } \\\\ { \\mathsf { i s Z e r o } ( \\mathsf { z e r o } ) \\to \\mathsf { t r u e } } \\\\ { \\mathsf { i s Z e r o } ( \\mathsf { s u c c } ( V ) ) \\to \\mathsf { f a l s e } } \\end{array}$ (E-PredSucc) (E-IsZero0) (E-IsZeron) ",
+        "bbox": [
+            218,
+            458,
+            763,
+            639
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Si $M  N$ , entonces: ",
+        "bbox": [
+            59,
+            666,
+            264,
+            709
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { s u c c } ( M ) \\to \\mathsf { s u c c } ( N )$ (E-Succ) ",
+        "bbox": [
+            249,
+            749,
+            752,
+            800
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { p r e d } ( M ) \\to \\mathsf { p r e d } ( N )$ (E-Pred) ",
+        "bbox": [
+            249,
+            807,
+            750,
+            858
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { i s Z e r o } ( M ) \\to \\mathsf { i s Z e r o } ( N )$ (E-IsZero) ",
+        "bbox": [
+            233,
+            866,
+            750,
+            917
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "discarded",
+        "text": "14 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            459,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso? ",
+        "bbox": [
+            72,
+            188,
+            869,
+            278
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            992
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso? b) ¿Qué términos representan las expresiones $\\underline { { 0 } } , \\underline { { 1 } }$ y 2? ¿Cómo reducen? ",
+        "bbox": [
+            66,
+            188,
+            871,
+            345
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso?   \nb) ¿Qué términos representan las expresiones 0, 1 y 2? ¿Cómo reducen?   \nc) Demostrar los siguientes juicios de tipado, o explicar por qué no son válidos: $\\mathbf { \\mu } _ { * } \\vdash ( \\lambda x : \\mathsf { N a t . s u c c } ( x ) )$ zero : Nat ",
+        "bbox": [
+            66,
+            188,
+            871,
+            447
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso?   \nb) ¿Qué términos representan las expresiones 0, 1 y 2? ¿Cómo reducen?   \nc) Demostrar los siguientes juicios de tipado, o explicar por qué no son válidos: $\\ast \\vdash ( \\lambda x : \\mathsf { N a t . s u c c } ( x ) )$ zero : Nat ∗ x : Bool ⊢ succ(zero) : Nat ",
+        "bbox": [
+            66,
+            188,
+            871,
+            490
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso? ",
+        "bbox": [
+            70,
+            188,
+            871,
+            278
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "b) ¿Qué términos representan las expresiones 0, 1 y 2? ¿Cómo reducen? ",
+        "bbox": [
+            70,
+            294,
+            746,
+            341
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "c) Demostrar los siguientes juicios de tipado, o explicar por qué no son válidos: ",
+        "bbox": [
+            70,
+            352,
+            810,
+            396
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "$\\ast \\vdash ( \\lambda x : \\mathsf { N a t . s u c c } ( x ) )$ zero : Nat ∗ $x : { \\mathsf { B o o l } } \\vdash \\mathsf { s u c c } ( z \\in \\mathsf { r o } ) : { \\mathsf { N a t } }$ ∗ $x : { \\mathsf { B o o l } } \\vdash$ if $x$ then $x$ else zero : Nat ",
+        "bbox": [
+            125,
+            403,
+            463,
+            533
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso?   \nb) ¿Qué términos representan las expresiones 0, 1 y 2? ¿Cómo reducen?   \nc) Demostrar los siguientes juicios de tipado, o explicar por qué no son válidos: $\\ast \\vdash ( \\lambda x : \\mathsf { N a t . s u c c } ( x ) )$ zero : Nat ∗ $x : { \\mathsf { B o o l } } \\vdash \\mathsf { s u c c } ( z \\in \\mathsf { r o } ) : { \\mathsf { N a t } }$ ∗ $x : { \\mathsf { B o o l } } \\vdash$ if $x$ then $x$ else zero : Nat   \nd) Escribir la reducción paso por paso de los siguientes términos: $^ *$ isZero(succ(pred(succ(zero)))) ",
+        "bbox": [
+            64,
+            188,
+            871,
+            639
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso?   \nb) ¿Qué términos representan las expresiones 0, 1 y 2? ¿Cómo reducen?   \nc) Demostrar los siguientes juicios de tipado, o explicar por qué no son válidos: $\\ast \\vdash ( \\lambda x : \\mathsf { N a t . s u c c } ( x ) )$ zero : Nat ∗ $x : { \\mathsf { B o o l } } \\vdash \\mathsf { s u c c } ( z \\in \\mathsf { r o } ) : { \\mathsf { N a t } }$ ∗ $x : { \\mathsf { B o o l } } \\vdash$ if $x$ then $x$ else zero : Nat ",
+        "bbox": [
+            66,
+            188,
+            871,
+            529
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "d) Escribir la reducción paso por paso de los siguientes términos: $^ *$ isZero(succ(pred(succ(zero)))) $^ *$ isZero(pred(succ(pred(zero)))) ",
+        "bbox": [
+            72,
+            541,
+            675,
+            682
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso?   \nb) ¿Qué términos representan las expresiones 0, 1 y 2? ¿Cómo reducen?   \nc) Demostrar los siguientes juicios de tipado, o explicar por qué no son válidos: $\\mathbf { \\mu } _ { * } \\vdash ( \\lambda x : \\mathsf { N a t . s u c c } ( x ) )$ zero : Nat $^ *$ $x : { \\mathsf { B o o l } } \\vdash \\mathsf { s u c c } ( z \\in \\mathsf { r o } ) : { \\mathsf { N a t } }$ ∗ $x : { \\mathsf { B o o l } } \\vdash$ if $x$ then $x$ else zero : Nat ",
+        "bbox": [
+            66,
+            188,
+            871,
+            529
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "d) Escribir la reducción paso por paso de los siguientes términos: $^ *$ isZero(succ(pred(succ(zero)))) $^ *$ isZero(pred(succ(pred(zero)))) $^ *$ isZero(pred(succ(pred $( x )$ ))) ",
+        "bbox": [
+            68,
+            541,
+            675,
+            725
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Extensión con números naturales ",
+        "text_level": 1,
+        "bbox": [
+            17,
+            31,
+            443,
+            86
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            133,
+            141,
+            176
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "a) Esta extensión ¿mantiene las propiedades de determinismo, preservación de tipos y progreso?   \nb) ¿Qué términos representan las expresiones 0, 1 y 2? ¿Cómo reducen?   \nc) Demostrar los siguientes juicios de tipado, o explicar por qué no son válidos: $\\mathbf { \\mu } _ { * } \\vdash ( \\lambda x : \\mathsf { N a t . s u c c } ( x ) )$ zero : Nat $^ *$ $x : { \\mathsf { B o o l } } \\vdash \\mathsf { s u c c } ( z \\in \\mathsf { r o } ) : { \\mathsf { N a t } }$ ∗ $x : { \\mathsf { B o o l } } \\vdash$ if $x$ then $x$ else zero : Nat ",
+        "bbox": [
+            66,
+            188,
+            871,
+            529
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "d) Escribir la reducción paso por paso de los siguientes términos: $^ *$ $\\begin{array} { r l } & { \\mathsf { i s Z e r o } ( \\mathsf { s u c c } ( \\mathsf { p r e d } ( \\mathsf { s u c c } ( \\mathsf { z e r o } ) ) ) ) } \\\\ & { \\mathsf { i s Z e r o } ( \\mathsf { p r e d } ( \\mathsf { s u c c } ( \\mathsf { p r e d } ( \\mathsf { z e r o } ) ) ) ) } \\\\ & { \\mathsf { i s Z e r o } ( \\mathsf { p r e d } ( \\mathsf { s u c c } ( \\mathsf { p r e d } ( \\boldsymbol { x } ) ) ) ) } \\end{array}$ $^ *$ $^ *$ ",
+        "bbox": [
+            72,
+            541,
+            675,
+            729
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Regla opcional si queremos recuperar la propiedad de Progreso: ",
+        "bbox": [
+            61,
+            737,
+            646,
+            784
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9ba7859124c69fb062802d7d027e39acc3e56c806199d2d3071f2853530a2852.jpg",
+        "text": "$$\n\\mathsf { p r e d } ( z \\mathsf { e r o } ) \\to z \\mathsf { e r o }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            819,
+            437,
+            870
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Notar que esto cambia la semántica. ",
+        "bbox": [
+            59,
+            909,
+            397,
+            952
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "discarded",
+        "text": "(E-Pred0) ",
+        "bbox": [
+            640,
+            823,
+            730,
+            870
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Simplificando la escritura ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            344,
+            90
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Podemos definir macros para expresiones que vayamos a utilizar con frecuencia. Por ejemplo: ",
+        "bbox": [
+            57,
+            380,
+            924,
+            427
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Idτ def= ",
+        "bbox": [
+            103,
+            439,
+            167,
+            494
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "discarded",
+        "text": "16 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            443,
+            94,
+            486
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Simplificando la escritura ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            344,
+            90
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Podemos definir macros para expresiones que vayamos a utilizar con frecuencia. Por ejemplo: ",
+        "bbox": [
+            59,
+            380,
+            924,
+            427
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "$I d _ { \\tau } \\overset { d e f } { = } \\lambda x : \\tau . x$ and def= ",
+        "bbox": [
+            75,
+            435,
+            247,
+            564
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "discarded",
+        "text": "16 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            513,
+            94,
+            556
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Podemos definir macros para expresiones que vayamos a utilizar con frecuencia. Por ejemplo: ",
+        "bbox": [
+            61,
+            380,
+            924,
+            427
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "equation",
+        "img_path": "images/07b2c0a8a0b160e66a063aa4df2e7f0849a00b2c0b16d34ff0b3a05cb7f73aa6.jpg",
+        "text": "$$\nI d _ { \\tau } \\overset { d e f } { = } \\lambda x : \\tau . x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            435,
+            245,
+            498
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "and ${ \\stackrel { d e f } { = } } \\lambda x$ : Bool.λy : Bool.if $x$ then $y$ else false ",
+        "bbox": [
+            101,
+            505,
+            562,
+            568
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "16 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            513,
+            94,
+            556
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            443,
+            94,
+            486
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "Simplificando la escritura ",
+        "bbox": [
+            15,
+            31,
+            344,
+            90
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Cambiando reglas semánticas ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            399,
+            90
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que agregamos la siguiente regla para las abstracciones: Si $M  N$ , entonces: ",
+        "bbox": [
+            57,
+            129,
+            701,
+            227
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3ed9609899dbd530f117814be57da698726bdc682820d23c0fcea5fb82782640.jpg",
+        "text": "$$\n\\lambda x \\colon \\tau . M \\to \\lambda x \\colon \\tau . N\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            250,
+            476,
+            298
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            992
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            938,
+            972,
+            977,
+            992
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "Cambiando reglas semánticas ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            399,
+            90
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que agregamos la siguiente regla para las abstracciones: Si $M  N$ , entonces: ",
+        "bbox": [
+            57,
+            129,
+            699,
+            227
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "equation",
+        "img_path": "images/abf8bdd50340f1ef30cefce952b48b9306218e01c6afd557bf2c7fc53938d8e1.jpg",
+        "text": "$$\n\\lambda x \\colon \\tau . M \\to \\lambda x \\colon \\tau . N\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            250,
+            476,
+            298
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            388,
+            154,
+            439
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "1. Repensar el conjunto de valores para respetar esta modificación, pensar por ejemplo si λx : Bool.IdBool true es o no un valor. ",
+        "bbox": [
+            75,
+            454,
+            905,
+            549
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "discarded",
+        "text": "17 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "Cambiando reglas semánticas ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            399,
+            90
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que agregamos la siguiente regla para las abstracciones: Si $M  N$ , entonces: ",
+        "bbox": [
+            57,
+            129,
+            699,
+            227
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "equation",
+        "img_path": "images/18fb552fc7875000fa4f8d1572899e325f5401d3ce3503bbc061ac06483a615f.jpg",
+        "text": "$$\n\\lambda x \\colon \\tau . M \\to \\lambda x \\colon \\tau . N\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            250,
+            476,
+            298
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            388,
+            154,
+            439
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "1. Repensar el conjunto de valores para respetar esta modificación, pensar por ejemplo si λx : Bool.IdBool true es o no un valor. $i ^ { \\textsf { Y } \\lambda x : \\mathsf { B o o l } . x ? }$ ",
+        "bbox": [
+            75,
+            454,
+            905,
+            549
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "discarded",
+        "text": "17 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            461,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Cambiando reglas semánticas ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            399,
+            90
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que agregamos la siguiente regla para las abstracciones: Si $M  N$ , entonces: ",
+        "bbox": [
+            57,
+            129,
+            699,
+            227
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "equation",
+        "img_path": "images/357ada704aca7c87098cf600772e0d7dde3b979e97779965c926732a9599282c.jpg",
+        "text": "$$\n\\lambda x \\colon \\tau . M \\to \\lambda x \\colon \\tau . N\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            250,
+            476,
+            298
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            388,
+            154,
+            439
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "1. Repensar el conjunto de valores para respetar esta modificación, pensar por ejemplo si $\\lambda x \\colon \\mathsf { B o o l } J d _ { \\mathsf { B o o l } }$ true es o no un valor. $\\therefore \\mathsf { Y } \\lambda x : \\mathsf { B o o l } . x ?$ ",
+        "bbox": [
+            75,
+            454,
+            905,
+            549
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "$V : : = \\mathsf { t r u e } \\mid \\mathsf { f a l s e } \\mid \\lambda x : \\sigma . F \\mid \\mathsf { z e r o } \\mid \\mathsf { s u c c } ( V ) ,$ donde $\\digamma$ es una forma normal. ",
+        "bbox": [
+            172,
+            584,
+            865,
+            639
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "2. ¿Qué reglas deberían modificarse para no perder el determinismo? ",
+        "bbox": [
+            77,
+            674,
+            715,
+            721
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "discarded",
+        "text": "17 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            459,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Cambiando reglas semánticas ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            399,
+            90
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que agregamos la siguiente regla para las abstracciones: Si $M  N$ , entonces: ",
+        "bbox": [
+            57,
+            129,
+            699,
+            227
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e7dbafc6dae0ab944f5d77fd4f44a27dc93c5d15da1c2f8ad29779a6f564f234.jpg",
+        "text": "$$\n\\lambda x \\colon \\tau . M \\to \\lambda x \\colon \\tau . N\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            250,
+            476,
+            298
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            388,
+            154,
+            439
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "1. Repensar el conjunto de valores para respetar esta modificación, pensar por ejemplo si $\\lambda x \\colon \\mathsf { B o o l } J d _ { \\mathsf { B o o l } }$ true es o no un valor. $\\therefore \\mathsf { Y } \\lambda x : \\mathsf { B o o l } . x ?$ ",
+        "bbox": [
+            75,
+            454,
+            905,
+            549
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "$V : : = \\mathsf { t r u e } \\mid \\mathsf { f a l s e } \\mid \\lambda x : \\sigma . F \\mid \\mathsf { z e r o } \\mid \\mathsf { s u c c } ( V ) ,$ donde $\\digamma$ es una forma normal. ",
+        "bbox": [
+            172,
+            584,
+            865,
+            639
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "2. ¿Qué reglas deberían modificarse para no perder el determinismo? ",
+        "bbox": [
+            75,
+            674,
+            717,
+            717
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "equation",
+        "img_path": "images/953d33d69e579dc8d301b4ca751604b94ae5c835e7e6bc5a0b5f61bf47ffbe36.jpg",
+        "text": "$$\n( \\lambda x : \\sigma . F ) V \\to F \\{ x : = V \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            756,
+            543,
+            807
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "3. Utilizando la nueva regla y los valores definidos, reducir la expresión: λz : Nat Nat. $( \\lambda x \\colon \\mathsf { N a t } \\to \\mathsf { N a t . } x \\ \\underline { { 2 3 } } ) \\lambda z \\colon \\mathsf { N a t . }$ 0 ",
+        "bbox": [
+            72,
+            843,
+            737,
+            941
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "discarded",
+        "text": "17 / 20 ",
+        "bbox": [
+            938,
+            968,
+            977,
+            996
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            459,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "Cambiando reglas semánticas ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            399,
+            90
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que agregamos la siguiente regla para las abstracciones: Si $M  N$ , entonces: ",
+        "bbox": [
+            57,
+            188,
+            699,
+            286
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b83e99c4e81e03aae6b03ec1632abd58f4f1494a38102d80e4eaa81620fbb60a.jpg",
+        "text": "$$\n\\lambda x \\colon \\tau . M \\to \\lambda x \\colon \\tau . N\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            286,
+            476,
+            329
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            447,
+            154,
+            498
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "3. Utilizando la nueva regla y los valores definidos, reducir la expresión: ",
+        "bbox": [
+            75,
+            509,
+            737,
+            556
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c56336e7fafbd06901afc0b59cda1a952f305c193fee4b53b0b33c15eebb0bcd.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\lambda z : \\mathsf { N a t } \\to \\mathsf { N a t . } ( \\lambda x : \\mathsf { N a t } \\to \\mathsf { N a t . } x \\xrightarrow { \\mathrm { 2 3 } } ) \\lambda z : \\mathsf { N a t . } \\underline { { \\mathrm { 0 } } } } \\\\ & { \\to _ { \\zeta , \\beta } \\lambda z : \\mathsf { N a t } \\to \\mathsf { N a t . } ( \\lambda z : \\mathsf { N a t . } \\underline { { \\mathrm { 0 } } } ) \\ \\underline { { \\mathrm { 2 3 } } } } \\\\ & { \\to _ { \\zeta , \\beta } \\lambda z : \\mathsf { N a t } \\to \\mathsf { N a t . } \\underline { { \\mathrm { 0 } } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            293,
+            584,
+            750,
+            776
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "¿Qué se puede concluir? ¿Tiene sentido o no agregar esta regla? ",
+        "bbox": [
+            103,
+            800,
+            699,
+            847
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "discarded",
+        "text": "18 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            459,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Para la próxima clase: extensiones ",
+        "text_level": 1,
+        "bbox": [
+            15,
+            31,
+            461,
+            90
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Intenten hacer los ejercicios $2 0 \\ y \\ 2 1$ de la guía 4 (extensiones con pares y uniones disjuntas) para la próxima clase práctica. ",
+        "bbox": [
+            55,
+            423,
+            916,
+            513
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "discarded",
+        "text": "19 / 20 ",
+        "bbox": [
+            938,
+            972,
+            977,
+            996
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "discarded",
+        "text": "Cálculo lambda ",
+        "bbox": [
+            459,
+            972,
+            538,
+            996
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            607,
+            101,
+            695,
+            180
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Continuará... ",
+        "bbox": [
+            15,
+            31,
+            185,
+            86
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "¿? ¿? ¿? ¿? ¿? ¿? ¿? ¿? ¿? ¿? ¿? ¿? ¿? ",
+        "text_level": 1,
+        "bbox": [
+            264,
+            392,
+            732,
+            498
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "(λx: Clase.fin x) (Cálculo Lambda I) ",
+        "bbox": [
+            291,
+            533,
+            704,
+            588
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            774,
+            423,
+            913,
+            658
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            607,
+            98,
+            695,
+            184
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            205,
+            635,
+            357,
+            890
+        ],
+        "page_idx": 67
+    }
+]

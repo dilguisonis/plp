@@ -1,0 +1,3383 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            216,
+            814,
+            283
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Razonamiento ecuacional Inducci´on estructural ",
+        "bbox": [
+            270,
+            334,
+            732,
+            437
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            220,
+            481,
+            781,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            158,
+            279,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "bbox": [
+            74,
+            301,
+            414,
+            352
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Extensionalidad ",
+        "bbox": [
+            77,
+            448,
+            328,
+            500
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Isomorfismos de tipos ",
+        "bbox": [
+            74,
+            595,
+            428,
+            647
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Casos de estudio ",
+        "bbox": [
+            74,
+            738,
+            348,
+            794
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f97f9e7fd24a15b1193e990346311c634a8a9aea903e4dda2106feedb7d73f8f.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Queremos demostrar que ciertas expresiones son equivalentes. ¿Para qu´e? ",
+        "bbox": [
+            74,
+            143,
+            853,
+            238
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Para justificar que un algoritmo es correcto ",
+        "bbox": [
+            80,
+            264,
+            657,
+            312
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, si logramos demostrar que: ",
+        "bbox": [
+            77,
+            323,
+            585,
+            367
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "∀xs :: [Int]. quickSort xs = insertionSort xs esto nos da confianza relativa de un algoritmo con respecto al otro ",
+        "bbox": [
+            69,
+            411,
+            903,
+            547
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Para posibilitar optimizaciones ",
+        "bbox": [
+            77,
+            584,
+            488,
+            632
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "¿Siempre es correcto hacer las siguientes optimizaciones? ",
+        "bbox": [
+            77,
+            643,
+            792,
+            687
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "f x + f x ⇝ 2 \\* f x map f (map g xs) ⇝ map (f . g) xs ",
+        "bbox": [
+            88,
+            713,
+            671,
+            812
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje funcional s´ı. ",
+        "bbox": [
+            74,
+            819,
+            425,
+            863
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje imperativo no, ya que f y g pueden tener efectos. ",
+        "bbox": [
+            74,
+            867,
+            908,
+            919
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hip´otesis de trabajo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Para razonar sobre equivalencia de expresiones vamos a asumir: ",
+        "bbox": [
+            77,
+            198,
+            881,
+            242
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1. Que trabajamos con estructuras de datos finitas. ",
+        "bbox": [
+            102,
+            261,
+            754,
+            305
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "T´ecnicamente: con tipos de datos inductivos. ",
+        "bbox": [
+            337,
+            308,
+            922,
+            352
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2. Que trabajamos con funciones totales. ",
+        "bbox": [
+            93,
+            371,
+            640,
+            415
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Las ecuaciones deben cubrir todos los casos.   \nLa recursi´on siempre debe terminar. ",
+        "bbox": [
+            157,
+            422,
+            709,
+            507
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3. Que el programa no depende del orden de las ecuaciones. ",
+        "bbox": [
+            96,
+            525,
+            883,
+            573
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/94e6e5e0715847e3033fc04273fc91ebd7f1cd7b9cabf162f637576d0167103d.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "vacia [] $=$ True vacia [] $=$ True ⇝ vacia _ $=$ False vacia (_ : _) = False ",
+        "bbox": [
+            132,
+            613,
+            848,
+            713
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Relajar estas hip´otesis es posible pero m´as complejo. ",
+        "bbox": [
+            77,
+            786,
+            740,
+            834
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Igualdades por definici´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            422,
+            84
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Principio de reemplazo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            110,
+            422,
+            158
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sea e1 = e2 una ecuaci´on incluida en el programa. Las siguientes operaciones preservan la igualdad de expresiones: ",
+        "bbox": [
+            55,
+            169,
+            878,
+            264
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1. Reemplazar cualquier instancia de e1 por e2.   \n2. Reemplazar cualquier instancia de e2 por e1. ",
+        "bbox": [
+            91,
+            279,
+            709,
+            386
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Si una igualdad se puede demostrar usando s´olo el principio de reemplazo, decimos que la igualdad vale por definici´on. ",
+        "bbox": [
+            74,
+            415,
+            875,
+            511
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: principio de reemplazo ",
+        "bbox": [
+            77,
+            544,
+            511,
+            591
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Le damos nombre a las ecuaciones del programa: ",
+        "bbox": [
+            77,
+            602,
+            696,
+            647
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "sucesor :: Int -> Int {SUC} sucesor n = n + 1 ",
+        "bbox": [
+            77,
+            676,
+            486,
+            772
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "sucesor (factorial 10) + 1 = (factorial 10 + 1) + 1 por SUC = sucesor (factorial 10 + 1) por SUC ",
+        "bbox": [
+            204,
+            834,
+            803,
+            981
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Igualdades por definici´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            422,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: principio de reemplazo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            139,
+            511,
+            191
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/553588b36d313af4b501b0d3b60ed6f3fbfe1435330c5a1579af4ae0c0a2355a.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { \\mathrm { \\bf ~ l e n g t h } } } & { { \\mathrm { \\bf ~ [ ] } } } & { { = ~ 0 } } \\\\ { { \\mathrm { \\bf ~ l e n g t h } ~ \\mathrm { \\bf ~ ( \\underline { ~ } { ~ \\bf ~ \\cdot ~ } ~ { \\bf ~ x s } ) } ~ = ~ 1 ~ + ~ \\mathrm { \\bf ~ l e n g t h } ~ { \\bf ~ x s } } } \\\\ { { \\mathrm { \\bf ~ s u m a } ~ \\mathrm { \\bf ~ [ ] } } } & { { = ~ 0 } } \\\\ { { \\mathrm { \\bf ~ s u m a } ~ \\mathrm { \\bf ~ ( \\bf ~ x ~ : ~ \\ x s ) } ~ = ~ { \\bf ~ x } ~ + ~ \\mathrm { \\bf ~ s u m a } ~ { \\bf ~ x s } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            160,
+            220,
+            665,
+            430
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Veamos que length [\"a\", \"b\"] = suma [1, 1]: ",
+        "bbox": [
+            74,
+            455,
+            740,
+            503
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "length [\"a\", \"b\"]   \n1 + length [\"b\"] por L1   \n1 + (1 + length []) por L1   \n1 + (1 + 0) por L0   \n1 + (1 + suma []) por S0   \n1 + suma [1] por S1   \n= suma [1, 1] por S1 ",
+        "bbox": [
+            265,
+            540,
+            737,
+            893
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "bbox": [
+            74,
+            301,
+            414,
+            352
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Extensionalidad ",
+        "bbox": [
+            77,
+            448,
+            328,
+            500
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Isomorfismos de tipos ",
+        "bbox": [
+            74,
+            595,
+            428,
+            647
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Casos de estudio ",
+        "bbox": [
+            74,
+            738,
+            348,
+            790
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7 ",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on sobre booleanos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            447,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "El principio de reemplazo no alcanza para probar todas las equivalencias que nos interesan. ",
+        "bbox": [
+            74,
+            198,
+            817,
+            294
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            319,
+            187,
+            367
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "{NT} not True $=$ False {NF} not False $=$ True ",
+        "bbox": [
+            77,
+            400,
+            425,
+            500
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos probar $\\forall \\mathbf { x }$ :: Bool. not (not x) = x? ",
+        "bbox": [
+            74,
+            522,
+            723,
+            566
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "El problema es que la expresi´on ",
+        "bbox": [
+            74,
+            595,
+            475,
+            639
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "est´a “trabada”: no se puede aplicar ninguna ecuaci´on. ",
+        "bbox": [
+            74,
+            772,
+            756,
+            819
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on sobre booleanos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            447,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Principio de inducci´on sobre booleanos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            106,
+            665,
+            158
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Si P(True) y P(False) entonces $\\forall \\mathbf { x }$ :: Bool. ${ \\mathcal { P } } ( { \\mathbf { x } } )$ ",
+        "bbox": [
+            74,
+            169,
+            748,
+            216
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            238,
+            187,
+            286
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "{NT} not True $=$ False {NF} not False $=$ True ",
+        "bbox": [
+            77,
+            319,
+            428,
+            419
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Para probar ∀x :: Bool. not (not x) = x basta probar: ",
+        "bbox": [
+            74,
+            441,
+            640,
+            536
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1. not (not True) $=$ True. ",
+        "bbox": [
+            96,
+            551,
+            477,
+            595
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "not (not True) = not False = True ↑ ↑ NT NF ",
+        "bbox": [
+            265,
+            639,
+            790,
+            746
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "2. not (not False) $=$ False. ",
+        "bbox": [
+            93,
+            772,
+            511,
+            816
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "not (not False) = not True = False ↑ ↑ NF NT ",
+        "bbox": [
+            256,
+            863,
+            798,
+            966
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on sobre pares ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            370,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Cada tipo de datos tiene su propio principio de inducci´on. ",
+        "bbox": [
+            74,
+            272,
+            806,
+            319
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            341,
+            187,
+            389
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/41b0b360296f50980abc7cceb942433ec9bec33cea7b4047332fc8ec2a0f26fb.jpg",
+        "text": "$$\n\\begin{array} { l l l l } { { \\{ \\mathrm { F S T } \\} } } & { { \\mathrm { f s t ~ ( x , \\Omega _ { - } ) ~ \\mathrm { ~ \\Omega ~ = ~ x ~ } ~ } } } & { { \\mathrm { ~ \\Omega ~ } } } \\\\ { { \\{ \\mathrm { S N D } \\} } } & { { \\mathrm { s n d ~ ( \\Omega _ { - } , \\Omega _ { \\mathrm { ~  ~ } } ) ~ \\mathrm { ~ \\Omega ~ = ~ y ~ } ~ } } } & { { \\mathrm { ~ \\Omega ~ } } } \\\\ { { \\{ \\mathrm { S W A P } \\} } } & { { \\mathrm { s w a p ~ ( x , \\Omega _ { \\mathrm { ~ , ~  ~ } } y ) ~ = ~ ( y , \\Omega _ { \\mathrm { ~  ~ } } ) ~ } } } & { { \\mathrm { ~ \\Omega ~ } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            419,
+            502,
+            577
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos probar ∀p :: (a, b). fst p = snd (swap p)? ",
+        "bbox": [
+            77,
+            595,
+            837,
+            643
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Las expresiones (fst p) y (snd (swap p)) est´an “trabadas” ",
+        "bbox": [
+            71,
+            665,
+            872,
+            713
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on sobre pares ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            370,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Principio de inducci´on sobre pares ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            143,
+            593,
+            191
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Si ∀x :: a. ∀y :: b. P((x, y)) entonces ∀p :: (a, b). ${ \\mathcal { P } } ( { \\mathfrak { p } } )$ . ",
+        "bbox": [
+            74,
+            205,
+            497,
+            305
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            334,
+            187,
+            382
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "{FST} fst (x, _) = x {SND} snd (_, y) = y {SWAP} swap (x, y) = (y, x) ",
+        "bbox": [
+            77,
+            415,
+            502,
+            566
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Para probar ∀p :: (a, b). fst $\\mathtt { p } \\ =$ snd (swap p) basta probar: ",
+        "bbox": [
+            74,
+            588,
+            751,
+            683
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "∀x :: a. ∀y :: b. fst (x, y) = snd (swap (x, y))   \nfst (x, y) = x = snd (y, x) = snd (swap (x, y)) ↑ ↑ ↑ FST SND ",
+        "bbox": [
+            127,
+            698,
+            922,
+            897
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            705,
+            121,
+            731
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "SWAP ",
+        "bbox": [
+            591,
+            863,
+            640,
+            893
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on sobre naturales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            433,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "12 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "data Nat $=$ Zero | Suc Nat ",
+        "bbox": [
+            74,
+            341,
+            475,
+            382
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Principio de inducci´on sobre naturales ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            430,
+            651,
+            477
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Si P(Zero) y ∀n :: Nat. ( P(n) ⇒ P(Suc n) ), | {z }hip´otesis inductiva | {z }tesis inductiva entonces ∀n :: Nat. ${ \\mathcal { P } } ( { \\mathfrak { n } } )$ . ",
+        "bbox": [
+            71,
+            485,
+            803,
+            647
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on sobre naturales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            430,
+            84
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            165,
+            187,
+            209
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "{S0} suma Zero m = m {S1} suma (Suc n) m = Suc (suma n m) ",
+        "bbox": [
+            77,
+            246,
+            646,
+            341
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Para probar ∀n :: Nat. suma n Zero = n basta probar: ",
+        "bbox": [
+            74,
+            367,
+            629,
+            463
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1 suma Zero Zero = Zero. Inmediato por S0. ",
+        "bbox": [
+            96,
+            481,
+            477,
+            573
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "2 suma n Zero = n ⇒ suma (Suc n) Zero = Suc n. {zH.I. {zT.I. ",
+        "bbox": [
+            93,
+            588,
+            823,
+            687
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "suma (Suc n) Zero = Suc (suma n Zero) = Suc n ↑ ↑ S1 H.I. ",
+        "bbox": [
+            165,
+            742,
+            895,
+            849
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "13 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            359,
+            84
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "En el caso general, tenemos un tipo de datos inductivo: ",
+        "bbox": [
+            74,
+            113,
+            798,
+            158
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "data T = CBase1 ⟨par´ametros⟩ | CBasen ⟨par´ametros⟩ | CRecursivo1 ⟨par´ametros⟩ | CRecursivom ⟨par´ametros⟩ ",
+        "bbox": [
+            237,
+            198,
+            756,
+            500
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Principio de inducci´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            558,
+            585,
+            606
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sea $\\mathcal { P }$ una propiedad acerca de las expresiones tipo T tal que: ",
+        "bbox": [
+            74,
+            621,
+            856,
+            665
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "▶ $\\mathcal { P }$ vale sobre todos los constructores base de T, ▶ $\\mathcal { P }$ vale sobre todos los constructores recursivos de T, asumiendo como hip´otesis inductiva que vale para los par´ametros de tipo T, entonces $\\forall \\mathbf { x }$ :: T. ${ \\mathcal { P } } ( { \\mathbf { x } } )$ . ",
+        "bbox": [
+            74,
+            683,
+            817,
+            952
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: principio de inducci´on sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            110,
+            660,
+            158
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "data [a] = [] | a : [a] Sea $\\mathcal { P }$ una propiedad sobre expresiones de tipo [a] tal que: ",
+        "bbox": [
+            71,
+            169,
+            834,
+            268
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "P([]) ∀x :: a. ∀xs :: [a]. (P(xs) ⇒ P(x : xs)) {zH.I. {z T.I. ",
+        "bbox": [
+            104,
+            275,
+            718,
+            448
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Entonces ∀xs :: [a]. P(xs). ",
+        "bbox": [
+            74,
+            455,
+            455,
+            503
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: principio de inducci´on sobre ´arboles binarios ",
+        "bbox": [
+            74,
+            525,
+            801,
+            573
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "data AB a $=$ Nil | Bin (AB a) a (AB a) Sea $\\mathcal { P }$ una propiedad sobre expresiones de tipo AB a tal que: ",
+        "bbox": [
+            71,
+            584,
+            850,
+            680
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "▶ P(Nil) ▶ ∀i :: AB a. ∀r :: a. ∀d :: AB a. $( \\underbrace { ( \\mathcal { P } ( \\mathrm { i } ) \\wedge \\mathcal { P } ( \\mathrm { d } ) ) } _ { \\mathrm { H . l . } } \\Rightarrow \\underbrace { \\mathcal { P } ( \\mathtt { B i n } \\mathrm { ~ i ~ } \\mathrm {  ~ r ~ } \\mathrm { \\ d } ) } _ { \\mathrm { T . l . } } )$ ",
+        "bbox": [
+            116,
+            694,
+            624,
+            933
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Entonces $\\forall \\mathbf { x }$ :: AB a. ${ \\mathcal { P } } ( { \\mathbf { x } } ) .$ ",
+        "bbox": [
+            74,
+            930,
+            439,
+            977
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "? ",
+        "bbox": [
+            96,
+            764,
+            121,
+            790
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            286,
+            118,
+            312
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            349,
+            121,
+            375
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            702,
+            118,
+            731
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: principio de inducci´on sobre polinomios data Poli a = X | Cte a | Suma (Poli a) (Poli a) | Prod (Poli a) (Poli a) ",
+        "bbox": [
+            74,
+            106,
+            737,
+            158
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            191,
+            654,
+            386
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Sea $\\mathcal { P }$ una propiedad sobre expresiones de tipo Poli a tal que: ",
+        "bbox": [
+            69,
+            411,
+            878,
+            459
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "▶ P(X)   \n▶ ∀k :: a. P(Cte k) ▶ ∀p :: Poli a. ∀q :: Poli a. $\\begin{array} { r } { \\underset { \\mathbb { H } . 1 . \\mathbb { H } . 1 . \\mathbb { H } . 1 . } { ( \\underbrace { \\left( \\mathcal { P } ( \\mathfrak { p } ) \\wedge \\mathcal { P } ( \\mathfrak { q } ) \\right) } } \\Rightarrow \\underset { \\mathbb { T } . 1 . } { \\underbrace { \\mathcal { P } ( \\mathtt { S u m a } \\texttt { p } \\mathfrak { q } ) } } ) } \\\\ { * \\forall \\mathfrak { p } : : \\mathtt { P o l i a . } \\forall \\mathfrak { q } : : \\mathtt { P o l i a . } \\ a . } \\end{array}$ $( \\underbrace { ( \\mathcal { P } ( \\mathfrak { p } ) \\wedge \\mathcal { P } ( \\mathfrak { q } ) ) } _ { \\mathrm { H . l . } } \\Rightarrow \\underbrace { \\mathcal { P } ( \\mathtt { P r o d } \\texttt { p } \\mathfrak { q } ) } _ { \\mathrm { T . l . } } )$   \nEntonces $\\forall \\mathbf { x }$ :: Poli a. ${ \\mathcal { P } } ( { \\mathbf { x } } )$ . ",
+        "bbox": [
+            74,
+            474,
+            610,
+            988
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "16 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: inducci´on sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            524,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bdacaad50ec44e3dedba40ad47c29b42942ac2f4c12142ee02e723bef1a9b64d.jpg",
+        "text": "$$\n\\begin{array} { l l l l } { \\texttt { m a p  f } [ ] } & { = } & { [ ] } \\\\ { \\texttt { m a p  f } ( \\texttt x : \\texttt { x s } ) } & { = \\texttt { f x : \\texttt { m a p f } x s } } \\\\ { [ ] } & { + + \\texttt { y s } = } & { \\texttt y \\texttt { s } } \\\\ { ( \\texttt x : \\texttt { x s } ) } & { + + \\texttt { y s } = \\texttt { x : \\texttt { ( x s + \\texttt { y s } ) } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            205,
+            649,
+            415
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Propiedad. Si f :: a -> b, xs :: [a], ys :: [a], entonces: ",
+        "bbox": [
+            74,
+            430,
+            848,
+            481
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "map f (xs ++ ys) = map f xs ++ map f ys ",
+        "bbox": [
+            182,
+            525,
+            812,
+            573
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Por inducci´on en la estructura de xs, basta ver: ",
+        "bbox": [
+            77,
+            613,
+            676,
+            661
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1. Caso base, P([]).   \n2. Caso inductivo, ∀x :: a. ∀xs :: [a]. (P(xs) ⇒ P(x : xs)).   \ncon ${ \\mathcal { P } } ( \\mathbf { x } \\mathbf { s } ) : \\equiv ( \\mathrm { m a p }$ f (xs ++ ys) = map f xs ++ map f ys). ",
+        "bbox": [
+            77,
+            672,
+            911,
+            845
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6a434cc5a756aa5e8589fc37c0ddf9e861b10bb862525f60c948672b281517b2.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: inducci´on sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            524,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Caso base: ",
+        "bbox": [
+            77,
+            150,
+            212,
+            191
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "map f ([] ++ ys) = map f ys por A0 = [] ++ map f ys por A0 = map f [] ++ map f ys por M0 ",
+        "bbox": [
+            259,
+            224,
+            748,
+            426
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Caso inductivo: ",
+        "bbox": [
+            77,
+            485,
+            270,
+            529
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "map f ((x : xs) ++ ys)   \n= map f (x : (xs ++ ys)) por A1 f x : map f (xs ++ ys) por M1   \n= f x : (map f xs ++ map f ys) por H.I.   \n= (f x : map f xs) ++ map f ys por A1   \n= map f (x : xs) ++ map f ys por M1 ",
+        "bbox": [
+            187,
+            562,
+            809,
+            863
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: relaci´on entre foldr y foldl ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            660,
+            88
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Propiedad. Si f :: a -> b -> b, z :: b, xs :: [a], entonces: ",
+        "bbox": [
+            55,
+            99,
+            864,
+            143
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "fold erse xs) ",
+        "bbox": [
+            151,
+            172,
+            845,
+            220
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d3165cd4b022a5ff231ed6c1d0b6177dc929219f1861fa627a6127391282e796.jpg",
+        "text": "$$\n\\frac { \\texttt { l f z x s } = \\texttt { f o l d l } \\texttt { ( f l i p f ) z } \\texttt { ( r e v } } { \\mathcal { P } \\texttt { ( x s ) } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            165,
+            720,
+            294
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Por inducci´on en la estructura de xs. El caso base P([]) es f´acil. Caso inductivo, ∀x :: a. ∀xs :: [a]. $( \\mathcal { P } ( \\bf { x } { \\bf { s } } ) \\Rightarrow \\mathcal { P } ( \\bf { x } _ { \\alpha } : \\lambda { \\bf { x } } { \\bf { s } } ) ) \\colon$ : ",
+        "bbox": [
+            74,
+            312,
+            900,
+            404
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "foldr f z (x : xs) f x (foldr f z xs) (Def. foldr)   \n$=$ f x (foldl (flip f) z (reverse xs)) (H.I.)   \n$=$ flip f (foldl (flip f) z (reverse xs)) x (Def. flip)   \n$=$ foldl (flip f) z (reverse xs ++ [x]) (???)   \n$=$ foldl (flip f) z (reverse (x : xs)) (Def. reverse ",
+        "bbox": [
+            82,
+            430,
+            919,
+            698
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Para justificar el paso faltante (???), se puede demostrar: Lema. Si g :: b -> a -> b, z :: b, x :: a, xs :: [a], entonces: ",
+        "bbox": [
+            71,
+            738,
+            908,
+            838
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Lemas de generaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            359,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Usando el principio de inducci´on estructural, se puede probar: ",
+        "bbox": [
+            71,
+            202,
+            856,
+            250
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Lema de generaci´on para pares ",
+        "bbox": [
+            77,
+            297,
+            497,
+            345
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Si p :: (a, b), entonces ∃x :: a. ∃y :: b. p = (x, y). ",
+        "bbox": [
+            71,
+            356,
+            803,
+            404
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "data Either a b = Left a | Right b ",
+        "bbox": [
+            74,
+            481,
+            621,
+            529
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Lema de generaci´on para sumas ",
+        "bbox": [
+            77,
+            573,
+            511,
+            621
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Si e :: Either a b, entonces: ",
+        "bbox": [
+            74,
+            636,
+            466,
+            680
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "▶ o bien ∃x :: a. e = Left x ▶ o bien ∃y :: b. e = Right y ",
+        "bbox": [
+            93,
+            694,
+            522,
+            805
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "21 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "bbox": [
+            74,
+            301,
+            414,
+            352
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Extensionalidad ",
+        "bbox": [
+            74,
+            448,
+            328,
+            500
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Isomorfismos de tipos ",
+        "bbox": [
+            74,
+            595,
+            428,
+            647
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Casos de estudio ",
+        "bbox": [
+            74,
+            738,
+            348,
+            790
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Puntos de vista intensional vs. extensional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            709,
+            84
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "¿Vale la siguiente equivalencia de expresiones? ",
+        "bbox": [
+            74,
+            121,
+            662,
+            165
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "quickSort $=$ insertionSort ",
+        "bbox": [
+            298,
+            213,
+            698,
+            257
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Depende del punto de vista: ",
+        "bbox": [
+            74,
+            301,
+            430,
+            345
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Punto de vista intensional. ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            397,
+            444,
+            437
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(va con “s”) ",
+        "bbox": [
+            762,
+            397,
+            922,
+            441
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Dos valores son iguales si est´an construidos de la misma manera. ",
+        "bbox": [
+            80,
+            444,
+            906,
+            488
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Punto de vista extensional. ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            540,
+            453,
+            580
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Dos valores son iguales si son indistinguibles al observarlos. ",
+        "bbox": [
+            80,
+            588,
+            823,
+            632
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            702,
+            187,
+            750
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "quickSort e insertionSort ",
+        "bbox": [
+            74,
+            764,
+            461,
+            805
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "no son intensionalmente iguales; ",
+        "bbox": [
+            118,
+            823,
+            546,
+            867
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "s´ı son extensionalmente iguales: computan la misma funci´on. ",
+        "bbox": [
+            116,
+            886,
+            922,
+            930
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            830,
+            118,
+            856
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Principio de extensionalidad funcional ",
+        "bbox": [
+            19,
+            29,
+            632,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Sean f, g :: a -> b. ",
+        "bbox": [
+            74,
+            323,
+            359,
+            371
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Propiedad inmediata ",
+        "bbox": [
+            74,
+            389,
+            356,
+            437
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Si f = g entonces (∀x :: a. f $\\textbf { x } = \\textbf { g } \\textbf { x } )$ . ",
+        "bbox": [
+            74,
+            448,
+            616,
+            500
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Principio de extensionalidad funcional ",
+        "bbox": [
+            74,
+            529,
+            649,
+            580
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Si (∀x :: a. f $\\textbf { x } = \\textbf { g } \\textbf { x } )$ entonces $\\mathbf { f } ~ = ~ \\mathbf { g }$ ",
+        "bbox": [
+            74,
+            591,
+            613,
+            639
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Principio de extensionalidad funcional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            632,
+            84
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: extensionalidad funcional {I} id x = x {S} swap (x, y) = (y, x) ",
+        "bbox": [
+            77,
+            106,
+            546,
+            154
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            187,
+            453,
+            290
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Veamos que swap . swap $=$ id :: (a, b) -> (a, b). Por extensionalidad funcional, basta ver: ",
+        "bbox": [
+            74,
+            312,
+            803,
+            408
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "∀p :: (a, b). (swap . swap) p = id p ",
+        "bbox": [
+            220,
+            452,
+            779,
+            500
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Por inducci´on sobre pares, basta ver: ",
+        "bbox": [
+            77,
+            540,
+            538,
+            588
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "∀x :: a. ∀y :: b. (swap . swap) (x, y) = id (x, y) ",
+        "bbox": [
+            116,
+            632,
+            875,
+            680
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "En efecto: ",
+        "bbox": [
+            74,
+            724,
+            204,
+            764
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "(swap . swap) (x, y) swap (swap (x, y)) (por C) swap (y, x) (por S)   \n= (x, y) (por S)   \n= id (x, y) (por I) ",
+        "bbox": [
+            243,
+            720,
+            748,
+            970
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Resumen: razonamiento ecuacional ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            591,
+            84
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Razonamos ecuacionalmente usando tres principios: ",
+        "bbox": [
+            82,
+            216,
+            723,
+            261
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "1. Principio de reemplazo ",
+        "text_level": 1,
+        "bbox": [
+            96,
+            279,
+            453,
+            323
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Si el programa declara que e1 = e2, cualquier instancia de e1 es igual a la correspondiente instancia de e2, y viceversa. ",
+        "bbox": [
+            129,
+            330,
+            925,
+            422
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "2. Principio de inducci´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            96,
+            441,
+            599,
+            481
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Para probar $\\mathcal { P }$ sobre todas las instancias de un tipo T, basta probar $\\mathcal { P }$ para cada uno de los constructores (asumiendo la H.I. para los constructores recursivos). ",
+        "bbox": [
+            129,
+            488,
+            903,
+            632
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "3. Principio de extensionalidad funcional ",
+        "text_level": 1,
+        "bbox": [
+            96,
+            650,
+            660,
+            691
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Para probar que dos funciones son iguales, basta probar que son iguales punto a punto. ",
+        "bbox": [
+            129,
+            702,
+            897,
+            794
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on del razonamiento ecuacional ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            660,
+            84
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que logramos demostrar que e1 = e2. ¿Qu´e nos asegura eso sobre e1 y e2? ",
+        "bbox": [
+            74,
+            99,
+            734,
+            194
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Cuidado: no necesariamente resultan en el mismo “dato” Por ejemplo, se puede demostrar que extensionalmente: ",
+        "bbox": [
+            74,
+            242,
+            848,
+            338
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "pero quickSort e insertionSort son “datos” diferentes. ",
+        "bbox": [
+            82,
+            474,
+            817,
+            518
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Son c´odigos distintos que representan la misma funci´on matem´atica. ",
+        "bbox": [
+            74,
+            533,
+            792,
+            628
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on con respecto a observaciones ",
+        "bbox": [
+            77,
+            687,
+            621,
+            731
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Si demostramos e1 = e2 :: A, entonces: ",
+        "bbox": [
+            74,
+            746,
+            596,
+            786
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "obs e1 ⇝ True si y s´olo si obs e2 ⇝ True para toda posible “observaci´on” obs :: A -> Bool. ",
+        "bbox": [
+            74,
+            834,
+            809,
+            970
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Demostraci´on de desigualdades ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            527,
+            84
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo demostramos que no vale una igualdad e1 = e2 :: A? ",
+        "bbox": [
+            71,
+            117,
+            870,
+            161
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Por la contrarrec´ıproca de la anterior, basta con encontrar una observaci´on obs :: A -> Bool que las distinga. ",
+        "bbox": [
+            74,
+            205,
+            867,
+            305
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            349,
+            187,
+            397
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Demostrar que no vale la igualdad: ",
+        "bbox": [
+            77,
+            411,
+            522,
+            455
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "id $=$ swap :: (Int, Int) -> (Int, Int) ",
+        "bbox": [
+            215,
+            500,
+            779,
+            547
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "obs :: ((Int, Int) -> (Int, Int)) -> Bool obs f = fst (f (1, 2)) == 1 ",
+        "bbox": [
+            71,
+            661,
+            707,
+            761
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/702f340308a73d6ce445f7b9944f710a00ad96b7a71dc11323cb7f128e65451d.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            947,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "bbox": [
+            74,
+            301,
+            414,
+            352
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Extensionalidad ",
+        "bbox": [
+            77,
+            448,
+            328,
+            500
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Isomorfismos de tipos ",
+        "bbox": [
+            74,
+            595,
+            428,
+            650
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Casos de estudio ",
+        "bbox": [
+            74,
+            738,
+            348,
+            794
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a5015989854c2869d367f72da36556c78a91399508ab1d399e791700cc8e1f6e.jpg",
+        "text": "$$\n^ { 2 8 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Misma informaci´on, distinta forma ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            580,
+            84
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e relaci´on hay entre los siguientes valores? ",
+        "bbox": [
+            74,
+            102,
+            662,
+            147
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "(\"hola\", (1, True)) :: (String, (Int, Bool)) ((True, \"hola\"), 1) :: ((Bool, String), Int) ",
+        "bbox": [
+            104,
+            172,
+            790,
+            268
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Representan la misma informaci´on, pero escrita de distinta manera. ",
+        "bbox": [
+            82,
+            294,
+            917,
+            341
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Podemos transformar los valores de un tipo en valores del otro: ",
+        "bbox": [
+            74,
+            415,
+            878,
+            463
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "f :: (String, (Int, Bool)) -> ((Bool, String), Int) f (s, (i, b)) = ((b, s), i) ",
+        "bbox": [
+            71,
+            485,
+            867,
+            584
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "g :: ((Bool, String), Int) -> (String, (Int, Bool)) g ((b, s), i) = (s, (i, b)) ",
+        "bbox": [
+            71,
+            636,
+            870,
+            735
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Se puede demostrar que: ",
+        "bbox": [
+            74,
+            761,
+            389,
+            805
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Isomorfismos de tipos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            372,
+            84
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            297,
+            212,
+            338
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Decimos que dos tipos de datos A y B son isomorfos si: ",
+        "bbox": [
+            82,
+            349,
+            779,
+            393
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "1. Hay una funci´on f :: A -> B total.   \n2. Hay una funci´on g :: B -> A total.   \n3. Se puede demostrar que g . f = id :: A -> A.   \n4. Se puede demostrar que f . g = id :: B -> B. ",
+        "bbox": [
+            93,
+            408,
+            762,
+            639
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Escribimos A ≃ B para indicar que A y B son isomorfos. ",
+        "bbox": [
+            74,
+            669,
+            770,
+            716
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo de isomorfismo: currificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            632,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            294,
+            187,
+            338
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Veamos que ((a, b) $\\Sigma > \\mathtt { c } ) \\simeq ( \\mathtt { a } \\to \\mathtt { b } \\to \\mathtt { c } ) .$ ",
+        "bbox": [
+            74,
+            352,
+            701,
+            397
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "curry :: ((a, b) -> c) -> a -> b -> c curry f x y = f (x, y) ",
+        "bbox": [
+            104,
+            441,
+            679,
+            544
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "uncurry :: (a -> b -> c) -> (a, b) -> c uncurry f (x, y) = f x y ",
+        "bbox": [
+            104,
+            588,
+            709,
+            687
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo de isomorfismo: currificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            632,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Veamos que   \nuncurry . curry = id :: ((a, b) -> c) -> (a, b) ->   \nPor extensionalidad funcional, basta ver que si f :: (a, b) ->   \n(uncurry . curry) f = id f :: (a, b) -> c   \nPor extensionalidad funcional, basta ver que si p :: (a, b):   \n(uncurry . curry) f p = id f p :: c   \nPor inducci´on sobre pares, basta ver que si x :: a, y :: b:   \n(uncurry . curry) f (x, y) = id f (x, y) :: c   \nEn efecto: ",
+        "bbox": [
+            71,
+            121,
+            881,
+            566
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(uncurry . curry) f (x, y) uncurry (curry f) (x, y) (Def. (.)) curry f x y (Def. uncurry) = f (x, y) (Def. curry) id f (x, y) (Def. id) ",
+        "bbox": [
+            149,
+            595,
+            856,
+            849
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(Y vale tambi´en curry . uncurry = id). ",
+        "bbox": [
+            74,
+            904,
+            627,
+            952
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "M´as isomorfismos de tipos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            450,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Inducci´on estructural ",
+        "bbox": [
+            74,
+            301,
+            414,
+            352
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Extensionalidad ",
+        "bbox": [
+            77,
+            448,
+            328,
+            500
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Isomorfismos de tipos ",
+        "bbox": [
+            74,
+            595,
+            428,
+            647
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Casos de estudio ",
+        "bbox": [
+            74,
+            738,
+            350,
+            794
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2a91e071267fe340e5c9a7a6a144e27cc91118ea9a91770065764825e8405b61.jpg",
+        "text": "$$\n3 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — Necesidad de usar lemas auxiliares ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            776,
+            88
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Asumimos las definiciones usuales para (.) y (++) y la siguiente para reverse: ",
+        "bbox": [
+            71,
+            128,
+            903,
+            220
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "$\\{ { \\tt R O } \\}$ reverse [] = [] {R1} reverse (x : xs) $=$ reverse xs ++ [x] ",
+        "bbox": [
+            74,
+            242,
+            665,
+            330
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Consideremos adem´as la siguiente definici´on: ",
+        "bbox": [
+            77,
+            356,
+            643,
+            404
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "ceros :: [a] -> [Int]   \n{Z0} ceros [] = []   \n{Z1} ceros (_ : xs) = 0 : ceros xs ",
+        "bbox": [
+            77,
+            426,
+            616,
+            573
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Demostremos que ceros . reverse $=$ reverse . ceros. ",
+        "bbox": [
+            80,
+            606,
+            842,
+            647
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e ocurre? ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            694,
+            259,
+            738
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos un lema auxiliar: ",
+        "bbox": [
+            77,
+            753,
+            469,
+            797
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "∀xs ys :: [a]. ceros (xs ++ ys) $=$ ceros xs ++ ceros ys ",
+        "bbox": [
+            77,
+            834,
+            922,
+            882
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — Necesidad de generalizar el predicado inductivo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            986,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Consideremos la siguiente definici´on, usando recursi´on iterativa: ",
+        "bbox": [
+            69,
+            139,
+            889,
+            187
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "suma :: Int -> [Int] -> Int {S0} suma k [] = k {S1} suma k (x : xs) = suma (x + k) xs ",
+        "bbox": [
+            74,
+            209,
+            682,
+            360
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Demostremos que para k :: Int y xs :: [Int] vale: ",
+        "bbox": [
+            77,
+            386,
+            740,
+            433
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "suma k (xs ++ ys) $=$ suma (suma k xs) ys ",
+        "bbox": [
+            187,
+            466,
+            812,
+            514
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e ocurre? ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            569,
+            259,
+            617
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos generalizar el predicado inductivo de $\\mathcal { P }$ a Q: ",
+        "bbox": [
+            74,
+            625,
+            823,
+            672
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "P(xs) ≡ suma k (xs ++ ys) = suma (suma k xs) ys ",
+        "bbox": [
+            88,
+            702,
+            795,
+            768
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Q(xs) ≡ ∀k’ :: Int. suma k’ (xs ++ ys) = suma (suma k’ xs) ys ",
+        "bbox": [
+            88,
+            808,
+            966,
+            863
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "36 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — Necesidad de generalizar el predicado inductivo ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            29,
+            986,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Definimos funciones para acumular una lista, usando recursi´on iterativa y estructural: ",
+        "bbox": [
+            74,
+            117,
+            864,
+            205
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "$\\{ \\mathtt { L O } \\}$ acumL k [] $= ~ [ ]$ {L1} acumL k (x : xs) = (x + k) : acumL (x + k) xs $\\{ { \\tt R O } \\}$ $\\begin{array}{c} \\begin{array} { l } { { \\mathrm { a c u m R } } } \\\\ { { \\mathrm { a c u m R } } } \\end{array} { \\left[ \\begin{array} { l l } { { \\mathrm {  ~ \\ l s ~ \\unboldmath } } } & { { = } } \\end{array} \\begin{array} { l } { { \\mathrm {  ~ \\ l ~ \\unboldmath } } } \\\\ { { \\mathrm {  ~ \\ l s ~ \\unboldmath } } } \\end{array} \\right] } { \\mathrm {  ~ \\ c a c u m R ~ \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t } }  \\end{array}$ {R cumR xs) ",
+        "bbox": [
+            71,
+            224,
+            806,
+            455
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Demostremos que acumL $0 \\ =$ acumR. ",
+        "bbox": [
+            77,
+            474,
+            558,
+            518
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e ocurre? ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            566,
+            259,
+            613
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos generalizar el predicado inductivo de $\\mathcal { P }$ a Q: ",
+        "bbox": [
+            74,
+            617,
+            823,
+            665
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "P(xs) ≡ acumL 0 xs = acumR xs ",
+        "bbox": [
+            124,
+            698,
+            555,
+            753
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Q(xs) ≡ ∀k :: Int. acumL k xs = map (+ k) (acumR xs) ",
+        "bbox": [
+            121,
+            794,
+            875,
+            852
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "(La demostraci´on completa requiere algunos lemas auxiliares m´as). ",
+        "bbox": [
+            82,
+            886,
+            925,
+            933
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "37 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            253,
+            745,
+            349
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            437,
+            367,
+            481
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Cap´ıtulo 6 del libro de Bird. ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            488,
+            464,
+            533
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Richard Bird. Thinking functionally with Haskell Cambridge University Press, 2015. ",
+        "bbox": [
+            74,
+            540,
+            696,
+            632
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    }
+]

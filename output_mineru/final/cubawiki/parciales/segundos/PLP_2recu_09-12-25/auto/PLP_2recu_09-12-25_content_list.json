@@ -1,0 +1,633 @@
+[
+    {
+        "type": "text",
+        "text": "PLP- Segundo Recuperatorio- $2 ^ { \\mathrm { d o } }$ cuatrimestre de 2025 ",
+        "text_level": 1,
+        "bbox": [
+            149,
+            49,
+            838,
+            71
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/0fb3813c43d41daaccb36197b868b415559669b7126b49ff03c50a9f79fbd840.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Turno</td><td rowspan=1 colspan=1>Libreta</td><td rowspan=1 colspan=1>Apellidoy Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1>322</td><td rowspan=1 colspan=2>N</td><td rowspan=1 colspan=1>RaSsINGAOSOntiaaO</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            95,
+            83,
+            887,
+            129
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "EsteexamenapbedalesdeeiB)olar)eiooalesdo (MB)yunobienB)Essiblebeeaaprobcinondicioalonjericien)nienB)unsuiente)o habiendoentregdgeorbuyaalaindelejeiciLaotspracdaejecicio,,E.Entregdjei enhojasseparadasPonernombreapelidoymerodrdenentodaslasojasyumerarlasSepuedeutilizartodolodefidnlas practicasytodoloesediseolocadreferenasaasEdendesejereicosesbitrarioEtregradaejereiijs separadas.Recomendamos leer el parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            57,
+            142,
+            942,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1-Programacion Logica ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            245,
+            349,
+            260
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ImplementarlospredicadosespetandoencadacasolainstanciacinpedidaLosgeneradoresdebencubrirtodaslasstansvsde aquelquegeneansinepetirdosveceslamismaSedebenindicarlospatroesdeinstanciacindetodosospredicadosauilaresNousar cut(!)nipredcadosdealtoordenomosetof,onlanicaexcepcindenotNoestaperitidousarmacrosquecolapsenlsulas ",
+        "bbox": [
+            58,
+            261,
+            942,
+            302
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Enesteejerciciotabajaremosconmatricesepresetandolasomolistasdelistasendondecadalistaeptae orden las filas dela matriz.Cada matriz debe tener al menos una celda,y no puede haber filas vacias. ",
+        "bbox": [
+            57,
+            315,
+            941,
+            345
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a)Definir el predicado secuenciaRepetida(+MS) queesverdaderocuando Sesuna secuenciade eleentosconse cutivosqueapareceen todaslasfilasde M.Notar quelalista vacia no se considera subsecuencia.Por ejemplo ",
+        "bbox": [
+            60,
+            355,
+            941,
+            384
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "？-secuenciaRepetida([[1,2,3],[1,2,4],[3,1,2]],S). $\\mathrm { ~ s ~ } = \\ [ 1 ]$ ； $S = [ 1 , 2 ]$ $S = [ 2 ]$ ； false. ",
+        "bbox": [
+            102,
+            395,
+            499,
+            459
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b)Definir elpredicadosecuenciaMaxima(+M,-S)queinstancia en Slasecuenciadeelementosconsecutivosdemaye longitud que se repite en todas las flas de la matriz M.Por ejemplo: ",
+        "bbox": [
+            65,
+            470,
+            941,
+            498
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "？-secuenciaMaxima([[a,b,c,d],[b,c,d,e],[a,b,c,e]],S). $S = [ b , c ]$ ; false.   \n？-secuenciaMaxima([[1,2,3],[1,3,5]],S). $s = [ 1 ]$ ； $S = [ 3 ]$ false. ",
+        "bbox": [
+            99,
+            509,
+            532,
+            599
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c) Definir el predicado todasLasmatrices(-M) que instancia en $\\mathbb { M }$ todas las matrices validas con sus elementos sir instanciar.Por ejemplo: ",
+        "bbox": [
+            72,
+            609,
+            942,
+            637
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?-todasLasMatrices(M). $y = [ ( - , - , - 3 ] ]$ M=[[_,,],[_,,]]； M=[[_]]； $M = [ [ - , - ] , [ - , - ] ] ;$ M=[[,],[,],[,]]； M=[[_，]]； $M = [ [ - ] , [ - ] , [ - ] ] ;$ M=[[_]，[_]，[_]，[_]] $M = [ ( 1 , 7 , [ - ] )$ ; $y = [ [ - , - , - , - ] ]$ .. ",
+        "bbox": [
+            107,
+            648,
+            887,
+            704
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d)𝑖El predicado anterior es reversible? Justificar. ",
+        "bbox": [
+            82,
+            722,
+            453,
+            736
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Resolucion ",
+        "text_level": 1,
+        "bbox": [
+            68,
+            751,
+            270,
+            767
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a.Dada la siguiente base de conocimientos en Prolog： ",
+        "bbox": [
+            84,
+            777,
+            487,
+            793
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "nota(do).  \nsubmelodia(sec(M,N）,sec(M,N)).  \nsubmelodia(sec(M,_),S):-submelodia(M,S).  \nsubmelodia(sec(_,N),S):-submelodia(N,S).  \nmelodia（M）:- nota(M).  \nmelodia(sec(M,N)）:-melodia(M)，melodia(N).",
+        "bbox": [
+            109,
+            804,
+            460,
+            883
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Explicar brevemente con palabras que sucede ai realizar la siguiente consulta: ",
+        "bbox": [
+            105,
+            895,
+            697,
+            910
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b.Expresar la basede conocimientosyla consulta anterior como formulas l6gicas. ",
+        "bbox": [
+            87,
+            938,
+            699,
+            953
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            504,
+            975,
+            514,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Csmgio:Malewa ",
+        "bbox": [
+            630,
+            9,
+            836,
+            28
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c.Pasar las formulas a forma clausalyencontrar una soluciona laconsulta utilizando resolucion. Sugerencia:pensar cual deberia ser el resultado para armar el plan.   \nd. La resolucion utilizada en el punto anterior ifue SLD? Justificar.   \ne:Havalgunadiferencia entresuresolucionyencomoresuelveProloglaconsulta?Siesasidetalar cual. ",
+        "bbox": [
+            70,
+            48,
+            852,
+            121
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3-Inferencia y Deduccion Natural ",
+        "text_level": 1,
+        "bbox": [
+            52,
+            135,
+            420,
+            152
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a)Consideremos el Calculo Lambda tipado extendido con regiones geometricas: ",
+        "bbox": [
+            67,
+            155,
+            653,
+            171
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\gamma : : = \\cdots 1$ RegionM:=.|Rectangulo（M,M）|Union(M，M）|foldRGM>Rectangulo（x，y）\\~M;Union(ri,rd)\\~M",
+        "bbox": [
+            75,
+            174,
+            867,
+            206
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "donde ",
+        "bbox": [
+            94,
+            213,
+            139,
+            225
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Region es el tipo de las regiones del plano formadas por rectangulos y uniones de rectangulos. Rectangulo(M1,M2)es un rectangulo de ancho dado por M1 y alto dado por M2. Union(M1,M2)eslaregiondel plano formadaporlauni6n delas regionesM1yM2. foldRGM1Rectangulo(x,y)\\~M;Union(ri,rd)\\~Meselesquemaderecursionestructuralpararegiones, dondelas variables xey se ligaran en M2al ancho y alto del rectangulo,y riy rd seligaran en Malos resultados de la recursion sobre las regiones unidas. ",
+        "bbox": [
+            110,
+            228,
+            927,
+            332
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se dispone de las siguientes reglas de tipado: ",
+        "bbox": [
+            94,
+            345,
+            418,
+            359
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/58c84baeb0e369aa6ccc3a53d3577a6308a2aae43e6e4d5c66e58562fb0a3d2e.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\quad \\frac { \\Gamma + M _ { 1 } : N a t } { \\Gamma \\vdash \\mathrm { R e c t a n g u l o } ( M _ { 1 } , M _ { 2 } ) : \\mathrm { R e g i } \\diamond \\mathrm { n } } \\frac { \\Gamma + M _ { 1 } : \\mathrm { R e g i o n } } { \\Gamma \\vdash \\mathrm { { U n i } } \\ 6 \\mathrm { n } ( M _ { 1 } , M _ { 2 } ) : \\mathrm { { R e g i } } \\ 6 \\mathrm { n } } } \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\Gamma \\vdash M _ { 1 } : \\mathrm { { R e g i o n } } \\phantom { \\sum _ { i } \\sum _ { j } : N a t } \\Gamma , x : N a t , y : N a t \\vdash M _ { 2 } : \\tau \\qquad { \\Gamma , \\tau } i : \\tau , r d : \\tau \\vdash M _ { 3 } : \\tau } \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\Gamma \\vdash \\mathrm { { f o l d R G } } M _ { 1 } \\diamond \\mathrm { { R e c t i a n g u l o } } ( x , y ) \\sim M _ { 2 } : \\mathrm { { U n i } } \\ 6 \\mathrm { n } ( r i , r d ) \\sim M _ { 3 } : \\tau } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            169,
+            361,
+            867,
+            431
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Seextiende tambien el algoritmo de inferencia de la siguiente manera: ",
+        "bbox": [
+            95,
+            444,
+            605,
+            458
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\mathcal { L } ( \\Gamma \\mid \\mathsf { R e c t a n g u l o } ( M _ { 1 } , M _ { 2 } ) ) = ( \\mathsf { R e g i o n } \\mid \\{ \\tau _ { 1 } \\stackrel { ? } { = } \\tau _ { 2 } , \\tau _ { 2 } \\stackrel { ? } { = } N a t \\} \\cup E _ { 1 } \\cup E _ { 2 } ) } \\end{array}$ donde ${ \\mathcal { I } } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } )$ ${ \\mathcal { I } } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } )$ ",
+        "bbox": [
+            99,
+            460,
+            610,
+            507
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\mathcal { Z } ( \\Gamma \\mid \\mathsf { U r i o n } ( M _ { 1 } , M _ { 2 } ) ) = \\left( \\mathsf { R e g i o n } \\mid \\{ \\tau _ { 1 } \\stackrel { ? } { = } \\tau _ { 2 } , \\tau _ { 2 } \\stackrel { ? } { = } \\mathsf { R e g i o n } \\} \\cup E _ { 1 } \\cup E _ { 2 } \\right) } \\end{array}$ donde ${ \\mathcal { I } } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } )$ $\\begin{array} { r } { { \\cal { I } } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\end{array}$ ",
+        "bbox": [
+            100,
+            519,
+            596,
+            566
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Z(T|foldRG $M _ { 1 }$ Rectangulo $( x , y ) \\sim M _ { 2 }$ $\\mathsf { U n i o n } ( r i , r d ) \\sim M _ { 3 } ) =$ $\\begin{array} { r } { ( \\tau _ { 3 } \\mid \\{ \\tau _ { 2 } = \\tau _ { 3 } , \\tau _ { 1 } \\stackrel { ? } { = } \\mathsf { R e g i o n } , X _ { x } \\stackrel { ? } { = } N a t , X _ { y } = X _ { x } , X _ { r i } \\stackrel { ? } { = } X _ { r d } , X _ { r d } = \\tau _ { 3 } \\} \\cup E _ { 1 } \\cup E _ { 2 } \\cup E _ { 3 } ) } \\end{array}$ donde ${ \\mathcal { I } } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } )$ I(T,x:Xx,y:Xy∣M）=（T2|E2） $\\begin{array} { r } { { \\cal { Z } } ( \\Gamma , r i : X _ { r i } , r d : X _ { r d } \\mid M _ { 3 } ) = ( \\tau _ { 3 } \\mid E _ { 3 } ) } \\end{array}$ X,Xy,Xriy Xrd variablesfrescas ",
+        "bbox": [
+            100,
+            580,
+            618,
+            595
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            99,
+            590,
+            727,
+            671
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se pide: ",
+        "bbox": [
+            100,
+            681,
+            161,
+            695
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i) Rectificar el siguiente termino: ",
+        "bbox": [
+            119,
+            701,
+            363,
+            717
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldRG Rectangulo $( x , y )$ $\\triangleright \\mathsf { R e c t \\dot { a } n g u l o } ( x , y )  ( \\lambda z . x ) ( z \\ y ) ; \\mathsf { U n i o n } ( r i , r d ) $ if $_ { g }$ then $_ { r 2 }$ else rd )Usar el algoritmo $\\mathcal { L }$ para inferir el tipo de las siguientes expresiones,o demostrar que no son tipables ",
+        "bbox": [
+            176,
+            719,
+            868,
+            737
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            115,
+            742,
+            873,
+            758
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { U n i o n } ( ( \\lambda x . x ) \\ y , ( \\lambda x . x \\ z ) )$ $\\mathsf { f o l d R G R e c t a n g u l o } ( \\underline { { 1 } } , z ) \\triangleright \\mathsf { R e c t a n g u l o } ( x , y ) \\sim w ; \\mathsf { U n i o n } ( r i , r d ) \\sim i s Z e r o ( r i )$ ",
+        "bbox": [
+            179,
+            763,
+            825,
+            800
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "No es necesarioeribirelpasoapasodelMGUperodeben tarpresenteslasuacioesdeufcacionyla sustitucion final. ",
+        "bbox": [
+            141,
+            802,
+            934,
+            832
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b)Demostrar el siguiente teorema usando deduccion natural sin utilizar principios clasicos: ",
+        "bbox": [
+            72,
+            859,
+            747,
+            876
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/faf0383ed7159b409bafdc3860f11b1e3a1c695d2e0d315c9d76881621c1d3b6.jpg",
+        "text": "$$\n\\exists X . P ( X , X ) \\Rightarrow \\exists Y . \\forall Z . \\lnot P ( Y , Z )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            396,
+            894,
+            642,
+            907
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sugerencia: pensar cual es la $Y$ que satisface $\\neg \\forall Z , \\neg P ( Y , Z )$ ",
+        "bbox": [
+            105,
+            914,
+            541,
+            931
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            957,
+            505,
+            969
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "#322 RaussINEAUSancia Hoja1/3  \nEecrcicioAProgamcionca  \na)/soblsta(+L，-S)  \nSobsa(（xIxs]xIys]）：oppon(ys-xs)  \nsob)sta(t-1xs]L):-sub）soa（xsU).  \n!seaenaaRepecob(+M,-S)  \nSecuencaSepetidx7，S）:.suoisca(xs)  \nsewencaRapecd（Cxs]，S).-ssca(x，S)，scencaRepa(xss).  \nb)/SecencaM6xima(+M-5) Sine mo esicentaCokulo lo ea  \nseuvencaMdxmaMS-scuanaaRogecabmS)，not(（seaenseeoa(L)h(L，L)，eng(s），LL>LS))  \nC)Voaaencno 2amatusoao auTamano auetaolcodtonxmhm Cmoda mrae  \nAtOOosLosMacces(-M)  \nosc（MC)，C，）sCAB>， 0，).matODm(A,B，M)  \nsBs B>o Bino ae uo gamu8egognocggaociecBiniodesce1menx  \n",
+        "bbox": [
+            58,
+            0,
+            984,
+            725
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            314,
+            989,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "#322 ",
+        "bbox": [
+            52,
+            68,
+            146,
+            93
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "RassNAvSantogO ",
+        "bbox": [
+            317,
+            83,
+            531,
+            112
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Eeroco 2:Rosolucion ",
+        "bbox": [
+            87,
+            122,
+            386,
+            159
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "H0a2/3 ",
+        "bbox": [
+            749,
+            68,
+            880,
+            110
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "omnelooia(MS)，Susmelota(sec(MN)5)5  \neldo(N，S）,sUomeloasec（MN，S)s  \n(M），meloda（M）  \noa），sMss  \n{M=Ses(MNa)s  \ns（Ns）ssdd)  \n7elodlaM，meoa）  \nLN--M3  \nsunsecs）ssecdd）do)  \nJomelodlaM），oota(Ns)  \n=LNs1=0o  \n}  \n  \n2 (NMszN-Ms}NoCbinona,Re{uNM  \n-nova(Ms)}  \nS={M2∴=sec（a0，0o），N=0  \nS={N=se(se(codo），d），M=Ss（odo），N=d0，Ms-0o，M）:-o，N-ao，Ms:-dO）M:sec（dodo，  \nar  \nnadegumamebayoadeSD，aadndBcisnmolcgntono teona  \n#322 Rassieay,Sanciaao Hoja3/3  \nSecicoInfeca  \nb A",
+        "bbox": [
+            166,
+            118,
+            929,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            65,
+            54,
+            897,
+            181
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "ox2（x2）-2.+（x2） 即（x├（xx)1.Pxz）上→Q，x） .（xz）上↓ x（xx）3x.p（x，x） 1=（ax.R(,x），x）3-3y.2.-R(4,E) 3e ",
+        "bbox": [
+            151,
+            197,
+            961,
+            365
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/86b104707ecb3aa449ad1d64a3243e2dbebde7d801e90760f3f431b0d940f439.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            80,
+            363,
+            157,
+            397
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "（(xx）3））  \n3.Ratncaenex ={a:xox3，H。Unn（xxx），(ax0））( ((M) （x→（x²x→3）[(，a0）=（（x²x→x5）  \n  \n(x13>x2x→23）",
+        "bbox": [
+            75,
+            409,
+            968,
+            757
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "工）（xxxxRosxxxxx²xx .Oncoo:（a.s=mg6) xx，xx} Lasalla (PaceccoOGgtnseenaacnnaNtobe. ",
+        "bbox": [
+            78,
+            768,
+            984,
+            959
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/b8e24649d2a904d793709a0602a28be2e0e33b02f622bd0d3466f916f077b9f1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            55,
+            105,
+            966,
+            976
+        ],
+        "page_idx": 6
+    }
+]

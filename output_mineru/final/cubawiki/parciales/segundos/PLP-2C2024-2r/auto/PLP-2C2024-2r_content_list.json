@@ -1,0 +1,554 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Segundo Recuperatorio - $2 ^ { \\mathbf { d o } }$ cuatrimestre de 2024 ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            61,
+            840,
+            82
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/e6607e5c0b8ed3605b5bff0b4d51876f1fb0b885ba46dd74b1de5cdcec26bfe1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Nro.Libreta</td><td rowspan=1 colspan=1>Apellido y Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            119,
+            84,
+            878,
+            128
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien (B) y uno regular (R), y se promociona con al menos dos ejercicios muy bien (MB) y uno bien (B). Es posible obtener una aprobaci´on condicional con un ejercicio muy bien (MB), uno bien (B) y uno insuficiente (I), pero habiendo entregado algo que contribuya a la soluci´on del ejercicio. Las notas para cada ejercicio son: -, I, R, B, MB, E. Entregar cada ejercicio en hojas separadas. Poner nombre, apellido $_ \\textrm { y }$ n´umero de orden en todas las hojas, y numerarlas. Se puede utilizar todo lo definido en las pr´acticas $_ \\textrm { y }$ todo lo que se dio en clase, colocando referencias claras. El orden de los ejercicios es arbitrario. Recomendamos leer el parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            115,
+            141,
+            882,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 - Programaci´on L´ogica ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            242,
+            405,
+            256
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementar los predicados respetando en cada caso la instanciaci´on pedida. Los generadores deben cubrir todas las instancias v´alidas de aquello que generan sin repetir dos veces la misma. Se deben indicar los patrones de instanciaci´on de todos los predicados auxiliares. No usar cut (!) ni predicados de alto orden como setof, con la ´unica excepci´on de not. ",
+        "bbox": [
+            115,
+            258,
+            882,
+            299
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Implementar el predicado caminoDesde $\\left( + \\mathrm { P } , \\mathsf { \\Pi } - \\mathrm { C } \\right)$ que es verdadero cuando C es un camino en un tablero infinito a partir de una posici´on inicial P. Representaremos a los caminos como una lista de posiciones (X,Y), donde X e Y son n´umeros enteros. En cada paso hay cuatro direcciones posibles: arriba, abajo, izquierda y derecha. Por ejemplo ",
+        "bbox": [
+            117,
+            321,
+            882,
+            379
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$? -$ caminoDesde((0,0),C).   \nC = [(0, 0)] ;   \nC = [(0, 0), (0, 1)] ;   \nC = [(0, 0), (0, -1)] ;   \nC = [(0, 0), (1, 0)] ;   \nC = [(0, 0), (-1, 0)] ;   \nC = [(0, 0), (0, 1), (0, 2)] ; ",
+        "bbox": [
+            139,
+            391,
+            394,
+            483
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f2ef7ae6f5708c30ae2559e4113f6732a02f1edf074c9da881546fd19fbbdad4.jpg",
+        "text": "$$\n\\begin{array} { r c l } { { { \\bf C } } } & { { = } } & { { \\left[ \\left( 0 , \\ 0 \\right) , \\right. \\quad \\left( 0 , \\ 1 \\right) , \\quad \\left. \\left( 0 , \\ 0 \\right) \\right] \\ ; } } \\\\ { { { \\bf C } } } & { { = } } & { { \\left[ \\left( 0 , \\ 0 \\right) , \\right. \\quad \\left( 0 , \\ 1 \\right) , \\quad \\left. \\left( 1 , \\ 1 \\right) \\right] \\ ; } } \\\\ { { { \\bf C } } } & { { = } } & { { \\left[ \\left( 0 , \\ 0 \\right) , \\right. \\quad \\left( 0 , \\ 1 \\right) , \\quad \\left. \\left( - 1 , \\ 1 \\right) \\right] \\ ; } } \\\\ { { { \\bf C } } } & { { = } } & { { \\left[ \\left( 0 , \\ 0 \\right) , \\right. \\quad \\left( 0 , \\ - 1 \\right) , \\quad \\left. \\left( 0 , \\ 0 \\right) \\right] \\ ; } } \\\\ { { { \\bf C } } } & { { = } } & { { \\left[ \\left( 0 , \\ 0 \\right) , \\right. \\quad \\left( 0 , \\ - 1 \\right) , \\quad \\left. \\left( 0 , \\ - 2 \\right) \\right] \\ ; } } \\\\ { { \\ldots } } & { { } } & { { } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            514,
+            403,
+            788,
+            483
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b) Trabajaremos con el conocido problema de optimizaci´on de la mochila. Consideremos definidos los hechos objeto(?Id,?P,?V) que instancian diversos objetos con identificador Id, peso P y valor $\\mathtt { V }$ . Implementar el predicado mochila $( + \\mathsf C , - \\mathsf L )$ que es verdadero cuando L es una lista de identificadores de objetos que al guardarlos en la mochila no supera su capacidad C. Por ejemplo, supongamos definidos los siguientes objetos: ",
+        "bbox": [
+            115,
+            498,
+            884,
+            563
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "objeto(1,50,10).   \nobjeto(2,75,15).   \nobjeto(3,60,5).   \nobjeto(4,10,1). ",
+        "bbox": [
+            141,
+            575,
+            267,
+            626
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Luego, podemos realizar la siguiente consulta: ",
+        "bbox": [
+            141,
+            638,
+            478,
+            652
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?- mochila(70,L).   \n$L ~ = ~ [ ]$ ;   \n$\\mathrm { ~ L ~ } = \\ \\left[ 1 \\right]$ ;   \n$\\mathrm { ~ L ~ } = \\ [ 1 , \\ 4 ]$ ;   \nL = [3] ; L = [3, 4] ;   \nL = [4] ;   \nfalse. ",
+        "bbox": [
+            139,
+            665,
+            273,
+            730
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            515,
+            677,
+            613,
+            717
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Notar que consideramos a las listas como conjuntos, por lo tanto no se deben devolver soluciones repetidas, es decir, listas que contengan los mismos elementos en distinto orden. El orden de los elementos dentro de la lista es arbitrario. ",
+        "bbox": [
+            137,
+            746,
+            882,
+            789
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c) Analizar la reversibilidad de los par´ametros C y L del predicado anterior. ",
+        "bbox": [
+            115,
+            797,
+            677,
+            812
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d) Definir el predicado mejorMochila( $+ \\complement$ ,-L) que es verdadero cuando L es una lista de identificadores de objetos que se pueden guardar en la mochila tal que no superen la capacidad C y maximicen el valor. Puede haber m´as de una soluci´on. Por ejemplo: ",
+        "bbox": [
+            109,
+            819,
+            882,
+            859
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?- mejorMochila(70,L).   \nL = [1, 4] ;   \nfalse. ",
+        "bbox": [
+            139,
+            869,
+            314,
+            908
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            494,
+            932,
+            504,
+            941
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 - Resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            64,
+            317,
+            78
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Dada la siguiente base de conocimientos en Prolog: ",
+        "bbox": [
+            115,
+            89,
+            517,
+            104
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "member(X, [X|Y]).   \nmember(X, [Y|T]) :- member(X, T). seFormaCon([], A).   \nseFormaCon([A|AS], B) :- member(A, B), seFormaCon(AS, B). ",
+        "bbox": [
+            137,
+            120,
+            401,
+            146
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            139,
+            158,
+            591,
+            186
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Explicar con palabras qu´e sucede al realizar la siguiente consulta: seFormaCon(A,[a,b]), member(a, A), member(b, A). ",
+        "bbox": [
+            136,
+            202,
+            630,
+            236
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Expresar la base de conocimientos y la consulta anterior como f´ormulas l´ogicas. ",
+        "bbox": [
+            112,
+            243,
+            726,
+            260
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) Encontrar una soluci´on a la consulta utilizando resoluci´on. ",
+        "bbox": [
+            115,
+            268,
+            571,
+            284
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "d) La resoluci´on utilizada en el punto anterior ¿fue SLD? Justificar. ",
+        "bbox": [
+            115,
+            291,
+            618,
+            307
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 - Inferencia y Objetos ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            322,
+            401,
+            337
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Consideremos extendido el C´alculo Lambda (con listas) para representar RoseTrees. Para eso se extiende el conjunto de tipos y el de t´erminos de la siguiente manera: ",
+        "bbox": [
+            112,
+            349,
+            878,
+            378
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dde396499480f349cd9dfc8dddbf0031c3c01188de64a6112012d6555baff7f4.jpg",
+        "text": "$$\n\\sigma : : = \\dots | \\operatorname { R T } _ { \\sigma } \\qquad M : : = \\dots | \\operatorname { R o s e } ( M , M ) \\mid \\operatorname { M a p } x : \\sigma \\mapsto M \\operatorname { i n } M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            388,
+            756,
+            404
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Los RoseTrees son los usuales, mientras que Map $x : \\sigma \\mapsto M$ in $N$ representa un RoseTree con la misma estructura que $N$ , pero que en cada nodo contiene el resultado de reemplazar las apariciones libres de $x$ en $M$ por el valor del nodo correspondiente en $N$ , como se ve en el siguiente ejemplo: ",
+        "bbox": [
+            139,
+            419,
+            884,
+            463
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Map $t : N a t \\mapsto \\mathsf { s u c c } ( t )$ in $\\mathsf { R o s e ( 0 , [ R o s e ( 0 , \\sharp ) ] ) \\to \\mathsf { R o s e ( \\underline { { 1 } } , [ R o s e ( \\underline { { 1 } } , \\widetilde { \\mathsf { \\Pi } } ) ] ) } }$ ",
+        "bbox": [
+            268,
+            476,
+            749,
+            494
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "El algoritmo de inferencia se extiende de la siguiente manera: ",
+        "bbox": [
+            139,
+            508,
+            593,
+            523
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbb { W } ( \\mathsf { R o s e } ( U , V ) ) \\overset { d e f } { = } S \\Gamma _ { 1 } \\cup S \\Gamma _ { 2 } \\ \\vdash S ( \\mathsf { R o s e } ( M , N ) ) : S \\ \\mathrm { R T } _ { \\sigma }$ donde: ",
+        "bbox": [
+            139,
+            527,
+            559,
+            560
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2a63d801880126813277c9c02858015de1dfc22527cbc6ca7b16dd9b47b73c7b.jpg",
+        "text": "$$\n{ \\begin{array} { r l } & { \\bullet \\mathbb { W } ( U ) = \\Gamma _ { 1 } \\vdash M : \\sigma } \\\\ & { \\bullet \\mathbb { W } ( V ) = \\Gamma _ { 2 } \\vdash N : \\tau } \\\\ & { \\bullet S = \\mathrm { m g u } ( \\{ \\tau { \\overset { ? } { = } } [ \\mathrm { R T } _ { \\sigma } ] \\} \\cup \\{ \\rho _ { 1 } { \\overset { ? } { = } } \\rho _ { 2 }  | x : \\rho _ { 1 } \\in \\Gamma _ { 1 } \\land x : \\rho _ { 2 } \\in \\Gamma _ { 2 }  \\} ) } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            154,
+            570,
+            660,
+            631
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbb { W } ( \\mathsf { M a p } ~ x \\mapsto U ~ \\mathsf { i n } ~ V ) \\stackrel { d e f } { = } S \\Gamma _ { 1 ^ { \\prime } } \\cup S \\Gamma _ { 2 } ~ \\vdash ~ S ( \\mathsf { M a p } ~ x : \\tau _ { x } \\mapsto M ~ \\mathsf { i n } ~ N ) : S ~ \\mathsf { R T } _ { \\sigma _ { 1 } }$ donde: ",
+        "bbox": [
+            141,
+            639,
+            685,
+            671
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { l l } { \\mathbf { \\delta } \\Psi ( U ) = \\Gamma _ { 1 } \\vdash M : \\sigma _ { 1 } } \\\\ { \\mathbf { \\delta } \\Psi ( V ) = \\Gamma _ { 2 } \\vdash N : \\sigma _ { 2 } } \\end{array}$ $\\tau _ { x } = { \\left\\{ \\begin{array} { l l } { \\alpha \\operatorname { s i } { x } : \\alpha \\in \\Gamma _ { 1 } , } \\\\ { { \\mathrm { v a r i a b l e ~ f r e s c a ~ s ~ } } } \\end{array} \\right. }$ i no ■ $\\Gamma _ { 1 ^ { \\prime } } = \\Gamma _ { 1 } \\ominus \\{ x \\}$ $\\begin{array} { r l } & { \\textnormal { \\texttt { s } } _ { 1 ^ { \\prime } } - \\textnormal { \\texttt { i } } _ { 1 } \\smile \\mathrm { ~ } _ { 1 ^ { \\prime } } \\dots \\mathrm { ~ } _ { p } } \\\\ & { \\textnormal { \\texttt { s } } _ { \\mathrm { { } } } S = \\mathrm { { m g u } } \\left( \\left\\{ \\sigma _ { 2 } \\overset { ? } { = } \\mathrm { R T } _ { \\tau _ { x } } \\right\\} \\cup \\left\\{ \\rho _ { 1 } \\overset { ? } { = } \\rho _ { 2 } \\ \\middle | \\ y : \\rho _ { 1 } \\in \\Gamma _ { 1 ^ { \\prime } } \\wedge \\ y : \\rho _ { 2 } \\in \\Gamma _ { 2 } \\right\\} \\right) } \\end{array}$ ",
+        "bbox": [
+            157,
+            682,
+            746,
+            772
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Inferir el tipo de la siguiente expresi´on, o demostrar que no es tipable: ",
+        "bbox": [
+            139,
+            782,
+            657,
+            797
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Considere las siguientes clases: ",
+        "bbox": [
+            115,
+            840,
+            368,
+            854
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            932,
+            504,
+            941
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Object subclass: #X ",
+        "bbox": [
+            141,
+            65,
+            294,
+            77
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "X subclass: #Y action1 ",
+        "bbox": [
+            517,
+            65,
+            631,
+            77
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            139,
+            92,
+            198,
+            103
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "^self baseValue $^ +$ [self compute] value. ",
+        "bbox": [
+            161,
+            104,
+            478,
+            116
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "compute ^10. ",
+        "bbox": [
+            139,
+            130,
+            201,
+            154
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "action2 ^super compute $^ +$ 15.   \nbaseValue ^20. ",
+        "bbox": [
+            515,
+            91,
+            709,
+            155
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "baseValue ^5. ",
+        "bbox": [
+            137,
+            168,
+            215,
+            193
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Para cada una de las siguientes expresiones, hacer una tabla donde se indique, en orden, cada mensaje que se env´ıa, qu´e objeto lo recibe, en qu´e clase est´a el m´etodo respectivo, y cu´al es el resultado final de cada colaboraci´on: ",
+        "bbox": [
+            139,
+            227,
+            880,
+            268
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i) Y new action1   \nii) Y new action2 ",
+        "bbox": [
+            151,
+            279,
+            295,
+            312
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            494,
+            932,
+            504,
+            941
+        ],
+        "page_idx": 2
+    }
+]

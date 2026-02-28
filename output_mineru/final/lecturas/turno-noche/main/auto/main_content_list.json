@@ -1,0 +1,2929 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            216,
+            814,
+            283
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Correspondencia de Curry–Howard Puntos fijos y recursi´on ",
+        "bbox": [
+            185,
+            330,
+            814,
+            441
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            481,
+            781,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Correspondencia de Curry–Howard ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            308,
+            635,
+            367
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Operador de punto fijo ",
+        "bbox": [
+            74,
+            536,
+            450,
+            591
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bd5c69bd62907bfd5e3b03df038cda85b53a09c7e9288de884738349f518bd9f.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sistema de tipos para el c´alculo-λb ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            591,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/1d584d4ae069619d652ee8232b018b4f23f805ebc29355e69f83e4b61942095b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            93,
+            294,
+            864,
+            867
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Vamos a omitir las reglas para booleanos. ",
+        "bbox": [
+            74,
+            897,
+            602,
+            944
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Reglas de tipado ",
+        "bbox": [
+            80,
+            150,
+            919,
+            220
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sistema de tipos para el c´alculo-λ ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            574,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Reglas de tipadoDeducci´on natural ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            172,
+            555,
+            220
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1f9847d29083e73dbccf89dd20e3bdd6430cf33aff8da8363db79557222206f5.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            922,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5d1a161eb17c05ffac6868fa56f9a7a8fb871a67ac63262e5677abf51c44ab7f.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\Gamma , x : \\quad \\tau \\vdash x : \\quad \\tau ^ { \\top - \\mathrm { V A R } \\lambda x } } \\\\ & { \\begin{array} { r l } { \\Gamma , x : \\quad } & { \\tau \\vdash M : \\quad } & { \\sigma } \\\\ { \\Gamma \\vdash \\lambda x : \\sigma . M : \\quad } & { \\tau  \\sigma ^ { \\top - \\mathrm { A B } } } \\end{array} } \\\\ & { \\begin{array} { r l } { \\underline { { \\Gamma \\vdash M : \\quad } } } & { \\tau  \\sigma \\quad } & { \\Gamma \\vdash N : } \\\\ { \\Gamma \\vdash M N : \\quad } & { \\sigma } \\end{array} } \\\\ & { \\begin{array} { r l } { \\mathrm { l g n o r e m o s ~ } \\mid \\mathrm { o s ~ t e r m i n o s } } & { \\quad } \\end{array} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            129,
+            301,
+            635,
+            816
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "s→iτt-app→e",
+        "bbox": [
+            143,
+            290,
+            889,
+            694
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Las reglas de tipado se corresponden con reglas de deducci´on natural. ",
+        "bbox": [
+            118,
+            764,
+            917,
+            919
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            772,
+            118,
+            797
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Correspondencia de Curry ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            439,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Curry y Feys observaron que si se lee el tipo $\\tau  \\sigma$ como una implicaci´on $\\tau \\Rightarrow \\sigma$ : ",
+        "bbox": [
+            74,
+            327,
+            864,
+            422
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "la regla de tipado de la aplicaci´on de una funci´on es la regla modus ponens ",
+        "bbox": [
+            107,
+            481,
+            883,
+            577
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Pruebas y Programas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            370,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "F´ormulas Tipos Demostraciones T´erminos ",
+        "text_level": 1,
+        "bbox": [
+            290,
+            334,
+            709,
+            433
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Un juicio ⊢ σ es derivable si y s´olo si el tipo $\\cdot$ est´a habitado, esto es, existe un t´ermino M tal que ⊢ M : τ es derivable. ",
+        "bbox": [
+            113,
+            500,
+            883,
+            599
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            154,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Si, por ejemplo: ",
+        "bbox": [
+            49,
+            257,
+            254,
+            301
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8fa3aac59e1309953a687ee86ba710d0aa96859aa7bf91b22796e048aa2c307d.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\dot { \\overline { { \\mathbf { \\Lambda } } } } _ { \\overline { { \\mathbf { \\Lambda } } } ^ { \\overline { { \\mathbf { 0 } } } } } } \\\\ & { \\frac { 1 } { \\overline { { \\mathbf { \\Lambda } } } _ { \\overline { { \\mathbf { \\Lambda } } } ^ { \\overline { { \\mathbf { 0 } } } } } } \\partial x } \\\\ & { \\frac { 1 } { \\overline { { \\mathbf { \\Lambda } } } _ { \\overline { { \\mathbf { \\Lambda } } } ^ { \\overline { { \\mathbf { 0 } } } } } } \\partial \\vec { \\mathbf { \\Lambda } } _ { i } } \\\\ & { \\quad \\begin{array} { r l } & { . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . } \\\\ & { \\left. \\begin{array} { l } { 0 } \\\\ { 0 } \\end{array} \\Delta \\mathbf { I } \\mathbf { \\Lambda } \\mathbf { \\Lambda } \\mathbf { \\Sigma } \\right|} \\\\ & { \\frac { 1 } { \\sigma } \\mathbf { \\Lambda } _ { \\overline { { \\mathbf { \\Lambda } } } ^ { \\overline { { \\mathbf { 0 } } } } } \\mathbf { \\Lambda } _ { \\overline { { \\mathbf { \\Lambda } } } ^ { \\overline { { \\mathbf { 0 } } } } } \\mathbf { \\Lambda } _ { \\overline { { \\mathbf { \\Lambda } } } ^ { \\overline { { \\mathbf { 0 } } } } } } \\end{array}  _ { \\overline { { \\mathbf { \\Lambda } } } ^ { \\overline { { \\mathbf { 0 } } } } } } \\end{array}\n$$$$\n{ \\frac { \\overline { { x : \\sigma \\vdash x : \\sigma } } ^ { \\mathrm { T - V A R } } } { \\vdash \\lambda x : \\sigma . x : \\sigma \\to \\sigma } } \\mathrm { T - A B S }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            466,
+            183,
+            975,
+            713
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Corresponde al siguiente juicio d ",
+        "bbox": [
+            52,
+            514,
+            574,
+            562
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "El t´ermino $\\cdot$ se asocia con la prueba de $\\sigma \\Rightarrow \\sigma$ que se muestra en la parte superior ",
+        "bbox": [
+            49,
+            772,
+            955,
+            860
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "¿Es derivable ⊢ σ ⇒ σ?",
+        "bbox": [
+            60,
+            165,
+            966,
+            231
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            154,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "¿Es derivable ⊢ σ ⇒ σ?",
+        "bbox": [
+            52,
+            132,
+            356,
+            176
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Tambi´en existe la siguiente prueba ",
+        "bbox": [
+            52,
+            216,
+            488,
+            261
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/27ae2d2cd2f4d563c0c42e44c5109cc98570febc25010269514c1c91cb6fda03.jpg",
+        "text": "$$\n{ \\begin{array} { r l } { { \\overline { { \\sigma \\Rightarrow \\sigma \\vdash \\sigma \\Rightarrow \\sigma } } } ^ { a x } } & { { \\overline { { \\sigma \\vdash \\sigma } } } ^ { a x } } \\\\ { \\overleftarrow { \\vdash ( \\sigma \\Rightarrow \\sigma ) \\Rightarrow \\sigma \\Rightarrow \\sigma } ^ { \\Rightarrow i } } & { { \\overline { { \\vdash \\sigma \\Rightarrow \\sigma } } } ^ { \\Rightarrow i } } \\\\ { \\vdash \\sigma \\Rightarrow \\sigma } & { \\Longrightarrow _ { e } } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            251,
+            301,
+            754,
+            474
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Corresponde al siguiente juicio de tipado: ",
+        "bbox": [
+            52,
+            573,
+            574,
+            617
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/78bc6f22633767bbbabfe5c009e44d487b69f889bf262e96ec5aa92dbbbf49e8.jpg",
+        "text": "$$\n\\frac { \\overline { { \\gamma \\circ \\vdash \\sigma \\to \\sigma } } ^ { \\mathrm { T - V A R } } } { \\vdash \\sigma \\to \\sigma \\to \\sigma ^ { \\mathrm { T - A B S } } } \\frac { \\overline { { \\sigma \\vdash \\sigma \\vdash \\sigma } } } { \\vdash } \\sigma \n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            647,
+            701,
+            819
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "El t´ermino $^ -$ se asocia con la prueba que se muestra en la parte superior. ",
+        "bbox": [
+            52,
+            841,
+            955,
+            922
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            952,
+            997,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            154,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "¿Es derivable ⊢ σ ⇒ σ?",
+        "bbox": [
+            52,
+            132,
+            353,
+            176
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Tambi´en existe la siguiente prueba ",
+        "bbox": [
+            52,
+            213,
+            488,
+            257
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7edb41aa5f5716e25164f24dd2bfcbec102ff48f9e9ba9bf8b89990d6ab0130f.jpg",
+        "text": "$$\n\\frac { \\frac { \\sigma \\vdash \\sigma ^ { a x } } { \\sigma \\vdash \\sigma \\Rightarrow \\sigma } \\Rightarrow i \\quad \\overline { { \\sigma \\vdash \\sigma } } ^ { a x } } { \\sigma \\vdash \\sigma } \\Rightarrow _ { e } \\quad \\Rightarrow _ { i }\n$$$$\n\\begin{array} { r } { \\frac { \\frac { \\overline { { \\sigma \\vdash \\sigma } } ^ { \\mathrm { a x } } } { \\sigma \\vdash \\sigma \\Rightarrow \\sigma }  \\sigma } { \\frac { \\sigma \\vdash \\sigma } { \\sigma } } } \\\\ { \\frac { \\overline { { \\sigma \\vdash \\sigma } }  \\sigma } { \\sigma \\vdash \\sigma } } \\\\ { \\vdash \\dots \\dots \\dots \\dots \\dots } \\\\ { \\underbrace { \\frac { \\overline { { x : \\sigma , y : \\sigma \\vdash y : \\sigma } } } { \\sigma } } _ { \\textnormal { X : \\sigma > \\textnormal { X y : \\sigma > \\sigma } } } \\Upsilon \\setminus \\mathrm { B B } } \\\\ { \\underbrace { \\frac { \\overline { { x : \\sigma \\vdash \\lambda y : \\sigma \\cdot y : \\sigma \\neq \\sigma } } } { x : \\sigma \\cdot ( x ) : \\sigma \\cdot y \\cdot x : \\sigma \\cdot y \\times \\sigma } } _ { \\textnormal { Y : \\sigma > \\textnormal { X : \\sigma > \\sigma } } ( x ) : \\sigma \\cdot y \\times \\textnormal { Y } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            24,
+            308,
+            533,
+            841
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "El t´ermino $\\lambda x : \\sigma . ( \\lambda y : \\sigma . y ) x$ se asocia con la prueba que se muestra en la parte superior. ",
+        "bbox": [
+            55,
+            852,
+            958,
+            941
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "9 ",
+        "bbox": [
+            972,
+            952,
+            994,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Pruebas vs t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            348,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Una f´ormula puede tener muchas pruebas distintas.   \nDistintas pruebas corresponden a distintos juicios de tipado, es decir distintos t´erminos.   \nNotar que algunas pruebas de la misma proposici´on son mas complejas que otras: ",
+        "bbox": [
+            121,
+            187,
+            900,
+            452
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Distintas pruebas de σ ⇒ σ ",
+        "text_level": 1,
+        "bbox": [
+            49,
+            492,
+            403,
+            536
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/c67a5b24ef9f39ee09ef5ee36de8855749ab2499c516b0984e78d3e67df42194.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"6\">ax 9Tg →i Tσ→σ</td><td rowspan=\"6\">- - - - - - - - - -</td><td></td></tr><tr><td>ax ax σ→9τσ』σ σtσ</td></tr><tr><td>→i →i ├(σ⇒σ)⇒σ⇒σ Tσ→σ</td></tr><tr><td>e</td></tr><tr><td>Tσ→σ - - -</td></tr><tr><td></td></tr></table>",
+        "bbox": [
+            49,
+            547,
+            966,
+            838
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Correspondencia de Curry-Howard ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            574,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "William Alvin Howard extendi´o la correspondencia: ",
+        "bbox": [
+            71,
+            338,
+            720,
+            382
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Tratando los restantes conectivos l´ogicos.   \nUsando el c´alculo- $\\lambda$ en lugar de la l´ogica combinatoria. Mostrando una correspondencia entre la simplificaci´on de pruebas y la computaci´on. ",
+        "bbox": [
+            118,
+            400,
+            850,
+            613
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Simplificaci´on de pruebas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            430,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Corte (cut) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            147,
+            229,
+            194
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Un corte es una “vuelta” innecesaria en una demostraci´on. ",
+        "bbox": [
+            80,
+            209,
+            814,
+            253
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "▶ Est´a dado por una regla de introducci´on seguida inmediatamente de una regla de eliminaci´on. ▶ Involucra a una f´ormula de corte que no es subf´ormula de la tesis. ",
+        "bbox": [
+            107,
+            268,
+            903,
+            470
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f1c797eeaeb2f0f94b1dc565a94d6695a7fd22f1814b3ae3d2af5c63a7f904af.jpg",
+        "text": "$$\n\\frac { \\frac { \\vdots \\phi } { \\Gamma , \\vdash \\rho } } { \\Gamma \\vdash \\Rightarrow \\rho } \\qquad \\frac  \\vdots \\} { \\Gamma \\vdash } \\Psi \\qquad \n$$",
+        "text_format": "latex",
+        "bbox": [
+            80,
+            602,
+            461,
+            867
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/fda0d1310989aa846674491006335f4583298e533c27aa9ea469d3bf9207c6b9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            535,
+            485,
+            925,
+            911
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Simplificaci´on de pruebas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            430,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de cortes (cut-elimination) ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            172,
+            610,
+            220
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Reescribir una prueba de manera tal que no tenga cortes: ",
+        "bbox": [
+            118,
+            257,
+            842,
+            301
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Eliminamos $\\sigma$ reemplazando cada uso $\\sigma$ en la prueba de $\\rho$ por una copia de la prueba de $\\sigma$ . ",
+        "bbox": [
+            174,
+            319,
+            850,
+            411
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/245de6b8e9f979e3e7dc17957f9d74298059bb69535763ead25f56c9487b7141.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\frac { \\displaystyle \\vdots \\bigg \\rangle \\Phi } { \\displaystyle \\Gamma , \\sigma \\vdash \\rho } \\quad } &  \\underline { { : \\Big \\} } \\Psi } \\\\ & { \\frac { \\displaystyle \\Gamma \\vdash \\sigma \\Rightarrow \\rho } { \\displaystyle \\Gamma \\vdash \\rho } \\quad } & { \\overline { { \\Gamma \\vdash \\sigma } } \\quad } \\\\ & { \\qquad \\Gamma \\vdash \\rho } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            80,
+            588,
+            455,
+            852
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/f116a5cc0c1c9b4b8b4aa45e541e775623aac330a8646a145bd7b88e5485f035.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            538,
+            470,
+            925,
+            886
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            140,
+            323,
+            162,
+            349
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "13 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Computaci´on como simplificaci´on de pruebas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            754,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "14 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de cortes y reducci´on β ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            242,
+            574,
+            290
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Un paso de eliminaci´on de cortes se corresponde con un paso de c´omputo (aplicaci´on de la regla $\\beta$ o e-appAbs). ",
+        "bbox": [
+            110,
+            323,
+            886,
+            422
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/18aa193ffabf61535b930d383c5d6bdb562bda9017ad2ad7472630a4afcffb65.jpg",
+        "text": "$$\n\\begin{array}{c} \\frac { \\overline { { \\Gamma , \\tau \\vdash M : \\rho } } } { \\Gamma \\vdash \\lambda x : \\tau . M : \\tau  \\rho } \\mathrm { T - A B S } \\quad \\frac { \\vdots } { \\Gamma \\vdash N : \\tau }  \\\\ { \\quad \\quad \\quad \\quad \\Gamma \\vdash ( \\lambda x : \\tau . M ) N : \\rho } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            74,
+            613,
+            585,
+            786
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e94c58e1950375bba647cf3ddda413ab71383d2ff66f80c8cf6834da2c759021.jpg",
+        "text": "$$\n\\overline { { \\Gamma \\vdash \\quad \\quad \\rho } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            698,
+            724,
+            933,
+            779
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Conjunci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            204,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4bba2689513a411e867127c5507d75c54e086f9a14ed5e457a6641089a0dd5d5.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\mathrm { ~  ~ \\mathscr ~ { ~ \\tau ~ } ~ } \\textsf { \\Gamma } \\vdash \\mathrm { ~  ~ \\mathscr ~ { ~ \\sigma ~ } ~ } } { \\tau \\vdash \\mathrm { ~  ~ \\mathscr ~ { ~ \\tau ~ } ~ } \\tau \\land \\sigma } \\land _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            356,
+            662,
+            474
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a69df63376356c109b8c3d5a16047839356c02f276ccc430358296422f107ddc.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\mathrm { ~  ~ \\omega ~ } \\tau \\wedge \\sigma } { \\Gamma \\vdash \\mathrm { ~  ~ \\omega ~ } \\tau } \\wedge _ { e 1 } \\mathrm { ~  ~ \\omega ~ } \\stackrel { \\{ \\scriptstyle \\Gamma \\vdash \\mathrm { ~ \\tiny ~ \\textnormal ~ { ~ \\wedge ~ } ~ } \\sigma }  { \\Gamma \\vdash \\mathrm { ~  ~ \\omega ~ } \\sigma } \\wedge _ { e 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            496,
+            754,
+            610
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Producto ",
+        "bbox": [
+            19,
+            33,
+            174,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b84ad01e58d3faa28ef5940325a88b4066c14b41ddbcc84873d140a93c0ede5e.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\tau \\vdash N : \\sigma } { \\tau \\vdash \\langle M , N \\rangle : \\tau \\times \\sigma }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            360,
+            635,
+            481
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/746b8bbe8cf7862af1bb7edf5d4439ace9aa72a11962d93515dd14f5ad05fb97.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\mathrm { ~  ~ { ~ \\pi ~ } ~ } ^ { \\prime } \\times \\sigma } { \\Gamma \\vdash \\mathrm { ~  ~ { ~ \\pi ~ } ~ } ^ { \\prime } } \\quad \\quad \\frac { \\Gamma \\vdash \\mathrm { ~  ~ { ~ \\pi ~ } ~ } ^ { \\tau \\times \\sigma } } { \\Gamma \\vdash \\mathrm { ~  ~ { ~ \\pi ~ } ~ } ^ { \\sigma } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            240,
+            496,
+            715,
+            617
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Conjunci´on: corte ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            312,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/73688ed1a319ad5aa1d30915a6956168c5ce6f51c7b634ffe5c204193875fa7f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            77,
+            257,
+            461,
+            797
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5cb7a51d7b3f57a2d507a2fcec3afedfd3f661a0532e2783a2c9c70eab0304de.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Conjunci´on: eliminaci´on de corte ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            555,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/f77271b5dfe806034e4b60f3b6e6286e8a399d5a4abcaa126fd85aef3f23adc6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            63,
+            253,
+            762,
+            801
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Producto: reducci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            353,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\frac { \\frac { \\vdots } { \\Gamma \\vdash M : \\tau } \\quad \\frac { : } { \\Gamma \\vdash N : \\sigma } } { \\Gamma \\vdash \\langle M , N \\rangle : \\tau \\times \\sigma } \\land \\quad  \\quad$ $\\frac { \\frac { \\vdots } { \\Gamma \\vdash \\textnormal { \\texttt { r } } \\vdash \\textnormal { \\texttt { r } } \\vdash \\textnormal { \\texttt { \\sigma } } } } { \\Gamma \\vdash \\textnormal { \\texttt { r } } \\textnormal { \\texttt { \\sigma } } } \\land _ { i } \\quad  \\quad$ ",
+        "bbox": [
+            69,
+            253,
+            535,
+            805
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ M : τ ",
+        "bbox": [
+            638,
+            375,
+            773,
+            496
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "19 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Tipos y t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            202,
+            306,
+            250
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d3c78d2873ee77932c2817d859031a72e18da15b0ff516497ac237d244ad7b82.jpg",
+        "text": "$$\n\\begin{array} { l l l } { { \\jmath , \\dots } } & { { \\mathrel { \\mathop : } = } } & { { \\dots \\dots \\mid \\tau \\times \\sigma } } \\\\ { { \\quad \\quad l , \\dots } } & { { \\mathrel { \\mathop : } = } } & { { \\dots \\dots \\mid \\langle M , N \\rangle \\mid \\mathrm { f s t } ( M ) \\mid \\mathsf { s n d } ( N } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            294,
+            770,
+            404
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Reglas de tipado ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            470,
+            303,
+            518
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/343197acfbafecabd0a3fe7206d7a872f677157c9f6e3551436c6b58cc84db4f.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\tau \\vdash N : \\sigma } { \\Gamma \\vdash \\langle M , N \\rangle : \\tau \\times \\sigma } \\times _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            562,
+            665,
+            683
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3b0be83ba66e89d2249cb341c672e4d7fecff2ef812d792402c26e6690a19185.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\tau \\times \\sigma } { \\Gamma \\vdash \\mathtt { f s t } ( M ) : \\tau } \\times _ { \\mathtt { e } _ { 1 } } \\frac { \\Gamma \\vdash M : \\tau \\times \\sigma } { \\Gamma \\vdash \\mathtt { s n d } ( M ) : \\tau } \\times _ { e _ { 2 } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            254,
+            705,
+            743,
+            823
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            19,
+            33,
+            397,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "21 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            19,
+            29,
+            400,
+            84
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d2a4eef766acaed56c2fc75a02bf55fb7d769d9b8f121337a9c8b257ffd7a7c0.jpg",
+        "text": "$$\n\\mathsf { C a l c u l o - } \\lambda ^ { \\times } - \\mathsf { r e s u m e n }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            25,
+            400,
+            84
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            110,
+            176,
+            154
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/93f82af610b8fc97e6a658090b7c91b7cdef47977b2882a3ca29d18dad4fa7c3.jpg",
+        "text": "$$\nV , W , \\dots \\dots \\dots | \\langle V , W \\rangle\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            205,
+            668,
+            261
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Reglas de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            316,
+            337,
+            363
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0a37658382d3822b0a114e218bec322286d2ed8645b582646c22029b3b814ffd.jpg",
+        "text": "$$\n\\mathsf { f s t } ( \\langle V , W \\rangle ) \\to V ^ { \\mathrm { E - F S T P A I R } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            93,
+            463,
+            475,
+            547
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Reglas de congruencia ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            632,
+            378,
+            680
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/67044b47482bee8d0dd775e8962f0075685949c131250821310ecbdb6d1c5c66.jpg",
+        "text": "$$\n\\frac { M \\to M ^ { \\prime } } { \\langle M , N \\rangle \\to \\langle M ^ { \\prime } , N \\rangle } \\mathrm { E - P A I R 1 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            132,
+            724,
+            488,
+            845
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/28bde96ef7448cca62b69fab71d7c37978c6e1cdef301ac1075de8513d5103d0.jpg",
+        "text": "$$\n\\frac { N \\to N ^ { \\prime } } { \\langle V , N \\rangle \\to \\langle V , N ^ { \\prime } \\rangle } \\mathrm { E - P A I R 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            519,
+            724,
+            864,
+            845
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/04ac94484519eb176def627e806b1cdf581541551e4e10bdd463a18a08c01468.jpg",
+        "text": "$$\n\\frac { M \\to M ^ { \\prime } } { \\mathrm { f s t } ( M ) \\to \\mathrm { f s t } ( M ^ { \\prime } ) } \\mathrm { E - F S T }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            151,
+            860,
+            477,
+            981
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2b95d467d12d9d4310ff51fdaf0196d8b0d11fb7c7b4159c588314d3e336290d.jpg",
+        "text": "$$\n\\frac { M \\to M ^ { \\prime } } { \\mathsf { s n d } ( M ) \\to \\mathsf { s n d } ( M ^ { \\prime } ) } \\mathrm { E \\bar { - } S N D }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            500,
+            860,
+            839,
+            981
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Disyunci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            198,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fc4d0c145a11af56574e62da4a7e877e8bb6cf829f77da4706ac438a7f3f997b.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\mathrm { ~  ~ { ~ \\pi ~ } ~ } } { \\mathrm { ~  ~ { ~ \\pi ~ } ~ } \\Large ~ } \\lor _ { i _ { 1 } } \\frac { \\Gamma \\vdash \\mathrm { ~  ~ { ~ \\pi ~ } ~ } } { \\Gamma \\vdash \\mathrm { ~ ~  ~ { ~ \\pi ~ } ~ } } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            334,
+            720,
+            448
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ τ ∨ σ Γ, x : τ ⊢ M : ρ Γ, x : σ ⊢ N ρ ∨ Γ ⊢ ρ ",
+        "bbox": [
+            116,
+            518,
+            886,
+            632
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Suma ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            113,
+            84
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ $\\frac { \\Gamma \\vdash M : \\tau } { \\vdash \\vdash ( M ) : \\tau + \\sigma } \\qquad \\frac { \\Gamma \\vdash M : \\sigma } { \\Gamma \\vdash \\mathsf { r i g h t } ^ { \\tau } ( M ) : \\cdot }$ τ + σ ",
+        "bbox": [
+            165,
+            334,
+            801,
+            455
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ M $\\frac { \\tau + \\sigma \\qquad \\Gamma , \\quad \\tau \\vdash \\qquad \\rho \\qquad \\Gamma , } { \\vdash \\qquad }$ τ ⊢ N : ρ Γ : ρ ",
+        "bbox": [
+            116,
+            518,
+            853,
+            639
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/82307e4a3aa932eef480b6c7a9e14d786bbafbdac892d6798c028e2970d400c8.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Disyunci´on: corte ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            309,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Γ $\\begin{array} { l } { \\overline { { \\overline { { \\cdot \\ M : \\tau } } } } \\qquad \\vdots } \\\\ { \\overline { { \\overline { { ( M ) : \\tau + \\sigma } } } } ^ { \\vee _ { i _ { 1 } } } \\qquad \\overline { { \\Gamma , x : \\tau \\vdash N : \\rho } } \\qquad \\overline { { \\Gamma , x : \\tau } } } \\\\ { \\overline { { \\subset \\mathsf { a s e \\ l e f t } ^ { \\sigma } ( M ) \\left\\{ | \\mathsf { e f t } ( x ) \\mapsto N \\parallel \\mathsf { r i g h t } ( x ) \\mapsto P \\right. } } } \\end{array}$ Γ ⊢ leftσ Γ, x : σ ⊢ P : ρ ∨ Γ ⊢ } : ρ ",
+        "bbox": [
+            74,
+            235,
+            837,
+            463
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "25 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ $\\frac { \\overbrace { M \\ } : \\sigma } { \\overbrace { \\ M \\ } : \\tau + \\sigma } \\bigvee _ { i _ { 2 } } \\qquad \\frac { : } { \\Gamma , x : \\tau \\vdash N : \\rho } \\quad \\overline { { \\Gamma , x : \\sigma } }$ Γ ⊢ rightσ( Γ, x : σ ⊢ P : ρ ∨ Γ ⊢ ca : ρ ",
+        "bbox": [
+            74,
+            613,
+            850,
+            838
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Suma: reducci´on (1) ",
+        "bbox": [
+            16,
+            29,
+            359,
+            91
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b8cc2a0625f4ba7322e277466c902860d11f59e0ad7fd9b58e517e547a15bda9.jpg",
+        "text": "$$\n\\frac { \\frac { \\partial } { \\partial \\sigma } \\vee _ { i _ { 1 } } \\frac { : } { \\Gamma , \\quad \\tau \\vdash \\quad \\rho } \\quad \\hfill \\stackrel { : } { \\Gamma , \\quad \\sigma \\vdash \\quad } \\hfill \\rho }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            279,
+            319,
+            787,
+            488
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ N{x := M} : ρ ",
+        "bbox": [
+            715,
+            738,
+            944,
+            783
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Suma: reducci´on (2) ",
+        "bbox": [
+            16,
+            29,
+            359,
+            91
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5b8821f4b92897737a9411e456c3208622ff48c1aee4a8af47e36b541b5518c8.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            922,
+            1000,
+            1000
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Γ ⊢ r $\\frac  \\underset { \\substack { \\mathrm { \\scriptsize { F } \\vdash \\textit { M } : \\sigma } } } { \\overbrace { \\Gamma \\vdash \\textit { M } : \\sigma } } \\underset  \\substack { \\mathrm { \\scriptsize { F } \\vdash \\textit { M } : \\sigma } \\textit { \\mathrm { \\scriptsize { M } } : \\sigma } \\textit { \\mathrm { \\scriptsize { V } } _ { i 2 } \\textit { \\xi } \\quad \\overline { { \\Gamma , x : \\tau \\vdash \\textit { N } : \\rho } } \\textit { \\mathrm { \\scriptsize { F } } } } } { \\overbrace { \\Gamma \\vdash \\mathrm { \\scriptsize { c a s e ~ r i g h t } ^ { \\mathrm { \\scriptsize { F } } \\ell \\mathrm { \\scriptsize { b } } \\mathrm { t } ^ { \\sigma } } ( M ) \\left\\{ \\mathrm { \\scriptsize { e f t } ( \\boldsymbol { x } ) \\mapsto \\textit { N } \\parallel \\ r i g h t } ( \\boldsymbol { x } ) \\right\\} } } } ^ { \\boldsymbol { \\vdots } }$ , x : σ ⊢ P : ρ ∨ → P } : ρ → Γ ⊢ M : τ . Γ ⊢ P{x := M} ",
+        "bbox": [
+            74,
+            316,
+            906,
+            852
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λ+: resumen",
+        "bbox": [
+            19,
+            29,
+            361,
+            84
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Tipos y t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            158,
+            306,
+            205
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "τ, $\\begin{array} { r c l } { \\sigma , \\dots } & { \\mathrel { \\mathop : } = } & { \\dots \\mid } & { \\tau + \\sigma } \\\\ { N , \\dots } & { \\mathrel { \\mathop : } = } & { \\dots \\mid } & { \\mathsf { l e f t } ^ { \\tau } ( M ) \\mid \\mathsf { r i g h t } ^ { \\tau } ( M ) } \\\\ & { \\mid } & { \\mathsf { c a s e ~ } M \\left\\{ \\mathsf { l e f t } ( x ) \\mapsto N \\right. } \\end{array}$   \nM , || right(y ) 7→ P} ",
+        "bbox": [
+            110,
+            290,
+            889,
+            452
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Reglas de tipado ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            533,
+            303,
+            580
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\frac { \\Gamma \\vdash M : \\tau } { \\vdash \\vdash \\lceil \\mathtt { e f t } ^ { \\sigma } ( M ) : \\tau + \\sigma } + _ { i _ { 1 } } \\xrightarrow { \\Gamma \\vdash M : \\sigma } } \\\\ & { - \\ M : \\tau + \\sigma \\vdash \\Gamma , x : \\tau \\vdash N : \\rho \\vdash \\Gamma , y : \\sigma } \\\\ & { \\frac { \\Gamma \\vdash \\mathit { c a s e } \\ M \\{ \\mathsf { e f t } ( x ) \\mapsto N \\parallel \\mathsf { r i g h t } ( y ) \\mapsto F } } { \\Gamma \\vdash \\mathsf { c a s e } \\ M \\{ \\mathsf { e f t } ( x ) \\mapsto N \\parallel \\mathsf { r i g h t } ( y ) \\mapsto F }   \\end{array}$ +i Γ ρ e ",
+        "bbox": [
+            160,
+            625,
+            842,
+            889
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λ+: resumenValores",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            361,
+            154
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Reglas de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            316,
+            337,
+            363
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f5782b827b075e7a396790146ee8db973e765c8d738459abc981185791771c56.jpg",
+        "text": "$$\n{ \\overline { { ( x ) \\mapsto M \\parallel \\operatorname { r i g h t } ( y ) \\mapsto N } } } \\} \\to M \\{ x : = V \\} ^ { \\mathrm { E } - }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            312,
+            389,
+            823,
+            459
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/50fd76a1b8b5bd783c094bb0d02eff8b8c7ec711538dac14464159a23cbdaa9f.jpg",
+        "text": "$$\n\\overline { { { \\mathsf { t } } ( x ) \\mapsto M \\parallel \\mathsf { r i g h t } ( y ) \\mapsto N } } \\} \\to N \\{ y : = V \\} ^ { \\mathrm { E } } ^ { - }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            312,
+            529,
+            823,
+            599
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Reglas de congruencia ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            658,
+            375,
+            702
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7177c030c5ed3ead361cadaf7840f2b55e2b3d6a850efd490ebbc9fbd37e90f2.jpg",
+        "text": "$$\n\\frac { \\to M ^ { \\prime } } { \\to \\mathsf { l e f t } ^ { \\tau } ( M ^ { \\prime } ) } \\mathrm { E \\mathrm { - } I N L } \\qquad \\frac { \\to M \\to M ^ { \\prime } } { \\mathsf { r i g h t } ^ { \\tau } ( M ) \\to \\mathsf { r i g h t } ^ { \\tau } ( M ^ { \\prime } ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            705,
+            770,
+            816
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/877f1ce6c640a8620dc8fb46d7152e6fc1ba2d5b94eae8b3fd81d631db483ddb.jpg",
+        "text": "$$\n{ \\begin{array} { c } { M  M ^ { \\prime } } \\\\ { \\neg \\complement { \\mathsf { s e e ~ } } M \\{ \\mathsf { l e f t } ( x ) \\mapsto N \\parallel \\mathsf { r i g h t } ( y ) \\mapsto P \\} } \\\\ {  { \\mathsf { c a s e ~ } } M ^ { \\prime } \\{ \\mathsf { l e f t } ( x ) \\mapsto N \\parallel \\mathsf { r i g h t } ( y ) \\mapsto P \\} } \\end{array} } \\qquad \n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            830,
+            720,
+            988
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Absurdo ",
+        "bbox": [
+            19,
+            33,
+            157,
+            84
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/79827ee85f71a05a08426cd78cd3791906cf10d2a739cf797d9ab1eedb42274c.jpg",
+        "text": "$$\n3 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/0f858ee58b2af578fa9affd059b176931d5b53c0808c210aeda632323be09f2a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            353,
+            419,
+            643,
+            522
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Absurdo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            157,
+            80
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aaeeb96ba23d849549ac2763dc147bab8d59dfcf9e0ef96eb2178a1daf2c899e.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\bot } { \\Gamma \\vdash \\mathsf { c a s e } ^ { \\tau } \\ M \\{ \\} : \\tau } \\bot _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            350,
+            242,
+            646,
+            360
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Notar que no hay constructores para el tipo ⊥.   \nEl tipo ⊥ es el tipo vac´ıo (sin habitantes).   \nSe puede definir como un tipo de datos algebraico sin constructores.   \nEl eliminador es un case con 0 ramas.   \nLas ocurrencias de caseτ $M \\{ \\}$ siempre corresponden a situaciones imposibles (c´odigo inalcanzable). ",
+        "bbox": [
+            127,
+            415,
+            831,
+            805
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            415,
+            121,
+            761
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "C´alculo-λ⊥: resumen ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            361,
+            84
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Tipos y t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            235,
+            306,
+            283
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3e1f48cf70c6a98ec603d50b08f8c517ce793e9d7b776a0bbbf869775abb89fe.jpg",
+        "text": "$$\n\\begin{array} { r c l } { \\tau , \\sigma , \\dots } & { \\mathrel { \\mathop : } = } & { \\dots \\big | \\quad \\bot } \\\\ { M , N , \\dots } & { \\mathrel { \\mathop : } = } & { \\dots \\big | \\quad { \\mathsf { c a s e } } ^ { \\tau } \\ M \\{ \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            276,
+            327,
+            720,
+            437
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Reglas de tipado ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            503,
+            303,
+            551
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6e311dcdfb191149dee010cd90bf8d62e1ed5b4d012fd9d4c00450c43411e469.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\bot } { \\Gamma \\vdash \\mathsf { c a s e } ^ { \\tau } \\ M \\{ \\} : \\tau } \\bot _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            350,
+            595,
+            646,
+            716
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "No se extienden los valores ni las reglas de reducci´on. ",
+        "bbox": [
+            71,
+            761,
+            823,
+            808
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Tipo Unit ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            182,
+            84
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Se puede considerar una extensi´on de NJ con la f´ormula ⊤ (“verdadero”): ",
+        "bbox": [
+            71,
+            128,
+            825,
+            227
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo- $\\lambda ^ { \\top }$ resulta de la siguiente extensi´on: ",
+        "bbox": [
+            129,
+            371,
+            723,
+            422
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4c4a334d130ca24a32cb15d3d4e61f21f0129ccfae4626956b97071ceeebf1e2.jpg",
+        "text": "$$\n\\begin{array} { l l l } { \\sigma , \\tau , . . . } & { : : = } & { . . . \\mid \\top } \\\\ { M , N , P , . . . } & { : : = } & { . . . \\mid \\star } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            356,
+            455,
+            704,
+            566
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Con una ´unica regla de tipado: ",
+        "bbox": [
+            121,
+            639,
+            527,
+            683
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "El tipo ⊤ es un tipo algebraico con un ´unico constructor ⋆. ",
+        "bbox": [
+            124,
+            878,
+            886,
+            926
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            647,
+            118,
+            672
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            886,
+            118,
+            915
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            382,
+            121,
+            411
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Propiedades ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            218,
+            84
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo- $\\lambda ^ { \\times , + , \\perp , \\top }$ tiene buenas propiedades: ",
+        "bbox": [
+            74,
+            158,
+            651,
+            209
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "1. Unicidad de tipos. Si Γ ⊢ M : τ y Γ ⊢ M : σ son derivables, entonces $\\tau = \\sigma$ . ",
+        "bbox": [
+            91,
+            220,
+            895,
+            319
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "2. Weakening + Strengthening. Si $\\Gamma \\vdash M : \\tau$ es derivable y $\\mathsf { f v } ( M ) \\subseteq \\mathsf { d o m } ( \\Gamma \\cap \\Gamma ^ { \\prime } )$ entonces $\\Gamma ^ { \\prime } \\vdash M : \\tau$ es derivable. ",
+        "bbox": [
+            93,
+            334,
+            856,
+            433
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "3. Determinismo. Si $M  N _ { 1 }$ y $M  N _ { 2 }$ entonces $N _ { 1 } = N _ { 2 }$ . ",
+        "bbox": [
+            93,
+            441,
+            883,
+            492
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "4. Preservaci´on de tipos. $\\mathsf { S i } \\vdash M : \\tau \\lor M  N$ entonces ⊢ N : τ . ",
+        "bbox": [
+            93,
+            503,
+            922,
+            569
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "5. Progreso. $\\mathsf { S i } \\vdash M : \\tau$ entonces: ",
+        "bbox": [
+            96,
+            562,
+            527,
+            606
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "5.1 O bien M es un valor.   \n5.2 O bien existe $N$ tal que $M  N$ . ",
+        "bbox": [
+            143,
+            617,
+            577,
+            702
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "6. Terminaci´on. $\\mathsf { S i } \\vdash M : \\tau$ , entonces no hay una cadena infinita de pasos: ",
+        "bbox": [
+            93,
+            716,
+            922,
+            808
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a0668984fd949ac42eaedbf828008a1d9d5883153e918c49dec08a49bcfc68a0.jpg",
+        "text": "$$\nM  M _ { 1 }  M _ { 2 }  . . .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            816,
+            676,
+            863
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Correspondencia de Curry-Howard ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            574,
+            88
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Correspondencia de Curry–Howard) ",
+        "bbox": [
+            77,
+            205,
+            693,
+            257
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Son equivalentes: ",
+        "bbox": [
+            74,
+            268,
+            295,
+            312
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "1. $\\tau _ { 1 } , \\ldots , \\tau _ { n } \\vdash \\sigma$ es derivable en NJ   \n2. Existe un t´ermino M tal que $x _ { 1 } : \\tau _ { 1 } , . . . , x _ { n } : \\tau _ { n } \\vdash M : \\sigma .$ ",
+        "bbox": [
+            91,
+            330,
+            856,
+            437
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Nota ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            514,
+            143,
+            555
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "En el teorema de arriba identificamos t´acitamente los s´ımbolos: ",
+        "bbox": [
+            74,
+            562,
+            875,
+            606
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "table",
+        "img_path": "images/17ed2d3a0995e25e52361870f8246e4bc97e86fa4862dfff347ab44a5b2edac1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>→</td><td rowspan=1 colspan=1>→</td></tr><tr><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1>&gt;</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>V</td></tr></table>",
+        "bbox": [
+            439,
+            639,
+            560,
+            797
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Consistencia de la l´ogica ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            417,
+            84
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "La relaci´on entre reducci´on y pruebas permite concluir que la l´ogica es consistente. ",
+        "bbox": [
+            74,
+            250,
+            850,
+            341
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Corolario ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            371,
+            198,
+            411
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "El juicio ⊢ ⊥ no es derivable en NJ. ",
+        "bbox": [
+            74,
+            419,
+            530,
+            463
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Se obtiene a partir del siguiente razonamiento: ",
+        "bbox": [
+            77,
+            481,
+            665,
+            525
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Debe existir M, tal que ⊢ M : ⊥.   \nPor terminaci´on y preservaci´on de tipos, deber´ıa existir un valor V , tal que ⊢ V : ⊥. Por analisis de casos en los posibles valores, se puede concluir que no existe. ",
+        "bbox": [
+            116,
+            540,
+            922,
+            746
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Sobre la negaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            306,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "La negaci´on se puede codificar como: ",
+        "bbox": [
+            127,
+            305,
+            607,
+            349
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e5f95dea711f415e5fe26be4c159850bfcbe38be5dc0d9813104af103130e758.jpg",
+        "text": "$$\n\\neg \\sigma \\equiv ( \\sigma  \\bot )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            428,
+            389,
+            629,
+            444
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Notar que la regla: ",
+        "bbox": [
+            132,
+            481,
+            375,
+            522
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "¬i corresponde a ⇒i ¬e corresponde ${ \\sf a } \\Rightarrow$ e ",
+        "bbox": [
+            190,
+            533,
+            444,
+            617
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "No hay necesidad de extender el c´alculo- $\\lambda$ con negaci´on. ",
+        "bbox": [
+            127,
+            636,
+            850,
+            680
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            312,
+            118,
+            338
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            485,
+            118,
+            511
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            639,
+            118,
+            665
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8b0fe930acda0f3989b7b471c0defca82c843b6e27001c07b61f6ff611c7dd4d.jpg",
+        "text": "$$\n\\mathsf { S o b r e ~ l o s ~ b o o l e a n o s }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            13,
+            22,
+            348,
+            88
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Los ignoramos porque se pueden codificar. ",
+        "bbox": [
+            127,
+            297,
+            674,
+            338
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Booleanos como sumas ",
+        "text_level": 1,
+        "bbox": [
+            49,
+            382,
+            350,
+            419
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "38 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            297,
+            118,
+            327
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Correspondencia de Curry–Howard ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            308,
+            635,
+            367
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "img_path": "images/740aad3e9f5993ae6ca041d325888dec2420edc8287cc1caa741508d1690add7.jpg",
+        "text": "$$\n\\mathrm { O p e r a d o r \\ d e \\ p u n t o \\ f i j o }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            71,
+            525,
+            450,
+            599
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "39 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            179,
+            84
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Extendemos la sintaxis con un nuevo operador: ",
+        "bbox": [
+            132,
+            264,
+            729,
+            308
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f430ef41d52865ee5d0ee6a1f235a0b3b7db2be53c43529029992db9869a487c.jpg",
+        "text": "$$\nM : : = \\dots \\mid \\mathsf { f i x } \\ M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            414,
+            349,
+            646,
+            408
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "No se precisan nuevos tipos pero s´ı una regla de tipado. ",
+        "bbox": [
+            127,
+            507,
+            839,
+            555
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9439e29f152321b242974a0d6412697730bd3a84a7f7171eb7858b8e5256e942.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\tau \\to \\tau } { \\Gamma \\vdash \\mathsf { f i x } M : \\tau } \\mathrm { T - F I X }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            392,
+            591,
+            665,
+            698
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            272,
+            118,
+            301
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            514,
+            118,
+            540
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional small-step ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            563,
+            88
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "No hay valores nuevos pero s´ı reglas de evaluaci´on nuevas. ",
+        "bbox": [
+            121,
+            290,
+            878,
+            341
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "img_path": "images/154dc4d8ce1ce180b0c508a13c69a153336353b1627ac9dd0e45316d19fed9b6.jpg",
+        "text": "$$\n\\frac { M \\to M ^ { \\prime } } { \\mathrm { f i x ~ } M \\to \\mathrm { f i x ~ } M ^ { \\prime } } \\mathrm { E \\mathrm { - } F I X }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            415,
+            668,
+            525
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5c4edfbfcb10a4c015ae0969aaa466191575b45c52423fcd6c72964a509f089c.jpg",
+        "text": "$$\n4 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "fix $\\overline { { \\left( \\lambda x : \\tau . M \\right) \\to M \\{ x : = { \\bf f i x } \\left( \\lambda x : \\tau . M \\right) \\} } } ^ { 1 }$ E-FIXBETA",
+        "bbox": [
+            187,
+            588,
+            872,
+            665
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            301,
+            118,
+            327
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            168,
+            88
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Sea M el t´ermino ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            290,
+            301,
+            334
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "λf : nat → nat.   \nλx : nat.   \nif iszero(x) then 1 else x ∗ f (pred(x)) ",
+        "bbox": [
+            243,
+            363,
+            754,
+            514
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "fix M 3 ",
+        "bbox": [
+            450,
+            617,
+            549,
+            661
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "en ",
+        "bbox": [
+            74,
+            540,
+            107,
+            573
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            168,
+            88
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Ahora podemos definir funciones parciales: ",
+        "bbox": [
+            127,
+            297,
+            676,
+            341
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "img_path": "images/654195ec0963c4d1afb752987b3de3488c0139dea593a1e6eed867663a4c0b65.jpg",
+        "text": "$$\n\\mathsf { f i x } \\left( \\lambda x : \\sigma . x \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            439,
+            393,
+            616,
+            448
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Notar que ⊢ fix $( \\lambda x : \\sigma . x ) : \\sigma$ para cualquier $\\sigma$ ",
+        "bbox": [
+            132,
+            470,
+            729,
+            518
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "En particular, vale para $\\sigma = \\bot$ ",
+        "bbox": [
+            132,
+            533,
+            530,
+            577
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "En consecuencia, si se extiende NJ con un operador fix , la l´ogica resulta inconsistente (⊢ ⊥ ser´ıa derivable) ",
+        "bbox": [
+            129,
+            591,
+            895,
+            687
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            305,
+            118,
+            330
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            474,
+            121,
+            628
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dbedd92cea19e6a70b2e8f922dd58f479934b1918bb34fe84d92c068b376e517.jpg",
+        "text": "$$\n4 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            235,
+            745,
+            330
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada   \nCap´ıtulos 3 y 4 del libro de Sørensen y Urzyczyn.   \nMorten Sørensen y Pawe l Urzyczyn. Lectures on the Curry–Howard Isomorphism   \nElsevier, 2006. ",
+        "bbox": [
+            71,
+            419,
+            930,
+            665
+        ],
+        "page_idx": 43
+    }
+]

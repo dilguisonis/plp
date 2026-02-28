@@ -1,0 +1,3823 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        266,
+                        94,
+                        1757,
+                        440
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                237,
+                                100,
+                                1543,
+                                304
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        133,
+                                        520,
+                                        304
+                                    ],
+                                    "score": 0.992,
+                                    "content": "data",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        585,
+                                        112,
+                                        1027,
+                                        261
+                                    ],
+                                    "score": 0.727,
+                                    "content": "[a]= ]",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1207,
+                                        100,
+                                        1543,
+                                        269
+                                    ],
+                                    "score": 0.907,
+                                    "content": "a: [a]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                893,
+                                266,
+                                1777,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        893,
+                                        329,
+                                        1003,
+                                        439
+                                    ],
+                                    "score": 0.764,
+                                    "content": "Nl",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1086,
+                                        266,
+                                        1777,
+                                        457
+                                    ],
+                                    "score": 0.841,
+                                    "content": "{Cons a [a]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 0.5
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        349,
+                        599,
+                        1030,
+                        1415
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                349,
+                                599,
+                                1030,
+                                1415
+                            ],
+                            "group_id": 1,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        349,
+                                        599,
+                                        1030,
+                                        1415
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                349,
+                                                599,
+                                                1030,
+                                                1415
+                                            ],
+                                            "score": 0.885,
+                                            "type": "image",
+                                            "image_path": "0c3a7a0fa857bb780de589f942f3580a9b13279e3389ea0a64a4f1510c2a752d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3.5,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        349,
+                                        599,
+                                        1030,
+                                        803.0
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        803.0,
+                                        1030,
+                                        1007.0
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        1007.0,
+                                        1030,
+                                        1211.0
+                                    ],
+                                    "spans": [],
+                                    "index": 4
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        1211.0,
+                                        1030,
+                                        1415.0
+                                    ],
+                                    "spans": [],
+                                    "index": 5
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3.5
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        1480,
+                        577,
+                        2254,
+                        1636
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                1480,
+                                577,
+                                2254,
+                                1636
+                            ],
+                            "group_id": 2,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        1480,
+                                        577,
+                                        2254,
+                                        1636
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                1480,
+                                                577,
+                                                2254,
+                                                1636
+                                            ],
+                                            "score": 0.933,
+                                            "type": "image",
+                                            "image_path": "8432b61d48445f2cebcf66e73062f7f89d7019f14b1a8dbd77e775370032fb8b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 8,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        1480,
+                                        577,
+                                        2254,
+                                        788.8
+                                    ],
+                                    "spans": [],
+                                    "index": 6
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        788.8,
+                                        2254,
+                                        1000.5999999999999
+                                    ],
+                                    "spans": [],
+                                    "index": 7
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1000.5999999999999,
+                                        2254,
+                                        1212.3999999999999
+                                    ],
+                                    "spans": [],
+                                    "index": 8
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1212.3999999999999,
+                                        2254,
+                                        1424.1999999999998
+                                    ],
+                                    "spans": [],
+                                    "index": 9
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1424.1999999999998,
+                                        2254,
+                                        1635.9999999999998
+                                    ],
+                                    "spans": [],
+                                    "index": 10
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                2560,
+                1920
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        266,
+                        94,
+                        1757,
+                        440
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                237,
+                                100,
+                                1543,
+                                304
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        133,
+                                        520,
+                                        304
+                                    ],
+                                    "score": 0.992,
+                                    "content": "data",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        585,
+                                        112,
+                                        1027,
+                                        261
+                                    ],
+                                    "score": 0.727,
+                                    "content": "[a]= ]",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1207,
+                                        100,
+                                        1543,
+                                        269
+                                    ],
+                                    "score": 0.907,
+                                    "content": "a: [a]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                893,
+                                266,
+                                1777,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        893,
+                                        329,
+                                        1003,
+                                        439
+                                    ],
+                                    "score": 0.764,
+                                    "content": "Nl",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1086,
+                                        266,
+                                        1777,
+                                        457
+                                    ],
+                                    "score": 0.841,
+                                    "content": "{Cons a [a]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 0.5,
+                    "bbox_fs": [
+                        237,
+                        100,
+                        1777,
+                        457
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        349,
+                        599,
+                        1030,
+                        1415
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                349,
+                                599,
+                                1030,
+                                1415
+                            ],
+                            "group_id": 1,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        349,
+                                        599,
+                                        1030,
+                                        1415
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                349,
+                                                599,
+                                                1030,
+                                                1415
+                                            ],
+                                            "score": 0.885,
+                                            "type": "image",
+                                            "image_path": "0c3a7a0fa857bb780de589f942f3580a9b13279e3389ea0a64a4f1510c2a752d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3.5,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        349,
+                                        599,
+                                        1030,
+                                        803.0
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        803.0,
+                                        1030,
+                                        1007.0
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        1007.0,
+                                        1030,
+                                        1211.0
+                                    ],
+                                    "spans": [],
+                                    "index": 4
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        1211.0,
+                                        1030,
+                                        1415.0
+                                    ],
+                                    "spans": [],
+                                    "index": 5
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3.5
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        1480,
+                        577,
+                        2254,
+                        1636
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                1480,
+                                577,
+                                2254,
+                                1636
+                            ],
+                            "group_id": 2,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        1480,
+                                        577,
+                                        2254,
+                                        1636
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                1480,
+                                                577,
+                                                2254,
+                                                1636
+                                            ],
+                                            "score": 0.933,
+                                            "type": "image",
+                                            "image_path": "8432b61d48445f2cebcf66e73062f7f89d7019f14b1a8dbd77e775370032fb8b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 8,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        1480,
+                                        577,
+                                        2254,
+                                        788.8
+                                    ],
+                                    "spans": [],
+                                    "index": 6
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        788.8,
+                                        2254,
+                                        1000.5999999999999
+                                    ],
+                                    "spans": [],
+                                    "index": 7
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1000.5999999999999,
+                                        2254,
+                                        1212.3999999999999
+                                    ],
+                                    "spans": [],
+                                    "index": 8
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1212.3999999999999,
+                                        2254,
+                                        1424.1999999999998
+                                    ],
+                                    "spans": [],
+                                    "index": 9
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1424.1999999999998,
+                                        2254,
+                                        1635.9999999999998
+                                    ],
+                                    "spans": [],
+                                    "index": 10
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        182,
+                        60,
+                        2439,
+                        1255
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                170,
+                                74,
+                                1221,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        170,
+                                        74,
+                                        1221,
+                                        216
+                                    ],
+                                    "score": 0.867,
+                                    "content": "CantNodos  AEB a  Int",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                166,
+                                193,
+                                1109,
+                                341
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        166,
+                                        221,
+                                        549,
+                                        341
+                                    ],
+                                    "score": 0.874,
+                                    "content": "Cant Nals",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        676,
+                                        193,
+                                        1109,
+                                        340
+                                    ],
+                                    "score": 0.93,
+                                    "content": "= foldAEB",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                930,
+                                487,
+                                1565,
+                                672
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        930,
+                                        487,
+                                        1565,
+                                        672
+                                    ],
+                                    "score": 0.561,
+                                    "content": " αrd→",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                245,
+                                629,
+                                1680,
+                                843
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        245,
+                                        667,
+                                        624,
+                                        843
+                                    ],
+                                    "score": 0.746,
+                                    "content": "(Const 1)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1143,
+                                        629,
+                                        1680,
+                                        795
+                                    ],
+                                    "score": 0.745,
+                                    "content": "1+ri+rd)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                756,
+                                979,
+                                1358,
+                                1086
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        756,
+                                        979,
+                                        1358,
+                                        1086
+                                    ],
+                                    "score": 0.799,
+                                    "content": "Se pvealen Sacer.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                1301,
+                                1056,
+                                2464,
+                                1254
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1301,
+                                        1056,
+                                        2464,
+                                        1254
+                                    ],
+                                    "score": 0.638,
+                                    "content": "I+Contsi+Cotd",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 2.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        216,
+                        1339,
+                        2210,
+                        1549
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                193,
+                                1315,
+                                2227,
+                                1563
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        193,
+                                        1350,
+                                        1022,
+                                        1554
+                                    ],
+                                    "score": 0.652,
+                                    "content": "Cat Node = folLAEB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1083,
+                                        1341,
+                                        1450,
+                                        1533
+                                    ],
+                                    "score": 0.656,
+                                    "content": "(const i)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1315,
+                                        2227,
+                                        1563
+                                    ],
+                                    "score": 0.64,
+                                    "content": "(o1+i+d)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                2560,
+                1920
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "list",
+                    "bbox": [
+                        182,
+                        60,
+                        2439,
+                        1255
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                170,
+                                74,
+                                1221,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        170,
+                                        74,
+                                        1221,
+                                        216
+                                    ],
+                                    "score": 0.867,
+                                    "content": "CantNodos  AEB a  Int",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                166,
+                                193,
+                                1109,
+                                341
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        166,
+                                        221,
+                                        549,
+                                        341
+                                    ],
+                                    "score": 0.874,
+                                    "content": "Cant Nals",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        676,
+                                        193,
+                                        1109,
+                                        340
+                                    ],
+                                    "score": 0.93,
+                                    "content": "= foldAEB",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                930,
+                                487,
+                                1565,
+                                672
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        930,
+                                        487,
+                                        1565,
+                                        672
+                                    ],
+                                    "score": 0.561,
+                                    "content": " αrd→",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                245,
+                                629,
+                                1680,
+                                843
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        245,
+                                        667,
+                                        624,
+                                        843
+                                    ],
+                                    "score": 0.746,
+                                    "content": "(Const 1)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1143,
+                                        629,
+                                        1680,
+                                        795
+                                    ],
+                                    "score": 0.745,
+                                    "content": "1+ri+rd)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                756,
+                                979,
+                                1358,
+                                1086
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        756,
+                                        979,
+                                        1358,
+                                        1086
+                                    ],
+                                    "score": 0.799,
+                                    "content": "Se pvealen Sacer.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                1301,
+                                1056,
+                                2464,
+                                1254
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1301,
+                                        1056,
+                                        2464,
+                                        1254
+                                    ],
+                                    "score": 0.638,
+                                    "content": "I+Contsi+Cotd",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 2.5,
+                    "bbox_fs": [
+                        166,
+                        74,
+                        2464,
+                        1254
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        216,
+                        1339,
+                        2210,
+                        1549
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                193,
+                                1315,
+                                2227,
+                                1563
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        193,
+                                        1350,
+                                        1022,
+                                        1554
+                                    ],
+                                    "score": 0.652,
+                                    "content": "Cat Node = folLAEB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1083,
+                                        1341,
+                                        1450,
+                                        1533
+                                    ],
+                                    "score": 0.656,
+                                    "content": "(const i)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1480,
+                                        1315,
+                                        2227,
+                                        1563
+                                    ],
+                                    "score": 0.64,
+                                    "content": "(o1+i+d)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6,
+                    "bbox_fs": [
+                        193,
+                        1315,
+                        2227,
+                        1563
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        190,
+                        106,
+                        1293,
+                        1100
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                84,
+                                1190,
+                                251
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        84,
+                                        1190,
+                                        251
+                                    ],
+                                    "score": 0.708,
+                                    "content": "pp  AEB a  AEB a",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                159,
+                                206,
+                                1032,
+                                413
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        159,
+                                        236,
+                                        796,
+                                        387
+                                    ],
+                                    "score": 0.781,
+                                    "content": "espejo = foldAEB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        490,
+                                        206,
+                                        1032,
+                                        413
+                                    ],
+                                    "score": 0.557,
+                                    "content": "lAEB t",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                528,
+                                382,
+                                942,
+                                534
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        528,
+                                        382,
+                                        942,
+                                        534
+                                    ],
+                                    "score": 0.711,
+                                    "content": "(@rd >",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                645,
+                                520,
+                                1074,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        645,
+                                        520,
+                                        1074,
+                                        677
+                                    ],
+                                    "score": 0.971,
+                                    "content": "Bndr",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                590,
+                                784,
+                                1320,
+                                1006
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        590,
+                                        784,
+                                        1291,
+                                        919
+                                    ],
+                                    "score": 0.596,
+                                    "content": "y edope",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        648,
+                                        931,
+                                        678,
+                                        958
+                                    ],
+                                    "score": 0.58,
+                                    "content": "0",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        710,
+                                        829,
+                                        1320,
+                                        1006
+                                    ],
+                                    "score": 0.54,
+                                    "content": "del Grhd iegdb",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                728,
+                                974,
+                                957,
+                                1047
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        728,
+                                        974,
+                                        957,
+                                        1047
+                                    ],
+                                    "score": 0.786,
+                                    "content": "orqinal.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                796,
+                                1044,
+                                831,
+                                1079
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        796,
+                                        1044,
+                                        831,
+                                        1079
+                                    ],
+                                    "score": 0.789,
+                                    "content": "（",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        512,
+                        81,
+                        2434,
+                        1811
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                2176,
+                                92,
+                                2261,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        2176,
+                                        92,
+                                        2261,
+                                        182
+                                    ],
+                                    "score": 1.0,
+                                    "content": "5",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                1442,
+                                264,
+                                2128,
+                                362
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1442,
+                                        282,
+                                        1521,
+                                        362
+                                    ],
+                                    "score": 0.962,
+                                    "content": "2",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1676,
+                                        271,
+                                        1974,
+                                        362
+                                    ],
+                                    "score": 0.811,
+                                    "content": "3~D",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2066,
+                                        264,
+                                        2128,
+                                        343
+                                    ],
+                                    "score": 0.895,
+                                    "content": "3",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                1444,
+                                377,
+                                1529,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1444,
+                                        389,
+                                        1451,
+                                        423
+                                    ],
+                                    "score": 0.914,
+                                    "content": "一",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1470,
+                                        377,
+                                        1529,
+                                        438
+                                    ],
+                                    "score": 0.97,
+                                    "content": "/",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                1334,
+                                433,
+                                2382,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1334,
+                                        433,
+                                        1574,
+                                        549
+                                    ],
+                                    "score": 0.592,
+                                    "content": "14",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2140,
+                                        447,
+                                        2203,
+                                        526
+                                    ],
+                                    "score": 0.998,
+                                    "content": "4",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2315,
+                                        462,
+                                        2382,
+                                        536
+                                    ],
+                                    "score": 0.626,
+                                    "content": "1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                1470,
+                                631,
+                                2377,
+                                812
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1470,
+                                        631,
+                                        2377,
+                                        812
+                                    ],
+                                    "score": 0.732,
+                                    "content": "Hgʃa : a - AEB a",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                1546,
+                                814,
+                                2227,
+                                1037
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1546,
+                                        814,
+                                        2227,
+                                        1037
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                1688,
+                                1031,
+                                2180,
+                                1160
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1688,
+                                        1031,
+                                        2180,
+                                        1160
+                                    ],
+                                    "score": 0.656,
+                                    "content": "a-AEBa",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                1660,
+                                1583,
+                                2236,
+                                1783
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1660,
+                                        1583,
+                                        2236,
+                                        1783
+                                    ],
+                                    "score": 0.585,
+                                    "content": "epde",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        }
+                    ],
+                    "index": 10.5
+                }
+            ],
+            "page_idx": 2,
+            "page_size": [
+                2560,
+                1920
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "list",
+                    "bbox": [
+                        190,
+                        106,
+                        1293,
+                        1100
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                84,
+                                1190,
+                                251
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        84,
+                                        1190,
+                                        251
+                                    ],
+                                    "score": 0.708,
+                                    "content": "pp  AEB a  AEB a",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                159,
+                                206,
+                                1032,
+                                413
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        159,
+                                        236,
+                                        796,
+                                        387
+                                    ],
+                                    "score": 0.781,
+                                    "content": "espejo = foldAEB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        490,
+                                        206,
+                                        1032,
+                                        413
+                                    ],
+                                    "score": 0.557,
+                                    "content": "lAEB t",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                528,
+                                382,
+                                942,
+                                534
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        528,
+                                        382,
+                                        942,
+                                        534
+                                    ],
+                                    "score": 0.711,
+                                    "content": "(@rd >",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                645,
+                                520,
+                                1074,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        645,
+                                        520,
+                                        1074,
+                                        677
+                                    ],
+                                    "score": 0.971,
+                                    "content": "Bndr",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                590,
+                                784,
+                                1320,
+                                1006
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        590,
+                                        784,
+                                        1291,
+                                        919
+                                    ],
+                                    "score": 0.596,
+                                    "content": "y edope",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        648,
+                                        931,
+                                        678,
+                                        958
+                                    ],
+                                    "score": 0.58,
+                                    "content": "0",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        710,
+                                        829,
+                                        1320,
+                                        1006
+                                    ],
+                                    "score": 0.54,
+                                    "content": "del Grhd iegdb",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                728,
+                                974,
+                                957,
+                                1047
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        728,
+                                        974,
+                                        957,
+                                        1047
+                                    ],
+                                    "score": 0.786,
+                                    "content": "orqinal.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                796,
+                                1044,
+                                831,
+                                1079
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        796,
+                                        1044,
+                                        831,
+                                        1079
+                                    ],
+                                    "score": 0.789,
+                                    "content": "（",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 3,
+                    "bbox_fs": [
+                        157,
+                        84,
+                        1320,
+                        1079
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        512,
+                        81,
+                        2434,
+                        1811
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                2176,
+                                92,
+                                2261,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        2176,
+                                        92,
+                                        2261,
+                                        182
+                                    ],
+                                    "score": 1.0,
+                                    "content": "5",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                1442,
+                                264,
+                                2128,
+                                362
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1442,
+                                        282,
+                                        1521,
+                                        362
+                                    ],
+                                    "score": 0.962,
+                                    "content": "2",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1676,
+                                        271,
+                                        1974,
+                                        362
+                                    ],
+                                    "score": 0.811,
+                                    "content": "3~D",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2066,
+                                        264,
+                                        2128,
+                                        343
+                                    ],
+                                    "score": 0.895,
+                                    "content": "3",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                1444,
+                                377,
+                                1529,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1444,
+                                        389,
+                                        1451,
+                                        423
+                                    ],
+                                    "score": 0.914,
+                                    "content": "一",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1470,
+                                        377,
+                                        1529,
+                                        438
+                                    ],
+                                    "score": 0.97,
+                                    "content": "/",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                1334,
+                                433,
+                                2382,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1334,
+                                        433,
+                                        1574,
+                                        549
+                                    ],
+                                    "score": 0.592,
+                                    "content": "14",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2140,
+                                        447,
+                                        2203,
+                                        526
+                                    ],
+                                    "score": 0.998,
+                                    "content": "4",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2315,
+                                        462,
+                                        2382,
+                                        536
+                                    ],
+                                    "score": 0.626,
+                                    "content": "1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                1470,
+                                631,
+                                2377,
+                                812
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1470,
+                                        631,
+                                        2377,
+                                        812
+                                    ],
+                                    "score": 0.732,
+                                    "content": "Hgʃa : a - AEB a",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                1546,
+                                814,
+                                2227,
+                                1037
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1546,
+                                        814,
+                                        2227,
+                                        1037
+                                    ],
+                                    "score": 1.0,
+                                    "content": "",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                1688,
+                                1031,
+                                2180,
+                                1160
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1688,
+                                        1031,
+                                        2180,
+                                        1160
+                                    ],
+                                    "score": 0.656,
+                                    "content": "a-AEBa",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                1660,
+                                1583,
+                                2236,
+                                1783
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1660,
+                                        1583,
+                                        2236,
+                                        1783
+                                    ],
+                                    "score": 0.585,
+                                    "content": "epde",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        }
+                    ],
+                    "index": 10.5,
+                    "bbox_fs": [
+                        1334,
+                        92,
+                        2382,
+                        1783
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        234,
+                        111,
+                        2252,
+                        1364
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                80,
+                                2094,
+                                236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        80,
+                                        2094,
+                                        236
+                                    ],
+                                    "score": 0.514,
+                                    "content": "αat ABa=N=丨δm (4a）a(a）",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                199,
+                                267,
+                                1928,
+                                487
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        267,
+                                        1928,
+                                        487
+                                    ],
+                                    "score": 0.732,
+                                    "content": "fuAB \" b- (b-a-b-b)-）ABa-b",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                195,
+                                448,
+                                2232,
+                                690
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        195,
+                                        448,
+                                        2232,
+                                        690
+                                    ],
+                                    "score": 0.612,
+                                    "content": "recrAb(Aab/Bab-b)-ABab",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                234,
+                                674,
+                                1191,
+                                803
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        674,
+                                        1191,
+                                        803
+                                    ],
+                                    "score": 0.908,
+                                    "content": "rerAB fNil fBn t =",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                631,
+                                792,
+                                1122,
+                                927
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        631,
+                                        792,
+                                        1122,
+                                        927
+                                    ],
+                                    "score": 0.776,
+                                    "content": "Casetof",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                812,
+                                915,
+                                1309,
+                                1055
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        812,
+                                        915,
+                                        1309,
+                                        1055
+                                    ],
+                                    "score": 0.687,
+                                    "content": "NfMi",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                803,
+                                1036,
+                                2282,
+                                1224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        803,
+                                        1036,
+                                        2282,
+                                        1224
+                                    ],
+                                    "score": 0.673,
+                                    "content": "BnrdfBni(ec）d(e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                655,
+                                1260,
+                                1467,
+                                1456
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        655,
+                                        1260,
+                                        1467,
+                                        1456
+                                    ],
+                                    "score": 0.937,
+                                    "content": "where ec = recrAB",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 3.5
+                }
+            ],
+            "page_idx": 3,
+            "page_size": [
+                2560,
+                1920
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "list",
+                    "bbox": [
+                        234,
+                        111,
+                        2252,
+                        1364
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                80,
+                                2094,
+                                236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        80,
+                                        2094,
+                                        236
+                                    ],
+                                    "score": 0.514,
+                                    "content": "αat ABa=N=丨δm (4a）a(a）",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                199,
+                                267,
+                                1928,
+                                487
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        267,
+                                        1928,
+                                        487
+                                    ],
+                                    "score": 0.732,
+                                    "content": "fuAB \" b- (b-a-b-b)-）ABa-b",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                195,
+                                448,
+                                2232,
+                                690
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        195,
+                                        448,
+                                        2232,
+                                        690
+                                    ],
+                                    "score": 0.612,
+                                    "content": "recrAb(Aab/Bab-b)-ABab",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                234,
+                                674,
+                                1191,
+                                803
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        674,
+                                        1191,
+                                        803
+                                    ],
+                                    "score": 0.908,
+                                    "content": "rerAB fNil fBn t =",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                631,
+                                792,
+                                1122,
+                                927
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        631,
+                                        792,
+                                        1122,
+                                        927
+                                    ],
+                                    "score": 0.776,
+                                    "content": "Casetof",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                812,
+                                915,
+                                1309,
+                                1055
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        812,
+                                        915,
+                                        1309,
+                                        1055
+                                    ],
+                                    "score": 0.687,
+                                    "content": "NfMi",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                803,
+                                1036,
+                                2282,
+                                1224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        803,
+                                        1036,
+                                        2282,
+                                        1224
+                                    ],
+                                    "score": 0.673,
+                                    "content": "BnrdfBni(ec）d(e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                655,
+                                1260,
+                                1467,
+                                1456
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        655,
+                                        1260,
+                                        1467,
+                                        1456
+                                    ],
+                                    "score": 0.937,
+                                    "content": "where ec = recrAB",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 3.5,
+                    "bbox_fs": [
+                        195,
+                        80,
+                        2282,
+                        1456
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        398,
+                        59,
+                        2432,
+                        234
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                390,
+                                51,
+                                2320,
+                                238
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        390,
+                                        51,
+                                        1019,
+                                        238
+                                    ],
+                                    "score": 0.815,
+                                    "content": "Pli a= X |cte",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1020,
+                                        59,
+                                        2320,
+                                        234
+                                    ],
+                                    "score": 0.5,
+                                    "content": "a | \\sin a ( p | ) a ( p | ) a ( p | ) a ( p | ) a ( p | ) ( p | ) a ( p | ) ( p | ) a ( p | ) ( p | )",
+                                    "type": "inline_equation",
+                                    "image_path": "dfbacd1c62ebd45c3b39c174e800ca27697731a62ebcf6c4f0d692f425194dd8.jpg"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        168,
+                        308,
+                        2311,
+                        1645
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                179,
+                                318,
+                                1582,
+                                876
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        179,
+                                        439,
+                                        281,
+                                        557
+                                    ],
+                                    "score": 0.512,
+                                    "content": "er",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        282,
+                                        318,
+                                        1582,
+                                        876
+                                    ],
+                                    "score": 0.67,
+                                    "content": "\\begin{array} { l l l } { \\medskip \\displaystyle \\bigcup _ { k = 0 , r } } & { : } & { ( \\mathbb { N } \\mathfrak { m } \\ \\alpha ) \\Rightarrow \\emptyset \\ \\displaystyle \\alpha  \\mathring { \\mathbb { P } } | \\mathfrak { i } \\ \\mathfrak { a } \\  \\ \\mathfrak { a } } \\\\ { \\medskip \\displaystyle \\bigcup _ { k = 0 } } & { \\chi } & { \\displaystyle \\bigwedge } \\\\ { \\displaystyle \\bigcup _ { k = 0 } } & { \\chi } & { \\displaystyle ( \\mathcal { G } \\it { e } _ { \\alpha } ) } \\\\ { \\displaystyle \\bigcup _ { k = 0 , r } } & { \\chi } & { \\displaystyle ( \\mathbb { S } \\it { \\mathrm { s o v e - \\ 9 } } \\ \\underline { ( \\begin{array} { l } { \\eta } \\\\ { \\eta } \\end{array} ) } = ( \\overbrace { \\mathrm { e } ^ { \\mathrm { e x e } } } \\ \\alpha  \\ \\alpha \\ \\mathring { \\ \\mathbb { P } } \\ ) } \\\\ { \\displaystyle \\bigcup _ { k = 0 } } & { \\chi } & { \\displaystyle ( \\mathbb { P } \\it { \\mathrm { e x e - \\ 9 } } \\ \\mathring { \\ \\Psi } \\ ) } \\end{array}",
+                                    "type": "inline_equation",
+                                    "image_path": "68647172c9c5f4d096bebd9039f2d962c3bbdd2004668ed5433ff8481ec18a6b.jpg"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                164,
+                                537,
+                                281,
+                                653
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        164,
+                                        537,
+                                        281,
+                                        653
+                                    ],
+                                    "score": 0.883,
+                                    "content": "evce",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                177,
+                                611,
+                                2091,
+                                774
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        638,
+                                        281,
+                                        747
+                                    ],
+                                    "score": 0.625,
+                                    "content": "evo",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1583,
+                                        611,
+                                        2091,
+                                        774
+                                    ],
+                                    "score": 0.657,
+                                    "content": "+ (evouar ×q)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                1583,
+                                718,
+                                2069,
+                                871
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1583,
+                                        718,
+                                        2069,
+                                        871
+                                    ],
+                                    "score": 0.636,
+                                    "content": "（ealer ×q)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                156,
+                                915,
+                                1783,
+                                1074
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        156,
+                                        915,
+                                        1783,
+                                        1074
+                                    ],
+                                    "score": 0.83,
+                                    "content": "X²+Z X+L = Suma(Suma (Prod xx)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                1379,
+                                1027,
+                                2237,
+                                1253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1379,
+                                        1027,
+                                        2237,
+                                        1253
+                                    ],
+                                    "score": 0.534,
+                                    "content": "(nd(2) x）)（ s)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                164,
+                                1220,
+                                2347,
+                                1450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        164,
+                                        1220,
+                                        2347,
+                                        1450
+                                    ],
+                                    "score": 0.602,
+                                    "content": "fouBl b -（ab)-(b-bb)(ob） iaob",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                174,
+                                1472,
+                                1481,
+                                1641
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        1472,
+                                        1481,
+                                        1641
+                                    ],
+                                    "score": 0.702,
+                                    "content": "evalva²χ=foldpl xid （+） （）",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        }
+                    ],
+                    "index": 4.5
+                }
+            ],
+            "page_idx": 4,
+            "page_size": [
+                2560,
+                1920
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        1840,
+                        1613,
+                        1870,
+                        1648
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                1848,
+                                1621,
+                                1867,
+                                1641
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1848,
+                                        1621,
+                                        1867,
+                                        1641
+                                    ],
+                                    "score": 0.547,
+                                    "content": "?",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        398,
+                        59,
+                        2432,
+                        234
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                390,
+                                51,
+                                2320,
+                                238
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        390,
+                                        51,
+                                        1019,
+                                        238
+                                    ],
+                                    "score": 0.815,
+                                    "content": "Pli a= X |cte",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1020,
+                                        59,
+                                        2320,
+                                        234
+                                    ],
+                                    "score": 0.5,
+                                    "content": "a | \\sin a ( p | ) a ( p | ) a ( p | ) a ( p | ) a ( p | ) ( p | ) a ( p | ) ( p | ) a ( p | ) ( p | )",
+                                    "type": "inline_equation",
+                                    "image_path": "dfbacd1c62ebd45c3b39c174e800ca27697731a62ebcf6c4f0d692f425194dd8.jpg"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0,
+                    "bbox_fs": [
+                        390,
+                        51,
+                        2320,
+                        238
+                    ]
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        168,
+                        308,
+                        2311,
+                        1645
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                179,
+                                318,
+                                1582,
+                                876
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        179,
+                                        439,
+                                        281,
+                                        557
+                                    ],
+                                    "score": 0.512,
+                                    "content": "er",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        282,
+                                        318,
+                                        1582,
+                                        876
+                                    ],
+                                    "score": 0.67,
+                                    "content": "\\begin{array} { l l l } { \\medskip \\displaystyle \\bigcup _ { k = 0 , r } } & { : } & { ( \\mathbb { N } \\mathfrak { m } \\ \\alpha ) \\Rightarrow \\emptyset \\ \\displaystyle \\alpha  \\mathring { \\mathbb { P } } | \\mathfrak { i } \\ \\mathfrak { a } \\  \\ \\mathfrak { a } } \\\\ { \\medskip \\displaystyle \\bigcup _ { k = 0 } } & { \\chi } & { \\displaystyle \\bigwedge } \\\\ { \\displaystyle \\bigcup _ { k = 0 } } & { \\chi } & { \\displaystyle ( \\mathcal { G } \\it { e } _ { \\alpha } ) } \\\\ { \\displaystyle \\bigcup _ { k = 0 , r } } & { \\chi } & { \\displaystyle ( \\mathbb { S } \\it { \\mathrm { s o v e - \\ 9 } } \\ \\underline { ( \\begin{array} { l } { \\eta } \\\\ { \\eta } \\end{array} ) } = ( \\overbrace { \\mathrm { e } ^ { \\mathrm { e x e } } } \\ \\alpha  \\ \\alpha \\ \\mathring { \\ \\mathbb { P } } \\ ) } \\\\ { \\displaystyle \\bigcup _ { k = 0 } } & { \\chi } & { \\displaystyle ( \\mathbb { P } \\it { \\mathrm { e x e - \\ 9 } } \\ \\mathring { \\ \\Psi } \\ ) } \\end{array}",
+                                    "type": "inline_equation",
+                                    "image_path": "68647172c9c5f4d096bebd9039f2d962c3bbdd2004668ed5433ff8481ec18a6b.jpg"
+                                }
+                            ],
+                            "index": 1,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                164,
+                                537,
+                                281,
+                                653
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        164,
+                                        537,
+                                        281,
+                                        653
+                                    ],
+                                    "score": 0.883,
+                                    "content": "evce",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                177,
+                                611,
+                                2091,
+                                774
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        638,
+                                        281,
+                                        747
+                                    ],
+                                    "score": 0.625,
+                                    "content": "evo",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1583,
+                                        611,
+                                        2091,
+                                        774
+                                    ],
+                                    "score": 0.657,
+                                    "content": "+ (evouar ×q)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                1583,
+                                718,
+                                2069,
+                                871
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1583,
+                                        718,
+                                        2069,
+                                        871
+                                    ],
+                                    "score": 0.636,
+                                    "content": "（ealer ×q)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                156,
+                                915,
+                                1783,
+                                1074
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        156,
+                                        915,
+                                        1783,
+                                        1074
+                                    ],
+                                    "score": 0.83,
+                                    "content": "X²+Z X+L = Suma(Suma (Prod xx)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                1379,
+                                1027,
+                                2237,
+                                1253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1379,
+                                        1027,
+                                        2237,
+                                        1253
+                                    ],
+                                    "score": 0.534,
+                                    "content": "(nd(2) x）)（ s)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                164,
+                                1220,
+                                2347,
+                                1450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        164,
+                                        1220,
+                                        2347,
+                                        1450
+                                    ],
+                                    "score": 0.602,
+                                    "content": "fouBl b -（ab)-(b-bb)(ob） iaob",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                174,
+                                1472,
+                                1481,
+                                1641
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        1472,
+                                        1481,
+                                        1641
+                                    ],
+                                    "score": 0.702,
+                                    "content": "evalva²χ=foldpl xid （+） （）",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                157,
+                                70,
+                                1721,
+                                242
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        70,
+                                        1721,
+                                        242
+                                    ],
+                                    "score": 0.76,
+                                    "content": "dta Roseree a= Rose a[ReTe a]",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 0,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                174,
+                                302,
+                                1857,
+                                462
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        306,
+                                        1324,
+                                        462
+                                    ],
+                                    "score": 0.58,
+                                    "content": "ldRT ∴（α>[b]>b）→",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1405,
+                                        302,
+                                        1857,
+                                        431
+                                    ],
+                                    "score": 0.643,
+                                    "content": "RoTe a5",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 1,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                159,
+                                425,
+                                2219,
+                                624
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        159,
+                                        425,
+                                        2219,
+                                        624
+                                    ],
+                                    "score": 0.669,
+                                    "content": "RT+(Rae rts=（mop（fRTf）t）",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 2,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                170,
+                                669,
+                                1337,
+                                809
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        170,
+                                        669,
+                                        1337,
+                                        809
+                                    ],
+                                    "score": 0.74,
+                                    "content": "ramas :Rose Tree a ↓[[a]",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 3,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                168,
+                                795,
+                                1207,
+                                954
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        168,
+                                        795,
+                                        1207,
+                                        954
+                                    ],
+                                    "score": 0.663,
+                                    "content": "amses = f&RT （/)s丨",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 4,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                571,
+                                892,
+                                1463,
+                                1103
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        892,
+                                        1463,
+                                        1103
+                                    ],
+                                    "score": 0.703,
+                                    "content": "fol res then [r]",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 5,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                584,
+                                1046,
+                                722,
+                                1148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        584,
+                                        1046,
+                                        722,
+                                        1148
+                                    ],
+                                    "score": 0.791,
+                                    "content": "else",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 6,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                634,
+                                1102,
+                                2403,
+                                1372
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        634,
+                                        1122,
+                                        1510,
+                                        1309
+                                    ],
+                                    "score": 0.78,
+                                    "content": "map (r:) (coat res)",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1527,
+                                        1102,
+                                        2403,
+                                        1229
+                                    ],
+                                    "score": 0.582,
+                                    "content": "山-cdd",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1594,
+                                        1248,
+                                        1794,
+                                        1372
+                                    ],
+                                    "score": 0.807,
+                                    "content": "rbs",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1908,
+                                        1230,
+                                        2115,
+                                        1333
+                                    ],
+                                    "score": 0.834,
+                                    "content": "res[",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                1592,
+                                1299,
+                                2434,
+                                1469
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1592,
+                                        1350,
+                                        1786,
+                                        1469
+                                    ],
+                                    "score": 0.905,
+                                    "content": "ribn",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        2044,
+                                        1299,
+                                        2434,
+                                        1435
+                                    ],
+                                    "score": 0.596,
+                                    "content": "Lbt,b2..bn",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                152,
+                                1411,
+                                1757,
+                                1899
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        152,
+                                        1411,
+                                        1452,
+                                        1899
+                                    ],
+                                    "score": 0.74,
+                                    "content": "\\begin{array} { l } { { \\displaystyle ( \\pm + ) \\div [ c ]  [ c ]  [ c ] } } \\\\ { { \\mathrm { c o } ^ { n c o d } : [ [ c ] ]  [ [ c ] ] } } \\\\ { { \\mathrm { c o } ^ { n c o d } \\mathrm { c o } ^ { - \\infty  [ [ a _ { i } , b _ { i } ]  b _ { i } , \\ c _ { i - 1 } \\ c _ { k _ { i } } d _ { i . 1 } } } } \\\\ { { \\boldsymbol { \\mathscr { M } } \\alpha \\boldsymbol { \\rho } : ( a  b )  [ [ a _ { i } ] ]  [ b ] } } \\end{array}",
+                                    "type": "inline_equation",
+                                    "image_path": "a9f7f2d9803ab13268ab6d5299218385e6868c0e2e01429dca8510ea86a4f3a0.jpg",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1584,
+                                        1446,
+                                        1757,
+                                        1568
+                                    ],
+                                    "score": 0.804,
+                                    "content": "r:c",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 11,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                1569,
+                                1544,
+                                2425,
+                                1699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1569,
+                                        1544,
+                                        1754,
+                                        1661
+                                    ],
+                                    "score": 0.642,
+                                    "content": "r.CR",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1970,
+                                        1546,
+                                        2425,
+                                        1699
+                                    ],
+                                    "score": 0.509,
+                                    "content": "<[,. da",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                1453,
+                                1612,
+                                2069,
+                                1772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1453,
+                                        1612,
+                                        1740,
+                                        1772
+                                    ],
+                                    "score": 0.794,
+                                    "content": "Jrd",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1978,
+                                        1676,
+                                        2069,
+                                        1770
+                                    ],
+                                    "score": 0.788,
+                                    "content": "3",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 10,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                1541,
+                                1728,
+                                2437,
+                                1849
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1541,
+                                        1728,
+                                        1764,
+                                        1846
+                                    ],
+                                    "score": 0.867,
+                                    "content": "dm",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        1799,
+                                        1773,
+                                        2008,
+                                        1838
+                                    ],
+                                    "score": 0.89,
+                                    "content": "res ::",
+                                    "type": "text",
+                                    "cross_page": true
+                                },
+                                {
+                                    "bbox": [
+                                        2017,
+                                        1737,
+                                        2437,
+                                        1849
+                                    ],
+                                    "score": 0.752,
+                                    "content": "[[caJJ]",
+                                    "type": "text",
+                                    "cross_page": true
+                                }
+                            ],
+                            "index": 12
+                        }
+                    ],
+                    "index": 4.5,
+                    "bbox_fs": [
+                        156,
+                        318,
+                        2347,
+                        1641
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        143,
+                        47,
+                        2434,
+                        1899
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                70,
+                                1721,
+                                242
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        70,
+                                        1721,
+                                        242
+                                    ],
+                                    "score": 0.76,
+                                    "content": "dta Roseree a= Rose a[ReTe a]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                174,
+                                302,
+                                1857,
+                                462
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        306,
+                                        1324,
+                                        462
+                                    ],
+                                    "score": 0.58,
+                                    "content": "ldRT ∴（α>[b]>b）→",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1405,
+                                        302,
+                                        1857,
+                                        431
+                                    ],
+                                    "score": 0.643,
+                                    "content": "RoTe a5",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                159,
+                                425,
+                                2219,
+                                624
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        159,
+                                        425,
+                                        2219,
+                                        624
+                                    ],
+                                    "score": 0.669,
+                                    "content": "RT+(Rae rts=（mop（fRTf）t）",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                170,
+                                669,
+                                1337,
+                                809
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        170,
+                                        669,
+                                        1337,
+                                        809
+                                    ],
+                                    "score": 0.74,
+                                    "content": "ramas :Rose Tree a ↓[[a]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                168,
+                                795,
+                                1207,
+                                954
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        168,
+                                        795,
+                                        1207,
+                                        954
+                                    ],
+                                    "score": 0.663,
+                                    "content": "amses = f&RT （/)s丨",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                571,
+                                892,
+                                1463,
+                                1103
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        892,
+                                        1463,
+                                        1103
+                                    ],
+                                    "score": 0.703,
+                                    "content": "fol res then [r]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                584,
+                                1046,
+                                722,
+                                1148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        584,
+                                        1046,
+                                        722,
+                                        1148
+                                    ],
+                                    "score": 0.791,
+                                    "content": "else",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                634,
+                                1102,
+                                2403,
+                                1372
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        634,
+                                        1122,
+                                        1510,
+                                        1309
+                                    ],
+                                    "score": 0.78,
+                                    "content": "map (r:) (coat res)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1527,
+                                        1102,
+                                        2403,
+                                        1229
+                                    ],
+                                    "score": 0.582,
+                                    "content": "山-cdd",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1594,
+                                        1248,
+                                        1794,
+                                        1372
+                                    ],
+                                    "score": 0.807,
+                                    "content": "rbs",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1908,
+                                        1230,
+                                        2115,
+                                        1333
+                                    ],
+                                    "score": 0.834,
+                                    "content": "res[",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                1592,
+                                1299,
+                                2434,
+                                1469
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1592,
+                                        1350,
+                                        1786,
+                                        1469
+                                    ],
+                                    "score": 0.905,
+                                    "content": "ribn",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2044,
+                                        1299,
+                                        2434,
+                                        1435
+                                    ],
+                                    "score": 0.596,
+                                    "content": "Lbt,b2..bn",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                152,
+                                1411,
+                                1757,
+                                1899
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        152,
+                                        1411,
+                                        1452,
+                                        1899
+                                    ],
+                                    "score": 0.74,
+                                    "content": "\\begin{array} { l } { { \\displaystyle ( \\pm + ) \\div [ c ]  [ c ]  [ c ] } } \\\\ { { \\mathrm { c o } ^ { n c o d } : [ [ c ] ]  [ [ c ] ] } } \\\\ { { \\mathrm { c o } ^ { n c o d } \\mathrm { c o } ^ { - \\infty  [ [ a _ { i } , b _ { i } ]  b _ { i } , \\ c _ { i - 1 } \\ c _ { k _ { i } } d _ { i . 1 } } } } \\\\ { { \\boldsymbol { \\mathscr { M } } \\alpha \\boldsymbol { \\rho } : ( a  b )  [ [ a _ { i } ] ]  [ b ] } } \\end{array}",
+                                    "type": "inline_equation",
+                                    "image_path": "a9f7f2d9803ab13268ab6d5299218385e6868c0e2e01429dca8510ea86a4f3a0.jpg"
+                                },
+                                {
+                                    "bbox": [
+                                        1584,
+                                        1446,
+                                        1757,
+                                        1568
+                                    ],
+                                    "score": 0.804,
+                                    "content": "r:c",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                1569,
+                                1544,
+                                2425,
+                                1699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1569,
+                                        1544,
+                                        1754,
+                                        1661
+                                    ],
+                                    "score": 0.642,
+                                    "content": "r.CR",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1970,
+                                        1546,
+                                        2425,
+                                        1699
+                                    ],
+                                    "score": 0.509,
+                                    "content": "<[,. da",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                1453,
+                                1612,
+                                2069,
+                                1772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1453,
+                                        1612,
+                                        1740,
+                                        1772
+                                    ],
+                                    "score": 0.794,
+                                    "content": "Jrd",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1978,
+                                        1676,
+                                        2069,
+                                        1770
+                                    ],
+                                    "score": 0.788,
+                                    "content": "3",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                1541,
+                                1728,
+                                2437,
+                                1849
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1541,
+                                        1728,
+                                        1764,
+                                        1846
+                                    ],
+                                    "score": 0.867,
+                                    "content": "dm",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1799,
+                                        1773,
+                                        2008,
+                                        1838
+                                    ],
+                                    "score": 0.89,
+                                    "content": "res ::",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2017,
+                                        1737,
+                                        2437,
+                                        1849
+                                    ],
+                                    "score": 0.752,
+                                    "content": "[[caJJ]",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        }
+                    ],
+                    "index": 6
+                }
+            ],
+            "page_idx": 5,
+            "page_size": [
+                2560,
+                1920
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "list",
+                    "bbox": [
+                        143,
+                        47,
+                        2434,
+                        1899
+                    ],
+                    "lines": [],
+                    "index": 6,
+                    "bbox_fs": [
+                        152,
+                        70,
+                        2437,
+                        1899
+                    ],
+                    "lines_deleted": true
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.7.6"
+}

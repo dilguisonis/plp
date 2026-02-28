@@ -1,0 +1,124 @@
+[
+    {
+        "type": "text",
+        "text": "Resumen de los principales tipos de recursión ",
+        "text_level": 1,
+        "bbox": [
+            191,
+            80,
+            806,
+            102
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Estructural: permite acceder a los argumentos no recursivos de los constructores, y a los resultados de la recursión para las subestructuras. ",
+        "bbox": [
+            121,
+            117,
+            895,
+            151
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Primitiva: como la estructural, pero además permite acceder a las subestructuras. ",
+        "bbox": [
+            126,
+            152,
+            862,
+            184
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Global: como la primitiva, pero además permite acceder a los resultados de las recursiones anteriores. ",
+        "bbox": [
+            126,
+            184,
+            904,
+            217
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: ",
+        "bbox": [
+            94,
+            233,
+            221,
+            252
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "longitud $[ \\mathbf { \\epsilon } ] ~ = ~ \\mathbf { \\epsilon } \\otimes$ longitud ${ \\bigl ( } \\ldots \\sp { \\prime } \\times \\mathsf { s } { \\bigr ) } = 1 +$ longitud xs ",
+        "bbox": [
+            94,
+            275,
+            431,
+            311
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "insertarOrdenado e $[ \\mathbf { \\nabla } ] ~ = ~ [ \\mathbf { e } ]$   \ninsertarOrdenado e $( \\mathsf { x } \\colon \\mathsf { x } \\mathsf { s } ) \\ = \\ \\mathsf { i } \\mathsf { f } \\ \\textsf { e } \\ < \\ \\mathsf { x }$ then e:x:xs else x:(insertarOrdenado e xs)   \nelementosEnPosicionesPares $[ \\mathbf { \\nabla } ] ~ = ~ [ \\mathbf { \\nabla } ]$   \nelementosEnPosicionesPares $( { \\bf x } \\colon { \\bf x } { \\mathsf s } ) ~ = ~ { \\bf i } { \\mathsf f }$ null xs then [x] else x:elementosEnPosicionesPares (tail xs) ",
+        "bbox": [
+            94,
+            328,
+            779,
+            379
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            92,
+            388,
+            895,
+            439
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. La recursión de longitud es estructural, porque hace recursión sobre la cola de la lista (xs) pero no accede a la cola en sí, ni a resultados de recursiones anteriores. ",
+        "bbox": [
+            92,
+            449,
+            887,
+            502
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. La recursión de insertarOrdenado es primitiva porque accede directamente a xs (además de hacer recursión), pero no accede a los resultados anteriores. ",
+        "bbox": [
+            87,
+            505,
+            892,
+            542
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3. La recursión de elementosEnPosicionesPares es global, ya que accede a un resultado anterior: el de la recursión sobre la cola de la cola de la lista (es decir tail xs). ",
+        "bbox": [
+            92,
+            543,
+            900,
+            596
+        ],
+        "page_idx": 0
+    }
+]

@@ -1,0 +1,1627 @@
+[
+    {
+        "type": "text",
+        "text": "Repaso de Funciones Totales y Maybe ",
+        "text_level": 1,
+        "bbox": [
+            242,
+            179,
+            771,
+            205
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas (de Lenguajes) de Programaci´on ",
+        "bbox": [
+            272,
+            243,
+            741,
+            265
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "26 de Agosto de 2025 ",
+        "bbox": [
+            394,
+            294,
+            618,
+            313
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 Funciones Totales ",
+        "text_level": 1,
+        "bbox": [
+            121,
+            356,
+            420,
+            379
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Las funciones transforman un valor de entrada a un valor de salida. Cuando caracterizamos los valores como conjuntos, por ejemplo usando tipos de datos, podemos hablar de funciones totales y parciales. Llamamos totales a las funciones cuyo dominio coincide con el conjunto de partida, y parciales a las funciones cuyo dominio es un subconjunto propio de dicho conjunto. ",
+        "bbox": [
+            117,
+            392,
+            895,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Las funciones totales siempre devuelven un valor. Esto es muy conveniente a la hora de analizar c´odigo porque no tenemos que preocuparnos si los argumentos son correctos. ",
+        "bbox": [
+            117,
+            495,
+            894,
+            546
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Muchas veces analizamos los programas con la mentalidad de que “si termina entonces ...”. Ese “si termina” contempla la precondici´on. Si no satisfacemos la precondici´on, entonces perdemos las garant´ıas de c´omo se puede comportar el programa. ",
+        "bbox": [
+            119,
+            564,
+            892,
+            615
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "La funci´on suma es total: ",
+        "bbox": [
+            119,
+            632,
+            349,
+            650
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Si x , y :: Int sabemos que $\\mathrm { ~ \\texttt ~ { ~ x ~ + ~ y ~ } ~ }$ :: Int sin importar el valor de x e y y sabemos que el programa $\\mathrm { ~ \\texttt ~ { ~ x ~ + ~ y ~ } ~ }$ va a terminar. ",
+        "bbox": [
+            117,
+            714,
+            894,
+            750
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "La funci´on de divisi´on entera es parcial ",
+        "bbox": [
+            119,
+            766,
+            472,
+            783
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/ee978740be48ece36da02b848f25434d9431f5caf7db973a9858c44f83b1e2d3.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>div ::I Integral a =&gt; a -&gt; a -&gt; a</td></tr></table>",
+        "bbox": [
+            127,
+            797,
+            890,
+            825
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Su precondici´on es que el segundo argumento sea distinto de 0. Si x , y :: Int entonces div x y no tiene comportamiento definido si $\\texttt { y } = = \\texttt { 0 }$ , en particular da error deteniendo la ejecuci´on de todo el programa. ",
+        "bbox": [
+            117,
+            847,
+            892,
+            866
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            499,
+            889,
+            510,
+            901
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "$^ 1$ (+) :: Num a = > a -> a -> a ",
+        "bbox": [
+            115,
+            663,
+            892,
+            693
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            117,
+            129,
+            895,
+            164
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Otra funci´on que ya conocen es head :: [a ] -> a . $\\begin{array} { r } { \\dot { \\iota } } \\end{array}$ Ser´a total o parcial? $\\begin{array} { r } { \\boldsymbol { \\dot { \\lambda } } } \\end{array}$ Tiene alguna precondici´on no trivial? ¡Es Parcial! la lista tiene que no ser vac´ıa. ",
+        "bbox": [
+            119,
+            181,
+            892,
+            216
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sigamos analizando $( + )$ y div como ejemplos m´as sencillos. Pero las herramientas sirven tambi´en para otras estructuras de datos. ",
+        "bbox": [
+            117,
+            233,
+            894,
+            267
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que queremos hacer un programa que calcula $x / y + z$ ",
+        "bbox": [
+            117,
+            284,
+            700,
+            302
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Int   \n2 programa x y z = div x y + z ",
+        "bbox": [
+            134,
+            318,
+            598,
+            356
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "En principio, si no sabemos los detalles de la implementaci´on, viendo solo el tipo podr´ıamos pensar que cualquier valor es v´alido. Pero la precondici´on (que no siempre est´a expl´ıcita) nos dice que $y \\ne 0$ . De hecho, como programadores del programa podr´ıamos no darnos cuenta porque la divisi´on bien podr´ıa estar siendo llamada dentro de otras funciones en lugar de estar directamente a la vista. ",
+        "bbox": [
+            119,
+            382,
+            894,
+            469
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "En definitiva, mientras m´as informaci´on nos provean los tipos de datos, mejor. Porque el chequeo de tipos no sabe de precondiciones, solo de tipos. ",
+        "bbox": [
+            117,
+            486,
+            894,
+            520
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Importante ",
+        "text_level": 1,
+        "bbox": [
+            142,
+            533,
+            260,
+            549
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Trabajar con funciones totales empuja m´as informaci´on al sistema de tipos. ",
+        "bbox": [
+            136,
+            560,
+            798,
+            577
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2 ¿C´omo obtener una funci´on total? ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            611,
+            658,
+            634
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Dada una funci´on parcial, a veces puede obtenerse una funci´on total que se comporte de la misma forma para los valores definidos. Esto se logra modificando el dominio o la imagen de la funci´on. ",
+        "bbox": [
+            117,
+            648,
+            895,
+            699
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Veamos c´omo ser´ıa un ejemplo de safeDiv para Int. ",
+        "bbox": [
+            117,
+            717,
+            600,
+            734
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1 Modificando la imagen ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            756,
+            453,
+            776
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Si modificamos la imagen de la funci´on, su resultado, podemos hacer que en lugar de calcular un Int calculemos si la operaci´on tuvo ´exito y en tal caso tener un int. El tipo Maybe puede usarse para tal fin. ",
+        "bbox": [
+            117,
+            784,
+            894,
+            835
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            499,
+            889,
+            512,
+            901
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1 data Maybe a $=$ Just a | Nothing   \n2   \n3 safeDiv :: Int -> Int -> Maybe Int   \n4 safeDiv $=$ _ ",
+        "bbox": [
+            132,
+            120,
+            574,
+            192
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "No nos importa la implementaci´on, sino analizar la consecuencia del cambio en la funci´on: safeDiv puede ser total! safeDiv x y va a ser un Maybe Int y terminar sin importar los valores de los argumentos. Cuando $\\texttt { y } = = \\texttt { 0 }$ obtendremos un Nothing y en otro caso un Just con el resultado de la divisi´on. ",
+        "bbox": [
+            117,
+            218,
+            894,
+            287
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ahora bien, si tratamos de usar safeDiv en nuestro programa vamos a tener un problema. ",
+        "bbox": [
+            121,
+            305,
+            889,
+            322
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/5a8cd6b35e95c79f61e22a2a077363b45f30afac7aae351402b5136f5f94c62d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>programa :: Int -&gt; Int -&gt; Int -&gt;</td><td></td><td></td><td></td><td></td><td></td><td>Int</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>programa x y z = safeDiv x y + z</td><td></td></tr></table>",
+        "bbox": [
+            126,
+            336,
+            890,
+            380
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "No compila. Porque $( + )$ no puede sumar un Maybe Int con un Int. ",
+        "bbox": [
+            119,
+            403,
+            744,
+            420
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Termina siendo tarea de quien usa safeDiv decidir qu´e hacer ante la condici´on de error. ¡Pero al menos es un error que no detiene todo el programa! ",
+        "bbox": [
+            121,
+            438,
+            895,
+            473
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.1.1 Resolviendo el problema ",
+        "text_level": 1,
+        "bbox": [
+            121,
+            492,
+            433,
+            508
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En principio podr´ıamos resolver la situaci´on dando alg´un resultado que tenga sentido. Suponiendo que 0 es la respuesta que queremos dar en caso de error, podr´ıamos escribir un case. ",
+        "bbox": [
+            117,
+            518,
+            894,
+            569
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Int   \n2 programa x y z =   \n3 case safeDiv x y of   \n4 Just r -> r + z   \n5 Nothing -> 0 ",
+        "bbox": [
+            132,
+            588,
+            598,
+            677
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.1.2 Avisando del problema ",
+        "text_level": 1,
+        "bbox": [
+            121,
+            706,
+            418,
+            724
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "O bien podr´ıamos querer indicar que hubo un error al evaluar programa (usando Maybe). ",
+        "bbox": [
+            112,
+            733,
+            890,
+            751
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Maybe Int   \n2 programa x y z =   \n3 case safeDiv x y of   \n4 Just r -> Just r + z   \n5 Nothing -> Nothing ",
+        "bbox": [
+            132,
+            768,
+            673,
+            857
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            499,
+            889,
+            512,
+            901
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Conocer o armar algunas funciones sobre Maybe es ´util para lidiar con estas situaciones en forma m´as c´omoda. ",
+        "bbox": [
+            141,
+            158,
+            872,
+            192
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.2 Modificando el dominio ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            221,
+            463,
+            241
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Otra alternativa es tener un tipo de dato que represente a los enteros sin el cero, por ejemplo NonZero. De esta forma podemos modificar el dominio, los argumentos de safeDiv para que quede de la siguiente forma. ",
+        "bbox": [
+            119,
+            249,
+            895,
+            300
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 safeDiv :: Int -> NonZero -> Int   \n2 safeDiv = _ ",
+        "bbox": [
+            132,
+            319,
+            547,
+            355
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "El tipo de dato NonZero estar´ıa declarado en otro m´odulo y tendr´a alguna forma de obtener un valor NonZero. La siguiente podr´ıa ser su interfaz. ",
+        "bbox": [
+            115,
+            382,
+            894,
+            418
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 module NonZero where ( NonZero , maybeNonZero , toInt )   \n2   \n3 data NonZero   \n4   \n5 maybeNonZero :: Int -> Maybe NonZero   \n6   \n7 toInt :: NonZero -> Int ",
+        "bbox": [
+            131,
+            435,
+            789,
+            560
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Nuevamente, si reemplazamos div por safeDiv, el programa va a tener un problema de tipos, ya que y deber´ıa ser NonZero en esta versi´on de safeDiv. Como usuarios de safeDiv nos vemos obligados a realizar la verificaci´on sobre y. Usando maybeNonZero podemos hacer dicha verificaci´on y decidir qu´e resultado deber´ıamos dar en tal caso. ",
+        "bbox": [
+            117,
+            586,
+            895,
+            655
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Int   \n2 programa x y z =   \n3 case maybeNonZero y of'   \n4 Just y -> safeDiv x y + z   \n5 Nothing -> 0 ",
+        "bbox": [
+            132,
+            671,
+            600,
+            762
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "O, si preferimos, indicar el error a los usuarios de programa . ",
+        "bbox": [
+            117,
+            788,
+            657,
+            806
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "4 ",
+        "bbox": [
+            499,
+            889,
+            512,
+            901
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Tip ",
+        "bbox": [
+            132,
+            128,
+            885,
+            152
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Maybe Int   \n2 programa x y z =   \n3 case maybeNonZero y of'   \n4 Just y -> Just ( safeDiv x y  + z )   \n5 Nothing -> Nothing ",
+        "bbox": [
+            131,
+            121,
+            673,
+            211
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Nuevamente estamos en control de c´omo resolver la situaci´on que antes era un error que frenar´ıa todo el programa. ",
+        "bbox": [
+            117,
+            235,
+            894,
+            269
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3 Maybe ",
+        "text_level": 1,
+        "bbox": [
+            119,
+            296,
+            267,
+            318
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Tip En otros lenguajes... ",
+        "text_level": 1,
+        "bbox": [
+            144,
+            335,
+            363,
+            351
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A Maybe se lo suele comparar con null, nil, None de lenguajes como Java, Ruby o Python. Pero hay una diferencia importante. En muchos lenguajes es usual que una variable de tipo String pueda tener un valor no inicializado null. En estos lenguajes entonces null es un posible valor del tipo String. Expresiones como append(\"hola\", null) pasan el chequeo de tipos, pero pueden no evaluar satisfactoriamente. ",
+        "bbox": [
+            142,
+            362,
+            870,
+            464
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "En Haskell, lo equivalente, \" hola \" ++ Nothing no tipa. \" hola \" :: String y Nothing :: Maybe a, la funci´on $( + + )$ no est´a definida. Una funci´on que opere con String no puede operar con Maybe String, hay que adaptarla. Esto hace que a veces tengamos: ",
+        "bbox": [
+            146,
+            467,
+            868,
+            532
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": " Que aplicar Just a un string para pasarlo por par´ametro,  O que necesitemos ”desarmar” un Maybe para saber qu´e tiene adentro,  O que usemos alguna funci´on que nos resuelva la fricci´on que puede introducir el Maybe ",
+        "bbox": [
+            173,
+            536,
+            868,
+            604
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El tipo Maybe puede ser ´util en muchos contextos y conocer algunos patrones usuales puede ayudar. ",
+        "bbox": [
+            121,
+            621,
+            895,
+            655
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.1 Valor por defecto ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            677,
+            389,
+            696
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Cuando tenemos un Maybe a y queremos s´ı o s´ı un a hay dos opciones: ",
+        "bbox": [
+            119,
+            706,
+            751,
+            724
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": " O bien usamos una funci´on parcial fromJust :: Maybe a -> a que se va a indefinir si el argumento es Nothing,   \n o bien usamos una funci´on total fromMaybe :: a -> Maybe a -> a que devuelve el primer argumento si el segundo es Nothing. ",
+        "bbox": [
+            141,
+            740,
+            895,
+            827
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ambas funciones est´an ya definidas en Data . Maybe del paquete base, pero su definici´on ",
+        "bbox": [
+            119,
+            844,
+            894,
+            862
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            499,
+            889,
+            512,
+            901
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "es muy sencilla: ",
+        "bbox": [
+            117,
+            130,
+            255,
+            146
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1 fromJust :: Maybe a -> a   \n2 fromJust ( Just v ) = v   \n-- Funci ´on parcial , no hay \" fromJust Nothing   \n4   \n5 fromMaybe :: a -> Maybe a -> a   \n6 fromMaybe _ ( Just v ) = v   \n7 fromMaybe d Nothing $=$ d   \n8 -- Funci ´on total ! ",
+        "bbox": [
+            132,
+            164,
+            786,
+            304
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.2 Transformar ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            336,
+            329,
+            356
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Hay veces que necesitamos transformar el valor dentro de un Maybe y mantener el Nothing . En las versiones de programa :: Int -> Int -> Int -> Maybe Int, esto mismo fue lo que termin´o pasando. ",
+        "bbox": [
+            117,
+            365,
+            900,
+            417
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Podemos definir mapMaybe, que aplique la transformaci´on de a a b. ",
+        "bbox": [
+            117,
+            434,
+            719,
+            451
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1 mapMaybe :: ( a -> b ) -> Maybe a -> Maybe b   \n2 mapMaybe _ Nothing $=$ Nothing   \n3 mapMaybe f ( Just a ) $=$ Just ( f a ) ",
+        "bbox": [
+            132,
+            468,
+            675,
+            521
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Luego reescribimos el programa con safeDiv :: Int -> Int -> Maybe Int evitando el case. ",
+        "bbox": [
+            117,
+            550,
+            894,
+            585
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Maybe Int   \n2 programa x y z =   \n3 ( safeDiv x y ) mapMaybe  (\\ r -> r + z ) ",
+        "bbox": [
+            132,
+            602,
+            668,
+            656
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Tip ",
+        "text_level": 1,
+        "bbox": [
+            144,
+            680,
+            183,
+            695
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lo c´omodo de las funciones de alto orden como mapMaybe es que aplicar varias de estas suele ser m´as c´omodo que anidar case. ",
+        "bbox": [
+            142,
+            706,
+            873,
+            740
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "La funci´on mapMaybe ya est´a definida como fmap en Prelude. Si bien tiene un tipo m´as general fmap :: Functor f $= >$ ( a -> b ) -> f a -> f b puede usarse con Maybe. ",
+        "bbox": [
+            117,
+            758,
+            894,
+            809
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            499,
+            889,
+            512,
+            901
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.3 Promover ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            128,
+            299,
+            147
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Supongamos queremos hacer un programa que use dos divisiones $a / b + x / y$ . Si alguna de las divisiones falla, el programa entero debe fallar. ",
+        "bbox": [
+            117,
+            156,
+            895,
+            190
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Hay varias formas de hacerlo. Un intento directo de usar safeDiv por como divisi´on nos dar´ıa un problema de tipos nuevamente. ",
+        "bbox": [
+            115,
+            208,
+            894,
+            242
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/9cc19d813c3e98a296a1dd90cda51a47818b09bb84adf95ba5f28054ee6491d6.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>programa :: Int -&gt; Int -&gt; Int -&gt; Int -&gt; Maybe Int</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>programa a b x y = (safeDiv a b) + (safeDiv x y)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>error</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            132,
+            258,
+            761,
+            313
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Podemos pensar en promover la suma $( + )$ de Int a Maybe Int y si algunos de los argumentos es Nothing entonces el resultado es Nothing. Esta idea puede aplicar a cualquier operaci´on de dos argumentos, incluso para distintos tipos de argumentos. ",
+        "bbox": [
+            119,
+            341,
+            895,
+            393
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Definiendo lift2 de la siguiente manera: ",
+        "bbox": [
+            117,
+            410,
+            487,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1 lift2 :: ( a -> b -> c ) -> Maybe a -> Maybe b -> Maybe c   \n2 lift2 _ Nothing _ $=$ Nothing   \n3 lift2 _ _ Nothing $=$ Nothing   \n4 lift2 f ( Just a ) ( Just b) $=$ Just ( f a b ) ",
+        "bbox": [
+            132,
+            443,
+            836,
+            516
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Podemos escribir: ",
+        "bbox": [
+            117,
+            543,
+            272,
+            560
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/729858efdd9646d50874b87559ba6a47e0194d754cee3ca681f18a3174052070.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td></td><td></td><td></td><td></td><td></td><td> programa :: Int -&gt; Int -&gt; Int -&gt; Int -&gt; Maybe Int</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>programa a b x y = lift2 (+) (safeDiv a b) (safeDiv x y)</td></tr></table>",
+        "bbox": [
+            127,
+            575,
+            892,
+            615
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "La funci´on lift2 ya est´a definida como liftA2 en Prelude. Si bien tiene un tipo m´as general liftA2 :: Applicative f $= >$ ( a -> b -> c ) -> f a -> f b -> f c puede usarse con Maybe. ",
+        "bbox": [
+            117,
+            643,
+            895,
+            694
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.4 Encadenar ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            715,
+            307,
+            736
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Otra opci´on que sirve en el caso anterior es pensar el programa como una secuencia de c´omputos m´as peque˜nos y tratar de encadenar dichos c´omputos. Si alguno falla, entonces el conjunto tambi´en lo hace. De esta forma un c´omputo toma un valor como entrada y puede o no tener ´exito. ",
+        "bbox": [
+            117,
+            745,
+            895,
+            813
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Un c´omputo entonces ser´ıa de la forma a -> Maybe b. ",
+        "bbox": [
+            117,
+            831,
+            618,
+            848
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            500,
+            889,
+            510,
+            901
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Dado el resultado de un primer c´omputo (de tipo Maybe a), vamos a querer encadenar un segundo c´omputo (de tipo a -> Maybe b) y obtener su el resultado, que puede fallar. ",
+        "bbox": [
+            121,
+            129,
+            895,
+            165
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Notar que estamos suponiendo que el segundo c´omputo solo va a ser ejecutado si el primero tiene ´exito, ya que toma un a en lugar de un Maybe a. ",
+        "bbox": [
+            119,
+            181,
+            895,
+            216
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "A la funci´on que necesitamos podemos llamarla andThen. ",
+        "bbox": [
+            121,
+            233,
+            630,
+            249
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1 andThen :: Maybe a -> ( a -> Maybe b ) -> Maybe b   \n2 andThen Nothing _ $=$ Nothing   \n3 andThen ( Just a ) f = f a ",
+        "bbox": [
+            134,
+            267,
+            736,
+            321
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Tip ",
+        "text_level": 1,
+        "bbox": [
+            144,
+            344,
+            183,
+            361
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Se parece a mapMaybe pero no es igual. ",
+        "bbox": [
+            141,
+            372,
+            499,
+            388
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Al usarla podemos ver que hay tres c´omputos: $a / b$ , $x / y$ y la suma de ambos. Cada andThen nos permite darle un nombre al resultado del c´omputo anterior y dicho valor va ser en este caso un Int, no un Maybe Int, quitando la necesidad de promover la suma. ",
+        "bbox": [
+            119,
+            406,
+            894,
+            458
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Int -> Maybe Int   \n2 programa a b x y $=$ \\`   \n3 ( safeDiv a b ) andThen (\\ aDivB ->\\` \\`   \n4 ( safeDiv x y ) andThen  (\\ xDivY ->   \n5 Just ( aDivB $^ +$ xDivY )   \n6 )   \n) ",
+        "bbox": [
+            132,
+            476,
+            763,
+            600
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Notar que por como se encadenan los c´omputos, el ´ultimo tiene acceso al resultado de todos los c´omputos anteriores. ",
+        "bbox": [
+            119,
+            626,
+            895,
+            661
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "La funci´on andThen ya est´a definida como $( > > = )$ ) en Prelude, se le dice bind. Si bien tiene un tipo m´as general $( > > = )$ :: Monad $\\mathrm { ~ \\mathfrak ~ { ~ m ~ } ~ } = >$ m a $- >$ ( a - > m b ) - > m b , puede usarse con Maybe. ",
+        "bbox": [
+            117,
+            677,
+            894,
+            730
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            499,
+            889,
+            512,
+            901
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Alineando el c´odigo un poco distinto puede dar la sensaci´on de “asignaci´on”. De hecho al usar $( > > = )$ se puede usar tambi´en la funci´on pure, que en este contexto tendra tipo a $- >$ Maybe a y equivale a Just. ",
+        "bbox": [
+            144,
+            160,
+            872,
+            211
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Int -> Maybe Int   \n2 programa a b x y =   \n3 ( safeDiv a b ) > >= (\\ aDivB ->   \n4 ( safeDiv x y ) $> > =$ (\\ xDivY ->   \n5 pure ( aDivB $^ +$ xDivY )   \n6 ) ) ",
+        "bbox": [
+            156,
+            229,
+            786,
+            353
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "En Haskell la clase Monad, con las funciones $( > > = )$ y pure, permite usar la notaci´on do. El siguiente c´odigo es equivalente $1 0 0 \\%$ al anterior pero se lee m´as f´acil. ",
+        "bbox": [
+            144,
+            379,
+            867,
+            430
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Int -> Maybe Int   \n2 programa a b x y = do   \n3 aDivB <- safeDiv a b   \n4 xDivY <- safeDiv x y   \n5 pure ( aDivB $^ +$ xDivY )   \n6 ",
+        "bbox": [
+            157,
+            448,
+            788,
+            554
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.5 Alternativa ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            598,
+            319,
+            617
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Otro patr´on ´util se usa cuando tenemos dos Maybe a y queremos el primero que no sea un Nothing. ",
+        "bbox": [
+            117,
+            626,
+            894,
+            661
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1 orMaybe :: Maybe a -> Maybe a -> Maybe a   \n2 orMaybe ( Just a ) _ = ( Just a )   \n3 orMaybe Nothing mb $=$ m b ",
+        "bbox": [
+            132,
+            678,
+            650,
+            732
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Notemos que es muy similar al or de Bool, (||). Por eso el nombre orMaybe. ",
+        "bbox": [
+            117,
+            759,
+            816,
+            778
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1 (||) :: Bool -> Bool -> Bool   \n2 (||) True _ = True   \n3 (||) False z = z ",
+        "bbox": [
+            132,
+            794,
+            499,
+            848
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "9 ",
+        "bbox": [
+            499,
+            889,
+            512,
+            901
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Tip Notaci´on do (extra) ",
+        "bbox": [
+            136,
+            128,
+            885,
+            153
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Si tenemos que determinar el primero de tres valores que no sea Nothing, podemos simplemente escribir lo siguiente sin necesidad de case y otras funciones auxiliares. ",
+        "bbox": [
+            117,
+            129,
+            894,
+            164
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$^ { 1 }$ ( a orMaybe  b ) orMaybe  c ",
+        "bbox": [
+            131,
+            181,
+            510,
+            200
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.6 Otros ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            231,
+            250,
+            252
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Hay m´as patrones ´utiles que pueden aparecer dependiendo de c´omo pensemos los problemas. Definir funciones auxiliares para abstraer el comportamiento deseado en cada situaci´on es un recurso v´alido para lograr un programa m´as f´acil de entender. ",
+        "bbox": [
+            117,
+            260,
+            895,
+            312
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "4 Chequeando precondiciones ",
+        "text_level": 1,
+        "bbox": [
+            119,
+            337,
+            564,
+            361
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Volvamos al programa del principio: $x / y + z$ ",
+        "bbox": [
+            119,
+            374,
+            507,
+            391
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Int programa x y z = div x y + z ",
+        "bbox": [
+            132,
+            407,
+            596,
+            447
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Podr´ıamos hacerlo total tambi´en si tenemos cuidado con cu´ando usamos div. ",
+        "bbox": [
+            119,
+            472,
+            794,
+            488
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Maybe Int   \n2 programa x y z =   \n3 if y /= 0   \n4 then Just ( div x y + z )   \n5 else Nothing ",
+        "bbox": [
+            132,
+            506,
+            672,
+            596
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Pero no estamos aprovechando al informaci´on de tipos para asegurarnos de que programa sea total. Al usar una funci´on parcial debemos analizar el programa cuidadosamente. Este programa es corto, pero se puede volver un an´alisis complicado muy r´apido. ",
+        "bbox": [
+            117,
+            621,
+            937,
+            674
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Distinto es cuando usamos funciones totales. La composici´on de funciones totales siempre es total. En el siguiente programa, al usar todas funciones totales, estamos seguros de que el programa va a terminar para toda entrada. No hay ning´un an´alisis necesario. ",
+        "bbox": [
+            117,
+            690,
+            895,
+            759
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1 programa :: Int -> Int -> Int -> Maybe Int   \n2 programa x y z =   \n3 ( safeDiv x y ) andThen  (\\ xDivY ->   \n4 Just ( xDivY + z)   \n5 ) ",
+        "bbox": [
+            132,
+            777,
+            673,
+            863
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10 ",
+        "bbox": [
+            495,
+            889,
+            517,
+            901
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Importante ",
+        "text_level": 1,
+        "bbox": [
+            142,
+            131,
+            260,
+            147
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "La composici´on de funciones totales da una funci´on total. La composici´on de funciones parciales puede dar como resultado una funci´on total, pero requiere un an´alisis manual. Distintos sistemas de tipos corren el l´ımite, pero con los tipos vistos hasta ahora el an´alisis queda a cargo de la persona. ",
+        "bbox": [
+            142,
+            158,
+            870,
+            228
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5 Ejemplo: Recorriendo ´arboles ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            260,
+            596,
+            285
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que dado un ´arbol binario de enteros (sin orden) queremos saber si alg´un Int que cumpla cierta condici´on est´a o no definido (contenido) en dicho ´arbol. ",
+        "bbox": [
+            119,
+            297,
+            895,
+            332
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "La condici´on pues est´a representada como Int -> Bool. ",
+        "bbox": [
+            117,
+            349,
+            631,
+            367
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Si encontramos un elemento, queremos obtener cu´al fue dicho Int. El resultado pues de la funci´on podr´ıa ser Maybe Int para indicar si lo encontramos o no y en tal caso cu´al es. ",
+        "bbox": [
+            117,
+            384,
+            895,
+            435
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "1 data ABInt $=$ Bin ABInt Int ABInt | Nil   \n2   \n3 definido :: ABInt -> ( Int -> Bool ) -> Maybe Int   \n4 definido ab f = _ ",
+        "bbox": [
+            132,
+            453,
+            734,
+            525
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Una versi´on directa de tal funci´on podr´ıa ser: ",
+        "bbox": [
+            117,
+            551,
+            514,
+            569
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/4015c905b3a9343f138e20836eb276a38fb3fa4c88c5ab9d81ca1037697998a1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            127,
+            583,
+            821,
+            800
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Mucho anidamiento. El ´ultimo case no hace falta en rigor, igual: eval´ua al valor de definido d f. ",
+        "bbox": [
+            115,
+            822,
+            895,
+            856
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            495,
+            889,
+            515,
+            901
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/ce73129709c21d5b2de860a0445ace7fdefa986312a1591711264cca81a328f1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=2>definido :: ABInt -&gt; (Int -&gt; Bool） -&gt; Maybe Intdefinido Nil f = Nothing</td></tr><tr><td rowspan=1 colspan=1>definido （Bin i n d） f =if fn</td><td></td></tr></table>",
+        "bbox": [
+            127,
+            117,
+            894,
+            281
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Igual entender que realiza una b´usqueda preorder (primero la ra´ız, luego en rama izquierda y luego en rama derecha) no es trivial de ver. ",
+        "bbox": [
+            117,
+            305,
+            895,
+            340
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Reescrib´amoslo usando algunas de las operaciones de Maybe vistas antes. ",
+        "bbox": [
+            117,
+            356,
+            759,
+            374
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/fe974a6a18f2fdaca3d5a9ccb2e43db6848fe93c646b2f65e167da3016c60785.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>definido :: ABInt -&gt; (Int -&gt; Bool） -&gt; Maybe Int 2 definido Nil f = Nothing</td></tr></table>",
+        "bbox": [
+            121,
+            387,
+            892,
+            482
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Sabiendo que orMaybe eval´ua al primer argumento si este no es Nothing podemos leer (y cambiar) el orden en que se recorre el ´arbol con mayor facilidad. ",
+        "bbox": [
+            117,
+            507,
+            895,
+            542
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            495,
+            889,
+            517,
+            901
+        ],
+        "page_idx": 11
+    }
+]

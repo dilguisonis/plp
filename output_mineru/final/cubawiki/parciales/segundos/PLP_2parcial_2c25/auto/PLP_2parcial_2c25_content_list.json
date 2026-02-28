@@ -1,0 +1,732 @@
+[
+    {
+        "type": "text",
+        "text": "PLP-Segundo Parcial-2do cuatrimestre de 2025 ",
+        "bbox": [
+            252,
+            67,
+            759,
+            95
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            610,
+            86,
+            838,
+            124
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/37bfc491a03db1ba5dbd50515d5121c7c01f3af772c5f6a991ac40cc5528b3d4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td rowspan=3 colspan=1>Turno</td><td rowspan=3 colspan=1>Libreta</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=2 colspan=1>Ej1</td><td rowspan=2 colspan=1>E2</td><td></td></tr><tr><td rowspan=1 colspan=1>#Orden</td><td></td><td></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td></td><td rowspan=1 colspan=1>EE</td><td rowspan=1 colspan=1>EE</td><td rowspan=1 colspan=1>E</td></tr></table>",
+        "bbox": [
+            159,
+            95,
+            855,
+            134
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "EsteexamenseapruebteendonlesdsjerciclebeB)yregular(R)，ysepromocinonlmdoe ) d enojssepdddelmelodded prctcdoet separadnsRecomendamosleerelparcialcompletontedempezararosolverlo ",
+        "bbox": [
+            122,
+            136,
+            895,
+            212
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1-Programacion Logica ",
+        "text_level": 1,
+        "bbox": [
+            122,
+            226,
+            374,
+            238
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementar lospredicadosrespetandoencndacaso lainstanciacionpedida.Los generadoresdeben cubrir todas las deqeleespeseedsaddelped que colapsen clausulas,cut （！） )ni predicados dealto dencon launica excepindeot ",
+        "bbox": [
+            115,
+            242,
+            905,
+            282
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eneste ejercicio trabajaremos con melodias.Se cuenta con el predicado nota(?N) quees verdadero ota(doretcLlosederoel2)ersee dedosmelodAldeelrd)aeretald a)DefinirelpredicadolistaAMelodia(+LM)queesverdaderocuandoMesunamelodia quecontieneenoen notas de la lista L.Por ejemplo: ",
+        "bbox": [
+            110,
+            290,
+            909,
+            328
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            117,
+            336,
+            909,
+            361
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?-listaAMelodia([do,re,mi,fa],M) M=sec（do,sec(re,sec（mi,fa）)）;   \nM=sec(do,sec(sec(re,mi）,fa));   \nM=sec(sec(do,re),sec(mi,fa));   \nM=sec（sec（do,sec（re,mi））,fa);   \nM=sec（sec（sec(do,re),mi),fa);   \nfalse. ",
+        "bbox": [
+            139,
+            366,
+            391,
+            434
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b)Detinir el predicado submelodia $( + M , - S )$ que es verdadero cuando S es una subsecuencia de M.Una melodia Ses subsecuenciadeunamelodiaMcuando Sesun subterminodentrodelaestructura deM,obtenidosiguiendo algin caminodesecsinreordenarniitirpartes.Esdecir,lamelodia secdosec(re,i))tienecomo subsececias asec(ei）di))oeesde）d）e ejemplo: ",
+        "bbox": [
+            95,
+            447,
+            929,
+            509
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$? -$ submelodia(sec(sec(do,sec(re,mi)),fa),S).  \n$\\mathrm { ~ \\mathsf ~ { ~ s ~ } ~ } =$ sec(sec(do,sec(re,mi)),fa);${ \\textbf { s } } =$ sec(do,sec(re,mi));$\\mathrm { ~ \\mathsf ~ { ~ s ~ } ~ } =$ sec(re,mi);false.",
+        "bbox": [
+            126,
+            519,
+            465,
+            580
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$i ^ { \\mathrm { E l } }$ predicado es reversible en S? Justificar brevemente. ",
+        "bbox": [
+            122,
+            590,
+            522,
+            604
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c)DefinirelpredicadosinSubmelodiasEnComun $+ M I$ ,+M2)queesverdaderocuandoM1y M2notienensubmelodias en comun. Por ejemplo: ",
+        "bbox": [
+            92,
+            612,
+            946,
+            640
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?-sinSubmelodiasEnComun(secdo,sec(re,mi)）,sec（fa,sec(re,i))).false.  \n?-sinSubmelodiasEnComun(sec(do,sec(re，mi)),sec（fa,secre,sol)))true.",
+        "bbox": [
+            117,
+            648,
+            628,
+            713
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d)Definirelpredicadomelodia(-M)queinstanciaen Mtodaslasmelodias.Nosepermitedefinirmelodiaenfuncion delistaAMelodiadebedefinirse generandolastructurasencadapasoPorejemplouponiendoquelasunicas notas fueran do y re: ",
+        "bbox": [
+            92,
+            724,
+            961,
+            768
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?-melodia(M). $M = d \\sigma$ $\\mathrm { ~  ~ M ~ } = \\mathrm { ~  ~ \\it ~ \\it ~ \\it ~ \\it ~ \\tau ~ } _ { x \\in \\mathrm { ~ \\scriptsize ~ \\it ~ \\Omega ~ } }$ ;   \nM=sec（do,do）; ",
+        "bbox": [
+            117,
+            782,
+            252,
+            837
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dc5404ef3eb8d46d9673ac0a19263b49956e467f5beeb37acaab50625fecde3b.jpg",
+        "text": "$$\n\\begin{array} { r } { \\begin{array} { r } { M = \\mathrm { ~ s e c } ( \\mathrm { d o } , \\mathrm { r e } ) ; } \\\\ { M = \\mathrm { ~ s e c } ( \\mathrm { r e } , \\mathrm { d o } ) ; } \\\\ { M = \\mathrm { ~ s e c } ( \\mathrm { r e } , \\mathrm { r e } ) ; } \\\\ { M = \\mathrm { ~ s e c } ( \\mathrm { d o } , \\mathrm { s e c } ( \\mathrm { } } \\end{array} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            410,
+            783,
+            537,
+            844
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { M = \\sec ( \\deg , \\sec ( \\deg , \\tt { r e } ) ) ; } \\\\ & { } \\\\ & { M = \\sec ( \\sec ( \\deg , \\tt { r e } ) , d o ) ; } \\end{array}$ ",
+        "bbox": [
+            699,
+            787,
+            895,
+            845
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            505,
+            919,
+            519,
+            931
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejerciclo 2-Resolucion ",
+        "bbox": [
+            166,
+            160,
+            317,
+            169
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Representar en forma clausnl Ins siguientes formulas de logicn de primer orden ",
+        "bbox": [
+            183,
+            171,
+            636,
+            181
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1）vX.(vcio（X）vZ.-（2EX)) ntoeiosiysolsininginlementopeteeceal. Siun elemento pertenece a un conjuntooaotroentonces pertenee a launiondeambos ",
+        "bbox": [
+            194,
+            185,
+            734,
+            224
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c.Utilizarresolucionpara demostrarlaformuladel incisoanteriorIndicarIasustitucinutilzadaencadapaso d.La resolucion utilizada enel punto anterior,fue SLD? Justificar. ",
+        "bbox": [
+            161,
+            228,
+            573,
+            257
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            154,
+            261,
+            833,
+            274
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            151,
+            276,
+            568,
+            288
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3-Inferencia $\\mathbf { y }$ Deduccion Natural ",
+        "bbox": [
+            136,
+            296,
+            438,
+            309
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Consideremos el Calculo Lambda tipado extendido con colas (queues)de la siguientemanera: =..·/Cola M=··|（(）|M·M丨map $x : \\tau \\mapsto M$ in $M$ · $C O \\bot a _ { T }$ es el tipodelas colas de tipo $\\tau$ $0 _ { \\tau }$ es una cola vacia de tipo $\\tau$   \nM1·M2 es una cola M1 alacual se le agrega al final un elemento M2.   \nmape：g→M1inM2 representa una cola con la misma estructura que M2，pero queen cada elemento contieneelresultadodereemplazar lasapariciones libresdeeen M1,porelvalordelelementocorrepondiente enM2,como se ve en el siguienteejemplo： ",
+        "bbox": [
+            154,
+            312,
+            867,
+            444
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1616f85f762660c87aaff0a4ea4af7672e4e55f8af40ea40484ac1f6612e6a9f.jpg",
+        "text": "$$\n\\mathtt { m a p } e : N a t \\mapsto \\mathtt { s u c c } ( e ) \\mathrm { i n } \\langle \\rangle _ { N a t } \\bullet \\underline { { 3 } } \\bullet \\underline { { 0 } } \\bullet \\underline { { 1 } } \\sim \\langle \\rangle _ { N a t } \\bullet \\underline { { 4 } } \\bullet \\underline { { 1 } } \\bullet \\underline { { 2 } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            448,
+            707,
+            466
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se dispone delas siguientes reglas de tipado ",
+        "bbox": [
+            146,
+            465,
+            430,
+            478
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c4024f642c8569531d40e99fb06bcecdbd7ff26f71112d7b8af090f521cdb095.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\frac { \\Gamma \\vdash ( \\gamma _ { \\tau } : \\mathsf { c o l a } _ { \\tau } ) } { \\Gamma \\vdash M _ { 1 } : \\mathsf { C o l a } _ { \\tau } } } & { \\qquad } & { \\frac { \\Gamma \\vdash M _ { 1 } : \\mathsf { C o l a } _ { \\tau } } { \\Gamma \\vdash M _ { 1 } \\bullet M _ { 2 } : \\mathsf { C o l a } _ { \\tau } } \\qquad } & { \\frac { \\Gamma , x : \\tau \\vdash M _ { 1 } : \\sigma } { \\Gamma \\vdash \\mathsf { m a p } : \\tau \\mapsto M _ { 1 } \\ : \\mathsf { i n } \\ : M _ { 2 } : \\mathsf { C o l a } _ { \\tau } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            151,
+            495,
+            858,
+            524
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Seextiende tambien el algoritmo de inferencia de la siguiente manera: ",
+        "bbox": [
+            139,
+            534,
+            588,
+            547
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fbe1a9bc2ec47c50350af56c6d86d6ff81caf847042caf38a40e48eae80adf95.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\mathcal { T } ( \\Gamma \\mid \\{ \\mathcal { S } _ { \\tau } \\} = ( \\mathsf { c o l a } _ { \\tau } \\mid \\boldsymbol { \\vartheta } ) } \\\\ & { \\mathcal { T } ( \\Gamma \\mid M _ { 1 } \\bullet M _ { 2 } ) = ( \\mathsf { c o l a } _ { \\tau _ { 2 } } \\mid \\{ \\tau _ { 1 } \\overset { ? } { = } \\mathsf { c o l a } _ { \\tau _ { 2 } } \\} \\cup E _ { 1 } \\cup E _ { 2 } ) } \\\\ & { \\begin{array} { r l } & { \\mathcal { I } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } \\\\ & { \\mathcal { I } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\end{array} } \\\\ & { \\mathcal { X } ( \\Gamma \\mid \\mathbf { u } \\mathbf { a } \\mathbf { p } \\boldsymbol { x } ; \\tau _ { n } \\mapsto M _ { 1 } \\mathbf { i n } M _ { 2 } ) = ( \\mathsf { c o l a } _ { \\tau _ { 1 } } \\mid \\{ \\tau _ { 2 } \\overset { ? } { = } \\mathsf { c o l a } _ { \\tau _ { n } } \\} \\cup E _ { 1 } \\cup E _ { 2 } ) } \\\\ & { \\begin{array} { r l } & { \\mathcal { I } ( \\Gamma , \\boldsymbol { x } \\mid \\tau _ { x } \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } \\\\ & { \\mathcal { I } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\end{array} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            137,
+            559,
+            803,
+            686
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se pide: ",
+        "bbox": [
+            139,
+            697,
+            191,
+            710
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i) Rectificar el siguiente termino: ",
+        "bbox": [
+            152,
+            716,
+            368,
+            730
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i)UsarelalgoritmoIpara inferir el tipode las siguientes expresionesodemostrarque noson tipables ",
+        "bbox": [
+            146,
+            757,
+            831,
+            773
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7b3d4a84da38477eb62ba2804e92df2b25ce9cd7e09c708777927f41ca66c642.jpg",
+        "text": "$$\n( \\lambda x \\cdot \\lambda y \\cdot z ) ( \\zeta ) \\bullet ( r u e )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            447,
+            775,
+            598,
+            792
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "sustitucion final. seribrelpasoaodelGUeroebentarpeseteslseacioedecy ",
+        "bbox": [
+            139,
+            811,
+            873,
+            832
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "menteteoremaendeducionnatural.Esnecesariousarpricipiosclasicos.Recordarquepueden utilizarlos teoremas demostrados enla guia (delaforma queestan eseritos alli) ",
+        "bbox": [
+            119,
+            842,
+            885,
+            871
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c44055d3ecabf4ba16c645b7fe1186ad28d52ecaa8d9967a6ffafafccafcafec.jpg",
+        "text": "$$\n( \\neg \\forall Y , P ( Y ) ) \\Rightarrow \\exists X . ( P ( X ) \\Rightarrow Q ( X ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            871,
+            626,
+            890
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            480,
+            915,
+            494,
+            926
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Eercicio1,hoj1/1 1/5listAMeld([N]，N）i-notN)neeelistAMelodi（L,sec(m1,m2)):-ppend(1,L2,L),etge2,lisbAmelodi(Li,m）,lstAmelodi（L2,）",
+        "bbox": [
+            159,
+            95,
+            897,
+            260
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dsfnedid com: submelodia(sec(m1,m2),sec(m1,m2))。 subrelodisec(m,-),):-bmelod(m1,) submelodia(sec(-,M2),S):-submelodia(M2,5). ",
+        "bbox": [
+            142,
+            276,
+            678,
+            364
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Etpedie neerib ZobeSdd guenJa irtoroouon roe utnon predid gue naSdteetS apotndemfiaco yaalvuaecurip2odadeLorubmd Coe ",
+        "bbox": [
+            121,
+            377,
+            917,
+            457
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dfiledicd com:sinSubelodsEnComm，m2)：-notbSubmelodnComu(msm))Utl 2pedebauiliahySubmelodiaEnComun(+M1+M2)：haySubrelodiaEnomu(M1,M2）：-submelodia（m1，S），submelodis(m2，s)",
+        "bbox": [
+            109,
+            466,
+            873,
+            578
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "  \nDfiedicddeiginmone  \nmelodi(m):-matural(T），melodiaDeTamano(M，T).  \nmelodiaDeTəmao(M，1）：-nota(m）.  \nel，）-1  \nbetwe(1TpK1)，2s  \nmede  \n  \n",
+        "bbox": [
+            89,
+            583,
+            932,
+            935
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/63b4fc2aa7ab2651af3c50c24bcb3b32bfc8907286139f0cc768ff9d4c843610.jpg",
+        "text": "$$\n\\begin{array} { r l } & { | | \\operatorname* { P r } _ { \\overline { { \\mathbf { S } } } } ( \\mathbf { S } ) | ^ { 2 } , } \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad } \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad } \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad  \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad } \\\\ &  \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            149,
+            97,
+            915,
+            508
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "=Vx.4y..（e(x）vrtee(,（y))△(pertenere（2,y）vperbenere（2,Unon(x))））",
+        "bbox": [
+            105,
+            429,
+            873,
+            564
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "tece （gve20ne tombiae ",
+        "bbox": [
+            99,
+            562,
+            712,
+            648
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/e53f491b8536f693ddb4a1503a17d593ef375754b06ea18fe1197dab44cea142.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            87,
+            667,
+            371,
+            711
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            78,
+            726,
+            969,
+            820
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            67,
+            820,
+            863,
+            895
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            21,
+            559,
+            57,
+            584
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Pridoloo decoln)stgdinum ontvacounion（x13gvo)v(g)3gaalymzguitmfa① prtearevone)tpertece(no(x)③pertere(te)otS=ngo(per）)=t（（xy）=xy{pertenere（△，）③②{pete（）3Patee（x），x）？S=mgulP（1（（xxe()vacio（x）@③  \nte  \n{pertenece（2，）@②  \nSs=g(pae(=tx borre,ol0 tengo mal pub!  \ncubiano Evacio(g)  \n6=guvacio()x S=mgu(vo(/(3)=口",
+        "bbox": [
+            57,
+            114,
+            968,
+            953
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/181bff60da1dc865902e6fa35e0e6b12d38d684f45d3dbc25d37d45a037dbc7b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            0,
+            28,
+            1000,
+            282
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio2，hoja2/2 3/5 alRenidn，noaoudgednopopedib nvoa NouesLDgontraoueLinalEdeeage Lrebo mficoonde③cn② No utbXinuetdelaotai que③（gennottnobgZnagueg） ",
+        "bbox": [
+            62,
+            318,
+            1000,
+            975
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "田A $\\begin{array} { r l } & { \\frac { | | \\hat { \\mathbf { f } } _ { x } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } } \\\\ & { \\frac { | \\hat { \\mathbf { f } } _ { x } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } } \\\\ & { \\frac { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } | \\hat { \\mathbf { f } } _ { y } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } \\\\ & { \\frac { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } } \\\\ &  \\frac { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { y } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } { | \\hat { \\mathbf { f } } _ { y } ( x , 0 ) - \\mathbf { J } _ { x } ( \\hat { \\mathbf { g } } _ { 2 } ^ { \\dagger } ) | / 2 } \\frac  | \\hat   \\end{array}$ FocriddposaeeI(厂M)voyadbuunldendeaebanytuetcbrgemeniat  \n[(1ax:x.（ag:xz1）（<2xote））①  \n1（o1（x:.（g:x2,2）） ↓Ab5 -APP- 工(ol<>xotve）② Colao  \n（olx:x3ag：xz）-（ol<>x）c（oltrve↓Abs  \n[（0x:x,gx3））  \nuenddcdntovs  \n²=（x1x）国=（Doll）③@=（Colx.la）>",
+        "bbox": [
+            107,
+            85,
+            942,
+            787
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "（x→x）/（x2x）） =(xxx2）=（olaDdX，Colx²ColBo3）aXa Obsetgideemmudetcn ",
+        "bbox": [
+            99,
+            237,
+            979,
+            961
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            55,
+            352,
+            82,
+            370
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\quad \\sum _ { k \\geq 2 } e ( \\mathscr { X } _ { k + 1 } + \\mathscr { X } _ { k + 2 } ) , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = - \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k + 1 } , \\mathscr { Z } _ { k } ) = } \\\\ & { \\quad \\sum _ { k \\geq 2 } e _ { \\pm 1 } ^ { - 1 } \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k + 2 } , \\mathscr { X } _ { k } ) = \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } , \\mathscr { X } _ { k + 2 } ) = } \\\\ & { \\quad \\sum _ { k \\geq 1 } e _ { \\pm 1 } ^ { - 1 } \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = } \\\\ & { \\quad \\frac { 1 } { \\sqrt { 2 } } e _ { \\pm 1 } ^ { - 1 } \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = } \\\\ & { \\quad \\sum _ { k \\geq 2 } e _ { \\pm 1 } ^ { - 1 } \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = } \\\\ & { \\quad \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k } ) = \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } ( \\mathscr { X } _ { k + 2 } , \\mathscr { X } _ { k } ) = } \\\\ &  \\quad \\mathscr { Z } _ { k } , \\quad \\mathscr { Z } _ { k } \\geq \\mathscr { Z } _ { k } \\end{array}$   \n  \n  \nE  \n一1ghb:）  \nM  \nDibuadeI（FIM）：  \nIe|mope:xe→iszele)in<x01）①mapc1（o1<x0）③bColao- deshgo elmxer  \n1(2e:xe31e)@ 1（e/<x）Surr  \ngsn d l（丨er）②  \n/Boolet  \nltl，2NtlaxCstNN)  \nnlmudestic",
+        "bbox": [
+            72,
+            71,
+            946,
+            958
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/9cd9927775c3ac673198178db47c100906de298445ac4ccdde6296cea72306a5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            0,
+            27,
+            994,
+            204
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Eercicio 3,hoj2/2 5/5 iColaNt²Colaxe，x=Nt，Colax=ColaNatNt2Nt) deonpxeabe NNt bgbedntlx Colax=Co >{xe=Nt，xc²Nt} Elu eanoa Cn[Xe=NatX=Nt htugneaS=xe=Nstxc=Nt子gn: s(o)├S(m）:S(Colaboot) gdean: -(mope:Natt→iszerle）in<>Nto1）：ColaBol geci3日mtcril ",
+        "bbox": [
+            107,
+            174,
+            1000,
+            975
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            15,
+            842,
+            53,
+            870
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            35,
+            540,
+            75,
+            567
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Parademot toen 二   \neeRilyia deniyon demino 三 B 个 V 介 1 ",
+        "bbox": [
+            78,
+            43,
+            934,
+            926
+        ],
+        "page_idx": 9
+    }
+]

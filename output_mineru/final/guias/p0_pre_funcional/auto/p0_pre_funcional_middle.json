@@ -1,0 +1,3061 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        154,
+                        73,
+                        439,
+                        90
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                154,
+                                72,
+                                441,
+                                92
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        154,
+                                        72,
+                                        441,
+                                        92
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Pre-Práctica de Programación Funcional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        99,
+                        538,
+                        123
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                98,
+                                539,
+                                112
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        98,
+                                        539,
+                                        112
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Para resolver esta práctica, recomendamos usar el intérprete “GHCI ”, de distribución gratuita, que puede",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                55,
+                                111,
+                                295,
+                                123
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        111,
+                                        295,
+                                        123
+                                    ],
+                                    "score": 1.0,
+                                    "content": "bajarse de https://www.haskell.org/ghc/download.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        137,
+                        110,
+                        149
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                136,
+                                111,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        136,
+                                        111,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        54,
+                        155,
+                        492,
+                        168
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                154,
+                                495,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        154,
+                                        495,
+                                        168
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Dar el tipo y describir el comportamiento de las siguientes funciones del módulo Prelude de Haskell:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        53,
+                        172,
+                        430,
+                        185
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                52,
+                                171,
+                                433,
+                                187
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        171,
+                                        433,
+                                        187
+                                    ],
+                                    "score": 1.0,
+                                    "content": "null head tail init last take drop (++) concat reverse elem",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        195,
+                        110,
+                        207
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                194,
+                                111,
+                                209
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        194,
+                                        111,
+                                        209
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 2",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        214,
+                        194,
+                        226
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                213,
+                                194,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        213,
+                                        194,
+                                        226
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Definir las siguientes funciones:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        50,
+                        235,
+                        533,
+                        308
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                53,
+                                235,
+                                433,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        235,
+                                        175,
+                                        249
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. valorAbsoluto :: Float",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        176,
+                                        238,
+                                        188,
+                                        245
+                                    ],
+                                    "score": 0.66,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        188,
+                                        235,
+                                        433,
+                                        249
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Float, que dado un número devuelve su valor absoluto.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                255,
+                                508,
+                                270
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        255,
+                                        131,
+                                        270
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. bisiesto :: I",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        131,
+                                        257,
+                                        177,
+                                        266
+                                    ],
+                                    "score": 0.35,
+                                    "content": "\\mathrm { \\mathbf { n } } \\ t ~ \\to ~ \\mathsf { B o o l }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        255,
+                                        508,
+                                        270
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", que dado un número que representa un año, indica si el mismo es bisiesto.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                275,
+                                484,
+                                289
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        275,
+                                        144,
+                                        289
+                                    ],
+                                    "score": 1.0,
+                                    "content": "c. factorial :: Int",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        144,
+                                        277,
+                                        177,
+                                        286
+                                    ],
+                                    "score": 0.29,
+                                    "content": "\\begin{array} { r l } {  } & { { } \\mathtt { I n t } } \\end{array}",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        275,
+                                        484,
+                                        289
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", definida únicamente para enteros positivos, que computa el factorial.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                295,
+                                534,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        295,
+                                        183,
+                                        309
+                                    ],
+                                    "score": 1.0,
+                                    "content": "d. cantDivisoresPrimos :: I",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        183,
+                                        297,
+                                        224,
+                                        306
+                                    ],
+                                    "score": 0.31,
+                                    "content": "\\mathfrak { x } \\to \\mathtt { I n t }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        224,
+                                        295,
+                                        534,
+                                        309
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", que dado un entero positivo devuelve la cantidad de divisores primos.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        }
+                    ],
+                    "index": 9.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        323,
+                        110,
+                        335
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                322,
+                                111,
+                                336
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        322,
+                                        111,
+                                        336
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 3",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        55,
+                        341,
+                        321,
+                        353
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                340,
+                                321,
+                                355
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        340,
+                                        321,
+                                        355
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Contamos con los tipos Maybe y Either definidos como sigue:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        55,
+                        359,
+                        219,
+                        381
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                358,
+                                205,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        358,
+                                        106,
+                                        370
+                                    ],
+                                    "score": 1.0,
+                                    "content": "data Maybe",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        107,
+                                        360,
+                                        126,
+                                        369
+                                    ],
+                                    "score": 0.51,
+                                    "content": "{ \\tt a } =",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        126,
+                                        358,
+                                        205,
+                                        370
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Nothing | Just a",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                369,
+                                218,
+                                381
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        369,
+                                        127,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "data Either a b",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        371,
+                                        140,
+                                        379
+                                    ],
+                                    "score": 0.45,
+                                    "content": "=",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        140,
+                                        369,
+                                        218,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Left a | Right b",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 14.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        54,
+                        397,
+                        539,
+                        453
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                52,
+                                397,
+                                540,
+                                410
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        397,
+                                        226,
+                                        410
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. Definir la función inverso :: Float",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        399,
+                                        240,
+                                        407
+                                    ],
+                                    "score": 0.78,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        240,
+                                        397,
+                                        540,
+                                        410
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Maybe Float que dado un número devuelve su inverso multiplicativo",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                66,
+                                409,
+                                263,
+                                422
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        409,
+                                        263,
+                                        422
+                                    ],
+                                    "score": 1.0,
+                                    "content": "si está definido, o Nothing en caso contrario.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                428,
+                                539,
+                                442
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        428,
+                                        255,
+                                        442
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. Definir la función aEntero :: Either Int",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        255,
+                                        430,
+                                        306,
+                                        439
+                                    ],
+                                    "score": 0.26,
+                                    "content": "8 0 0 1 ~  ~ \\mathrm { { I n t } }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        306,
+                                        428,
+                                        539,
+                                        442
+                                    ],
+                                    "score": 1.0,
+                                    "content": "que convierte a entero una expresión que puede ser",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                66,
+                                439,
+                                524,
+                                454
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        439,
+                                        524,
+                                        454
+                                    ],
+                                    "score": 1.0,
+                                    "content": "booleana o entera. En el caso de los booleanos, el entero que corresponde es 0 para False y 1 para True.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        }
+                    ],
+                    "index": 17.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        468,
+                        110,
+                        480
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                467,
+                                111,
+                                481
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        467,
+                                        111,
+                                        481
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 4",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        486,
+                        245,
+                        498
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                486,
+                                245,
+                                499
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        486,
+                                        245,
+                                        499
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Definir las siguientes funciones sobre listas:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        }
+                    ],
+                    "index": 21
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        55,
+                        506,
+                        540,
+                        595
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                506,
+                                540,
+                                520
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        506,
+                                        151,
+                                        520
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. limpiar :: String",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        152,
+                                        509,
+                                        165,
+                                        516
+                                    ],
+                                    "score": 0.69,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        506,
+                                        199,
+                                        520
+                                    ],
+                                    "score": 1.0,
+                                    "content": "String",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        199,
+                                        508,
+                                        212,
+                                        516
+                                    ],
+                                    "score": 0.71,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        212,
+                                        506,
+                                        540,
+                                        520
+                                    ],
+                                    "score": 1.0,
+                                    "content": "String, que elimina todas las apariciones de cualquier carácter de la primera",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "bbox": [
+                                67,
+                                518,
+                                541,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        518,
+                                        541,
+                                        532
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cadena en la segunda. Por ejemplo, limpiar ‘‘susto’’ ‘‘puerta’’ evalúa a ‘‘pera’’. Nota: String es un",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                67,
+                                530,
+                                517,
+                                544
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        530,
+                                        329,
+                                        544
+                                    ],
+                                    "score": 1.0,
+                                    "content": "renombre de [Char]. La notación ‘‘hola’’ es equivalente a",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        329,
+                                        531,
+                                        407,
+                                        542
+                                    ],
+                                    "score": 0.39,
+                                    "content": "[ { ^ { \\epsilon } \\mathbf { h } ^ { \\prime } } , { ^ { \\epsilon } \\circ ^ { \\prime } } , { ^ { \\epsilon } \\mathbf { 1 } ^ { \\prime } } , { ^ { \\epsilon } \\mathbf { a } ^ { \\prime } } ]",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        408,
+                                        530,
+                                        429,
+                                        544
+                                    ],
+                                    "score": 1.0,
+                                    "content": "y a",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        429,
+                                        531,
+                                        513,
+                                        541
+                                    ],
+                                    "score": 0.61,
+                                    "content": "^ { \\iota } { \\bf h } ^ { \\prime } : ^ { \\iota } \\circ ^ { \\prime } : ^ { \\iota } \\mathbb { 1 } ^ { \\prime } : ^ { \\iota } { \\bf a } ^ { \\prime } : [ ]",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        513,
+                                        530,
+                                        517,
+                                        544
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                550,
+                                540,
+                                563
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        550,
+                                        174,
+                                        563
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. difPromedio :: [Float]",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        175,
+                                        552,
+                                        189,
+                                        560
+                                    ],
+                                    "score": 0.78,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        189,
+                                        550,
+                                        540,
+                                        563
+                                    ],
+                                    "score": 1.0,
+                                    "content": "[Float] que dada una lista de números devuelve la diferencia de cada uno con el",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "bbox": [
+                                66,
+                                562,
+                                401,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        562,
+                                        401,
+                                        575
+                                    ],
+                                    "score": 1.0,
+                                    "content": "promedio general. Por ejemplo, difPromedio [2, 3, 4] evalúa a [-1, 0, 1].",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                582,
+                                501,
+                                596
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        582,
+                                        171,
+                                        596
+                                    ],
+                                    "score": 1.0,
+                                    "content": "c. todosIguales :: [Int]",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        171,
+                                        585,
+                                        183,
+                                        592
+                                    ],
+                                    "score": 0.44,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        183,
+                                        582,
+                                        501,
+                                        596
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Bool que indica si una lista de enteros tiene todos sus elementos iguales.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27
+                        }
+                    ],
+                    "index": 24.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        607,
+                        110,
+                        619
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                606,
+                                111,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        606,
+                                        111,
+                                        620
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 5",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        57,
+                        625,
+                        263,
+                        637
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                625,
+                                264,
+                                638
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        625,
+                                        264,
+                                        638
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Dado el siguiente modelo para árboles binarios:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        }
+                    ],
+                    "index": 29
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        642,
+                        231,
+                        654
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                642,
+                                231,
+                                655
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        642,
+                                        92,
+                                        655
+                                    ],
+                                    "score": 1.0,
+                                    "content": "data AB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        644,
+                                        127,
+                                        653
+                                    ],
+                                    "score": 0.68,
+                                    "content": "\\mathsf { a } = \\mathbb { N } \\dot { \\mathsf { 1 } } \\mathsf { 1 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        642,
+                                        231,
+                                        655
+                                    ],
+                                    "score": 1.0,
+                                    "content": "| Bin (AB a) a (AB a)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30
+                        }
+                    ],
+                    "index": 30
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        660,
+                        191,
+                        672
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                658,
+                                192,
+                                673
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        658,
+                                        192,
+                                        673
+                                    ],
+                                    "score": 1.0,
+                                    "content": "definir las siguientes funciones:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31
+                        }
+                    ],
+                    "index": 31
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        55,
+                        680,
+                        540,
+                        745
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                680,
+                                406,
+                                693
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        680,
+                                        133,
+                                        693
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. vacioAB :: AB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        682,
+                                        177,
+                                        691
+                                    ],
+                                    "score": 0.65,
+                                    "content": "\\texttt { a } \\to \\texttt { B o o l }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        680,
+                                        406,
+                                        693
+                                    ],
+                                    "score": 1.0,
+                                    "content": "que indica si un árbol es vacío (i.e. no tiene nodos).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                700,
+                                539,
+                                713
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        700,
+                                        170,
+                                        713
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. negacionAB :: AB Bool",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        171,
+                                        702,
+                                        183,
+                                        710
+                                    ],
+                                    "score": 0.26,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        183,
+                                        700,
+                                        539,
+                                        713
+                                    ],
+                                    "score": 1.0,
+                                    "content": "AB Bool que dado un árbol de booleanos construye otro formado por la negación",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 33
+                        },
+                        {
+                            "bbox": [
+                                67,
+                                712,
+                                183,
+                                724
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        712,
+                                        183,
+                                        724
+                                    ],
+                                    "score": 1.0,
+                                    "content": "de cada uno de los nodos.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 34
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                732,
+                                429,
+                                744
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        732,
+                                        149,
+                                        744
+                                    ],
+                                    "score": 1.0,
+                                    "content": "c. productoAB :: AB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        149,
+                                        734,
+                                        196,
+                                        743
+                                    ],
+                                    "score": 0.32,
+                                    "content": "\\mathtt { I n t } \\to \\mathtt { I n t }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        196,
+                                        732,
+                                        429,
+                                        744
+                                    ],
+                                    "score": 1.0,
+                                    "content": "que calcula el producto de todos los nodos del árbol.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 35
+                        }
+                    ],
+                    "index": 33.5
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        402,
+                        32,
+                        539,
+                        51
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                32,
+                                539,
+                                42
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        32,
+                                        539,
+                                        42
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Paradigmas de Programación (PLP)",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                441,
+                                40,
+                                540,
+                                52
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        441,
+                                        40,
+                                        540,
+                                        52
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2do Cuatrimestre de 2025",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        271,
+                        799,
+                        323,
+                        809
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                270,
+                                798,
+                                324,
+                                810
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        270,
+                                        798,
+                                        324,
+                                        810
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Página 1 de 1",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        154,
+                        73,
+                        439,
+                        90
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                154,
+                                72,
+                                441,
+                                92
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        154,
+                                        72,
+                                        441,
+                                        92
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Pre-Práctica de Programación Funcional",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        99,
+                        538,
+                        123
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                98,
+                                539,
+                                112
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        98,
+                                        539,
+                                        112
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Para resolver esta práctica, recomendamos usar el intérprete “GHCI ”, de distribución gratuita, que puede",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                55,
+                                111,
+                                295,
+                                123
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        111,
+                                        295,
+                                        123
+                                    ],
+                                    "score": 1.0,
+                                    "content": "bajarse de https://www.haskell.org/ghc/download.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1.5,
+                    "bbox_fs": [
+                        55,
+                        98,
+                        539,
+                        123
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        137,
+                        110,
+                        149
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                136,
+                                111,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        136,
+                                        111,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        54,
+                        155,
+                        492,
+                        168
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                154,
+                                495,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        154,
+                                        495,
+                                        168
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Dar el tipo y describir el comportamiento de las siguientes funciones del módulo Prelude de Haskell:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4,
+                    "bbox_fs": [
+                        54,
+                        154,
+                        495,
+                        168
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        53,
+                        172,
+                        430,
+                        185
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                52,
+                                171,
+                                433,
+                                187
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        171,
+                                        433,
+                                        187
+                                    ],
+                                    "score": 1.0,
+                                    "content": "null head tail init last take drop (++) concat reverse elem",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 5,
+                    "bbox_fs": [
+                        52,
+                        171,
+                        433,
+                        187
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        195,
+                        110,
+                        207
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                194,
+                                111,
+                                209
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        194,
+                                        111,
+                                        209
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 2",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        214,
+                        194,
+                        226
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                213,
+                                194,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        213,
+                                        194,
+                                        226
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Definir las siguientes funciones:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 7,
+                    "bbox_fs": [
+                        55,
+                        213,
+                        194,
+                        226
+                    ]
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        50,
+                        235,
+                        533,
+                        308
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                53,
+                                235,
+                                433,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        235,
+                                        175,
+                                        249
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. valorAbsoluto :: Float",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        176,
+                                        238,
+                                        188,
+                                        245
+                                    ],
+                                    "score": 0.66,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        188,
+                                        235,
+                                        433,
+                                        249
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Float, que dado un número devuelve su valor absoluto.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                255,
+                                508,
+                                270
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        255,
+                                        131,
+                                        270
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. bisiesto :: I",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        131,
+                                        257,
+                                        177,
+                                        266
+                                    ],
+                                    "score": 0.35,
+                                    "content": "\\mathrm { \\mathbf { n } } \\ t ~ \\to ~ \\mathsf { B o o l }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        255,
+                                        508,
+                                        270
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", que dado un número que representa un año, indica si el mismo es bisiesto.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                275,
+                                484,
+                                289
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        275,
+                                        144,
+                                        289
+                                    ],
+                                    "score": 1.0,
+                                    "content": "c. factorial :: Int",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        144,
+                                        277,
+                                        177,
+                                        286
+                                    ],
+                                    "score": 0.29,
+                                    "content": "\\begin{array} { r l } {  } & { { } \\mathtt { I n t } } \\end{array}",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        275,
+                                        484,
+                                        289
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", definida únicamente para enteros positivos, que computa el factorial.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                295,
+                                534,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        295,
+                                        183,
+                                        309
+                                    ],
+                                    "score": 1.0,
+                                    "content": "d. cantDivisoresPrimos :: I",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        183,
+                                        297,
+                                        224,
+                                        306
+                                    ],
+                                    "score": 0.31,
+                                    "content": "\\mathfrak { x } \\to \\mathtt { I n t }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        224,
+                                        295,
+                                        534,
+                                        309
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", que dado un entero positivo devuelve la cantidad de divisores primos.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 9.5,
+                    "bbox_fs": [
+                        53,
+                        235,
+                        534,
+                        309
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        323,
+                        110,
+                        335
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                322,
+                                111,
+                                336
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        322,
+                                        111,
+                                        336
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 3",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        55,
+                        341,
+                        321,
+                        353
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                340,
+                                321,
+                                355
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        340,
+                                        321,
+                                        355
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Contamos con los tipos Maybe y Either definidos como sigue:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13,
+                    "bbox_fs": [
+                        55,
+                        340,
+                        321,
+                        355
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        55,
+                        359,
+                        219,
+                        381
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                358,
+                                205,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        358,
+                                        106,
+                                        370
+                                    ],
+                                    "score": 1.0,
+                                    "content": "data Maybe",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        107,
+                                        360,
+                                        126,
+                                        369
+                                    ],
+                                    "score": 0.51,
+                                    "content": "{ \\tt a } =",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        126,
+                                        358,
+                                        205,
+                                        370
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Nothing | Just a",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                369,
+                                218,
+                                381
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        369,
+                                        127,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "data Either a b",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        371,
+                                        140,
+                                        379
+                                    ],
+                                    "score": 0.45,
+                                    "content": "=",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        140,
+                                        369,
+                                        218,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Left a | Right b",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 14.5,
+                    "bbox_fs": [
+                        54,
+                        358,
+                        218,
+                        381
+                    ]
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        54,
+                        397,
+                        539,
+                        453
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                52,
+                                397,
+                                540,
+                                410
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        397,
+                                        226,
+                                        410
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. Definir la función inverso :: Float",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        399,
+                                        240,
+                                        407
+                                    ],
+                                    "score": 0.78,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        240,
+                                        397,
+                                        540,
+                                        410
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Maybe Float que dado un número devuelve su inverso multiplicativo",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                66,
+                                409,
+                                263,
+                                422
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        409,
+                                        263,
+                                        422
+                                    ],
+                                    "score": 1.0,
+                                    "content": "si está definido, o Nothing en caso contrario.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                53,
+                                428,
+                                539,
+                                442
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        428,
+                                        255,
+                                        442
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. Definir la función aEntero :: Either Int",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        255,
+                                        430,
+                                        306,
+                                        439
+                                    ],
+                                    "score": 0.26,
+                                    "content": "8 0 0 1 ~  ~ \\mathrm { { I n t } }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        306,
+                                        428,
+                                        539,
+                                        442
+                                    ],
+                                    "score": 1.0,
+                                    "content": "que convierte a entero una expresión que puede ser",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                66,
+                                439,
+                                524,
+                                454
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        439,
+                                        524,
+                                        454
+                                    ],
+                                    "score": 1.0,
+                                    "content": "booleana o entera. En el caso de los booleanos, el entero que corresponde es 0 para False y 1 para True.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 17.5,
+                    "bbox_fs": [
+                        52,
+                        397,
+                        540,
+                        454
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        468,
+                        110,
+                        480
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                467,
+                                111,
+                                481
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        467,
+                                        111,
+                                        481
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 4",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        486,
+                        245,
+                        498
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                486,
+                                245,
+                                499
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        486,
+                                        245,
+                                        499
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Definir las siguientes funciones sobre listas:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        }
+                    ],
+                    "index": 21,
+                    "bbox_fs": [
+                        55,
+                        486,
+                        245,
+                        499
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        55,
+                        506,
+                        540,
+                        595
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                506,
+                                540,
+                                520
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        506,
+                                        151,
+                                        520
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. limpiar :: String",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        152,
+                                        509,
+                                        165,
+                                        516
+                                    ],
+                                    "score": 0.69,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        506,
+                                        199,
+                                        520
+                                    ],
+                                    "score": 1.0,
+                                    "content": "String",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        199,
+                                        508,
+                                        212,
+                                        516
+                                    ],
+                                    "score": 0.71,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        212,
+                                        506,
+                                        540,
+                                        520
+                                    ],
+                                    "score": 1.0,
+                                    "content": "String, que elimina todas las apariciones de cualquier carácter de la primera",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "bbox": [
+                                67,
+                                518,
+                                541,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        518,
+                                        541,
+                                        532
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cadena en la segunda. Por ejemplo, limpiar ‘‘susto’’ ‘‘puerta’’ evalúa a ‘‘pera’’. Nota: String es un",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                67,
+                                530,
+                                517,
+                                544
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        530,
+                                        329,
+                                        544
+                                    ],
+                                    "score": 1.0,
+                                    "content": "renombre de [Char]. La notación ‘‘hola’’ es equivalente a",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        329,
+                                        531,
+                                        407,
+                                        542
+                                    ],
+                                    "score": 0.39,
+                                    "content": "[ { ^ { \\epsilon } \\mathbf { h } ^ { \\prime } } , { ^ { \\epsilon } \\circ ^ { \\prime } } , { ^ { \\epsilon } \\mathbf { 1 } ^ { \\prime } } , { ^ { \\epsilon } \\mathbf { a } ^ { \\prime } } ]",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        408,
+                                        530,
+                                        429,
+                                        544
+                                    ],
+                                    "score": 1.0,
+                                    "content": "y a",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        429,
+                                        531,
+                                        513,
+                                        541
+                                    ],
+                                    "score": 0.61,
+                                    "content": "^ { \\iota } { \\bf h } ^ { \\prime } : ^ { \\iota } \\circ ^ { \\prime } : ^ { \\iota } \\mathbb { 1 } ^ { \\prime } : ^ { \\iota } { \\bf a } ^ { \\prime } : [ ]",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        513,
+                                        530,
+                                        517,
+                                        544
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                550,
+                                540,
+                                563
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        550,
+                                        174,
+                                        563
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. difPromedio :: [Float]",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        175,
+                                        552,
+                                        189,
+                                        560
+                                    ],
+                                    "score": 0.78,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        189,
+                                        550,
+                                        540,
+                                        563
+                                    ],
+                                    "score": 1.0,
+                                    "content": "[Float] que dada una lista de números devuelve la diferencia de cada uno con el",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "bbox": [
+                                66,
+                                562,
+                                401,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        562,
+                                        401,
+                                        575
+                                    ],
+                                    "score": 1.0,
+                                    "content": "promedio general. Por ejemplo, difPromedio [2, 3, 4] evalúa a [-1, 0, 1].",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                582,
+                                501,
+                                596
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        582,
+                                        171,
+                                        596
+                                    ],
+                                    "score": 1.0,
+                                    "content": "c. todosIguales :: [Int]",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        171,
+                                        585,
+                                        183,
+                                        592
+                                    ],
+                                    "score": 0.44,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        183,
+                                        582,
+                                        501,
+                                        596
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Bool que indica si una lista de enteros tiene todos sus elementos iguales.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27
+                        }
+                    ],
+                    "index": 24.5,
+                    "bbox_fs": [
+                        54,
+                        506,
+                        541,
+                        596
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        55,
+                        607,
+                        110,
+                        619
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                606,
+                                111,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        606,
+                                        111,
+                                        620
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Ejercicio 5",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        57,
+                        625,
+                        263,
+                        637
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                625,
+                                264,
+                                638
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        625,
+                                        264,
+                                        638
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Dado el siguiente modelo para árboles binarios:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        }
+                    ],
+                    "index": 29,
+                    "bbox_fs": [
+                        55,
+                        625,
+                        264,
+                        638
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        642,
+                        231,
+                        654
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                642,
+                                231,
+                                655
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        642,
+                                        92,
+                                        655
+                                    ],
+                                    "score": 1.0,
+                                    "content": "data AB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        644,
+                                        127,
+                                        653
+                                    ],
+                                    "score": 0.68,
+                                    "content": "\\mathsf { a } = \\mathbb { N } \\dot { \\mathsf { 1 } } \\mathsf { 1 }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        642,
+                                        231,
+                                        655
+                                    ],
+                                    "score": 1.0,
+                                    "content": "| Bin (AB a) a (AB a)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30
+                        }
+                    ],
+                    "index": 30,
+                    "bbox_fs": [
+                        54,
+                        642,
+                        231,
+                        655
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        56,
+                        660,
+                        191,
+                        672
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                658,
+                                192,
+                                673
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        658,
+                                        192,
+                                        673
+                                    ],
+                                    "score": 1.0,
+                                    "content": "definir las siguientes funciones:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31
+                        }
+                    ],
+                    "index": 31,
+                    "bbox_fs": [
+                        55,
+                        658,
+                        192,
+                        673
+                    ]
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        55,
+                        680,
+                        540,
+                        745
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                680,
+                                406,
+                                693
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        680,
+                                        133,
+                                        693
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a. vacioAB :: AB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        682,
+                                        177,
+                                        691
+                                    ],
+                                    "score": 0.65,
+                                    "content": "\\texttt { a } \\to \\texttt { B o o l }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        680,
+                                        406,
+                                        693
+                                    ],
+                                    "score": 1.0,
+                                    "content": "que indica si un árbol es vacío (i.e. no tiene nodos).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                700,
+                                539,
+                                713
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        700,
+                                        170,
+                                        713
+                                    ],
+                                    "score": 1.0,
+                                    "content": "b. negacionAB :: AB Bool",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        171,
+                                        702,
+                                        183,
+                                        710
+                                    ],
+                                    "score": 0.26,
+                                    "content": "",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        183,
+                                        700,
+                                        539,
+                                        713
+                                    ],
+                                    "score": 1.0,
+                                    "content": "AB Bool que dado un árbol de booleanos construye otro formado por la negación",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 33,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                67,
+                                712,
+                                183,
+                                724
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        712,
+                                        183,
+                                        724
+                                    ],
+                                    "score": 1.0,
+                                    "content": "de cada uno de los nodos.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 34,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                732,
+                                429,
+                                744
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        732,
+                                        149,
+                                        744
+                                    ],
+                                    "score": 1.0,
+                                    "content": "c. productoAB :: AB",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        149,
+                                        734,
+                                        196,
+                                        743
+                                    ],
+                                    "score": 0.32,
+                                    "content": "\\mathtt { I n t } \\to \\mathtt { I n t }",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        196,
+                                        732,
+                                        429,
+                                        744
+                                    ],
+                                    "score": 1.0,
+                                    "content": "que calcula el producto de todos los nodos del árbol.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 35,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 33.5,
+                    "bbox_fs": [
+                        54,
+                        680,
+                        539,
+                        744
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.7.6"
+}

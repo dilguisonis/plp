@@ -1,0 +1,930 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Segundo Parcial - ${ \\bf 1 } ^ { \\mathrm { e r } }$ cuatrimestre de 2025 - Parte 1 ",
+        "bbox": [
+            169,
+            28,
+            887,
+            49
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/fc86991900394f0957f1ae8ec3b3d8e7327bf77696495218e4a58ed5823a96bf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            398,
+            0,
+            658,
+            23
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/d06f9a4c40d1ba57a493981e37ba98fa05b705bb0bf7944b5984a016766b9cfd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>#Orden</td><td>Libreta</td><td>ApellidoyNombre</td><td>Nota</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            236,
+            61,
+            806,
+            111
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Estapartedelexamensapruebaespoendeamentealenos5delas8preutasEsariaprortapate paraaccederalacorecciondelasegundaparte.Responderlaspreguntasenlosespacios indicados. ",
+        "bbox": [
+            92,
+            127,
+            968,
+            159
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 1: Sea la extensi6n del Calculo Lambda con listas y sumas: ",
+        "bbox": [
+            90,
+            167,
+            685,
+            186
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c68ae05051e2ce69cc2ac7bbca8ad9416f0efe868d958f150b8d3ddf34ec7fcb.jpg",
+        "text": "$$\nM : = \\dots \\mid M + M \\mid [ ] _ { \\tau } \\mid M : : M \\mid \\mathrm { f o l d r } M \\mathrm { b a s e }  M ; \\mathrm { r e c } ( h , r )  M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            221,
+            197,
+            831,
+            218
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Rectificar el siguiente termino: ( $\\lambda x$ . foldr $h$ base $\\nrightarrow s u c c ( x ) ; \\mathrm { r e c } ( h , \\hat { r } ) \\sim s u c c ( h ) + r ) r$ ",
+        "bbox": [
+            85,
+            229,
+            789,
+            249
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 2:Indicar cual seria un paso validodelalgoritmode MGUen el siguienteconjuntodeecuaciones de unificacin: $\\{ c \\overset { ? } { = } X _ { 1 } , [ X _ { 2 } ] \\overset { ? } { = } [ X _ { 3 } ] \\}$ ",
+        "bbox": [
+            87,
+            298,
+            966,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a.(x=x)）{=x1}b{=x){[] c.{x1=c,[x2]²[x]} ",
+        "bbox": [
+            102,
+            347,
+            941,
+            373
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:(anccre) ",
+        "bbox": [
+            85,
+            392,
+            489,
+            411
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 3:Indicarla sustitucion resultantedeaplicar el algoritmodeMGU enel siguiente conjunto de ecuaciones de unifcacin: $\\{ X _ { 1 } \\stackrel { ? } { = } X _ { 2 }  X _ { 3 } , [ X _ { 2 } ] \\stackrel { ? } { = } [ X _ { 4 } ] \\}$ ",
+        "bbox": [
+            85,
+            434,
+            963,
+            473
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 4: Se quiere demostrar en deduccion natural la siguiente formula: ",
+        "bbox": [
+            84,
+            521,
+            731,
+            542
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/30a5aaf2053776c47afde2f71415ecea89ddcc2c35a7554e9392ffbee24504a9.jpg",
+        "text": "$$\n\\exists X . \\forall Y . ( P ( X ) \\land Q ( Y ) ) \\vdash \\exists Z . ( P ( Z ) \\land Q ( Z ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            551,
+            702,
+            573
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RenombramosΓXY.(P(X)Q()) Idicarconalde lassgntesregspuedeavaa demostraciony cuales serian las premisas: ",
+        "bbox": [
+            80,
+            581,
+            963,
+            614
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a.：TFP(2）AQ(2）   \nb. $\\exists _ { i } : { \\frac { \\Gamma \\vdash P ( X ) \\land Q ( X ) } { \\dots } }$   \ne:Zv(P(z）Q(x）r((2)Q(x）-((2）(2)) ",
+        "bbox": [
+            97,
+            620,
+            620,
+            706
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d. Ninguna de lasanteriores (no es valido) ",
+        "bbox": [
+            92,
+            712,
+            458,
+            731
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:C ",
+        "bbox": [
+            80,
+            753,
+            233,
+            770
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 5:Sea la siguiente base de conocimiento en Prolog: ",
+        "bbox": [
+            78,
+            793,
+            610,
+            812
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "p(a）.   \nq（a）.   \nq(b）. ",
+        "bbox": [
+            77,
+            820,
+            161,
+            870
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cual es el resultado de la siguiente consulta? not (p(x))，q(x). ",
+        "bbox": [
+            110,
+            885,
+            650,
+            906
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "bbox": [
+            70,
+            957,
+            947,
+            979
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            92,
+            914,
+            117,
+            929
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta6:Sea la representacion de arboles con los atomos nily bin(I,N,D).Se quiere definir un predicadoqueinstancie todoslos posibles arbolescon los nodos sin instanciar.Indicar cualdelas siguientes opciones es correcta: ",
+        "bbox": [
+            72,
+            21,
+            949,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a.arbol(nil）.arbol(bin（I，-,D)）:-arbol(I），arbol(D).  \nb.arbol(nil）.arbol(A）:-A=nil，arbol(bin（I，-,D)).  \nc.Las dos son correctas  \nd.Ninguna es correcta",
+        "bbox": [
+            94,
+            87,
+            510,
+            222
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "X ",
+        "bbox": [
+            532,
+            228,
+            561,
+            248
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "bbox": [
+            80,
+            247,
+            228,
+            265
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 7:iCualde las siguientes definiciones de predicados instancia en el segundo argumento dep lalongitud dela listaal realizarla consultap([1,2,3],x）？ ",
+        "bbox": [
+            77,
+            280,
+            952,
+            316
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a.p(L,X）:-Xis length(L） b. $\\mathfrak { p } ( \\mathtt { L } , \\mathtt { X } )$ ：-length(L,X）. C.p(L,length(L））. d.Ninguna de las anteriores ",
+        "bbox": [
+            102,
+            329,
+            364,
+            430
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "bbox": [
+            84,
+            436,
+            961,
+            474
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 8:Dadas las siguientes clausulas: ",
+        "bbox": [
+            87,
+            491,
+            468,
+            508
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$1 . \\{ P ( X ) , Q ( X ) , S ( c ) \\}$ $2 . 5 \\neg P ( X ) , \\neg Q ( X ) , R ( X ) \\}$ $3 . \\{ Q ( a ) , Q ( X ) \\}$ ",
+        "bbox": [
+            89,
+            526,
+            305,
+            580
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Indicar cual es una posible resolvente. ",
+        "bbox": [
+            92,
+            595,
+            403,
+            613
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a. $\\{ S ( c ) , R ( X ) \\}$ (de1y2） b. $\\{ \\neg P ( a ) , R ( a ) \\}$ （de2y3) c. $\\{ P ( a ) , S ( c ) \\}$ （de1y3) $s$ d. $\\{ \\neg P ( X ) , R ( X ) , Q ( X ) \\}$ (de2y3）< ",
+        "bbox": [
+            110,
+            623,
+            440,
+            726
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "bbox": [
+            94,
+            745,
+            963,
+            768
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            532,
+            991,
+            546,
+            998
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            875,
+            919,
+            885,
+            927
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            68,
+            791,
+            92,
+            801
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            843,
+            562,
+            858,
+            573
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "PLP-Segundo Parcial - ${ \\bf 1 } ^ { \\mathrm { e r } }$ cuatrimestre de 2025 ",
+        "text_level": 1,
+        "bbox": [
+            211,
+            39,
+            818,
+            59
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/e6078026c82e7781c332ddbf64bed024ac6310967c2aa045787cd08b77253a98.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>#OrdenNro.Libreta</td><td>ApellidoyNombre</td><td></td><td></td><td>Ej1Ej2Ej3NotaFinal</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            129,
+            66,
+            904,
+            114
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Esteexamen seapruebaobteniendoalmenosdosejerciciosbien(B)yunoregular(R)，ysepromocionaconal menos dos ejercicios muy bien （MB) $\\mathbf { y }$ uno bien (B).Esposible obtener una aprobacion condicional con un ejercicio muy bien (MB),uno bien(B)yunoinsuficiente(I），perohabiendoentregadoalgoquecontribuyaalasoluciondelejercicioLasnotasparacada ejercicioon，I，R,，E.Entregarcadaejercicioenhjasseparadas.Ponernombrepelldoynmeroderdenentdas las hojas, $\\mathbf { y }$ numerarlas.Sepuedeutilizar todolodefinidoenlaspr&cticasytodoloquesedioenclase,colocandoreferencias claras.Elordendelosejerciciosesarbitrario.Recomendamos leerelparcialcompletoantesdeempezararesolverlo ",
+        "bbox": [
+            126,
+            127,
+            909,
+            215
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio1-Programacion Logica ",
+        "text_level": 1,
+        "bbox": [
+            127,
+            230,
+            421,
+            246
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Implementarlospredicadosrespetandoencadacasolainstanciacionpedida.Losgeneradoresdebencubrir todaslasinstanciasvalidasdeaqueloquegeneransinrepetirdosveceslamisma.Sedebenindicarlospatronesdeinstanciaciondetodos lospredicadosauxiliares.Nousarcut（）nipredicadosdealtoordencomosetof,conlaunicaexcepciondenot.Noesta permitido usar macros que colapsen clausulas. ",
+        "bbox": [
+            126,
+            247,
+            909,
+            303
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a)Definir el predicado esRotaci6n $( + I , + R )$ que es verdadero cuando R es una rotaci6n de L.Una listaRes una rotaciondeuna listaL si contiene losmismos elementos enel mismo orden relativo, pero comenzando desde una posicion diferente dentro deL,recorriendo la lista circularmente.Por ejemplo: 3 ？-esRotacion([1,2,3,4],[3,4,1,2]）. true. $? -$ esRotacion([a,b,c]，[c,a,b]）. true. $? -$ esRotacion([a，b，c]，[c，b，a]）. false. ",
+        "bbox": [
+            132,
+            315,
+            910,
+            460
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "b)La secuencia de Collatz se construye con la siguienteregla sobreun numero natural: si $_ n$ espar,el siguiente numero es $n / 2$ si $_ n$ es impar,el siguiente numeroes $3 n + 1$ La secuencia termina cuando seliega al nunero 1（aunque la conjetura dice que siemprese llga a $^ { 1 , }$ esto no ha sido probado para todos los naturales). Definir el predicado collatz(+N,-S） que instancia en S todos los numeros pertenecientesa la secuencia de Collatzapartir del numero N.Por ejemplo: ",
+        "bbox": [
+            139,
+            468,
+            910,
+            545
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            163,
+            527,
+            909,
+            557
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "？-collatz(6,S).  \n${ \\textsf { S } } = { \\textsf { 6 } }$ ；  \n$\\mathrm { ~ \\mathsf ~ { ~ S ~ } ~ } = \\mathrm { ~ 3 ~ } \\mathrm { ~ ; ~ }$ $\\mathrm { ~ \\mathsf ~ { ~ S ~ } ~ } = \\mathrm { ~ \\mathsf ~ { ~ 1 0 ~ } ~ }$ ；  \n$\\mathrm { ~ s ~ } = \\mathrm { ~ 5 ~ }$ ；  \n${ \\mathrm { ~ \\tt ~ { ~ S ~ } ~ } } = { \\mathrm { ~ \\tt ~ { ~ 1 6 ~ } ~ } }$ ；",
+        "bbox": [
+            166,
+            570,
+            299,
+            650
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f0ad3f4c4725989fcd986c321b62a6e4aab4d77d3e3bede7ea147740071719fd.jpg",
+        "text": "$$\n{ \\begin{array} { r c l } { \\leq } & { 0 } & { ; } \\\\ { \\leq } & { = 4 } & { ; } \\\\ { \\leq } & { = { \\begin{array} { r c l } { 2 } & { ; } & { } \\\\ { } & { } & { } \\end{array} } } \\\\ { \\leq } & { = { \\begin{array} { r c l } { 1 } & { } & { } \\\\ { } & { } & { } \\end{array} } } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            534,
+            585,
+            605,
+            643
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "c)El predicado anterior es reversibleen S?(pueden asumir que se utilizaran numeros bajos por lo quela secuencia es siempre finita).Justificar brevemente. ",
+        "bbox": [
+            137,
+            670,
+            904,
+            701
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "d)Definir el predicado collatzMayor $( + \\infty , - \\infty )$ quees verdadero cuando M es el numero mas grande de lasecuencia de Collatzapartir del numero N.Por ejemplo: ",
+        "bbox": [
+            137,
+            708,
+            905,
+            738
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "？-collatzMayor(6,M）.   \n$M = 1 6$ ；   \nfalse. ",
+        "bbox": [
+            168,
+            745,
+            339,
+            784
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Resolucion ",
+        "text_level": 1,
+        "bbox": [
+            126,
+            802,
+            332,
+            816
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a.Dada la siguiente base de conocimientos en Prolog: ",
+        "bbox": [
+            144,
+            829,
+            554,
+            845
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "member（X,[XI_]）.  \nmember(x,[Y丨xs]）:-member(x,xs）.esSublista(_，[]）.  \nesSublista（L,[x|xs]）：-member(X,L），esSublista(L,xs）.",
+        "bbox": [
+            149,
+            852,
+            435,
+            881
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            166,
+            891,
+            606,
+            921
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            60,
+            9,
+            194,
+            28
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            16,
+            693,
+            36,
+            702
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            510,
+            969,
+            521,
+            979
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            964,
+            391,
+            974,
+            399
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            931,
+            60,
+            976,
+            107
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Explicar brevemente con palabras que sucede al realizar la siguiente consulta: ",
+        "bbox": [
+            166,
+            35,
+            763,
+            51
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "esSublista([a,b]，R)，member(b，R).",
+        "bbox": [
+            166,
+            57,
+            435,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b.Expresar la base de conocimientosy la consulta anterior como formulas logicas. ",
+        "bbox": [
+            146,
+            77,
+            768,
+            93
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "c.Pasar las formulas a forma clausalyencontrar una solucionala consulta utilizando resolucion. ",
+        "bbox": [
+            147,
+            99,
+            878,
+            116
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "d.Laresoluci6n utilizada en el punto anteriorifue SLD?Justificar. ",
+        "bbox": [
+            146,
+            123,
+            658,
+            139
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "e.Hayalguna diferenciaentre suresolucionyencomo resuelveProlog laconsulta?Si esasi,explicar cual. ",
+        "bbox": [
+            144,
+            145,
+            905,
+            178
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio3-Inferencia,Deduccion NaturalyPOO ",
+        "text_level": 1,
+        "bbox": [
+            129,
+            192,
+            568,
+            208
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a)Consideremos el Calculo Lambda tipado extendido con arboles binarios con informacion en las hojas dela siguiente manera: ",
+        "bbox": [
+            141,
+            215,
+            910,
+            246
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\tau \\mathrel { \\mathop : } \\mathrel { \\mathop : } \\mathrel { \\mathop : } \\mathrel { \\mathop : } \\mathrel { \\mathop : } \\mathrel { \\mathop : } \\mathrel { \\mathop \\left| \\mathrm { \\ A I H } ( \\tau ) \\right. \\kern - delimiterspace } \\mathrm { \\ B i n } ( M , M ) \\mid \\mathrm { f o l d A } | \\mathrm { H } M \\mathrel { \\mathop : } \\mathrm { \\ H o j a } ( x ) \\mathrel { \\mathop : } M ; \\ \\mathrm { B i n } ( i , d ) \\sim M } \\end{array}$   \nAIH(T） es el tipo delos arboles con informaci6n en las hojas de tipo T.   \nHoja(M） esun arbol compuesto por una unica hoja con informacion M.   \nBin(M1,M2） es un arbol compuesto por dos subarboles My M2.   \nfoldAlHM1Hoja(x)\\~M；Bin(i,d）\\~Mrepresenta el esquemade recursionestructural sobrearboles con los casos de hoja (en dondela variablexse liga con el valor de la hojay puedeaparecer libre enM2)ybin(que ligara las variablesiydal resultado dela recursion sobre sus subarbolesypueden aparecer libres en $M _ { 3 }$ ). ",
+        "bbox": [
+            191,
+            248,
+            912,
+            413
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Seextiende tambien el algoritmode inferencia de la siguientemanera： ",
+        "bbox": [
+            176,
+            423,
+            702,
+            438
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b89e0f9b90657afb526637746daf3516b8d6f5b49f23eb3ccff30648e83f5eef.jpg",
+        "text": "$$\n{ \\mathcal { Z } } ( \\Gamma \\mid \\operatorname { H o j a } ( M ) ) = ( \\operatorname { A I H } ( \\tau ) \\mid E ) \\quad { \\mathrm { ~ d o n d e ~ } } { \\mathcal { Z } } ( \\Gamma \\mid M ) = ( \\tau \\mid E )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            441,
+            657,
+            458
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } { \\mathcal { Z } ( \\Gamma \\mid \\mathrm { B i n } ( M _ { 1 } , M _ { 2 } ) ) = ( \\tau _ { 1 } \\mid \\{ \\tau _ { 2 } \\stackrel { ? } { = } \\mathrm { A I H } ( X _ { h } ) , \\tau _ { 1 } \\stackrel { ? } { = } \\tau _ { 2 } \\} \\cup E _ { 1 } \\cup E _ { 2 } ) } \\\\ { \\mathrm { d o n d e } } & { \\mathcal { Z } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } \\\\ & { \\mathcal { Z } ( \\Gamma \\mid \\mathcal { W } _ { \\circ } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\end{array}$ $X _ { h }$ variable fresca ",
+        "bbox": [
+            176,
+            468,
+            658,
+            535
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9869cdc7ad4bd424de2fbdbc343b7c93bcfa51495c7e9c2852f24cdc7d23827f.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\mathrm { { \\mathcal { L } ( \\Gamma \\mid } } } & { | \\mathrm { \\ f o l d A l { \\mid } } M _ { 1 } \\mathrm { \\\\\\\\to } \\ { \\mathsf { H o j a } } ( x ) \\sim M _ { 2 } \\mathrm { ; \\ B i n } ( i , d ) \\sim M _ { 3 } ) = } \\\\ { \\mathrm { ( } \\tau _ { 2 } \\mathrm { \\mid } } & { \\{ \\tau _ { 1 } \\stackrel { ? } { = } } \\mathrm { { A L H } } ( X _ { x } ) , \\tau _ { 2 } \\stackrel { ? } { = } \\tau _ { 3 } , X _ { i } \\stackrel { ? } { = } \\tau _ { 2 } , X _ { d } \\stackrel { ? } { = } \\tau _ { 2 } \\} \\cup E _ { 1 } \\cup E _ { 2 } \\cup E _ { 3 } )  \\\\ & { \\mathrm { { \\ d o n d e } } \\quad { \\mathrm { { \\mathcal { L } ( \\Gamma \\mid } } } M _ { 1 } ) = \\left( \\tau _ { 1 } \\mid E _ { 1 } \\right) } \\\\ & { { \\mathrm { { \\mathcal { L } ( \\Gamma , } } x : X _ { x } \\mathrm { \\mid } } M _ { 2 } ) = \\left( \\tau _ { 2 } \\mathrm { \\mid } E _ { 2 } \\right) } \\\\ & { { \\mathrm { { \\mathcal { Z } ( \\Gamma , } } i : X _ { i } , d : X _ { d } \\mathrm { \\mid } } M _ { 3 } ) = \\left( \\tau _ { 3 } \\mathrm { \\mid } \\boldsymbol { E } _ { 3 } \\right) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            178,
+            550,
+            668,
+            644
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "UsarelalgoritmoI para inferir el tipo de la siguiente expresion,o demostrar que no es tipable: ",
+        "bbox": [
+            174,
+            659,
+            897,
+            676
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4e649433a602eeff8dd3cd03de18054f35f3bcd0bf56fa04fbf5cd7f7e0da433.jpg",
+        "text": "$$\n\\mathsf { f o l d A l H B i n } ( \\mathrm { H o j a } ( \\underline { { 1 } } ) , \\mathrm { H o j a } ( x ) ) \\uplus \\mathsf { H o j a } ( x )  i s Z e r o ( x ) ; \\mathsf { B i n } ( x , y )  x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            292,
+            682,
+            805,
+            699
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b)Demostrar el siguiente teorema usando deduccion natural, sin utilizar principios clasicos: ",
+        "bbox": [
+            154,
+            731,
+            848,
+            746
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a5b81d19ea2f8cb960712b9494d2289f9012ef4f0cb62c5792e436ef485f4526.jpg",
+        "text": "$$\n( ( \\exists X \\neg P ( X ) ) \\land ( \\forall X \\neg R ( X ) ) ) \\Rightarrow \\exists X . \\neg ( P ( X ) \\land Q ( X ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            347,
+            763,
+            754,
+            782
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "c) Implementar el metodo #twice cuyo objeto receptor es un bloquede un parametroydevuelve un nuevo bloqueque aplica el original dos veces.Indicar tambien dondedeberia ir definido el metodo. Porejemplo,la siguiente ejecucion evalua a12: ",
+        "bbox": [
+            159,
+            809,
+            921,
+            856
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "丨double doubleTwice double $= [ : \\mathbf { x } \\ | \\ \\mathbf { x } \\ * \\ 2 ]$ . doubleTwice ${ } = { }$ double twice. doubleTwice value:3. ",
+        "bbox": [
+            184,
+            868,
+            438,
+            927
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            527,
+            960,
+            539,
+            971
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            67,
+            430,
+            78,
+            438
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            47,
+            984,
+            58,
+            992
+        ],
+        "page_idx": 3
+    }
+]

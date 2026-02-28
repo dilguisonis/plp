@@ -1,0 +1,3666 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            216,
+            814,
+            283
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on Tipos de datos inductivos ",
+        "bbox": [
+            265,
+            334,
+            737,
+            437
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            220,
+            481,
+            781,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Breve repaso ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            287,
+            246
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre listas ",
+        "bbox": [
+            77,
+            356,
+            638,
+            408
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "bbox": [
+            77,
+            518,
+            508,
+            573
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/85c01d92040511608cb695479c4aa6949db66d98b226d45525ad5833676b6f64.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre otras estructuras ",
+        "bbox": [
+            74,
+            683,
+            825,
+            738
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Las funciones map y filter ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            477,
+            91
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "La clase pasada vimos las siguientes funciones: ",
+        "bbox": [
+            74,
+            194,
+            665,
+            242
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map f [] = [] map f (x : xs) = f x : map f xs ",
+        "bbox": [
+            102,
+            264,
+            604,
+            419
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a] filter p [] = [] filter p (x : xs) = if p x ",
+        "bbox": [
+            102,
+            466,
+            671,
+            617
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e tipo tiene la expresi´on map filter? ¿C´omo la podr´ıamos usar? ",
+        "bbox": [
+            74,
+            738,
+            616,
+            834
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Funciones an´onimas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            84
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Notaci´on “lambda” ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            180,
+            337,
+            224
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Una expresi´on de la forma: ",
+        "bbox": [
+            74,
+            246,
+            417,
+            290
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "\\ x -> e ",
+        "bbox": [
+            104,
+            319,
+            237,
+            360
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "representa una funci´on que recibe un par´ametro x y devuelve e. ",
+        "bbox": [
+            74,
+            386,
+            886,
+            433
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6c16fe00cf2eef4cfb94686ff3388757cf361b03ebe5c69b9dffa01a9b532c80.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            647,
+            187,
+            694
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "map (\\ x -> (x, x)) [1, 2, 3] [(1, 1), (2, 2), (3, 3)] ",
+        "bbox": [
+            118,
+            738,
+            582,
+            838
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": ">> ",
+        "bbox": [
+            74,
+            746,
+            107,
+            775
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Funciones de orden superior ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e relaci´on hay entre las siguientes funciones? ",
+        "bbox": [
+            77,
+            99,
+            693,
+            143
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "suma :: Int -> Int -> Int suma x $\\texttt { y } = \\texttt { x } + \\texttt { y }$ ",
+        "bbox": [
+            74,
+            169,
+            475,
+            264
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "suma’ :: (Int, Int) -> Int suma’ (x, y) = x + y ",
+        "bbox": [
+            74,
+            316,
+            491,
+            415
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Est´an relacionadas del siguiente modo: ",
+        "bbox": [
+            77,
+            437,
+            566,
+            481
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "curry :: ((a, b) -> c) -> a -> b -> c curry f x y = f (x, y) ",
+        "bbox": [
+            74,
+            503,
+            665,
+            606
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "uncurry :: (a -> b -> c) -> (a, b) -> c uncurry f (x, y) = f x y ",
+        "bbox": [
+            74,
+            654,
+            698,
+            757
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Dentro de algunas clases, veremos que se puede demostrar: ",
+        "bbox": [
+            77,
+            779,
+            831,
+            823
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "suma $=$ curry suma’ suma’ $=$ uncurry suma ",
+        "bbox": [
+            157,
+            863,
+            837,
+            911
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Breve repaso ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            287,
+            246
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre listas ",
+        "bbox": [
+            74,
+            356,
+            640,
+            408
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "bbox": [
+            77,
+            518,
+            508,
+            573
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre otras estructuras ",
+        "bbox": [
+            74,
+            683,
+            825,
+            738
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Esquemas sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            372,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Pensemos algunas funciones sobre listas ",
+        "bbox": [
+            74,
+            338,
+            580,
+            386
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "sumaL : la suma de todos los valores de una lista de enteros concatena : la concatenaci´on de todos los elementos de una lista de listas   \nreverso : el reverso de una lista ",
+        "bbox": [
+            116,
+            400,
+            919,
+            617
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Sea g :: [a] -> b definida por dos ecuaciones: ",
+        "bbox": [
+            74,
+            150,
+            701,
+            198
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3b0bbb9131d6cca94206f98049e5b005824c295a01aa0cf168d26b6b5510002d.jpg",
+        "text": "$$\n\\begin{array} { l c l } { \\mathrm { ~ g ~ } \\left[ \\right] ~ } & { = } & { \\langle c a s o ~ b a s e \\rangle } \\\\ { \\mathrm { ~ g ~ } \\left( \\mathbf { x } ~ : ~ \\mathbf { x } \\mathbf { s } \\right) } & { = } & { \\langle c a s o ~ r e c u r s i v o \\rangle } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            235,
+            720,
+            345
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "g est´a dada por recursi´on estructural si: ",
+        "bbox": [
+            118,
+            459,
+            649,
+            503
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1. El caso base devuelve un valor z “fijo” (no depende de g). ",
+        "bbox": [
+            138,
+            518,
+            878,
+            617
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2. El caso recursivo no puede usar las variables g ni xs, salvo en la expresi´on (g xs). ",
+        "bbox": [
+            135,
+            632,
+            856,
+            727
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "g [] = zg (x : xs) = . . . x . . . (g xs) . . . ",
+        "bbox": [
+            248,
+            738,
+            748,
+            841
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos de recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            172,
+            524,
+            220
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "suma :: [Int] -> Int suma [] = 0 suma (x : xs) = x + suma xs ",
+        "bbox": [
+            104,
+            264,
+            538,
+            411
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(++) :: [a] -> [a] -> [a] [] ++ ys = ys (x : xs) ++ ys = x : (xs ++ ys) ",
+        "bbox": [
+            107,
+            455,
+            599,
+            610
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            264,
+            196,
+            316
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "-- Selection sort   \nssort :: Ord a $\\Rightarrow$ [a] -> [a]   \nssort [] $= ~ [ ]$   \nssort (x : xs) $=$ minimo (x : xs) : ssort (sacarMinimo (x : xs)) ",
+        "bbox": [
+            69,
+            360,
+            801,
+            606
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "¿Es recursi´on estructural? No. ",
+        "bbox": [
+            74,
+            669,
+            403,
+            764
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a derecha ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            464,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "La funci´on foldr abstrae el esquema de recursi´on estructural: ",
+        "bbox": [
+            74,
+            191,
+            867,
+            242
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/8176566bd4d3162734b4995b9d7726e87a483c1e0dadc084a470bdebd7dbffba.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>foldr</td></tr><tr><td></td></tr><tr><td>foldr f z [] =z</td></tr><tr><td>foldr f z (x : xs) = f x (foldr f z xs)</td></tr></table>",
+        "bbox": [
+            74,
+            268,
+            892,
+            477
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es su tipo? ",
+        "bbox": [
+            74,
+            591,
+            298,
+            639
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "foldr :: (a -> b -> b) -> b -> [a] -> b ",
+        "bbox": [
+            107,
+            661,
+            729,
+            709
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Toda recursi´on estructural es una instancia de foldr. ",
+        "bbox": [
+            124,
+            768,
+            872,
+            816
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a derecha ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            464,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — suma con foldr ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            106,
+            441,
+            154
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "suma :: [Int] -> Int suma $=$ foldr (+) 0 ",
+        "bbox": [
+            102,
+            202,
+            428,
+            297
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "⇝ foldr (+) 0 [1, 2]   \n⇝ (+) 1 (foldr (+) 0 [2])   \n⇝ (+) 1 ((+) 2 (foldr (+) 0 []))   \n(+) 1 ((+) 2 0)   \n⇝∗ 3 ",
+        "bbox": [
+            314,
+            323,
+            870,
+            569
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "An´alogamente: ",
+        "bbox": [
+            77,
+            621,
+            265,
+            665
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "producto :: [Int] -> Int producto $=$ foldr (\\*) 1 and, or :: [Bool] -> Bool and $=$ foldr (&&) True or $=$ foldr (||) False ",
+        "bbox": [
+            102,
+            691,
+            491,
+            786
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            834,
+            505,
+            981
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a derecha ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            464,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — reverso con foldr ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            132,
+            466,
+            176
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "reverso :: [a] -> [a]   \nreverso [] = []   \nreverso (x : xs) = reverso xs ++ [x] ",
+        "bbox": [
+            102,
+            220,
+            676,
+            371
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Es recursiva estructural. ¿C´omo la escribir´ıamos usando foldr? ",
+        "bbox": [
+            80,
+            397,
+            883,
+            444
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "reverso $=$ foldr (\\ x rec -> rec ++ [x]) [] ",
+        "bbox": [
+            91,
+            466,
+            787,
+            514
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Otras formas equivalentes: ",
+        "bbox": [
+            74,
+            580,
+            411,
+            625
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "reverso $=$ foldr (\\ x rec -> flip (++) [x] rec) [] reverso $=$ foldr (\\ x -> flip (++) [x]) [] reverso $=$ foldr (\\ x -> flip (++) ((: []) x)) [] reverso $=$ foldr (\\ x -> (flip (++) . (: [])) x) [] reverso $=$ foldr (flip (++) . (: [])) [] ",
+        "bbox": [
+            96,
+            665,
+            892,
+            915
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a derecha ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            464,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Ilustraci´on gr´afica del plegado a derecha ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            106,
+            618,
+            158
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/da30af6aaf3aec6a49795fd7f37ae3ae114ffd0e5e20ea5c5303a652b54f6dea.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            113,
+            253,
+            878,
+            658
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/650e4212a094d9355e0ec1b6839c9bee2dafbbf001e108a24c5420d0d8a5dcdf.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "En particular, se puede demostrar que: ",
+        "bbox": [
+            74,
+            735,
+            563,
+            779
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "foldr (:) [] = id foldr ((:) . f) [] $=$ map f foldr (const (+ 1)) 0 = length ",
+        "bbox": [
+            248,
+            801,
+            751,
+            952
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on primitiva ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            331,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sea g :: [a] -> b definida por dos ecuaciones: ",
+        "bbox": [
+            74,
+            150,
+            701,
+            202
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7e201158d856fe1906475ea81e06703f54e9357e8208183c463a45f0485a1692.jpg",
+        "text": "$$\n\\begin{array} { l c l } { \\mathrm { ~ g ~ } \\left[ \\right] ~ } & { = } & { \\langle c a s o ~ b a s e \\rangle } \\\\ { \\mathrm { ~ g ~ } \\left( \\mathbf { x } ~ : ~ \\mathbf { x } \\mathbf { s } \\right) } & { = } & { \\langle c a s o ~ r e c u r s i v o \\rangle } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            235,
+            720,
+            345
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Decimos que la definici´on de g est´a dada por recursi´on primitiva si: ",
+        "bbox": [
+            74,
+            404,
+            911,
+            496
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "1. El caso base devuelve un valor z “fijo” (no depende de g).   \n2. El caso recursivo no puede usar la variable g, salvo en la expresi´on (g xs). (S´ı puede usar la variable xs). ",
+        "bbox": [
+            88,
+            514,
+            875,
+            724
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "g [] = z g (x : xs) = . . . x . . . xs . . . (g xs) . . . ",
+        "bbox": [
+            201,
+            738,
+            795,
+            834
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Similar a la recursi´on estructural, pero permite referirse a xs. ",
+        "bbox": [
+            74,
+            856,
+            850,
+            904
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on primitiva ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            331,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Observaci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            113,
+            243,
+            158
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Todas las definiciones dadas por recursi´on estructural tambi´en est´an dadas por recursi´on primitiva. Hay definiciones dadas por recursi´on primitiva que no est´an dadas por recursi´on estructural. ",
+        "bbox": [
+            124,
+            187,
+            812,
+            397
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            455,
+            187,
+            507
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Dado un texto, borrar todos los espacios iniciales. ",
+        "bbox": [
+            77,
+            529,
+            701,
+            577
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "trim :: String -> String >> trim = Hola PLP\" \"Hola PLP\" ",
+        "bbox": [
+            74,
+            602,
+            643,
+            698
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "trim [] = []trim (x : xs) = if x == ’ ’ then trim xs else x : xs ",
+        "bbox": [
+            71,
+            746,
+            908,
+            841
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Intenten escribirla con foldr. ¿Est´an haciendo recursi´on estructural? ",
+        "bbox": [
+            74,
+            867,
+            566,
+            963
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            99,
+            194,
+            118,
+            220
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on primitiva ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            331,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Escribamos una funci´on recr para abstraer el esquema de recursi´on primitiva: ",
+        "bbox": [
+            74,
+            132,
+            817,
+            227
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "recr f z [] = z recr f z (x : xs) = f x xs (recr f z xs) ",
+        "bbox": [
+            74,
+            253,
+            712,
+            352
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es su tipo? ",
+        "bbox": [
+            74,
+            375,
+            298,
+            422
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "recr :: (a -> [a] -> b -> b) -> b -> [a] -> b ",
+        "bbox": [
+            74,
+            444,
+            795,
+            496
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Toda recursi´on primitiva es una instancia de recr. ",
+        "bbox": [
+            116,
+            551,
+            850,
+            599
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Escribamos trim ahora usando recr: ",
+        "bbox": [
+            74,
+            636,
+            552,
+            680
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "trim = recr (\\ x xs rec -> if x == ’ ’ then rec else x : xs) ",
+        "bbox": [
+            74,
+            705,
+            709,
+            849
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/20978397ee3dd00ec207529b2155ae6e82d51f0cc6977e301fd159854f060042.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "[] ",
+        "bbox": [
+            267,
+            860,
+            295,
+            904
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on iterativa ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            323,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sea g :: b -> [a] -> b definida por dos ecuaciones: ",
+        "bbox": [
+            71,
+            194,
+            781,
+            242
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f8f69f621321f0e922224b87266679d0bcb169a0e6ed755bef5dde643f135610.jpg",
+        "text": "$$\n\\begin{array} { l c l } { \\mathrm {  ~ g ~ } { \\sf a c } } & { [ ] } & { = } & { \\langle c a s o \\ b a s e \\rangle } \\\\ { \\mathrm {  ~ g ~ } { \\sf a c } } & { ( { \\bf x } \\ : \\ { \\bf x } { \\bf s } ) } & { = } & { \\langle c a s o \\ r e c u r s i v o \\rangle } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            248,
+            279,
+            745,
+            386
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on iterativa ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            466,
+            328,
+            514
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Decimos que la definici´on de g est´a dada por recursi´on iterativa si: ",
+        "bbox": [
+            77,
+            533,
+            917,
+            580
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1. El caso base devuelve el acumulador ac.   \n2. El caso recursivo invoca inmediatamente a (g ac’ xs), donde ac’ es el acumulador actualizado en funci´on de su valor anterior y el valor de x. ",
+        "bbox": [
+            91,
+            591,
+            864,
+            801
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on iterativa ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            325,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "-- Reverso con acumulador.   \nreverso’ :: [a] -> [a] -> [a]   \nreverso’ ac [] = ac   \nreverso’ ac (x : xs) = reverso’ (x : ac) xs -- Pasaje de binario a decimal con acumulador. -- Precondici´on: recibe una lista de 0s y 1s. bin2dec’ :: Int -> [Int] -> Int   \nbin2dec’ ac [] = ac   \nbin2dec’ ac (b : bs) $=$ bin2dec’ (b + 2 \\* ac) bs -- Insertion sort con acumulador.   \nisort’ :: Ord a $\\Rightarrow$ [a] -> [a] -> [a]   \nisort’ ac [] = ac   \nisort’ ac (x : xs) $=$ isort’ (insertarOrdenado x ac) ",
+        "bbox": [
+            71,
+            205,
+            776,
+            397
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            69,
+            448,
+            812,
+            691
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            742,
+            878,
+            933
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "xs ",
+        "bbox": [
+            129,
+            948,
+            165,
+            977
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos de recursi´on iterativa ",
+        "bbox": [
+            66,
+            99,
+            933,
+            165
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a izquierda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            486,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Escribamos una funci´on foldl para abstraer el esquema de recursi´on iterativa: ",
+        "bbox": [
+            74,
+            253,
+            834,
+            349
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "foldl f ac [] = ac foldl f ac (x : xs) = foldl f (f ac x) xs ",
+        "bbox": [
+            102,
+            378,
+            762,
+            474
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es su tipo? ",
+        "bbox": [
+            74,
+            500,
+            298,
+            544
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Toda recursi´on iterativa es una instancia de foldl. ",
+        "bbox": [
+            149,
+            672,
+            848,
+            724
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a izquierda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            486,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "En general foldr y foldl tienen comportamientos diferentes: ",
+        "bbox": [
+            74,
+            213,
+            870,
+            261
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "foldr (⋆ $\\begin{array} { r l r } { ) \\textrm {  { z } } [ \\mathsf { a } , \\mathsf { b } , \\mathsf { c } ] } & { { } = } & { \\mathsf { a } \\star ( \\mathsf { b } \\star ( \\mathsf { c } \\star ) } \\\\ { ) \\textrm {  { z } } [ \\mathsf { a } , \\mathsf { b } , \\mathsf { c } ] } & { { } = } & { ( ( \\mathsf { z } \\star \\mathsf { a } ) \\star \\mathsf { b } ) } \\end{array}$ z)) foldl (⋆ ⋆ c ",
+        "bbox": [
+            135,
+            294,
+            864,
+            400
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Si (⋆) es un operador asociativo y conmutativo, foldr y foldl definen la misma funci´on. Por ejemplo: ",
+        "bbox": [
+            71,
+            463,
+            900,
+            562
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "suma $=$ foldr (+) 0 $=$ foldl (+) 0 producto $=$ foldr (\\*) 1 $=$ foldl (\\*) 1 and $=$ foldr (&&) True $=$ foldl (&&) True or $=$ foldr (||) False $=$ foldl (||) False ",
+        "bbox": [
+            99,
+            584,
+            842,
+            783
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a izquierda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            486,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — pasaje de binario a decimal ",
+        "text_level": 1,
+        "bbox": [
+            71,
+            176,
+            604,
+            227
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "bin2decbin2dec $=$ : [Int] -> Int foldl (\\ ac b -> b + 2 \\* ac) 0 ",
+        "bbox": [
+            102,
+            272,
+            748,
+            367
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "bin2dec [1, 0, 0]   \nfoldl (\\ ac b -> b + 2 \\* ac) 0 [1, 0, 0]   \nfoldl (\\ ac b -> b + 2 \\* ac) $( 1 ~ + ~ 0 )$ [0, 0]   \nfoldl (\\ ac b $- > { \\textsf { b } } + \\ 2 \\ * \\ \\mathsf { a c } ;$ ) $( 0 ~ + ~ 2 ~ * ~ ( 1 ~ + ~ 0 ) )$ [0]   \nfoldl (\\ ac b $\\ l \\to \\mathrm { ~ b ~ + ~ 2 ~ } \\ast$ ac) $( 0 ~ + ~ 2 ~ * ~ ( 0 ~ + ~ 2 ~ * ~ ( 1 ~ + ~ 0 ) ) )$ []   \n$0 ~ + ~ 2 ~ * ~ ( 0 ~ + ~ 2 ~ * ~ ( 1 ~ + ~ 0 ) )$   \n4 ",
+        "bbox": [
+            140,
+            470,
+            919,
+            812
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            536,
+            132,
+            808
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a izquierda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            486,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "La funci´on foldl es un operador de iteraci´on. ",
+        "bbox": [
+            74,
+            231,
+            660,
+            275
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Pseudoc´odigo imperativo: ",
+        "bbox": [
+            77,
+            301,
+            403,
+            345
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "funci´on foldl f ac xs $\\{$ mientras xs no es vac´ıa { ac := f ac (head xs) xs := tail xs } devolver ac   \n} ",
+        "bbox": [
+            118,
+            352,
+            522,
+            779
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Plegado de listas a izquierda ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            486,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ilustraci´on gr´afica del plegado a izquierda ",
+        "text_level": 1,
+        "bbox": [
+            49,
+            121,
+            930,
+            180
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/a2f808e6a30b18fa1a30871a8bbb0db38877b136295e8edcef2d77356ba55526.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            99,
+            268,
+            889,
+            676
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/31d858e430d28991e0e6f66fd7a1486cb7090c0298a2b61cdbe5b2ab1d093003.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "En particular, se puede demostrar que: ",
+        "bbox": [
+            74,
+            753,
+            563,
+            797
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "foldl (flip (:)) [] = reverse ",
+        "bbox": [
+            254,
+            838,
+            745,
+            889
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Resumen: esquemas de recursi´on sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            751,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Vimos los siguientes esquemas de recursi´on sobre listas: ",
+        "bbox": [
+            77,
+            360,
+            776,
+            404
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "1. Recursi´on estructural. . foldr   \n2. Recursi´on primitiva. recr   \n3. Recursi´on iterativa. . foldl ",
+        "bbox": [
+            82,
+            422,
+            928,
+            588
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Para pensar ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            36,
+            212,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on en simult´aneo sobre m´as de una estructura ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            113,
+            928,
+            158
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Definir la siguiente funci´on usando foldr. ",
+        "bbox": [
+            77,
+            176,
+            610,
+            224
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "(No tan f´acil). ",
+        "bbox": [
+            737,
+            176,
+            922,
+            224
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "zip :: [a] -> [b] -> [(a, b)]   \nzip [] [] = []   \nzip (x : xs) (y : ys) = (x, y) : zip xs ys ",
+        "bbox": [
+            102,
+            242,
+            776,
+            400
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Relaci´on entre recursi´on estructural y primitiva ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            474,
+            712,
+            522
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "1. Definir foldr en t´erminos de recr. (F´acil).   \n2. Definir recr en t´erminos de foldr. (No tan f´acil). Idea: devolver una tupla con una copia de la lista original. ",
+        "bbox": [
+            91,
+            555,
+            925,
+            716
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Relaci´on entre recursi´on estructural e iterativa ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            779,
+            709,
+            823
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "1. Definir foldl en t´erminos de foldr.   \n2. Definir foldr en t´erminos de foldl. ",
+        "bbox": [
+            93,
+            852,
+            604,
+            959
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Breve repaso ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            287,
+            246
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre listas ",
+        "bbox": [
+            77,
+            356,
+            638,
+            408
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "bbox": [
+            77,
+            518,
+            508,
+            573
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre otras estructuras ",
+        "bbox": [
+            74,
+            683,
+            825,
+            738
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3a974519d45c2b90264e2f38e1aee87d2e49108227d675678d0d20acbf809a91.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Conocemos algunos tipos de datos “primitivos”: ",
+        "bbox": [
+            74,
+            242,
+            682,
+            290
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Char Int Float (a -> b) (a, b) [a] ",
+        "bbox": [
+            171,
+            330,
+            823,
+            378
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "String (sin´onimo de [Char]) ",
+        "bbox": [
+            298,
+            422,
+            701,
+            470
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Se pueden definir nuevos tipos de datos con la cl´ausula data: ",
+        "bbox": [
+            74,
+            547,
+            856,
+            595
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "data Tipo = ⟨declaraci´on de los constructores⟩ ",
+        "bbox": [
+            190,
+            636,
+            809,
+            687
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — tipos enumerados ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            117,
+            477,
+            169
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Muchos constructores sin par´ametros: ",
+        "bbox": [
+            74,
+            191,
+            552,
+            235
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "data Dia $=$ Dom | Lun | Mar | Mie | Jue | Vie | Sab Declara que existen constructores: ",
+        "bbox": [
+            91,
+            264,
+            903,
+            382
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Dom :: Dia Lun :: Dia . . . Sab :: Dia ",
+        "bbox": [
+            157,
+            426,
+            839,
+            470
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Declara adem´as esos son los ´unicos constructores del tipo Dia. ",
+        "bbox": [
+            77,
+            514,
+            875,
+            562
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "esFinDeSemana :: Dia -> Bool esFinDeSemana Sab $=$ True esFinDeSemana Dom $=$ True esFinDeSemana _ $=$ False >> esFinDeSemana Vie ⇝ False ",
+        "bbox": [
+            102,
+            588,
+            552,
+            783
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            834,
+            397,
+            922
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — tipos producto (tuplas/estructuras/registros/. . .) ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            106,
+            911,
+            161
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Un solo constructor con muchos par´ametros: ",
+        "bbox": [
+            74,
+            187,
+            640,
+            231
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "data Persona = LaPersona String String Int ",
+        "bbox": [
+            96,
+            257,
+            776,
+            301
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Declara que el tipo Persona tiene un constructor (y s´olo ese): ",
+        "bbox": [
+            77,
+            330,
+            875,
+            375
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "LaPersona :: String -> String -> Int -> Persona nombre, apellido :: Persona -> String nombre (LaPersona n _ _) = n apellido (LaPersona _ a _) = a fechaNacimiento :: Persona -> Int fechaNacimiento (LaPersona _ _ f) = f rebecaGuber $=$ LaPersona \"Rebeca\" \"Guber\" 1926 ",
+        "bbox": [
+            118,
+            419,
+            878,
+            466
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            102,
+            507,
+            698,
+            753
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            80,
+            808,
+            792,
+            849
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "apellido rebecaGuber \"Guber\" ",
+        "bbox": [
+            121,
+            860,
+            441,
+            948
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "⇝ ",
+        "bbox": [
+            80,
+            919,
+            113,
+            941
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": ">> ",
+        "bbox": [
+            74,
+            863,
+            107,
+            893
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            169,
+            187,
+            216
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Un tipo puede tener muchos constructores con muchos par´ametros: ",
+        "bbox": [
+            77,
+            242,
+            928,
+            286
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "data Forma $=$ Rectangulo Float Float | Circulo Float ",
+        "bbox": [
+            104,
+            316,
+            668,
+            404
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Declara que el tipo Forma tiene dos constructores (y s´olo esos): ",
+        "bbox": [
+            77,
+            433,
+            889,
+            477
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Rectangulo :: Float -> Float -> Forma Circulo :: Float -> Forma ",
+        "bbox": [
+            196,
+            522,
+            801,
+            617
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "area :: Forma -> Float area (Rectangulo ancho alto) $=$ ancho \\* alto area (Circulo radio) $=$ radio \\* radio \\* pi ",
+        "bbox": [
+            99,
+            713,
+            886,
+            856
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            113,
+            187,
+            161
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Algunos constructores pueden ser recursivos: ",
+        "bbox": [
+            74,
+            187,
+            649,
+            231
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "data Nat $=$ Zero | Succ Nat ",
+        "bbox": [
+            104,
+            261,
+            411,
+            352
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Declara que el tipo Nat tiene dos constructores (y s´olo esos): ",
+        "bbox": [
+            74,
+            419,
+            867,
+            466
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Zero :: Nat Succ :: Nat -> Nat ¿Qu´e forma tienen los valores de tipo Nat? ",
+        "bbox": [
+            348,
+            507,
+            649,
+            599
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            639,
+            624,
+            683
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Zero   \nSucc Zero   \nSucc (Succ Zero)   \nSucc (Succ (Succ Zero)) ",
+        "bbox": [
+            132,
+            702,
+            500,
+            922
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e6842d7b2d2a3c8869e54a1a49729349d760c17bf8dbdcae6bf2e000acfc6890.jpg",
+        "text": "$$\n3 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            135,
+            959,
+            174,
+            981
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Naturales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            99,
+            124,
+            136
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Podemos definir alguna funci´on usando los Nats: ",
+        "bbox": [
+            74,
+            283,
+            690,
+            330
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "isZero :: Nat -> Bool isZero Zero $=$ True isZero _ = False ",
+        "bbox": [
+            104,
+            356,
+            441,
+            500
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Otra funci´on con Nat usando recursi´on: ",
+        "bbox": [
+            77,
+            525,
+            577,
+            569
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "doble :: Nat -> Nat   \ndoble Zero $=$ Zero   \ndoble (Succ n) $=$ Succ (Succ (doble n)) ",
+        "bbox": [
+            102,
+            599,
+            709,
+            742
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Naturales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            99,
+            124,
+            136
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "La siguiente ecuaci´on, ¿define un valor de tipo Nat o es un error? ",
+        "bbox": [
+            77,
+            235,
+            903,
+            283
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "infinito :: Nat infinito $=$ Succ infinito ",
+        "bbox": [
+            104,
+            308,
+            491,
+            400
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e pasa cuando hacemos isZero(infinito)? ",
+        "bbox": [
+            77,
+            430,
+            704,
+            474
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Que se cuelgue o no depende de c´omo se interpreten las definiciones recursivas. ",
+        "bbox": [
+            127,
+            488,
+            853,
+            584
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "En Haskell se permite trabajar con estructuras infinitas. ",
+        "bbox": [
+            129,
+            595,
+            834,
+            639
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "▶ En vez de exigir que termine la evaluaci´on (visi´on inductiva), entiende que se pueden seguir obteniendo resultados sin terminar (visi´on coinductiva). ",
+        "bbox": [
+            162,
+            650,
+            900,
+            779
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "En la materia hablaremos de estructuras finitas e infinitas. ",
+        "bbox": [
+            124,
+            797,
+            878,
+            841
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            453,
+            88
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraico — caso general ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            106,
+            930,
+            158
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "En general un tipo de datos algebraico tiene la siguiente forma: ",
+        "bbox": [
+            74,
+            172,
+            886,
+            220
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "data T = CBase1 ⟨par´ametros⟩ CBasen ⟨par´ametros⟩ CRecursivo1 ⟨par´ametros⟩ CRecursivom ⟨par´ametros⟩ ",
+        "bbox": [
+            256,
+            253,
+            737,
+            522
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Los constructores base no reciben par´ametros de tipo T. ",
+        "bbox": [
+            124,
+            588,
+            842,
+            632
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Los constructores recursivos reciben al menos un par´ametro de tipo T. ",
+        "bbox": [
+            127,
+            650,
+            900,
+            738
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Los valores de tipo T son los que se pueden construir aplicando constructores base y recursivos un n´umero finito de veces y s´olo esos. ",
+        "bbox": [
+            127,
+            761,
+            928,
+            900
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(Entendemos la definici´on de T de forma inductiva). ",
+        "bbox": [
+            254,
+            908,
+            922,
+            952
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: cuentas corrientes ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            36,
+            472,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "type Cuenta $=$ String data Banco $=$ Iniciar | Depositar Cuenta Int Banco | Extraer Cuenta Int Banco | Transferir Cuenta Cuenta Int Banco bancoPLP $=$ Transferir \"A\" \"B\" 3 (Depositar \"A\" 10 Iniciar) ",
+        "bbox": [
+            74,
+            110,
+            370,
+            150
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            158,
+            367,
+            191
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            237,
+            198,
+            756,
+            323
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            356,
+            919,
+            400
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "saldo :: Cuenta -> Banco -> Int saldo cuenta Iniciar $\\qquad = \\ 0$ saldo cuenta (Depositar cuenta’ monto banco) | cuenta $= =$ cuenta’ $=$ saldo cuenta banco + monto | otherwise $=$ saldo cuenta banco saldo cuenta (Extraer cuenta’ monto banco) | cuenta $= =$ cuenta’ $=$ saldo cuenta banco - monto | otherwise $=$ saldo cuenta banco saldo cuenta (Transferir origen destino monto banco) | cuenta $= =$ origen $=$ saldo cuenta banco - monto | cuenta $= =$ destino $=$ saldo cuenta banco $^ +$ monto | otherwise $=$ saldo cuenta banco ",
+        "bbox": [
+            77,
+            433,
+            524,
+            470
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            500,
+            831,
+            992
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: listas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            265,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Las listas son un caso particular de tipo algebraico: data Lista a = Vacia | Cons a (Lista a) O, con la notaci´on ya conocida: ",
+        "bbox": [
+            71,
+            238,
+            720,
+            433
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "data [a] = [] | a : [a]   \nproductoCartesiano :: [a] -> [b] -> [(a, b)]   \nproductoCartesiano xs ys = concat (map (\\ x -> map (\\ y -> (x, y)) ys) ",
+        "bbox": [
+            69,
+            452,
+            787,
+            750
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ´arboles binarios ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            430,
+            88
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "data AB a = Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            74,
+            165,
+            660,
+            209
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Definamos las siguientes funciones: ",
+        "bbox": [
+            77,
+            238,
+            522,
+            286
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "preorder :: AB a -> [a] postorder :: AB a -> [a] inorder :: AB a -> [a] ",
+        "bbox": [
+            102,
+            308,
+            488,
+            455
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bf94072293aef3126e772d588fc469b1fbeaf379d27ffeb6cdec5152c626278a.jpg",
+        "text": "$$\n3 8\n$$",
+        "text_format": "latex",
+        "bbox": [
+            947,
+            922,
+            1000,
+            1000
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "preorder t ${ \\stackrel {  } {  } } { ^ * }$ [1, 2, 3, 4, 5, 6, 7] postorder t ${ \\stackrel {  } {  } } { ^ * }$ [3, 4, 2, 6, 7, 5, 1] inorder t ${ \\stackrel {  } {  } } { ^ * }$ [3, 2, 4, 1, 6, 5, 7] ",
+        "bbox": [
+            190,
+            731,
+            801,
+            882
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ´arboles binarios ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            430,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Pre: el ´arbol de entrada es un ABB (sin repetidos). ",
+        "bbox": [
+            80,
+            330,
+            732,
+            375
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Post: el ´arbol resultante es un ABB que contiene a los elementos del ABB de entrada y al elemento dado. ",
+        "bbox": [
+            74,
+            382,
+            914,
+            474
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "insertar x Nil $=$ Bin Nil x Nil   \ninsertar x (Bin izq y der) | x < y $=$ Bin (insertar x izq) y der | x > y = Bin izq y (insertar x der) | otherwise $=$ Bin izq y der ",
+        "bbox": [
+            74,
+            503,
+            748,
+            750
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "39 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Breve repaso ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            194,
+            287,
+            246
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre listas ",
+        "bbox": [
+            77,
+            356,
+            638,
+            408
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Tipos de datos algebraicos ",
+        "bbox": [
+            77,
+            518,
+            508,
+            573
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on sobre otras estructuras ",
+        "bbox": [
+            74,
+            683,
+            825,
+            738
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ee8b6bd94a55c9a114c9cb1e1fd95d96838c11f1f6e54037ee9e0b1c2dfca8a7.jpg",
+        "text": "$$\n4 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "En el caso de las listas, dada una funci´on g :: [a] -> b: ",
+        "bbox": [
+            74,
+            268,
+            825,
+            319
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "img_path": "images/04caffbcc8081d3c638feca6aff63e04428ec623516b2640ac590384d44fece1.jpg",
+        "text": "$$\n\\begin{array} { l c l } { \\mathrm { ~ g ~ } \\left[ \\right] ~ } & { = } & { \\langle c a s o ~ b a s e \\rangle } \\\\ { \\mathrm { ~ g ~ } \\left( \\mathbf { x } ~ : ~ \\mathbf { x } \\mathbf { s } \\right) } & { = } & { \\langle c a s o ~ r e c u r s i v o \\rangle } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            270,
+            352,
+            720,
+            463
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "dec´ıamos que g estaba dada por recursi´on estructural si: ",
+        "bbox": [
+            71,
+            496,
+            790,
+            540
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "▶ El caso base devuelve un valor z “fijo” (no depende de g). ▶ El caso recursivo no puede usar las variables g ni xs, salvo en la expresi´on (g xs). ",
+        "bbox": [
+            110,
+            555,
+            919,
+            716
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            36,
+            361,
+            84
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "La recursi´on estructural se generaliza a tipos algebraicos en general. ",
+        "bbox": [
+            63,
+            99,
+            925,
+            143
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que T es un tipo algebraico. ",
+        "bbox": [
+            80,
+            150,
+            596,
+            191
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Dada una funci´on g :: T -> Y definida por ecuaciones: ",
+        "bbox": [
+            80,
+            198,
+            795,
+            242
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "g (CBase1 ⟨par´ametros⟩) = ⟨caso base1⟩ g (CBasen ⟨par´ametros⟩) = ⟨caso basen⟩ g (CRecursivo1 ⟨par´ametros⟩) = ⟨caso recursivo1⟩ g (CRecursivom ⟨par´ametros⟩) = ⟨caso recursivom⟩ ",
+        "bbox": [
+            138,
+            272,
+            856,
+            573
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Decimos que g est´a dada por recursi´on estructural si: ",
+        "bbox": [
+            77,
+            602,
+            784,
+            647
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "1. Cada caso base se escribe combinando los par´ametros. ",
+        "bbox": [
+            102,
+            661,
+            814,
+            702
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "2. Cada caso recursivo se escribe combinando: ",
+        "bbox": [
+            102,
+            713,
+            690,
+            753
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "▶ Los par´ametros del constructor que no son de tipo T.   \n▶ El llamado recursivo sobre cada par´ametro de tipo T. ",
+        "bbox": [
+            162,
+            761,
+            812,
+            845
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Pero: ",
+        "text_level": 1,
+        "bbox": [
+            138,
+            852,
+            204,
+            893
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "▶ Sin usar los par´ametros del constructor que son de tipo T.   \n▶ Sin hacer a otros llamados recursivos. ",
+        "bbox": [
+            165,
+            900,
+            867,
+            985
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Definamos una funci´on foldAB que abstraiga el esquema de recursi´on estructural sobre ´arboles binarios. ",
+        "bbox": [
+            74,
+            448,
+            845,
+            544
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "foldAB :: b -> (b -> a -> b -> b) -> AB a -> b ",
+        "bbox": [
+            80,
+            558,
+            801,
+            602
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "cBin (foldAB cNil cBin i) r (foldAB cNil cBin d) ",
+        "bbox": [
+            77,
+            735,
+            872,
+            779
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            69,
+            367,
+            933,
+            433
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            361,
+            84
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "1. ¿A qu´e es igual (foldAB Nil Bin)?   \n2. Definir mapAB :: (a -> b) -> AB a -> AB b usando foldAB.   \n3. Definir maximo :: Ord a => AB a -> Maybe a usando foldAB.   \n4. Definir altura :: AB a -> Int usando foldAB.   \n5. ¿Se puede definir la funci´on esABB :: Ord a => AB a -> Bool usando foldAB?   \n6. ¿Se puede definir la funci´on caminoMasLargo :: AB a -> [a] usando foldAB? ",
+        "bbox": [
+            91,
+            279,
+            875,
+            834
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "Para llevarse para pensar ",
+        "bbox": [
+            69,
+            187,
+            933,
+            253
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            216,
+            748,
+            312
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            415,
+            367,
+            459
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Art´ıculo de Hutton. ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            481,
+            350,
+            522
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Graham Hutton. A tutorial on the universality and expressiveness of fold. ",
+        "bbox": [
+            74,
+            529,
+            911,
+            621
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "J. Functional Programming 9 (4): 355–372, julio de 1999. ",
+        "bbox": [
+            74,
+            628,
+            828,
+            680
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "discarded",
+        "text": "45 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Comentarios: recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            580,
+            88
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Casos degenerados de recursi´on estructural ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            231,
+            657,
+            275
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Es recursi´on estructural (no usa la cabeza): ",
+        "bbox": [
+            74,
+            301,
+            627,
+            349
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "length :: [a] -> Int   \nlength [] = 0   \nlength (_ : xs) = 1 + length xs ",
+        "bbox": [
+            104,
+            371,
+            602,
+            522
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Es recursi´on estructural (no usa el llamado recursivo sobre la cola): ",
+        "bbox": [
+            82,
+            544,
+            922,
+            591
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "head :: [a] -> a   \nhead [] = error \"No tiene cabeza.\"   \nhead (x : _) = x ",
+        "bbox": [
+            102,
+            613,
+            726,
+            761
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 45
+    }
+]

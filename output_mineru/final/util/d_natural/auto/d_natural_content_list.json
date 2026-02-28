@@ -1,0 +1,172 @@
+[
+    {
+        "type": "text",
+        "text": "Deducci´on Natural ",
+        "text_level": 1,
+        "bbox": [
+            361,
+            60,
+            638,
+            102
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "L´ogica Intuicionista ",
+        "text_level": 1,
+        "bbox": [
+            67,
+            131,
+            174,
+            151
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Reglas B´asicas ",
+        "bbox": [
+            68,
+            168,
+            149,
+            189
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ec3f51470585a2b87a44d376b133c4db61842f213ac72ee72d95821af34b4f82.jpg",
+        "text": "$$\n\\begin{array} { c } { { \\displaystyle \\frac { \\Gamma \\vdash \\tau \\quad \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\wedge \\sigma } \\wedge _ { i } } } \\\\ { { \\mathrm { } } } \\\\ { { \\displaystyle \\frac { \\Gamma \\vdash \\tau \\wedge \\sigma } { \\Gamma \\vdash \\tau } \\wedge _ { e _ { 1 } } \\qquad \\frac { \\Gamma \\vdash \\tau \\wedge \\sigma } { \\Gamma \\vdash \\sigma } \\wedge _ { e _ { 2 } } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            154,
+            292,
+            404,
+            413
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d785635c130b8aff4d40af1a97e145c8ff2efa2e19a0f05730ea44a4da5f2e15.jpg",
+        "text": "$$\n\\begin{array} { c } { { \\frac { \\Gamma , \\tau \\vdash \\sigma } { \\Gamma \\vdash \\tau \\Rightarrow \\sigma } \\Rightarrow _ { i } } } \\\\ { { } } \\\\ { { \\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\tau \\Rightarrow _ { e } } { \\Gamma \\vdash \\sigma } \\quad \\Rightarrow _ { e } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            629,
+            292,
+            813,
+            413
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e5485f1396c06aba8708edd82372fb3cdfdc428c2f8b124cb8c77c932c428c00.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 1 } } \\quad \\frac { \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 2 } } } \\\\ & { \\underline { { \\Gamma \\vdash \\tau \\lor \\sigma } } \\quad \\Gamma , \\tau \\vdash \\rho \\quad \\Gamma , \\sigma \\vdash \\rho } \\\\ & { \\quad \\quad \\quad \\Gamma \\vdash \\rho } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            147,
+            460,
+            417,
+            581
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8358015b489a3353685a409142c6a5983052b4355e63825713fb3a165e47c608.jpg",
+        "text": "$$\n\\begin{array} { c } { \\frac { \\Gamma , \\tau \\vdash \\bot } { \\Gamma \\vdash \\lnot } \\lnot _ { i } } \\\\ { \\frac { \\Gamma \\vdash \\ l \\tau \\ l } { \\Gamma \\vdash \\ l \\textsc { i } } \\lnot _ { e } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            644,
+            460,
+            797,
+            583
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Reglas Derivadas ",
+        "bbox": [
+            67,
+            625,
+            161,
+            645
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7ab89e8a7150e5fc0029a1adac62bfd8bea30f98a727f438dd4b17db4e6b4e07.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\lnot \\lnot \\tau } \\lnot \\lnot \\lnot _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            228,
+            694,
+            331,
+            737
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a576494da53acd9a2c82b491d26619aada34dbc6aa18dfa6913210eb145a50b1.jpg",
+        "text": "$$\n\\frac { \\ \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\neg \\sigma } { \\Gamma \\vdash \\neg \\tau } M T\n$$",
+        "text_format": "latex",
+        "bbox": [
+            569,
+            692,
+            772,
+            739
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "L´ogica Cl´asica ",
+        "bbox": [
+            68,
+            774,
+            147,
+            796
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Regla B´asica ",
+        "bbox": [
+            67,
+            818,
+            140,
+            840
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9a72cce6add5ace767ee9630a15534160de359e48ce9b7ccc37b4669216d7442.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\lnot \\lnot \\tau } { \\Gamma \\vdash \\tau } \\lnot \\lnot \\lnot e\n$$",
+        "text_format": "latex",
+        "bbox": [
+            228,
+            892,
+            335,
+            936
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Reglas Derivadas ",
+        "bbox": [
+            506,
+            818,
+            601,
+            842
+        ],
+        "page_idx": 0
+    }
+]

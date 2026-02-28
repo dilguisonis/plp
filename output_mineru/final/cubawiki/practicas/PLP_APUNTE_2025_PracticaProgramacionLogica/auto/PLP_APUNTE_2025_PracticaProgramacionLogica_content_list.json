@@ -1,0 +1,5155 @@
+[
+    {
+        "type": "text",
+        "text": "Programaci´on L´ogica - Parte 1 ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            297,
+            748,
+            363
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas de Lenguajes de Programaci´on ",
+        "bbox": [
+            251,
+            463,
+            751,
+            507
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            320,
+            558,
+            679,
+            621
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "31 de octubre de 2025 ",
+        "bbox": [
+            367,
+            669,
+            632,
+            709
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            955,
+            970,
+            986,
+            992
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/76b81948e7d472ca4cd4fb37c5ac3b7eb6ce7a538cf1218573a2df33c6f6faff.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            52,
+            363,
+            118,
+            452
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "La programacion declarativa es + MANIFESTAR\\* pero con codigo ",
+        "text_level": 1,
+        "bbox": [
+            49,
+            481,
+            889,
+            533
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "4:06p. m. · 27ago.2024· 4.118 Reproducciones ",
+        "bbox": [
+            49,
+            566,
+            566,
+            606
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            917,
+            378,
+            947,
+            397
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Sobre Prolog ",
+        "bbox": [
+            2,
+            0,
+            983,
+            99
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de programaci´on l´ogica. ",
+        "bbox": [
+            66,
+            250,
+            477,
+            290
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Los programas se escriben en un subconjunto de la l´ogica de primer orden. Es declarativo: se especifican hechos, reglas de inferencia y objetivos, sin indicar c´omo se obtiene este ´ultimo a partir de los primeros. C´omputo basado en cl´ausulas de Horn y resoluci´on SLD. Mundo cerrado: s´olo se puede suponer lo que se declar´o expl´ıcitamente, todo lo que no pueda deducirse a partir del programa se supone falso. Tiene un solo tipo: los t´erminos. ",
+        "bbox": [
+            63,
+            297,
+            958,
+            790
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Sobre Prolog ",
+        "bbox": [
+            389,
+            25,
+            610,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Bases de conocimiento ",
+        "text_level": 1,
+        "bbox": [
+            312,
+            29,
+            687,
+            84
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Podemos pensar los programas en Prolog como bases de conocimiento que describen el dominio del problema. Est´an formados por hechos y reglas de inferencia. Se utilizan realizando consultas sobre dicha base. ",
+        "bbox": [
+            33,
+            150,
+            908,
+            279
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Bases de conocimiento ",
+        "text_level": 1,
+        "bbox": [
+            312,
+            29,
+            687,
+            84
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Podemos pensar los programas en Prolog como bases de conocimiento que describen el dominio del problema. Est´an formados por hechos y reglas de inferencia. Se utilizan realizando consultas sobre dicha base. ",
+        "bbox": [
+            33,
+            150,
+            908,
+            279
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Base de conocimiento ",
+        "text_level": 1,
+        "bbox": [
+            38,
+            323,
+            292,
+            360
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Juan y Valeria son zombies.   \nCarlos tom´o mate despu´es de Juan. Juan tom´o mate despu´es de Clara.   \nErnesto est´a infectado, aunque no sabemos por qu´e.   \nLes zombies est´an infectades.   \nSi alguien (X) tom´o mate despu´es de otre (Y) zombie, entonces X est´a infectade. ",
+        "bbox": [
+            33,
+            375,
+            864,
+            632
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Bases de conocimiento ",
+        "text_level": 1,
+        "bbox": [
+            312,
+            29,
+            687,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Podemos pensar los programas en Prolog como bases de conocimiento que describen el dominio del problema. Est´an formados por hechos y reglas de inferencia. Se utilizan realizando consultas sobre dicha base. ",
+        "bbox": [
+            33,
+            150,
+            908,
+            279
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Base de conocimiento ",
+        "text_level": 1,
+        "bbox": [
+            38,
+            323,
+            292,
+            360
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Juan y Valeria son zombies.   \nCarlos tom´o mate despu´es de Juan. Juan tom´o mate despu´es de Clara.   \nErnesto est´a infectado, aunque no sabemos por qu´e.   \nLes zombies est´an infectades.   \nSi alguien (X) tom´o mate despu´es de otre (Y) zombie, entonces X est´a infectade. ",
+        "bbox": [
+            33,
+            375,
+            867,
+            632
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e consultas podr´ıamos hacer sobre esta base? ",
+        "bbox": [
+            35,
+            676,
+            607,
+            720
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Bases de conocimiento ",
+        "text_level": 1,
+        "bbox": [
+            312,
+            29,
+            687,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Podemos pensar los programas en Prolog como bases de conocimiento que describen el dominio del problema. Est´an formados por hechos y reglas de inferencia. Se utilizan realizando consultas sobre dicha base. ",
+        "bbox": [
+            33,
+            150,
+            908,
+            279
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Base de conocimiento ",
+        "text_level": 1,
+        "bbox": [
+            38,
+            323,
+            292,
+            360
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Juan y Valeria son zombies.   \nCarlos tom´o mate despu´es de Juan. Juan tom´o mate despu´es de Clara.   \nErnesto est´a infectado, aunque no sabemos por qu´e.   \nLes zombies est´an infectades.   \nSi alguien (X) tom´o mate despu´es de otre (Y) zombie, entonces X est´a infectade. ",
+        "bbox": [
+            13,
+            375,
+            870,
+            632
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e consultas podr´ıamos hacer sobre esta base? ",
+        "bbox": [
+            33,
+            676,
+            607,
+            720
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Consultas ",
+        "text_level": 1,
+        "bbox": [
+            38,
+            772,
+            154,
+            808
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "¿Est´a Carlos infectado? ¿Est´a Clara infectada? ¿Qui´enes est´an infectades? ",
+        "bbox": [
+            35,
+            823,
+            582,
+            911
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/e2d246df4e3f47837357ba2950e888a90c8ec490687c205d8ea938c14c85a8ca.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            38,
+            503,
+            953,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "?- tomo mate despues(juan,X). ",
+        "bbox": [
+            44,
+            636,
+            417,
+            676
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ?- tomo mate despues(juan,X).   \nX = carlos. ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            636,
+            417,
+            713
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ?- tomo mate despues(juan,X).   \nX = carlos. ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            636,
+            414,
+            713
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "?- infectade(I). ",
+        "bbox": [
+            46,
+            757,
+            254,
+            794
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ?- tomo mate despues(juan,X).   \nX = carlos. ?- infectade(I).   \nI = ernesto; ",
+        "bbox": [
+            35,
+            117,
+            248,
+            194
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            636,
+            414,
+            713
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            753,
+            254,
+            834
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ?- tomo mate despues(juan,X).   \nX = carlos. ?- infectade(I).   \nI = ernesto;   \nI = juan; ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            636,
+            417,
+            713
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            753,
+            254,
+            878
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ?- tomo mate despues(juan,X).   \nX = carlos. ?- infectade(I).   \nI = ernesto;   \nI = juan;   \nI = valeria; ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            636,
+            417,
+            713
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            753,
+            254,
+            915
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ?- tomo mate despues(juan,X).   \nX = carlos. ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            636,
+            417,
+            713
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "- infectade(I). ernesto; T = juan; = valeria; I = carlos; ",
+        "bbox": [
+            44,
+            753,
+            254,
+            955
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y Consultas ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ?- zombie(juan).   \ntrue. ?- tomo mate despues(juan,X).   \nX = carlos. ?- infectade(I).   \nernesto;   \nT = juan;   \nI = valeria;   \nI = carlos;   \nfalse. ",
+        "bbox": [
+            35,
+            117,
+            245,
+            194
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            238,
+            441,
+            319
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            360,
+            690,
+            477
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            514,
+            254,
+            588
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            44,
+            636,
+            417,
+            713
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            41,
+            753,
+            254,
+            992
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "?- infectade(I). ",
+        "bbox": [
+            69,
+            518,
+            279,
+            551
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            485
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "?- infectade(I). ",
+        "bbox": [
+            69,
+            518,
+            279,
+            551
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": ".{I := ernesto} ",
+        "bbox": [
+            129,
+            566,
+            961,
+            606
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/063736fa85febbfb1c074cd0123fcd64023e78093a3e97a2986ec55ef8ff17e7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            63,
+            518,
+            966,
+            705
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/778a7c58b188114de877bf11a518c87e160975e6dad1454043396f27946108e8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            518,
+            969,
+            761
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/8978049410a825a9d3c25406bb3c0ccb53349532946fb00178d5cd7e072e7ef8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            518,
+            966,
+            808
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "image",
+        "img_path": "images/ba841943dbef9810ebb37ad7b7a234825d7d6f73ec063843f5f3ee422edf4af2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            518,
+            966,
+            852
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "images/b46215a325fdbe837023803b72d7850e7cabbc9d3ac4dbeb279c037c785f91c6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            518,
+            966,
+            904
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "images/e02ccaeb23640ddca06a63369bbc692081b7b2940c512a72e7552a5ad84ede00.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            525,
+            966,
+            952
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Seguimiento de la consulta ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            25,
+            720,
+            88
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "zombie(juan).   \nzombie(valeria). tomo_mate_despues(juan,carlos).   \ntomo_mate_despues(clara,juan). infectade(ernesto).   \ninfectade(X) :- zombie(X).   \ninfectade(X) :- zombie(Y), tomo_mate_despues(Y,X). ",
+        "bbox": [
+            35,
+            125,
+            248,
+            202
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            35,
+            250,
+            441,
+            327
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            38,
+            367,
+            690,
+            488
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/f25b193e5a6d8bf9d72afb3b319adc90b163ac80d3f6bc70129ce7ece75ff6c3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            525,
+            964,
+            988
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Herramientas de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            303,
+            25,
+            696,
+            88
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Descargar https://www.swi-prolog.org (Download → SWI-Prolog → Stable release)   \nswipl archivo.pl para iniciar el int´erprete con cierto archivo cargado. swipl y luego ?- [archivo]. para cargarlo una vez dentro del int´erprete. ?- make. para recargar cambios de archivos.   \n?- consulta. para evaluar una consulta.   \n; para ver la siguiente soluci´on.   \n. para dejar de listar soluciones.   \nCTRL+D o ?- halt. para salir del int´erprete.   \n?- E. quiz´as para re´ırse.   \n:- use_module(archivo). para importar un archivo dentro de otro. % comentario o %! documentaci´on   \n?- help(predicado). para ver la documentaci´on de un predicado. ",
+        "bbox": [
+            52,
+            165,
+            961,
+            893
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "。 Variables: X, Persona, _var Valores que todav´ıa no fueron ligados. Despu´es de ligarse ya no pueden ser modificadas. Empiezan con may´uscula o . ",
+        "bbox": [
+            69,
+            250,
+            966,
+            375
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis de Prolog ",
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Variables: X, Persona, _var Valores que todav´ıa no fueron ligados. Despu´es de ligarse ya no pueden ser modificadas. Empiezan con may´uscula o . ",
+        "bbox": [
+            63,
+            250,
+            964,
+            375
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "N´umeros: 10, 15.6 ",
+        "bbox": [
+            66,
+            415,
+            348,
+            452
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis de Prolog ",
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Variables: X, Persona, _var Valores que todav´ıa no fueron ligados. Despu´es de ligarse ya no pueden ser modificadas. Empiezan con may´uscula o . ",
+        "bbox": [
+            63,
+            250,
+            964,
+            375
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "N´umeros: 10, 15.6 ",
+        "bbox": [
+            66,
+            415,
+            348,
+            455
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Atomos:´ zombie, ’hola␣mundo’, cero, nil Constantes, texto. Empiezan con min´uscula o est´an entre comillas simples. ",
+        "bbox": [
+            63,
+            496,
+            958,
+            580
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis de Prolog ",
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Variables: X, Persona, _var Valores que todav´ıa no fueron ligados. Despu´es de ligarse ya no pueden ser modificadas. Empiezan con may´uscula o . ",
+        "bbox": [
+            66,
+            250,
+            964,
+            375
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "N´umeros: 10, 15.6 ",
+        "bbox": [
+            66,
+            415,
+            348,
+            452
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Atomos: ´ zombie, ’hola␣mundo’, cero, nil Constantes, texto. Empiezan con min´uscula o est´an entre comillas simples. ",
+        "bbox": [
+            63,
+            496,
+            958,
+            580
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "T´erminos compuestos: suc(cero), bin(nil,1,nil), suc(X) Tambi´en llamado estructura. Consiste en un nombre seguido de $n$ argumentos, cada uno de los cuales es un t´ermino. Decimos que $n$ es la aridad del t´ermino compuesto. Pueden tener variables como argumentos. ",
+        "bbox": [
+            74,
+            617,
+            936,
+            794
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis de Prolog ",
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "T´ermino: variable, n´umero, ´atomo o t´ermino compuesto. ",
+        "bbox": [
+            66,
+            257,
+            756,
+            297
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "T´ermino: variable, n´umero, ´atomo o t´ermino compuesto. Cl´ausula: es una l´ınea del programa. Termina con punto. Puede ser: ",
+        "bbox": [
+            52,
+            253,
+            897,
+            382
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "T´ermino: variable, n´umero, ´atomo o t´ermino compuesto. Cl´ausula: es una l´ınea del programa. Termina con punto. Puede ser: Hecho: zombie(juan). ",
+        "bbox": [
+            58,
+            257,
+            903,
+            430
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "T´ermino: variable, n´umero, ´atomo o t´ermino compuesto. ",
+        "bbox": [
+            69,
+            257,
+            756,
+            297
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausula: es una l´ınea del programa. Termina con punto. Puede ser: ",
+        "bbox": [
+            60,
+            338,
+            895,
+            378
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Hecho: zombie(juan). ",
+        "bbox": [
+            124,
+            389,
+            408,
+            426
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Regla: infectade(X) :- zombie(Y), tomo_mate_despues(Y,X).   \nEl s´ımbolo :- se puede pensar como un $\\Leftarrow$ , y las comas como ∧. ",
+        "bbox": [
+            121,
+            444,
+            881,
+            525
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "T´ermino: variable, n´umero, ´atomo o t´ermino compuesto. ",
+        "bbox": [
+            69,
+            257,
+            756,
+            297
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausula: es una l´ınea del programa. Termina con punto. Puede ser: ",
+        "bbox": [
+            60,
+            338,
+            895,
+            378
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Hecho: zombie(juan). ",
+        "bbox": [
+            124,
+            389,
+            408,
+            426
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Regla: infectade(X) :- zombie(Y), tomo_mate_despues(Y,X).   \nEl s´ımbolo :- se puede pensar como un $\\Leftarrow$ , y las comas como ∧. ",
+        "bbox": [
+            121,
+            444,
+            881,
+            525
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Predicado: colecci´on de cl´ausulas. ",
+        "bbox": [
+            66,
+            562,
+            500,
+            602
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            348,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "T´ermino: variable, n´umero, ´atomo o t´ermino compuesto. ",
+        "bbox": [
+            66,
+            257,
+            756,
+            297
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausula: es una l´ınea del programa. Termina con punto. Puede ser: ",
+        "bbox": [
+            60,
+            338,
+            895,
+            378
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Hecho: zombie(juan). ",
+        "bbox": [
+            124,
+            389,
+            408,
+            426
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Regla: infectade(X) :- zombie(Y), tomo_mate_despues(Y,X).   \nEl s´ımbolo :- se puede pensar como un $\\Leftarrow$ , y las comas como ∧. ",
+        "bbox": [
+            121,
+            444,
+            883,
+            525
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Predicado: colecci´on de cl´ausulas. ",
+        "bbox": [
+            66,
+            562,
+            500,
+            602
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Objetivo (goal): es el predicado que se consulta al motor de Prolog. Por ejemplo: infectade(X), tomo_mate_despues(X,Y). ",
+        "bbox": [
+            69,
+            643,
+            953,
+            775
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            419,
+            25,
+            580,
+            88
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Vamos a representar a los naturales (incluyendo el 0) como cero y suc(X). Consideremos el siguiente predicado: ",
+        "bbox": [
+            33,
+            117,
+            922,
+            205
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "natural ( cero ).natural ( suc ( X )) : - natural ( X ). ",
+        "bbox": [
+            38,
+            290,
+            555,
+            375
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            419,
+            25,
+            580,
+            88
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Vamos a representar a los naturales (incluyendo el 0) como cero y suc(X). Consideremos el siguiente predicado: ",
+        "bbox": [
+            33,
+            117,
+            922,
+            205
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "natural ( cero ).natural ( suc ( X )) : - natural ( X ). ",
+        "bbox": [
+            38,
+            290,
+            555,
+            375
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Escribir los siguiente predicados ",
+        "bbox": [
+            38,
+            433,
+            406,
+            474
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "mayorA2(X) que es verdadero cuando X es mayor que 2. ",
+        "bbox": [
+            63,
+            488,
+            748,
+            533
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            419,
+            25,
+            580,
+            88
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Vamos a representar a los naturales (incluyendo el 0) como cero y suc(X). Consideremos el siguiente predicado: ",
+        "bbox": [
+            33,
+            117,
+            922,
+            205
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "natural ( cero ).natural ( suc ( X )) : - natural ( X ). ",
+        "bbox": [
+            38,
+            290,
+            555,
+            375
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Escribir los siguiente predicados ",
+        "bbox": [
+            38,
+            433,
+            408,
+            474
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "mayorA2(X) que es verdadero cuando X es mayor que 2. ",
+        "bbox": [
+            60,
+            488,
+            748,
+            529
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "esPar(X) que es verdadero cuando X es par. ",
+        "bbox": [
+            66,
+            544,
+            618,
+            584
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            419,
+            25,
+            580,
+            88
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Vamos a representar a los naturales (incluyendo el 0) como cero y suc(X). Consideremos el siguiente predicado: ",
+        "bbox": [
+            33,
+            117,
+            922,
+            205
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "natural ( cero ).natural ( suc ( X )) : - natural ( X ). ",
+        "bbox": [
+            38,
+            290,
+            555,
+            375
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Escribir los siguiente predicados ",
+        "bbox": [
+            38,
+            433,
+            408,
+            474
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "mayorA2(X) que es verdadero cuando X es mayor que 2.   \nesPar(X) que es verdadero cuando X es par.   \nmenor(X,Y) que es verdadero cuando X es menor que Y. ",
+        "bbox": [
+            60,
+            488,
+            759,
+            639
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            419,
+            25,
+            580,
+            88
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Vamos a representar a los naturales (incluyendo el 0) como cero y suc(X). Consideremos el siguiente predicado: ",
+        "bbox": [
+            33,
+            117,
+            922,
+            205
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "natural ( cero ).natural ( suc ( X )) : - natural ( X ). ",
+        "bbox": [
+            38,
+            290,
+            555,
+            375
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Escribir los siguiente predicados ",
+        "bbox": [
+            38,
+            433,
+            408,
+            474
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "mayorA2(X) que es verdadero cuando X es mayor que 2. esPar(X) que es verdadero cuando X es par. menor(X,Y) que es verdadero cuando X es menor que Y. Indicar qu´e ocurre si efectuamos las siguientes consultas: ",
+        "bbox": [
+            35,
+            488,
+            759,
+            694
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "menor(cero,uno).menor(cero,X).menor(suc(cero),cero).menor(X,suc(suc(suc(cero)))).menor(X,Y).",
+        "bbox": [
+            63,
+            709,
+            513,
+            970
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on y Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            292,
+            25,
+            701,
+            88
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Sea Term el conjunto formado por todos los posibles t´erminos. Una sustituci´on es una funci´on S : Variables $ T e r m$ . Podemos extender S a una funci´on Term → Term de la siguiente manera: ",
+        "bbox": [
+            38,
+            216,
+            955,
+            349
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f8c0bba49ce1fee0824e4d90a3cb35138b6c88870347ed10c58073561854f751.jpg",
+        "text": "$$\nS ( c ) = c\n$$",
+        "text_format": "latex",
+        "bbox": [
+            444,
+            389,
+            555,
+            441
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0fc6c241dc3cf0323884046361cb0baf791c0113ea287e6c5fffa2bb2d331d89.jpg",
+        "text": "$$\nS ( f ( t _ { 1 } , . . . , t _ { n } ) ) = f ( S ( t _ { 1 } ) , . . . , S ( t _ { n } ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            292,
+            455,
+            707,
+            507
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, si $S = \\{ X : = a , Y : = Z \\}$ , entonces: ",
+        "bbox": [
+            38,
+            522,
+            602,
+            569
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a84e802322645aa886e2f3845e9a32d351c4a30aec63327834a827031dea1dde.jpg",
+        "text": "$$\nS ( b ( X , Y , c ) ) = b ( S ( X ) , S ( Y ) , S ( c ) ) = b ( a\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            610,
+            720,
+            661
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Usamos sustituciones obtenidas con el unificador m´as general (MGU) para igualar literales y aplicar la regla de resoluci´on. ",
+        "bbox": [
+            38,
+            738,
+            930,
+            827
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on y Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            292,
+            25,
+            701,
+            88
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Dado un programa l´ogico $P$ y un goal G1, . . . , $G _ { n }$ , se quiere saber si el goal es consecuencia l´ogica de $P$ . ",
+        "bbox": [
+            33,
+            158,
+            944,
+            242
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on y Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            292,
+            25,
+            701,
+            88
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Dado un programa l´ogico $P$ y un goal G1, . . . , $G _ { n }$ , se quiere saber si el goal es consecuencia l´ogica de $P$ . ",
+        "bbox": [
+            35,
+            158,
+            944,
+            242
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on que se utiliza es: ",
+        "bbox": [
+            38,
+            283,
+            491,
+            327
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d88a8c78370fc9450919d7c96cdcd461a21615bf5ab476e80a8a6bc212f8e85f.jpg",
+        "text": "$$\n\\frac { \\dots , G _ { n } } { S ( A _ { 1 } , \\dots , A _ { k } , G _ { 2 } , \\dots , G _ { n } ) } \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            352,
+            701,
+            455
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on y Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            292,
+            25,
+            701,
+            88
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Dado un programa l´ogico $P$ y un goal G1, . . . , $G _ { n }$ , se quiere saber si el goal es consecuencia l´ogica de $P$ . ",
+        "bbox": [
+            35,
+            158,
+            944,
+            242
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on que se utiliza es: ",
+        "bbox": [
+            38,
+            283,
+            491,
+            327
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5a8ad3d89b71573b90465125d4a468ac929cb82217e2157c32b36cd32a296725.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\ldots , G _ { n } } & { { } \\ H \\ : - \\ A _ { 1 } , \\ldots , A _ { k } \\qquad S \\ \\mathtt { e s } \\ \\mathtt { e l } \\ \\mathsf { M G U } } \\\\ { \\quad } & { { } \\ S ( A _ { 1 } , \\ldots , A _ { k } , G _ { 2 } , \\ldots , G _ { n } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            352,
+            720,
+            455
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "La conclusi´on de la regla de resoluci´on es el nuevo goal a resolver. ",
+        "bbox": [
+            38,
+            503,
+            803,
+            547
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on y Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            292,
+            25,
+            701,
+            88
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Dado un programa l´ogico $P$ y un goal G1, . . . , $G _ { n }$ , se quiere saber si el goal es consecuencia l´ogica de $P$ . ",
+        "bbox": [
+            35,
+            158,
+            944,
+            242
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on que se utiliza es: ",
+        "bbox": [
+            38,
+            283,
+            491,
+            327
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c37e2cf23d607fcd6d82149113087e3d4c012b406dce99b0ab4b627af5a225a3.jpg",
+        "text": "$$\n\\frac { \\dots , G _ { n } } { S ( A _ { 1 } , \\dots , A _ { k } , G _ { 2 } , \\dots , G _ { n } ) } \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            349,
+            701,
+            455
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "La conclusi´on de la regla de resoluci´on es el nuevo goal a resolver. ",
+        "bbox": [
+            38,
+            503,
+            806,
+            544
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Prolog resuelve el goal empezando desde $G _ { 1 }$ , de izquierda a derecha y haciendo DFS. Para cada $G _ { i }$ , recorre el programa de arriba hacia abajo buscando unificar $G _ { i }$ con la cabeza de una cl´ausula. ",
+        "bbox": [
+            41,
+            580,
+            961,
+            713
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on y Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            295,
+            25,
+            701,
+            88
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Dado un programa l´ogico $P$ y un goal G1, . . . , $G _ { n }$ , se quiere saber si el goal es consecuencia l´ogica de $P$ . ",
+        "bbox": [
+            35,
+            158,
+            944,
+            242
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on que se utiliza es: ",
+        "bbox": [
+            38,
+            283,
+            491,
+            323
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "equation",
+        "img_path": "images/87c2678bf5268e07ec87de85a6703263ba63ad79770a0a9e88551e9c5eaefac2.jpg",
+        "text": "$$\n\\frac { \\dots , G _ { n } } { S ( A _ { 1 } , \\dots , A _ { k } , G _ { 2 } , \\dots , G _ { n } ) } \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            349,
+            701,
+            455
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "La conclusi´on de la regla de resoluci´on es el nuevo goal a resolver. ",
+        "bbox": [
+            38,
+            503,
+            806,
+            544
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Prolog resuelve el goal empezando desde $G _ { 1 }$ , de izquierda a derecha y haciendo DFS. Para cada $G _ { i }$ , recorre el programa de arriba hacia abajo buscando unificar $G _ { i }$ con la cabeza de una cl´ausula. ",
+        "bbox": [
+            41,
+            580,
+            961,
+            713
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Tener en cuenta que el orden de las cl´ausulas y sus literales en el programa influyen en el resultado. ",
+        "bbox": [
+            35,
+            750,
+            908,
+            838
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Sustituci´on y Unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            295,
+            25,
+            701,
+            88
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Dado un programa l´ogico $P$ y un goal G1, . . . , $G _ { n }$ , se quiere saber si el goal es consecuencia l´ogica de $P$ . ",
+        "bbox": [
+            35,
+            158,
+            944,
+            242
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on que se utiliza es: ",
+        "bbox": [
+            38,
+            283,
+            491,
+            323
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1de6336a7a29dbe0f4ec8d2321f8af7f58de00eb16d7fbb5c137113b14601d7d.jpg",
+        "text": "$$\n\\frac { \\dots , G _ { n } } { S ( A _ { 1 } , \\dots , A _ { k } , G _ { 2 } , \\dots , G _ { n } ) } \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            349,
+            701,
+            455
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "La conclusi´on de la regla de resoluci´on es el nuevo goal a resolver. ",
+        "bbox": [
+            38,
+            503,
+            806,
+            544
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Prolog resuelve el goal empezando desde $G _ { 1 }$ , de izquierda a derecha y haciendo DFS. Para cada $G _ { i }$ , recorre el programa de arriba hacia abajo buscando unificar $G _ { i }$ con la cabeza de una cl´ausula. ",
+        "bbox": [
+            41,
+            580,
+            961,
+            713
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Tener en cuenta que el orden de las cl´ausulas y sus literales en el programa influyen en el resultado. ",
+        "bbox": [
+            35,
+            750,
+            906,
+            838
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "En este link hay ejemplos sobre el proceso de reducci´on de Prolog. ",
+        "bbox": [
+            41,
+            875,
+            743,
+            915
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo de resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Veamos un ejemplo. Sea el siguiente programa: ",
+        "bbox": [
+            33,
+            305,
+            585,
+            349
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "gato ( garfield ).   \ntieneMascota ( john , odie ).   \ntieneMascota ( john , garfield ).   \namaALosGatos ( X ) : - tieneMascota (X , Y ) , gato ( Y ). ",
+        "bbox": [
+            33,
+            419,
+            842,
+            595
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Mostrar el seguimiento (´arbol de ejecuci´on) de la consulta: amaALosGatos(Z). ",
+        "bbox": [
+            35,
+            647,
+            955,
+            694
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo de resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            317,
+            25,
+            676,
+            88
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e pasa si cambiamos el orden de algunas cl´ausulas? ",
+        "bbox": [
+            38,
+            308,
+            676,
+            349
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "gato ( garfield ).   \ntieneMascota ( john , garfield ).   \ntieneMascota ( john , odie ).   \namaALosGatos ( X ) : - tieneMascota (X , Y ) , gato ( Y ). ",
+        "bbox": [
+            33,
+            419,
+            842,
+            595
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "y el goal: amaALosGatos(Z). ",
+        "bbox": [
+            35,
+            650,
+            381,
+            691
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar un goal, los resultados posibles son los siguientes: ",
+        "bbox": [
+            41,
+            334,
+            729,
+            378
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "discarded",
+        "text": "Resoluci´on ",
+        "bbox": [
+            0,
+            0,
+            994,
+            99
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar un goal, los resultados posibles son los siguientes: ",
+        "bbox": [
+            46,
+            334,
+            732,
+            378
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "true: la resoluci´on termin´o en la cl´ausula vac´ıa. ",
+        "bbox": [
+            63,
+            389,
+            651,
+            430
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "discarded",
+        "text": "Resoluci´on ",
+        "bbox": [
+            2,
+            0,
+            994,
+            99
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar un goal, los resultados posibles son los siguientes: ",
+        "bbox": [
+            46,
+            334,
+            732,
+            378
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "true: la resoluci´on termin´o en la cl´ausula vac´ıa. ",
+        "bbox": [
+            63,
+            389,
+            651,
+            430
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "false: la resoluci´on termin´o en una cl´ausula que no unifica con ninguna regla del programa. ",
+        "bbox": [
+            60,
+            470,
+            936,
+            558
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "discarded",
+        "text": "Resoluci´on ",
+        "bbox": [
+            2,
+            0,
+            991,
+            99
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar un goal, los resultados posibles son los siguientes: ",
+        "bbox": [
+            46,
+            334,
+            732,
+            378
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "true: la resoluci´on termin´o en la cl´ausula vac´ıa. ",
+        "bbox": [
+            63,
+            389,
+            651,
+            430
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "El proceso de aplicaci´on de la regla de resoluci´on no termina. ",
+        "bbox": [
+            71,
+            595,
+            795,
+            639
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "discarded",
+        "text": "Resoluci´on ",
+        "bbox": [
+            2,
+            0,
+            991,
+            99
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Un predicado define una relaci´on entre elementos. No hay par´ametros de “entrada” ni de “salida”. ",
+        "bbox": [
+            35,
+            312,
+            883,
+            397
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "discarded",
+        "text": "Reversibilidad ",
+        "bbox": [
+            383,
+            25,
+            613,
+            84
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Un predicado define una relaci´on entre elementos. No hay par´ametros de “entrada” ni de “salida”. ",
+        "bbox": [
+            35,
+            312,
+            883,
+            397
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Conceptualmente, cualquier argumento podr´ıa cumplir ambos roles dependiendo de c´omo se consulte. ",
+        "bbox": [
+            35,
+            455,
+            814,
+            536
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "discarded",
+        "text": "Reversibilidad ",
+        "bbox": [
+            383,
+            25,
+            613,
+            84
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Un predicado define una relaci´on entre elementos. No hay par´ametros de “entrada” ni de “salida”. ",
+        "bbox": [
+            35,
+            312,
+            886,
+            393
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Conceptualmente, cualquier argumento podr´ıa cumplir ambos roles dependiendo de c´omo se consulte. ",
+        "bbox": [
+            38,
+            455,
+            814,
+            536
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Un predicado podr´ıa estar implementado asumiendo que ciertas variables ya est´an instanciadas, por diversas cuestiones pr´acticas. ",
+        "bbox": [
+            35,
+            599,
+            914,
+            683
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "discarded",
+        "text": "Reversibilidad ",
+        "bbox": [
+            383,
+            25,
+            613,
+            84
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Patrones de instanciaci´on ",
+        "text_level": 1,
+        "bbox": [
+            290,
+            25,
+            709,
+            84
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "El modo de instanciaci´on esperado por un predicado se comunicar´a en los comentarios. ",
+        "bbox": [
+            33,
+            136,
+            895,
+            220
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "Patrones de instanciaci´on ",
+        "text_level": 1,
+        "bbox": [
+            290,
+            29,
+            709,
+            84
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "El modo de instanciaci´on esperado por un predicado se comunicar´a en los comentarios. ",
+        "bbox": [
+            33,
+            136,
+            897,
+            220
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "% ! pow (+ B ,+ E , - P )   \n% Es verdadero si P es igual a B elevado a E . pow (...) : - ",
+        "bbox": [
+            33,
+            283,
+            820,
+            411
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "Patrones de instanciaci´on ",
+        "text_level": 1,
+        "bbox": [
+            290,
+            25,
+            709,
+            84
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "El modo de instanciaci´on esperado por un predicado se comunicar´a en los comentarios. ",
+        "bbox": [
+            33,
+            136,
+            897,
+            220
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "% ! pow (+ B ,+ E , - P )   \n% Es verdadero si P es igual a B elevado a E . pow (...) : - ",
+        "bbox": [
+            33,
+            283,
+            820,
+            411
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "+X -X ?X ",
+        "bbox": [
+            138,
+            551,
+            859,
+            628
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "debe estar instanciado no debe estar instanciado puede o no estar instanciado ",
+        "bbox": [
+            69,
+            680,
+            964,
+            720
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Patrones de instanciaci´on ",
+        "text_level": 1,
+        "bbox": [
+            290,
+            29,
+            709,
+            84
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "El modo de instanciaci´on esperado por un predicado se comunicar´a en los comentarios. ",
+        "bbox": [
+            33,
+            136,
+            897,
+            220
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "% ! pow (+ B ,+ E , - P )   \n% Es verdadero si P es igual a B elevado a E . pow (...) : - ",
+        "bbox": [
+            35,
+            283,
+            820,
+            411
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "+X -X ?X ",
+        "bbox": [
+            140,
+            551,
+            856,
+            628
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "debe estar instanciado no debe estar instanciado puede o no estar instanciado ",
+        "bbox": [
+            66,
+            680,
+            958,
+            742
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Se debe tener en cuenta que el usuario no puede suponer m´as cosas de las que se especificaron. En caso de llamar a un predicado con argumentos instanciados de otra manera, el resultado puede no ser el esperado. ",
+        "bbox": [
+            41,
+            819,
+            964,
+            948
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "El motor de operaciones aritm´eticas de Prolog es independiente del motor l´ogico (es extra-l´ogico). ",
+        "bbox": [
+            33,
+            272,
+            895,
+            363
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            585,
+            84
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "El motor de operaciones aritm´eticas de Prolog es independiente del motor l´ogico (es extra-l´ogico). ",
+        "bbox": [
+            33,
+            272,
+            897,
+            363
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Expresi´on aritm´etica: Un n´umero. ",
+        "bbox": [
+            38,
+            433,
+            281,
+            533
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "El motor de operaciones aritm´eticas de Prolog es independiente del motor l´ogico (es extra-l´ogico). ",
+        "bbox": [
+            35,
+            272,
+            895,
+            363
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Expresi´on aritm´etica: ",
+        "bbox": [
+            38,
+            433,
+            281,
+            474
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Un n´umero. ",
+        "bbox": [
+            66,
+            492,
+            232,
+            533
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Una variable ya instanciada en una expresi´on aritm´etica. ",
+        "bbox": [
+            69,
+            573,
+            740,
+            613
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "El motor de operaciones aritm´eticas de Prolog es independiente del motor l´ogico (es extra-l´ogico). ",
+        "bbox": [
+            33,
+            272,
+            895,
+            363
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "Expresi´on aritm´etica: ",
+        "bbox": [
+            38,
+            433,
+            281,
+            474
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "。 Un n´umero. ",
+        "bbox": [
+            66,
+            492,
+            232,
+            533
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "Una variable ya instanciada en una expresi´on aritm´etica. ",
+        "bbox": [
+            60,
+            573,
+            743,
+            613
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "E1+E2, E1-E2, E1\\*E2, E1/E2, etc, siendo E1 y E2 expresiones aritm´eticas. ",
+        "bbox": [
+            63,
+            650,
+            856,
+            735
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "Algunos operadores aritm´eticos: ",
+        "bbox": [
+            35,
+            235,
+            406,
+            275
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "E1 < E2, $\\mathtt { E 1 } ~ \\mathtt { \\sim } ~ \\mathtt { E 2 }$ , E1 >= E2, $\\mathtt { E 1 } ~ = : = ~ \\mathtt { E 2 }$ , $\\mathtt { E 1 } ~ = ~ \\mathtt { \\backslash } = ~ \\mathtt { E 2 }$ : eval´ua ambas expresiones aritm´eticas y realiza la comparaci´on indicada. ",
+        "bbox": [
+            63,
+            290,
+            900,
+            375
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "Algunos operadores aritm´eticos: ",
+        "bbox": [
+            38,
+            235,
+            406,
+            275
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "$ { \\mathbb { E } } 1 ~ < ~  { \\mathbb { E } } 2$ , $\\mathtt { E 1 } ~ \\mathtt { \\sim } ~ \\mathtt { E 2 }$ , E1 >= E2, $\\mathtt { E 1 } ~ = : = ~ \\mathtt { E 2 }$ , $\\mathtt { E 1 } ~ = ~ \\mathtt { \\backslash } = ~ \\mathtt { E 2 }$ : eval´ua ambas expresiones aritm´eticas y realiza la comparaci´on indicada. $( \\geq \\mathsf { y } \\leq$ se escriben de forma que no formen flechas). ",
+        "bbox": [
+            66,
+            290,
+            900,
+            422
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "Algunos operadores aritm´eticos: ",
+        "bbox": [
+            38,
+            235,
+            406,
+            275
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "$ { \\mathbb { E } } 1 ~ < ~  { \\mathbb { E } } 2$ , $\\mathtt { E 1 } ~ \\mathtt { \\sim } ~ \\mathtt { E 2 }$ , E1 >= E2, $\\mathtt { E 1 } ~ = : = ~ \\mathtt { E 2 }$ , $\\mathtt { E 1 } ~ = ~ \\mathtt { \\backslash } = ~ \\mathtt { E 2 }$ : eval´ua ambas expresiones aritm´eticas y realiza la comparaci´on indicada. $( \\geq \\mathsf { y } \\leq$ se escriben de forma que no formen flechas). ",
+        "bbox": [
+            63,
+            290,
+            900,
+            419
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "X is E: tiene ´exito s´ı y s´olo si X unifica con el resultado de evaluar la expresi´on aritm´etica E. ",
+        "bbox": [
+            63,
+            455,
+            900,
+            540
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "Algunos operadores aritm´eticos: ",
+        "bbox": [
+            38,
+            235,
+            406,
+            275
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "$ { \\mathbb { E } } 1 ~ < ~  { \\mathbb { E } } 2$ , $\\mathtt { E 1 } ~ \\mathtt { \\sim } ~ \\mathtt { E 2 }$ , E1 >= E2, $\\mathtt { E 1 } ~ = : = ~ \\mathtt { E 2 }$ , $\\mathtt { E 1 } ~ = ~ \\mathtt { \\backslash } = ~ \\mathtt { E 2 }$ : eval´ua ambas expresiones aritm´eticas y realiza la comparaci´on indicada. $( \\geq \\mathsf { y } \\leq$ se escriben de forma que no formen flechas). ",
+        "bbox": [
+            63,
+            290,
+            900,
+            419
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "X is E: tiene ´exito s´ı y s´olo si X unifica con el resultado de evaluar la expresi´on aritm´etica E. ",
+        "bbox": [
+            63,
+            455,
+            900,
+            540
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Algunos operadores no aritm´eticos: ",
+        "bbox": [
+            35,
+            613,
+            444,
+            650
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "· $\\texttt { X } = \\texttt { Y }$ : tiene ´exito si y s´olo si X unifica con Y. ",
+        "bbox": [
+            66,
+            665,
+            621,
+            709
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Algunos operadores aritm´eticos: ",
+        "bbox": [
+            38,
+            235,
+            406,
+            275
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "$ { \\mathbb { E } } 1 ~ < ~  { \\mathbb { E } } 2$ , $\\mathtt { E 1 } ~ \\mathtt { \\sim } ~ \\mathtt { E 2 }$ , E1 >= E2, $\\mathtt { E 1 } ~ = : = ~ \\mathtt { E 2 }$ , $\\mathtt { E 1 } ~ = ~ \\mathtt { \\backslash } = ~ \\mathtt { E 2 }$ : eval´ua ambas expresiones aritm´eticas y realiza la comparaci´on indicada. $( \\geq \\mathsf { y } \\leq$ se escriben de forma que no formen flechas). ",
+        "bbox": [
+            63,
+            290,
+            900,
+            419
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "X is E: tiene ´exito s´ı y s´olo si X unifica con el resultado de evaluar la expresi´on aritm´etica E. ",
+        "bbox": [
+            63,
+            455,
+            900,
+            540
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Algunos operadores no aritm´eticos: ",
+        "bbox": [
+            35,
+            613,
+            444,
+            650
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "· $\\texttt { X } = \\texttt { Y }$ : tiene ´exito si y s´olo si X unifica con Y. ",
+        "bbox": [
+            63,
+            665,
+            621,
+            709
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "X $\\backslash =$ Y: X no unifica con Y. Ambos t´erminos deben estar instanciados. ",
+        "bbox": [
+            63,
+            746,
+            903,
+            786
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            411,
+            29,
+            588,
+            84
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Aritm´etica ",
+        "text_level": 1,
+        "bbox": [
+            411,
+            25,
+            588,
+            84
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "image",
+        "img_path": "images/1d32e86f731ec0a65a45b2272722e47887fecdcf270392a354eb52853f42a81d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            102,
+            132,
+            1000,
+            985
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "Aritm´etica ",
+        "text_level": 1,
+        "bbox": [
+            411,
+            29,
+            585,
+            84
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "image",
+        "img_path": "images/892fb86e91b6ea0c296072878dff6844006b601984c71a6dab703ff8c9dc581a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            102,
+            213,
+            1000,
+            981
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "discarded",
+        "text": "?- 1+1 =:= 2. true. ",
+        "bbox": [
+            104,
+            132,
+            276,
+            209
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "Aritm´etica ",
+        "text_level": 1,
+        "bbox": [
+            411,
+            25,
+            585,
+            84
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "?- 1+1 =:= 2.   \ntrue. ",
+        "bbox": [
+            104,
+            132,
+            276,
+            209
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "?- 1+1 = 2. ",
+        "bbox": [
+            107,
+            253,
+            251,
+            290
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "Aritm´etica ",
+        "text_level": 1,
+        "bbox": [
+            411,
+            25,
+            585,
+            84
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "?- 1+1 =:= 2.   \ntrue. ?- 1+1 = 2.   \nfalse. ",
+        "bbox": [
+            104,
+            132,
+            276,
+            209
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            253,
+            251,
+            330
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "Aritm´etica ",
+        "text_level": 1,
+        "bbox": [
+            411,
+            25,
+            585,
+            84
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "?- 1+1 =:= 2.   \ntrue. ?- 1+1 = 2.   \nfalse. ",
+        "bbox": [
+            104,
+            132,
+            276,
+            209
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            253,
+            251,
+            330
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "?- 1+1 = 1+1. ",
+        "bbox": [
+            107,
+            375,
+            279,
+            411
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "Aritm´etica ",
+        "text_level": 1,
+        "bbox": [
+            411,
+            25,
+            585,
+            84
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "?- 1+1 =:= 2.   \ntrue. ?- 1+1 = 2.   \nfalse. ?- 1+1 = 1+1.   \ntrue. ?- 1+1 =:= 2.   \ntrue.   \n?- 1+1 = 2.   \nfalse.   \n?- 1+1 = 1+1.   \ntrue.   \n?- X is 1+1.   \nX = 2.   \n?- 2 is 1+1.   \ntrue. ?- 1+1 =:= 2.   \ntrue.   \n?- 1+1 = 2.   \nfalse.   \n?- 1+1 = 1+1.   \ntrue.   \n?- X is 1+1.   \nX = 2.   \n?- 2 is 1+1.   \ntrue.   \n?- 1+1 is 2.   \nfalse. ?- 1+1 =:= 2.   \ntrue. ?- 1+1 = 2.   \nfalse. ?- 1+1 is 2.   \nfalse. ",
+        "bbox": [
+            104,
+            132,
+            276,
+            209
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            253,
+            251,
+            330
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            375,
+            276,
+            452
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "image",
+        "img_path": "images/1c9acbaee46f88d1ec38702cc8219db4a5991a237ead943996031cdaf2ecd324.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            99,
+            125,
+            1000,
+            981
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            35,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "image",
+        "img_path": "images/ed8608903a48d74abf7ec5804b4237c756529876d9b29c70aece537c918221de.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            91,
+            117,
+            1000,
+            981
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            35,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "image",
+        "img_path": "images/6f23d70b2c815ec9eae5b36bfe308bee29198772f92cbc6e334927475b95c69c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            93,
+            117,
+            1000,
+            981
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            33,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            99,
+            125,
+            279,
+            694
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            33,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "image",
+        "img_path": "images/0708a1cdfaa9dbc2ac350513005a53023efb77733d635b08b3a87780fce95480.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            91,
+            117,
+            1000,
+            985
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            33,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            99,
+            121,
+            279,
+            830
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            35,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            132,
+            279,
+            209
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            253,
+            251,
+            330
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            738,
+            265,
+            812
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "?- 1+1 is 1+1. ",
+        "bbox": [
+            107,
+            860,
+            290,
+            897
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            33,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "image",
+        "img_path": "images/fe02c9fadbc91e27d5f34de1ef4b55c188ee4418b246e1d6efd0bbba988131ca.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            88,
+            121,
+            1000,
+            974
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "discarded",
+        "text": "Aritm´etica ",
+        "bbox": [
+            33,
+            0,
+            1000,
+            99
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado entre( $+ \\tt X$ ,+Y,-Z) que sea verdadero cuando el n´umero entero Z est´e comprendido entre los n´umeros enteros X e Y (inclusive). ",
+        "bbox": [
+            35,
+            250,
+            925,
+            338
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            25,
+            571,
+            88
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado entre( $+ \\tt X$ ,+Y,-Z) que sea verdadero cuando el n´umero entero Z est´e comprendido entre los n´umeros enteros X e Y (inclusive). ",
+        "bbox": [
+            38,
+            250,
+            928,
+            338
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "Notar que lo que se nos pide es un predicado capaz de instanciar sucesivamente Z en cada n´umero entero entre X e Y: ",
+        "bbox": [
+            33,
+            375,
+            961,
+            459
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "?- entre(1,3,Z).$z \\ = \\ 1$ ;$z \\ = \\ 2 ;$ $z \\ = \\ 3$ ;false.",
+        "bbox": [
+            66,
+            492,
+            298,
+            709
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            425,
+            25,
+            571,
+            88
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis: . [] [H | T] [X,Y,...,Z | L] ",
+        "bbox": [
+            49,
+            257,
+            309,
+            518
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            450,
+            29,
+            549,
+            80
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis: . [] . [H | T] 。 [X,Y,...,Z | L] ",
+        "bbox": [
+            38,
+            257,
+            309,
+            518
+        ],
+        "page_idx": 90
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos: ",
+        "bbox": [
+            38,
+            584,
+            151,
+            625
+        ],
+        "page_idx": 90
+    },
+    {
+        "type": "text",
+        "text": "[1,2], [1,2 | []], [1 | [2]], [1 | [2 | []]] [1,cero,’hola mundo’,[3,5]] ",
+        "bbox": [
+            63,
+            636,
+            734,
+            761
+        ],
+        "page_idx": 90
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            450,
+            29,
+            549,
+            80
+        ],
+        "page_idx": 90
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 91
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado long(+L,-N) que relaciona una lista con su longitud. ",
+        "bbox": [
+            66,
+            183,
+            950,
+            227
+        ],
+        "page_idx": 91
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 92
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado long(+L,-N) que relaciona una lista con su longitud. ",
+        "bbox": [
+            66,
+            183,
+            953,
+            227
+        ],
+        "page_idx": 92
+    },
+    {
+        "type": "text",
+        "text": "¿Es long/2 reversible? ¿Por qu´e? ¿C´omo lo notamos entonces? ",
+        "bbox": [
+            63,
+            297,
+            842,
+            345
+        ],
+        "page_idx": 92
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 93
+    },
+    {
+        "type": "text",
+        "text": "。 Definir el predicado long(+L,-N) que relaciona una lista con su longitud. ",
+        "bbox": [
+            66,
+            183,
+            953,
+            227
+        ],
+        "page_idx": 93
+    },
+    {
+        "type": "text",
+        "text": "¿Es long/2 reversible? ¿Por qu´e? ¿C´omo lo notamos entonces? ",
+        "bbox": [
+            66,
+            297,
+            842,
+            341
+        ],
+        "page_idx": 93
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado sacar $( + \\tt X$ ,+XS,-YS), que relaciona un elemento y una lista con otra lista como la original pero sin el elemento dado. Por ejemplo: ?- sacar(2,[1,2,2,3,2],L). $\\mathrm { ~ \\cal ~ L ~ } = \\mathrm { ~ \\ o ~ { ~ [ 1 ~ , 3 ] ~ } ~ }$ . ",
+        "bbox": [
+            66,
+            419,
+            969,
+            591
+        ],
+        "page_idx": 93
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 94
+    },
+    {
+        "type": "text",
+        "text": "。 Definir el predicado long(+L,-N) que relaciona una lista con su longitud. ",
+        "bbox": [
+            66,
+            183,
+            953,
+            227
+        ],
+        "page_idx": 94
+    },
+    {
+        "type": "text",
+        "text": "¿Es long/2 reversible? ¿Por qu´e? ¿C´omo lo notamos entonces? ",
+        "bbox": [
+            66,
+            297,
+            842,
+            341
+        ],
+        "page_idx": 94
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado sacar $( + \\tt X$ ,+XS,-YS), que relaciona un elemento y una lista con otra lista como la original pero sin el elemento dado. Por ejemplo: ?- sacar(2,[1,2,2,3,2],L). $\\mathrm { ~ \\cal ~ L ~ } = \\mathrm { ~ \\ o ~ { ~ [ 1 ~ , 3 ] ~ } ~ }$ . ",
+        "bbox": [
+            63,
+            419,
+            966,
+            595
+        ],
+        "page_idx": 94
+    },
+    {
+        "type": "text",
+        "text": "Definir el predicado sinConsecRep( $+ { \\tt X } { \\tt S }$ ,-YS) que relaciona una lista con otra que contiene los mismos elementos sin las repeticiones consecutivas. Por ejemplo: ?- sinConsecRep([1,2,2,3,2],L). L = [1,2,3,2]. ",
+        "bbox": [
+            66,
+            665,
+            955,
+            886
+        ],
+        "page_idx": 94
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 95
+    },
+    {
+        "type": "text",
+        "text": "Utilizando el siguiente predicado: ",
+        "bbox": [
+            35,
+            180,
+            422,
+            224
+        ],
+        "page_idx": 95
+    },
+    {
+        "type": "text",
+        "text": "append([],L,L).  \nappend([X|L1],L2,[X|L3]) :- append(L1,L2,L3).",
+        "bbox": [
+            60,
+            253,
+            720,
+            341
+        ],
+        "page_idx": 95
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes: ",
+        "bbox": [
+            35,
+            415,
+            350,
+            455
+        ],
+        "page_idx": 95
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 96
+    },
+    {
+        "type": "text",
+        "text": "Utilizando el siguiente predicado: ",
+        "bbox": [
+            35,
+            180,
+            422,
+            224
+        ],
+        "page_idx": 96
+    },
+    {
+        "type": "text",
+        "text": "append([],L,L).  \nappend([X|L1],L2,[X|L3]) :- append(L1,L2,L3).",
+        "bbox": [
+            60,
+            253,
+            720,
+            341
+        ],
+        "page_idx": 96
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes: ",
+        "bbox": [
+            38,
+            415,
+            353,
+            455
+        ],
+        "page_idx": 96
+    },
+    {
+        "type": "text",
+        "text": "prefijo(+L,?P): que tiene ´exito si P es un prefijo de la lista L. ",
+        "bbox": [
+            69,
+            470,
+            831,
+            514
+        ],
+        "page_idx": 96
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 97
+    },
+    {
+        "type": "text",
+        "text": "Utilizando el siguiente predicado: ",
+        "bbox": [
+            35,
+            180,
+            422,
+            224
+        ],
+        "page_idx": 97
+    },
+    {
+        "type": "text",
+        "text": "append([],L,L).  \nappend([X|L1],L2,[X|L3]) :- append(L1,L2,L3).",
+        "bbox": [
+            63,
+            253,
+            718,
+            341
+        ],
+        "page_idx": 97
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes: ",
+        "bbox": [
+            38,
+            415,
+            350,
+            455
+        ],
+        "page_idx": 97
+    },
+    {
+        "type": "text",
+        "text": "prefijo(+L,?P): que tiene ´exito si P es un prefijo de la lista L. ",
+        "bbox": [
+            74,
+            470,
+            828,
+            511
+        ],
+        "page_idx": 97
+    },
+    {
+        "type": "text",
+        "text": "sufijo(+L,?S): que tiene ´exito si S es un sufijo de la lista L. ",
+        "bbox": [
+            71,
+            540,
+            809,
+            584
+        ],
+        "page_idx": 97
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 98
+    },
+    {
+        "type": "text",
+        "text": "Utilizando el siguiente predicado: ",
+        "bbox": [
+            35,
+            180,
+            422,
+            224
+        ],
+        "page_idx": 98
+    },
+    {
+        "type": "text",
+        "text": "append([],L,L).  \nappend([X|L1],L2,[X|L3]) :- append(L1,L2,L3).",
+        "bbox": [
+            63,
+            253,
+            718,
+            341
+        ],
+        "page_idx": 98
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes: ",
+        "bbox": [
+            38,
+            415,
+            350,
+            455
+        ],
+        "page_idx": 98
+    },
+    {
+        "type": "text",
+        "text": "prefijo(+L,?P): que tiene ´exito si P es un prefijo de la lista L.   \nsufijo(+L,?S): que tiene ´exito si S es un sufijo de la lista L.   \nsublista(+L,?SL): que tiene ´exito si SL es una sublista de L. ",
+        "bbox": [
+            60,
+            470,
+            831,
+            650
+        ],
+        "page_idx": 98
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "Utilizando el siguiente predicado: ",
+        "bbox": [
+            35,
+            180,
+            422,
+            224
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "append([],L,L).  \nappend([X|L1],L2,[X|L3]) :- append(L1,L2,L3).",
+        "bbox": [
+            63,
+            253,
+            718,
+            341
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes: ",
+        "bbox": [
+            38,
+            415,
+            350,
+            455
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "prefijo(+L,?P): que tiene ´exito si P es un prefijo de la lista L. ",
+        "bbox": [
+            69,
+            470,
+            831,
+            511
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "sufijo(+L,?S): que tiene ´exito si S es un sufijo de la lista L. ",
+        "bbox": [
+            71,
+            540,
+            814,
+            584
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "sublista(+L,?SL): que tiene ´exito si SL es una sublista de L. ",
+        "bbox": [
+            74,
+            606,
+            823,
+            650
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "insertar(?X,+L,?LX): que tiene ´exito si LX puede obtenerse insertando a X en alguna posici´on de L. ",
+        "bbox": [
+            66,
+            680,
+            969,
+            764
+        ],
+        "page_idx": 99
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 100
+    },
+    {
+        "type": "text",
+        "text": "Utilizando el siguiente predicado: ",
+        "bbox": [
+            35,
+            180,
+            422,
+            224
+        ],
+        "page_idx": 100
+    },
+    {
+        "type": "text",
+        "text": "append([],L,L).  \nappend([X|L1],L2,[X|L3]) :- append(L1,L2,L3).",
+        "bbox": [
+            63,
+            253,
+            718,
+            341
+        ],
+        "page_idx": 100
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes: ",
+        "bbox": [
+            38,
+            415,
+            350,
+            455
+        ],
+        "page_idx": 100
+    },
+    {
+        "type": "text",
+        "text": "prefijo(+L,?P): que tiene ´exito si P es un prefijo de la lista L.   \nsufijo(+L,?S): que tiene ´exito si S es un sufijo de la lista L.   \nsublista(+L,?SL): que tiene ´exito si SL es una sublista de L.   \n. insertar(?X,+L,?LX): que tiene ´exito si LX puede obtenerse insertando a X en alguna posici´on de L.   \npermutacion(+L,?P): que tiene ´exito si P es una permutaci´on de la lista L. ",
+        "bbox": [
+            58,
+            463,
+            969,
+            878
+        ],
+        "page_idx": 100
+    },
+    {
+        "type": "text",
+        "text": "Estructuras parcialmente instanciadas ",
+        "text_level": 1,
+        "bbox": [
+            193,
+            25,
+            809,
+            88
+        ],
+        "page_idx": 101
+    },
+    {
+        "type": "text",
+        "text": "capicua(?Lista) es verdadero si Lista es capic´ua. Por ejemplo: [1,2,1] ",
+        "bbox": [
+            24,
+            106,
+            925,
+            150
+        ],
+        "page_idx": 101
+    },
+    {
+        "type": "text",
+        "text": "capicua ([]).   \ncapicua ([ _ ]).   \ncapicua ([ H | T ]) : - append (M , [ H ] , T ) , capicua ( M ). ",
+        "bbox": [
+            63,
+            220,
+            914,
+            352
+        ],
+        "page_idx": 101
+    },
+    {
+        "type": "text",
+        "text": "Pero puede no estar instanciada, ¿C´omo se comporta en tal caso? ",
+        "bbox": [
+            38,
+            400,
+            806,
+            448
+        ],
+        "page_idx": 101
+    },
+    {
+        "type": "text",
+        "text": "?- capicua(L).   \nL = [] ;   \nL = [_] ;   \nL = [_A, _A] ;   \nL = [_A, _, _A] ;   \nL = [_A, _B, _B, _A] ;   \nL = [_A, _B, _, _B, _A] ; ",
+        "bbox": [
+            63,
+            477,
+            430,
+            786
+        ],
+        "page_idx": 101
+    },
+    {
+        "type": "text",
+        "text": "Estructuras parcialmente instanciadas ",
+        "text_level": 1,
+        "bbox": [
+            193,
+            25,
+            809,
+            88
+        ],
+        "page_idx": 102
+    },
+    {
+        "type": "text",
+        "text": "capicua(?Lista) es verdadero si Lista es capic´ua. Por ejemplo: [1,2,1] ",
+        "bbox": [
+            22,
+            106,
+            925,
+            150
+        ],
+        "page_idx": 102
+    },
+    {
+        "type": "text",
+        "text": "capicua ([]).   \ncapicua ([ _ ]).   \ncapicua ([ H | T ]) : - append (M , [ H ] , T ) , capicua ( M ). ",
+        "bbox": [
+            63,
+            220,
+            914,
+            352
+        ],
+        "page_idx": 102
+    },
+    {
+        "type": "text",
+        "text": "Pero puede no estar instanciada, ¿C´omo se comporta en tal caso? ",
+        "bbox": [
+            38,
+            400,
+            806,
+            448
+        ],
+        "page_idx": 102
+    },
+    {
+        "type": "equation",
+        "img_path": "images/09ad6d92f0d00b3e76caabf88f1dc809663010ae56689c0292b9e0b84a032806.jpg",
+        "text": "$$\n\\begin{array} { l }  { \\mathrm { { \\small ~ [ ~ \\begin{array} { l } { { ~ L _ \\rho ~ } = ~ [ ~ ] ~ } ~ ; } } } \\\\ { { \\mathrm { { \\small ~ [ ~ \\rho ~ - ~ ] ~ } ~ ; } } } \\\\ { { \\mathrm { { \\small ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ [ ~ \\rho ~ - A ] ~ } ~ ; } } \\\\ { { \\mathrm { { \\small ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ [ ~ \\rho ~ - ~ ] ~ } ~ ; } } \\\\ { { \\mathrm { { \\small ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ [ ~ \\rho ~ - ~ ] ~ } ~ ; } } \\\\ { { \\mathrm { { \\small ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ 8 , ~ \\mathrm { { \\small ~ [ ~ \\rho ~ - A ] ~ } ~ } ~ ; } } \\\\ { { \\mathrm { { \\small ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ \\mathrm { { \\small ~ [ ~ \\rho ~ - ~ ] ~ } ~ - ~ \\mathrm { { \\small ~ [ ~ \\rho ~ - A ] ~ } ~ } ~ } ~ ; } } \\end{array} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            60,
+            522,
+            428,
+            786
+        ],
+        "page_idx": 102
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on alternativa: ",
+        "bbox": [
+            38,
+            860,
+            276,
+            897
+        ],
+        "page_idx": 102
+    },
+    {
+        "type": "text",
+        "text": "capicua ( L ) : - reverse (L , L ). ",
+        "bbox": [
+            74,
+            922,
+            555,
+            966
+        ],
+        "page_idx": 102
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 103
+    },
+    {
+        "type": "text",
+        "text": "Considerando el siguiente predicado: ",
+        "bbox": [
+            38,
+            213,
+            458,
+            253
+        ],
+        "page_idx": 103
+    },
+    {
+        "type": "text",
+        "text": "member(X,[X|_]).   \nmember(X,[_|L]) :- member(X,L). ",
+        "bbox": [
+            63,
+            286,
+            516,
+            371
+        ],
+        "page_idx": 103
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            25,
+            674,
+            88
+        ],
+        "page_idx": 104
+    },
+    {
+        "type": "text",
+        "text": "Considerando el siguiente predicado: ",
+        "bbox": [
+            38,
+            213,
+            458,
+            253
+        ],
+        "page_idx": 104
+    },
+    {
+        "type": "text",
+        "text": "member(X,[X|_]).   \nmember(X,[_|L]) :- member(X,L). ",
+        "bbox": [
+            63,
+            286,
+            513,
+            371
+        ],
+        "page_idx": 104
+    },
+    {
+        "type": "text",
+        "text": "Realizar un seguimiento de las siguientes consultas: ",
+        "bbox": [
+            41,
+            448,
+            629,
+            488
+        ],
+        "page_idx": 104
+    },
+    {
+        "type": "text",
+        "text": "?- member(2,[1,2]).  \n?- member(X,[1,2]).  \n?- member(5,[X,3,X]).  \n?- member(2,[1,2,2]).  \n?- length(L,2), member(5,L), member(2,L).",
+        "bbox": [
+            63,
+            500,
+            687,
+            827
+        ],
+        "page_idx": 104
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿Preguntas? ? ? ? ? ? ",
+        "bbox": [
+            198,
+            408,
+            801,
+            507
+        ],
+        "page_idx": 105
+    },
+    {
+        "type": "discarded",
+        "text": "Fin ",
+        "bbox": [
+            469,
+            29,
+            527,
+            80
+        ],
+        "page_idx": 105
+    }
+]

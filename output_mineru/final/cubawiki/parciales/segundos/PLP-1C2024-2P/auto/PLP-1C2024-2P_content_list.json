@@ -1,0 +1,885 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/5b6f46ec0691f1550c67edb0a3694eeca9d716a207a9b3ccc61378e7c591b500.jpg",
+        "table_caption": [
+            "PLP - Segundo Parcial - ${ \\bf 1 } ^ { \\mathrm { e r } }$ cuatrimestre de 2024 "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Nro.Libreta</td><td rowspan=1 colspan=1>ApellidoyNombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>NotaFinal</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            126,
+            96,
+            863,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien menos $( B - ) ^ { \\prime } { \\mathbf { y } }$ uno regular (R).Las notas para cada ejercicio son:-,IR,B-B.Entregarcadaejercicioenhojasseparadas.Ponernombreapelidoymerodeordenenodaslashojas, ynumerarlas.Sepuedeutilizar todo lodefinido en laspracticas $\\mathbf { y }$ todoloquesedio en clase,colocando referencias claras. El ordendelosejercicios esarbitrario.Recomendamosleer elparcial completo antesdeempezararesolverlo. ",
+        "bbox": [
+            124,
+            154,
+            867,
+            209
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1-Resolucion ",
+        "text_level": 1,
+        "bbox": [
+            122,
+            223,
+            321,
+            237
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Representar en forma clausal las siguientes formulas de logica de primer orden: ",
+        "bbox": [
+            122,
+            247,
+            710,
+            261
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. $\\forall X . ( \\mathtt { R a d i o } ( X ) \\implies \\mathtt { R u i d o s o } ( X ) )$ Todas las radios son ruidosas.   \n2. $\\forall X . \\forall Y . ( ( \\mathtt { P o s e e } ( X , Y ) \\wedge \\mathtt { L i b r o } ( Y ) ) \\implies \\neg \\exists Z . ( \\mathtt { P o s e e } ( X , Z ) \\wedge \\mathtt { R e v i s t a } ( Z ) ) )$ Toda persona que posee un libro no posee revistas.   \n3. ${ \\forall X . } ( \\mathtt { E s D o r m i l o n } ( X ) \\implies \\neg \\exists Y . ( \\mathtt { P o s e e } ( X , Y ) \\wedge$ Ruidoso(Y) Las personas que son dormilonas no poseen nada ruidoso.   \n4.X(Posee(pepe,X)A（Libro(X)VRadio $( X )$ ） Pepe posee un libro o una radio.   \nb)Utilizando resolucion,determinar si la siguiente formula cs consecuencia del conjuntoanterior: EsDormilon(pepe)=→-3Z.(Posee(pepe,Z)^Revista $( Z )$ ） Si Pepe es dormilon,entonces no posce revistas. Indicarla sustituciónutilizada encada paso.Esimportante tenerunplan,ya sea cscritooen la cabeza.   \nc) Mirando laresolucion utilizada enel punto anterior,fue SLD? Justificar. ",
+        "bbox": [
+            142,
+            268,
+            705,
+            390
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            117,
+            399,
+            870,
+            497
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Programacion Logica ",
+        "text_level": 1,
+        "bbox": [
+            119,
+            511,
+            403,
+            526
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementar lospredicados respetandoencada caso lainstanciaci6n pedida.Los generadores deben cubrir todas lasinstancias validas deaquelloque generansinrepetirdos veceslamisma.Nousar cut(!)nipredicadosdealto orden como setof,con la unica excepcion de not. ",
+        "bbox": [
+            117,
+            527,
+            870,
+            567
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eneste ejercicio ayudaremos a un grupo de jurados a analizar las notas de las materias que cursaron algunos estudiantes para presentarse a concurso.Se cuenta con el predicado estudiante(?E) que es verdadero cuando Ees un estudiante,y con el predicado notas(-xs) que instancia en XS una listadetriplas correspondientesalas notasde los estudiantes en cada materia de la siguiente forma: (Estudiante,Materia,Nota).Enlalista de notas pueden aparecer aplazos,pero se asume que esta bien formada (es decir,puede haber muchos aplazos paraunestudianteen una materia,peroalo sumo un aprobado).Se pide: ",
+        "bbox": [
+            119,
+            580,
+            868,
+            676
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Definir el predicado tieneMateriaAprobada $( + E , + M )$ que es verdadero cuando el estudiante E tiene la materia M aprobada (es decir,la nota cs mayoro igual a4).   \nb)Definir elpredicadoeliminarAplazos(+N,-L)queesverdaderocuando NSesunalistadenotasy L eslamisma lista,pero eliminando los aplazos.Los aplazos s6lo pueden eliminarse si el estudiante finalmente aprobo la materia.Por ejemplo; ?-eliminarAplazos([（juan,plp,3),(juan,plp,9),(maria,tlen,2)],L). L=[（juan,plp,9）,(maria,tlen,2)].   \nc)Definir elpredicadopromedio(+A-P)quecs verdaderocuandoAcsuncstudiante,yPeselpromedio de todas sus notas luego de eliminar los aplazos. Sugerencia: armar una lista de notas de A   \nd) Definir el predicado mejorEstudiante(-A) quecs verdadero cuando A es el estudiante cuyo promedio es el nas alto.Puede haber mas de una solucion enaso de que haya mas de un estudiante con el promedio m&s alto.En este inciso no esta permitido utilizar estructuras auxiliares. ",
+        "bbox": [
+            117,
+            685,
+            870,
+            906
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            487,
+            928,
+            500,
+            940
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            0,
+            136,
+            66
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a)1.Considerar las siguientes definiciones: ",
+        "bbox": [
+            132,
+            100,
+            453,
+            115
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Object subclass:A[ B subclass:C[ a:xb:y a:xb:y xa:(yc)b:self. x. 2. [self a:super cb:self].   \n] ]   \nA subclass:B[ a:x b:y yc+x value. 1. ",
+        "bbox": [
+            171,
+            123,
+            813,
+            337
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hacer una tabla donde se indique,en orden,cada mensaje se envia,que objeto lo recibe, con que colaboradores,enqué clase estael metodo respectivo,y cual es el resultado final de cada colaboracion tras ejecutar el siguiente codigo: ",
+        "bbox": [
+            188,
+            353,
+            870,
+            394
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "（Anew)a:(B new）b:(C new）",
+        "bbox": [
+            208,
+            402,
+            452,
+            416
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "I. Implementar un metodo para el mensaje #divisores,cuyo objeto receptor cs un numero entero, que devuelve una colecci6n con sus divisores. Sugerencia:utilizarelmensaje binario #'\\\\'quedevuelveel restodela división entera entredos numeros. ",
+        "bbox": [
+            166,
+            426,
+            872,
+            478
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Deinos'rar en deduccion natural que vale Ia siguiente f6rmula sin usar principios de razonamiente clasicos: ",
+        "bbox": [
+            129,
+            489,
+            873,
+            514
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4926265492608ea94bc365f47380e50ddbf2872a005241b6fb4d9dffd815ed01.jpg",
+        "text": "$$\n\\forall X . \\forall Y . ( \\exists Z . ( P ( X , Z ) \\land P ( Z , Y ) ) \\implies \\exists W . P ( X , W ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            326,
+            532,
+            699,
+            551
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio 3-Objetos y Deduccion Natural ",
+        "bbox": [
+            132,
+            76,
+            478,
+            90
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            913,
+            505,
+            923
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            781,
+            48,
+            791,
+            59
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2024-07-05 ",
+        "bbox": [
+            781,
+            26,
+            931,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "#26 ",
+        "text_level": 1,
+        "bbox": [
+            194,
+            41,
+            265,
+            68
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "x.(Radi（x）=>Rvidoso（x）>=Vx.（→Rado（x）√Rvidso（x））={→Radio（x），Ruidoso（x>",
+        "bbox": [
+            122,
+            99,
+            547,
+            195
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "XVY（（Posee（x，>）△∠ihro（>）)→-z.（Posee（x,)△Revista（z））XY（（Posee（XY)Libro(Y)）√Vz（Posee（x，）△Revis+a（)）√x.Vx（Posee（xy)Libro(y)√∀z（-Posee（×，)√→Revis+a(）)=XVY.Vz.（+Posee（x，y)v-Libr(Y)vPosee（×,z)√Revis+a(z)=泛=Posee（x，>），+Libro(>)-fosee（x,z)，Revista(）3",
+        "bbox": [
+            117,
+            236,
+            959,
+            400
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "VX.(∈sDormilon（×)>-3Y（POsee(x，y）△Ruldoso（y>））=√x.(-EsDormlon（x)vVY→（Posee（x，Y)△Ruidoso（Y)))=xvY.(EsDormilon（x)√=Posee（×，x)VRuidoso（Y）)=泛∈sDormjlon（x)，Posee（×，X)，→Ruidoso（x）3}",
+        "bbox": [
+            117,
+            441,
+            835,
+            570
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "x.(Posee（pepe，X)人（Libro（×）√Radio（x）))   \n→Posee（pepe，K)人(Libro(K)√Radio(K)） laskolemizacion preservala satisFacibilidad pero nol validez，esdecirn。son Fomulas eqvivalen+es ",
+        "bbox": [
+            122,
+            612,
+            917,
+            738
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "={Posee（pepe，<)s≤<ibro(k)，Radio(K)}}:EsDormilon(pepe)=>3z（Posee(pepe,2)△Revista（2))正",
+        "bbox": [
+            119,
+            748,
+            768,
+            807
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            18,
+            359,
+            52,
+            381
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "EJ ",
+        "bbox": [
+            102,
+            55,
+            151,
+            77
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            18,
+            631,
+            55,
+            657
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            53,
+            34,
+            872,
+            130
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "P:（EsDormilon(pepe)=>7z.(Posee(pepe,2)△Revista(z)))=（E<Dormilon（Pepe)V.<Posce（pepe，≥)△Revista(E)>)=EsDornilon(pepe)△∈.(Posee(pepe，)△Revista())→EsDormilon(pepe)△（Posee(pepe，R)△Revista(R))={{EsDormilon（pepe），Posee(pepe，R)}Revista(R）了",
+        "bbox": [
+            53,
+            156,
+            860,
+            326
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Clausulas: ",
+        "bbox": [
+            58,
+            368,
+            184,
+            388
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1{-Radio（x），Ruidoso（x)}  \n2:{Posee（x，y)，Libro（>)，Posee(×z)，-Revsa(z)3  \n3：21EsDormilon（x)，→Posce（×，>)，→Ruidoso（γ)3  \n4:{Posee（pepe，K）}  \n5:Libr（K），bRadio(K)  \n6EsDormilon(pepe）  \n7：{Posee（pepe，R)  \n8:{Revista（R）?",
+        "bbox": [
+            57,
+            399,
+            786,
+            665
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(woen mssfhel numerar zca as uoriebles？) ",
+        "bbox": [
+            168,
+            676,
+            783,
+            703
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "PepepoSee un lilorouna radio.Corro Pepe esdormilon，no tienenada ruidoso.Las radios Son rvidosas.CenaEntonces pepetiene unlioroYnorevistaseapt ",
+        "bbox": [
+            55,
+            748,
+            842,
+            844
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            946,
+            625,
+            984,
+            652
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            944,
+            350,
+            979,
+            374
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "NOTA ",
+        "bbox": [
+            33,
+            967,
+            78,
+            983
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3Y6 ",
+        "bbox": [
+            131,
+            109,
+            201,
+            131
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3{EsDornlon（x），=POosee（x），Ruidoso(x）了6:≤EsDomlon(pepe）?sq=mgu（xq=pepe3）={Xq=Pepeq：{-Posee（Pepe,Ya），→Rudoo（x）",
+        "bbox": [
+            127,
+            141,
+            761,
+            274
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4:Posee（pep<，K）}  \nq:{P△sce（pepe,Ya）RUIdoso(Ya）？  \nS1O=ngu(pepe=pepe，yq=K})=Y=K  \n10:之→RuidosO（K）}  \n  \n{:{-Rado（xu），Rvidoso(xt）  \n：-Rvidoso(K）  \nS=mgy（≌<=x3)={X=K²  \n1：{Radio(K)}   \nSy（mequedosin+empo，noreescribotaformulas)  \ns亿=mAU(εK=K3）={  \n12:{∠)bo（K）}  \ny2:Taita la susktucc  \n=≌Posec（x，K），Posee(x，=)，Revista(2）  \nNN  \n4y13SUsRtocion？  \n14:{Posee（pepe，2），-Revis+a(2）  \n：ngU：{z:=RS  \n15:-Revista（R）ξ",
+        "bbox": [
+            127,
+            328,
+            761,
+            457
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            127,
+            484,
+            610,
+            643
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            131,
+            669,
+            915,
+            764
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            127,
+            782,
+            803,
+            877
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "GJ1 #26 XXXXXXXXXXX 2024-07-05 ",
+        "bbox": [
+            104,
+            33,
+            984,
+            90
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            16,
+            359,
+            50,
+            382
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            20,
+            630,
+            53,
+            655
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            40,
+            34,
+            586,
+            200
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/61a5c54b2158070b00ba58aeba7f4571e0b0f192da388cc75d5df2febf564ff1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            50,
+            224,
+            430,
+            338
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Noes resolucion sD poryue lasclausulas no sonodas deHorn（en paoticlarlaS) ",
+        "bbox": [
+            43,
+            374,
+            868,
+            445
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            941,
+            349,
+            976,
+            371
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            942,
+            623,
+            978,
+            649
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "tieneNateriaAprobada（E)-estudiante(E)notas(Ns),between(4，10，N)，member((E,M,N),NS)",
+        "bbox": [
+            127,
+            105,
+            485,
+            270
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Nstienetodas lasnotasElestudiante puedefeprobar variasvecescon anisma nota,perosiaprobo，+ieneva unica nbtapaalanateriaM enelango [y,oIPoreso estepredicadoretornatrvea1o sumo unaonica vez. ",
+        "bbox": [
+            126,
+            294,
+            957,
+            420
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "eliminarAplazas([I,[了）.   \nelminarAplaZOS(L（E,M,N)NS],[(E,M,N)LS]) N>=4 eliminarAplazos(Ns∠s).   \nelimina-AplaZOS(CE,M,N)INSJ,[（E,M,N)LS]) N<4, not(tieneMateriaAprobaca(E，M))， eliminarAplaeos(NS,∠S)   \nelminarAplazOS([(E,M,N)丨NS],∠S):- N<4, tienenateriaAprobada(E,M)， eliminarAplazos(NS,LS). V Asumoque +ienelateriaAprobada Fevisolamismalistade ",
+        "bbox": [
+            126,
+            460,
+            761,
+            923
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "notas qverecibe eliminarAplazos. ",
+        "bbox": [
+            174,
+            882,
+            895,
+            941
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "26 2024-07-0s EJ2 XXXXXXXXXXXXX ",
+        "bbox": [
+            102,
+            32,
+            979,
+            86
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            20,
+            625,
+            55,
+            650
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            18,
+            357,
+            52,
+            381
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "smedio(A,P)   \nno+as(NS1),   \neliminarAplazos(Ns1,NS2)   \nestudiante(A),   \nnotasDe<A,NSz,ANS), sumlis+(ANS,S), lenath(s,N), PisS/N. Asumo   \n∴notasDe（+A，+NS2,-ANS）   \nnotasDe(-，[,[J).   \nno+asDe(A，[（△,-N)INS]，[N1LS]):-notasDe(A，NS,∠S)   \nnotasDe(A,[(B，,-)INS],∠S) A-B, notasDe(A,Ns,(s). ",
+        "bbox": [
+            77,
+            52,
+            411,
+            345
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            45,
+            390,
+            825,
+            589
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "MeorEstudiante(A) estudiante(A), Asumoqveestudiante/1instanciaodos losestudiantes. promedio(AP) oKpeo  Como Wcsle promedo not(Cestudlante(B), (reversbve euA)no nesostohas promedio(B,Pz), stcnd PZ>P ",
+        "bbox": [
+            43,
+            630,
+            887,
+            823
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            937,
+            625,
+            973,
+            650
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            939,
+            352,
+            973,
+            375
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "EJ3a) #26 XXXXXXXXXXXX 2024-07-05 Mensaje ReceptorColaboradores Implementado enResuttadc new object unA nev ohject nB new object unc a:b: UnA unB,unc A 3 C unc C bleque ab unB bloque,unA B 3 valve bloque Blockclosure 11 C unC B   \na:b: unc 1,unC C 1 d UnA A   \n+ 2 4 SmalInteger 3 ",
+        "bbox": [
+            94,
+            13,
+            968,
+            503
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Resultadode（Anew)a:(Bnew)b（Cnew)es3 ",
+        "bbox": [
+            126,
+            593,
+            887,
+            616
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            20,
+            353,
+            53,
+            377
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            38,
+            692,
+            68,
+            983
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            23,
+            793,
+            231
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/fb4a5e646a3771635a605e653d712b0eb6aa9a71b77ec05725199580a31fb897.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            26,
+            124,
+            897,
+            988
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            939,
+            629,
+            974,
+            655
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            941,
+            355,
+            973,
+            378
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            35,
+            970,
+            82,
+            984
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "2024-07-05EJ3b) #26ax△FP（x²)△P（z,y）Net△├P<x,z）≥W²}ax上32.（P（2）△P（,）） △：1,（P（x2）△P（z））F3WP(xW）e:²（P（x2）△P（z,Y）)F3WP（X，W）>2FV（aW.P（xW））卜32.（P（×2）P（2,Y）)=3WP（x，W）-vy（（P（x²）△P(2>)）=>aW.P(x，W））FVxvY（=z.(P（x2）P（2y））→3WP(x，W）)",
+        "bbox": [
+            104,
+            11,
+            994,
+            590
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            20,
+            351,
+            53,
+            375
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            20,
+            625,
+            55,
+            650
+        ],
+        "page_idx": 10
+    }
+]

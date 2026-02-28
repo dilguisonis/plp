@@ -1,0 +1,291 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Examen para repaso ",
+        "text_level": 1,
+        "bbox": [
+            336,
+            46,
+            662,
+            65
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 - Programaci´on L´ogica ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            80,
+            405,
+            95
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementar los predicados respetando en cada caso la instanciaci´on pedida. Los generadores deben cubrir todas las instancias v´alidas de aquello que generan sin repetir dos veces la misma. Se deben indicar los patrones de instanciaci´on de todos los predicados auxiliares. No usar macros que colapsen cl´ausulas, cut (!) ni predicados de alto orden, con la ´unica excepci´on de not. No est´a permitido el uso de estructuras auxiliares. ",
+        "bbox": [
+            117,
+            97,
+            882,
+            152
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Definir el predicado unico( $+ \\mathbb { L }$ ,-U) que es verdadero cuando $\\mathrm { U }$ aparece una sola vez en la lista L. Resolver sin contar apariciones. Por ejemplo: ?- unico([a,b,c,a,a,b,d],U). $\\texttt { U } = \\texttt { c }$ ; $\\texttt { U } = \\texttt { d }$ ; false.   \nb) Definir el predicado sinRepetidos $( + \\mathbb { L } )$ que represente la siguiente propiedad: una lista L hace verdadero a sinRepetidos si todos sus elementos son ´unicos.   \nc) En este inciso vamos a representar a un subconjunto de las f´ormulas de l´ogica proposicional con negaci´on e implicaci´on. Los ´atomos utilizados ser´an neg(P) e imp(P,Q), con P y $\\mathsf { U }$ f´ormulas. Definir el predicado formula $( + \\mathtt { V S } , - \\mathtt { F } )$ que instancia en $\\mathtt { F }$ todas las f´ormulas que usan las variables proposicionales que aparecen en la lista VS. Por ejemplo: ?- formula([p,q],F). F = neg(neg(p)); $\\begin{array} { r l } & { \\mathbf { F _ { \\lambda } } = \\mathrm { \\ n e g } \\left( \\mathrm { i } \\mathrm { m p } \\left( \\mathrm { q } , \\mathrm { q } \\right) \\right) ; } \\\\ & { \\mathbf { F _ { \\lambda } } = \\mathrm { \\ i m p } \\left( \\mathrm { p } , \\mathrm { n e g } \\left( \\mathrm { p } \\right) \\right) ; } \\\\ & { \\mathbf { \\Phi } \\cdot \\mathbf { \\Phi } \\cdot } \\\\ & { \\mathbf { F _ { \\lambda } } = \\mathrm { \\ i m p } \\left( \\mathrm { n e g } \\left( \\mathrm { q } \\right) , \\mathrm { i } \\mathrm { m p } \\left( \\mathrm { n e g } \\left( \\mathrm { p } \\right) , \\mathrm { p } \\right) \\right) ; } \\\\ & { \\mathbf { \\Phi } \\cdot \\mathbf { \\Phi } . } \\end{array}$ F = p; F = neg(neg(q)); $\\mathtt { F } \\ = \\ \\mathtt { q }$ ; F = imp(p,p); F = neg(p); F = imp(p,q); F = neg(q); Sugerencia: prestar atenci´on al orden en que se devuelven los resultados. No es necesario que se mantenga el orden del ejemplo, pero s´ı que se instancien todas las f´ormulas. ",
+        "bbox": [
+            121,
+            162,
+            889,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d) $\\mathrm { i . E l }$ predicado anterior es reversible en F? Justificar brevemente. ",
+        "bbox": [
+            129,
+            482,
+            630,
+            498
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 - Resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            513,
+            317,
+            527
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Consideremos el siguiente lenguaje del dominio de funciones num´ericas: ",
+        "bbox": [
+            141,
+            538,
+            668,
+            552
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "■ $X \\le Y$ : predicado binario que representa que $X$ es menor o igual que $Y$ ■ $c o t a ( F , X )$ : predicado binario que representa que $X$ es una cota superior de la funci´on $F$ ■ $s u p ( F )$ : s´ımbolo de funci´on unario que representa el supremo de la funci´on $F ^ { \\dagger }$ ■ $e v ( F , N )$ : s´ımbolo de funci´on binario que representa el resultado de evaluar la funci´on $F ^ { \\dagger }$ en $N$ ",
+        "bbox": [
+            141,
+            561,
+            852,
+            648
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sean los siguientes axiomas: ",
+        "bbox": [
+            115,
+            656,
+            324,
+            670
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\forall F . \\forall X . ( c o t a ( F , X ) \\Leftrightarrow \\forall N . e v ( F , N ) \\leq X )$ (definici´on de cota superior)   \n$\\forall F . ( c o t a ( F , s u p ( F ) ) \\land \\forall Y . ( c o t a ( F , Y ) \\Rightarrow s u p ( F ) \\leq Y )$ ) (el supremo de una funci´on es una cota superior, y es la m´as chica de las cotas superiores)   \n∀X $\\therefore \\forall Y . \\forall Z . ( ( X \\leq Y \\land Y \\leq Z ) \\Rightarrow X \\leq Z )$ (transitividad de la relaci´on menor o igual) ",
+        "bbox": [
+            141,
+            678,
+            825,
+            785
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Se pide: ",
+        "bbox": [
+            115,
+            794,
+            176,
+            808
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a. Pasar a forma clausal cada f´ormula   \nb. Demostrar usando resoluci´on que si una funci´on es m´as chica que otra en todo punto, el supremo tambi´en es m´as chico: ∀F.∀G.( $\\forall N . e v ( F , N ) \\leq e v ( G , N ) ) \\Rightarrow s u p ( F ) \\leq s u p ( G ) )$   \nc. La resoluci´on utilizada en el punto anterior $\\boldsymbol { \\mathscr { L } }$ fue SLD? Justificar. ",
+        "bbox": [
+            132,
+            816,
+            884,
+            909
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            494,
+            952,
+            504,
+            963
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 - Inferencia, Deducci´on Natural y POO ",
+        "text_level": 1,
+        "bbox": [
+            115,
+            48,
+            547,
+            65
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Consideremos el C´alculo Lambda tipado extendido con intervalos de n´umeros naturales: ",
+        "bbox": [
+            129,
+            76,
+            806,
+            90
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f963dc7536fd4cdbb43f52284d955eecff6fa7b01f2636af6aa6ffa9a60e4fbb.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\sigma : : = \\dots \\mid \\mathsf { I n t e r v a l o } } \\\\ & { M : : = \\dots \\mid \\left[ M , M \\right] \\mid \\mathrm { c a s e ~ } M \\mathrm { ~ o f ~ } [ \\mathbf { \\Lambda } ] \\sim M ; x : y \\sim M } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            196,
+            95,
+            806,
+            129
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "donde $[ M , N ]$ es el intervalo que va desde el n´umero $M$ hasta $N$ (inclusive) y case $M$ of $[ \\ ] \\sim N ; x : \\cdot$ $y \\sim O$ es un observador que recorre el intervalo $M$ como si fuese una lista: con un caso para el intervalo vac´ıo $( N )$ y otro para un intervalo con al menos un elemento ( $O$ ). En el segundo caso, las apariciones libres de la variable $x$ en $O$ se ligar´an al primer elemento del intervalo y las apariciones libres de $y$ en $O$ se ligar´an al intervalo sin su primer elemento. ",
+        "bbox": [
+            156,
+            131,
+            884,
+            204
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se extiende tambi´en el algoritmo de inferencia de la siguiente manera: ",
+        "bbox": [
+            159,
+            209,
+            675,
+            223
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/33c506524aaa1d3bc127079883c3efcf01fdb3f9a65273e11484724ac880aac4.jpg",
+        "text": "$$\n{ \\begin{array} { r l } { { \\mathcal { Z } } ( \\Gamma \\mid [ M _ { 1 } , M _ { 2 } ] ) = ( \\mathsf { l n t e r v a l o } \\mid \\{ \\tau _ { 1 } \\stackrel { ? } { = } } N a t , \\tau _ { 1 } \\stackrel { ? } { = } \\tau _ { 2 } \\} \\cup E _ { 1 } \\cup E _ { 2 } ) } \\\\ { { \\mathrm { ~ d o n d e ~ } } { \\mathcal { Z } } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } \\\\ & { { \\mathcal { Z } } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\end{array} \n$$",
+        "text_format": "latex",
+        "bbox": [
+            156,
+            227,
+            615,
+            275
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/98cb6974d630c1457d28d0a0c0c8912de341aa290e6c5c6eb976abcccb3a7839.jpg",
+        "text": "$$\n\\begin{array} { r l } { { \\mathcal { T } } ( \\Gamma \\mid \\mathrm { c a s e ~ } M _ { 1 } \\mathrm { ~ o f ~ } [ ] \\sim M _ { 2 } ; x : y \\sim M _ { 3 } ) = } & { } \\\\ { { \\left( \\tau _ { 2 } \\mid \\{ \\tau _ { 2 } \\stackrel { ? } { = } \\tau _ { 3 } , \\tau _ { 1 } \\stackrel { ! } { = } \\mathsf { m t e r v a l o } , X _ { x } \\stackrel { ? } { = } N a t , X _ { y } \\stackrel { ? } { = } \\mathsf { l n t e r v a l o } \\} \\cup E _ { 1 } \\cup E _ { 2 } \\cup E _ { 3 } \\right) } } & { } \\\\ { { \\mathrm { ~ d o n d e ~ } } } & { { \\mathcal { T } } ( \\Gamma \\mid M _ { 1 } ) = { \\left( \\tau _ { 1 } \\mid E _ { 1 } \\right) } } \\\\ & { { \\mathcal { T } } ( \\Gamma \\mid M _ { 2 } ) = { \\left( \\tau _ { 2 } \\mid E _ { 2 } \\right) } } & { } \\\\ & { { \\mathcal { T } } ( \\Gamma , x : X _ { x } , y : X _ { y } \\mid M _ { 3 } ) = { \\left( \\tau _ { 3 } \\mid E _ { 3 } \\right) } } & { } \\\\ & { { \\textbf { \\textsf { V } } } , { \\textbf { \\textsf { V } } } { } { } _ { \\mathrm { r e s s } } { } ; { \\mathrm { e l } } { } _ { \\mathrm { s h a c e ~ f e } } { } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            157,
+            291,
+            690,
+            374
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Usar el algoritmo $\\mathcal { L }$ para inferir el tipo de la siguiente expresi´on, o demostrar que no es tipable: ",
+        "bbox": [
+            152,
+            399,
+            860,
+            414
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/507132e2bfb77208d488188a4e0c727659072bc5655c2657a9afcd933293dc7a.jpg",
+        "text": "$$\n\\mathrm { c a s e } \\ ( \\lambda x . [ \\underline { { { 1 } } } , x ] ) \\ y \\ \\mathrm { o f } \\ [ \\mathbf { \\Lambda } ] \\sim ( \\lambda z . [ y , y ] ) ; x : z \\sim z\n$$",
+        "text_format": "latex",
+        "bbox": [
+            347,
+            426,
+            689,
+            441
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar el siguiente teorema usando deducci´on natural (es necesario usar principios de razonamiento cl´asicos): ",
+        "bbox": [
+            127,
+            478,
+            880,
+            507
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/082343384180fabdbb89611cd96def852f6f330cb1919659604685e919959ab6.jpg",
+        "text": "$$\n\\exists X . ( P ( X ) \\implies \\forall X . P ( X ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            420,
+            527,
+            620,
+            541
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            951,
+            505,
+            963
+        ],
+        "page_idx": 1
+    }
+]

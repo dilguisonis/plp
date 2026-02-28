@@ -1,0 +1,1856 @@
+[
+    {
+        "type": "text",
+        "text": "Chapter 2 ",
+        "text_level": 1,
+        "bbox": [
+            369,
+            166,
+            488,
+            186
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Intuitionistic logic ",
+        "text_level": 1,
+        "bbox": [
+            320,
+            226,
+            535,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The word ‘logic” is used with a variety of meanings,from common sense reasoning to sophisticated formal systems. In most cases, logic is used to classify statements as “true” or “false\". That is, what we mean by logic is usually one of the many possible variants of two-valued classical logic. ",
+        "bbox": [
+            122,
+            310,
+            735,
+            381
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Indeed, classical logic can by all means be seen as a standard wherever there is a need for precise reasoning, especially in mathematics and computer science. The principles of classical logic are extremely useful as a tool to describe and classfy the reasoning patterns occurring both in everyday life and in mathematics. ",
+        "bbox": [
+            122,
+            382,
+            735,
+            469
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "It is however important to understand the following. First of all, no sys-tem of rules can capture all of the rich and complex world of human thoughts, and thus every logic can merely be used as a limited-purpose tool rather than as an ultimate oracle, responding to all possible questions. ",
+        "bbox": [
+            122,
+            472,
+            735,
+            541
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In addition, the principles of classical logic,although easily acceptable by our intuition,are not the only possible reasoning principles. It can be argued that from certain points of view (likely to be shared by the reader with a computing background) it is actually better to use other principles. Let us have a closer look at this. ",
+        "bbox": [
+            122,
+            542,
+            735,
+            630
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Classical logic is based on the fundamental notion of truth. The truth of a statement is an“absolute” property of this statement, in that it is independent of any reasoning,understanding,or action. A well-formed and unambiguous declarative statement is either true or false, whether or not we (or anybody else) know it, prove it,or verify it in any possible way. Here “false” means the same as “not true, and this is expressed by the excluded middle principle (also known as tertium non datur) stating that $p \\lor \\lnot p$ holds no matter what the meaning of $p$ is. ",
+        "bbox": [
+            122,
+            631,
+            735,
+            772
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Needless to say, the information contained in the claim $p \\lor \\lnot p$ is quite limited. Take the following sentence as an example: ",
+        "bbox": [
+            120,
+            775,
+            735,
+            809
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "There are seven 7's in a row somewhere in the decimal representation of the number $\\pi$ ",
+        "bbox": [
+            207,
+            818,
+            653,
+            853
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            419,
+            875,
+            437,
+            886
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "It may very well happen that nobody will ever be able to determine the truth or falsity of the sentence above. Yet we are forced to accept that either the claim or its negation must necessarily hold. Another wel-known example is: ",
+        "bbox": [
+            125,
+            107,
+            735,
+            161
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "There erist irrational numbers $_ x$ and $y$ ， such that $x ^ { y }$ is rational. ",
+        "bbox": [
+            173,
+            176,
+            687,
+            194
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The proof of this fact is very simple: if ${ \\sqrt { 2 } } ^ { { \\sqrt { 2 } } }$ is a rational number then we can take x = y= 2; otherwisetake x=2 and $y = { \\sqrt { 2 } }$ ",
+        "bbox": [
+            125,
+            207,
+            735,
+            252
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The problem with this proof is that we do not know which of the two possibilities is the right one.But here is a different argument: For $x = { \\sqrt { 2 } }$ and $y = 2 \\log _ { 2 } 3$ ， we have $x ^ { y } = 3 \\in \\mathbb { Q }$ . We say the latter proof is constructive while the former is not. ",
+        "bbox": [
+            125,
+            253,
+            735,
+            323
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Such examples demonstrate some of the drawbacks of classical logic. Indeed, in many applications we want to find an actual solution to a problem, and not merely to know that some solution exists. We thus want to sort out the proof methods that provide the actual solutions from those that do not. Therefore, from a very pragmatic point of view, it makes sense to consider a constructive approach to logic. ",
+        "bbox": [
+            125,
+            325,
+            735,
+            431
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The logic that meets our expectations and accepts only “constructive” reasoning is traditionally known under the (slightly confusing) name of intuitionistic logic. To explain this name, one has to recall the philosophical foundations of intuitionistic logic. These may be expressed concisely and very simplified by the following principle: There is no absolute truth, there is only the knowledge and intuitive construction of the idealized mathematician, the creative subject.A logical judgement is only considered “true” if the creative subject can verify its correctness.Accepting this point of view inevitably leads to the rejection of the excluded middle as a uniform principle.As we learned from the noble Houyhnhnms [464]: ",
+        "bbox": [
+            127,
+            434,
+            736,
+            608
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(...) reason taught us to affirm or deny only where we are certain; and beyond our knowledge we cannot do either. ",
+        "bbox": [
+            163,
+            623,
+            705,
+            657
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1. The BHK interpretation ",
+        "text_level": 1,
+        "bbox": [
+            129,
+            681,
+            423,
+            702
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The language of intuitionistic propositional logic, also called intuitionistic propositional calculus (abbreviated IPC)， is the same as the language of classical propositional logic. ",
+        "bbox": [
+            129,
+            717,
+            740,
+            770
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1.1.DEFINITiON. We assume an infinite set PV of propositional variables and we define the set $\\Phi$ of formulas as the least set such that: ",
+        "bbox": [
+            127,
+            789,
+            740,
+            825
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "· Each propositional variable and the constant $\\perp$ are in $\\Phi$ ；",
+        "bbox": [
+            158,
+            839,
+            637,
+            857
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "· If $\\varphi , \\psi \\in \\Phi$ then $( \\varphi \\to \\psi ) , ( \\varphi \\lor \\psi ) , ( \\varphi \\land \\psi ) \\in \\Phi .$ ",
+        "bbox": [
+            156,
+            871,
+            560,
+            890
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "CHAPTER 2． INTUITIONISTIC LOGIC ",
+        "bbox": [
+            428,
+            69,
+            732,
+            84
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "28 ",
+        "bbox": [
+            124,
+            66,
+            145,
+            80
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Variables and $\\perp$ are called atomic formulas. A subformula of a formula $\\varphi$ is a (not necessarily proper) part of $\\varphi$ ，which itself is a formula. ",
+        "bbox": [
+            124,
+            107,
+            736,
+            143
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "That is,our basic connectives are: implication ， disjunction V, conjunction $\\wedge$ ,and the constant $\\perp$ (absurdity). Negation $\\neg$ and equivalence are abbreviations, as well as the constant $\\top$ (truth): ",
+        "bbox": [
+            124,
+            159,
+            736,
+            213
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\neg \\varphi$ abbreviates $\\varphi  \\bot$ ； · $\\varphi  \\psi$ abbreviates $( \\varphi \\to \\psi ) \\land ( \\psi \\to \\varphi )$ · T abbreviates $\\perp  \\perp$ . ",
+        "bbox": [
+            150,
+            224,
+            495,
+            303
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.1.2. CONVENTION. ",
+        "bbox": [
+            125,
+            318,
+            294,
+            335
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1. We often use the convention that implication is right associative, i.e. we write e.g. $\\varphi \\to \\psi \\to \\vartheta$ instead of $\\varphi \\to ( \\psi \\to \\vartheta )$ · ",
+        "bbox": [
+            145,
+            348,
+            736,
+            385
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2. We assume that negation has the highest priority,and implication the lowest，with no preference between $\\vee$ and $\\wedge$ That is, $\\neg p \\land q  r$ means $( ( \\neg p ) \\land q ) \\to r$ ",
+        "bbox": [
+            148,
+            396,
+            738,
+            450
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3. And of course we skip the outermost parentheses. ",
+        "bbox": [
+            147,
+            462,
+            573,
+            479
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In order to understand intuitionistic logic,one should forget the classical notion of\"truth\". Now our judgements about a logical statement are no longer based on any truth-value assigned to that statement,but on our ability to justify it via an explicit proof or “construction\". As a consequence of this we should not attempt to define propositional connectives by means of truthtables (as it is normally done for classical logic). Instead, we should explain the meaning of compound formulas in terms of their constructions. ",
+        "bbox": [
+            124,
+            494,
+            738,
+            619
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Such an explanation is often given by means of the so-called Brouwer-Heyting-Kolmogorov interpretation,in short BHK interpretation. One can formulate the BHK interpretation as the following set of rules,the algorithmic flavor of which will later lead us to the Curry-Howard isomorphism. ",
+        "bbox": [
+            125,
+            621,
+            738,
+            690
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "· A construction of $\\varphi _ { 1 } \\wedge \\varphi _ { 2 }$ consists of a construction of $\\varphi _ { 1 }$ and a construction of $\\varphi _ { 2 }$ ;   \n· A construction of $\\varphi _ { 1 } \\lor \\varphi _ { 2 }$ consists of an indicator $i \\in \\{ 1 , 2 \\}$ and a construction of $\\varphi _ { i }$ ；   \n· A construction of φ1 → 2 is a method (function) transforming every construction of $\\varphi _ { 1 }$ into a construction of $\\varphi _ { 2 }$ ;   \n. There is no construction of $\\perp$ .1 ",
+        "bbox": [
+            151,
+            705,
+            738,
+            867
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "2.1．THE BHK INTERPRETATION ",
+        "bbox": [
+            125,
+            65,
+            410,
+            83
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            715,
+            68,
+            736,
+            80
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "1According to the Houyhnhnms (a construction of) a lie is “the thing which is not\". ",
+        "bbox": [
+            142,
+            877,
+            720,
+            893
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "We do not specify what a construction of a propositional variable is. This is because the meaning of a propositional variable becomes only known when the variable is replaced by a concrete statement.Then we can ask about the construction of that statement.In contrast,the constant $\\perp$ represents a statement with no possible construction at all. ",
+        "bbox": [
+            125,
+            106,
+            738,
+            194
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Negation $\\neg \\varphi$ is understood as the implication $\\varphi  \\bot$ . That is, we may assert $\\neg \\varphi$ when the assumption of $\\varphi$ leads to absurdity. In other words: ",
+        "bbox": [
+            125,
+            195,
+            738,
+            231
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "· A construction of $\\neg \\varphi$ is a method that turns every construction of $\\varphi$ into a nonexistent object. ",
+        "bbox": [
+            151,
+            241,
+            740,
+            276
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The equivalence of $\\neg \\varphi$ and $\\varphi  \\perp$ holds also in classical logic.But note that the intuitionistic $\\neg \\varphi$ is stronger than just “there is no construction of $\\varphi ^ { \\mathfrak { N } }$ ",
+        "bbox": [
+            127,
+            286,
+            740,
+            321
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The reader should be aware that the BHK interpretation is by no means intended to make a precise and complete description of constructive semantics.The very notion of“construction” is informal and can be understood in a variety of ways. ",
+        "bbox": [
+            127,
+            323,
+            741,
+            393
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.1.3.ExAMPLE. Consider the following formulas: ",
+        "bbox": [
+            127,
+            406,
+            535,
+            424
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(i) $\\perp  p ;$   \n(ii) $p \\to q \\to p ;$   \n(ii) $( p \\to q \\to r ) \\to ( p \\to q ) \\to p \\to r ;$   \n(iv) $p \\to \\neg \\neg p$   \n(v) $\\neg \\neg \\neg p \\to \\neg p ;$   \n(vi) $( p \\to q ) \\to ( \\neg q \\to \\neg p ) ;$   \n(vii) $\\neg ( p \\lor q )  ( \\neg p \\land \\neg q )$   \n(vi) $( ( p \\land q ) \\to r )  ( p \\to ( q \\to r ) ) ;$   \n(ix) $\\neg \\neg ( p \\lor \\neg p )$ ； $( \\mathrm { \\bf x } ) ( p \\lor \\neg p ) \\to \\neg \\neg p \\to p .$ ",
+        "bbox": [
+            135,
+            433,
+            452,
+            710
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "All these formulas can be given a BHK interpretation.For instance,a con-struction for formula (i) is based on the safe assumption that a construction of $\\perp$ is impossible. (In contrast，we do not have a construction of $q  p$ because we cannot generally rule out the existence of a construction of q.) A construction for formula (iv), that is, for $p \\to ( ( p \\to \\bot ) \\to \\bot )$ , is as follows: ",
+        "bbox": [
+            133,
+            718,
+            750,
+            808
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Given a construction of $p$ ,here is a construction of $( p \\to \\bot ) \\to \\bot$ ： Take a construction of $p  \\bot$ . It is a method to translate con-structions of p into constructions of ⊥. As we have a construction of p,we can use this method to obtain a construction of ⊥. ",
+        "bbox": [
+            184,
+            820,
+            705,
+            893
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "CHAPTER 2． INTUITIONISTIC LOGIC ",
+        "bbox": [
+            428,
+            66,
+            736,
+            82
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "30 ",
+        "bbox": [
+            124,
+            66,
+            145,
+            80
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The reader is invited to discover the BHK interpretation of the other formulas (Exercise 2.2). ",
+        "bbox": [
+            125,
+            106,
+            735,
+            142
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Of course all the formulas of Example 2.1.3 are classical tautologies. But not every classical tautology can be given a construction. ",
+        "bbox": [
+            122,
+            143,
+            736,
+            179
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.1.4. ExAMPLE. Each of the formulas below is a classical tautology. Yet none appears to have a construction, despite the fact that some of them are similar or “dual” to certain formulas of the previous example. ",
+        "bbox": [
+            122,
+            194,
+            736,
+            248
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(i) $( ( p \\to q ) \\to p ) \\to p ;$ (ii) $p \\lor \\lnot p ;$ (ii) $\\neg \\neg p \\to p ;$ (iv) $( \\neg q \\to \\neg p ) \\to ( p \\to q ) ;$ (v) $\\neg ( p \\land q )  ( \\neg p \\lor \\neg q ) ;$ (vi) $( p \\to q ) \\to ( \\neg p \\to q ) \\to q ;$ (vii) $( ( p  q )  r )  ( p  ( q  r ) ) ;$ (vii) $( p \\to q )  ( \\neg p \\lor q ) ;$ (ix) $( p \\lor q \\to p ) \\lor ( p \\lor q \\to q ) ;$ $( \\mathbf { x } ) \\ ( \\neg \\neg p \\to p ) \\to p \\lor \\neg p .$ ",
+        "bbox": [
+            127,
+            257,
+            439,
+            545
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "For instance, formula (ii） seems to express the same principle as Example 2.1.3(iv). Similarly, formula (iv) and Example 2.1.3(vi) are often treated as two equivalent patterns of a proof by contradiction. Formula (v) and Example 2.1.3(vii) are both known as De Morgan's laws,and express the classical duality between conjunction and disjunction. ",
+        "bbox": [
+            124,
+            555,
+            738,
+            643
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Such examples show that the symmetry of classical logic disappears when we turn to constructive semantics,and this is obviously due to the fact that negation is no longer an involution,i.e. $\\varphi$ and $\\neg \\neg \\varphi$ cannot be identified with each other anymore. Note however that formula (ii) expresses a property weaker than (ii), because we do not have a construction of $\\mathbf { \\tau } ( \\mathbf { x } )$ ",
+        "bbox": [
+            125,
+            645,
+            738,
+            732
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Not very surprisingly, proofs by cases (vi) are not constructive. Indeed, this is a simple consequence of the unavailability of the excluded middle-we just cannot a priori split the argument into cases. But it may be a surprise to observe that not only negation or falsity may cause difficulties. Formula (i), known as Peirce's law, is purely implicational, but still we are unable to find a construction. Another example of this kind is formula (vii) expressing the classical associativity of equivalence. One can verify it using a binary truthtable,but from the constructive point of view this associativity property seems to be purely accidental. ",
+        "bbox": [
+            124,
+            733,
+            738,
+            893
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "2.1．THE BHK INTERPRETATION ",
+        "bbox": [
+            124,
+            65,
+            408,
+            82
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            714,
+            68,
+            733,
+            80
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Formula (vii) can be seen as a defnition of classical implication in terms of negation and disjunction. Constructively, this definition does not work. We can say more: None among ，⊥,V,^ is definable from the others (see Exercise 2.26). ",
+        "bbox": [
+            125,
+            108,
+            738,
+            179
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2.2. Natural deduction ",
+        "text_level": 1,
+        "bbox": [
+            125,
+            199,
+            357,
+            218
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "In order to formalize the intuitionistic propositional logic,we define a proof system，called natural deduction， and denoted by $\\mathrm { N J } ( \\to , \\bot , \\land , \\lor )$ ,or sim-ply NJ. The rules of natural deduction express in a precise way the ideas of the informal semantics of Section 2.1. ",
+        "bbox": [
+            125,
+            233,
+            738,
+            304
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2.2.1. DEFINITION. ",
+        "bbox": [
+            125,
+            318,
+            279,
+            335
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(i) A judgement in natural deduction is a pair, written $\\Gamma \\vdash \\varphi$ (and read ${ } ^ { 6 6 }  { \\Gamma }$ proves $\\varphi ^ { \\mathfrak { N } }$ ） consisting of a finite set of formulas $\\Gamma$ and a formula $\\varphi$   \n(ii) We use various simplifications when we deal with judgements. For instance, we write $\\varphi _ { 1 } , \\varphi _ { 2 } \\vdash \\psi$ instead of $\\{ \\varphi _ { 1 } , \\varphi _ { 2 } \\} \\vdash \\psi$ ，or $\\Gamma , \\Delta$ instead of $\\Gamma \\cup \\Delta$ ，or $\\Gamma , \\varphi$ instead of $\\Gamma \\cup \\{ \\varphi \\}$ . In particular, the notation $+ ~ \\varphi$ stands for $\\emptyset \\vdash \\varphi$   \n(iii) A formal proof or derivation of $\\Gamma \\vdash \\varphi$ is a finite tree of judgements satisfying the following conditions: · The root label is Γ├; · All the leaves are axioms, i.e. judgements of the form $\\Gamma , \\varphi \\vdash \\varphi ;$ · The label of each mother node is obtained from the labels of the daughters using one of the rules in Figure 2.1. ",
+        "bbox": [
+            129,
+            347,
+            740,
+            604
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "If such a proof exists,we say that the judgement $\\Gamma \\vdash \\varphi$ is provable or derivable, and we write $\\Gamma \\vdash _ { N } \\varphi$ For infinite $\\Gamma$ ，we write $\\Gamma \\vdash _ { N } \\varphi$ to mean that $\\Gamma _ { 0 } \\vdash _ { N } \\varphi$ ,for some finite subset $\\Gamma _ { 0 }$ of $\\Gamma$ ",
+        "bbox": [
+            174,
+            616,
+            740,
+            667
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(iv) It is customary to omit the index $N$ in $\\vdash _ { N }$ . Note that in this way the notation $\\Gamma \\vdash \\varphi$ becomes overloaded. It expresses the provability of a judgement and also denotes the judgement itself. However, the intended meaning is usually clear from the context. ",
+        "bbox": [
+            135,
+            679,
+            740,
+            756
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(v） If $\\vdash \\varphi$ then we say that $\\varphi$ is a theorem.2 ",
+        "bbox": [
+            140,
+            762,
+            504,
+            781
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The proof system consists of an axiom scheme and rules. For each logical connective (except $\\perp$ ） we have one or two introduction rules and one or two elimination rules. An introduction rule for a connective o tells us how a conclusion of the form $\\varphi \\circ \\psi$ can be derived. An elimination rule describes the ",
+        "bbox": [
+            129,
+            796,
+            741,
+            867
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "2In general, a theorem is a formula provable in a logical system. ",
+        "bbox": [
+            147,
+            877,
+            589,
+            892
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "CHAPTER 2. INTUITIONISTIC LOGIC ",
+        "bbox": [
+            428,
+            69,
+            736,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "32 ",
+        "bbox": [
+            125,
+            66,
+            147,
+            80
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bb02afb66e71ddaad8ab3d18d85e3bf355e588b04d531a555c453c00291d4e49.jpg",
+        "text": "$$\n\\Gamma , \\varphi \\vdash \\varphi \\ ( \\mathbf { A x } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            143,
+            475,
+            162
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a890eb9d4adbf17b2593195695d884d688e9120e0037ff744529bb28831ece90.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\varphi \\land \\psi } { \\Gamma \\vdash \\varphi } ( \\land \\mathtt { E } ) \\frac { \\Gamma \\vdash \\varphi \\land \\psi } { \\Gamma \\vdash \\psi }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            423,
+            241,
+            633,
+            281
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "way in which $\\varphi \\circ \\psi$ can be used to derive other formulas. Observe that the natural deduction rules can be seen as a formalization of the BHK interpretation，where“construction” should be read as “proof\". Indeed, consider for instance the implication. The premise $\\Gamma , \\varphi \\vdash \\psi$ of rule $( \\neg \\mathbf { I } )$ can be understood as the ability to infer $\\psi$ from $\\Gamma$ if a proof of $\\varphi$ is provided. This is enough to derive the implication. The elimination rule $(  \\mathbf { E } )$ corresponds to the same idea: if we have a proof of $\\varphi \\to \\psi$ then we can turn a proof of $\\varphi$ into a proof of $\\psi$ . In a sense, rule $(  \\mathbf { E } )$ can be seen as a converse of rule $( \\neg \\mathrm { I } )$ ， and a similar observation (called the inversion principle, see Prawitz [403]) can be made about the other connectives. Rule (⊥E), called ex falso sequitur quodlibet (or simply ex falso) is an exception, because there is no matching introduction rule. ",
+        "bbox": [
+            125,
+            488,
+            738,
+            700
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.2.2.NoTATiON. It is sometimes useful to consider fragments of propositional logic where some connectives do not occur. For instance, in Section 2.6 we discuss the implicational fragment $\\mathrm { I P C } (  )$ of the intuitionistic propositional logic. The subsystem of NJ consisting of the axiom scheme and rules for implication is then denoted by $\\mathrm { { N J } } ( \\to )$ . This convention applies to other fragments, e.g. $\\displaystyle \\mathrm { I P C } ( \\to , \\land , \\lor )$ is the positive fragment, called also minimal logic,and $\\mathrm { N J } ( \\to , \\land , \\lor )$ stands for the appropriate part of NJ. ",
+        "bbox": [
+            125,
+            717,
+            738,
+            843
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.2.3. ExAMPLE. We give example proofs of our favourite formulas. Below, formulas $\\varphi , \\psi$ and $\\vartheta$ can be arbitrary: ",
+        "bbox": [
+            124,
+            857,
+            738,
+            892
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "2.2． NATURAL DEDUCTION ",
+        "bbox": [
+            124,
+            66,
+            356,
+            82
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "33 ",
+        "bbox": [
+            714,
+            68,
+            735,
+            82
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e9d86e31de852b215d9bf52835c46e0748826053293e063a05dfc9aeedaf9c63.jpg",
+        "text": "$$\n{ \\frac { \\varphi \\vdash \\varphi } { \\vdash \\varphi \\to \\varphi } } \\left( \\to { \\mathrm { I } } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            383,
+            119,
+            511,
+            162
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d64f9a82f3a421922763b2dee83db1af1dfab38b3d27b5dcea72b78cec259b0e.jpg",
+        "text": "$$\n\\begin{array} { c } { { \\displaystyle \\frac { \\varphi , \\psi \\vdash \\varphi } { \\varphi \\vdash \\psi \\to \\varphi } (  \\mathrm { I } ) } } \\\\ { { \\displaystyle \\frac { \\varphi \\vdash \\psi  \\varphi } { \\vdash \\varphi  ( \\psi  \\varphi ) } (  \\mathrm { I } ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            186,
+            540,
+            256
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(ii)  Here, $\\Gamma$ abbreviates $\\{ \\varphi  ( \\psi  \\vartheta ) , \\varphi  \\psi , \\varphi \\}$ ",
+        "bbox": [
+            120,
+            275,
+            544,
+            295
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/eab9ee30760f16031a1b3e1c306204f2c3085eb73cfb7a28a6b09fbc34995e36.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\frac { \\Gamma \\vdash \\varphi \\to ( \\psi \\to \\vartheta ) \\Gamma \\vdash \\varphi } { \\Gamma \\vdash \\psi \\to \\vartheta } ( \\to \\mathbf { E } ) \\qquad \\frac { \\Gamma \\vdash \\varphi \\to \\psi \\Gamma \\vdash \\varphi } { \\Gamma \\vdash \\psi } ( \\to \\mathbf { E } ) } \\\\ & { \\qquad \\frac { \\Gamma \\vdash \\vartheta } { \\varphi \\to ( \\psi \\to \\vartheta ) , \\varphi \\to \\psi \\vdash \\varphi \\to \\vartheta } ( \\to \\mathbf { E } ) } \\\\ & { \\qquad \\frac { \\overline { { \\varphi \\to ( \\psi \\to \\vartheta ) , \\varphi \\to \\psi \\vdash \\varphi \\to \\vartheta } } ( \\to \\Gamma ) } { \\varphi \\to ( \\psi \\to \\vartheta ) \\vdash ( \\varphi \\to \\psi ) \\to ( \\varphi \\to \\vartheta ) } ( \\to \\Gamma ) } \\\\ & { \\qquad \\frac { \\overline { { \\varphi \\to ( \\psi \\to \\vartheta ) \\vdash ( \\varphi \\to \\psi ) } } \\to ( \\varphi \\to \\vartheta ) \\to ( \\varphi \\to \\vartheta ) } { \\vdash ( \\varphi \\to ( \\psi \\to \\vartheta ) ) \\to ( \\varphi \\to \\psi ) \\to ( \\varphi \\to \\vartheta ) } ( \\to \\mathrm { I } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            179,
+            311,
+            715,
+            458
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2.2.4. LEMMA. Intuitionistic propositional logic is closed under weakening and substitution, that is, $\\Gamma \\vdash \\varphi$ implies $\\Gamma , \\psi \\vdash \\varphi$ and $\\Gamma [ p : = \\psi ] \\vdash \\varphi [ p : = \\psi ]$ ， where $[ p : = \\psi ]$ denotes a substitution of $\\psi$ for all occurrences of the propositional variable $p$ ",
+        "bbox": [
+            124,
+            488,
+            740,
+            560
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "PROOF. Induction with respect to the size of proofs (Exercise 2.3). ",
+        "bbox": [
+            124,
+            579,
+            671,
+            598
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Results like the above are sometimes expressed by saying that the following are derived (or admissible) rules of propositional intuitionistic logic: ",
+        "bbox": [
+            124,
+            617,
+            738,
+            654
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2e06a561f1ba8aa601b242c0bde57af77e3604ef2c9d8d242197753838071f90.jpg",
+        "text": "$$\n{ \\frac { \\Gamma \\vdash \\varphi } { \\Gamma , \\psi \\vdash \\varphi } } \\qquad { \\frac { \\Gamma \\vdash \\varphi } { \\Gamma [ p : = \\psi ] \\vdash \\varphi [ p : = \\psi ] } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            251,
+            672,
+            614,
+            713
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "CHAPTER 2. INTUITIONISTIC LOGIC ",
+        "bbox": [
+            426,
+            68,
+            736,
+            85
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "34 ",
+        "bbox": [
+            122,
+            66,
+            145,
+            80
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "□ ",
+        "bbox": [
+            723,
+            580,
+            740,
+            595
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Chapter 6 ",
+        "text_level": 1,
+        "bbox": [
+            370,
+            171,
+            490,
+            191
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Classical logic and control operators ",
+        "text_level": 1,
+        "bbox": [
+            215,
+            238,
+            643,
+            260
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "In the previous chapters we have encountered the Curry-Howard isomorphism in various incarnations. Each of these states a correspondence between some calculus for computation and a system of formal logic. Until now these systems of formal logic have been intuitionistic; for instance, in none of them have we been able to derive the principle of double negation elimination $\\neg \\neg \\varphi \\to \\varphi$ that one finds in classical logics. ",
+        "bbox": [
+            124,
+            330,
+            736,
+            436
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This is by no means a coincidence. Until around 1990 it was believed by many that “there is no Curry-Howard isomorphism for classical logic.”However,at that time Timothy Griffin discovered that the principle of double negation elimination corresponds to the typing of a control operator known from programming language theory. The idea was soon generalized and refined by Chet Murthy. ",
+        "bbox": [
+            124,
+            438,
+            736,
+            544
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This chapter presents the discovery and its consequences, e.g. the result that Kolmogorov's double negation embedding of classcal logic into intuitionistic logic corresponds to a continuation passing style translation. ",
+        "bbox": [
+            125,
+            545,
+            736,
+            598
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.1. Classical propositional logic ",
+        "text_level": 1,
+        "bbox": [
+            124,
+            621,
+            452,
+            640
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Classical logic differs from intuitionistic logic by embracing these principles: ",
+        "bbox": [
+            125,
+            655,
+            738,
+            672
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(i) Tertium non datur (law ofthe ercluded middle): $\\varphi \\lor \\lnot \\varphi$ .Either $\\varphi$ holds, or $\\varphi$ does not hold.   \n(ii) Double negation elimination: $\\neg \\neg \\varphi \\to \\varphi$ . If it is not the case that $\\varphi$ does not hold, then $\\varphi$ holds.   \n(i) Peirce's law: $( ( \\varphi \\to \\psi ) \\to \\varphi ) \\to \\varphi .$   \n(iv) Reductio ad absurdum: $( \\neg \\varphi \\to \\varphi ) \\to \\varphi$ . If the assumption that $\\varphi$ does not hold implies $\\varphi$ ，then $\\varphi$ must hold. ",
+        "bbox": [
+            135,
+            685,
+            740,
+            853
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "127 ",
+        "bbox": [
+            416,
+            873,
+            444,
+            886
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "A natural deduction system for classical propositional calculus (CPC) is obtained by replacing the ex falso rule in intuitionistic logic (see Figure 2.1) with a rule for double negation elimination. We study the implicational fragment with absurdity; negation is defined using absurdity as usual. ",
+        "bbox": [
+            125,
+            108,
+            740,
+            180
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.1.1. DEFINITION. The natural deduction presentation $\\operatorname { N K } ( \\to , \\bot )$ ,of classical propositional calculus for implication and absurdity, is defined by the axiom and rules in Figure 6.1. We write $\\Gamma \\vdash _ { N } \\varphi$ when $\\Gamma \\vdash \\varphi$ can be derived in this system (we sometimes leave out “N\"). We use the same terminology, notations, and conventions as in Chapter 2. ",
+        "bbox": [
+            124,
+            199,
+            740,
+            290
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.1.2. ExAMPLE. ",
+        "text_level": 1,
+        "bbox": [
+            124,
+            308,
+            261,
+            325
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(i) The following is a derivation of the formula $\\left( \\varphi \\to \\psi \\right) \\to \\left( \\neg \\varphi \\to \\psi \\right) \\to \\psi$ (\"proof by cases\"). Let $\\Gamma = \\{ \\varphi  \\psi , \\lnot \\varphi  \\psi , \\lnot \\psi \\}$ ",
+        "bbox": [
+            143,
+            342,
+            740,
+            380
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(ii) The following is a derivation of Peirce's law. Let $\\boldsymbol { \\Gamma } = \\{ ( \\varphi \\to \\psi ) \\to \\varphi \\}$ ",
+        "bbox": [
+            132,
+            636,
+            740,
+            656
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9f6a85fc155796796c9c41f03f4baeb84ceb895843fb3327ee03d9fb4ec12e00.jpg",
+        "text": "$$\n\\begin{array} { r } { \\frac { \\frac { \\Gamma , \\neg \\varphi , \\varphi , \\dotsc \\psi \\vdash  \\varphi } { \\frac { \\Gamma , \\neg \\varphi , \\varphi , \\dotsc \\psi \\vdash \\varphi , \\dotsc \\psi \\vdash \\varphi } { \\frac { \\Gamma , \\neg \\varphi , \\varphi , \\dotsc \\psi \\vdash \\dotsc } { \\varphi } } } } { \\frac { \\Gamma , \\neg \\varphi , \\varphi , \\dotsc \\psi \\vdash \\dotsc } { \\frac { \\Gamma , \\neg \\varphi , \\varphi \\vdash \\psi } { \\Gamma , \\neg \\varphi \\vdash \\psi } } } } \\\\ { \\frac { \\Gamma , \\neg \\varphi \\vdash \\varphi } { \\textnormal { \\texttt { e } } ^ { + } \\frac { \\Gamma , \\neg \\varphi \\vdash ( \\varphi  \\psi )  \\varphi } { \\Gamma , \\neg \\varphi \\vdash \\varphi } } } { \\frac { \\Gamma , \\neg \\varphi \\vdash \\varphi } { \\Gamma + \\varphi } }  \\\\ { \\frac { \\frac { \\Gamma , \\neg \\varphi \\vdash \\bot } { \\Gamma \\vdash \\varphi } } { \\Gamma \\vdash ( ( \\varphi  \\psi )  \\varphi )  \\varphi } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            166,
+            674,
+            740,
+            872
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "CHAPTER 6. CLASSICAL LOGIC AND CONTROL OPERATORS",
+        "bbox": [
+            238,
+            69,
+            738,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "128 ",
+        "bbox": [
+            127,
+            66,
+            156,
+            80
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/34f899f856decc839b7c0b22683e5c8f685d6ed6d767c7cba24d4e3c2dd40950.jpg",
+        "text": "$$\n\\frac { \\Gamma , \\varphi \\to \\bot \\vdash \\bot } { \\Gamma \\vdash \\varphi } \\left( \\lnot \\mathrm { E } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            238,
+            521,
+            282
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.1.3.ExAMPLE. Ex falso is a derived rule in $\\mathrm { N K } (  , \\perp )$ . That is, if $\\Gamma \\vdash \\bot$ then also $\\Gamma \\vdash \\varphi$ Indeed,assume we have a derivation of $\\Gamma \\vdash \\perp$ . By adding $\\neg \\varphi$ to all environments in this derivation,we obtain a derivation of $\\Gamma , \\neg \\varphi \\vdash \\bot$ Then $\\Gamma \\vdash \\varphi$ by the $( \\neg \\mathbf { E } )$ rule. ",
+        "bbox": [
+            124,
+            369,
+            740,
+            443
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.1.4. COROLLARY. If $\\Gamma \\vdash \\varphi$ in $\\mathrm { N J } ( \\to , \\bot )$ ，then $\\Gamma \\vdash \\varphi$ in $\\mathrm { N K } (  , \\perp )$ ",
+        "bbox": [
+            125,
+            459,
+            683,
+            479
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "PROOF. By induction on the derivation of $\\Gamma \\vdash \\varphi$ ,using Example 6.1.3. ",
+        "bbox": [
+            120,
+            497,
+            700,
+            516
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.1.5.REMARK. An alternative to the rule $\\left( \\neg \\mathbf { E } \\right)$ of Figure 6.1 are the following two rules, namely ex falso and a form of Peirce's law. ",
+        "bbox": [
+            124,
+            534,
+            738,
+            570
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/32ebfeb0ed8f05ebfb0eaf81d843e90216381a7103bbb91c54e0903f9e71f377.jpg",
+        "text": "$$\n{ \\frac { \\Gamma \\vdash \\ \\bot } { \\Gamma \\vdash \\ \\varphi } } ( \\bot \\mathbf { E } ) \\qquad { \\frac { \\Gamma , \\varphi \\to \\psi \\vdash \\varphi } { \\Gamma \\vdash \\varphi } } ( \\mathbf { P } ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            215,
+            578,
+            558,
+            619
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Using the rules $( \\to \\mathbf { E } ) , ( \\to \\mathbf { I } )$ ,and $( \\mathbf { A x } )$ , the two above rules can be derived from $\\left( \\neg \\mathbf { E } \\right)$ -see Examples 6.1.2 and 6.1.3-and vice versa. ",
+        "bbox": [
+            125,
+            627,
+            738,
+            662
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Moreover,we can replace the rule (P) by the special case (P⊥),which is very similar to the formula (iv) mentioned in the introduction: ",
+        "bbox": [
+            127,
+            665,
+            738,
+            700
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/50ec90bdcd2d9b077ddcc35392f80aebecd5120ce199adaf8d83ddac7787dddb.jpg",
+        "text": "$$\n\\frac { \\Gamma , \\varphi \\to \\bot \\vdash \\varphi } { \\Gamma \\vdash \\varphi } ( \\mathrm { P \\bot } ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            351,
+            709,
+            517,
+            751
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Using ex falso, (P) can be derived from $( \\mathbb { P } \\bot )$ ",
+        "bbox": [
+            124,
+            758,
+            496,
+            777
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "In the case of Hilbert-style systems, there are several ways to obtain classical logic from intuitionistic logic. The following is one possibility. ",
+        "bbox": [
+            125,
+            796,
+            738,
+            833
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.1.6.DEFINITiON. We consider the same terminology and notation as in Chapter 5. The language of propositions is extended with ⊥,and we use the ",
+        "bbox": [
+            122,
+            852,
+            738,
+            888
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "129 ",
+        "bbox": [
+            707,
+            66,
+            736,
+            80
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "6.1．CLASSICAL PROPOSITIONAL LOGIC ",
+        "bbox": [
+            122,
+            66,
+            460,
+            82
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "□ ",
+        "bbox": [
+            722,
+            500,
+            738,
+            515
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "abbreviation $\\lnot \\varphi = \\varphi \\to \\bot$ again. The Hilbert-style system for classical logic is obtained by adding the following axiom scheme: ",
+        "bbox": [
+            124,
+            106,
+            738,
+            140
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b8d951736da3b03145e53002c01c9f88174d26737001255b31858f550daf924c.jpg",
+        "text": "$$\n( A 3 _ { \\perp } ) \\ ( ( \\varphi  \\perp )  \\perp )  \\varphi\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            151,
+            549,
+            172
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "to the system with $( A 1 )$ and (A2). We write $\\Gamma \\vdash _ { H } \\varphi$ if $\\Gamma \\vdash \\varphi$ can be derived in the system from Definition 5.1.2 with these three axioms. ",
+        "bbox": [
+            125,
+            181,
+            738,
+            218
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "The following is an immediate consequence of Theorem 5.1.8,because classcal provability can be seen as intuitionistic provability with some additional axioms. ",
+        "bbox": [
+            124,
+            231,
+            738,
+            284
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.1.7. THEOREM (Deduction theorem). $\\Gamma , \\varphi \\vdash _ { H } \\psi$ ff $\\Gamma \\vdash _ { H } \\varphi  \\psi$ ",
+        "bbox": [
+            125,
+            292,
+            666,
+            313
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.1.8. PROPOSITION. $\\Gamma \\vdash _ { N } \\varphi$ $\\Gamma \\vdash _ { H } \\varphi$ ",
+        "bbox": [
+            125,
+            324,
+            457,
+            343
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "PROOF. The only new issue compared to the intuitionistic case is to show that one can express $\\left( \\neg \\mathbf { E } \\right)$ using $( A 3 _ { \\perp } )$ and vice versa. For the former,assume that we have a Hilbert-style derivation of $\\Gamma , \\lnot \\varphi \\vdash \\bot$ . Then by the deduction theorem, $( A 3 _ { \\perp } )$ ， and modus ponens we obtain a derivation of $\\Gamma \\vdash \\varphi$ Conversely, the natural deduction derivation ",
+        "bbox": [
+            124,
+            356,
+            740,
+            445
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/149b7f4f51e84b56dcd6ff73e15f847c77e3c18af8c4cb3258c08a1f89961a12.jpg",
+        "text": "$$\n\\frac { \\Gamma , \\pi \\pi \\varphi , \\pi \\varphi \\vdash \\lnot \\varphi \\quad \\Gamma , \\lnot \\pi \\varphi , \\lnot \\varphi \\vdash \\lnot \\varphi } { \\frac { \\Gamma , \\lnot \\lnot \\varphi , \\lnot \\varphi \\vdash \\ell } { \\frac { \\Gamma , \\lnot \\ l \\varphi \\vdash \\varphi } { \\Gamma \\vdash \\lnot \\varphi  \\varphi } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            457,
+            601,
+            546
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "shows that one can express $( A 3 _ { \\perp } )$ using $\\left( \\neg \\mathbf { E } \\right)$ ",
+        "bbox": [
+            125,
+            554,
+            501,
+            573
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "In view of the above proposition it is natural to talk about “classical propositional calculus” independently of the chosen formalism. ",
+        "bbox": [
+            127,
+            585,
+            740,
+            621
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.1.9.NoTATION. The phrase “theorem of $\\mathrm { C P C } (  , \\perp ) ^ { \\mathfrak { N } }$ means a formula that can be proved in $\\mathrm { N K } (  , \\perp )$ ， or in the Hilbert-style system of Definition 6.1.6,or in any other equivalent system. Similar terminology will be employed for other sets of connectives, e.g. including $\\wedge$ and $\\vee$ ",
+        "bbox": [
+            127,
+            633,
+            741,
+            707
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.1.10.THEoREM (Completeness). Every theorem of $\\mathrm { C P C } (  , \\bot )$ is a classical tautology， and vice versa. ",
+        "bbox": [
+            127,
+            718,
+            740,
+            755
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "PROOF (Kalmar, 1935). We show that $\\vdash _ { H } \\varphi$ iff $\\varphi$ is a tautology. From left to right, show that the three axioms are tautologies,and show the following property: if $\\varphi \\to \\psi$ is a tautology and $\\varphi$ is a tautology, so is $\\psi$ ",
+        "bbox": [
+            129,
+            767,
+            743,
+            821
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "For the direction from right to left，we proceed as follows. Given a valuation $v$ ，let ",
+        "bbox": [
+            129,
+            823,
+            740,
+            856
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1c1ca29865625496eb0d048d964ce0b06242111a521c884476b65fb771ef4a9d.jpg",
+        "text": "$$\n\\psi ^ { \\prime } = { \\left\\{ \\begin{array} { l l } { \\psi } & { { \\mathrm { i f ~ } } [ \\psi ] | _ { v } = 1 } \\\\ { \\neg \\psi } & { { \\mathrm { i f ~ } } [ \\| \\psi \\| _ { v } = 0 . } \\end{array} \\right. }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            325,
+            854,
+            535,
+            895
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "CHAPTER 6. CLASSICAL LOGIC AND CONTROL OPERATORS",
+        "bbox": [
+            236,
+            68,
+            736,
+            83
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "□ ",
+        "bbox": [
+            723,
+            556,
+            740,
+            570
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "130 ",
+        "bbox": [
+            125,
+            65,
+            155,
+            80
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "We show the following claim: for any valuation $v$ and formula $\\varphi$ ， ",
+        "bbox": [
+            124,
+            104,
+            648,
+            123
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7e3ad5deec2d6a26a0dc3a8c5a90a8a32f6cde39fece18329008c30ce5d774ad.jpg",
+        "text": "$$\np _ { 1 } ^ { \\prime } , \\ldots , p _ { n } ^ { \\prime } \\vdash \\varphi ^ { \\prime } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            136,
+            493,
+            157
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "where $p _ { 1 } , \\ldots , p _ { n }$ include all the propositional variables in $\\varphi$ . The proof of this result is by induction on $\\varphi$ . The only interesting case is when $\\varphi = \\varphi _ { 1 }  \\varphi _ { 2 }$ We consider three subcases. ",
+        "bbox": [
+            124,
+            170,
+            736,
+            223
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "CASE 1: $\\mathbb { J } \\varphi _ { 1 } \\mathbb { J } _ { v } = 0$ . Then $[ [ \\varphi _ { 1 }  \\varphi _ { 2 } ] ] _ { v } = 1$ .By the induction hypothesis, ",
+        "bbox": [
+            122,
+            224,
+            707,
+            243
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2b6eb409f44312fbe5ae017ba13197ff20cdd4d0dcab2f542e0b06951d93b1e2.jpg",
+        "text": "$$\np _ { 1 } ^ { \\prime } , \\ldots , p _ { n } ^ { \\prime } \\vdash \\lnot \\varphi _ { 1 } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            357,
+            256,
+            501,
+            276
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Now prove $\\vdash \\lnot \\varphi _ { 1 } \\to ( \\varphi _ { 1 } \\to \\varphi _ { 2 } )$ and use modus ponens to obtain: ",
+        "bbox": [
+            122,
+            290,
+            651,
+            309
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a37d651c1f43e347770fb3a6907fec50ee62d01022d3a5a1fd9fa16f208a9dac.jpg",
+        "text": "$$\np _ { 1 } ^ { \\prime } , \\ldots , p _ { n } ^ { \\prime } \\vdash \\varphi _ { 1 }  \\varphi _ { 2 } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            321,
+            519,
+            344
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "CASE 2: $\\mathbb { J } \\varphi _ { 2 } \\mathbb { J } _ { v } = 1$ .Then $[ \\varphi _ { 1 }  \\varphi _ { 2 } ] _ { \\upsilon } = 1$ By the induction hypothesis, $p _ { 1 } ^ { \\prime } , \\ldots , p _ { n } ^ { \\prime } \\vdash \\varphi _ { 2 }$ . Then use axiom (A1) and modus ponens to obtain: ",
+        "bbox": [
+            124,
+            357,
+            738,
+            393
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/37a9e8d3627fc80b4db1ed0d68116912e0d219177cad639e84aec3cb2223ac32.jpg",
+        "text": "$$\np _ { 1 } ^ { \\prime } , . . . , p _ { n } ^ { \\prime } \\vdash \\varphi _ { 1 }  \\varphi _ { 2 } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            407,
+            521,
+            429
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "CASE 3 $\\mathbb { J } \\varphi _ { 1 } \\mathbb { J } _ { v } = 1$ and $\\mathbb { J } \\varphi _ { 2 } \\mathbb { J } = 0$ Then $[ \\varphi _ { 1 }  \\varphi _ { 2 } ] _ { v } = 0$ .By the induction hypothesis, ",
+        "bbox": [
+            124,
+            440,
+            736,
+            477
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3f2f1e51f687236b627e0039ad039a00dea533f14903be5d31eff32807e4012c.jpg",
+        "text": "$$\np _ { 1 } ^ { \\prime } , \\ldots , p _ { n } ^ { \\prime } \\vdash \\varphi _ { 1 } \\qquad p _ { 1 } ^ { \\prime } , \\ldots , p _ { n } ^ { \\prime } \\vdash \\lnot \\varphi _ { 2 } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            274,
+            477,
+            588,
+            498
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Now prove $p _ { 1 } ^ { \\prime } , \\ldots , p _ { n } ^ { \\prime } \\vdash \\varphi _ { 1 } \\longrightarrow \\neg \\varphi _ { 2 } \\longrightarrow \\neg ( \\varphi _ { 1 } \\longrightarrow \\varphi _ { 2 } )$ . Then by modus ponens, ",
+        "bbox": [
+            125,
+            506,
+            725,
+            525
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d7cb4298ba3c83c5ab7281b3e3617cc2df203514de761e83d0085730df441d45.jpg",
+        "text": "$$\np _ { 1 } ^ { \\prime } , . . . , p _ { n } ^ { \\prime } \\vdash \\lnot ( \\varphi _ { 1 } \\to \\varphi _ { 2 } ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            328,
+            537,
+            534,
+            559
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "This concludes the proof of $( * )$ . Now let $\\varphi$ be a tautology with propositional variables $p _ { 1 } , \\ldots , p _ { n }$ . We show for all $i \\in \\{ 0 , \\ldots , n \\}$ and each valuation $^ v$ that ",
+        "bbox": [
+            125,
+            571,
+            738,
+            609
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2482e459f03d03dcf01f8c02bd8ac5cd0e2be249a536e77e419c425027efcd06.jpg",
+        "text": "$$\np _ { 1 } ^ { \\prime } , \\ldots , p _ { i } ^ { \\prime } \\vdash \\varphi .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            372,
+            622,
+            490,
+            642
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "The desired result is then the special case $i = 0$ ",
+        "bbox": [
+            125,
+            656,
+            517,
+            674
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "The proof is by induction on $n - i$ .If $i = n$ , the claim follows from $( * )$ If $i < n$ ,let $_ v$ be any valuation. Consider the two diferent valuations arising from $_ v$ by assigning O and 1 to $p _ { i + 1 }$ . We have by the induction hypothesis that $p _ { 1 } ^ { \\prime } , \\ldots , p _ { i } ^ { \\prime } , p _ { i + 1 } \\vdash \\varphi$ and $p _ { 1 } ^ { \\prime } , \\ldots , p _ { i } ^ { \\prime } , \\lnot p _ { i + 1 } \\vdash \\varphi$ ，and then also $p _ { 1 } ^ { \\prime } , \\ldots , p _ { i } ^ { \\prime } \\vdash \\varphi$ using Example 6.1.2. □ ",
+        "bbox": [
+            124,
+            675,
+            738,
+            763
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Since every theorem is a classical tautology, consistency follows,i.e. $\\forall \\perp$ In fact,our logic is maximally consistent in the following sense. ",
+        "bbox": [
+            125,
+            781,
+            738,
+            816
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.1.11. PROPOSITION． Let $\\varphi$ be a formula which is not a tautology. Consider the system $z$ obtained from Definition 6.1.6 by adding $\\varphi$ as an axiom scheme. The system $z$ is inconsistent. ",
+        "bbox": [
+            125,
+            830,
+            740,
+            883
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "6.1．CLASSICAL PROPOSITIONAL LOGIC ",
+        "bbox": [
+            122,
+            65,
+            460,
+            82
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "131 ",
+        "bbox": [
+            705,
+            65,
+            735,
+            80
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "PROOF. Let $p _ { 1 } , \\ldots , p _ { n }$ be the propositional letters in $\\varphi$ . Since $\\varphi$ is not a tautology there is a valuation $_ v$ such that $[ | \\varphi | ] _ { v } = 0$ . Then let ",
+        "bbox": [
+            122,
+            106,
+            736,
+            142
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/079d74e6fa33a190dff4c1e398923ca2bc24bea04983897e2bf9fd34f3f27c7b.jpg",
+        "text": "$$\n\\psi _ { i } = { \\left\\{ \\begin{array} { l l } { p _ { i } \\to p _ { i } } & { { \\mathrm { i f ~ } } v ( p _ { i } ) = 1 } \\\\ { \\neg ( p _ { i } \\to p _ { i } ) } & { { \\mathrm { i f ~ } } v ( p _ { i } ) = 0 . } \\end{array} \\right. }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            290,
+            150,
+            560,
+            190
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Let $\\psi$ be obtained from $\\varphi$ by replacing all $p _ { i }$ by $\\psi _ { i }$ . We have $\\vdash \\psi$ in $z$ However, $\\mathbb { [ } \\psi ] _ { u } = 0$ for all valuations $\\boldsymbol { u }$ ，s0 $[ \\neg \\psi ] _ { u } = 1$ . By completeness, $\\vdash \\lnot \\psi$ in classical logic,and hence also in $Z$ . Thus $\\vdash \\bot$ in $Z$ □ ",
+        "bbox": [
+            122,
+            199,
+            738,
+            253
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Thus,with classical logic the addition of new axiom schemes must come to an end; otherwise, the system becomes inconsistent. ",
+        "bbox": [
+            122,
+            267,
+            736,
+            303
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "CHAPTER 6. CLASSICAL LOGIC AND CONTROL OPERATORS",
+        "bbox": [
+            235,
+            68,
+            736,
+            83
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "132 ",
+        "bbox": [
+            125,
+            65,
+            155,
+            80
+        ],
+        "page_idx": 13
+    }
+]

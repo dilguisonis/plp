@@ -1,0 +1,5265 @@
+[
+    {
+        "layout_dets": [
+            {
+                "category_id": 1,
+                "poly": [
+                    98,
+                    348,
+                    1567,
+                    348,
+                    1567,
+                    564,
+                    98,
+                    564
+                ],
+                "score": 0.979
+            },
+            {
+                "category_id": 5,
+                "poly": [
+                    76,
+                    177,
+                    1571,
+                    177,
+                    1571,
+                    307,
+                    76,
+                    307
+                ],
+                "score": 0.966,
+                "html": "<table><tr><td rowspan=1 colspan=1>#Orden Libreta</td><td rowspan=1 colspan=1>Libreta</td><td rowspan=1 colspan=1>Apellido y Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>11+.64122KenhsOcEui0</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A</td></tr></table>"
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    93,
+                    1385,
+                    1603,
+                    1385,
+                    1603,
+                    1520,
+                    93,
+                    1520
+                ],
+                "score": 0.964
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    94,
+                    697,
+                    1415,
+                    697,
+                    1415,
+                    744,
+                    94,
+                    744
+                ],
+                "score": 0.885
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    99,
+                    2110,
+                    931,
+                    2110,
+                    931,
+                    2162,
+                    99,
+                    2162
+                ],
+                "score": 0.837
+            },
+            {
+                "category_id": 0,
+                "poly": [
+                    95,
+                    1339,
+                    746,
+                    1339,
+                    746,
+                    1384,
+                    95,
+                    1384
+                ],
+                "score": 0.791
+            },
+            {
+                "category_id": 0,
+                "poly": [
+                    101,
+                    615,
+                    545,
+                    615,
+                    545,
+                    658,
+                    101,
+                    658
+                ],
+                "score": 0.789
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    147,
+                    1737,
+                    550,
+                    1737,
+                    550,
+                    2069,
+                    147,
+                    2069
+                ],
+                "score": 0.757
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    146,
+                    777,
+                    1246,
+                    777,
+                    1246,
+                    1082,
+                    146,
+                    1082
+                ],
+                "score": 0.749
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    93,
+                    1235,
+                    1222,
+                    1235,
+                    1222,
+                    1285,
+                    93,
+                    1285
+                ],
+                "score": 0.745
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    94,
+                    1597,
+                    1603,
+                    1597,
+                    1603,
+                    1689,
+                    94,
+                    1689
+                ],
+                "score": 0.706
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    98,
+                    1116,
+                    1436,
+                    1116,
+                    1436,
+                    1214,
+                    98,
+                    1214
+                ],
+                "score": 0.354
+            },
+            {
+                "category_id": 6,
+                "poly": [
+                    160,
+                    103,
+                    1494,
+                    103,
+                    1494,
+                    156,
+                    160,
+                    156
+                ],
+                "score": 0.301
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    95,
+                    1339,
+                    746,
+                    1339,
+                    746,
+                    1384,
+                    95,
+                    1384
+                ],
+                "score": 0.111
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    101,
+                    615,
+                    545,
+                    615,
+                    545,
+                    658,
+                    101,
+                    658
+                ],
+                "score": 0.107
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    926,
+                    109,
+                    989,
+                    109,
+                    989,
+                    150,
+                    926,
+                    150
+                ],
+                "score": 0.82,
+                "latex": "1 ^ { \\mathrm { d o } }"
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    153,
+                    1171,
+                    683,
+                    1171,
+                    683,
+                    1215,
+                    153,
+                    1215
+                ],
+                "score": 0.71,
+                "latex": "\\exists C . \\forall X . ( n ( X ) \\in b \\Rightarrow C \\leq n ( X ) ) ."
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    153,
+                    1784,
+                    284,
+                    1784,
+                    284,
+                    1824,
+                    153,
+                    1824
+                ],
+                "score": 0.35,
+                "latex": "L = [ 1 ]"
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    595,
+                    441,
+                    621,
+                    441,
+                    621,
+                    475,
+                    595,
+                    475
+                ],
+                "score": 0.32,
+                "latex": "\\dot { \\mathbf { y } }"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    88.0,
+                    1335.0,
+                    751.0,
+                    1335.0,
+                    751.0,
+                    1385.0,
+                    88.0,
+                    1385.0
+                ],
+                "score": 0.971,
+                "text": "Ejercicio 2-Programacion Logica"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    97.0,
+                    610.0,
+                    549.0,
+                    610.0,
+                    549.0,
+                    662.0,
+                    97.0,
+                    662.0
+                ],
+                "score": 0.983,
+                "text": "Ejercicio 1-Resolucion"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    153.0,
+                    91.0,
+                    925.0,
+                    91.0,
+                    925.0,
+                    163.0,
+                    153.0,
+                    163.0
+                ],
+                "score": 0.989,
+                "text": "PLP-Segundo Recuperatorio-"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    990.0,
+                    91.0,
+                    1501.0,
+                    91.0,
+                    1501.0,
+                    163.0,
+                    990.0,
+                    163.0
+                ],
+                "score": 0.978,
+                "text": "cuatrimestre de 2024"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    153.0,
+                    341.0,
+                    1570.0,
+                    341.0,
+                    1570.0,
+                    392.0,
+                    153.0,
+                    392.0
+                ],
+                "score": 0.953,
+                "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien menos (B-)y uno regular(R).Las notas"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    90.0,
+                    379.0,
+                    1571.0,
+                    379.0,
+                    1571.0,
+                    440.0,
+                    90.0,
+                    440.0
+                ],
+                "score": 0.847,
+                "text": "para cada ejercicio son-,I，R,B-B.Entregarcadaejercicioenhojasseparadas.Poner nombreapellidoy"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    94.0,
+                    428.0,
+                    594.0,
+                    428.0,
+                    594.0,
+                    476.0,
+                    94.0,
+                    476.0
+                ],
+                "score": 0.946,
+                "text": "numero de orden en todas las hojas,"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    622.0,
+                    428.0,
+                    1571.0,
+                    428.0,
+                    1571.0,
+                    476.0,
+                    622.0,
+                    476.0
+                ],
+                "score": 0.956,
+                "text": "numerarlas.Sepuede utilizar todo lo definido en las practicasy todo lo"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    90.0,
+                    473.0,
+                    1573.0,
+                    473.0,
+                    1573.0,
+                    520.0,
+                    90.0,
+                    520.0
+                ],
+                "score": 0.925,
+                "text": "quese dio en clasecolocando referenciasclaras.Elorden de los ejercicios esarbitrario.Recomendamos leerel"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    94.0,
+                    520.0,
+                    754.0,
+                    520.0,
+                    754.0,
+                    566.0,
+                    94.0,
+                    566.0
+                ],
+                "score": 0.949,
+                "text": "parcial completo antes de empezar a resolverlo."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1326.0,
+                    1386.0,
+                    1356.0,
+                    1386.0,
+                    1356.0,
+                    1405.0,
+                    1326.0,
+                    1405.0
+                ],
+                "score": 0.6,
+                "text": "OS"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1547.0,
+                    1388.0,
+                    1594.0,
+                    1388.0,
+                    1594.0,
+                    1407.0,
+                    1547.0,
+                    1407.0
+                ],
+                "score": 0.51,
+                "text": "ae-"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    129.0,
+                    1407.0,
+                    147.0,
+                    1407.0,
+                    147.0,
+                    1419.0,
+                    129.0,
+                    1419.0
+                ],
+                "score": 0.074,
+                "text": "1"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    135.0,
+                    1370.5,
+                    1294.0,
+                    1370.5,
+                    1294.0,
+                    1438.5,
+                    135.0,
+                    1438.5
+                ],
+                "score": 0.95,
+                "text": "Implementarlos predicados respetando cncada casola instanciacionpedida"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    88.0,
+                    1412.0,
+                    1610.0,
+                    1412.0,
+                    1610.0,
+                    1480.0,
+                    88.0,
+                    1480.0
+                ],
+                "score": 0.898,
+                "text": "bencubrir todaslasinstancias validasdeaqueloquegeneransinrepetirdosveceslamisma.Nousar"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    84.75,
+                    1459.5,
+                    1292.75,
+                    1459.5,
+                    1292.75,
+                    1524.5,
+                    84.75,
+                    1524.5
+                ],
+                "score": 0.816,
+                "text": "cut(l)nipredicadosdealtoordencomosetof,conlaunica excepiondenot."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    90.0,
+                    693.0,
+                    1419.0,
+                    693.0,
+                    1419.0,
+                    742.0,
+                    90.0,
+                    742.0
+                ],
+                "score": 0.963,
+                "text": "a) Representar en forma clausal las siguientes formulas de l6gica de primer orden:"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    93.0,
+                    2107.0,
+                    937.0,
+                    2107.0,
+                    937.0,
+                    2162.0,
+                    93.0,
+                    2162.0
+                ],
+                "score": 0.943,
+                "text": "b)El predicado anterior ies reversible? Justificar"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    97.0,
+                    1742.0,
+                    152.0,
+                    1742.0,
+                    152.0,
+                    2113.0,
+                    97.0,
+                    2113.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    285.0,
+                    1742.0,
+                    503.0,
+                    1742.0,
+                    503.0,
+                    2113.0,
+                    285.0,
+                    2113.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    285.0,
+                    1772.0,
+                    334.0,
+                    1772.0,
+                    334.0,
+                    1834.0,
+                    285.0,
+                    1834.0
+                ],
+                "score": 0.685,
+                "text": "；"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    348.0,
+                    1947.0,
+                    371.0,
+                    1947.0,
+                    371.0,
+                    1966.0,
+                    348.0,
+                    1966.0
+                ],
+                "score": 0.092,
+                "text": "4"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    410.0,
+                    1956.0,
+                    479.0,
+                    1956.0,
+                    479.0,
+                    1986.0,
+                    410.0,
+                    1986.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    177.0,
+                    1739.5,
+                    545.0,
+                    1739.5,
+                    545.0,
+                    1783.0,
+                    177.0,
+                    1783.0
+                ],
+                "score": 0.969,
+                "text": "-generarCapicuas(L)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    145.0,
+                    773.0,
+                    632.0,
+                    773.0,
+                    632.0,
+                    832.0,
+                    145.0,
+                    832.0
+                ],
+                "score": 0.755,
+                "text": "1.3C.X.（X∈a=X≤C）"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    190.0,
+                    817.0,
+                    916.0,
+                    817.0,
+                    916.0,
+                    876.0,
+                    190.0,
+                    876.0
+                ],
+                "score": 0.939,
+                "text": "Eriste una cota superior para el conjunto a."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    138.0,
+                    873.0,
+                    747.0,
+                    873.0,
+                    747.0,
+                    936.0,
+                    138.0,
+                    936.0
+                ],
+                "score": 0.717,
+                "text": "2.VX.VY.（X≤Y=n（Y）≤n（X））"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    187.0,
+                    923.0,
+                    696.0,
+                    923.0,
+                    696.0,
+                    977.0,
+                    187.0,
+                    977.0
+                ],
+                "score": 0.898,
+                "text": "SiX≤Y,entonces-Y≤-x."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    140.0,
+                    979.0,
+                    608.0,
+                    979.0,
+                    608.0,
+                    1037.0,
+                    140.0,
+                    1037.0
+                ],
+                "score": 0.745,
+                "text": "3.X.（X∈a⇔n（X）∈b）"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    150.0,
+                    1027.0,
+                    1247.0,
+                    1027.0,
+                    1247.0,
+                    1079.0,
+                    150.0,
+                    1079.0
+                ],
+                "score": 0.953,
+                "text": "X pertenece al conjunto a si y solo si-X pertenece al conjunto b."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    86.0,
+                    1230.0,
+                    1228.0,
+                    1230.0,
+                    1228.0,
+                    1286.0,
+                    86.0,
+                    1286.0
+                ],
+                "score": 0.861,
+                "text": "c) La resolucion utilizada en el punto anteriorifue SD? Jutificar."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    191.0,
+                    1637.0,
+                    1025.0,
+                    1637.0,
+                    1025.0,
+                    1685.0,
+                    191.0,
+                    1685.0
+                ],
+                "score": 0.951,
+                "text": "meros naturales(sin incluir al cero).Por ejemplo:"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    85.0,
+                    1580.5,
+                    1620.0,
+                    1580.5,
+                    1620.0,
+                    1660.5,
+                    85.0,
+                    1660.5
+                ],
+                "score": 0.821,
+                "text": "a)ImplementarclpredicadogenerarCapicuas-L)quegeneraodaslaslistasapicasde"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    67.0,
+                    1088.0,
+                    152.0,
+                    1088.0,
+                    152.0,
+                    1231.0,
+                    67.0,
+                    1231.0
+                ],
+                "score": 0.245,
+                "text": "P"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    684.0,
+                    1088.0,
+                    1473.0,
+                    1088.0,
+                    1473.0,
+                    1231.0,
+                    684.0,
+                    1231.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    88.0,
+                    1335.0,
+                    751.0,
+                    1335.0,
+                    751.0,
+                    1385.0,
+                    88.0,
+                    1385.0
+                ],
+                "score": 0.971,
+                "text": "Ejercicio 2-Programacion Logica"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    97.0,
+                    610.0,
+                    549.0,
+                    610.0,
+                    549.0,
+                    662.0,
+                    97.0,
+                    662.0
+                ],
+                "score": 0.983,
+                "text": "Ejercicio 1-Resolucion"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 1,
+                "poly": [
+                    78,
+                    1504,
+                    1533,
+                    1504,
+                    1533,
+                    1643,
+                    78,
+                    1643
+                ],
+                "score": 0.964
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    81,
+                    299,
+                    1057,
+                    299,
+                    1057,
+                    537,
+                    81,
+                    537
+                ],
+                "score": 0.948
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    29,
+                    570,
+                    1514,
+                    570,
+                    1514,
+                    701,
+                    29,
+                    701
+                ],
+                "score": 0.944
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    106,
+                    1678,
+                    508,
+                    1678,
+                    508,
+                    1779,
+                    106,
+                    1779
+                ],
+                "score": 0.934
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    40,
+                    114,
+                    1492,
+                    114,
+                    1492,
+                    272,
+                    40,
+                    272
+                ],
+                "score": 0.912
+            },
+            {
+                "category_id": 8,
+                "poly": [
+                    429,
+                    2161,
+                    1204,
+                    2161,
+                    1204,
+                    2217,
+                    429,
+                    2217
+                ],
+                "score": 0.902
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    30,
+                    2012,
+                    1548,
+                    2012,
+                    1548,
+                    2112,
+                    30,
+                    2112
+                ],
+                "score": 0.788
+            },
+            {
+                "category_id": 0,
+                "poly": [
+                    29,
+                    752,
+                    817,
+                    752,
+                    817,
+                    797,
+                    29,
+                    797
+                ],
+                "score": 0.654
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    48,
+                    1895,
+                    1536,
+                    1895,
+                    1536,
+                    1990,
+                    48,
+                    1990
+                ],
+                "score": 0.422
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    40,
+                    1797,
+                    1543,
+                    1797,
+                    1543,
+                    1890,
+                    40,
+                    1890
+                ],
+                "score": 0.352
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    28,
+                    815,
+                    578,
+                    815,
+                    578,
+                    859,
+                    28,
+                    859
+                ],
+                "score": 0.351
+            },
+            {
+                "category_id": 5,
+                "poly": [
+                    49,
+                    871,
+                    1143,
+                    871,
+                    1143,
+                    1412,
+                    49,
+                    1412
+                ],
+                "score": 0.264,
+                "html": "<table><tr><td>Object subclass:#A m1 [self eval].</td><td>A subclass:#B m2 [super eval].</td></tr><tr><td>eval self value.</td><td>m3 self.</td></tr><tr><td>value</td><td>value</td></tr><tr><td>0.</td><td>^1.</td></tr><tr><td></td><td>eval</td></tr><tr><td></td><td>2.</td></tr></table>"
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    29,
+                    752,
+                    817,
+                    752,
+                    817,
+                    797,
+                    29,
+                    797
+                ],
+                "score": 0.227
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    49,
+                    871,
+                    1143,
+                    871,
+                    1143,
+                    1412,
+                    49,
+                    1412
+                ],
+                "score": 0.222
+            },
+            {
+                "category_id": 14,
+                "poly": [
+                    435,
+                    2157,
+                    1202,
+                    2157,
+                    1202,
+                    2220,
+                    435,
+                    2220
+                ],
+                "score": 0.9,
+                "latex": "\\exists X . P ( X ) \\lor \\forall Y . Q ( Y ) \\implies \\exists X . ( Q ( X ) \\lor P ( X ) )"
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    86,
+                    384,
+                    150,
+                    384,
+                    150,
+                    419,
+                    86,
+                    419
+                ],
+                "score": 0.73,
+                "latex": "\\overline { { \\mathbb { T } } } \\ ="
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    84,
+                    423,
+                    151,
+                    423,
+                    151,
+                    457,
+                    84,
+                    457
+                ],
+                "score": 0.64,
+                "latex": "\\tau ="
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    88,
+                    346,
+                    150,
+                    346,
+                    150,
+                    381,
+                    88,
+                    381
+                ],
+                "score": 0.6,
+                "latex": "\\tau ="
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    83,
+                    461,
+                    150,
+                    461,
+                    150,
+                    497,
+                    83,
+                    497
+                ],
+                "score": 0.59,
+                "latex": "\\tau ="
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    892,
+                    1370,
+                    937,
+                    1370,
+                    937,
+                    1406,
+                    892,
+                    1406
+                ],
+                "score": 0.36,
+                "latex": "= 2"
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    153,
+                    1257,
+                    196,
+                    1257,
+                    196,
+                    1293,
+                    153,
+                    1293
+                ],
+                "score": 0.29,
+                "latex": "- 0"
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    90,
+                    309,
+                    132,
+                    309,
+                    132,
+                    343,
+                    90,
+                    343
+                ],
+                "score": 0.27,
+                "latex": "7 -"
+            },
+            {
+                "category_id": 13,
+                "poly": [
+                    605,
+                    116,
+                    716,
+                    116,
+                    716,
+                    155,
+                    605,
+                    155
+                ],
+                "score": 0.27,
+                "latex": "( + \\infty , + \\infty"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    23.0,
+                    747.0,
+                    822.0,
+                    747.0,
+                    822.0,
+                    798.0,
+                    23.0,
+                    798.0
+                ],
+                "score": 0.98,
+                "text": "Ejercicio 3-Objetos y Deduccion Natural"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    72.0,
+                    1598.0,
+                    850.0,
+                    1598.0,
+                    850.0,
+                    1642.0,
+                    72.0,
+                    1642.0
+                ],
+                "score": 0.964,
+                "text": "cual es el resultado final de cada colaboracion:"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    71.0,
+                    1495.5,
+                    1540.0,
+                    1495.5,
+                    1540.0,
+                    1551.5,
+                    71.0,
+                    1551.5
+                ],
+                "score": 0.963,
+                "text": "Para cada una de las siguientes expresiones,hacer una tabla donde se indique,en orden,"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    70.0,
+                    1538.5,
+                    1540.0,
+                    1538.5,
+                    1540.0,
+                    1604.5,
+                    70.0,
+                    1604.5
+                ],
+                "score": 0.891,
+                "text": "cadamensajeque se envia,que objeto lo recibe,en que clase est el metodo respectivoy"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    79.0,
+                    297.0,
+                    89.0,
+                    297.0,
+                    89.0,
+                    342.0,
+                    79.0,
+                    342.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    133.0,
+                    297.0,
+                    1060.0,
+                    297.0,
+                    1060.0,
+                    342.0,
+                    133.0,
+                    342.0
+                ],
+                "score": 0.837,
+                "text": "tokenizar（[[a],[a,b],[b,a]，[c]]，[a,b,a,c,a,b,a]，T)."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    77.0,
+                    340.0,
+                    87.0,
+                    340.0,
+                    87.0,
+                    379.0,
+                    77.0,
+                    379.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    151.0,
+                    340.0,
+                    614.0,
+                    340.0,
+                    614.0,
+                    379.0,
+                    151.0,
+                    379.0
+                ],
+                "score": 0.921,
+                "text": "[[a]，[b，a]，[c]，[a]，[b，a]]；"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    78.0,
+                    379.0,
+                    85.0,
+                    379.0,
+                    85.0,
+                    417.0,
+                    78.0,
+                    417.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    151.0,
+                    379.0,
+                    613.0,
+                    379.0,
+                    613.0,
+                    417.0,
+                    151.0,
+                    417.0
+                ],
+                "score": 0.916,
+                "text": "[[a]，[b，a]，[c]，[a，b]，[a]]；"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    78.0,
+                    416.0,
+                    83.0,
+                    416.0,
+                    83.0,
+                    455.0,
+                    78.0,
+                    455.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    152.0,
+                    416.0,
+                    614.0,
+                    416.0,
+                    614.0,
+                    455.0,
+                    152.0,
+                    455.0
+                ],
+                "score": 0.921,
+                "text": "[[a，b]，[a]，[c]，[a]，[b，a]]；"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    78.0,
+                    451.0,
+                    82.0,
+                    451.0,
+                    82.0,
+                    500.0,
+                    78.0,
+                    500.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    151.0,
+                    451.0,
+                    616.0,
+                    451.0,
+                    616.0,
+                    500.0,
+                    151.0,
+                    500.0
+                ],
+                "score": 0.866,
+                "text": "[[a,b],[a]，[c]，[a，b]，[a]]；"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    79.0,
+                    497.0,
+                    198.0,
+                    497.0,
+                    198.0,
+                    539.0,
+                    79.0,
+                    539.0
+                ],
+                "score": 0.986,
+                "text": "false."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    22.0,
+                    563.0,
+                    1521.0,
+                    563.0,
+                    1521.0,
+                    621.0,
+                    22.0,
+                    621.0
+                ],
+                "score": 0.931,
+                "text": "d)Definir el predicado mayorCantPalabras(+D,+F,-T) que es verdadero cuando T es una"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    71.0,
+                    607.0,
+                    1518.0,
+                    607.0,
+                    1518.0,
+                    661.0,
+                    71.0,
+                    661.0
+                ],
+                "score": 0.949,
+                "text": "tokenizacion de la frase F con el diccionario D que tiene la mayor cantidad de palabras.En"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    70.0,
+                    652.0,
+                    1047.0,
+                    652.0,
+                    1047.0,
+                    702.0,
+                    70.0,
+                    702.0
+                ],
+                "score": 0.977,
+                "text": "este inciso no esta permitido utilizar estructuras auxiliares."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    105.0,
+                    1678.0,
+                    452.0,
+                    1678.0,
+                    452.0,
+                    1723.0,
+                    105.0,
+                    1723.0
+                ],
+                "score": 0.855,
+                "text": "1)B new m1 value"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    99.0,
+                    1723.0,
+                    513.0,
+                    1723.0,
+                    513.0,
+                    1779.0,
+                    99.0,
+                    1779.0
+                ],
+                "score": 0.847,
+                "text": "II)B new m3 m2 value"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    35.0,
+                    106.0,
+                    604.0,
+                    106.0,
+                    604.0,
+                    167.0,
+                    35.0,
+                    167.0
+                ],
+                "score": 0.96,
+                "text": "c) Definir el predicado tokenizar"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    717.0,
+                    106.0,
+                    1498.0,
+                    106.0,
+                    1498.0,
+                    167.0,
+                    717.0,
+                    167.0
+                ],
+                "score": 0.859,
+                "text": "-T),que es verdadero cuando D representa un"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    82.0,
+                    143.0,
+                    1498.0,
+                    143.0,
+                    1498.0,
+                    204.0,
+                    82.0,
+                    204.0
+                ],
+                "score": 0.915,
+                "text": "diccionario de palabras conocidas (lista de listas de letras),F es una lista de letras sin"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    79.0,
+                    185.0,
+                    1498.0,
+                    185.0,
+                    1498.0,
+                    238.0,
+                    79.0,
+                    238.0
+                ],
+                "score": 0.944,
+                "text": "espaciosy T esla lista de palabras en la que se puede partir la frase.El predicado debe"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    77.0,
+                    217.0,
+                    1501.0,
+                    217.0,
+                    1501.0,
+                    280.0,
+                    77.0,
+                    280.0
+                ],
+                "score": 0.939,
+                "text": "generartodas las posibles maneras de dividir la frase en palabras conocidas.Por ejemplo:"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    74.0,
+                    2065.0,
+                    462.0,
+                    2065.0,
+                    462.0,
+                    2110.0,
+                    74.0,
+                    2110.0
+                ],
+                "score": 0.959,
+                "text": "razonamiento clasicos:"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    27.0,
+                    2004.5,
+                    1560.0,
+                    2004.5,
+                    1560.0,
+                    2069.5,
+                    27.0,
+                    2069.5
+                ],
+                "score": 0.936,
+                "text": "c)Demostrar en deduccion natural que vale la siguiente formula, sin utilizar principios de"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    77.0,
+                    1941.0,
+                    532.0,
+                    1941.0,
+                    532.0,
+                    1990.0,
+                    77.0,
+                    1990.0
+                ],
+                "score": 0.955,
+                "text": "el objeto sabe responderlo."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    60.75,
+                    1883.5,
+                    1549.75,
+                    1883.5,
+                    1549.75,
+                    1951.0,
+                    60.75,
+                    1951.0
+                ],
+                "score": 0.942,
+                "text": "Sugerencia: pueden utilizar el mensaje #respondsTo:,que toma un mensaje y devueive sl"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    82.0,
+                    1839.0,
+                    983.0,
+                    1839.0,
+                    983.0,
+                    1892.0,
+                    82.0,
+                    1892.0
+                ],
+                "score": 0.974,
+                "text": "de la coleccion que saben responder al mensaje #ptff."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    35.0,
+                    1786.5,
+                    1555.0,
+                    1786.5,
+                    1555.0,
+                    1852.5,
+                    35.0,
+                    1852.5
+                ],
+                "score": 0.955,
+                "text": ")Implementar un closure que tome como parametro una coleccion y devuelva los elementos"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    24.0,
+                    811.0,
+                    581.0,
+                    811.0,
+                    581.0,
+                    864.0,
+                    24.0,
+                    864.0
+                ],
+                "score": 0.963,
+                "text": "a) Considere las siguientes clases:"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    23.0,
+                    747.0,
+                    822.0,
+                    747.0,
+                    822.0,
+                    798.0,
+                    23.0,
+                    798.0
+                ],
+                "score": 0.98,
+                "text": "Ejercicio 3-Objetos y Deduccion Natural"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    72.0,
+                    886.0,
+                    429.0,
+                    886.0,
+                    429.0,
+                    932.0,
+                    72.0,
+                    932.0
+                ],
+                "score": 0.982,
+                "text": "Object subclass:#A"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    806.0,
+                    879.0,
+                    1073.0,
+                    879.0,
+                    1073.0,
+                    928.0,
+                    806.0,
+                    928.0
+                ],
+                "score": 0.944,
+                "text": "A subclass:#B"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    138.0,
+                    967.0,
+                    203.0,
+                    967.0,
+                    203.0,
+                    1021.0,
+                    138.0,
+                    1021.0
+                ],
+                "score": 0.984,
+                "text": "m1"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    872.0,
+                    956.0,
+                    941.0,
+                    956.0,
+                    941.0,
+                    1016.0,
+                    872.0,
+                    1016.0
+                ],
+                "score": 0.99,
+                "text": "m2"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    137.0,
+                    995.0,
+                    396.0,
+                    995.0,
+                    396.0,
+                    1068.0,
+                    137.0,
+                    1068.0
+                ],
+                "score": 0.933,
+                "text": "[self eval]."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    875.0,
+                    989.0,
+                    1136.0,
+                    989.0,
+                    1136.0,
+                    1063.0,
+                    875.0,
+                    1063.0
+                ],
+                "score": 0.957,
+                "text": "[super eval]."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    129.0,
+                    1082.0,
+                    239.0,
+                    1082.0,
+                    239.0,
+                    1139.0,
+                    129.0,
+                    1139.0
+                ],
+                "score": 0.914,
+                "text": "eval"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    853.0,
+                    1050.0,
+                    1033.0,
+                    1050.0,
+                    1033.0,
+                    1197.0,
+                    853.0,
+                    1197.0
+                ],
+                "score": 0.202,
+                "text": "8"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    137.0,
+                    1115.0,
+                    382.0,
+                    1115.0,
+                    382.0,
+                    1185.0,
+                    137.0,
+                    1185.0
+                ],
+                "score": 0.937,
+                "text": "self value."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    136.0,
+                    1199.0,
+                    264.0,
+                    1199.0,
+                    264.0,
+                    1264.0,
+                    136.0,
+                    1264.0
+                ],
+                "score": 0.971,
+                "text": "value"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    878.0,
+                    1194.0,
+                    999.0,
+                    1194.0,
+                    999.0,
+                    1255.0,
+                    878.0,
+                    1255.0
+                ],
+                "score": 0.984,
+                "text": "value"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    135.0,
+                    1234.0,
+                    152.0,
+                    1234.0,
+                    152.0,
+                    1309.0,
+                    135.0,
+                    1309.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    197.0,
+                    1234.0,
+                    237.0,
+                    1234.0,
+                    237.0,
+                    1309.0,
+                    197.0,
+                    1309.0
+                ],
+                "score": 0.309,
+                "text": "Lu"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    881.0,
+                    1228.0,
+                    965.0,
+                    1228.0,
+                    965.0,
+                    1303.0,
+                    881.0,
+                    1303.0
+                ],
+                "score": 0.542,
+                "text": "1."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    881.0,
+                    1323.0,
+                    976.0,
+                    1323.0,
+                    976.0,
+                    1370.0,
+                    881.0,
+                    1370.0
+                ],
+                "score": 0.988,
+                "text": "eval"
+            }
+        ],
+        "page_info": {
+            "page_no": 1,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 3,
+                "poly": [
+                    430,
+                    1009,
+                    1433,
+                    1009,
+                    1433,
+                    1302,
+                    430,
+                    1302
+                ],
+                "score": 0.883
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    321,
+                    482,
+                    1444,
+                    482,
+                    1444,
+                    691,
+                    321,
+                    691
+                ],
+                "score": 0.874
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    375,
+                    1819,
+                    1290,
+                    1819,
+                    1290,
+                    1973,
+                    375,
+                    1973
+                ],
+                "score": 0.857
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    318,
+                    743,
+                    1552,
+                    743,
+                    1552,
+                    955,
+                    318,
+                    955
+                ],
+                "score": 0.7
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    379,
+                    1395,
+                    1596,
+                    1395,
+                    1596,
+                    1534,
+                    379,
+                    1534
+                ],
+                "score": 0.526
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    252,
+                    2026,
+                    1290,
+                    2026,
+                    1290,
+                    2214,
+                    252,
+                    2214
+                ],
+                "score": 0.476
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    327,
+                    222,
+                    1322,
+                    222,
+                    1322,
+                    437,
+                    327,
+                    437
+                ],
+                "score": 0.324
+            },
+            {
+                "category_id": 2,
+                "poly": [
+                    56,
+                    1967,
+                    125,
+                    1967,
+                    125,
+                    2036,
+                    56,
+                    2036
+                ],
+                "score": 0.304
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    398,
+                    1591,
+                    1633,
+                    1591,
+                    1633,
+                    1727,
+                    398,
+                    1727
+                ],
+                "score": 0.26
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    431,
+                    1010,
+                    1434,
+                    1010,
+                    1434,
+                    1303,
+                    431,
+                    1303
+                ],
+                "score": 0.101
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    316,
+                    745,
+                    1134,
+                    745,
+                    1134,
+                    798,
+                    316,
+                    798
+                ],
+                "score": 0.1
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    427.0,
+                    1002.0,
+                    1434.0,
+                    1002.0,
+                    1434.0,
+                    1072.0,
+                    427.0,
+                    1072.0
+                ],
+                "score": 0.673,
+                "text": "=Yx.(（-（x∈a）√(（x）<b））△"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    424.0,
+                    1148.0,
+                    1428.0,
+                    1148.0,
+                    1428.0,
+                    1228.0,
+                    424.0,
+                    1228.0
+                ],
+                "score": 0.738,
+                "text": "={{(x∈a)，（0（x）∈b）5，y"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    435.0,
+                    1226.0,
+                    1435.0,
+                    1226.0,
+                    1435.0,
+                    1303.0,
+                    435.0,
+                    1303.0
+                ],
+                "score": 0.594,
+                "text": "3（（x△)∈b）g，（x△∈<)55."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    509.0,
+                    1071.0,
+                    1430.0,
+                    1071.0,
+                    1430.0,
+                    1161.0,
+                    509.0,
+                    1161.0
+                ],
+                "score": 0.685,
+                "text": "③（（（x）<b）<（x∈<））)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    321.0,
+                    477.0,
+                    1428.0,
+                    477.0,
+                    1428.0,
+                    541.0,
+                    321.0,
+                    541.0
+                ],
+                "score": 0.543,
+                "text": "Ⅱ)√x∀y(x<y=>△(Y）<0(x))."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    389.0,
+                    541.0,
+                    1434.0,
+                    541.0,
+                    1434.0,
+                    618.0,
+                    389.0,
+                    618.0
+                ],
+                "score": 0.594,
+                "text": "=√xv>（-（x<>）√（（y）<△（x））)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    341.0,
+                    622.0,
+                    1438.0,
+                    622.0,
+                    1438.0,
+                    694.0,
+                    341.0,
+                    694.0
+                ],
+                "score": 0.638,
+                "text": "（②）={-（x2<Y），（（x）<（x）)F"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    369.0,
+                    1809.0,
+                    1296.0,
+                    1809.0,
+                    1296.0,
+                    1901.0,
+                    369.0,
+                    1901.0
+                ],
+                "score": 0.54,
+                "text": "→(↓（（γ））<γ2）5δc6²."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    366.0,
+                    1889.0,
+                    1298.0,
+                    1889.0,
+                    1298.0,
+                    1979.0,
+                    366.0,
+                    1979.0
+                ],
+                "score": 0.579,
+                "text": "o={C6<n（x），X2<+（C△）5"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    313.0,
+                    735.0,
+                    1214.0,
+                    735.0,
+                    1214.0,
+                    810.0,
+                    313.0,
+                    810.0
+                ],
+                "score": 0.671,
+                "text": ")√x.（x∈a<>△（x）<b)."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    407.0,
+                    798.0,
+                    1552.0,
+                    798.0,
+                    1552.0,
+                    891.0,
+                    407.0,
+                    891.0
+                ],
+                "score": 0.676,
+                "text": "=γx(<（x∈a）->(（x）∈b）)△"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    670.0,
+                    881.0,
+                    1530.0,
+                    881.0,
+                    1530.0,
+                    956.0,
+                    670.0,
+                    956.0
+                ],
+                "score": 0.646,
+                "text": "(<（x）∈b）->（x∈<））.)."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    373.0,
+                    1385.0,
+                    1583.0,
+                    1385.0,
+                    1583.0,
+                    1460.0,
+                    373.0,
+                    1460.0
+                ],
+                "score": 0.636,
+                "text": "(+(.<x.（（x）∈b->C<o（x）））."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    371.0,
+                    1456.0,
+                    1598.0,
+                    1456.0,
+                    1598.0,
+                    1536.0,
+                    371.0,
+                    1536.0
+                ],
+                "score": 0.686,
+                "text": "=√C.x.(（（x）∈b）△-(C<（x）））."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    246.0,
+                    2019.0,
+                    1286.0,
+                    2019.0,
+                    1286.0,
+                    2105.0,
+                    246.0,
+                    2105.0
+                ],
+                "score": 0.595,
+                "text": "⑧3-（+（n（c）∈a）5d<+↑"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    284.0,
+                    2131.0,
+                    1292.0,
+                    2131.0,
+                    1292.0,
+                    2217.0,
+                    284.0,
+                    2217.0
+                ],
+                "score": 0.623,
+                "text": "O2=3x<÷（。（Y）），Y2<c"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    333.0,
+                    218.0,
+                    1169.0,
+                    218.0,
+                    1169.0,
+                    280.0,
+                    333.0,
+                    280.0
+                ],
+                "score": 0.711,
+                "text": "I)+C.Vx（x∈a=>x<C)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    405.0,
+                    267.0,
+                    1307.0,
+                    267.0,
+                    1307.0,
+                    371.0,
+                    405.0,
+                    371.0
+                ],
+                "score": 0.63,
+                "text": "=∈.vx（-（x∈a）、（x<C））"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    328.0,
+                    347.0,
+                    1313.0,
+                    347.0,
+                    1313.0,
+                    447.0,
+                    328.0,
+                    447.0
+                ],
+                "score": 0.586,
+                "text": "①={-（x∈a），（x、《轮<）F"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    455.0,
+                    349.5,
+                    500.0,
+                    349.5,
+                    500.0,
+                    368.5,
+                    455.0,
+                    368.5
+                ],
+                "score": 0.598,
+                "text": "LEH"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    47.0,
+                    1956.0,
+                    136.0,
+                    1956.0,
+                    136.0,
+                    2046.0,
+                    47.0,
+                    2046.0
+                ],
+                "score": 0.809,
+                "text": "C"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    374.0,
+                    1547.0,
+                    1660.0,
+                    1547.0,
+                    1660.0,
+                    1761.0,
+                    374.0,
+                    1761.0
+                ],
+                "score": 0.396,
+                "text": "y"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    429.0,
+                    1006.0,
+                    1435.0,
+                    1006.0,
+                    1435.0,
+                    1069.0,
+                    429.0,
+                    1069.0
+                ],
+                "score": 0.625,
+                "text": "=γx.（（-（x∈a）v(（x）<b））△"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    424.0,
+                    1149.0,
+                    1425.0,
+                    1149.0,
+                    1425.0,
+                    1229.0,
+                    424.0,
+                    1229.0
+                ],
+                "score": 0.719,
+                "text": "={{-(x∈a)，（0（x）∈b）5，y"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    430.0,
+                    1226.0,
+                    1437.0,
+                    1226.0,
+                    1437.0,
+                    1304.0,
+                    430.0,
+                    1304.0
+                ],
+                "score": 0.607,
+                "text": "3（（x△)∈b）g，（x∈a)55"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    510.75,
+                    1071.5,
+                    1429.75,
+                    1071.5,
+                    1429.75,
+                    1160.0,
+                    510.75,
+                    1160.0
+                ],
+                "score": 0.689,
+                "text": "③（（（x)<b）<（x∈<））)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    311.0,
+                    741.0,
+                    1138.0,
+                    741.0,
+                    1138.0,
+                    801.0,
+                    311.0,
+                    801.0
+                ],
+                "score": 0.657,
+                "text": ")vx.(x∈c<>x（x）∈b)"
+            }
+        ],
+        "page_info": {
+            "page_no": 2,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 3,
+                "poly": [
+                    169,
+                    111,
+                    1130,
+                    111,
+                    1130,
+                    281,
+                    169,
+                    281
+                ],
+                "score": 0.79
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    169,
+                    328,
+                    697,
+                    328,
+                    697,
+                    471,
+                    169,
+                    471
+                ],
+                "score": 0.659
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    164,
+                    574,
+                    1359,
+                    574,
+                    1359,
+                    796,
+                    164,
+                    796
+                ],
+                "score": 0.633
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    157,
+                    576,
+                    1363,
+                    576,
+                    1363,
+                    863,
+                    157,
+                    863
+                ],
+                "score": 0.093
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    119.0,
+                    61.0,
+                    1179.0,
+                    61.0,
+                    1179.0,
+                    330.0,
+                    119.0,
+                    330.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    138.0,
+                    291.0,
+                    726.0,
+                    291.0,
+                    726.0,
+                    510.0,
+                    138.0,
+                    510.0
+                ],
+                "score": 0.257,
+                "text": "Co"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    389.0,
+                    360.0,
+                    631.0,
+                    360.0,
+                    631.0,
+                    450.0,
+                    389.0,
+                    450.0
+                ],
+                "score": 0.15,
+                "text": "<"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    154.0,
+                    558.0,
+                    1359.0,
+                    558.0,
+                    1359.0,
+                    654.0,
+                    154.0,
+                    654.0
+                ],
+                "score": 0.775,
+                "text": "Lcnesolucoes SD pongue oon codos"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    160.0,
+                    725.0,
+                    1083.0,
+                    725.0,
+                    1083.0,
+                    801.0,
+                    160.0,
+                    801.0
+                ],
+                "score": 0.608,
+                "text": "noncnoClusoloobJeE1v.（6）."
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    1279.0,
+                    748.0,
+                    1300.0,
+                    748.0,
+                    1300.0,
+                    764.0,
+                    1279.0,
+                    764.0
+                ],
+                "score": 0.088,
+                "text": "二"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    163.25,
+                    644.5,
+                    1358.25,
+                    644.5,
+                    1358.25,
+                    725.5,
+                    163.25,
+                    725.5
+                ],
+                "score": 0.751,
+                "text": "Clourolasdehona，ue lineol，comenaomas"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    150.0,
+                    557.0,
+                    1364.0,
+                    557.0,
+                    1364.0,
+                    657.0,
+                    150.0,
+                    657.0
+                ],
+                "score": 0.743,
+                "text": "Lcnesolucoes5LD nongue on codos"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    155.0,
+                    719.0,
+                    1074.0,
+                    719.0,
+                    1074.0,
+                    811.0,
+                    155.0,
+                    811.0
+                ],
+                "score": 0.682,
+                "text": "pon ooclbusoloohje∈iv.（6）."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1157.0,
+                    745.0,
+                    1213.0,
+                    745.0,
+                    1213.0,
+                    803.0,
+                    1157.0,
+                    803.0
+                ],
+                "score": 0.581,
+                "text": "V"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    154.0,
+                    796.0,
+                    1074.0,
+                    796.0,
+                    1074.0,
+                    876.0,
+                    154.0,
+                    876.0
+                ],
+                "score": 0.723,
+                "text": "Aaniste"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    160.0,
+                    648.5,
+                    1356.0,
+                    648.5,
+                    1356.0,
+                    723.5,
+                    160.0,
+                    723.5
+                ],
+                "score": 0.758,
+                "text": "Clourolas de hona，+ue linealComensomos"
+            }
+        ],
+        "page_info": {
+            "page_no": 3,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 3,
+                "poly": [
+                    797,
+                    1503,
+                    1369,
+                    1503,
+                    1369,
+                    1904,
+                    797,
+                    1904
+                ],
+                "score": 0.89
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    878,
+                    1310,
+                    1428,
+                    1310,
+                    1428,
+                    1385,
+                    878,
+                    1385
+                ],
+                "score": 0.827
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    495,
+                    212,
+                    1472,
+                    212,
+                    1472,
+                    430,
+                    495,
+                    430
+                ],
+                "score": 0.756
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    1003,
+                    1151,
+                    1537,
+                    1151,
+                    1537,
+                    1287,
+                    1003,
+                    1287
+                ],
+                "score": 0.681
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    258,
+                    477,
+                    971,
+                    477,
+                    971,
+                    1092,
+                    258,
+                    1092
+                ],
+                "score": 0.663
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    270,
+                    1143,
+                    737,
+                    1143,
+                    737,
+                    1285,
+                    270,
+                    1285
+                ],
+                "score": 0.553
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    222,
+                    1969,
+                    1252,
+                    1969,
+                    1252,
+                    2112,
+                    222,
+                    2112
+                ],
+                "score": 0.553
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    304,
+                    1338,
+                    798,
+                    1338,
+                    798,
+                    1574,
+                    304,
+                    1574
+                ],
+                "score": 0.507
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    254,
+                    478,
+                    912,
+                    478,
+                    912,
+                    613,
+                    254,
+                    613
+                ],
+                "score": 0.186
+            },
+            {
+                "category_id": 2,
+                "poly": [
+                    83,
+                    159,
+                    138,
+                    159,
+                    138,
+                    932,
+                    83,
+                    932
+                ],
+                "score": 0.12
+            },
+            {
+                "category_id": 2,
+                "poly": [
+                    87,
+                    167,
+                    136,
+                    167,
+                    136,
+                    926,
+                    87,
+                    926
+                ],
+                "score": 0.106
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    809.0,
+                    1493.0,
+                    1354.0,
+                    1493.0,
+                    1354.0,
+                    1583.0,
+                    809.0,
+                    1583.0
+                ],
+                "score": 0.563,
+                "text": "eagoe8xaxaaoseae"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    808.0,
+                    1570.0,
+                    1349.0,
+                    1570.0,
+                    1349.0,
+                    1661.0,
+                    808.0,
+                    1661.0
+                ],
+                "score": 0.547,
+                "text": "ooed@A)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    748.0,
+                    1698.0,
+                    1402.0,
+                    1698.0,
+                    1402.0,
+                    1946.0,
+                    748.0,
+                    1946.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    893.0,
+                    1839.0,
+                    905.0,
+                    1839.0,
+                    905.0,
+                    1846.0,
+                    893.0,
+                    1846.0
+                ],
+                "score": 0.246,
+                "text": "L"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    809.0,
+                    1654.0,
+                    1347.0,
+                    1654.0,
+                    1347.0,
+                    1748.5,
+                    809.0,
+                    1748.5
+                ],
+                "score": 0.662,
+                "text": "apped([x]，xs，L)"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    1288.0,
+                    1816.0,
+                    1305.0,
+                    1816.0,
+                    1305.0,
+                    1823.5,
+                    1288.0,
+                    1823.5
+                ],
+                "score": 0.055,
+                "text": "?"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    501.0,
+                    359.0,
+                    975.0,
+                    359.0,
+                    975.0,
+                    428.0,
+                    501.0,
+                    428.0
+                ],
+                "score": 0.532,
+                "text": "CcpIcUo<L）"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    495.0,
+                    197.0,
+                    1471.0,
+                    197.0,
+                    1471.0,
+                    305.5,
+                    495.0,
+                    305.5
+                ],
+                "score": 0.807,
+                "text": "genenonCapicocs(L）:-desde（@，N)，"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    519.75,
+                    284.0,
+                    999.75,
+                    284.0,
+                    999.75,
+                    358.0,
+                    519.75,
+                    358.0
+                ],
+                "score": 0.791,
+                "text": "listaDeN(N,L),"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    981.0,
+                    1107.0,
+                    1567.0,
+                    1107.0,
+                    1567.0,
+                    1327.0,
+                    981.0,
+                    1327.0
+                ],
+                "score": 0.369,
+                "text": "Ve gt "
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    1224.0,
+                    1200.0,
+                    1300.0,
+                    1200.0,
+                    1300.0,
+                    1255.0,
+                    1224.0,
+                    1255.0
+                ],
+                "score": 0.103,
+                "text": "H"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    1243.0,
+                    1201.0,
+                    1262.0,
+                    1201.0,
+                    1262.0,
+                    1208.0,
+                    1243.0,
+                    1208.0
+                ],
+                "score": 0.101,
+                "text": "1"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    1241.0,
+                    1205.0,
+                    1258.0,
+                    1205.0,
+                    1258.0,
+                    1213.0,
+                    1241.0,
+                    1213.0
+                ],
+                "score": 0.415,
+                "text": "R1-"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    1244.0,
+                    1210.0,
+                    1256.0,
+                    1210.0,
+                    1256.0,
+                    1217.0,
+                    1244.0,
+                    1217.0
+                ],
+                "score": 0.208,
+                "text": "1"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1410.75,
+                    1215.5,
+                    1466.75,
+                    1215.5,
+                    1466.75,
+                    1245.0,
+                    1410.75,
+                    1245.0
+                ],
+                "score": 0.911,
+                "text": "X"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    253.0,
+                    467.0,
+                    933.0,
+                    467.0,
+                    933.0,
+                    544.0,
+                    253.0,
+                    544.0
+                ],
+                "score": 0.712,
+                "text": "listcDev（O，[])."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    276.0,
+                    539.0,
+                    839.0,
+                    539.0,
+                    839.0,
+                    619.0,
+                    276.0,
+                    619.0
+                ],
+                "score": 0.721,
+                "text": "lstaDev（N，L)：-"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    393.0,
+                    620.0,
+                    602.0,
+                    620.0,
+                    602.0,
+                    696.0,
+                    393.0,
+                    696.0
+                ],
+                "score": 0.766,
+                "text": "U>O,"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    396.0,
+                    699.0,
+                    967.0,
+                    699.0,
+                    967.0,
+                    784.0,
+                    396.0,
+                    784.0
+                ],
+                "score": 0.777,
+                "text": "be∈weeo(，N，2)，"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    392.0,
+                    778.0,
+                    711.0,
+                    778.0,
+                    711.0,
+                    858.0,
+                    392.0,
+                    858.0
+                ],
+                "score": 0.286,
+                "text": "t"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    396.0,
+                    853.0,
+                    835.0,
+                    853.0,
+                    835.0,
+                    932.0,
+                    396.0,
+                    932.0
+                ],
+                "score": 0.668,
+                "text": "315N-N2"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    391.0,
+                    933.0,
+                    914.0,
+                    933.0,
+                    914.0,
+                    1013.0,
+                    391.0,
+                    1013.0
+                ],
+                "score": 0.663,
+                "text": "sEODeN(N3,1），"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    384.0,
+                    1014.0,
+                    973.0,
+                    1014.0,
+                    973.0,
+                    1094.0,
+                    384.0,
+                    1094.0
+                ],
+                "score": 0.703,
+                "text": "append([N2},11，L"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    244.0,
+                    1107.0,
+                    762.0,
+                    1107.0,
+                    762.0,
+                    1321.0,
+                    244.0,
+                    1321.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    221.0,
+                    1963.0,
+                    619.0,
+                    1963.0,
+                    619.0,
+                    2034.0,
+                    221.0,
+                    2034.0
+                ],
+                "score": 0.748,
+                "text": "desde(x,x)."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    213.0,
+                    2020.0,
+                    1256.0,
+                    2020.0,
+                    1256.0,
+                    2122.0,
+                    213.0,
+                    2122.0
+                ],
+                "score": 0.695,
+                "text": "esde(x，y）:-Usx+1，esde（N，x）"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    277.0,
+                    1362.0,
+                    821.0,
+                    1362.0,
+                    821.0,
+                    1603.0,
+                    277.0,
+                    1603.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    330.0,
+                    1480.0,
+                    483.0,
+                    1480.0,
+                    483.0,
+                    1528.0,
+                    330.0,
+                    1528.0
+                ],
+                "score": 0.54,
+                "text": "o↑ico"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    500.0,
+                    1491.0,
+                    557.0,
+                    1491.0,
+                    557.0,
+                    1512.0,
+                    500.0,
+                    1512.0
+                ],
+                "score": 0.229,
+                "text": "反"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    335.0,
+                    1524.0,
+                    556.0,
+                    1524.0,
+                    556.0,
+                    1556.0,
+                    335.0,
+                    1556.0
+                ],
+                "score": 0.557,
+                "text": "cbicoc"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    332.0,
+                    1351.0,
+                    641.0,
+                    1351.0,
+                    641.0,
+                    1401.0,
+                    332.0,
+                    1401.0
+                ],
+                "score": 0.482,
+                "text": "aaaaoa"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    212.0,
+                    428.0,
+                    945.0,
+                    428.0,
+                    945.0,
+                    657.0,
+                    212.0,
+                    657.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    483.0,
+                    477.0,
+                    746.0,
+                    477.0,
+                    746.0,
+                    614.0,
+                    483.0,
+                    614.0
+                ],
+                "score": 0.407,
+                "text": "eN.L5"
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    672.0,
+                    553.0,
+                    684.0,
+                    553.0,
+                    684.0,
+                    560.0,
+                    672.0,
+                    560.0
+                ],
+                "score": 0.057,
+                "text": "1"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    74.0,
+                    152.0,
+                    147.0,
+                    152.0,
+                    147.0,
+                    940.0,
+                    74.0,
+                    940.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    79.0,
+                    160.0,
+                    143.0,
+                    160.0,
+                    143.0,
+                    932.0,
+                    79.0,
+                    932.0
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    885.0,
+                    1309.0,
+                    1428.0,
+                    1309.0,
+                    1428.0,
+                    1346.0,
+                    885.0,
+                    1346.0
+                ],
+                "score": 0.962,
+                "text": "Esta correccion esta mal, capicua esta bien"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    881.0,
+                    1349.0,
+                    1388.0,
+                    1349.0,
+                    1388.0,
+                    1385.0,
+                    881.0,
+                    1385.0
+                ],
+                "score": 0.954,
+                "text": " implementado (lo hablé con el corrector)"
+            }
+        ],
+        "page_info": {
+            "page_no": 4,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 1,
+                "poly": [
+                    213,
+                    1118,
+                    1408,
+                    1118,
+                    1408,
+                    2034,
+                    213,
+                    2034
+                ],
+                "score": 0.313
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    273,
+                    188,
+                    1408,
+                    188,
+                    1408,
+                    443,
+                    273,
+                    443
+                ],
+                "score": 0.304
+            },
+            {
+                "category_id": 1,
+                "poly": [
+                    272,
+                    466,
+                    1439,
+                    466,
+                    1439,
+                    874,
+                    272,
+                    874
+                ],
+                "score": 0.213
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    272,
+                    466,
+                    1439,
+                    466,
+                    1439,
+                    874,
+                    272,
+                    874
+                ],
+                "score": 0.137
+            },
+            {
+                "category_id": 2,
+                "poly": [
+                    1077,
+                    2042,
+                    1463,
+                    2042,
+                    1463,
+                    2088,
+                    1077,
+                    2088
+                ],
+                "score": 0.111
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    270.0,
+                    381.0,
+                    535.0,
+                    381.0,
+                    535.0,
+                    456.0,
+                    270.0,
+                    456.0
+                ],
+                "score": 0.882,
+                "text": "Contnonio."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    263.75,
+                    181.0,
+                    1406.75,
+                    181.0,
+                    1406.75,
+                    259.0,
+                    263.75,
+                    259.0
+                ],
+                "score": 0.841,
+                "text": "Lo nevensible supoago que se neerecque"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    271.0,
+                    254.0,
+                    1369.0,
+                    254.0,
+                    1369.0,
+                    328.0,
+                    271.0,
+                    328.0
+                ],
+                "score": 0.73,
+                "text": "Si goedoy uo orreg)o 1osconciodo,medev"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    267.75,
+                    320.5,
+                    1177.75,
+                    320.5,
+                    1177.75,
+                    394.5,
+                    267.75,
+                    394.5
+                ],
+                "score": 0.762,
+                "text": "Erve5iescopicoQy+alse encoso"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    269.0,
+                    454.0,
+                    1439.0,
+                    454.0,
+                    1439.0,
+                    537.0,
+                    269.0,
+                    537.0
+                ],
+                "score": 0.78,
+                "text": "5unogomas quelolseeesL=[2].Cescopicsc"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    273.0,
+                    668.0,
+                    1298.0,
+                    668.0,
+                    1298.0,
+                    744.0,
+                    273.0,
+                    744.0
+                ],
+                "score": 0.624,
+                "text": "S<ostoncoN3=O.5eas∈∞cic1=，"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    272.0,
+                    736.0,
+                    1165.0,
+                    736.0,
+                    1165.0,
+                    821.0,
+                    272.0,
+                    821.0
+                ],
+                "score": 0.704,
+                "text": "ponlbmo el onnend coosalco5"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    267.0,
+                    807.0,
+                    1035.0,
+                    807.0,
+                    1035.0,
+                    882.0,
+                    267.0,
+                    882.0
+                ],
+                "score": 0.65,
+                "text": "RP=[2].L0ccoles+olso."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    273.0,
+                    523.0,
+                    1244.0,
+                    523.0,
+                    1244.0,
+                    605.0,
+                    273.0,
+                    605.0
+                ],
+                "score": 0.678,
+                "text": "desde(△，N)Inscancioave△.cego"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    276.75,
+                    601.0,
+                    1381.75,
+                    601.0,
+                    1381.75,
+                    667.0,
+                    276.75,
+                    667.0
+                ],
+                "score": 0.763,
+                "text": "Seresuelve1sεoDev.SeInsεoncio N2=A，"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1073.0,
+                    2038.0,
+                    1467.0,
+                    2038.0,
+                    1467.0,
+                    2092.0,
+                    1073.0,
+                    2092.0
+                ],
+                "score": 0.883,
+                "text": "NO ESSRIBASCOSAS"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    261.0,
+                    1109.0,
+                    1412.0,
+                    1109.0,
+                    1412.0,
+                    1179.0,
+                    261.0,
+                    1179.0
+                ],
+                "score": 0.7,
+                "text": "->EsEoypeasoodoqueSebockEnackeoal"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    346.0,
+                    1161.0,
+                    1419.0,
+                    1161.0,
+                    1419.0,
+                    1268.0,
+                    346.0,
+                    1268.0
+                ],
+                "score": 0.667,
+                "text": "desde,ccandN=2，vaancacnon coq"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    380.0,
+                    1248.0,
+                    1311.0,
+                    1248.0,
+                    1311.0,
+                    1333.0,
+                    380.0,
+                    1333.0
+                ],
+                "score": 0.735,
+                "text": "[nstonciQoode[21[}==[2y"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    381.0,
+                    1338.0,
+                    1327.0,
+                    1338.0,
+                    1327.0,
+                    1405.0,
+                    381.0,
+                    1405.0
+                ],
+                "score": 0.79,
+                "text": "escaniccQpenouegovahocon"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    383.0,
+                    1413.0,
+                    1298.0,
+                    1413.0,
+                    1298.0,
+                    1473.0,
+                    383.0,
+                    1473.0
+                ],
+                "score": 0.631,
+                "text": "CosocOsh(cas.Nosvo odon"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    380.0,
+                    1490.0,
+                    1126.0,
+                    1490.0,
+                    1126.0,
+                    1557.0,
+                    380.0,
+                    1557.0
+                ],
+                "score": 0.651,
+                "text": "vnEnveysevo∞cogon."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    213.0,
+                    1567.0,
+                    1240.0,
+                    1567.0,
+                    1240.0,
+                    1629.0,
+                    213.0,
+                    1629.0
+                ],
+                "score": 0.749,
+                "text": "oonoshle solucoseno deioin ocho"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    207.0,
+                    1639.0,
+                    1397.0,
+                    1639.0,
+                    1397.0,
+                    1715.0,
+                    207.0,
+                    1715.0
+                ],
+                "score": 0.865,
+                "text": "YeglQponQ genenonCopicuos donde chequee"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    210.0,
+                    1722.0,
+                    1408.0,
+                    1722.0,
+                    1408.0,
+                    1789.0,
+                    210.0,
+                    1789.0
+                ],
+                "score": 0.743,
+                "text": "SLvene InsEoociodo ConaVcn（L）.S.Viene"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    207.0,
+                    1798.0,
+                    1266.0,
+                    1798.0,
+                    1266.0,
+                    1872.0,
+                    207.0,
+                    1872.0
+                ],
+                "score": 0.8,
+                "text": "nsεonciod solo chegueomoses"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    277.0,
+                    1882.0,
+                    1241.0,
+                    1882.0,
+                    1241.0,
+                    1954.0,
+                    277.0,
+                    1954.0
+                ],
+                "score": 0.662,
+                "text": "CopIcvo,Coso Cochoniooqe"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    277.0,
+                    1959.0,
+                    1126.0,
+                    1959.0,
+                    1126.0,
+                    2035.0,
+                    277.0,
+                    2035.0
+                ],
+                "score": 0.626,
+                "text": "e+1o(y。<QgnegoodVon(L）)."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    269.0,
+                    454.0,
+                    1439.0,
+                    454.0,
+                    1439.0,
+                    537.0,
+                    269.0,
+                    537.0
+                ],
+                "score": 0.78,
+                "text": "5unogomas quelolseeesL=[2].Cescopicsc"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    273.0,
+                    668.0,
+                    1298.0,
+                    668.0,
+                    1298.0,
+                    744.0,
+                    273.0,
+                    744.0
+                ],
+                "score": 0.624,
+                "text": "S<ostoncoN3=O.5eas∈∞cic1=，"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    272.0,
+                    736.0,
+                    1165.0,
+                    736.0,
+                    1165.0,
+                    821.0,
+                    272.0,
+                    821.0
+                ],
+                "score": 0.704,
+                "text": "ponlbmo el onnend coosalco5"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    267.0,
+                    807.0,
+                    1035.0,
+                    807.0,
+                    1035.0,
+                    882.0,
+                    267.0,
+                    882.0
+                ],
+                "score": 0.65,
+                "text": "RP=[2].L0ccoles+olso."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    273.0,
+                    523.0,
+                    1244.0,
+                    523.0,
+                    1244.0,
+                    605.0,
+                    273.0,
+                    605.0
+                ],
+                "score": 0.678,
+                "text": "desde(△，N)Inscancioave△.cego"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    276.75,
+                    601.0,
+                    1381.75,
+                    601.0,
+                    1381.75,
+                    667.0,
+                    276.75,
+                    667.0
+                ],
+                "score": 0.763,
+                "text": "Seresuelve1sεoDev.SeInsεoncio N2=A，"
+            }
+        ],
+        "page_info": {
+            "page_no": 5,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 3,
+                "poly": [
+                    155,
+                    1312,
+                    1153,
+                    1312,
+                    1153,
+                    1588,
+                    155,
+                    1588
+                ],
+                "score": 0.389
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    150,
+                    282,
+                    1091,
+                    282,
+                    1091,
+                    823,
+                    150,
+                    823
+                ],
+                "score": 0.269
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    148,
+                    888,
+                    1611,
+                    888,
+                    1611,
+                    1251,
+                    148,
+                    1251
+                ],
+                "score": 0.145
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    156.0,
+                    1308.0,
+                    1158.0,
+                    1308.0,
+                    1158.0,
+                    1392.0,
+                    156.0,
+                    1392.0
+                ],
+                "score": 0.677,
+                "text": "。EokealoonLong(D，,T，N)：-"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    418.0,
+                    1401.0,
+                    1039.0,
+                    1401.0,
+                    1039.0,
+                    1480.0,
+                    418.0,
+                    1480.0
+                ],
+                "score": 0.635,
+                "text": "(okeogon（D，E，T）"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    419.0,
+                    1493.0,
+                    880.0,
+                    1493.0,
+                    880.0,
+                    1587.0,
+                    419.0,
+                    1587.0
+                ],
+                "score": 0.69,
+                "text": "1eng∈h(T，N)."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    148.0,
+                    270.0,
+                    925.0,
+                    270.0,
+                    925.0,
+                    371.0,
+                    148.0,
+                    371.0
+                ],
+                "score": 0.694,
+                "text": "Eokeogon（-，[]，[]）."
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    170.0,
+                    352.0,
+                    775.0,
+                    352.0,
+                    775.0,
+                    459.0,
+                    170.0,
+                    459.0
+                ],
+                "score": 0.434,
+                "text": "eReaaeaDE"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    150.0,
+                    445.0,
+                    1091.0,
+                    445.0,
+                    1091.0,
+                    571.0,
+                    150.0,
+                    571.0
+                ],
+                "score": 0.658,
+                "text": "COkeyan（D，F，[B丨xs]）:"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    271.0,
+                    557.0,
+                    783.0,
+                    557.0,
+                    783.0,
+                    638.0,
+                    271.0,
+                    638.0
+                ],
+                "score": 0.74,
+                "text": "memben(P，D)，"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    274.0,
+                    645.0,
+                    944.0,
+                    645.0,
+                    944.0,
+                    739.0,
+                    274.0,
+                    739.0
+                ],
+                "score": 0.677,
+                "text": "append(P，ys，F）,"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    278.0,
+                    740.0,
+                    1013.0,
+                    740.0,
+                    1013.0,
+                    825.0,
+                    278.0,
+                    825.0
+                ],
+                "score": 0.73,
+                "text": "toKeoigon(D，Ys,xs)."
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    266.0,
+                    970.0,
+                    955.0,
+                    970.0,
+                    955.0,
+                    1067.0,
+                    266.0,
+                    1067.0
+                ],
+                "score": 0.414,
+                "text": "eeea"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    265.0,
+                    1067.0,
+                    1192.0,
+                    1067.0,
+                    1192.0,
+                    1164.0,
+                    265.0,
+                    1164.0
+                ],
+                "score": 0.679,
+                "text": "Eokeo1oonLOog（D，F,T，N)，"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    259.0,
+                    1155.0,
+                    1618.0,
+                    1155.0,
+                    1618.0,
+                    1254.0,
+                    259.0,
+                    1254.0
+                ],
+                "score": 0.617,
+                "text": "OO∈(（toKeOI3ohL0og(D，干，，N2），N²>N"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    146.25,
+                    873.5,
+                    1277.25,
+                    873.5,
+                    1277.25,
+                    970.0,
+                    146.25,
+                    970.0
+                ],
+                "score": 0.788,
+                "text": "moyon Con∈Palabnos(D，F,t）：-"
+            }
+        ],
+        "page_info": {
+            "page_no": 6,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 3,
+                "poly": [
+                    49,
+                    247,
+                    1509,
+                    247,
+                    1509,
+                    1200,
+                    49,
+                    1200
+                ],
+                "score": 0.381
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    46,
+                    1853,
+                    1617,
+                    1853,
+                    1617,
+                    2012,
+                    46,
+                    2012
+                ],
+                "score": 0.37
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    287,
+                    1658,
+                    1616,
+                    1658,
+                    1616,
+                    1735,
+                    287,
+                    1735
+                ],
+                "score": 0.275
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    587,
+                    1522,
+                    1287,
+                    1522,
+                    1287,
+                    1586,
+                    587,
+                    1586
+                ],
+                "score": 0.251
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    42.0,
+                    256.0,
+                    300.0,
+                    256.0,
+                    300.0,
+                    346.0,
+                    42.0,
+                    346.0
+                ],
+                "score": 0.909,
+                "text": "menseje"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    419.0,
+                    246.0,
+                    1433.0,
+                    246.0,
+                    1433.0,
+                    354.0,
+                    419.0,
+                    354.0
+                ],
+                "score": 0.705,
+                "text": "necepconub)cocooresclcod"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    67.0,
+                    344.0,
+                    240.0,
+                    344.0,
+                    240.0,
+                    417.0,
+                    67.0,
+                    417.0
+                ],
+                "score": 0.954,
+                "text": "new"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    464.0,
+                    332.0,
+                    547.0,
+                    332.0,
+                    547.0,
+                    429.0,
+                    464.0,
+                    429.0
+                ],
+                "score": 0.984,
+                "text": "B"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    775.0,
+                    336.0,
+                    1087.0,
+                    336.0,
+                    1087.0,
+                    435.0,
+                    775.0,
+                    435.0
+                ],
+                "score": 0.645,
+                "text": "ObecEcme"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1188.0,
+                    338.0,
+                    1345.0,
+                    338.0,
+                    1345.0,
+                    424.0,
+                    1188.0,
+                    424.0
+                ],
+                "score": 0.905,
+                "text": "aB."
+            },
+            {
+                "category_id": 16,
+                "poly": [
+                    1466.0,
+                    378.0,
+                    1502.0,
+                    378.0,
+                    1502.0,
+                    409.0,
+                    1466.0,
+                    409.0
+                ],
+                "score": 0.441,
+                "text": "V"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    80.0,
+                    429.0,
+                    210.0,
+                    429.0,
+                    210.0,
+                    513.0,
+                    80.0,
+                    513.0
+                ],
+                "score": 0.653,
+                "text": "m1"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    438.0,
+                    416.0,
+                    571.0,
+                    416.0,
+                    571.0,
+                    505.0,
+                    438.0,
+                    505.0
+                ],
+                "score": 0.753,
+                "text": "aB"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    829.0,
+                    416.0,
+                    924.0,
+                    416.0,
+                    924.0,
+                    503.0,
+                    829.0,
+                    503.0
+                ],
+                "score": 0.962,
+                "text": "A"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1158.0,
+                    429.0,
+                    1494.0,
+                    429.0,
+                    1494.0,
+                    510.0,
+                    1158.0,
+                    510.0
+                ],
+                "score": 0.833,
+                "text": "Lseltevo]"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    60.0,
+                    512.0,
+                    249.0,
+                    512.0,
+                    249.0,
+                    596.0,
+                    60.0,
+                    596.0
+                ],
+                "score": 0.91,
+                "text": "Volue"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    380.0,
+                    506.0,
+                    677.0,
+                    506.0,
+                    677.0,
+                    596.0,
+                    380.0,
+                    596.0
+                ],
+                "score": 0.858,
+                "text": "[seltevo]"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    751.0,
+                    506.0,
+                    1082.0,
+                    506.0,
+                    1082.0,
+                    601.0,
+                    751.0,
+                    601.0
+                ],
+                "score": 0.868,
+                "text": "BlockClosore"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1231.0,
+                    518.0,
+                    1317.0,
+                    518.0,
+                    1317.0,
+                    600.0,
+                    1231.0,
+                    600.0
+                ],
+                "score": 0.965,
+                "text": "2"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    66.0,
+                    594.0,
+                    239.0,
+                    594.0,
+                    239.0,
+                    687.0,
+                    66.0,
+                    687.0
+                ],
+                "score": 0.981,
+                "text": "eval"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    433.0,
+                    590.0,
+                    551.0,
+                    590.0,
+                    551.0,
+                    682.0,
+                    433.0,
+                    682.0
+                ],
+                "score": 0.761,
+                "text": "aB"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    833.0,
+                    592.0,
+                    937.0,
+                    592.0,
+                    937.0,
+                    681.0,
+                    833.0,
+                    681.0
+                ],
+                "score": 0.829,
+                "text": "B"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1239.0,
+                    597.0,
+                    1323.0,
+                    597.0,
+                    1323.0,
+                    677.0,
+                    1239.0,
+                    677.0
+                ],
+                "score": 0.955,
+                "text": "2"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    53.0,
+                    693.0,
+                    226.0,
+                    693.0,
+                    226.0,
+                    770.0,
+                    53.0,
+                    770.0
+                ],
+                "score": 0.938,
+                "text": "new"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    457.0,
+                    676.0,
+                    540.0,
+                    676.0,
+                    540.0,
+                    761.0,
+                    457.0,
+                    761.0
+                ],
+                "score": 0.811,
+                "text": "B"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    816.0,
+                    675.0,
+                    1119.0,
+                    675.0,
+                    1119.0,
+                    768.0,
+                    816.0,
+                    768.0
+                ],
+                "score": 0.574,
+                "text": "Objeeecw"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1217.0,
+                    688.0,
+                    1479.0,
+                    688.0,
+                    1479.0,
+                    752.0,
+                    1217.0,
+                    752.0
+                ],
+                "score": 0.802,
+                "text": "coothonB"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    60.0,
+                    783.0,
+                    189.0,
+                    783.0,
+                    189.0,
+                    850.0,
+                    60.0,
+                    850.0
+                ],
+                "score": 0.9,
+                "text": "m3"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    373.0,
+                    777.0,
+                    643.0,
+                    777.0,
+                    643.0,
+                    846.0,
+                    373.0,
+                    846.0
+                ],
+                "score": 0.894,
+                "text": "aoothenB"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    834.0,
+                    765.0,
+                    924.0,
+                    765.0,
+                    924.0,
+                    852.0,
+                    834.0,
+                    852.0
+                ],
+                "score": 0.988,
+                "text": "B"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1209.0,
+                    768.0,
+                    1498.0,
+                    768.0,
+                    1498.0,
+                    838.0,
+                    1209.0,
+                    838.0
+                ],
+                "score": 0.769,
+                "text": "aoothenB."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    54.0,
+                    866.0,
+                    187.0,
+                    866.0,
+                    187.0,
+                    943.0,
+                    54.0,
+                    943.0
+                ],
+                "score": 0.973,
+                "text": "32"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    369.0,
+                    859.0,
+                    674.0,
+                    859.0,
+                    674.0,
+                    932.0,
+                    369.0,
+                    932.0
+                ],
+                "score": 0.736,
+                "text": "aaoEhenb"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    822.0,
+                    837.0,
+                    911.0,
+                    837.0,
+                    911.0,
+                    936.0,
+                    822.0,
+                    936.0
+                ],
+                "score": 0.933,
+                "text": "B"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1179.0,
+                    857.0,
+                    1507.0,
+                    857.0,
+                    1507.0,
+                    937.0,
+                    1179.0,
+                    937.0
+                ],
+                "score": 0.796,
+                "text": "[Supen evol]"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    44.0,
+                    936.0,
+                    239.0,
+                    936.0,
+                    239.0,
+                    1034.0,
+                    44.0,
+                    1034.0
+                ],
+                "score": 0.802,
+                "text": "Value"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    350.0,
+                    944.0,
+                    1094.0,
+                    944.0,
+                    1094.0,
+                    1024.0,
+                    350.0,
+                    1024.0
+                ],
+                "score": 0.797,
+                "text": "[oupen eval] BlockClosone"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    43.0,
+                    1033.0,
+                    214.0,
+                    1033.0,
+                    214.0,
+                    1123.0,
+                    43.0,
+                    1123.0
+                ],
+                "score": 0.934,
+                "text": "evol"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    381.0,
+                    1039.0,
+                    640.0,
+                    1039.0,
+                    640.0,
+                    1106.0,
+                    381.0,
+                    1106.0
+                ],
+                "score": 0.808,
+                "text": "CnotenB"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    846.0,
+                    1026.0,
+                    924.0,
+                    1026.0,
+                    924.0,
+                    1104.0,
+                    846.0,
+                    1104.0
+                ],
+                "score": 0.99,
+                "text": "A"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1283.0,
+                    1020.0,
+                    1320.0,
+                    1020.0,
+                    1320.0,
+                    1069.0,
+                    1283.0,
+                    1069.0
+                ],
+                "score": 0.681,
+                "text": "才"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    38.0,
+                    1118.0,
+                    238.0,
+                    1118.0,
+                    238.0,
+                    1211.0,
+                    38.0,
+                    1211.0
+                ],
+                "score": 0.789,
+                "text": "VQlue"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    383.0,
+                    1122.0,
+                    685.0,
+                    1122.0,
+                    685.0,
+                    1200.0,
+                    383.0,
+                    1200.0
+                ],
+                "score": 0.766,
+                "text": "coothenB"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    833.0,
+                    1114.0,
+                    906.0,
+                    1114.0,
+                    906.0,
+                    1203.0,
+                    833.0,
+                    1203.0
+                ],
+                "score": 0.816,
+                "text": "B"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1258.25,
+                    947.5,
+                    1346.25,
+                    947.5,
+                    1346.25,
+                    1013.5,
+                    1258.25,
+                    1013.5
+                ],
+                "score": 0.641,
+                "text": "A"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    254.75,
+                    1840.5,
+                    1472.75,
+                    1840.5,
+                    1472.75,
+                    1932.5,
+                    254.75,
+                    1932.5
+                ],
+                "score": 0.717,
+                "text": "->noeseaesneci+icodoel+onmoco"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    279.0,
+                    1921.0,
+                    1621.0,
+                    1921.0,
+                    1621.0,
+                    2018.0,
+                    279.0,
+                    2018.0
+                ],
+                "score": 0.645,
+                "text": "nc.onosocomooicee|encad."
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    277.0,
+                    1644.0,
+                    1624.0,
+                    1644.0,
+                    1624.0,
+                    1748.0,
+                    277.0,
+                    1748.0
+                ],
+                "score": 0.685,
+                "text": "(xsselec∈;[:x(xnespondsTo：pt+↓)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    580.0,
+                    1516.0,
+                    1289.0,
+                    1516.0,
+                    1289.0,
+                    1589.0,
+                    580.0,
+                    1589.0
+                ],
+                "score": 0.538,
+                "text": "E大nu"
+            }
+        ],
+        "page_info": {
+            "page_no": 7,
+            "width": 1653,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_id": 3,
+                "poly": [
+                    20,
+                    1159,
+                    1636,
+                    1159,
+                    1636,
+                    1710,
+                    20,
+                    1710
+                ],
+                "score": 0.504
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    50,
+                    694,
+                    750,
+                    694,
+                    750,
+                    753,
+                    50,
+                    753
+                ],
+                "score": 0.28
+            },
+            {
+                "category_id": 3,
+                "poly": [
+                    1273,
+                    652,
+                    1371,
+                    652,
+                    1371,
+                    685,
+                    1273,
+                    685
+                ],
+                "score": 0.12
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    755.0,
+                    1172.0,
+                    1057.0,
+                    1172.0,
+                    1057.0,
+                    1265.0,
+                    755.0,
+                    1265.0
+                ],
+                "score": 0.511,
+                "text": "x，p(）FP(x）"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1225.0,
+                    1172.0,
+                    1513.0,
+                    1172.0,
+                    1513.0,
+                    1276.0,
+                    1225.0,
+                    1276.0
+                ],
+                "score": 0.517,
+                "text": "ΦHYgQG)"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1145.0,
+                    1236.0,
+                    1231.0,
+                    1236.0,
+                    1231.0,
+                    1295.0,
+                    1145.0,
+                    1295.0
+                ],
+                "score": 0.939,
+                "text": "Vi2"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1493.0,
+                    1253.0,
+                    1561.0,
+                    1253.0,
+                    1561.0,
+                    1299.0,
+                    1493.0,
+                    1299.0
+                ],
+                "score": 0.695,
+                "text": "4e"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    749.0,
+                    1289.0,
+                    1199.0,
+                    1289.0,
+                    1199.0,
+                    1341.0,
+                    749.0,
+                    1341.0
+                ],
+                "score": 0.61,
+                "text": "x，r（x）-Q（x）p（）3×=5"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1212.0,
+                    1285.0,
+                    1538.0,
+                    1285.0,
+                    1538.0,
+                    1344.0,
+                    1212.0,
+                    1344.0
+                ],
+                "score": 0.723,
+                "text": "4├Q（）{5=F"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    538.0,
+                    1331.0,
+                    1193.0,
+                    1331.0,
+                    1193.0,
+                    1432.0,
+                    538.0,
+                    1432.0
+                ],
+                "score": 0.525,
+                "text": "F3xp,）-3x（a"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1194.0,
+                    1353.0,
+                    1595.0,
+                    1353.0,
+                    1595.0,
+                    1425.0,
+                    1194.0,
+                    1425.0
+                ],
+                "score": 0.546,
+                "text": "4├Q（）p（）{x5"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    488.0,
+                    1440.0,
+                    538.0,
+                    1440.0,
+                    538.0,
+                    1471.0,
+                    488.0,
+                    1471.0
+                ],
+                "score": 0.644,
+                "text": "Cx"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1194.0,
+                    1444.0,
+                    1626.0,
+                    1444.0,
+                    1626.0,
+                    1502.0,
+                    1194.0,
+                    1502.0
+                ],
+                "score": 0.538,
+                "text": "：nv>Q（）-x（）"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1155.25,
+                    1433.0,
+                    1196.25,
+                    1433.0,
+                    1196.25,
+                    1466.0,
+                    1155.25,
+                    1466.0
+                ],
+                "score": 0.663,
+                "text": "fe"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    48.0,
+                    1457.5,
+                    1204.0,
+                    1457.5,
+                    1204.0,
+                    1531.5,
+                    48.0,
+                    1531.5
+                ],
+                "score": 0.564,
+                "text": "-xP（x）<√y.α（>）8：于xP（）卜3x（Q（x）p（x））"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1447.0,
+                    1478.0,
+                    1642.0,
+                    1478.0,
+                    1642.0,
+                    1546.5,
+                    1447.0,
+                    1546.5
+                ],
+                "score": 0.739,
+                "text": "-Vepass"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    46.0,
+                    1549.5,
+                    1011.0,
+                    1549.5,
+                    1011.0,
+                    1619.5,
+                    46.0,
+                    1619.5
+                ],
+                "score": 0.586,
+                "text": "T：xP（x）、4>.Q（>）卜3×.（（<×）P（×））"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1553.0,
+                    1566.5,
+                    1635.0,
+                    1566.5,
+                    1635.0,
+                    1626.0,
+                    1553.0,
+                    1626.0
+                ],
+                "score": 0.656,
+                "text": "->iR"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    71.25,
+                    1628.5,
+                    1179.25,
+                    1628.5,
+                    1179.25,
+                    1704.5,
+                    71.25,
+                    1704.5
+                ],
+                "score": 0.574,
+                "text": "FxP（x）<√x<（>）=>3x.（Q<x）P（x））"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    43.0,
+                    685.0,
+                    757.0,
+                    685.0,
+                    757.0,
+                    763.0,
+                    43.0,
+                    763.0
+                ],
+                "score": 0.609,
+                "text": "x+v（3x（（)P（x））"
+            },
+            {
+                "category_id": 15,
+                "poly": [
+                    1267.0,
+                    643.0,
+                    1377.0,
+                    643.0,
+                    1377.0,
+                    692.0,
+                    1267.0,
+                    692.0
+                ],
+                "score": 0.885,
+                "text": "64/22"
+            }
+        ],
+        "page_info": {
+            "page_no": 8,
+            "width": 1653,
+            "height": 2339
+        }
+    }
+]

@@ -1,0 +1,1398 @@
+[
+    {
+        "type": "text",
+        "text": "Práctica No 8 - Programación lógica ",
+        "text_level": 1,
+        "bbox": [
+            285,
+            86,
+            710,
+            107
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Para resolver esta práctica, recomendamos utilizar el programa \u0010SWI-Prolog\u0011, de distribución gratuita, que puede bajarse de http://www.swi-prolog.org. El único meta predicado que puede utilizarse para resolver los ejercicios es not. No utilizar cut (!) ni predicados de alto orden (como setof). Los ejercicios marcados con el símbolo $\\star$ constituyen un subconjunto mínimo de ejercitación. Sin embargo, aconsejamos fuertemente hacer todos los ejercicios. ",
+        "bbox": [
+            134,
+            135,
+            865,
+            208
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "El motor de búsqueda de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            326,
+            230,
+            672,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            259,
+            205,
+            273
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Considerar la siguiente base de conocimiento.   \npadre(juan, carlos). padre(luis, pablo).   \npadre(juan, luis). padre(luis, manuel).   \npadre(carlos, daniel). padre(luis, ramiro).   \npadre(carlos, diego). abuelo(X,Y) :- padre(X,Z), padre(Z,Y). ",
+        "bbox": [
+            92,
+            288,
+            843,
+            361
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. $\\dot { \\downarrow } ^ { \\mathrm { C u } \\acute { \\mathrm { a l } } }$ el resultado de la consulta abuelo(X, manuel)? ",
+        "bbox": [
+            114,
+            376,
+            539,
+            391
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ii. A partir del predicado binario padre, de\u001cnir en Prolog los predicados binarios: hijo, hermano y descendiente. ",
+        "bbox": [
+            105,
+            398,
+            907,
+            428
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "iii. Dibujar el árbol de búsqueda de Prolog para la consulta descendiente(Alguien, juan). ",
+        "bbox": [
+            107,
+            434,
+            800,
+            449
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "iv. $\\dot { \\downarrow } \\mathrm { Q u } \\dot { \\mathrm { e } }$ consulta habría que hacer para encontrar a los nietos de juan? ",
+        "bbox": [
+            107,
+            455,
+            653,
+            469
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "v. $\\dot { \\iota }$ Cómo se puede de\u001cnir una consulta para conocer a todos los hermanos de pablo? ",
+        "bbox": [
+            109,
+            476,
+            747,
+            491
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "vi. Considerar el agregado del siguiente hecho y regla: ancestro(X, X). ancestro(X, Y) :- ancestro(Z, Y), padre(X, Z). y la base de conocimiento del ítem anterior. ",
+        "bbox": [
+            105,
+            497,
+            547,
+            574
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "vii. Explicar la respuesta a la consulta ancestro(juan, X). ¾Qué sucede si se pide más de un resultado? ",
+        "bbox": [
+            97,
+            580,
+            890,
+            595
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "viii. Sugerir una solución al problema hallado en los puntos anteriores reescribiendo el programa de ancestro. ",
+        "bbox": [
+            95,
+            600,
+            899,
+            615
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            634,
+            184,
+            649
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sea el siguiente programa lógico: vecino(X, Y, [X|[Y|Ls]]).   \nvecino(X, Y, [W|Ls]) :- vecino(X, Y, Ls). ",
+        "bbox": [
+            92,
+            664,
+            541,
+            693
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. Mostrar el árbol de búsqueda en Prolog para resolver vecino(5, Y, [5,6,5,3]), devolviendo todos los valores de Y que hacen que la meta se deduzca lógicamente del programa. ",
+        "bbox": [
+            109,
+            693,
+            905,
+            722
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ii. Si se invierte el orden de las reglas, ¾los resultados son los mismos? $\\vdots \\mathrm { Y }$ el orden de los resultados? ",
+        "bbox": [
+            105,
+            728,
+            860,
+            744
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            760,
+            205,
+            774
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes de\u001cniciones: ",
+        "bbox": [
+            99,
+            788,
+            374,
+            802
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "natural(0).   \nnatural(suc(X)) :- natural(X). menorOIgual(X, suc(Y)) :- menorOIgual(X, Y).   \nmenorOIgual(X,X) :- natural(X). ",
+        "bbox": [
+            99,
+            809,
+            337,
+            835
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            510,
+            809,
+            862,
+            837
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. Explicar qué sucede al realizar la consulta menorOIgual(0,X). ",
+        "bbox": [
+            112,
+            856,
+            600,
+            870
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ii. Describir las circunstancias en las que puede colgarse un programa en Prolog. Es decir, ejecutarse in\u001cnitamente sin arrojar soluciones. ",
+        "bbox": [
+            104,
+            877,
+            905,
+            906
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "iii. Corregir la de\u001cnición de menorOIgual para que funcione adecuadamente. ",
+        "bbox": [
+            107,
+            912,
+            677,
+            927
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Página 1 de 6 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Operaciones sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            369,
+            90,
+            630,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            118,
+            206,
+            133
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir el predicado juntar(?Lista1,?Lista2,?Lista3), que tiene éxito si Lista3 es la concatenación de Lista1 y Lista2. Por ejemplo: ",
+        "bbox": [
+            92,
+            149,
+            907,
+            177
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/152cef2365378ccf9b2b6c3ddce3013ddbcadc9b4a4c09c77d9ca4673d4facb8.jpg",
+        "text": "$$\n\\begin{array} { r l r l } & { \\mathrm { j u n t a r } ( [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } ] , \\mathbf { \\phi } , [ \\mathbf { d } , \\mathbf { e } ] , \\mathbf { \\phi } , [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } , \\mathbf { d } , \\mathbf { e } ] ) . } & { \\quad  \\mathrm { t r u e } . } \\\\ & { \\mathrm { j u n t a r } ( [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } ] , \\mathbf { \\phi } , [ \\mathbf { d } , \\mathbf { e } ] , \\mathbf { \\phi } , \\mathbf { L } ) . } & { \\quad  \\mathrm { \\textbf { L } = \\textbf { \\phi } [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } , \\mathbf { d } , \\mathbf { e } ] . } } \\\\ & { \\mathrm { j u n t a r } ( [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } ] , \\mathbf { \\phi } , [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } , \\mathbf { d } , \\mathbf { e } ] ) . } & { \\quad  \\mathrm { \\textbf { L } = \\textbf { \\phi } [ \\mathbf { d } , \\mathbf { e } ] . } } \\\\ & { \\mathrm { j u n t a r } ( \\mathrm { L } , \\mathbf { \\phi } , [ \\mathbf { d } , \\mathbf { e } ] , \\mathbf { \\phi } , [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } , \\mathbf { d } , \\mathbf { e } ] ) . } & { \\quad  \\mathrm { \\textbf { L } = \\textbf { \\phi } [ \\mathbf { a } , \\mathbf { b } , \\mathbf { c } ] . } } \\\\ & { \\mathrm { j u n t a r } ( \\mathrm { L } 1 , \\mathbf { \\phi } , [ \\mathbf { 1 } , \\mathbf { 2 } , \\mathbf { 3 } ] ) . } & { \\quad  \\mathrm { \\textbf { L } 1 } = \\textbf { \\phi } [ \\mathbf { 1 } , \\mathbf { L } 2 = \\textbf { \\phi } [ \\mathbf { 1 } , \\mathbf { \\phi } , \\mathbf { 2 } , \\mathbf { 3 } ] ; \\mathrm { \\textbf { L } 1 } = \\textbf { \\phi } [ \\mathbf { 1 } , \\mathbf { 2 } , \\mathbf { 3 } ] ; } \\\\ & { \\mathrm { L 1 } = \\textbf { \\phi } [ \\mathbf { 1 } , \\mathbf { 2 } ] , \\mathbf { \\phi } , \\mathrm { L 2 } = \\textbf { \\phi } [ \\mathbf { 3 } ] ; \\mathrm { \\textbf { L } 1 } = \\textbf { \\phi } [ \\mathbf { 1 } , \\mathbf { 2 } , \\mathbf { 3 } ] . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            152,
+            184,
+            865,
+            273
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Al igual que la mayoría de los predicados, puede dar false después de agotar los resultados. ",
+        "bbox": [
+            94,
+            279,
+            774,
+            294
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nota: este predicado ya está de\u001cnido en prolog con el nombre append. ",
+        "bbox": [
+            94,
+            302,
+            618,
+            316
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\textbf { 5 } \\star$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            331,
+            205,
+            344
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir los siguientes predicados sobre listas usando append: ",
+        "bbox": [
+            97,
+            360,
+            549,
+            375
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. last(?L, ?U), donde $\\mathtt { U }$ es el último elemento de la lista L.   \nii. reverse( $+ \\mathrm { L }$ , ?R), donde $\\mathtt { R }$ contiene los mismos elementos que L, pero en orden inverso. Ejemplo: reverse([a,b,c], [c,b,a]). Mostrar el árbol de búsqueda para el ejemplo dado.   \niii. prefijo(?P, $+ \\mathrm { L } )$ ), donde $\\mathrm { P }$ es pre\u001cjo de la lista L.   \niv. sufijo(?S, $+ \\mathrm { L }$ ), donde S es su\u001cjo de la lista L.   \nv. sublista(?S, $+ \\mathrm { L }$ ), donde S es sublista de L.   \nvi. pertenece(?X, $+ \\mathrm { L } )$ ), que es verdadero sii el elemento X se encuentra en la lista L. (Este predicado ya viene de\u001cnido en Prolog y se llama member). ",
+        "bbox": [
+            107,
+            378,
+            907,
+            543
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 6 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            567,
+            205,
+            581
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir el predicado aplanar $\\left( + { \\tt X } { \\tt s } , \\mathrm { ~ \\tt ~ - \\tt Y } { \\tt s } \\right)$ , que es verdadero sii Ys contiene los elementos de todos los niveles de Xs, en el mismo orden de aparición. Los elementos de Xs son enteros, átomos o nuevamente listas, de modo que Xs puede tener una profundidad arbitraria. Por el contrario, Ys es una lista de un solo nivel de profundidad. ",
+        "bbox": [
+            94,
+            596,
+            907,
+            639
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos: ",
+        "bbox": [
+            94,
+            649,
+            166,
+            662
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "?- aplanar([a, [3, b, []], [2]], L). $\\begin{array} { r } {  \\amalg = [ } \\end{array}$ [a, 3, b, 2] ?- aplanar([[1, [2, 3], [a]], [[[]]]], L). $ \\mathrm { L } = [ 1 $ , 2, 3, a] ",
+        "bbox": [
+            94,
+            662,
+            606,
+            692
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nota: este predicado ya está de\u001cnido en prolog con el nombre flatten. ",
+        "bbox": [
+            94,
+            699,
+            625,
+            713
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 7 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            727,
+            205,
+            741
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir los siguientes predicados, usando member $\\mathrm { y / o }$ append según sea conveniente: ",
+        "bbox": [
+            99,
+            757,
+            737,
+            772
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. intersección( $+ \\mathrm { L } 1$ , $+ \\mathrm { L } 2$ , -L3), tal que L3 es la intersección sin repeticiones de las listas L1 y L2, respetando en L3 el orden en que aparecen los elementos en L1. partir(N, L, L1, L2), donde L1 tiene los $\\mathbb { N }$ primeros elementos de L, y L2 el resto. Si L tiene menos de N elementos el predicado debe fallar. $\\dot { \\iota }$ Cuán reversible es este predicado? Es decir, ¾qué parámetros pueden estar inde\u001cnidos al momento de la invocación?   \nii. borrar(+ListaOriginal, $+ \\tt X$ , -ListaSinXs), que elimina todas las ocurrencias de X de la lista ListaOriginal.   \niii. sacarDuplicados( $+ \\mathtt { L 1 }$ , -L2), que saca todos los elementos duplicados de la lista L1. ",
+        "bbox": [
+            100,
+            782,
+            909,
+            916
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Página 2 de 6 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "iv. permutación( $+ \\mathtt { L 1 }$ , ?L2), que tiene éxito cuando L2 es permutación de L1. $\\dot { \\iota }$ Hay una manera más e\u001cciente de de\u001cnir este predicado para cuando L2 está instanciada? ",
+        "bbox": [
+            100,
+            91,
+            904,
+            120
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "v. reparto( $+ \\mathrm { L }$ , $+ \\mathbb { N }$ , -LListas) que tenga éxito si LListas es una lista de $\\mathbb { N }$ listas $( N \\geq 1$ ) de cualquier longitud - incluso vacías - tales que al concatenarlas se obtiene la lista L. ",
+        "bbox": [
+            105,
+            126,
+            904,
+            155
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "vi. repartoSinVacías( $+ \\mathrm { L }$ , -LListas) similar al anterior, pero ninguna de las listas de LListas puede ser vacía, y la longitud de LListas puede variar. ",
+        "bbox": [
+            114,
+            161,
+            904,
+            190
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 8 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            212,
+            184,
+            227
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir el predicado parteQueSuma $( + \\mathrm { L } , + \\mathsf { S } , - \\mathsf { P } )$ que es verdadero cuando $\\mathrm { P }$ es una lista con elementos de L que suman S. Por ejemplo: ",
+        "bbox": [
+            92,
+            242,
+            905,
+            271
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "?- parteQueSuma([1,2,3,4,5],9,P).   \n$\\mathrm { ~ \\textsf ~ { ~ P ~ } ~ } =$ [1, 3, 5] ;   \n$\\mathrm { ~ \\textsf ~ { ~ P ~ } ~ } =$ [2, 3, 4] ;   \n$\\mathrm { ~ \\textsf ~ { ~ P ~ } ~ } =$ [4, 5] ;   \nfalse. ",
+        "bbox": [
+            92,
+            279,
+            381,
+            349
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Instanciación y reversibilidad ",
+        "text_level": 1,
+        "bbox": [
+            342,
+            391,
+            657,
+            406
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 9 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            418,
+            205,
+            431
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Considerar el siguiente predicado: ",
+        "bbox": [
+            99,
+            447,
+            349,
+            461
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "desde $( \\mathtt { X } , \\mathtt { X } )$ .   \ndesde(X,Y) :- N is $\\tt X + 1$ , desde(N,Y). ",
+        "bbox": [
+            100,
+            472,
+            410,
+            501
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. $\\dot { \\iota }$ Cómo deben instanciarse los parámetros para que el predicado funcione? (Es decir, para que no se cuelgue ni produzca un error). $\\dot { \\iota }$ Por qué? ",
+        "bbox": [
+            105,
+            521,
+            904,
+            551
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ii. Dar una nueva versión del predicado que funcione con la instanciación desdeReversible $( + \\mathtt { X } , \\mathtt { ? Y } )$ , tal que si Y está instanciada, sea verdadero si Y es mayor o igual que X, y si no lo está genere todos los Y de $\\mathtt { X }$ en adelante. ",
+        "bbox": [
+            110,
+            556,
+            905,
+            600
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 10 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            614,
+            193,
+            629
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir el predicado intercalar(L1, L2, L3), donde L3 es el resultado de intercalar uno a uno los elementos de las listas L1 y L2. Si una lista tiene longitud menor, entonces el resto de la lista más larga es pasado sin cambiar. Indicar la reversibilidad, es decir si es posible obtener L3 a partir de L1 y L2, y viceversa. Ejemplo: intercalar([a,b,c], [d,e], [a,d,b,e,c]). ",
+        "bbox": [
+            94,
+            643,
+            905,
+            701
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 11 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            715,
+            215,
+            730
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Un árbol binario se representará en Prolog con: ",
+        "bbox": [
+            100,
+            744,
+            447,
+            759
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "nil, si es vacío.   \nbin(izq, v, der), donde v es el valor del nodo, izq es el subárbol izquierdo y der es el subárbol derecho. ",
+        "bbox": [
+            114,
+            764,
+            905,
+            797
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir predicados en Prolog para las siguientes operaciones: vacío, raiz, altura y cantidadDeNodos. Asumir siempre que el árbol está instanciado. ",
+        "bbox": [
+            92,
+            808,
+            905,
+            837
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 2 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            852,
+            213,
+            866
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir los siguientes predicados, utilizando la representación de árbol binario de\u001cnida en el ejercicio 11: i. inorder( $\\dot { } + \\mathtt { A B }$ ,-Lista), que tenga éxito si AB es un árbol binario y Lista la lista de sus nodos según el recorrido inorder. ",
+        "bbox": [
+            99,
+            881,
+            909,
+            927
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Página 3 de 6 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ii. arbolConInorder( $\\cdot +$ Lista,-AB), versión inversa del predicado anterior. ",
+        "bbox": [
+            107,
+            91,
+            663,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "iii. aBB $( + \\mathbb { T } )$ , que será verdadero si $\\mathrm { T }$ es un árbol binario de búsqueda. ",
+        "bbox": [
+            105,
+            109,
+            621,
+            124
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "iv. aBBInsertar( $( + \\tt X$ , $+ \\mathrm { T } 1$ , -T2), donde T2 resulta de insertar X en orden en el árbol T1. Este predicado ¾es reversible en alguno de sus parámetros? Justi\u001ccar. ",
+        "bbox": [
+            109,
+            128,
+            907,
+            158
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Generate & Test ",
+        "text_level": 1,
+        "bbox": [
+            410,
+            178,
+            588,
+            196
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 3 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            206,
+            215,
+            221
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir el predicado coprimos(-X,-Y), que genere uno a uno todos los pares de números naturales coprimos (es decir, cuyo máximo común divisor es 1), sin repetir resultados. Usar la función gcd del motor aritmético. ",
+        "bbox": [
+            94,
+            236,
+            905,
+            265
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 14 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            293,
+            215,
+            307
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un cuadrado semi-mágico es una matriz cuadrada de naturales (incluido el cero) donde todas las \u001clas de la matriz suman lo mismo. Por ejemplo: ",
+        "bbox": [
+            92,
+            323,
+            905,
+            351
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 3 0   \n2 2 0 todas las \u001clas suman 4   \n1 1 2 ",
+        "bbox": [
+            107,
+            361,
+            364,
+            401
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Representamos la matriz como una lista de \u001clas, donde cada \u001cla es una lista de naturales. El ejemplo anterior se representaría de la siguiente manera: [[1,3,0],[2,2,0],[1,1,2]]. ",
+        "bbox": [
+            94,
+            410,
+            904,
+            439
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "i. De\u001cnir el predicado cuadradoSemiMágico $( + \\mathbb { N }$ , -XS). El predicado debe ir devolviendo matrices (utilizando la representación antes mencionada), que sean cuadrados semi-mágicos de dimensión $\\mathbb { N } { * } \\mathbb { N }$ . Dichas matrices deben devolverse de manera ordenada: primero aquellas cuyas \u001clas suman 0, luego 1, luego 2, etc. No es necesario utilizar la técnica Generate & Test. ",
+        "bbox": [
+            115,
+            457,
+            907,
+            514
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: cuadradoSemiMágico(2,X). devuelve: ",
+        "bbox": [
+            137,
+            518,
+            499,
+            532
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\texttt { X } =$ [[0, 0], [0, 0]] ; X = [[0, 1], [1, 0]] ; $\\texttt { X } =$ [[1, 0], [1, 0]] ; etc.   \n$\\texttt { X } =$ [[0, 1], [0, 1]] ; X $=$ [[1, 0], [0, 1]] ; $\\texttt { X } =$ [[0, 2], [0, 2]] ; ",
+        "bbox": [
+            139,
+            537,
+            764,
+            565
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "ii. De\u001cnir utilizando Generate $\\mathcal { E }$ Test el predicado cuadradoMagico( $\\cdot + \\mathbb { N }$ , -XS), que instancia XS con cuadrados cuyas \u001clas y columnas suman todas un mismo valor. ",
+        "bbox": [
+            107,
+            582,
+            902,
+            611
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 15 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            615,
+            193,
+            630
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "En este ejercicio trabajaremos con triángulos. La expresión tri(A,B,C) denotará el triángulo cuyos lados tienen longitudes A, B y C respectivamente. Se asume que las longitudes de los lados son siempre números naturales. ",
+        "bbox": [
+            94,
+            645,
+            904,
+            674
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Implementar los siguientes predicados: ",
+        "bbox": [
+            94,
+            682,
+            376,
+            696
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "i. esTriángulo( $\\left( + \\mathbb { T } \\right)$ que, dada una estructura de la forma tri(A,B,C), indique si es un triángulo válido. En un triángulo válido, cada lado es menor que la suma de los otros dos, y mayor que su diferencia (y obviamente mayor que 0).   \nii. perímetro(?T,?P), que es verdadero cuando T es un triángulo (válido) y P es su perímetro. No se deben generar resultados repetidos (no tendremos en cuenta la congruencia entre triángulos: si dos triángulos tienen las mismas longitudes, pero en diferente orden, se considerarán diferentes entre sí). El predicado debe funcionar para cualquier instanciación de T y P (ambas instanciadas, ambas sin instanciar, una instanciada y una no; no es necesario que funcione para triángulos parcialmente instanciados), debe generar todos los resultados válidos (sean \u001cnitos o in\u001cnitos), y no debe colgarse (es decir, no debe seguir ejecutando in\u001cnitamente sin producir nuevos resultados). Por ejemplo: ?- perímetro(tri(3,4,5),12). $ \\mathtt { t r u e }$ . $\\begin{array} { r l r l } & { \\gamma \\cdot \\mathrm { ~ \\gamma ~ p e r i m e t r o ~ ( \\mathsf { T } , ~ \\mathsf { E } ) ~ } , } & { \\quad \\to \\mathrm { ~ \\mathsf { T } ~ - ~ \\mathsf { t r i m } ( 1 , ~ \\mathsf { \\Omega } , ~ \\mathsf { 2 } , ~ \\mathsf { 2 } ) ~ } ; \\mathrm { ~ \\mathsf { T } ~ - ~ \\mathsf { t r a n } ( 2 , ~ \\mathsf { \\Omega } , ~ \\mathsf { 1 } , ~ \\mathsf { 2 } ) ~ } ; \\mathrm { ~ \\mathsf { T } ~ - ~ \\mathsf { t r a n } ( 2 , ~ \\mathsf { \\Omega } , ~ \\mathsf { 2 } , ~ \\mathsf { 1 } ) ~ } ; } \\\\ & { \\gamma \\cdot \\mathrm { ~ \\gamma ~ p e r i m e t r o ~ ( \\mathsf { t r i } ~ \\mathsf { ( 2 } , \\mathsf { 2 } , \\mathsf { 2 } ) , ~ \\mathsf { P } ) ~ } , } & { \\quad \\to \\mathrm { ~ \\mathsf { P } ~ - ~ \\mathsf { t r } ~ } } & & { } \\\\ & { \\gamma \\cdot \\mathrm { ~ \\gamma ~ e r a m e t r o ~ ( \\mathsf { T } , ~ \\mathsf { P } ) ~ } , } & { \\quad \\to \\mathrm { ~ \\mathsf { T } ~ - ~ \\mathsf { t r a n } ( 1 , ~ \\mathsf { 1 } , ~ \\mathsf { 1 } ) ~ } , \\mathrm { ~ \\mathsf { P } ~ - ~ \\mathsf { 3 } ~ ~ } ; \\mathrm { ~ \\mathsf { T } ~ - ~ \\mathsf { t r a n } ( 1 , ~ \\mathsf { 2 } , ~ \\mathsf { 2 } ) ~ } , \\mathrm { ~ \\mathsf { P } ~ = ~ \\mathsf { 5 } ~ } ; \\dots } \\end{array}$ false. ",
+        "bbox": [
+            109,
+            706,
+            907,
+            909
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "iii. triángulo(-T), que genera todos los triángulos válidos, sin repetir resultados. ",
+        "bbox": [
+            100,
+            912,
+            714,
+            927
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Página 4 de 6 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Negación por falla y Cut ",
+        "text_level": 1,
+        "bbox": [
+            364,
+            89,
+            635,
+            105
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 16 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            115,
+            215,
+            129
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A Ana le gustan los helados que sean a la vez cremosos y frutales. En una heladería de su barrio, se encontró con los siguientes sabores: ",
+        "bbox": [
+            94,
+            142,
+            909,
+            171
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "cremoso(dulceDeLeche). ",
+        "bbox": [
+            645,
+            183,
+            816,
+            196
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "frutal(frutilla). cremoso(banana).   \nfrutal(banana). cremoso(americana).   \nfrutal(manzana). cremoso(frutilla). ",
+        "bbox": [
+            92,
+            181,
+            519,
+            222
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ana desea comprar un cucurucho con sabores que le gustan. El cucurucho admite hasta 2 sabores. Los siguientes predicados de\u001cnen las posibles maneras de armar el cucurucho. ",
+        "bbox": [
+            99,
+            228,
+            904,
+            256
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "leGusta(X) :- frutal(X), cremoso(X).   \ncucurucho(X,Y) :- leGusta(X), leGusta(Y). i. Escribir el árbol de búsqueda para la consulta ?- cucurucho(X,Y). ii. Indicar qué partes del árbol se podan al colocar un ! en cada ubicación posible en las de\u001cniciones de cucurucho y leGusta. ",
+        "bbox": [
+            92,
+            266,
+            907,
+            342
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 17 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            361,
+            215,
+            376
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "i. Sean los predicados P(?X) y Q(?X), ¾qué signi\u001cca la respuesta a la siguiente consulta? ",
+        "bbox": [
+            107,
+            404,
+            769,
+            420
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\dot { \\downarrow } \\mathrm { Q u } \\dot { \\mathrm { e } }$ pasaría si se invirtiera el orden de los literales en la consulta anterior? ",
+        "bbox": [
+            107,
+            441,
+            699,
+            455
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "iii. Sea el predicado P(?X), ¾Cómo se puede usar el not para determinar si existe una única Y tal que P(?Y) es verdadero? ",
+        "bbox": [
+            107,
+            460,
+            905,
+            487
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ${ \\bf 1 8 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            508,
+            215,
+            523
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "De\u001cnir el predicado corteMásParejo $( + \\mathrm { L } , - \\mathrm { L } 1 , - \\mathrm { L } 2 )$ que, dada una lista de números, realiza el corte más parejo posible con respecto a la suma de sus elementos (puede haber más de un resultado). Por ejemplo: ",
+        "bbox": [
+            92,
+            536,
+            904,
+            565
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "?- corteMásParejo([1,2,3,4,2],L1,L2). $ \\ \\mathtt { L 1 } \\ = \\ \\mathtt { [ 1 }$ , 2, 3], $\\mathbb { L } 2 ~ = ~ \\left[ 4 , ~ 2 \\right]$ ; false.   \n?- corteMásParejo([1,2,1],L1,L2). $ ~ \\mathtt { L 1 } ~ = ~ \\mathtt { [ 1 ] }$ , L2 $=$ [2, 1] ; L1 $=$ [1, 2], L2 $=$ [1] ; false. ",
+        "bbox": [
+            102,
+            571,
+            794,
+            596
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 19 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            609,
+            193,
+            624
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Dado un predicado unario P(?X) sobre números naturales, de\u001cnir un predicado que determine el mínimo ${ \\tt X }$ que satisfaga P(X). Se puede suponer que hay una cantidad \u001cnita de naturales que lo satisfacen. ",
+        "bbox": [
+            92,
+            637,
+            904,
+            667
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 0 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            681,
+            215,
+            695
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Un número poderoso es un número natural $m$ tal que por cada número primo $p$ que divide a $m$ , $p ^ { 2 }$ también divide a $m$ . De\u001cnir el predicado próximoNumPoderoso $( + \\mathtt { X } , - \\mathtt { Y } )$ que instancie en Y el siguiente número poderoso a partir de X. Por ejemplo: ",
+        "bbox": [
+            92,
+            709,
+            905,
+            752
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "?- próximoNumPoderoso(20,Y). $\\texttt { Y } = \\ 2 5$ ; false. ",
+        "bbox": [
+            92,
+            764,
+            314,
+            803
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Notar que, como en el último caso, si X ya es un número poderoso, $\\mathtt { Y }$ no debe instanciarse con el valor de X, sino con el siguiente número poderoso. ",
+        "bbox": [
+            92,
+            810,
+            907,
+            839
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 21 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            853,
+            193,
+            868
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Contamos con una representación de conjuntos desconocida, que permite enumerar un conjunto mediante el predicado pertenece(?Elemento, +Conjunto). Dado el siguiente predicado:   \nnatural(cero).   \nnatural(suc(X)) :- natural(X).   \nDe\u001cnir el predicado conjuntoDeNaturales(X) que sea verdadero cuando todos los elementos de X son naturales (se asume que X es un conjunto).   \n¾Con qué instanciación de X funciona bien el predicado anterior? Justi\u001ccar.   \nIndicar el error en la siguiente de\u001cnición alternativa, justi\u001ccando por qué no funciona correctamente: conjuntoDeNaturalesMalo(X) :- not( (not(natural(E)), pertenece(E,X)) ). ",
+        "bbox": [
+            92,
+            881,
+            907,
+            939
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Página 5 de 6 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            114,
+            91,
+            907,
+            178
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios integradores ",
+        "text_level": 1,
+        "bbox": [
+            373,
+            206,
+            625,
+            222
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 22 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            230,
+            213,
+            244
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "En este ejercicio trabajaremos con grafos no orientados. Un grafo no orientado es un conjunto de nodos $_ \\mathrm { y }$ un conjunto de aristas sin una dirección especí\u001cca. Cada arista está representada por un par de nodos y, como se puede viajar en cualquiera de los dos sentidos, la arista $( a , b )$ y la arista $( b , a )$ son la misma. ",
+        "bbox": [
+            94,
+            258,
+            905,
+            300
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "No sabemos cuál es la representación interna de un grafo, pero contamos con un predicado esNodo $( + \\mathtt { G } , ? \\mathtt { X } )$ que dado un grafo G dice si X es nodo de G. También tenemos otro predicado esArista $( + \\mathtt { G } , ? \\mathtt { X } , ? \\mathtt { Y } )$ que dice si en G hay una arista de X a Y. Notar que podemos usar esNodo para enumerar los nodos del grafo y esArista para enumerar las aristas. Instanciando apropiadamente, también podemos usar esArista para obtener todas las aristas que tienen a un nodo particular. Cuando esArista lista todas las aristas, cada arista se lista una sola vez en una orientación arbitraria de las dos posibles, pero si se pregunta por cualquiera de las dos, responderá que sí. Suponer que dos nodos son el mismo si y solo si uni\u001ccan. ",
+        "bbox": [
+            94,
+            307,
+            905,
+            409
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: para algunos items conviene pensar primero en cómo programar el predicado opuesto al que se pide. ",
+        "bbox": [
+            97,
+            417,
+            897,
+            431
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "i. Implementar el predicado caminoSimple $( + \\mathtt { G } , + \\mathtt { D } , + \\mathtt { H } , \\mathtt { i }$ L) que dice si L es un camino simple en el grafo G que empieza en D y termina en H. Un camino simple lo representaremos por una lista de nodos distintos, tal que para cada par de nodos consecutivos en L existe una arista en G que los conecta. Notar que el primer elemento de L debe ser D y el último H. Cuando L está sin instanciar, el predicado debe ir devolviendo todos los caminos simples desde D a H sin repetidos (es decir, hay que tener cuidado con los ciclos).   \nii. Un camino L en un grafo G es Hamiltoniano sii L es un camino simple que contiene a todos los nodos G. Implementar el predicado caminoHamiltoniano $( + \\mathsf { G } , \\mathsf { ? L } )$ que dice si L es un camino Hamiltoniano en G.   \niii. Implementar el predicado esConexo $( + \\mathtt { G } )$ que dado un grafo dice si este es conexo. Un grafo G es conexo sii no existe un par de nodos en G tal que no hay un camino simple que los una. Notar que con esta de\u001cnición un grafo de un nodo (y sin aristas) es conexo.   \niv. Implementar el predicado esEstrella $( + \\mathtt { G } )$ que dado un grafo dice si es un grafo estrella. Un grafo es estrella sii es conexo y hay un nodo común a todas sus aristas. ",
+        "bbox": [
+            104,
+            420,
+            907,
+            620
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 23 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            633,
+            215,
+            648
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Trabajaremos con árboles binarios, usando nil y bin(AI, V, AD) para representarlos en Prolog. ",
+        "bbox": [
+            99,
+            661,
+            815,
+            675
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "i. Implementar un predicado arbol(-A) que genere estructuras ? arbol(A). de árbol binario, dejando los valores de los nodos sin instanciar. $\\texttt { A } = \\texttt { n i l }$ ; $\\texttt { A } = \\texttt { b i n } ( \\mathtt { n i l }$ , _G2388, nil) ; Deben devolverse todos los árboles posibles (es decir, para toda $\\texttt { A } = \\texttt { b i n } ( \\mathtt { n i l }$ , _G2391, bin(nil, _G2398, nil)) ; estructura posible, el predicado debe devolverla luego de un nú- $\\mathtt { A } \\ = \\ \\mathtt { b i n } ( \\mathtt { b i n } ( \\mathtt { n i } 1$ , _G2398, nil), _G2391, nil) ; mero \u001cnito de pedidos). No debe devolverse dos veces el mismo árbol.   \nii. Implementar un predicado nodosEn(?A, $+ \\mathrm { L } .$ ) que es verdadero ? arbol(A), nodosEn(A, [ka, pow]). cuando A es un árbol cuyos nodos pertenecen al conjunto conjunto $\\texttt { A } = \\texttt { n i l }$ ; $\\mathtt { A } \\ = \\ \\mathtt { b i n } ( \\mathtt { n i } 1$ , ka, nil) ; de átomos L (representado mediante una lista no vacía, sin orden $\\mathrm { ~ \\tt ~ { ~ A ~ } ~ } =$ bin(nil, pow, nil) ; relevante y sin repetidos). Puede asumirse que el árbol se recibe $\\mathtt { A } \\ = \\ \\mathtt { b i n } ( \\mathtt { n i } 1$ , ka, bin(nil, ka, nil)) ; $\\mathrm { ~ \\tt ~ { ~ A ~ } ~ } =$ bin(nil, ka, bin(nil, pow, nil)) ; instanciado en su estructura, pero no necesariamente en sus nodos. ...   \niii. Implementar un predicado sinRepEn(-A, $+ \\mathrm { L } )$ que genere todos los ár- ? arbolSinRepEn(A, [ka, pow]). boles cuyos nodos pertenezcan al alfabeto L y usando como máximo una $\\texttt { A } = \\texttt { n i l }$ ; $\\mathtt { A } \\ = \\ \\mathtt { b i n } ( \\mathtt { n i } 1$ , ka, nil) ; ... vez cada símbolo del mismo. En este caso, no hay in\u001cnitos árboles posi- A = bin(nil, ka, bin(nil, pow, nil)) ; bles; es importante que el predicado no devuelva soluciones repetidas y ... ; No. que no se quede buscando inde\u001cnidamente una vez terminado el espacio de soluciones. ",
+        "bbox": [
+            105,
+            681,
+            897,
+            932
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            904,
+            60
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Página 6 de 6 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 5
+    }
+]

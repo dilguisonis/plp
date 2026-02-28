@@ -1,0 +1,371 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Segundo Parcial - ${ \\bf 1 } ^ { \\bf { e r } }$ cuatrimestre de 2025 ",
+        "text_level": 1,
+        "bbox": [
+            200,
+            46,
+            794,
+            65
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/00272ee0c6540322d321f19a7e7dc0c0019daa8429f33b8c44da488d0263955b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Nro. Libreta</td><td rowspan=1 colspan=1>Apellido y Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            119,
+            73,
+            880,
+            117
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien (B) y uno regular (R), y se promociona con al menos dos ejercicios muy bien (MB) y uno bien (B). Es posible obtener una aprobaci´on condicional con un ejercicio muy bien (MB), uno bien (B) $_ \\textrm { y }$ uno insuficiente (I), pero habiendo entregado algo que contribuya a la soluci´on del ejercicio. Las notas para cada ejercicio son: -, I, R, B, MB, E. Entregar cada ejercicio en hojas separadas. Poner nombre, apellido y n´umero de orden en todas las hojas, y numerarlas. Se puede utilizar todo lo definido en las pr´acticas y todo lo que se dio en clase, colocando referencias claras. El orden de los ejercicios es arbitrario. Recomendamos leer el parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            115,
+            131,
+            884,
+            216
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 - Programaci´on L´ogica ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            233,
+            405,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementar los predicados respetando en cada caso la instanciaci´on pedida. Los generadores deben cubrir todas las instancias v´alidas de aquello que generan sin repetir dos veces la misma. Se deben indicar los patrones de instanciaci´on de todos los predicados auxiliares. No usar cut (!) ni predicados de alto orden como setof, con la ´unica excepci´on de not. No est´a permitido usar macros que colapsen cl´ausulas. ",
+        "bbox": [
+            117,
+            248,
+            882,
+            303
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Definir el predicado esRotaci´on $( + \\mathbb { L } , + \\mathbb { R } )$ que es verdadero cuando R es una rotaci´on de L. Una lista $\\mathtt { R }$ es una rotaci´on de una lista L si contiene los mismos elementos en el mismo orden relativo, pero comenzando desde una posici´on diferente dentro de L, recorriendo la lista circularmente. Por ejemplo: ?- esRotacion([1,2,3,4], [3,4,1,2]). true. ?- esRotacion([a,b,c], [c,a,b]). true. ?- esRotacion([a,b,c], [c,b,a]). false. ",
+        "bbox": [
+            121,
+            315,
+            885,
+            455
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b) La secuencia de Collatz se construye con la siguiente regla sobre un n´umero natural: si $n$ es par, el siguiente n´umero es $n / 2$ ; si $n$ es impar, el siguiente n´umero es $3 n + 1$ . La secuencia termina cuando se llega al n´umero 1 (aunque la conjetura dice que siempre se llega a 1, esto no ha sido probado para todos los naturales). Definir el predicado collatz $( + \\mathbb { N } , - \\mathbb { S } )$ que instancia en S todos los n´umeros pertenecientes a la secuencia de Collatz a partir del n´umero $\\mathbb { N }$ . Por ejemplo: ",
+        "bbox": [
+            129,
+            464,
+            884,
+            551
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?- collatz(6,S). $\\textsf { S } = \\textsf { 6 }$ ; $\\textsf { S } = \\textsf { 3 }$ ; $\\textsf { S } = \\ 1 0$ ; $\\textsf { S } = \\textsf { S }$ ; $\\textsf { S } = \\ 1 6$ ; ",
+        "bbox": [
+            159,
+            564,
+            285,
+            644
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/14183a2fc24d9e8e20c1a6d51e97a738cf3bd05c68e9ffd77a4f178ca60f884a.jpg",
+        "text": "$$\n\\begin{array} { r } { \\begin{array} { r } { \\mathrm { ~ S ~ = ~ 8 ~ } ; } \\\\ { \\mathrm { ~ S ~ = ~ 4 ~ } ; } \\\\ { \\mathrm { ~ S ~ = ~ 2 ~ } ; } \\\\ { \\mathrm { ~ S ~ = ~ 1 ~ } ; } \\\\ { \\mathrm { ~ c ~ - ~ 1 ~ } . } \\end{array} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            541,
+            577,
+            600,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c) $\\mathrm { i } \\mathrm { E l }$ predicado anterior es reversible en S? (pueden asumir que se utilizar´an n´umeros bajos por lo que la secuencia es siempre finita). Justificar brevemente.   \nd) Definir el predicado collatzMayor $( + \\mathbb { N } , - \\mathbb { M } )$ que es verdadero cuando M es el n´umero m´as grande de la secuencia de Collatz a partir del n´umero N. Por ejemplo: ?- collatzMayor(6,M). $\\texttt { M } = \\texttt { 1 6 }$ ; false. ",
+        "bbox": [
+            131,
+            662,
+            885,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 - Resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            791,
+            317,
+            806
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a. Dada la siguiente base de conocimientos en Prolog: member(X,[X|_]). member(X,[Y|XS]) :- member(X,XS). esSublista(_,[]). esSublista(L,[X|XS]) :- member(X,L), esSublista(L,XS). ",
+        "bbox": [
+            131,
+            816,
+            586,
+            907
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            494,
+            952,
+            504,
+            963
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Explicar brevemente con palabras qu´e sucede al realizar la siguiente consulta: ",
+        "bbox": [
+            156,
+            49,
+            744,
+            64
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b. Expresar la base de conocimientos y la consulta anterior como f´ormulas l´ogicas. ",
+        "bbox": [
+            136,
+            90,
+            749,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c. Pasar las f´ormulas a forma clausal y encontrar una soluci´on a la consulta utilizando resoluci´on. ",
+        "bbox": [
+            136,
+            112,
+            855,
+            128
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "d. La resoluci´on utilizada en el punto anterior ¿fue SLD? Justificar. ",
+        "bbox": [
+            132,
+            134,
+            636,
+            149
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "e. $\\iota$ Hay alguna diferencia entre su resoluci´on y en c´omo resuelve Prolog la consulta? Si es as´ı, explicar cu´al. ",
+        "bbox": [
+            127,
+            156,
+            877,
+            185
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 - Inferencia, Deducci´on Natural y POO ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            200,
+            547,
+            216
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Consideremos el C´alculo Lambda tipado extendido con ´arboles binarios con informaci´on en las hojas de la siguiente manera: ",
+        "bbox": [
+            126,
+            223,
+            880,
+            252
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\tau : : = \\cdots \\mid \\operatorname { A I H } ( \\tau ) } \\\\ & { M : = \\cdots \\mid \\operatorname { H o j a } ( M ) \\mid \\operatorname { B i n } ( M , M ) \\mid \\operatorname { f o l d A l H } M \\triangleright \\operatorname { H o j a } ( x ) \\sim M ; \\ \\operatorname { B i n } ( i , d ) \\sim M } \\end{array}$   \n■ $\\mathtt { A I H } ( \\tau )$ es el tipo de los ´arboles con informaci´on en las hojas de tipo $\\tau$ .   \n■ ${ \\mathrm { H o j a } } ( M )$ es un ´arbol compuesto por una ´unica hoja con informaci´on $M$ .   \n■ $\\mathtt { B i n } ( M _ { 1 } , M _ { 2 } )$ es un ´arbol compuesto por dos sub´arboles $M _ { 1 }$ y $M _ { 2 }$ .   \nfoldAIH $M _ { 1 } \\triangleright \\ \\mathsf { H o j a } ( x ) \\sim M _ { 2 }$ ; $\\mathsf { B i n } ( i , d ) \\sim M _ { 3 }$ representa el esquema de recursi´on estructural sobre ´arboles con los casos de hoja (en donde la variable $x$ se liga con el valor de la hoja y puede aparecer libre en $M _ { 2 }$ ) y bin (que ligar´a las variables $_ i$ y $d$ al resultado de la recursi´on sobre sus sub´arboles y pueden aparecer libres en $M _ { 3 }$ ). ",
+        "bbox": [
+            178,
+            254,
+            885,
+            417
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se extiende tambi´en el algoritmo de inferencia de la siguiente manera: ",
+        "bbox": [
+            159,
+            426,
+            675,
+            441
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/09180c7867ef96f923b9d080faa329f794c289aa153e1bd99d93944c79f4f20e.jpg",
+        "text": "$$\n{ \\mathcal { Z } } ( \\Gamma \\mid \\operatorname { H o j } \\mathbf { a } ( M ) ) = \\left( \\operatorname { A I H } ( \\tau ) \\mid E \\right) \\quad { \\mathrm { ~ d o n d e ~ } } { \\mathcal { Z } } ( \\Gamma \\mid M ) = \\left( \\tau \\mid E \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            157,
+            445,
+            630,
+            460
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "${ \\begin{array} { r l } { { \\mathcal { Z } } ( \\Gamma \\mid \\mathrm { B i n } ( M _ { 1 } , M _ { 2 } ) ) = ( \\tau _ { 1 } \\mid \\{ \\tau _ { 2 } { \\stackrel { ? } { = } } \\mathrm { A I H } ( X _ { h } ) , \\tau _ { 1 } { \\stackrel { ? } { = } } \\tau _ { 2 } \\} \\cup E _ { 1 } \\cup E _ { 2 } ) } \\\\ { { \\mathrm { d o n d e } } \\quad { \\mathcal { Z } } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } \\\\ & { { \\mathcal { Z } } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\end{array} }$ $X _ { h }$ variable fresca ",
+        "bbox": [
+            157,
+            473,
+            630,
+            535
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8f0cf7b0863c44098eaf531ab8e154936f8f5e4fdfdb828e23a43dc729d1a8da.jpg",
+        "text": "$$\n\\begin{array} { r l } { { \\cal { Z } } ( \\Gamma \\mid \\mathrm { \\ f o l d A l { \\sf H } \\mit { \\mathrm { 1 } } \\mit { \\mathrm { M } } \\mit { \\mathrm { 1 } } \\mathrm { \\ - \\ c h o j a ( \\mit x ) \\sim \\cal { M } \\mathrm { _ { 2 } ; \\mit \\ B i n ( \\it { i , d ) \\sim \\cal { M } \\mathrm { _ { 3 } ) = } } } } } } \\\\ { { ( \\tau _ { 2 } \\mid \\{ \\tau _ { 1 } \\stackrel { { ? } } { = } \\mathrm { \\& \\mit { A I H } ( \\cal { X } \\mit _ { x } ) , \\tau _ { 2 } \\stackrel { { ? } } { = } \\tau _ { 3 } , X _ { i } \\stackrel { { ? } } { = } \\tau _ { 2 } , X _ { d } \\stackrel { { ? } } { = } \\tau _ { 2 } \\} \\cup E _ { 1 } \\cup E _ { 2 } \\cup E _ { 3 } ) } } } \\\\ { { \\mathrm { \\ d o n d e \\ } \\quad \\mathrm { \\ } \\mathrm { \\it { \\mathcal { Z } } } ( \\Gamma \\mid \\ M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } } \\\\ { { \\mathrm { \\it { \\Psi } } \\mathrm { \\ { \\it { / ( P , \\mit x : X \\mit _ { x } \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } } } } } \\\\ { { \\mathrm { \\ } \\mathrm { \\ } } } & { { \\mathrm { \\it { \\it { \\mathcal { Z } } } } ( \\Gamma , \\it { i : X _ { i } \\mathrm { , \\it { d : X _ { d } \\mid M _ { 3 } ) = ( \\tau _ { 3 } \\mid E _ { 3 } ) } } } } } \\\\ { { \\mathrm { \\ } } } & { { \\mathrm { \\ } } _ { \\mathrm { \\scriptsize { \\it { \\mathcal { L } } } } \\mathrm { \\ {  \\mit { \\ } } \\mit { \\bar { X } _ { i } \\mathrm { , \\it { \\Psi } } \\mathrm { \\ { \\it { M _ { \\bullet } \\mit _ { \\ x } \\mid \\mit _ { \\tau }   } } } } } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            157,
+            551,
+            630,
+            643
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Usar el algoritmo $\\mathcal { T }$ para inferir el tipo de la siguiente expresi´on, o demostrar que no es tipable: ",
+        "bbox": [
+            147,
+            658,
+            858,
+            674
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/34b82a7d309c092b6045d87be4429a1b9aa2cfcb5324b541d8ea00423bc0f3ed.jpg",
+        "text": "$$\n\\mathsf { f o l d A l H B i n } ( \\mathrm { H o j a } ( \\underline { { 1 } } ) , \\mathrm { H o j a } ( x ) ) \\triangleright \\mathsf { H o j a } ( x ) \\sim i s Z e r o ( x ) ; ~ \\mathsf { B i n } ( x , y ) \\sim x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            683,
+            771,
+            696
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar el siguiente teorema usando deducci´on natural, sin utilizar principios cl´asicos: ",
+        "bbox": [
+            124,
+            728,
+            811,
+            744
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d9d53380e6f3c0ea72b1a53e47eaa438f582c3079cedacb2574a666351305abe.jpg",
+        "text": "$$\n( ( \\exists X . \\neg P ( X ) ) \\land ( \\forall X . \\neg R ( X ) ) ) \\Rightarrow \\exists X . \\neg ( P ( X ) \\land Q ( X ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            319,
+            762,
+            719,
+            777
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) Implementar el m´etodo #twice cuyo objeto receptor es un bloque de un par´ametro y devuelve un nuevo bloque que aplica el original dos veces. Indicar tambi´en d´onde deber´ıa ir definido el m´etodo. Por ejemplo, la siguiente ejecuci´on eval´ua a 12: ",
+        "bbox": [
+            134,
+            804,
+            882,
+            847
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "| double doubleTwice | double : $= \\mathbf { \\nabla } [ : \\mathbf { x } \\ \\mid \\ \\mathbf { x } \\ * \\ 2 ]$ . doubleTwice : $=$ double twice. doubleTwice value: 3. ",
+        "bbox": [
+            161,
+            859,
+            413,
+            917
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            951,
+            505,
+            963
+        ],
+        "page_idx": 1
+    }
+]

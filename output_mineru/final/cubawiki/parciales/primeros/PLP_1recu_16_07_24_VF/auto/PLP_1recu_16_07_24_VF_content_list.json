@@ -1,0 +1,1180 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/df0e1987e1db915ac1b015150874b1aed38ce277ae3b900942f3f7e4ac78499b.jpg",
+        "table_caption": [
+            "PLP - Recuperatorio del Primer Parcial - $1 ^ { \\mathrm { w } }$ cuatrimestre de 2024 "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>#Orden</td><td colspan=\"2\">Nro.Libreta</td><td colspan=\"2\">Apellido(s)</td><td colspan=\"2\">Nombre(s)</td></tr><tr><td>81 </td><td colspan=\"2\"></td><td colspan=\"2\">FalKowski</td><td colspan=\"2\">Valentin.</td></tr><tr><td>Corregido por</td><td>Nota E1</td><td>Nota E2</td><td>Nota E3</td><td></td><td>Nota Final</td><td rowspan=\"3\"></td></tr><tr><td>PERLA</td><td></td><td>B-</td><td>B-</td><td>B</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            33,
+            127,
+            898,
+            238
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Esteexmenseapruebaobeniendoalmenosdosjerciciosbienmenos(B-)yunoregular(B).Lasnotasparacadajercicio so-I,egdeepdoebidoyodl numerarlasSepuedeutilizartodolodefinidoenlspracticasytodoloquesdioenclasecolocandoeferenciscaras EordendeloseccosesarbtarioRecomendaoslerelprealcompetoantesdempeararesoerlo ",
+        "bbox": [
+            41,
+            251,
+            940,
+            319
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1-Programacion funcional ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            326,
+            406,
+            344
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "trio ",
+        "bbox": [
+            47,
+            350,
+            932,
+            379
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            49,
+            383,
+            934,
+            415
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "data Prop Var String | No Prop 丨 Y Prop Prop l O Prop Propl Imp Prop Prop ",
+        "bbox": [
+            51,
+            429,
+            806,
+            447
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "type Valuacion = String -> Bool ",
+        "bbox": [
+            55,
+            459,
+            370,
+            476
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Porejeplo‘）））",
+        "bbox": [
+            53,
+            493,
+            932,
+            525
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lasvaluaciosestcocdiablropslig PorejenplolavuacionxleasignaelvlorverdaderolavariablePyfsds otras variables proposicionales. ",
+        "bbox": [
+            55,
+            526,
+            938,
+            573
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a)Dareltipdefiirlfucosfdroycueipletanespectivates Deree explicita. ",
+        "bbox": [
+            63,
+            588,
+            940,
+            637
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b)DefinirlfcionvriblesPropStringueddfrladevevelisaono sus variablesproposicionales enalgun orden,sinelenentos repetidos ",
+        "bbox": [
+            63,
+            644,
+            936,
+            677
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Prejeplo:vbes（（rp）（(Var）(Var)）deberidever ",
+        "bbox": [
+            71,
+            681,
+            934,
+            713
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": ")Defiirlfaoo ",
+        "bbox": [
+            69,
+            723,
+            934,
+            754
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            73,
+            763,
+            944,
+            812
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            103,
+            815,
+            822,
+            850
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "□ ",
+        "bbox": [
+            509,
+            952,
+            523,
+            965
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            71,
+            0,
+            920,
+            8
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Demostracion e inferencia ",
+        "text_level": 1,
+        "bbox": [
+            52,
+            76,
+            411,
+            93
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes definiciones sobre Arboles con informncion en las hojas ",
+        "bbox": [
+            55,
+            91,
+            706,
+            108
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "data AIH a-Hoja a | Bin (AIHa) (AIH a) der:AIHa->AIHa esHoja ：:AIHa->Bool {D}der（Binid）=d   \n{EO}esHoja （Hoja x）=True   \n{E1}esHoja (Bin id）-False mismaEstructura::AIH a-> AIH a -> Bool {MO) mismaEstructura (Hoja x）=esHoja izq：:AIHa->AIHa {M1}mismaEstructura（Bin id）=\\t ->not （esHojat）&   \n{I}izq（Binid）=i mismaEstructura i (izq t） && mismaEstructura d (der t ",
+        "bbox": [
+            48,
+            119,
+            996,
+            252
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a)Demostrar la siguiente propiedad: ",
+        "bbox": [
+            54,
+            262,
+            351,
+            279
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vt：：AIH a.Vu::AIH a.mismaEstructura tu=mismaEstructuraut ",
+        "bbox": [
+            71,
+            280,
+            671,
+            297
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Serecomienda hacer induccion en el primerarbol,utilizando extensionalidaden el segundo.Se permite definir macros (poner nombres a expresiones largas para no tener que repetirlas). ",
+        "bbox": [
+            75,
+            300,
+            938,
+            334
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Noes obligatorio reescribir los Vcorrespondientes en cada paso,pero es importante recordarque estan presentesyescribir los que corespondan al platear la propiedad como predicado unario.Recordar tambien que los= de las definiciones pueden leerse en ambos sentidos. ",
+        "bbox": [
+            79,
+            340,
+            936,
+            390
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se consideran demostradas todas las propiedades conocidas sobre enteros y booleanos. ",
+        "bbox": [
+            77,
+            394,
+            785,
+            411
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b)Usarel algoritmo Wpara inferir juiciosde tipado validos para las siguientes expresionesoindicarpor quenoes posible (recordar que en inferencia no esta permitido renombrar variables)： ",
+        "bbox": [
+            63,
+            419,
+            928,
+            451
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1)（Ax.x(λx.Succ(x))(Ax.x)ifsZero(x)then x elsex zero",
+        "bbox": [
+            106,
+            459,
+            389,
+            494
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3-Calculo Lambda Tipado ",
+        "text_level": 1,
+        "bbox": [
+            71,
+            512,
+            405,
+            529
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sedesea extender el calculo lambda simplemente tipado para modelar Arbolescon informacion enlas hojas.Para eso se extienden los tipos y expresiones de la siguiente manera: ",
+        "bbox": [
+            69,
+            531,
+            928,
+            563
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "· $A I H ( \\tau ) \\cos$ el tipo de los arbolescon informacionen las hojas de tipor. ",
+        "bbox": [
+            111,
+            565,
+            704,
+            601
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            94,
+            609,
+            681,
+            627
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "·Hoja(M) es un arbol compuesto por una unica hoja con informacion $M$ · $\\mathsf { B i n } ( M _ { 1 } , M _ { 2 } )$ es un arbol compuesto por dos subarboles $M _ { 1 }$ y $M _ { 2 }$ ",
+        "bbox": [
+            92,
+            637,
+            696,
+            654
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            96,
+            662,
+            644,
+            679
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Elobservador caseM1 of Hojax\\~ M2;Bin(i,d)\\~M3 permite acceder al valorde un arbol que es hoja(el cual se ligaraa la variabler quepuede aparecer libre en M2),ya los dos subarboles de un Arbol que no $\\curvearrowright$ hoja(loscualesseligaranalas variablesiydquepuedenaparecerlibresen $M _ { 3 }$ ",
+        "bbox": [
+            94,
+            687,
+            938,
+            738
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a.Introducir las reglas de tipado para la extension propuesta. ",
+        "bbox": [
+            90,
+            748,
+            590,
+            765
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            86,
+            773,
+            932,
+            808
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Mostrar paso por paso cono reduce la expresion: ",
+        "bbox": [
+            106,
+            816,
+            509,
+            833
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "case(An:Nat.Hoja(n)) Succ(zero) of Hoja x\\~ Succ(Pred(x);Bin(i，d)\\~ zero d ",
+        "bbox": [
+            98,
+            836,
+            754,
+            854
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            90,
+            861,
+            936,
+            893
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Escritas con recursion explicita para facilitar Ios demostraciones ",
+        "bbox": [
+            92,
+            908,
+            540,
+            922
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            944,
+            507,
+            956
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } { \\varphi _ { 0 } ( x ) } & { = ( \\varphi \\omega _ { 0 } ^ { \\ast }  \\varphi )  ( \\varphi \\omega _ { 0 } ^ { \\ast }  \\varphi )  ( \\varphi \\omega _ { 0 } ^ { \\ast }  \\varphi )  ( \\varphi \\omega _ { 0 } ^ { \\ast }  \\varphi )  ( \\varphi \\omega _ { 0 } ^ { \\ast }  \\varphi ) } \\\\ & {  ( \\varphi \\omega _ { 0 } ^ { \\ast }  \\varphi )  \\Re \\cdot \\mathrm { P r e } \\varphi  \\varphi  \\sqrt { \\frac { \\varphi \\omega _ { 0 } ^ { \\ast } } { \\omega _ { 0 } ^ { \\ast } } } } \\\\ & {  \\mathrm { P e } \\omega _ { 0 } ^ { \\ast }  \\mathrm { P e } \\omega _ { 0 } ^ { \\ast } \\mathrm { P o r }  \\mathrm { P e } \\omega _ { 0 } ^ { \\ast } \\mathrm { P o r }  ( \\omega _ { 0 } ^ { \\ast } \\omega _ { 0 } ^ { \\ast } ) } \\\\ &  \\overset { \\mathrm { ( f _ { e e e } } = \\omega _ { 0 } ^ { \\ast } = \\varphi \\omega _ { 0 } ^ { \\ast } = \\varphi \\omega _ { 0 } ^ { \\ast }  0 \\mathrm { ~ ( f _ { e e } } = \\omega _ { 0 } ^ { \\ast } ) = \\mathrm { ~ ( f _ { e i g e } ~ } = \\omega _ { 0 } ^ { \\ast }  0 \\mathrm { ~ ( f _ { e i g e } ~ } = \\omega _ { 0 } ^ { \\ast } ) } \\\\ & { \\overset { \\mathrm { ( b a ) } } {  } \\mathrm { ~ ( f _ { e i g e } ~ } = \\omega _ { 0 } ^ { \\ast } \\mathrm { P o r }  \\mathrm { ~ ( f _ { e i g e } ~ } = \\omega _ { 0 } ^ { \\ast } \\mathrm { P o r }  \\omega _ { 0 } ^ { \\ast } \\mathrm { ~ ) } } \\\\  \\varphi _ { 0 } ^ { \\ast }  \\mathrm { ~ ( f _ { e i g e } ~ } = \\omega _ { 0 } ^ { \\ast } \\mathrm { P o r }  \\mathrm { ~ ( f _ { e i g e } ~ } = \\omega _ { 0 } ^ { \\ast } \\mathrm { P o r }  \\omega _ { 0 } ^  \\ \\end{array}$ uoI   \nfoNneioK ntin   \nf $ \\begin{array} { l l l l l } { \\operatorname { i g } \\operatorname { i n f } } & { \\operatorname { f o r } } & { \\operatorname { f o r } } & { \\operatorname { - } \\operatorname { - } \\operatorname { \\rho } - \\operatorname { \\rho } ( \\operatorname { V o r } { \\mathfrak { s } } ) } & { = ( \\operatorname { f o r } \\varphi ) } \\\\ { \\operatorname { i g } \\operatorname { f o r } } & { \\operatorname { f o r } \\operatorname { f o r } \\operatorname { f o r } \\operatorname { f o r } } & { \\operatorname { f o r } \\operatorname { f o r } \\operatorname { f o r } } & { \\operatorname { f o r } \\operatorname { f o r } } \\\\ { ( \\operatorname { W } \\circ } & { \\operatorname { e } ) } & { = } & { \\operatorname { f o r } \\operatorname { a n } \\operatorname { \\rho } ( \\operatorname { v e c o n } { \\mathfrak { p } } ) } \\\\ { ( \\operatorname { Y } \\circ } & { \\operatorname { e } _ { \\mathfrak { s } } \\operatorname { f o r } ) } & { = } & { \\operatorname { f o r } ( \\operatorname { Y e c o n } { \\mathfrak { p } } ) } \\\\ { ( \\operatorname { V o r } } & { \\operatorname { e } _ { \\mathfrak { s } } \\operatorname { f o r } ) } & { = } & { \\operatorname { f o r } ( \\operatorname { Y e c o n } { \\mathfrak { p } } _ { \\mathfrak { s } } ) } & { ( \\operatorname { ( \\operatorname { e x e } _ { \\mathfrak { s } } \\operatorname { \\rho } \\varphi ) } ) } \\\\ { ( \\operatorname { O } \\circ } & { \\operatorname { e } _ { \\mathfrak { s } } \\operatorname { \\rho } _ { 2 } ) } & { = } & { \\operatorname { f o r } ( \\operatorname { ( e x e } _ { \\mathfrak { s } } \\operatorname { P } _ { 3 } ) } & { ( \\operatorname { ( \\operatorname { e x e } _ { \\mathfrak { s } } \\operatorname { \\rho } \\varphi ) } ) } \\\\ { { \\frac { 1 } { \\operatorname { d e t } } } \\operatorname { e n } \\operatorname { \\rho } _ { 3 } \\operatorname { \\rho } _ { 2 } ) } & { \\operatorname { f o r } } & { ( \\operatorname { Y o r } \\operatorname { f o r } \\operatorname { f o r } \\operatorname { f o r } \\operatorname { f o r } \\operatorname { f o r } \\operatorname { f o r } ) } \\\\  \\operatorname { i n f } _  \\operatorname  e c o \\end{array}$ 0.=8   \n$\\begin{array} { r l } & { \\mathrm { ( \\textnormal { \\texttt { Y } } ~ e _ { 1 } ~ e _ { 2 } ~ ) = ~ } \\begin{array} { l } { f _ { 1 } , } \\\\ { f _ { 2 } } \\end{array} \\quad \\mathrm { ( r e c o ~ \\hat { e } _ { 1 } ~ \\rho ~ , ~ t _ { 2 } ~ ) = ~ } \\begin{array} { l } { f _ { 1 } } \\\\ { ( \\textnormal { \\texttt { c g } } , ~ \\varphi _ { 2 } ) } \\end{array} \\quad , } \\\\ & { \\mathrm { ( \\texttt { O } ~ e _ { 2 } ~ \\rho _ { 1 } ~ ) = ~ } \\begin{array} { l l l l l l } { f _ { 2 } } & { \\mathrm { ( f e c o ~ \\hat { e } _ { 2 } ~ \\rho _ { 2 } ) } } & { \\mathrm { ( \\ r e c o ~ \\hat { e } _ { 2 } ~ \\rho _ { 1 } ~ ) = ~ } } & & \\\\ { \\vdots } & { } & { } & { } & { } & { } \\\\ { \\operatorname* { \\texttt { a n g } } ( \\textnormal { \\texttt { R } } , ~ \\varphi _ { 2 } ) = ~ } \\end{array} } \\\\ & { \\begin{array} { l } { \\frac { ( \\hat { \\mathcal { X } } _ { 1 } ) \\times \\theta _ { 1 } } { \\sqrt { \\theta _ { 1 } + \\theta _ { 2 } } } , } & { \\mathrm { ( \\ r e c o ~ \\hat { e } _ { 2 } ~ \\rho _ { 2 } ~ ) ~ , } } & { \\mathrm { ( \\ r e c o ~ \\hat { e } _ { 2 } ~ \\rho _ { 2 } ~ ) ~ , } } & { } \\\\ { \\frac { ( \\hat { \\mathcal { Y } } _ { 2 } ) \\times \\theta _ { 1 } } { \\sqrt { \\theta _ { 1 } + \\theta _ { 2 } } } , } & { \\mathrm { ( \\ r e c o ~ \\hat { e } _ { 2 } ~ \\rho _ { 1 } ~ ) = ~ } } & { \\int _ { \\mathbb { R } } \\theta _ { 1 } } \\end{array} } \\\\ &  \\begin{array} { l }  ( \\hat { \\mathcal { X } } _ { 1 } ) : = \\begin{array} { l } { ( \\hat { e } _ { 1 } , \\rho _ { 2 } ) \\times \\theta _ { 2 } } \\\\ { \\vdots } \\\\ { \\hat { e } _ { 2 } \\times \\theta _ { 2 } } \\end \\end{array} \\end{array} \\end{array}$ es ROP Con sula. RDR   \nfipode dares Prop (con Pmeub)   \n“ ",
+        "bbox": [
+            32,
+            2,
+            977,
+            491
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "rec $\\begin{array} { r l } & { \\mathrm { ( s e c r a p ) } _ { + ^ { \\prime } = 0 }  \\mathrm { ( f o r o p - s e c o ) }  \\mathrm { ( f o r o p - s e c o ) }  \\mathrm { ( f o r o p - s e c o ) }  \\mathrm { ( f o r o p - s e c o ) }  \\mathrm { ( f o r o p - s e c o ) }  } \\\\ { * \\mathrm { ( f o r o p - s e c o s - s e c o ) }  \\mathrm { ( f o r o p - s e c o s ) }  \\mathrm { ( f o r o p - s e c o s ) }  \\mathrm { ( f o r o p - s e c o s ) } } \\\\ { * \\mathrm { ( f o r o p - s e c o - s e c o ) }  \\mathrm { ( f o r o p - s e c o s ) }  \\mathrm { ( f o r o p - s e c o s ) } } \\\\ { * \\mathrm { ( s e c h o s - f o r o p - s e c o s ) } } \\\\ { * \\mathrm { ( s e c h o s - f o r o p - s e c o s ) } } \\\\ { * \\mathrm { ( f o r o p - s e c o s ) } } \\\\ { * \\mathrm { ( f o r o p - s e c o s ) } } \\\\ { * \\mathrm { ( f o r o p - s e c o s ) } } \\end{array}$ (amPPp)=fimAPP(recnP1)（recn P2) whoereon=recprop Fvarfnocsyfosimp ",
+        "bbox": [
+            0,
+            500,
+            922,
+            951
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Va $\\begin{array} { r c l } { { } } & { { \\dot { \\gamma } > \\operatorname { \\texttt { g o f } } \\dot { \\varepsilon } \\dot { \\textbf { \\texttt { G } } } ( a ) } } & { { \\dot { \\varepsilon } ^ { \\prime } \\dot { \\varepsilon } ^ { \\prime } } } \\\\ { { } } & { { ~ \\operatorname { \\texttt { g r o p } } \\dot { \\varepsilon } ( \\widehat { \\bigtriangledown } ) ~ . ~ \\operatorname* { \\mathbb { P } } _ { \\Gamma ^ { } \\circ \\mathbb { P } }  ~ \\operatorname { \\texttt { L s t r i n } } \\dot { \\varrho } ^ { - } \\big ] ~ . } } \\\\ { { } } & { { ( \\operatorname { \\texttt { W i p } } \\dot { \\varrho } ) \\dot { \\varepsilon } \\dot { \\ge } \\operatorname { \\texttt { f o l d p } } \\dot { \\varphi } ( \\operatorname { \\texttt { S } } \\dot { \\textbf {  { s } } } ) ~ \\operatorname { \\texttt { E s } } \\Sigma ) ~ \\operatorname { \\hat { \\varrho } } \\operatorname { \\hat { M } } \\operatorname { M } \\operatorname { M } \\operatorname { M } \\operatorname { M } \\dot { \\varphi } \\dot { \\textbf {  { s } } } \\dot { \\textbf { i } } \\dot { \\textbf {  { d } } } ~ f } } \\\\ { { } } & { { } } & { { \\lambda \\operatorname { \\texttt { V i n e s e } } \\dot { \\hat { \\xi } } ~ = ~ ( \\setminus \\rho _ { * } ~ \\mathbb { P } _ { \\ Z } ~  ~ \\mathbb { P } _ { \\widehat { \\ Z } } + + \\rho _ { 2 } ) ~ = ~ ( + + ) } } \\end{array}$ f   \nvaoblerProp[strnd]   \nvroblerp=elmRepet1der（vnoble-Rp) PODiAS USAR nUO,O NGIORUNION ENLUCAR   \nelmmr(epetoer[a]] DE++ e FUNCONABA IGUAC thorr else(x）++r (x:r)   \npentenee   \nAsuneelemytdenenelereldldHhel   \nnnelBl re(b→（0→[0)→b→b）→[}→b   \nevalarVolucisnroPBoo Vatin N   \nevoluve=eN=Pva voty X（+/) wherse val Vel not   \ncvoarvl=foupop(sval）（r→r) (r→r&& v2)（ee)not (.→r=r)(u） (nr→（v）Y)   \n)esten FNNProP→Bool   \netoen FNN=recprop.(const Trve) FOuxOUE Es EsTENOMBE （1--1.1→日&r2） （----→Folse) ",
+        "bbox": [
+            5,
+            0,
+            959,
+            747
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            25,
+            6,
+            858,
+            384
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            31,
+            427,
+            968,
+            712
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/9adbbb7df757f67f2689d354b6a6fe4adc9daa78731759a6c241aeaeb32361d5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            82,
+            743,
+            580,
+            887
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            21,
+            12,
+            80,
+            52
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": ")demosrer ",
+        "bbox": [
+            19,
+            68,
+            205,
+            97
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            725,
+            2,
+            976,
+            58
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "VtAIH a.VuAiHa.mismEstvuur tu= mmaBseadut ",
+        "bbox": [
+            27,
+            119,
+            982,
+            148
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            33,
+            208,
+            198,
+            231
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5ba35d17c073bbb95f76c14cd8e41db284d3a47b59910c67b486d157e836824c.jpg",
+        "text": "$$\n\\begin{array} { r l r l } & { \\textrm { d } ( \\phi _ { 0 } , \\phi _ { 1 } , \\phi _ { 2 } ) } & { = \\phi _ { 0 } ( \\phi _ { 2 } , \\phi _ { 1 } ) } & { \\phi _ { 0 } < \\phi _ { 0 } ( \\phi _ { 1 } , \\phi _ { 2 } ) } \\\\ & { = } & { \\phi _ { 0 } ( \\phi _ { 1 } , \\phi _ { 2 } ) } & { 0 < \\phi _ { 1 } ( \\phi _ { 2 } , \\phi _ { 1 } ) } \\\\ & { } & { = \\phi _ { 0 } ( \\phi _ { 1 } , \\phi _ { 2 } ) } & { 0 < \\phi _ { 1 } ( \\phi _ { 2 } , \\phi _ { 1 } ) } \\\\ & { } & { = \\phi _ { 1 } ( \\phi _ { 2 } , \\phi _ { 1 } ) } \\\\ & { } & { \\phi _ { 0 } ( \\phi _ { 2 } , \\phi _ { 2 } ) } & { \\phi _ { 0 } ( \\phi _ { 3 } , \\phi _ { 3 } ) } \\\\ & { } & { \\phi _ { 1 } ( \\phi _ { 1 } , \\phi _ { 2 } ) } & { 0 < \\phi _ { 1 } ( \\phi _ { 3 } , \\phi _ { 3 } ) } \\\\ & { } & { \\phi _ { 2 } ( \\phi _ { 1 } , \\phi _ { 3 } ) } & { 0 < \\phi _ { 1 } ( \\phi _ { 2 } , \\phi _ { 1 } ) } \\\\ & { } & { \\phi _ { 3 } ( \\phi _ { 3 } , \\phi _ { 3 } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            80,
+            238,
+            798,
+            656
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "）   \n(Dein macoME=misno Estuctura)   \nes Hoa u=mismEscructv u（Hoan)n   \nAr utivzoerrasionlidod sobre u(amo). SiuAHa,en u=H ben u=Ben Lr (acAHo.rA(ND),   \ncoro u= Ho. 5Hosa(Ho）am）=ME（Hoam)（Hojan） 1imol TNe = H子（Hon) 3E07 TML=TmEY P(Hoan) xeP u=Hosa(m）   \nCso u=BinLr   \nesHo（BinLr)=ME（DonLr)（Hoan) 3m22 False =not（EsHos（Ho)an）)&& MEL(iz（KOn）)&& mE(der(Hon))   \nComo,Pov}EoEshOa（Hosa=tme entena\\~not（estea（tojan))=Folse ",
+        "bbox": [
+            5,
+            550,
+            978,
+            922
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            0,
+            2,
+            883,
+            754
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "estar ",
+        "bbox": [
+            21,
+            23,
+            130,
+            45
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            595,
+            16,
+            962,
+            77
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Fdse ",
+        "bbox": [
+            51,
+            58,
+            347,
+            81
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ef1771ce04f2e2dcb9c0cd64fe5626d402ec0c371c247fb722d276e575cabe2f.jpg",
+        "text": "$$\n\\begin{array}{c} \\begin{array} { r l } & { \\begin{array} { l l l l l l l } { = } & { \\gamma _ { 0 } i s < 0 . } \\\\ & { } & & { } & & { } \\\\ { \\gamma _ { 0 } s _ { i } ( r _ { i } ) s _ { 0 } \\phi } & { \\phi ( \\phi _ { 0 } ) } & { \\gg 0 . } & { u = ( \\beta _ { i } r _ { i } ) } & { c _ { \\hphantom { ( } r } ) } \\end{array} , } \\\\ & { } & & { } & \\\\ & { \\begin{array} { l l l l l l l } { \\phi ( \\gamma _ { 0 } , \\eta _ { i } ) } & { = } & { ( \\gamma _ { 0 } , \\eta _ { i } ) \\rho ( \\mathrm { e } ^ { \\mathrm { i } \\phi _ { 0 } } \\gamma _ { 0 } , r _ { i } ) , } & { e ( \\hphantom { ( } \\psi _ { 0 } , \\eta _ { i } ) , \\mathrm { d } / \\eta _ { 0 } ) . } \\end{array} } \\\\ & { } & & { } & \\\\ { , \\textit { \\texttt { w i n f } } \\left( \\mathbb { B } _ { 0 } r _ { i } \\right) , } & { u = ( \\gamma _ { 0 } , \\eta _ { i } ) , } & { u = ( \\beta _ { i } r _ { i } ) , } & { ( \\beta _ { i } r _ { i } ) . } \\end{array}  \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            173,
+            51,
+            895,
+            262
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0e21a1307d6f7e56c301d9e58b7faea03ee15bfd25e0b17d8262c9c8b0f6557f.jpg",
+        "text": "$$\n\\begin{array} { r l } &  \\mathrm { ~ e x c r e ~ \\gamma ~ } ( { \\mathrm { B o r ~ } \\mathord { ( \\begin{array} { l } { ( \\sqrt { 3 } ) } \\end{array} ) } }  \\begin{array} { l } { \\mathrm { ~ , ~ } } \\\\ { \\mathrm { ~ } } \\\\ { \\mathrm { ~ , ~ } } \\\\ { \\mathrm { ~ } } \\\\ { \\mathrm { ~ , ~ } } \\\\ { \\mathrm { ~ } } \\\\  \\mathrm { ~ \\operatorname* { m a x } ~ \\mathrm { ~ H e y ~ } \\mathord { ( \\begin{array} { l l l l l } { ( \\sqrt { 3 } ) } & { \\mathord { ( \\sqrt { 3 } ) } } & { \\mathord { ( \\epsilon ) } } & { \\mathord { ( \\epsilon ) } } & { \\mathord { ( \\epsilon ) } } & { \\mathord { ( \\epsilon ) } } \\end{array} } \\mathrm { ~ , ~ } } \\\\ { \\mathrm { ~ a s ~ , ~ } } \\\\ { \\mathrm { ~ C ~ t o ~ } \\mathord { ( \\begin{array} { l l l l l } { \\mathrm { ~ C } } & { \\mathrm { ~ B o r e ~ \\gamma , ~ } } & { \\mathrm { ~ } \\mathrm { ~ A } } & { \\mathrm { ~ C } } \\\\ { \\mathrm { ~ } } & { \\mathrm { ~ H } \\mathord \\mathord { ( \\epsilon ) } } & { \\mathrm { ~ , ~ } } \\\\ { \\mathrm { ~ H } \\mathord \\mathord { ( \\epsilon ) } } & { \\mathrm { ~ , ~ } } \\\\ { \\mathrm { ~ } } & { \\mathrm { ~ H } \\mathord \\mathord { ( \\epsilon ) } } & { \\mathrm { ~ , ~ } } \\end{array} } ) } \\end{array} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            76,
+            211,
+            798,
+            608
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c1becb9db79b3e2b2fc099bebf53c4ebee89d07a9593afe9d2b6200f7c26492f.jpg",
+        "text": "$$\n. \\cos \\circ \\sin \\alpha = k \\cos \\alpha \\sin \\alpha = - \\sqrt { 3 } \\sin \\alpha = - \\sqrt { 3 } \\cos \\alpha ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            199,
+            787,
+            919,
+            831
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "cuHa  \nnot（EsHosa（Hosam))&&MeiI2f（Hem）&mEd(nFolse（Por{EO1) ?R(nocl)  \n:Fise&&=Folse.e  \nPpedaFolse=mE(Ho）m)（oon id)Folse=eHja（oond)Fose=False YE2?.",
+        "bbox": [
+            0,
+            5,
+            951,
+            372
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "demstrado （Bunid) Po =Hoam/Casou=(BinLr).AnolobAire izfde1'=(enP)not（EsHo（BinL）)&&xtoMEi(F(BonLv)&&MEddes（Dn(r)",
+        "bbox": [
+            7,
+            394,
+            964,
+            600
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "AeomobzO noc(cstod（onLr)BrTrue（r{Ea).tue&&MEi(BonLr)&MEddr(Bun(r). Ynor(sPropdbooeo)  \nmEiizf（onLr)&&Medder(Oonr)  \nAhoropor{ YPor3D3  \n$E ( \\mathbf { \\Delta } C ) \\& \\mathbf  \\mathcal { K } ( \\mathbf { \\mathcal { M } } \\in \\Delta \\textbf { d } \\textbf { v } ) = m E ( \\boldsymbol { \\alpha } \\boldsymbol { \\alpha } \\cdot \\mathbf { \\Delta } C ) ( \\mathbf { \\beta }$ ",
+        "bbox": [
+            0,
+            630,
+            990,
+            937
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            614,
+            991,
+            887,
+            998
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fc6e4922b5d52be0c78b1662666afc3b4f78af72cc137a9fc9e45d84b22b0c8e.jpg",
+        "text": "$$\n\\begin{array} { r l r l r l } & { \\log _ { 2 } } & { \\log \\rho ( \\gamma _ { \\mathcal { G } } ^ { 0 } , \\ \\log e \\nu \\nu \\sigma _ { \\mathcal { G } } \\ \\pm \\mu , \\ \\gamma _ { \\mathcal { G } } \\ \\log i \\alpha \\phi , \\ \\gamma _ { \\mathcal { G } } ^ { 0 } ) } & & { \\forall \\gamma _ { \\mathcal { G } } ^ { 0 , 0 } } \\\\ & { \\in } & { \\mathcal { G } _ { \\mathcal { G } } ^ { 0 , 0 } , } & & { \\mathcal { G } _ { \\mathcal { G } } ^ { 1 , 0 } } \\\\ & { \\lesssim } & { \\mathcal { G } _ { \\mathcal { G } } ^ { 0 , 0 } , } & & { \\mathcal { G } _ { \\mathcal { G } } ^ { 1 , 0 } } \\\\ & { \\lesssim } & { \\left( \\log _ { 1 } \\ \\underline { { \\hat { \\omega } } } \\right) } & { \\ \\sqrt { \\Delta _ { \\mathcal { G } } } , } & & { \\mathcal { G } _ { \\mathcal { G } } ^ { 1 , 0 } \\notin \\left( \\log i \\alpha \\phi , \\ \\hat { \\omega } \\right) } \\\\ & { } & { \\underset { \\mathrm { L S } } { \\geq } } & { \\big ( \\log _ { 1 } \\ \\underline { { \\hat { \\omega } } } \\big ) } & { \\ \\mathrm { R e } } & { \\mathcal { G } _ { \\mathcal { G } } ^ { 1 , 0 } \\notin \\left( \\log i \\alpha \\phi \\right) , } \\\\ & { } & { \\mathrm { L S } _ { \\mathcal { G } } ^ { 0 , 1 } } & & { \\mathcal { G } _ { \\mathcal { G } } ^ { 0 , 2 } \\in \\mathcal { G } _ { \\mathcal { G } } ^ { 1 , 0 } \\notin \\mathcal { G } _ { \\mathcal { G } } ^ { 1 , 0 } \\ , } \\\\ & { \\mathrm { Q u t q } _ { \\mathcal { G } } } & { \\mathrm { S t i g h t } _ { \\mathcal { G } } ^ { 0 , 0 } } & & { \\big ( \\log i \\alpha \\phi , \\ \\gamma _ { \\mathcal { G } } ^ { 0 , 0 } \\big ) \\ \\stackrel { \\mathrm { d u t q a l } } { \\leq } \\ \\mathrm { b y } \\ \\sqrt { \\omega \\omega \\delta } } \\\\ & { \\underset { \\mathrm { L S } } { \\geq } } &  \\big ( \\log i \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            147,
+            18,
+            876,
+            402
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "T43   \n(poceam dad)   \npropie ) （P) MEAA   \nMEOL&&MEdr=MELi&&MErd.   \nAneapodemorapvor  nporeisinductiePfi)np(d). CamaAEAHMEE   \nPiVEuA) en PmeiL=mELi （MEdr=MErd)   \n7lfMEiL&&MEdr=ME∠i&xMrd mEiL=MEiAmEd=MErd   \n10cns1derg lo cwel ale PorH.工 √   \nv poped   \nbooleon conouda. wdemserao PrBnid) to u=（bnLr) Br1o+anTO.Vle V+:AIH>.(t). NOMCe Entmceno s ePos YATe yE p ueRs ",
+        "bbox": [
+            1,
+            184,
+            974,
+            997
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            0,
+            0,
+            110,
+            76
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/1fcee5e757f38ba598a1660263d704c9cd8d682ac61e5bc9950547dd775a3695.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            58,
+            0,
+            581,
+            4
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/08fe58e24999b753c866df41611da02ab3d20ce2cf1de3667eb178032dbe90ce.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            766,
+            9,
+            974,
+            140
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/78bfd777be551f4e6ab3b4bde78d56e4b002338a339f4a5df696a80765b6dada.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            445,
+            145,
+            593,
+            258
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "A ",
+        "bbox": [
+            3,
+            55,
+            416,
+            475
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            544,
+            244,
+            974,
+            343
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "②.W（x)→xX△Fx.x x1:in inegdnita  \n②.w（x）>x:x├xx xe:inco'gnita",
+        "bbox": [
+            21,
+            520,
+            857,
+            620
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/cbb8a472ddf54337e2b88825c13551a8baa6a560885e1d7fa1d061df8d503af8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            44,
+            631,
+            854,
+            752
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/643c3acecb42d8a3f9c2969507005847ae453e4363c9d36757153cd50a9a7d2b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            17,
+            876,
+            964,
+            997
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/ac13c284178b100b86e421ebeda9ecad114c88a9764f0c84e44091be9b099d13.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            0,
+            16,
+            49,
+            51
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            1,
+            54,
+            998,
+            177
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/797d4a36401946b185cc49386b34ec65aeabbd2b783213602866962370b975a4.jpg",
+        "text": "$$\n\\begin{array} { r l r } & { \\beta = \\pi \\beta ( u ) } \\\\ & { \\gamma _ { \\mathrm { S } } + \\gamma _ { \\mathrm { S } } ( \\mathbf { \\boldsymbol { x } } ) - \\gamma _ { \\mathrm { S } } } & { \\hat { \\gamma } ( \\mathbf { \\boldsymbol { x } } ) } \\\\ & { \\gamma _ { \\mathrm { S } } , ~ \\mathrm { o r c } ( \\mathbf { \\boldsymbol { x } } ) \\setminus \\gamma _ { \\mathrm { S } } } \\\\ & { \\boldsymbol { \\times } \\operatorname { N e } ( \\mathbf { \\boldsymbol { x } } ) , ~ \\mathrm { \\boldsymbol { \\mathcal { H } } } ( \\mathbf { \\boldsymbol { x } } ) = \\boldsymbol { \\mathcal { H } } ( \\mathbf { \\boldsymbol { \\hat { x } } } ) \\operatorname { \\boldsymbol { \\Psi } } ( \\mathbf { \\boldsymbol { \\hat { x } } } ) } \\\\ & { \\frac { N \\operatorname { e r } \\big ( N - \\mathbf { \\boldsymbol { \\hat { x } } } ( \\mathbf { \\boldsymbol { x } } ) \\big ) \\big ( N \\big ) \\big ( N - \\mathbf { \\boldsymbol { \\hat { x } } } \\big ) } { N } } \\\\ & { \\frac { N } { N } \\left( \\boldsymbol { \\hat { x } } \\big ( \\mathbf { \\boldsymbol { x } } \\mathrm { N } + \\boldsymbol { \\hat { x } } ( \\mathbf { \\boldsymbol { x } } ) \\big ) \\big ) \\sim \\boldsymbol { \\mathcal { H } } \\cdot \\big ( N \\partial / N - \\mathbf { \\boldsymbol { \\hat { x } } } ( \\mathbf { \\boldsymbol { \\hat { x } } } ) \\big ) \\right. \\mathbf { \\boldsymbol { \\hat { x } } } } \\\\ & { \\textit { k } \\times \\big ( N \\partial / N \\partial / N \\big ) , ~ \\mathcal { S } \\mathrm { o r c } \\big ( N } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            99,
+            41,
+            972,
+            322
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/e8baa254769bda4cf92360fd5838c29776beafcd562ac05c85ac717250069510.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            5,
+            341,
+            41,
+            376
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/11b9b8b4d4309d74c212182b8bd4915a1bfd41d81c314f8479217ed0a3e02bd6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            1,
+            383,
+            942,
+            627
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0cd5c5d18d805ac04f659e4e68696ebb2dcdf17371eceaeaa454d633dc5d5a19.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\bigoplus } \\\\ & { \\bigoplus \\quad \\operatorname { w \\prime } ( x ) \\to x : \\times { \\mathfrak { a } } \\vdash x : \\times { \\mathfrak { a } } . } \\\\ & { \\bigoplus } \\\\ & { \\underset { \\underset { \\mathrm { \\normalfont \\sf \\sf \\sf \\{ S } ^ { + } \\sim } } { \\iint } } \\omega ( \\boldsymbol { x } ) \\to x : \\times { \\mathfrak { a } } \\vdash \\mathbb { M } x : \\times { \\mathfrak { a } } .  \\\\ & { \\underset { \\mathrm { \\normalfont \\sf \\{ S \\} \\sim } } { \\iint } ( \\mathbb { \\hat { x } } \\cdot \\mathbb { x } \\cdot \\alpha ) \\quad \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\omega \\vdash ( \\mathbb { \\wedge } x : \\mathbb { \\times } \\times \\times ) : \\mathbb { \\times A } . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            3,
+            656,
+            801,
+            856
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/1423d8a4c000326941d9dc25eb83482d213bb8935a98e242fb77dff21bf190d9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            98,
+            27,
+            984,
+            891
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            3,
+            456,
+            141,
+            597
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/e3dc3b855479ed51c7ee69c31fd5f0240b0d888712544e8a4b4e900202d54902.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            114,
+            0,
+            613,
+            4
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/fc4ebea5d154fd7280802391b6c1b62adb3227db16153e416132b72e8e182c97.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            9,
+            22,
+            486,
+            118
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            754,
+            2,
+            998,
+            131
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/db2aac71765189e8e8451a7a5dd2492cf200db02a093b8d48bd7511b143cd383.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            78,
+            168,
+            994,
+            277
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1477d02014f5e83f965320ac51ab063687ea65816e9dff0e4da7df179e13a283.jpg",
+        "text": "$$\n\\begin{array} { r c l } { { \\displaystyle ( \\widehat { \\Theta } \\cdot \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ w } ( \\alpha ) ~ } \\backsim \\gamma \\cdot \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ x } _ \\alpha \\cdot ~ } \\times \\lambda \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ x } _ \\beta \\cdot ~ } } }  & { { } } & { { } } \\\\ { { } } & { { } } & { { } } \\\\ { { \\displaystyle ( \\widehat { \\Theta } \\cdot \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ w } ( \\alpha ) ~ } \\cdots \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ x } _ \\alpha \\cdot ~ } \\times \\iota _ { 1 } \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ c } _ \\alpha \\cdot ~ } \\times \\lambda \\mathrm {  ~ \\scriptstyle { \\beta } ~ } } } \\\\ { { } } & { { } } & { { } } \\\\ { { \\displaystyle ( \\widehat { \\Theta } \\cdot \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ w } ( \\bar { z } \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ z } ^ \\circ ~ } / \\cdots \\mathrm {  ~ \\scriptstyle { \\alpha } ~ } ) ~ } \\phi _ { I } \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ z } \\in \\mathcal { S } ^ \\prime \\mathrm {  ~ \\scriptstyle { \\beta } ~ } } \\mathrm {  ~ \\scriptstyle { \\beta } \\partial ~ } \\tau _ { \\ast } } } \\\\ { { } } & { { } } & { { } } \\\\ { { \\displaystyle ( \\widehat { \\Theta } \\cdot \\mathrm {  ~ \\scriptstyle { \\scriptstyle ~ \\mathscr { ~ \\beta } ~ } } } } & { { } } & { { } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            7,
+            309,
+            708,
+            547
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b12da8631787ed9cefced3cd3f2334d2f36ab6d6156c1dd6a81e8f5b707e5eb5.jpg",
+        "text": "$$\n\\begin{array} { l l } { \\log x : \\log _ { 1 } + x _ { 2 } \\times \\log _ { 2 } } & { \\leq \\log _ { 1 } + x _ { 1 } \\times \\log _ { 2 } \\to x } \\\\ { \\log _ { 1 } \\to \\log _ { 2 } \\operatorname* { d i m } _ { 2 \\leq 2 } \\operatorname* { d i m } _ { 2 } x } & { = 1 \\times \\log _ { 1 } = N \\partial _ { 2 } < 0 } \\\\ { ( \\log 2 e \\leq 0 ) \\to 7 } & { \\operatorname* { d i m } _ { 2 \\leq 1 } \\log _ { 2 } \\to \\times 6 + x _ { 1 } \\times 2 \\operatorname* { d i m } _ { 2 } \\times x _ { 4 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            500,
+            802,
+            647
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { c c } { { } } & { { 5 = \\longleftrightarrow \\longleftrightarrow \\longleftrightarrow } } \\\\ { { } } & { { } } \\\\   \\begin{array} { c c c } { { \\begin{array} { r c c c } { { \\scriptstyle ( \\bar { \\lambda } ) \\longleftrightarrow ( \\kappa \\times \\lambda ) \\to 0 } & { { \\scriptstyle \\lambda : \\wedge \\partial \\sigma } \\ \\to | \\ \\Gamma ^ { 2 } \\scriptstyle \\Theta \\otimes \\ ( { \\bf \\kappa } ) \\ \\to \\ \\langle \\Delta _ { \\mathrm { d o s } } \\rangle \\ } } & { { \\scriptstyle \\displaystyle \\bigwedge \\displaystyle \\} \\mathrm { i s ~ o t ~ } \\ \\frac { \\lambda ^ { 2 } } { c } } \\ } \\\\ { { \\scriptstyle ( \\mathrm { v } \\times \\lambda ) \\to \\ \\infty } } & { { \\scriptstyle \\times \\cdot \\lambda \\ \\sum _ { k } \\ \\vdash \\ \\ \\lambda \\cdot \\times \\sum } } \\end{array} } } \\\\  { \\begin{array} { r c c } { { \\begin{array} { r c c c } { { \\scriptstyle \\mathcal { X } ( { \\bf \\kappa } ) \\to 0 } & { { \\scriptstyle \\chi : \\wedge \\partial \\sigma } \\to \\infty \\ \\times \\delta \\ \\ \\in \\ \\ \\mathcal { X } \\ \\ \\times \\ \\ \\mathcal { X } \\ \\ \\ \\mathcal { X } \\ \\ \\ \\times \\ \\mathcal { \\epsilon } } } & { { \\scriptstyle \\times \\ \\sum } } \\\\ { { \\scriptstyle \\times \\ \\sqrt { \\ \\ \\mathcal { X } ( { \\bf \\kappa } ) \\to \\ \\ \\chi \\ \\times \\ \\mathcal { X } \\ \\ } } } & { { \\scriptstyle \\times \\ \\lambda \\ \\epsilon } } & { { \\scriptstyle \\times \\ } } \\end{array} } } \\\\ { { \\begin{array} { r c c } { { \\begin{array} { r c c c } { { \\begin{array} { r c c c } { { \\forall \\ \\ \\mathcal { X } \\not \\ \\ \\ \\log ( { \\bf \\kappa } ) \\ \\ \\ \\ \\epsilon \\ \\ \\exp \\ \\ \\Lambda } } & { { \\ x } } & { { \\scriptstyle \\mathcal { X } \\ } \\ \\ \\epsilon \\mathcal { X } \\ \\ \\leq \\ \\ \\mathcal { X } \\ \\ \\ \\leq \\ \\ \\mathcal { X } \\ } } \\\\ { { \\scriptstyle \\big \\ \\Theta } } & { { \\scriptstyle \\ddots \\ \\sqrt { \\ \\mathcal { Y } } } } & { { \\scriptstyle \\otimes } } \\end{array} } } \\end{array} } } \\end{array} } } &   \\begin{array} { r c c }   \\begin{array} { r c c } { { \\lambda } } &   \\ \\end{array} \\end{array} \\end{array} \\end{array} \\end{array}$ u( 01，x=x x=NC→X. Nat-xo follPrelonPen+rors (morelli-mtari)t $\\begin{array} { r l } & { \\begin{array} { r l } & { \\mathrm { i v e n } ^ { \\mathrm { i } } \\eta ^ { \\mathrm { i } } \\dag \\Pi _ { 1 } - \\mathrm { c } ^ { \\mathrm { i } } \\dag \\Pi _ { 1 } \\dag \\Delta _ { 1 } } \\\\ { \\mathrm { i } } & { : \\mathrm { B o } ^ { \\mathrm { i } } \\eta \\dag \\hat { H } \\dag \\hat { \\omega } _ { 0 } } \\\\ { \\mathrm { e } ^ { \\mathrm { i } } \\dag \\Pi _ { 2 } ^ { \\mathrm { i } } \\dag \\hat { \\omega } _ { 0 } ( \\frac { 1 } { \\omega _ { 0 } } \\frac { \\Gamma } { \\omega _ { 1 } } ( \\begin{array} { l l l l l } & & & { \\mathrm { i } } \\\\ & { \\mathrm { A s } } & { \\frac { \\eta } { \\omega _ { 1 } } } & & { \\mathrm { i } \\omega _ { 0 } } & { \\mathrm { x } _ { 3 } } \\end{array} ) ^ { \\frac { \\alpha } { 2 } }  } \\end{array} } \\\\ &  \\begin{array} { r l } & { \\mathrm { e } ^ { \\mathrm { i } } \\dag \\Pi _ { 3 } } & & \\\\ & {  \\mathrm { e } ^ { \\mathrm { i } } \\dag \\Pi _ { 4 } ^ { \\mathrm { i } } \\dag \\Pi _ { 4 } ^ { \\mathrm { i } }  ( \\frac { 1 } { \\omega _ { 0 } } \\frac { \\Gamma } { \\omega _ { 1 } } ) \\dag \\Delta _ { 3 } ( \\frac { 1 } { \\omega _ { 0 } } \\frac { \\Gamma } { \\omega _ { 1 } } ) \\dag \\Delta _ { 4 } ^ { \\mathrm { i } } ( \\frac { 1 } { \\omega _ { 0 } } \\frac { \\Gamma } { \\omega _ { 1 } } ) \\dag \\Delta _ { 1 } ^ { \\mathrm { i } } ( \\frac { 1 } { \\omega _ { 0 } } \\frac { \\Gamma } { \\omega _ { 1 } } ) \\dag \\Delta _ { 1 } ^ { \\mathrm { i } } ( \\frac { 1 } { \\omega _ { 0 } } \\frac { \\Gamma } { \\omega _ { 1 } } ) \\dag } \\\\ &   \\mathrm { i } \\frac { \\mathrm { d } \\Gamma } { \\omega _ { 0 } } ( \\frac  1  \\end{array} \\end{array}$ ",
+        "bbox": [
+            7,
+            679,
+            965,
+            955
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            5,
+            2,
+            990,
+            463
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3))ebrdd Wentin Fahousk N.O.=84. ",
+        "bbox": [
+            5,
+            0,
+            976,
+            56
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "$\\frac { H M : A H ( \\pi ) } { H \\cos e _ { n } M o f } + H _ { 2 } M : \\sigma \\cdots \\cos ( n _ { 1 } i ) B i : A l ( \\pi ) , d : A l$ cosecesena csemog ",
+        "bbox": [
+            66,
+            331,
+            968,
+            486
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            23,
+            661,
+            480,
+            698
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            29,
+            712,
+            272,
+            740
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "ren →Mlve ",
+        "bbox": [
+            29,
+            751,
+            889,
+            856
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            1,
+            5,
+            852,
+            152
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "ho⊥Hoa（m)Hoa（m)  \nBon²Bin（mM)→Bcn（m;，n2)  \n5Bn27Bin（v，M)→Bin（v,M）.  \n350e3 $\\begin{array} { r l } & { \\quad \\cos \\theta \\leq \\mathrm { ~ \\phi ~ } \\operatorname { \\mathbb { H } } _ { \\phi \\leq 0 } \\mathrm { ~ } x  \\mathrm { ~ \\mathbb { N } ~ } _ { l } \\mathrm { ~ } ; \\quad \\mathbb { E } \\sin ( \\xi _ { l , \\phi } )  } \\\\ & {  \\mathrm { ~ \\phi ~ } \\otimes e \\mathrm { ~ \\phi ~ } _ { \\mathrm { M } } \\mathrm { ~ } ^ { \\mathrm { i } } \\mathrm { ~ } \\oplus \\mathrm { ~ \\phi ~ } \\mathrm { ~ } \\mathrm { ~ \\mathbb { H } } _ { \\phi \\leq \\mathrm { ~ \\phi ~ } } \\times  \\mathrm { ~ \\phi ~ } \\operatorname { \\mathbb { W } } _ { u } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } }  \\\\ &  ( \\mathrm \\end{array}$ M2)9M2.Por cesesltongo te vedcir  \n（xn:NatHosa(n))succ(zerg)  \nCoseHosa（svc(2））ofHoxnc(（pne)）",
+        "bbox": [
+            0,
+            211,
+            990,
+            990
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            978,
+            238,
+            996,
+            254
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "volonrinalvausK ",
+        "bbox": [
+            735,
+            0,
+            966,
+            25
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/267020e37c90af12d2261b179e4c6cd6ace4b4979425fe48d593c023fe51328f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            9,
+            194,
+            684,
+            281
+        ],
+        "page_idx": 17
+    }
+]

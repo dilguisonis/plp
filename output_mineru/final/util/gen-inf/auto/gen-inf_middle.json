@@ -1,0 +1,1284 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        164,
+                        106,
+                        437,
+                        123
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                164,
+                                105,
+                                438,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        164,
+                                        105,
+                                        438,
+                                        124
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Las tres leyes de la generaci´on infinita",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        95,
+                        135,
+                        519,
+                        148
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                134,
+                                521,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        134,
+                                        521,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Para resolver un problema de generaci´on infinita, es importante recordar estas tres leyes:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        92,
+                        160,
+                        516,
+                        219
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                93,
+                                160,
+                                342,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        160,
+                                        342,
+                                        174
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1. Nunca debe usarse m´as de un generador infinito.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                91,
+                                182,
+                                468,
+                                197
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        182,
+                                        468,
+                                        197
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2. El generador infinito siempre va a la izquierda de cualquier otro generador.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                91,
+                                204,
+                                514,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        204,
+                                        514,
+                                        219
+                                    ],
+                                    "score": 1.0,
+                                    "content": "3. Los generadores infinitos deben usarse ´unicamente para generar infinitas soluciones1.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        79,
+                        231,
+                        523,
+                        379
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                232,
+                                523,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        232,
+                                        523,
+                                        245
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Otra cosa a tener en cuenta: es importante es que las soluciones generadas en cada paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                244,
+                                523,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        244,
+                                        523,
+                                        259
+                                    ],
+                                    "score": 1.0,
+                                    "content": "sean finitas, y que entre todas cubran todo el espacio de soluciones que se busca generar.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                258,
+                                523,
+                                273
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        258,
+                                        523,
+                                        273
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Por ejemplo, si queremos generar todas las listas finitas de enteros positivos, no nos sirve que",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                272,
+                                523,
+                                286
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        272,
+                                        523,
+                                        286
+                                    ],
+                                    "score": 1.0,
+                                    "content": "el generador infinito nos vaya dando la longitud de la lista, porque para cada longitud hay",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                285,
+                                523,
+                                299
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        285,
+                                        523,
+                                        299
+                                    ],
+                                    "score": 1.0,
+                                    "content": "infinitas listas posibles. Tampoco nos sirve que vaya generando el primer elemento de la lista",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                299,
+                                523,
+                                313
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        299,
+                                        523,
+                                        313
+                                    ],
+                                    "score": 1.0,
+                                    "content": "y que los dem´as est´en acotados por el primero, porque entonces nunca generar´ıamos las listas",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                312,
+                                523,
+                                326
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        312,
+                                        523,
+                                        326
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cuyo primer elemento no es el m´aximo. En cambio la suma de los elementos de la lista s´ı es un",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                326,
+                                522,
+                                340
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        326,
+                                        522,
+                                        340
+                                    ],
+                                    "score": 1.0,
+                                    "content": "buen valor para ir generando en cada paso, ya que hay una cantidad finita de listas para cada",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                339,
+                                524,
+                                354
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        339,
+                                        524,
+                                        354
+                                    ],
+                                    "score": 1.0,
+                                    "content": "suma posible, y entre todas las sumas obtenemos todas las listas (adem´as las soluciones en",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                353,
+                                523,
+                                367
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        353,
+                                        523,
+                                        367
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cada paso son disjuntas, lo cual siempre es ´util, ya que no tenemos que ocuparnos de eliminar",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                366,
+                                184,
+                                381
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        366,
+                                        184,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "soluciones repetidas).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        79,
+                        380,
+                        523,
+                        475
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                381,
+                                523,
+                                393
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        381,
+                                        523,
+                                        393
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En caso de que haya m´as de una forma posible de ir recorriendo el espacio de b´usqueda",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                393,
+                                523,
+                                408
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        393,
+                                        523,
+                                        408
+                                    ],
+                                    "score": 1.0,
+                                    "content": "generando finitas soluciones en cada paso, conviene pensar cu´al es la forma m´as sencilla. Por",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                407,
+                                523,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        407,
+                                        523,
+                                        423
+                                    ],
+                                    "score": 1.0,
+                                    "content": "ejemplo, para generar ´arboles binarios, no es muy ´util que el generator infinito genere la altura,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                420,
+                                523,
+                                436
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        420,
+                                        523,
+                                        436
+                                    ],
+                                    "score": 1.0,
+                                    "content": "ya que la altura de un sub´arbol no determina la del otro. No hay una receta para resolver",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                434,
+                                523,
+                                449
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        434,
+                                        523,
+                                        449
+                                    ],
+                                    "score": 1.0,
+                                    "content": "todos los problemas posibles, pero si ven que el problema de c´omo generar las soluciones en",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                447,
+                                523,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        447,
+                                        523,
+                                        463
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cada paso es muy complejo, probablemente haya otra forma de usar el generador infinito que",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                461,
+                                352,
+                                476
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        461,
+                                        352,
+                                        476
+                                    ],
+                                    "score": 1.0,
+                                    "content": "divida el espacio en particiones m´as sencillas de generar.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        }
+                    ],
+                    "index": 19
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        79,
+                        712,
+                        523,
+                        745
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                711,
+                                523,
+                                726
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        711,
+                                        523,
+                                        726
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1La tercera ley puede tener excepciones en Haskell si el problema se salva con la evaluaci´on Lazy, pero",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                79,
+                                724,
+                                523,
+                                736
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        724,
+                                        523,
+                                        736
+                                    ],
+                                    "score": 1.0,
+                                    "content": "siempre es importante asegurarse de que el programa no se cuelgue al terminar de generar las soluciones que",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                735,
+                                252,
+                                746
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        735,
+                                        252,
+                                        746
+                                    ],
+                                    "score": 1.0,
+                                    "content": "queremos (y, obviamente, tampoco antes).",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        298,
+                        765,
+                        304,
+                        774
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                297,
+                                764,
+                                305,
+                                777
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        297,
+                                        764,
+                                        305,
+                                        777
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        164,
+                        106,
+                        437,
+                        123
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                164,
+                                105,
+                                438,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        164,
+                                        105,
+                                        438,
+                                        124
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Las tres leyes de la generaci´on infinita",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        95,
+                        135,
+                        519,
+                        148
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                134,
+                                521,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        134,
+                                        521,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Para resolver un problema de generaci´on infinita, es importante recordar estas tres leyes:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1,
+                    "bbox_fs": [
+                        95,
+                        134,
+                        521,
+                        150
+                    ]
+                },
+                {
+                    "type": "index",
+                    "bbox": [
+                        92,
+                        160,
+                        516,
+                        219
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                93,
+                                160,
+                                342,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        160,
+                                        342,
+                                        174
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1. Nunca debe usarse m´as de un generador infinito.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                91,
+                                182,
+                                468,
+                                197
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        182,
+                                        468,
+                                        197
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2. El generador infinito siempre va a la izquierda de cualquier otro generador.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                91,
+                                204,
+                                514,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        204,
+                                        514,
+                                        219
+                                    ],
+                                    "score": 1.0,
+                                    "content": "3. Los generadores infinitos deben usarse ´unicamente para generar infinitas soluciones1.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4,
+                            "is_list_start_line": true
+                        }
+                    ],
+                    "index": 3,
+                    "bbox_fs": [
+                        91,
+                        160,
+                        514,
+                        219
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        79,
+                        231,
+                        523,
+                        379
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                232,
+                                523,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        232,
+                                        523,
+                                        245
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Otra cosa a tener en cuenta: es importante es que las soluciones generadas en cada paso",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                244,
+                                523,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        244,
+                                        523,
+                                        259
+                                    ],
+                                    "score": 1.0,
+                                    "content": "sean finitas, y que entre todas cubran todo el espacio de soluciones que se busca generar.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                258,
+                                523,
+                                273
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        258,
+                                        523,
+                                        273
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Por ejemplo, si queremos generar todas las listas finitas de enteros positivos, no nos sirve que",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                272,
+                                523,
+                                286
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        272,
+                                        523,
+                                        286
+                                    ],
+                                    "score": 1.0,
+                                    "content": "el generador infinito nos vaya dando la longitud de la lista, porque para cada longitud hay",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                285,
+                                523,
+                                299
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        285,
+                                        523,
+                                        299
+                                    ],
+                                    "score": 1.0,
+                                    "content": "infinitas listas posibles. Tampoco nos sirve que vaya generando el primer elemento de la lista",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                299,
+                                523,
+                                313
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        299,
+                                        523,
+                                        313
+                                    ],
+                                    "score": 1.0,
+                                    "content": "y que los dem´as est´en acotados por el primero, porque entonces nunca generar´ıamos las listas",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                312,
+                                523,
+                                326
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        312,
+                                        523,
+                                        326
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cuyo primer elemento no es el m´aximo. En cambio la suma de los elementos de la lista s´ı es un",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                326,
+                                522,
+                                340
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        326,
+                                        522,
+                                        340
+                                    ],
+                                    "score": 1.0,
+                                    "content": "buen valor para ir generando en cada paso, ya que hay una cantidad finita de listas para cada",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                339,
+                                524,
+                                354
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        339,
+                                        524,
+                                        354
+                                    ],
+                                    "score": 1.0,
+                                    "content": "suma posible, y entre todas las sumas obtenemos todas las listas (adem´as las soluciones en",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                353,
+                                523,
+                                367
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        353,
+                                        523,
+                                        367
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cada paso son disjuntas, lo cual siempre es ´util, ya que no tenemos que ocuparnos de eliminar",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                366,
+                                184,
+                                381
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        366,
+                                        184,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "soluciones repetidas).",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 10,
+                    "bbox_fs": [
+                        77,
+                        232,
+                        524,
+                        381
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        79,
+                        380,
+                        523,
+                        475
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                381,
+                                523,
+                                393
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        381,
+                                        523,
+                                        393
+                                    ],
+                                    "score": 1.0,
+                                    "content": "En caso de que haya m´as de una forma posible de ir recorriendo el espacio de b´usqueda",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                393,
+                                523,
+                                408
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        393,
+                                        523,
+                                        408
+                                    ],
+                                    "score": 1.0,
+                                    "content": "generando finitas soluciones en cada paso, conviene pensar cu´al es la forma m´as sencilla. Por",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                407,
+                                523,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        407,
+                                        523,
+                                        423
+                                    ],
+                                    "score": 1.0,
+                                    "content": "ejemplo, para generar ´arboles binarios, no es muy ´util que el generator infinito genere la altura,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                420,
+                                523,
+                                436
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        420,
+                                        523,
+                                        436
+                                    ],
+                                    "score": 1.0,
+                                    "content": "ya que la altura de un sub´arbol no determina la del otro. No hay una receta para resolver",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                434,
+                                523,
+                                449
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        434,
+                                        523,
+                                        449
+                                    ],
+                                    "score": 1.0,
+                                    "content": "todos los problemas posibles, pero si ven que el problema de c´omo generar las soluciones en",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                447,
+                                523,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        447,
+                                        523,
+                                        463
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cada paso es muy complejo, probablemente haya otra forma de usar el generador infinito que",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "bbox": [
+                                78,
+                                461,
+                                352,
+                                476
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        461,
+                                        352,
+                                        476
+                                    ],
+                                    "score": 1.0,
+                                    "content": "divida el espacio en particiones m´as sencillas de generar.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        }
+                    ],
+                    "index": 19,
+                    "bbox_fs": [
+                        77,
+                        381,
+                        523,
+                        476
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.7.6"
+}

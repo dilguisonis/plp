@@ -1,0 +1,2968 @@
+[
+    {
+        "type": "text",
+        "text": "Programaci´on Funcional (parte 2) ",
+        "text_level": 1,
+        "bbox": [
+            223,
+            319,
+            779,
+            386
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas de (lenguajes de) programaci´on ",
+        "bbox": [
+            245,
+            481,
+            751,
+            529
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2 de septiembre de 2025 ",
+        "bbox": [
+            353,
+            639,
+            643,
+            683
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on estructural sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            99,
+            770,
+            158
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Para situaciones en las cuales no hay un caso base claro (ej: no existe el neutro), tenemos las funciones: foldr1 y foldl1 . Permiten hacer recursi´on estructural sobre listas sin definir un caso base: ",
+        "bbox": [
+            74,
+            213,
+            928,
+            341
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldr1 toma como caso base el ´ultimo elemento de la lista. ",
+        "bbox": [
+            102,
+            356,
+            806,
+            397
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": ". foldl1 toma como caso base el primer elemento de la lista. ",
+        "bbox": [
+            102,
+            411,
+            812,
+            452
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Para ambas, la lista no debe ser vac´ıa, y el tipo del resultado debe ser el de los elementos de la lista. ",
+        "bbox": [
+            74,
+            466,
+            922,
+            551
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Esquemas de recursi´on estructural sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            99,
+            770,
+            158
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Para situaciones en las cuales no hay un caso base claro (ej: no existe el neutro), tenemos las funciones: foldr1 y foldl1 . Permiten hacer recursi´on estructural sobre listas sin definir un caso base: ",
+        "bbox": [
+            74,
+            213,
+            928,
+            341
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "foldr1 toma como caso base el ´ultimo elemento de la lista.   \nfoldl1 toma como caso base el primer elemento de la lista. ",
+        "bbox": [
+            99,
+            356,
+            820,
+            452
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Para ambas, la lista no debe ser vac´ıa, y el tipo del resultado debe ser el de los elementos de la lista. ",
+        "bbox": [
+            74,
+            466,
+            922,
+            551
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Definir alguna de las siguientes funciones ",
+        "bbox": [
+            77,
+            577,
+            549,
+            617
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "last :: [ a] −> a   \nmaximum :: Ord a => [a] −> a   \nmejorSeg´un :: (a −> a −> Bool) −> [a] −> a ",
+        "bbox": [
+            102,
+            632,
+            698,
+            790
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Implementar las siguientes funciones utilizando esquemas de recursi´on ",
+        "bbox": [
+            77,
+            334,
+            892,
+            375
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 elem :: Eq a $\\Rightarrow$ a -> [a] -> Bool que indica si un elemento pertence o no a la lista. ",
+        "bbox": [
+            88,
+            389,
+            906,
+            474
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2 take :: Int -> [a]-> [a] utilizando foldr. ",
+        "bbox": [
+            91,
+            488,
+            679,
+            533
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "sacarUna:: Eq a $\\Rightarrow$ a -> [a] -> [a] que elimina la primera aparici´on de un elemento en la lista. ",
+        "bbox": [
+            91,
+            544,
+            897,
+            632
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre listas ",
+        "bbox": [
+            11,
+            69,
+            994,
+            172
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Implementar las siguientes funciones utilizando esquemas de recursi´on ",
+        "bbox": [
+            77,
+            334,
+            892,
+            375
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1 elem :: Eq a $\\Rightarrow$ a -> [a] -> Bool que indica si un elemento pertence o no a la lista. ",
+        "bbox": [
+            85,
+            389,
+            906,
+            474
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2 take :: Int -> [a]-> [a] utilizando foldr. ",
+        "bbox": [
+            88,
+            488,
+            679,
+            533
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "sacarUna:: Eq a $\\Rightarrow$ a -> [a] -> [a] que elimina la primera aparici´on de un elemento en la lista. ",
+        "bbox": [
+            88,
+            544,
+            900,
+            632
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e otros esquemas de recursi´on conocen? ",
+        "bbox": [
+            74,
+            643,
+            588,
+            683
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre listas ",
+        "bbox": [
+            11,
+            69,
+            994,
+            172
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Implementar las siguientes funciones utilizando esquemas de recursi´on ",
+        "bbox": [
+            77,
+            334,
+            892,
+            375
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "elem :: Eq a $\\Rightarrow$ a -> [a] -> Bool que indica si un elemento pertence o no a la lista. take :: Int -> [a]-> [a] utilizando foldr. sacarUna:: Eq a $\\Rightarrow$ a -> [a] -> [a] que elimina la primera aparici´on de un elemento en la lista. ¿Qu´e otros esquemas de recursi´on conocen? ¿Cu´ales de ellos pueden aplicarse a listas infinitas? ",
+        "bbox": [
+            74,
+            389,
+            908,
+            735
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre listas ",
+        "bbox": [
+            8,
+            69,
+            994,
+            172
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e tipo de recursi´on tiene cada una de las siguientes funciones? (Estructural, primitiva, global). ",
+        "bbox": [
+            71,
+            191,
+            845,
+            279
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "take’ :: [a] -> Int -> [a]   \ntake[]-=[]   \ntake’ (x:xs) ${ \\textbf { n } } = { \\dot { \\textbf { 1 } } } { \\dot { \\mathbf { f } } }$ $\\mathtt { n } = = 0$ then [] else x : take’ xs (n-1)   \nlistasQueSuman :: Int -> [[Int]]   \nlistasQueSuman $0 ~ = ~ [ [ ] ]$   \nlistasQueSuman n | $\\mathrm { ~ \\tt ~ { ~ n ~ } ~ } > \\mathrm { ~ 0 ~ } = \\mathrm { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ \\tt ~ { ~ ~ \\tt ~ { ~ \\tt ~ ~ } { ~ \\tt ~ { ~ ~ \\tt ~ { ~ \\tt ~ ~ } { ~ \\tt ~ ~ } } ~ } } } } } } } } } ~ } ~ } }$ [x : xs | x <- [1..n], xs <- listasQueSuman (n-x)]   \nfact :: Int -> Int   \nfact $\\mathrm { ~ 0 ~ } = \\mathrm { ~ 1 ~ }$   \nfact n | $\\texttt { n > 0 } = \\texttt { n * f a c t } \\left( \\mathbf { n } { - } 1 \\right)$   \nfibonacci :: Int $- >$ Int   \nfibonacci $\\mathrm { ~ 0 ~ } = \\mathrm { ~ 1 ~ }$   \nfibonacci $\\mathrm { ~ 1 ~ } = \\mathrm { ~ 1 ~ }$   \nfibonacci n | $\\mathrm { ~ n ~ } > \\mathrm { ~ 1 ~ } =$ fibonacci (n-1) $^ +$ fibonacci (n-2) ",
+        "bbox": [
+            74,
+            301,
+            696,
+            408
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            455,
+            861,
+            599
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            617,
+            439,
+            720
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            772,
+            765,
+            911
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Un breve repaso ",
+        "bbox": [
+            13,
+            69,
+            997,
+            172
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Generaci´on Infinita ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            99,
+            325,
+            154
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Definir: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            162,
+            393
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "pares :: [(Int, Int)], una lista (infinita) que contenga todos los pares de n´umeros naturales (sin repetir). ",
+        "bbox": [
+            71,
+            408,
+            886,
+            500
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Generaci´on Infinita ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            99,
+            325,
+            154
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Definir: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            356,
+            162,
+            393
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "pares :: [(Int, Int)], una lista (infinita) que contenga todos los pares de n´umeros naturales (sin repetir). ",
+        "bbox": [
+            71,
+            408,
+            889,
+            500
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Pr´actica 1, Ejercicio 21: ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            551,
+            353,
+            591
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Definir en Haskell una lista que contenga todas las listas finitas de enteros positivos (esto es, con elementosmayores o iguales que 1). ",
+        "bbox": [
+            74,
+            606,
+            850,
+            694
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Sea el siguiente tipo: ",
+        "bbox": [
+            74,
+            345,
+            317,
+            386
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "data AEB a $=$ Hoja a | Bin (AEB a) a (AEB a) Ejemplo: mi´Arbol $=$ Bin (Hoja 3) 5 (Bin (Hoja 7) 8 (Hoja 1)) ",
+        "bbox": [
+            74,
+            393,
+            762,
+            474
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Definir el esquema de recursi´on estructural (fold) para ´arboles estrictamente binarios, y dar su tipo. ",
+        "bbox": [
+            74,
+            500,
+            798,
+            584
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "El esquema debe permitir definir las funciones altura, ramas, cantNodos, cantHojas, espejo, etc. ",
+        "bbox": [
+            74,
+            610,
+            801,
+            698
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Folds sobre estructuras nuevas ",
+        "bbox": [
+            8,
+            62,
+            1000,
+            172
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Recordemos el tipo de foldr, el esquema de recursi´on estructural para listas. ",
+        "bbox": [
+            74,
+            224,
+            900,
+            308
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "¿Por qu´e tiene ese tipo? ",
+        "bbox": [
+            74,
+            404,
+            356,
+            444
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(Pista: pensar en cu´ales son los constructores del tipo [a]). ",
+        "bbox": [
+            77,
+            452,
+            660,
+            488
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            16,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "¿C´omo hacemos? ",
+        "bbox": [
+            13,
+            55,
+            1000,
+            172
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Recordemos el tipo de foldr, el esquema de recursi´on estructural para listas. ",
+        "bbox": [
+            74,
+            224,
+            900,
+            308
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "¿Por qu´e tiene ese tipo? ",
+        "bbox": [
+            77,
+            404,
+            356,
+            441
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(Pista: pensar en cu´ales son los constructores del tipo [a]). ",
+        "bbox": [
+            77,
+            452,
+            660,
+            485
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Un esquema de recursi´on estructural espera recibir un argumento por cada constructor (para saber qu´e devolver en cada caso), y adem´as la estructura que va a recorrer. ",
+        "bbox": [
+            74,
+            533,
+            906,
+            661
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "El tipo de cada argumento va a depender de lo que reciba el constructor correspondiente. (¡Y todos van a devolver lo mismo!) ",
+        "bbox": [
+            74,
+            687,
+            917,
+            772
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Si el constructor es recursivo, el argumento correspondiente del fold va a recibir el resultado de cada llamada recursiva. ",
+        "bbox": [
+            71,
+            797,
+            919,
+            882
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            904,
+            994,
+            933
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            2,
+            937,
+            986,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            16,
+            44,
+            226,
+            66
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "¿C´omo hacemos? ",
+        "bbox": [
+            13,
+            62,
+            997,
+            169
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo hacemos? (Contin´ua) ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            95,
+            494,
+            161
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Miremos bien la estructura del tipo. ",
+        "bbox": [
+            74,
+            327,
+            488,
+            367
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "data AEB a $=$ Hoja a Bin (AEB a) a (AEB a) ",
+        "bbox": [
+            182,
+            408,
+            812,
+            466
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Estamos ante un tipo inductivo con un constructor no recursivo y un constructor recursivo. ",
+        "bbox": [
+            71,
+            485,
+            878,
+            569
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            16,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Miremos bien la estructura del tipo. ",
+        "bbox": [
+            74,
+            327,
+            488,
+            367
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "data AEB a $=$ Hoja a Bin (AEB a) a (AEB a) ",
+        "bbox": [
+            182,
+            408,
+            812,
+            466
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Estamos ante un tipo inductivo con un constructor no recursivo y un constructor recursivo. ",
+        "bbox": [
+            71,
+            485,
+            878,
+            569
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al va a ser el tipo de nuestro fold? ",
+        "bbox": [
+            74,
+            617,
+            535,
+            661
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            16,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "¿C´omo hacemos? (Contin´ua) ",
+        "bbox": [
+            5,
+            51,
+            1000,
+            172
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Miremos bien la estructura del tipo. ",
+        "bbox": [
+            74,
+            327,
+            488,
+            367
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "data AEB a $=$ Hoja a Bin (AEB a) a (AEB a) ",
+        "bbox": [
+            182,
+            408,
+            812,
+            466
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Estamos ante un tipo inductivo con un constructor no recursivo y un constructor recursivo. ",
+        "bbox": [
+            71,
+            485,
+            878,
+            569
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al va a ser el tipo de nuestro fold? ",
+        "bbox": [
+            74,
+            617,
+            535,
+            658
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "¿Y la implementaci´on? ",
+        "bbox": [
+            74,
+            683,
+            342,
+            724
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            16,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "¿C´omo hacemos? (Contin´ua) ",
+        "bbox": [
+            8,
+            51,
+            1000,
+            169
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": ". Queremos ir de un AEB a a un b cualquiera. ",
+        "bbox": [
+            99,
+            250,
+            646,
+            290
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            639,
+            237,
+            672
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            51,
+            1000,
+            172
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": ". Queremos ir de un AEB a a un b cualquiera. ",
+        "bbox": [
+            99,
+            250,
+            646,
+            290
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "AEB a -> b ",
+        "text_level": 1,
+        "bbox": [
+            267,
+            768,
+            408,
+            849
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "-- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            635,
+            768,
+            933,
+            852
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            639,
+            237,
+            672
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            51,
+            1000,
+            172
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor. ",
+        "bbox": [
+            99,
+            250,
+            734,
+            349
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "AEB a -> b ",
+        "bbox": [
+            267,
+            768,
+            408,
+            849
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            639,
+            237,
+            672
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "-- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            635,
+            768,
+            933,
+            852
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            58,
+            1000,
+            172
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor. ",
+        "bbox": [
+            99,
+            250,
+            734,
+            349
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            636,
+            237,
+            672
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "->   \n-> AEB a   \n-> b ",
+        "bbox": [
+            265,
+            694,
+            408,
+            849
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "-- Si es Hoja Si es Bin -- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            621,
+            680,
+            917,
+            852
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            11,
+            62,
+            1000,
+            172
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor.   \nEn cada caso necesitamos devolver un el mismo tipo de resultado: b. ",
+        "bbox": [
+            93,
+            250,
+            925,
+            400
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            636,
+            237,
+            672
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "->   \n-> AEB a   \n-> b ",
+        "bbox": [
+            265,
+            694,
+            408,
+            849
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "-- Si es Hoja Si es Bin -- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            621,
+            680,
+            917,
+            852
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            11,
+            62,
+            1000,
+            172
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor.   \nEn cada caso necesitamos devolver un el mismo tipo de resultado: b. ",
+        "bbox": [
+            93,
+            250,
+            925,
+            400
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            639,
+            237,
+            672
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "( -> b) -> ( -> b) -> AEB a -> b ",
+        "bbox": [
+            265,
+            680,
+            444,
+            852
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "-- Si es Hoja Si es Bin -- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            621,
+            680,
+            917,
+            852
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            11,
+            62,
+            1000,
+            172
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor.   \n。 En cada caso necesitamos devolver un el mismo tipo de resultado: b.   \nLos par´ametros de cada constructor aparecen en el mismo orden en las funciones. ",
+        "bbox": [
+            99,
+            250,
+            922,
+            500
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            636,
+            237,
+            672
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "( -> b) -> ( -> b) -> AEB a -> b ",
+        "bbox": [
+            265,
+            680,
+            444,
+            852
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "-- Si es Hoja Si es Bin -- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            621,
+            680,
+            917,
+            852
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            66
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            66,
+            997,
+            172
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor.   \n。 En cada caso necesitamos devolver un el mismo tipo de resultado: b.   \nLos par´ametros de cada constructor aparecen en el mismo orden en las funciones. ",
+        "bbox": [
+            99,
+            250,
+            922,
+            500
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            636,
+            237,
+            672
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "( -> b) -- Si es Hoja -> ( -> -> -> b) -- Si es Bin -> AEB a -- Nuestro ´arbol -> b -- Nuestro resultado ",
+        "bbox": [
+            265,
+            676,
+            933,
+            852
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            66
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            66,
+            997,
+            172
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor.   \n。 En cada caso necesitamos devolver un el mismo tipo de resultado: b.   \n. Los par´ametros de cada constructor aparecen en el mismo orden en las funciones.   \nLos par´ametros recursivos son un b, el resto mantiene el tipo. ",
+        "bbox": [
+            99,
+            246,
+            925,
+            555
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            636,
+            234,
+            672
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "( -> b) -- Si es Hoja -> ( -> -> -> b) -- Si es Bin -> AEB a -- Nuestro ´arbol -> b -- Nuestro resultado ",
+        "bbox": [
+            265,
+            676,
+            925,
+            852
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            66
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            69,
+            1000,
+            172
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera.   \nNecesitamos saber qu´e hacer para cada constructor.   \n。 En cada caso necesitamos devolver un el mismo tipo de resultado: b.   \n. Los par´ametros de cada constructor aparecen en el mismo orden en las funciones.   \nLos par´ametros recursivos son un b, el resto mantiene el tipo. ",
+        "bbox": [
+            99,
+            246,
+            925,
+            555
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            636,
+            234,
+            672
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "-- Si es Hoja -- Si es Bin -- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            635,
+            680,
+            933,
+            852
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            66
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            69,
+            1000,
+            172
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Queremos ir de un AEB a a un b cualquiera. ",
+        "bbox": [
+            102,
+            250,
+            643,
+            290
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos saber qu´e hacer para cada constructor. ",
+        "bbox": [
+            102,
+            305,
+            734,
+            349
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "En cada caso necesitamos devolver un el mismo tipo de resultado: b. ",
+        "bbox": [
+            93,
+            360,
+            925,
+            400
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Los par´ametros de cada constructor aparecen en el mismo orden en las funciones. ",
+        "bbox": [
+            99,
+            415,
+            914,
+            496
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Los par´ametros recursivos son un b, el resto mantiene el tipo. ",
+        "bbox": [
+            107,
+            514,
+            839,
+            555
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": ". Listo! ",
+        "bbox": [
+            102,
+            569,
+            198,
+            606
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: ",
+        "bbox": [
+            91,
+            636,
+            237,
+            672
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "(a -> b) -> (b -> a -> b -> b) -> AEB a -> b ",
+        "bbox": [
+            265,
+            680,
+            593,
+            849
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "-- Si es Hoja -- Si es Bin -- Nuestro ´arbol -- Nuestro resultado ",
+        "bbox": [
+            635,
+            680,
+            933,
+            852
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            66
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            991,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Tipo ",
+        "bbox": [
+            8,
+            69,
+            1000,
+            172
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "foldAEB :: (a -> b) -> (b -> a -> b -> b) -> AEB a -> b   \nfoldAEB fHoja fBin t $=$ case t of Hoja n -> fHoja n Bin t1 n t2 -> fBin (rec t1) n (rec t2) where rec $=$ foldAEB fHoja fBin Ejercicio para ustedes: definir las funciones altura, ramas, cantNodos, cantHojas y espejo usando foldAEB.   \nSi quieren podemos hacer alguna en el pizarr´on. ",
+        "bbox": [
+            80,
+            345,
+            881,
+            547
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            621,
+            917,
+            753
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras Soluci´on ",
+        "bbox": [
+            0,
+            51,
+            1000,
+            172
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Dado el tipo de datos: ",
+        "bbox": [
+            74,
+            191,
+            337,
+            231
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "data AB a $=$ Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            77,
+            250,
+            610,
+            294
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e tipo de recursi´on tiene cada una de las siguientes funciones? (Estructural, primitiva, global). ",
+        "bbox": [
+            71,
+            323,
+            842,
+            411
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "insertarABB :: Ord a $\\Rightarrow$ a -> AB a -> AB a   \ninsertarABB $\\texttt { x N i l } = \\texttt { B i n } \\texttt { N i l } \\texttt { x N i l }$   \ninsertarABB x (Bin i r d) $=$ if $\\textbf { x } < \\textbf { r }$ then Bin (insertarABB x i) r d else Bin i r (insertarABB x d)   \ntruncar :: AB a -> Int -> AB a   \ntruncar Nil $\\it { \\Delta } . \\Delta = \\ v i 1$   \ntruncar (Bin i r d) $\\texttt { n } = \\texttt { i f } \\texttt { n } = = \\texttt { 0 }$ then Nil else Bin (truncar i (n-1)) r (truncar d (n-1)) ",
+        "bbox": [
+            74,
+            455,
+            618,
+            658
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            698,
+            773,
+            860
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Tarea: prueben escribir estas funciones con los esquemas de recursi´on ",
+        "bbox": [
+            46,
+            893,
+            1000,
+            930
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "table",
+        "img_path": "images/1956ebde4ac366cee1e1c0ac4bf6e5c4069de6495408df6c2c5d4368c9851a9c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Paradigmas de (lenguajes de) programacion</td></tr><tr><td>Programacion Funcional (parte2)</td></tr><tr><td></td></tr></table>",
+        "bbox": [
+            8,
+            937,
+            980,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Funciones sobre ´arboles ",
+        "bbox": [
+            33,
+            73,
+            1000,
+            172
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo que representa polinomios: ",
+        "bbox": [
+            74,
+            272,
+            646,
+            316
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "data Polinomio a = ",
+        "bbox": [
+            91,
+            338,
+            406,
+            375
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "X   \nCte a   \nSuma (Polinomio a) (Polinomio a) Prod (Polinomio a) (Polinomio a) ",
+        "bbox": [
+            406,
+            338,
+            875,
+            511
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Definir la funci´on evaluar :: Num a $\\Rightarrow$ a -> Polinomio a -> a ",
+        "bbox": [
+            102,
+            562,
+            729,
+            650
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras Folds sobre otras estructuras ",
+        "bbox": [
+            8,
+            58,
+            1000,
+            172
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo que representa polinomios: ",
+        "bbox": [
+            74,
+            272,
+            646,
+            316
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "data Polinomio a = ",
+        "bbox": [
+            91,
+            338,
+            411,
+            375
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "X   \nCte a   \nSuma (Polinomio a) (Polinomio a) Prod (Polinomio a) (Polinomio a)   \nDefinir la funci´on evaluar :: Num a $\\Rightarrow$ a -> Polinomio a -> a   \n. Definir el esquema de recursi´on estructural foldPoli para polinomios (y dar su tipo). ",
+        "bbox": [
+            406,
+            338,
+            875,
+            511
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            99,
+            562,
+            814,
+            750
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Folds sobre otras estructuras ",
+        "bbox": [
+            8,
+            62,
+            1000,
+            172
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo que representa polinomios: ",
+        "bbox": [
+            74,
+            272,
+            646,
+            316
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "data Polinomio a = ",
+        "bbox": [
+            91,
+            338,
+            408,
+            375
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "X   \nCte a   \nSuma (Polinomio a) (Polinomio a) Prod (Polinomio a) (Polinomio a)   \nDefinir la funci´on evaluar :: Num a $\\Rightarrow$ a -> Polinomio a -> a   \nDefinir el esquema de recursi´on estructural foldPoli para polinomios (y dar su tipo).   \n. Redefinir evaluar usando foldPoli. ",
+        "bbox": [
+            406,
+            338,
+            875,
+            511
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            96,
+            562,
+            814,
+            805
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Folds sobre otras estructuras ",
+        "bbox": [
+            8,
+            66,
+            1000,
+            172
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Dado el tipo de datos ",
+        "bbox": [
+            77,
+            257,
+            331,
+            297
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "data RoseTree a $=$ Rose a [RoseTree a] de ´arboles donde cada nodo tiene una cantidad indeterminada de hijos. ",
+        "bbox": [
+            77,
+            301,
+            903,
+            386
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "1 Escribir el esquema de recursi´on estructural para RoseTree. ",
+        "bbox": [
+            96,
+            400,
+            825,
+            441
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "$\\circ$ Usando el esquema definido, escribir las siguientes funciones: ",
+        "bbox": [
+            99,
+            448,
+            834,
+            492
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "hojas, que dado un RoseTree, devuelva una lista con sus hojas ordenadas de izquierda a derecha, seg´un su aparici´on en el RoseTree.   \nramas, que dado un RoseTree, devuelva los caminos de su ra´ız a cada una de sus hojas.   \ntama\\~no, que devuelve la cantidad de nodos de un RoseTree.   \naltura, que devuelve la altura de un RoseTree (la cantidad de nodos de la rama m´as larga). Si el RoseTree es una hoja, se considera que su altura es 1. ",
+        "bbox": [
+            157,
+            500,
+            928,
+            819
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras Una estructura m´as compleja ",
+        "bbox": [
+            8,
+            58,
+            1000,
+            172
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            16,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Funciones como estructuras de datos ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            102,
+            624,
+            154
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Representando conjuntos con funciones ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            290,
+            530,
+            327
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Se cuenta con la siguiente representaci´on de conjuntos type Conj a $=$ (a->Bool) caracterizados por su funci´on de pertenencia. De este modo, si $c$ es un conjunto y $e$ un elemento, la expresi´on $c e$ devuelve True si $e$ pertenece a $c$ y False en caso contrario. ",
+        "bbox": [
+            77,
+            341,
+            930,
+            518
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "1 Definir la constante vac´ıo :: Conj a, y las funciones: ",
+        "bbox": [
+            88,
+            529,
+            773,
+            569
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "insertar :: Eq a $\\Rightarrow$ a -> Conj a -> Conj a pertenece :: Eq a $\\Rightarrow$ a -> Conj a -> Bool eliminar :: Eq a $\\Rightarrow$ a -> Conj a -> Conj a ",
+        "bbox": [
+            157,
+            580,
+            737,
+            698
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Funciones como estructuras de datos ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            102,
+            624,
+            154
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Representando conjuntos con funciones ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            290,
+            530,
+            327
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Se cuenta con la siguiente representaci´on de conjuntos type Conj a $=$ (a->Bool) caracterizados por su funci´on de pertenencia. De este modo, si $c$ es un conjunto y $e$ un elemento, la expresi´on $c e$ devuelve True si $e$ pertenece a $c$ y False en caso contrario. ",
+        "bbox": [
+            77,
+            341,
+            928,
+            518
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "1 Definir la constante vac´ıo :: Conj a, y las funciones: ",
+        "bbox": [
+            88,
+            529,
+            773,
+            569
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "insertar :: Eq a $\\Rightarrow$ a -> Conj a -> Conj a pertenece :: Eq a $\\Rightarrow$ a -> Conj a -> Bool eliminar :: Eq a $\\Rightarrow$ a -> Conj a -> Conj a ",
+        "bbox": [
+            157,
+            580,
+            737,
+            698
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "2 Escribir las funciones intersecci´on, uni´on y diferencia (todas de tipo Conj a -> Conj a-> Conj a). ",
+        "bbox": [
+            88,
+            713,
+            908,
+            797
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras ",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Revisar la secci´on ´util del campus, hay presentes apuntes sobre: ",
+        "bbox": [
+            77,
+            422,
+            803,
+            466
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "。 Recursi´on Generaci´on infinita ",
+        "bbox": [
+            102,
+            481,
+            350,
+            573
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            646,
+            900,
+            997,
+            933
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "Recursi´on sobre otras estructuras Recomendaci´on ",
+        "bbox": [
+            8,
+            55,
+            1000,
+            172
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de (lenguajes de) programaci´on Programaci´on Funcional (parte 2) ",
+        "bbox": [
+            0,
+            937,
+            988,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            19,
+            44,
+            226,
+            69
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            430,
+            720,
+            525
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "Fin ",
+        "bbox": [
+            16,
+            29,
+            77,
+            80
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            621,
+            966,
+            997,
+            996
+        ],
+        "page_idx": 35
+    }
+]

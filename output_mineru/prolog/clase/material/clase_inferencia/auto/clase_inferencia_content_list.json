@@ -1,0 +1,1387 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas (de Lenguajes) de Programaci´on ",
+        "bbox": [
+            240,
+            433,
+            759,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            320,
+            533,
+            676,
+            591
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "17 de octubre de 2025 ",
+        "bbox": [
+            367,
+            639,
+            632,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Inferencia de Tipos ",
+        "bbox": [
+            27,
+            224,
+            986,
+            378
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inferencia de tipos ",
+        "bbox": [
+            345,
+            25,
+            651,
+            88
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            422,
+            154,
+            463
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Dada una expresi´on: ¿Tiene tipo? ¿Cu´al es el tipo? ¿Es el m´as general? ¿Qu´e necesitamos saber del contexto? ",
+        "bbox": [
+            22,
+            474,
+            933,
+            562
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "¿Tiene tipo? ¿Cu´al es el tipo? ¿Es el m´as general? ¿Qu´e necesitamos saber del contexto? ",
+        "bbox": [
+            22,
+            330,
+            610,
+            415
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(λx. isZero(x)) true λx. succ(x) λx. succ(y ) ∅ ▷ λx : Nat. x : Nat → Nat ■ $\\emptyset \\ \\triangleright \\ \\lambda x : X _ { 1 } . \\ x : X _ { 1 } \\to X _ { 1 }$ ",
+        "bbox": [
+            49,
+            430,
+            428,
+            694
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Introducci´on ",
+        "bbox": [
+            0,
+            0,
+            986,
+            99
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Generalidad ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            334,
+            162,
+            371
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e significa ser el juicio m´as general? Que todos los juicios derivables para λx. x son instancias de $\\emptyset \\ \\triangleright \\ \\lambda x : X _ { 1 } . . . x : X _ { 1 } \\to X _ { 1 }$ . Por ejemplo: ",
+        "bbox": [
+            19,
+            386,
+            925,
+            474
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6ac67d2563a3ee7a6f9f90c60f82ba39a924c06176d5527a4f9b7926526ebddb.jpg",
+        "text": "$$\n\\emptyset \\triangleright \\lambda x : N a t . x : N a t \\to N a t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            485,
+            428,
+            529
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5601972ac782f5ee0047dace3bb15dc651333a84cd39647c6b6472652328de26.jpg",
+        "text": "$$\n\\emptyset \\triangleright \\lambda x : B o o I . x : B o o I \\to B o o I\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            540,
+            461,
+            584
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "■ $\\{ y : B o o I \\} \\ \\triangleright \\ \\lambda x : X _ { 2 } \\to N a t . x : ( X _ { 2 } \\to N a$ t) → X2 → Nat ",
+        "bbox": [
+            60,
+            595,
+            770,
+            643
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            52,
+            661,
+            113,
+            691
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Introducci´on ",
+        "bbox": [
+            0,
+            0,
+            983,
+            99
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Inferir el juicio de tipado de las siguientes expresiones: ",
+        "bbox": [
+            22,
+            371,
+            646,
+            415
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1 λx . y   \n2 1 $f$ true   \n3 isZero $( x )$ ",
+        "bbox": [
+            41,
+            430,
+            190,
+            584
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplos a ojo ",
+        "bbox": [
+            372,
+            25,
+            624,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de Martelli Montanari ",
+        "text_level": 1,
+        "bbox": [
+            234,
+            25,
+            765,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Determinar el resultado de aplicar el algoritmo MGU sobre las siguientes ecuaciones: ",
+        "bbox": [
+            24,
+            345,
+            867,
+            430
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1 M ${ \\mathfrak { I U } } \\{ X _ { 2 } \\to X _ { 1 } \\to { \\mathsf { B o o l } } { \\overset { ? } { = } } X _ { 2 } \\to X _ { 3 } \\}$   \n2 ${ \\tt M G U } \\{ ( X _ { 2 } \\to X _ { 1 } ) \\to { \\tt N a t } \\stackrel { ? } { = } X _ { 2 } \\to X _ { 3 } \\}$   \n3 $\\{ X _ { 1 } \\to { \\mathsf { B o o l } } { \\overset { ? } { = } } { \\mathsf { N a t } } \\to { \\mathsf { B o o l } } , X _ { 2 } { \\overset { ? } { = } } X _ { 1 } \\to X _ { 1 } \\}$ ",
+        "bbox": [
+            41,
+            437,
+            638,
+            625
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Inferencia de tipos ",
+        "text_level": 1,
+        "bbox": [
+            215,
+            25,
+            784,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "El algoritmo $\\mathcal { T }$ recibe un t´ermino U sin anotaciones de tipos. ",
+        "bbox": [
+            24,
+            316,
+            726,
+            360
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Consta de los siguientes pasos: ",
+        "bbox": [
+            24,
+            408,
+            383,
+            448
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1 Rectificaci´on del t´ermino.   \n2 Anotaci´on del t´ermino con variables de tipo frescas.   \n3 Generaci´on de restricciones (ecuaciones entre tipos).   \n4 Unificaci´on de las restricciones. ",
+        "bbox": [
+            38,
+            459,
+            720,
+            669
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Decimos que un t´ermino est´a rectificado si: ",
+        "bbox": [
+            27,
+            312,
+            527,
+            352
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1 No hay dos variables ligadas con el mismo nombre.   \n2 No hay una variable ligada con el mismo nombre que una variable libre. ",
+        "bbox": [
+            38,
+            367,
+            911,
+            466
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: Rectificar los siguientes t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            507,
+            519,
+            547
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(λf . λx . f (f x ))(λf .f ) x (λx. succ(x)) ",
+        "bbox": [
+            52,
+            562,
+            339,
+            665
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Algoritmo I — Paso 1: rectificaci´on ",
+        "bbox": [
+            201,
+            25,
+            798,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Tenemos un t´ermino $U$ , que suponemos ya rectificado. ",
+        "bbox": [
+            30,
+            253,
+            651,
+            294
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Producimos un contexto $\\Gamma _ { 0 }$ y un t´ermino $M _ { 0 }$ ",
+        "bbox": [
+            27,
+            319,
+            552,
+            360
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1 El contexto $\\Gamma _ { 0 }$ le da tipo a todas las variables libres de $U$ . El tipo de cada variable es una inc´ognita fresca.   \n2 El t´ermino $M _ { 0 }$ est´a anotado de tal modo que erase(M0) = U. Todas las anotaciones son inc´ognitas frescas. ",
+        "bbox": [
+            38,
+            371,
+            795,
+            558
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio: Anotar los siguientes t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            599,
+            488,
+            639
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "λf . λx . f (f x ) x (λy . succ(y )) ",
+        "bbox": [
+            52,
+            654,
+            262,
+            757
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Algoritmo I — Paso 2: anotaci´on ",
+        "bbox": [
+            220,
+            25,
+            776,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Paso 3: generaci´on de las restricciones ",
+        "text_level": 1,
+        "bbox": [
+            49,
+            25,
+            950,
+            91
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Tenemos un contexto Γ y un t´ermino M con anotaciones de tipos. ",
+        "bbox": [
+            24,
+            220,
+            792,
+            264
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Recursivamente calculamos: ",
+        "bbox": [
+            24,
+            290,
+            348,
+            330
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1 Un tipo $\\tau$ , que corresponde al tipo de M.   \n2 Un conjunto de ecuaciones $E$ . Representan restricciones para que $E$ est´e bien tipado. ",
+        "bbox": [
+            41,
+            341,
+            712,
+            485
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Definimos un algoritmo recursivo: ",
+        "bbox": [
+            24,
+            518,
+            414,
+            562
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/379d794cb6995c8185e38741116c723e3954133091895cd504b63b740bf5ed72.jpg",
+        "text": "$$\n\\underbrace { \\mathcal { T } ( \\underbrace { \\Gamma } _ { \\mathrm { \\tiny ~  ~ ( ~ \\sum ~ \\epsilon ~ + ~ \\epsilon ~ { ~ M ~ \\epsilon ~ } ~ } ) } } _ { \\mathrm { \\normalfont ~ e n t e x t o } } ) \\underbrace { M } _ { \\mathrm { \\normalfont ~ t e r m i n o } } ) = \\underbrace { ( \\underset { \\mathrm { \\tiny ~  ~ \\sum ~ \\epsilon ~ } } { \\mathrm { \\tiny ~ ( ~ \\sum ~ \\epsilon ~ } | }  \\underbrace { E } _ { \\mathrm { \\tiny ~  ~ r e s t r i c c i o n e s } } ) } _ { \\mathrm { \\normalfont ~ s a l i d a } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            591,
+            740,
+            753
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "con la precondici´on de que Γ le da tipo a todas las variables de M. ",
+        "bbox": [
+            24,
+            779,
+            798,
+            819
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Paso 3: generaci´on de las restricciones ",
+        "text_level": 1,
+        "bbox": [
+            52,
+            25,
+            947,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/253a499780fc14616287d4ddb36eaaa8b934b8de440fcc03988293802a682a5e.jpg",
+        "text": "$$\n\\mathcal { T } ( \\Gamma \\mid \\mathsf { T r u e } ) = ( \\mathsf { B o o l } \\mid \\emptyset )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            113,
+            356,
+            161
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/59006c1f24e8bb77c45a11efd7d88c3e04cafc784ce2d816a6745d4cad43c82a.jpg",
+        "text": "$$\n\\mathcal { I } ( \\Gamma \\mid \\mathsf { F a l s e } ) = ( \\mathsf { B o o l } \\mid \\emptyset )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            169,
+            361,
+            216
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2c55ebae31530192163bd57591bc1e6630cd29d2de3f95b4dacbd69d04d603f7.jpg",
+        "text": "$$\n{ \\mathcal { T } } ( \\Gamma \\mid x ) = ( \\tau \\mid \\emptyset ) \\qquad { \\mathsf { s i } } \\left( x : \\tau \\right) \\in \\Gamma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            74,
+            224,
+            472,
+            272
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "4 $\\mathcal { T } ( \\Gamma \\mid$ if $M _ { 1 }$ then $M _ { 2 }$ else M3) = (τ2 | {τ1 ?= Bool, τ2 ?= τ3} ∪ E1 ∪ E2 ∪ E3) donde ${ \\mathcal { I } } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } )$ ${ \\mathcal { Z } } ( \\Gamma \\mid M _ { 2 } ) = \\left( \\tau _ { 2 } \\mid E _ { 2 } \\right)$ ${ \\mathcal { Z } } ( \\Gamma \\mid M _ { 3 } ) = \\left( \\tau _ { 3 } \\mid E _ { 3 } \\right)$ ",
+        "bbox": [
+            44,
+            283,
+            895,
+            455
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5 ${ \\mathcal { Z } } ( \\Gamma ~ \\mid ~ M _ { 1 } M _ { 2 } ) = ( X _ { k } ~ \\mid ~ \\{ \\tau _ { 1 } \\stackrel { ? } { = } ( \\tau _ { 2 }  X _ { k } ) \\} \\cup E _ { 1 } \\cup$ ∪ E2) donde $X _ { k }$ es una inc´ognita fresca $\\begin{array} { r } { \\mathcal { I } ( \\Gamma \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } \\\\ { \\mathcal { I } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\end{array}$ ",
+        "bbox": [
+            44,
+            466,
+            643,
+            647
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6 ${ \\mathcal { T } } ( \\Gamma \\mid \\lambda x : \\tau . M ) = ( \\tau \\to \\sigma \\mid E )$ donde $\\mathcal { T } ( \\Gamma , x : \\tau \\mid M ) = ( \\sigma \\mid E )$ ",
+        "bbox": [
+            44,
+            658,
+            436,
+            738
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "7 $\\mathcal { I } ( \\Gamma \\mid z \\mathsf { e r o } ) = ( \\mathsf { N a t } \\mid \\emptyset )$ ",
+        "bbox": [
+            44,
+            750,
+            342,
+            794
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "8 ${ \\mathcal { T } } ( \\Gamma \\mid { \\mathsf { s u c c } } ( M ) ) = ( \\mathsf { N a t } \\mid \\{ \\tau \\overset { ? } { = } \\mathsf { N a t } \\} \\cup E )$ donde ${ \\mathcal { T } } ( \\Gamma \\mid M ) = ( \\tau \\mid E )$ ",
+        "bbox": [
+            44,
+            805,
+            925,
+            860
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "10 ${ \\mathcal { Z } } ( \\Gamma \\mid \\mathsf { i s Z e r o } ( M ) ) = ( { \\mathsf { B o o l } } \\mid \\{ \\tau \\overset { ? } { = } { \\mathsf { N a t } } \\} \\cup E )$ donde ${ \\mathcal { T } } ( \\Gamma \\mid M ) = ( \\tau \\mid E )$ ",
+        "bbox": [
+            44,
+            933,
+            939,
+            992
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "${ \\mathcal { T } } ( \\Gamma \\mid \\mathsf { p r e d } ( M ) ) = ( \\mathsf { N a t } \\mid \\{ \\tau \\overset { ? } { = } \\mathsf { N a t } \\} \\cup E )$ donde ${ \\mathcal { T } } ( \\Gamma \\mid M ) = ( \\tau \\mid E )$ ",
+        "bbox": [
+            74,
+            867,
+            928,
+            926
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I — Paso 4: unificaci´on de las restricciones ",
+        "text_level": 1,
+        "bbox": [
+            46,
+            25,
+            950,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Recordemos: $\\Gamma _ { 0 } \\times M _ { 0 }$ resultan de anotar un t´ermino rectificado U. ",
+        "bbox": [
+            24,
+            294,
+            795,
+            338
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Una vez calculado ${ \\mathcal { T } } ( \\Gamma _ { 0 } \\mid M _ { 0 } ) = ( \\tau \\mid E ) \\colon$ ",
+        "bbox": [
+            24,
+            382,
+            511,
+            430
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "1 Calculamos $S = { \\mathrm { m g u } } ( E )$ .   \n2 Si no existe el unificador, el t´ermino $U$ no es tipable.   \n3 Si existe el unificador, el t´ermino $U$ es tipable y vale: ",
+        "bbox": [
+            41,
+            437,
+            693,
+            591
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e34d30f22cdeea72df913fcb6b77618d7441444bd41a55e1e54775e00c7a2759.jpg",
+        "text": "$$\nS ( \\Gamma _ { 0 } ) \\vdash S ( M _ { 0 } ) : S ( \\tau )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            397,
+            625,
+            657,
+            676
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e tipo tienen las siguientes expresiones? ",
+        "bbox": [
+            22,
+            375,
+            527,
+            415
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1 $\\lambda f . \\lambda x . f ( f x )$   \n2 $x \\left( \\lambda x . \\mathsf { s u c c } ( x ) \\right)$   \n3 $\\lambda x . x y x$ ",
+        "bbox": [
+            41,
+            426,
+            262,
+            584
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Algoritmo I ",
+        "bbox": [
+            395,
+            25,
+            602,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I ",
+        "text_level": 1,
+        "bbox": [
+            395,
+            25,
+            602,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Dada la siguiente extensi´on al conjunto de t´erminos para el c´alculo $\\lambda$ con listas: ",
+        "bbox": [
+            27,
+            253,
+            892,
+            297
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0354a6a46ab0d90d7d05f6b1fcdb8ac975f2269f4fdac8a0957596655290714d.jpg",
+        "text": "$$\nM : : = \\dots | m a p \\sigma , \\tau | f o I d r \\sigma , \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            323,
+            638,
+            367
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "La modificaci´on al sistema de tipos es la introducci´on de dos axiomas de tipado para $m a p _ { \\sigma , \\tau } \\lor f o I d r _ { \\sigma , \\tau }$ : ",
+        "bbox": [
+            24,
+            393,
+            933,
+            470
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/33bc4ec532df9bf37943d73399cfaaac573f2bf08da30c2bb9669a36c59f71a9.jpg",
+        "text": "$$\n{ \\begin{array} { c c } { { \\overline { { { \\mathrm {  ~ { \\Large ~ \\to ~ } } } } } \\tau \\mathrm {  ~ { \\scriptstyle \\to ~ } } [ \\sigma ] \\to [ \\tau ] } } & { { \\qquad \\overline { { { \\mathrm {  ~ { \\Large ~ \\Gamma ~ } } } } } \\scriptscriptstyle { \\mathrm {  ~ { \\scriptstyle \\to ~ } } } f o l d r _ { \\sigma , \\tau } : ( \\sigma \\to \\tau \\to \\tau ) } } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            507,
+            737,
+            569
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Se extiende el algoritmo de inferencia con las siguientes reglas: ",
+        "bbox": [
+            27,
+            580,
+            693,
+            621
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ee56f270306326941257316f4472760469a79d3e1fae937ec29044516ba04cb1.jpg",
+        "text": "$$\n{ \\mathcal { Z } } ( \\Gamma \\mid m a p _ { \\sigma , \\tau } ) = ( ( \\sigma  \\tau )  [ \\sigma ]  [ \\tau ] \\mid \\emptyset )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            254,
+            650,
+            745,
+            698
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f0e72b88f40fea72cfcdf42a714f281ca779037b39e01e825e034c888e00a392.jpg",
+        "text": "$$\n{ \\mathcal { Z } } ( \\Gamma ~ \\mid ~ f o I d r _ { \\sigma , \\tau } ) = ( ( \\sigma  \\tau  \\tau )  \\tau  [ \\sigma ]  \n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            720,
+            720,
+            768
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Usar el algoritmo $\\mathcal { T }$ con esta nueva extensi´on para tipar la siguiente expresi´on: ",
+        "bbox": [
+            27,
+            783,
+            856,
+            819
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "foldr map ",
+        "bbox": [
+            447,
+            852,
+            555,
+            889
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Ejercicio ",
+        "bbox": [
+            19,
+            194,
+            986,
+            246
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "foldr map ya est´a rectificado ",
+        "bbox": [
+            44,
+            363,
+            414,
+            408
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "2 $\\Gamma _ { 0 } = \\emptyset$ , ",
+        "bbox": [
+            44,
+            419,
+            461,
+            466
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/daa7774254d1225474b14fa560c1adc13dc38d140fb41f122c5a3b12b0afe996.jpg",
+        "text": "$$\n\\begin{array} { l } { M _ { 0 } = f o I d r _ { X _ { 1 } , X _ { 2 } } \\ m a p _ { X _ { 3 } , X _ { 4 } } } \\\\ { I d r _ { X _ { 1 } , X _ { 2 } } \\ m a p _ { X _ { 3 } , X _ { 4 } } ) = ? ? } \\\\ { \\ | \\ f o I d r _ { X _ { 1 } , X _ { 2 } } ) = ( ( X _ { 1 }  X _ { 2 }  X _ { 2 } )  X _ { 2 }  [ X _ { 1 } ] } \\\\ { \\ | \\ m a p { x _ { 3 } , X _ { 4 } } ) = ( ( X _ { 3 }  X _ { 4 } )  [ X _ { 3 } ]  [ X _ { 4 } ] \\ | \\ \\emptyset ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            419,
+            685,
+            621
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "1 → X2 | ∅)",
+        "bbox": [
+            104,
+            525,
+            806,
+            617
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Algoritmo I ",
+        "bbox": [
+            395,
+            25,
+            602,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            44,
+            371,
+            69,
+            404
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "1 foldr map ya est´a rectificado ",
+        "bbox": [
+            46,
+            319,
+            414,
+            363
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2 $\\Gamma _ { 0 } = \\emptyset$ ",
+        "bbox": [
+            44,
+            375,
+            461,
+            419
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "3 (X5 | → [X3] → [X4]) → X5}) ",
+        "bbox": [
+            44,
+            433,
+            922,
+            525
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c3358abddbf2e7017b57deb5dde4f8e6abfdadbbad5380ddbd4b9d30df3feacb.jpg",
+        "text": "$$\n\\begin{array} { l } { { M _ { 0 } = f o l d r _ { X _ { 1 } , X _ { 2 } } \\ m a p _ { X _ { 3 } , X _ { 4 } } } } \\\\ { { \\ } } \\\\ { { \\mathit { I d r } _ { X _ { 1 } , X _ { 2 } } \\ m a p _ { X _ { 3 } , X _ { 4 } } ) = } } \\\\ { { \\mathit { \\iota _ { 1 } }  X _ { 2 }  X _ { 2 } )  X _ { 2 }  [ X _ { 1 } ]  X _ { 2 } \\overset { ? } { = } ( ( X _ { 3 }  X _ { 4 } ) - ( X _ { 3 } ) + ( X _ { 4 } + X _ { 4 } ) + ( X _ { 3 } + X _ { 4 } ) + ( X _ { 4 } + X _ { 4 } ) + ( X _ { 4 } + X _ { 5 } ) + ( X _ { 5 } + X _ { 6 } ) + ( X _ { 6 } + X _ { 6 } ) } } \\\\ { { \\mathrm { ~ ( } [ \\begin{array} { l } { { t o l d r _ { X _ { 1 } , X _ { 2 } } } } \\\\ { { m a p _ { X _ { 3 } , X _ { 4 } } } } \\end{array} ] = ( ( X _ { 3 }  X _ { 2 }  X _ { 2 } )  X _ { 2 } )  X _ { 2 }  [ X _ { 4 } ] \\ ( \\begin{array} { l } { { t } _ { 1 } } \\\\ { { 0 } } \\end{array} ) } } \\\\ { { \\mathrm { ~ ( } ( X _ { 1 }  X _ { 2 }  X _ { 2 } )  X _ { 2 }  X _ { 1 } ]  X _ { 2 } \\overset { ! } { = } ( ( X _ { 3 }  X _ { 4 } ) + ( X _ { 4 } + X _ { 4 } ) + ( X _ { 4 } ) \\ ( \\begin{array} { l } { { t } _ { 2 } } \\\\ { { 0 } } \\end{array} ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            367,
+            685,
+            691
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "I(∅ X2 | ∅)I(∅",
+        "bbox": [
+            102,
+            536,
+            903,
+            625
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "4 S = mgu [X3] → [X4]) → X5} ",
+        "bbox": [
+            55,
+            632,
+            930,
+            683
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Algoritmo I ",
+        "bbox": [
+            395,
+            25,
+            602,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo I ",
+        "text_level": 1,
+        "bbox": [
+            395,
+            25,
+            602,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "S = MG MGU{( $\\begin{array} { r l } & { U \\{ ( X _ { 1 } \\to X _ { 2 } \\to X _ { 2 } ) \\to X _ { 2 } \\to [ X _ { 1 } ] \\to X _ { 2 } \\stackrel { ? } { = } ( ( X _ { 3 } \\to X _ { 4 } ) } \\\\ & { \\leqslant 1 \\to X _ { 2 } \\to X _ { 2 } ) \\to X _ { 2 } \\to [ X _ { 1 } ] \\to X _ { 2 } \\stackrel { ? } { = } ( ( X _ { 3 } \\to X _ { 4 } ) ~ . } \\end{array}$ X4) → [X3] → [X4]) → → [X3] → [X4]) → X5}   \n$\\begin{array} { r l } & { \\cdots \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\cdot \\quad \\quad \\quad \\quad \\quad \\quad \\cdot \\quad } \\\\ & { \\longrightarrow ^ { 1 } \\{ X _ { 1 }  X _ { 2 }  X _ { 2 } \\stackrel { { \\_ { \\alpha } } } { = } ( X _ { 3 }  X _ { 4 } )  [ X _ { 3 } ]  [ X _ { 4 } ]  [ X _ { 3 } ]  [ X _ { 4 } ]  [ X _ { 4 } ]  [ X _ { 5 } ]  [ X _ { 5 } ]  [ X _ { 6 } ]  [ X _ { 6 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ] } \\\\ & { \\longrightarrow ^ { 1 } \\{ X _ { 1 } \\stackrel { { \\_ { \\alpha } } } { = } X _ { 3 }  X _ { 4 } , X _ { 2 }  X _ { 2 } \\}  X _ { 2 } \\stackrel { { \\_ { \\alpha } } } { = } [ X _ { 3 } ]  [ X _ { 1 } ]  [ X _ { 1 } ] , X _ { 7 }  X _ { 4 } ]  [ X _ { 7 } ]  [ X _ { 8 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ]  [ X _ { 7 } ] } \\\\ &  \\longrightarrow ^ { 4 } \\{ X _ { 2 }  X _ { 2 } \\stackrel { { \\_ { \\alpha } } } { = } [ X _ { 3 } ]  [ X _ { 4 } ] , X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 7 }  X _ { 4 } ]  [ X _ { 7 } \\end{array}$ 1] → X2 ?= X5} 1] → X2 ?= X5}   \n$\\begin{array} { r l } & { \\longrightarrow ^ { 1 } \\{ X _ { 1 } \\stackrel { \\_ } { = } X _ { 3 }  X _ { 4 } , \\ X _ { 2 }  X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 3 } ]  [ X _ { 4 } ] , \\ X _ { 2 }  } \\\\ & { \\longrightarrow ^ { 1 } \\{ X _ { 1 } \\stackrel { \\_ } { = } X _ { 3 }  X _ { 4 } , \\ X _ { 2 }  X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 3 } ]  [ X _ { 4 } ] , X _ { 2 } . } \\\\ & { \\longrightarrow ^ { 4 } \\{ X _ { 2 }  X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 3 } ]  [ X _ { 4 } ] , \\ X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  } \\\\ & { \\longrightarrow ^ { 4 } \\{ X _ { 2 }  X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 3 } ]  [ X _ { 4 } ] , \\ X _ { 2 }  [ X _ { 3 }  X _ { 4 } ] - } \\\\ & { \\longrightarrow ^ { 1 } \\{ X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 3 } ] , \\ X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 4 } ] , \\ X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  X _ { 4 }  } \\\\ & { \\longrightarrow ^ { 1 } \\{ X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 3 } ] , \\ X _ { 2 } \\stackrel { \\_ } { = } [ X _ { 4 } ] , \\ X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  X _ { 3 }  } \\\\ & { \\longrightarrow ^ { 1 } \\{ \\{ X _ { 3 } \\} \\stackrel { \\_ } { = } [ X _ { 4 } ] , \\ [ X _ { 3 } ]  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 3 } ] \\stackrel { \\_ } { = } X _ { 5 } \\} } \\end{array}$ 2 ?= X5} 2 ?= X5} X2 ?= X5} | {X1 := X3 → X4}   \n$\\begin{array} { r l } & { \\longmapsto ^ { 4 } \\{ X _ { 2 }  X _ { 2 } = [ X _ { 3 } ]  [ X _ { 4 } ] , X _ { 2 }  [ X _ { 3 }  X _ { 4 } ] - } \\\\ & { \\longrightarrow 1 \\{ X _ { 2 } \\stackrel { 2 } { = } [ X _ { 3 } ] , X _ { 2 } \\stackrel { 2 } { = } [ X _ { 4 } ] , X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  X } \\\\ & { \\longrightarrow 1 \\{ X _ { 2 } \\stackrel { 2 } { = } [ X _ { 3 } ] , X _ { 2 } \\stackrel { 2 } { = } [ X _ { 4 } ] , X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  X } \\\\ & { \\longrightarrow ^ { 4 } \\{ [ X _ { 3 } ] \\stackrel { 2 } { = } [ X _ { 4 } ] , [ X _ { 3 } ]  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 3 } ] \\stackrel { 2 } { = } X _ { 5 } \\} } \\\\ & { \\longrightarrow ^ { 4 } \\{ [ X _ { 3 } ] \\stackrel { 2 } { = } [ X _ { 4 } ] , [ X _ { 3 } ]  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 3 } ] \\stackrel { 2 } { = } X _ { 5 } \\} } \\\\ & { \\longrightarrow 1 \\{ X _ { 3 } \\stackrel { 2 } { = } X _ { 4 } , [ X _ { 3 } ]  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 3 } ] \\stackrel { 2 } { = } X _ { 5 } \\} . } \\\\ & { \\longrightarrow 1 \\{ X _ { 3 } \\stackrel { 2 } { = } X _ { 4 } , [ X _ { 3 } ]  [ X _ { 3 }  X _ { 4 } ]  [ X _ { 3 } ] \\stackrel { 2 } { = } X _ { 5 } \\} \\mid . } \\end{array}$ X2 ?= X5} | {X1 := X3 → X4} 2 ?= X5} | {X1 := X3 → X4} $x _ { 2 } \\stackrel { ? } { = } [ X _ { 4 } ] , X _ { 2 }  [ X _ { 3 }  X _ { 4 } ]  X _ { 2 } \\stackrel { ? } { = } X _ { 5 } \\} \\mid \\{ X _ { 1 } : = X _ { 1 } $ 3 → X4} | {X2 := [X3]} ◦ {X1 := X3 → X | {X2 := [X3]} ◦ {X1 := X3 → X {X2 := [X3]} ◦ {X1 := X3 → X4} ◦ {X1 := X3 → X4}   \nS ${ \\begin{array} { r l } & { = M G U \\{ ( X _ { 1 } \\to X _ { 2 } \\to X _ { 2 } ) \\to X _ { 2 } \\to [ X _ { 1 } ] \\to X _ { 2 } } \\\\ & { = \\{ X _ { 1 } : = X _ { 3 } \\to X _ { 4 } , X _ { 2 } : = [ X _ { 3 } ] , X _ { 3 } : = X _ { 4 } , X _ { 5 } : = X _ { 4 } , X _ { 5 } : = X _ { 4 } \\} } \\\\ & { = \\{ X _ { 1 } : = X _ { 3 } \\to X _ { 4 } , X _ { 2 } : = [ X _ { 3 } ] , X _ { 3 } : = X _ { 4 } , X _ { 5 } : = U \\} } \\\\ & { \\{ X _ { 1 } : = X _ { 4 } \\to X _ { 4 } , X _ { 2 } : = [ X _ { 4 } ] , X _ { 3 } : = X _ { 4 } , X _ { 5 } : = [ X _ { 4 } ] \\to X _ { 4 } \\} } \\end{array} }$ → X4) → [X3] → [X4]) → X5} [X4] → [X4 → X4] → [X4]} [X4] → [X4 → X4] → [X4]}   \n= X4] → [X4 → X4] → [X4]} ",
+        "bbox": [
+            13,
+            99,
+            845,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            19,
+            250,
+            964,
+            463
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ac4f54767d1ee86efef3d6b9442177095821970eceeb1ca2768a22d85e0be4dc.jpg",
+        "text": "$$\nS ( \\emptyset ) \\vdash S ( f o l d r _ { X _ { 1 } , X _ { 2 } } \\ : m a p _ { X _ { 3 } , X _ { 4 } } ) : S ( X _ { 5 } ) =\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            580,
+            732,
+            632
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f9614a371727441f19a86e8ac9354325684b540c7f93c5e5f343686f5b0c1e3d.jpg",
+        "text": "$$\n\\begin{array} { r } { f o I d r _ { X _ { 4 } \\to X _ { 4 } , [ X _ { 4 } ] } m a p _ { X _ { 4 } , X _ { 4 } } : [ X _ { 4 } ] \\to [ X _ { 4 } \\to X _ { 4 } ] } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            705,
+            737,
+            761
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Algoritmo I ",
+        "bbox": [
+            395,
+            25,
+            602,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on del algoritmo I ",
+        "text_level": 1,
+        "bbox": [
+            287,
+            25,
+            712,
+            88
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6e57d95eb350df57f9c42a381e930a3dda3799b45037056ee374b456597e98cd.jpg",
+        "text": "$$\n\\sigma : : = \\dots | \\ [ \\sigma ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            414,
+            334,
+            585,
+            386
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "M , N , $O : = \\dots \\mid { [ \\begin{array} { l } { } \\end{array} ] } _ { \\sigma } \\mid M : : N \\mid C a s e \\ M o f \\mid \\sim $ N ; h :: t ⇝ O ",
+        "bbox": [
+            113,
+            397,
+            889,
+            452
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3c22be3e28111dcb099094e0f1afc6332b8608932ae3863d596659d89058fb80.jpg",
+        "text": "$$\n\\begin{array}{c} \\overline { { { [ \\begin{array} { l l l l l l l l } \\end{array} : } [ \\sigma ] } }  & { { } } & { { } } & { { } } & { { \\begin{array} { l l l l l l } { { \\Gamma \\triangleright { { \\cal M } } : \\sigma } } & { { \\Gamma \\triangleright { { \\cal N } } : \\sigma } } & { { } } & { { } } & { { } } \\\\ { { } } & { { } } & { { } } & { { \\Gamma \\triangleright { { \\cal M } } : : { \\cal N } : [ \\sigma ] } } \\end{array} } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            492,
+            801,
+            617
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/26802ba7caf1e560969daed49ae38dad3267bc9c8a1819b8b13f9c49b8503c8b.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\boldsymbol { M } : [ \\boldsymbol { \\sigma } ] } & { { } \\Gamma \\triangleright \\boldsymbol { N } : \\tau } & { \\Gamma \\cup \\{ \\boldsymbol { h } : \\boldsymbol { \\sigma } , \\boldsymbol { t } : [ \\boldsymbol { \\sigma } ] \\} \\triangleright } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            680,
+            737,
+            727
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5b711427f5aacd0094dbcd8c2d1446042aab588106b64a7bf0c19e3d73ed08c6.jpg",
+        "text": "$$\n\\Gamma \\triangleright C a s e \\ M o f \\ [ \\ ] \\sim N \\ ; h : : t \\sim \\to O : \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            742,
+            734,
+            794
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Listas ",
+        "bbox": [
+            19,
+            257,
+            988,
+            312
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on del algoritmo de inferencia ",
+        "text_level": 1,
+        "bbox": [
+            198,
+            25,
+            801,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4120e60ee2224c5f5d091fdf0b2a9f889077637b6562a4381f0bf0c646bb1a77.jpg",
+        "text": "$$\n\\mathcal { I } ( \\Gamma \\mid \\{ \\} _ { \\tau } ) = ( [ \\tau ] \\mid \\emptyset )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            22,
+            231,
+            290,
+            283
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bdd88107c7244dcd9429193912237b936faabb7d6f2b680d457da97fa6280dec.jpg",
+        "text": "$$\n{ \\mathcal { Z } } ( \\Gamma \\mid M _ { 1 } : : M _ { 2 } ) = ( \\tau _ { 2 } \\mid \\{ \\tau _ { 2 } \\stackrel { ? } { = } [ \\tau _ { 1 } ] \\} \\cup E _ { 1 } \\cup\n$$",
+        "text_format": "latex",
+        "bbox": [
+            24,
+            316,
+            533,
+            378
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7c6591c4e68796788be4919285e2ee9ec50219fe9c4ec54f2640c2c407a71a22.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mathcal { I } ( \\Gamma \\mid M _ { 1 } ) = \\left( \\tau _ { 1 } \\mid E _ { 1 } \\right) } \\\\ { \\mathcal { I } ( \\Gamma \\mid M _ { 2 } ) = \\left( \\tau _ { 2 } \\mid E _ { 2 } \\right) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            124,
+            386,
+            400,
+            481
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a3919a083d39571d9f6ff7cbd29dad05c33be24ada0897e3c47c9dfb570d40bb.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\widehat { \\mathscr { L } } \\partial s e \\ M _ { 1 } \\ o f \\ [ \\ ]  M _ { 2 } \\ ; h : : t  M _ { 3 } ) = } \\\\ & { \\widehat { \\mathscr { L } } _ { 1 } \\overset { ? } { = } [ X _ { h } ] , \\tau _ { 2 } \\overset { ? } { = } \\tau _ { 3 } , X _ { t } \\overset { ? } { = } \\tau _ { 1 } \\} \\cup E _ { 1 } \\cup E _ { 2 } \\cup E _ { 3 } ) } \\\\ & { \\quad \\mathcal { Z } ( \\Gamma \\ | \\ M _ { 1 } ) = ( \\tau _ { 1 } \\ | \\ E _ { 1 } ) } \\\\ & { \\quad \\mathcal { Z } ( \\Gamma \\ | \\ M _ { 2 } ) = ( \\tau _ { 2 } \\ | \\ E _ { 2 } ) } \\\\ & { \\mathcal { Z } ( \\Gamma , h : X _ { h } , t : X _ { t } \\ | \\ M _ { 3 } ) = ( \\tau _ { 3 } \\ | \\ E _ { 3 } ) } \\\\ & { \\widecheck { \\mathscr { L } } \\widecheck { \\mathscr { \\Pi } } , \\ \\widecheck { \\mathscr { L } } \\widecheck { \\mathscr { L } } \\widecheck { \\mathscr { L } } _ { 1 } \\widecheck { \\mathscr { L } } _ { 2 } \\widehat { \\mathscr { L } } _ { 3 } \\widehat { \\mathscr { L } } _ { 3 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            91,
+            511,
+            613,
+            775
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Dar el tipo de: Case $\\operatorname { s u c c } ( \\underline { { 0 } } ) : : x \\ o f \\ [ \\ ] \\to x \\ ; x : : y \\to \\operatorname { s u c c } ( x ) : :$ [ ] ",
+        "bbox": [
+            24,
+            827,
+            801,
+            878
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on del algoritmo de inferencia ",
+        "text_level": 1,
+        "bbox": [
+            196,
+            25,
+            801,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4233a9a91e0e29921a6ec3957aa54448ae968de52a83556eec6754495e2b3d10.jpg",
+        "text": "$$\nM : : = \\dots | \\mathrm { ~ } [ \\mathrm { ~ } M \\mathrm { ~ } | \\mathrm { ~ } x \\gets M , M \\mathrm { ~ } ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            325,
+            360,
+            674,
+            411
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Consideremos el C´alculo Lambda extendido con las listas por comprensi´on vistas en la pr´actica 4. ",
+        "bbox": [
+            24,
+            430,
+            961,
+            514
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "La regla de tipado es la siguiente: ",
+        "bbox": [
+            24,
+            533,
+            414,
+            577
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Γ ∪ $\\{ x : \\sigma \\} \\ \\triangleright M : \\tau \\quad \\Gamma \\triangleright N : [ \\sigma ] \\quad \\Gamma \\cup \\{ x : \\sigma \\} \\ \\triangleright \\ O$ : Bool ",
+        "bbox": [
+            179,
+            599,
+            809,
+            647
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4f41c73ac17b34ad41be558dbe757a05650c7788fa8697f853eb1ebc95347ca0.jpg",
+        "text": "$$\n\\Gamma \\triangleright [ \\ M \\ | \\ x  N , O \\ ] \\colon [ \\tau ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            350,
+            658,
+            638,
+            709
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Listas por comprensi´on ",
+        "bbox": [
+            19,
+            286,
+            980,
+            338
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on del algoritmo de inferencia ",
+        "text_level": 1,
+        "bbox": [
+            196,
+            25,
+            801,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "I( donde I ${ \\begin{array} { r l } & { \\mathbf { 1 } \\mid x  M _ { 2 } , M _ { 3 } \\mid ) = ( [ \\tau _ { 1 } ] \\mid \\{ \\tau _ { 2 } \\stackrel { ? } { = } } [ X _ { 0 } ] , \\tau _ { 3 } \\stackrel { ? } { = } } \\\\ & { { \\ ' } ( \\Gamma , x \\colon X _ { 0 } \\mid M _ { 1 } ) = ( \\tau _ { 1 } \\mid E _ { 1 } ) } \\\\ & { { \\ ' } ( \\Gamma \\mid M _ { 2 } ) = ( \\tau _ { 2 } \\mid E _ { 2 } ) } \\\\ & { { \\prime } ( \\Gamma , x \\colon X _ { 0 } \\mid M _ { 3 } ) = ( \\tau _ { 3 } \\mid E _ { 3 } ) } \\end{array} $ Bool} ∪ E1 ∪ E2 ∪ E3) X0 variable fresca ",
+        "bbox": [
+            24,
+            389,
+            930,
+            639
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Dar el tipo de: [ if $x$ then 0 else 1 | x ← false :: isZero(x) :: [ ], true ] ",
+        "bbox": [
+            24,
+            661,
+            820,
+            709
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Listas por Comprensi´on ",
+        "bbox": [
+            19,
+            330,
+            983,
+            382
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿Preguntas? ? ? ? ? ? ",
+        "bbox": [
+            204,
+            408,
+            795,
+            507
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Fin ",
+        "bbox": [
+            469,
+            29,
+            527,
+            80
+        ],
+        "page_idx": 22
+    }
+]

@@ -1,0 +1,250 @@
+[
+    {
+        "type": "text",
+        "text": "Pre-Práctica de Programación Funcional ",
+        "text_level": 1,
+        "bbox": [
+            258,
+            86,
+            737,
+            107
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Para resolver esta práctica, recomendamos usar el intérprete “GHCI ”, de distribución gratuita, que puede bajarse de https://www.haskell.org/ghc/download. ",
+        "bbox": [
+            94,
+            117,
+            904,
+            146
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            162,
+            184,
+            177
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dar el tipo y describir el comportamiento de las siguientes funciones del módulo Prelude de Haskell: ",
+        "bbox": [
+            90,
+            184,
+            826,
+            199
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "null head tail init last take drop (++) concat reverse elem ",
+        "bbox": [
+            89,
+            204,
+            722,
+            219
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            231,
+            184,
+            246
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones: ",
+        "bbox": [
+            94,
+            254,
+            326,
+            268
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a. valorAbsoluto :: Float Float, que dado un número devuelve su valor absoluto.   \nb. bisiesto :: I $\\mathrm { \\mathbf { n } } \\ t ~ \\to ~ \\mathsf { B o o l }$ , que dado un número que representa un año, indica si el mismo es bisiesto.   \nc. factorial :: Int $\\begin{array} { r l } {  } & { { } \\mathtt { I n t } } \\end{array}$ , definida únicamente para enteros positivos, que computa el factorial.   \nd. cantDivisoresPrimos :: I $\\mathfrak { x } \\to \\mathtt { I n t }$ , que dado un entero positivo devuelve la cantidad de divisores primos. ",
+        "bbox": [
+            84,
+            279,
+            895,
+            366
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            384,
+            184,
+            398
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Contamos con los tipos Maybe y Either definidos como sigue: ",
+        "bbox": [
+            92,
+            405,
+            539,
+            419
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "data Maybe ${ \\tt a } =$ Nothing | Just a data Either a b $=$ Left a | Right b ",
+        "bbox": [
+            92,
+            426,
+            368,
+            453
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a. Definir la función inverso :: Float Maybe Float que dado un número devuelve su inverso multiplicativo si está definido, o Nothing en caso contrario.   \nb. Definir la función aEntero :: Either Int $8 0 0 1 ~  ~ \\mathrm { { I n t } }$ que convierte a entero una expresión que puede ser booleana o entera. En el caso de los booleanos, el entero que corresponde es 0 para False y 1 para True. ",
+        "bbox": [
+            90,
+            472,
+            905,
+            538
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            556,
+            184,
+            570
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definir las siguientes funciones sobre listas: ",
+        "bbox": [
+            94,
+            577,
+            411,
+            592
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a. limpiar :: String String String, que elimina todas las apariciones de cualquier carácter de la primera cadena en la segunda. Por ejemplo, limpiar ‘‘susto’’ ‘‘puerta’’ evalúa a ‘‘pera’’. Nota: String es un renombre de [Char]. La notación ‘‘hola’’ es equivalente a $[ { ^ { \\epsilon } \\mathbf { h } ^ { \\prime } } , { ^ { \\epsilon } \\circ ^ { \\prime } } , { ^ { \\epsilon } \\mathbf { 1 } ^ { \\prime } } , { ^ { \\epsilon } \\mathbf { a } ^ { \\prime } } ]$ y a $^ { \\iota } { \\bf h } ^ { \\prime } : ^ { \\iota } \\circ ^ { \\prime } : ^ { \\iota } \\mathbb { 1 } ^ { \\prime } : ^ { \\iota } { \\bf a } ^ { \\prime } : [ ]$ . b. difPromedio :: [Float] [Float] que dada una lista de números devuelve la diferencia de cada uno con el promedio general. Por ejemplo, difPromedio [2, 3, 4] evalúa a [-1, 0, 1]. c. todosIguales :: [Int] Bool que indica si una lista de enteros tiene todos sus elementos iguales. ",
+        "bbox": [
+            92,
+            601,
+            907,
+            707
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 5 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            721,
+            184,
+            736
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente modelo para árboles binarios: ",
+        "bbox": [
+            95,
+            743,
+            442,
+            757
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "data AB $\\mathsf { a } = \\mathbb { N } \\dot { \\mathsf { 1 } } \\mathsf { 1 }$ | Bin (AB a) a (AB a) ",
+        "bbox": [
+            94,
+            763,
+            388,
+            777
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "definir las siguientes funciones: ",
+        "bbox": [
+            94,
+            784,
+            321,
+            799
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a. vacioAB :: AB $\\texttt { a } \\to \\texttt { B o o l }$ que indica si un árbol es vacío (i.e. no tiene nodos).   \nb. negacionAB :: AB Bool AB Bool que dado un árbol de booleanos construye otro formado por la negación de cada uno de los nodos.   \nc. productoAB :: AB $\\mathtt { I n t } \\to \\mathtt { I n t }$ que calcula el producto de todos los nodos del árbol. ",
+        "bbox": [
+            92,
+            808,
+            907,
+            885
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            675,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Página 1 de 1 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 0
+    }
+]

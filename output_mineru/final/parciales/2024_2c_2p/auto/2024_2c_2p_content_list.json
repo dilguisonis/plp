@@ -1,0 +1,454 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Segundo Parcial - $2 ^ { \\mathbf { d o } }$ cuatrimestre de 2024 ",
+        "text_level": 1,
+        "bbox": [
+            200,
+            47,
+            796,
+            67
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/ee68ca091b67dbf9143f8b86c902ccd3e1aa6c9eb5cc7ad5f29d0bd69ebfa130.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Nro.Libreta</td><td rowspan=1 colspan=1>Apellido y Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            119,
+            74,
+            880,
+            118
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien (B) y uno regular (R), $_ \\textrm { y }$ se promociona con al menos dos ejercicios muy bien (MB) y uno bien (B). Es posible obtener una aprobaci´on condicional con un ejercicio muy bien (MB), uno bien (B) y uno insuficiente (I), pero habiendo entregado algo que contribuya a la soluci´on del ejercicio. Las notas para cada ejercicio son: -, I, R, B, MB, E. Entregar cada ejercicio en hojas separadas. Poner nombre, apellido $_ \\textrm { y }$ n´umero de orden en todas las hojas, y numerarlas. Se puede utilizar todo lo definido en las pr´acticas $_ \\textrm { y }$ todo lo que se dio en clase, colocando referencias claras. El orden de los ejercicios es arbitrario. Recomendamos leer el parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            115,
+            133,
+            882,
+            217
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 - Programaci´on L´ogica ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            233,
+            405,
+            248
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementar los predicados respetando en cada caso la instanciaci´on pedida. Los generadores deben cubrir todas las instancias v´alidas de aquello que generan sin repetir dos veces la misma. Se deben indicar los patrones de instanciaci´on de todos los predicados auxiliares. No usar cut (!) ni predicados de alto orden como setof, con la ´unica excepci´on de not. ",
+        "bbox": [
+            117,
+            249,
+            884,
+            291
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Definir el predicado subsecuenciaCreciente $( + \\mathbb { L } , - \\mathbb { S } )$ que es verdadero cuando S es una subsecuencia estrictamente creciente de elementos de L. Notar que la secuencia respeta el orden de aparici´on en L. Por ejemplo: ",
+        "bbox": [
+            129,
+            302,
+            882,
+            344
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$? -$ subsecuenciaCreciente([4,8,1,9],S).   \n${ \\textsf { s } } =$ [4, 8, 9] ;   \n${ \\textsf { s } } =$ [4, 8] ;   \n${ \\textsf { s } } =$ [4, 9] ;   \n${ \\textsf { s } } =$ [4] ;   \nS = [8, 9] ; ",
+        "bbox": [
+            159,
+            359,
+            460,
+            437
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2d6dad41500547f34fd43a421a520079b8310fb0361e87f37c857c62fe3c8609.jpg",
+        "text": "$$\n\\begin{array} { l } { { { \\sf S } ~ = ~ [ 8 ] ~ ; } } \\\\ { { { \\sf S } ~ = ~ [ 1 , ~ 9 ] ~ ; } } \\\\ { { { \\sf S } ~ = ~ [ 1 ] ~ ; } } \\\\ { { { \\sf S } ~ = ~ [ 9 ] ~ ; } } \\\\ { { { \\sf S } ~ = ~ [ 1 ] ~ . } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            531,
+            370,
+            628,
+            438
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b) Definir el predicado subsecuenciaCrecienteMasLarga $( + \\mathbb { L } , - \\mathbb { S } )$ que es verdadero cuando S es la subsecuencia estrictamente creciente de mayor longitud de L. Puede haber m´as de un resultado. Por ejemplo: ",
+        "bbox": [
+            124,
+            455,
+            878,
+            494
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?- subsecuenciaCrecienteMasLarga([5,6,7,2,8,1,2,3,4,5,7],S). ${ \\textsf { s } } =$ [1,2,3,4,5,7] ;   \nfalse;   \n$? -$ subsecuenciaCrecienteMasLarga([5,6,7,2,8,0,2,3,4],S). ${ \\textsf { s } } =$ [5,6,7,8] ;   \n$\\mathrm { ~ \\bf ~ S ~ } = \\mathrm { ~ \\bf ~ [ 0 ~ } , 2 , 3 , 4 \\mathrm { ] ~ }$ ;   \nfalse. ",
+        "bbox": [
+            156,
+            502,
+            631,
+            607
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c) Definir el predicado fibonacci(-X) que instancia en ${ \\tt X }$ los n´umeros pertenecientes a la secuencia de Fibonacci. Por ejemplo: ",
+        "bbox": [
+            126,
+            615,
+            882,
+            643
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "?- fibonacci(X).   \n$\\texttt { X } = \\texttt { 1 }$ ;   \n$\\texttt { X } = \\texttt { 1 }$ ;   \n$\\tt { X } = 2$ ; ",
+        "bbox": [
+            161,
+            656,
+            285,
+            708
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1a4017ac252aa5b657d5192e50fc5eb62f7c9629527e0c2b48bc2086fd933c6b.jpg",
+        "text": "$$\n\\begin{array} { r c l } { { } } & { { } } & { { \\mathrm { ~ X ~ = ~ 3 ~ } ; } } \\\\ { { } } & { { } } & { { \\mathrm { ~ X ~ = ~ 5 ~ } ; } } \\\\ { { } } & { { } } & { { } } \\\\ { { } } & { { } } & { { \\cdots } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            534,
+            669,
+            584,
+            708
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d) $\\iota$ Es reversible el predicado anterior? Justificar. ",
+        "bbox": [
+            131,
+            727,
+            502,
+            741
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 - Resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            757,
+            317,
+            772
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Representar en forma clausal las siguientes f´ormulas de l´ogica de primer orden, que tratan acerca de t´erminos cerrados del c´alculo lambda: ",
+        "bbox": [
+            126,
+            783,
+            880,
+            810
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i) $\\forall T _ { 1 } . \\forall T _ { 2 } . \\forall M . \\forall N$ .((Tipo(M, T1 → T2) ∧ Tipo(N, T1)) =⇒ Tipo(app(M, N ), T2)) Si el tipo de un t´ermino es $T _ { 1 }  T _ { 2 }$ , $y$ el tipo de otro t´ermino es $T _ { 1 }$ , entonces el tipo de la aplicaci´on es $T _ { 2 }$ .   \nii) $\\exists M . \\mathsf { T i p o } ( M , \\alpha \\to ( \\beta \\to \\gamma ) )$ Existe un t´ermino de tipo $\\alpha  ( \\beta  \\gamma )$ .   \niii) $\\exists M . \\mathsf { T i p o } ( M , \\alpha \\to \\beta )$ Existe un t´ermino de tipo $\\alpha  \\beta$ . ",
+        "bbox": [
+            163,
+            819,
+            887,
+            929
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            494,
+            952,
+            504,
+            963
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "iv) ∃M.Tipo $( M , \\alpha )$ Existe un t´ermino de tipo $\\alpha$ . ",
+        "bbox": [
+            164,
+            49,
+            406,
+            78
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: se puede pensar en el constructor de tipos como una funci´on binaria, por ejemplo el t´ermino $T _ { 1 }  T _ { 2 }$ se puede pensar como flecha $( T _ { 1 } , T _ { 2 } )$ . Adem´as, $\\alpha$ , $\\beta$ y $\\gamma$ son constantes distintas entre s´ı. ",
+        "bbox": [
+            157,
+            87,
+            885,
+            129
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Utilizando resoluci´on, determinar si la siguiente f´ormula es consecuencia del conjunto anterior: $\\exists M . \\mathsf { T i p o } ( M , \\gamma )$ (Existe un t´ermino de tipo $\\gamma$ ). Indicar la sustituci´on utilizada en cada paso. Es importante tener un plan (escrito o en la cabeza). ",
+        "bbox": [
+            132,
+            137,
+            882,
+            186
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) ¿Fue SLD la resoluci´on utilizada en el punto anterior? Justificar. ",
+        "bbox": [
+            131,
+            193,
+            635,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 - Inferencia y Deducci´on Natural ",
+        "text_level": 1,
+        "bbox": [
+            115,
+            223,
+            494,
+            239
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Consideremos el C´alculo Lambda tipado extendido con ´arboles ternarios: ",
+        "bbox": [
+            131,
+            247,
+            697,
+            262
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cd166d2a564fd2c65684accc01e68bb57c0e0e80b383c0d75759c1c95361eb4e.jpg",
+        "text": "$$\nM : = \\cdots \\mid \\mathrm { T M i } \\bot _ { \\tau } \\mid \\mathrm { T e r n } ( M , M , M , M ) \\mid \\mathrm { f o l d A T } M \\lor \\mathrm { T N i } \\  M ; \\ \\mathrm { T e r n } ( x , r i , r m , r d )  M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            154,
+            273,
+            813,
+            300
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se extiende tambi´en el algoritmo de inferencia para ´arboles de la siguiente manera: ",
+        "bbox": [
+            149,
+            302,
+            801,
+            317
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/038c5d4595aa46080d696904a7414d7a513aeb40b100c4be4a3eb26e7e2f3086.jpg",
+        "text": "$$\n\\begin{array} { l } { { \\mathbb { W } ( { \\mathrm { T M i 1 } } ) } \\stackrel { d e f } { = } \\emptyset \\vdash { \\mathrm { T N i 1 } } _ { X } : { \\mathrm { A T } } ( X ) \\qquad { \\mathrm { c o n ~ } } X { \\mathrm { ~ v a r i a b l e ~ f r e s c a ~ } } } \\\\ { { \\mathbb { W } } ( { \\mathrm { T e r n } } ( U _ { 1 } , U _ { 2 } , U _ { 3 } , U _ { 4 } ) ) \\stackrel { d e f } { = } S { \\Gamma _ { 1 } } \\cup S { \\Gamma _ { 2 } } \\cup S { \\Gamma _ { 3 } } \\cup S { \\Gamma _ { 4 } } \\vdash S ( { \\mathrm { T e r n } } ( M _ { 1 } , M _ { 2 } , M _ { 3 } , M _ { 4 } ) ) : S \\sigma _ { 4 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            156,
+            319,
+            796,
+            365
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "donde: ",
+        "bbox": [
+            156,
+            344,
+            793,
+            375
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6abac2964bf291c96ee54ebd41a010f6f668362796d39d65a4ca56d999347e59.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\mathbf { \\Psi } } & { \\bullet \\mathbb { W } ( U _ { 1 } ) = \\Gamma _ { 1 } \\vdash M _ { 1 } : \\sigma _ { 1 } } & { \\bullet \\mathbb { W } ( U _ { 3 } ) = \\Gamma _ { 3 } \\vdash M _ { 3 } : \\sigma _ { 3 } } \\\\ & { \\bullet \\mathbb { W } ( U _ { 2 } ) = \\Gamma _ { 2 } \\vdash M _ { 2 } : \\sigma _ { 2 } } & { \\bullet \\mathbb { W } ( U _ { 4 } ) = \\Gamma _ { 4 } \\vdash M _ { 4 } : \\sigma _ { 4 } } \\\\ & { \\bullet \\textsc { m o m } ( \\{ \\sigma _ { 2 } \\stackrel { ? } { = } \\mathtt { A T } ( \\sigma _ { 1 } ) , \\ \\sigma _ { 3 } \\stackrel { ? } { = } \\sigma _ { 2 } , \\ \\sigma _ { 4 } \\stackrel { ? } { = } \\sigma _ { 2 } \\} \\cup } \\\\ & { \\{ \\tau \\stackrel { ? } { = } \\rho | x : \\tau \\in \\Gamma _ { i } \\land x : \\rho \\in \\Gamma _ { j } \\land i , j \\in \\{ 1 , 2 , 3 , 4 \\} \\} ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            387,
+            717,
+            472
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "W(foldAT $U _ { 1 } \\triangleright$ TNil $\\sim U _ { 2 }$ ${ \\bf \\Gamma } _ { 2 } ; \\mathsf { T e r n } ( x , r i , r m , r d )  U _ { 3 } { \\bf \\Gamma } _ { 3 } ^ { d e f } S \\Gamma _ { 1 } \\cup S \\Gamma _ { 2 } \\cup S \\Gamma _ { 3 ^ { \\prime } } \\vdash S ( \\mathsf { f o l d A T } { \\bf \\Gamma } _ { M 1 } \\circ \\mathsf { T N i } | \\  \\gamma$ $M _ { 2 }$ ; ${ \\mathsf { T e r n } } ( x , r i , r m , r d ) \\sim M _ { 3 } ) : S \\sigma _ { 2 }$   \ndonde: ",
+        "bbox": [
+            157,
+            480,
+            882,
+            526
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "${ \\begin{array} { r l r l r l } { \\bullet \\ \\mathbb { W } ( U _ { 1 } ) = \\Gamma _ { 1 } \\vdash M _ { 1 } : \\sigma _ { 1 } } & { } & & { \\bullet \\ \\mathbb { W } ( U _ { 2 } ) = \\Gamma _ { 2 } \\vdash M _ { 2 } : \\sigma _ { 2 } } & & { } & & { \\bullet \\ \\mathbb { W } ( U _ { 3 } ) = \\Gamma _ { 3 } \\vdash M _ { 3 } : \\sigma _ { 3 } } \\end{array} }$ τx = \u001a α1 si x : α1 ∈ Γ3,variable fresca si no τrm = \u001a α3 si rm : α3 ∈ Γ3,variable fresca si no τri = \u001a α2 si ri : α2 ∈ Γ3,variable fresca si no $\\tau _ { r d } = \\left\\{ \\begin{array} { l } { \\alpha _ { 4 } \\mathrm { ~ s i ~ } r d : \\alpha _ { 4 } \\in \\Gamma _ { 3 } , } \\\\ { \\mathrm { ~ v a r i a b l e ~ f r e s c a ~ s i ~ n c ~ } } \\end{array} \\right.$ o $\\begin{array} { r l } & { \\bullet \\Gamma _ { 3 ^ { \\prime } } = \\Gamma _ { 3 } \\ominus \\{ x , r i , r m , r d \\} } \\\\ & { \\bullet S = \\underset { \\left\\{ \\tau \\stackrel { . } { = } \\rho \\right\\} } { \\mathrm { m g u } } \\left( \\{ \\sigma _ { 1 } \\stackrel { ? } { = } \\mathrm { A T } ( \\tau _ { x } ) , \\ \\sigma _ { 2 } \\stackrel { ? } { = } \\sigma _ { 3 } , \\ \\tau _ { r i } \\stackrel { ? } { = } \\sigma _ { 2 } , \\ \\tau _ { r m } \\stackrel { ? } { = } \\sigma _ { 2 } , \\ \\tau _ { r d } \\stackrel { ? } { = } \\sigma _ { 2 } \\} \\cup \\egroup \\right. } \\\\ & { \\qquad \\left. \\{ \\tau \\stackrel { ? } { = } \\rho \\mid x : \\tau \\in \\Gamma _ { i } \\ \\wedge \\ x : \\rho \\in \\Gamma _ { j } \\ \\wedge \\ i , j \\in \\{ 1 , 2 , 3 ^ { \\prime } \\} \\} \\right) } \\end{array}$ ",
+        "bbox": [
+            176,
+            536,
+            830,
+            697
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Adem´as, se considera extendido el algoritmo para la suma de naturales: ",
+        "bbox": [
+            159,
+            703,
+            689,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbb { W } ( U _ { 1 } + U _ { 2 } ) \\ { \\stackrel { d e f } { = } } \\ S \\Gamma _ { 1 } \\cup S \\Gamma _ { 2 } \\vdash S ( M _ { 1 } + M _ { 2 } ) : N a t$ donde: ",
+        "bbox": [
+            157,
+            722,
+            512,
+            753
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/791940f00adcc26a0a1ed9dd8b44098a06944988d755f5446e3e1448b9332932.jpg",
+        "text": "$$\n\\begin{array} { r l r } & { \\bullet \\mathbb { W } ( U _ { 1 } ) = \\Gamma _ { 1 } \\vdash M _ { 1 } : \\sigma _ { 1 } } & { \\bullet \\mathbb { W } ( U _ { 2 } ) = \\Gamma _ { 2 } \\vdash M _ { 2 } : \\sigma _ { 2 } } \\\\ & { } & \\\\ & { \\bullet S = \\mathrm { m g u } \\ ( \\{ \\sigma _ { 1 } \\stackrel { ? } { = } N a t , \\ \\sigma _ { 2 } \\stackrel { ? } { = } N a t \\} \\cup \\{ \\tau \\stackrel { ? } { = } \\rho \\mid x : \\tau \\in \\Gamma _ { 1 } \\ \\wedge \\ x : \\rho \\in \\Gamma _ { 2 } \\} ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            765,
+            726,
+            813
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Inferir el tipo de la siguiente expresi´on, o demostrar que no es tipable: ",
+        "bbox": [
+            157,
+            820,
+            677,
+            835
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/01e669e51d9dd086c4f201c739308c0e37be964dc52bdc140060efb3b24b2f51.jpg",
+        "text": "$$\n\\mathsf { f o l d A T T e r n } ( \\underline { { 1 } } , \\mathrm { T N i 1 } , x , x ) \\lor \\mathsf { T N i l } \\ \\lsim r d ; \\ \\mathsf { T e r n } ( x , r i , r m , r d ) \\lsim ( r i + r m ) + r d\n$$",
+        "text_format": "latex",
+        "bbox": [
+            235,
+            844,
+            803,
+            858
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar el siguiente teorema usando deducci´on natural, sin utilizar principios cl´asicos: ",
+        "bbox": [
+            121,
+            871,
+            811,
+            888
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/da2d1b4d52e6358fd8f534afc1cf4c7df90af59b43da7b0c0ed6491c502363e1.jpg",
+        "text": "$$\n( \\exists X . P ( X ) ) \\Rightarrow ( \\forall Y . ( P ( Y ) \\Rightarrow Q ( Y ) ) ) \\Rightarrow \\exists Z . Q ( Z )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            906,
+            697,
+            920
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            494,
+            951,
+            505,
+            963
+        ],
+        "page_idx": 1
+    }
+]

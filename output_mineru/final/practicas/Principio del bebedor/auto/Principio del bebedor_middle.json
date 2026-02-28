@@ -1,0 +1,1318 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        34,
+                        70,
+                        361,
+                        87
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                32,
+                                68,
+                                360,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        68,
+                                        360,
+                                        90
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Sean σ = ∃X.(P(X)=>∀Y.P(Y)), Γ = ¬∀Y.P(Y), ¬P(X), P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        32,
+                        101,
+                        541,
+                        243
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                301,
+                                98,
+                                543,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        301,
+                                        101,
+                                        320,
+                                        116
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_ax",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        471,
+                                        98,
+                                        543,
+                                        118
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_De Morgan 2",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                171,
+                                113,
+                                487,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        171,
+                                        113,
+                                        312,
+                                        133
+                                    ],
+                                    "score": 1.0,
+                                    "content": "∀Y.P(Y), P(X) ⊢ ∀Y.P(Y)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        343,
+                                        114,
+                                        487,
+                                        133
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊢ ¬∀Y.P(Y) ⇔ ∃X.¬P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                310,
+                                130,
+                                489,
+                                151
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        310,
+                                        131,
+                                        331,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_⇒i",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        460,
+                                        130,
+                                        489,
+                                        151
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∧e1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                173,
+                                145,
+                                490,
+                                166
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        173,
+                                        145,
+                                        323,
+                                        166
+                                    ],
+                                    "score": 1.0,
+                                    "content": "∀Y.P(Y) ⊢ P(X)=>∀Y.P(Y)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        347,
+                                        145,
+                                        490,
+                                        166
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊢ ¬∀Y.P(Y) ⇒ ∃X.¬P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                147,
+                                161,
+                                523,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        147,
+                                        162,
+                                        179,
+                                        180
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_LEM",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        315,
+                                        162,
+                                        338,
+                                        181
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∃i",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        494,
+                                        161,
+                                        523,
+                                        181
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⇒i-1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                176,
+                                541,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        176,
+                                        165,
+                                        197
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊢ ∀Y.P(Y) ∨ ¬∀Y.P(Y)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        210,
+                                        177,
+                                        282,
+                                        197
+                                    ],
+                                    "score": 1.0,
+                                    "content": "∀Y.P(Y) ⊢ σ",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        352,
+                                        177,
+                                        477,
+                                        196
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y) ⊢ ∃X.¬P(X)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        486,
+                                        177,
+                                        541,
+                                        198
+                                    ],
+                                    "score": 1.0,
+                                    "content": "* (abajo)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                515,
+                                192,
+                                542,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        515,
+                                        192,
+                                        542,
+                                        216
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∃e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                386,
+                                209,
+                                469,
+                                229
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        386,
+                                        209,
+                                        469,
+                                        229
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y) ⊢ σ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                502,
+                                223,
+                                529,
+                                247
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        502,
+                                        223,
+                                        529,
+                                        247
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∨e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        33,
+                        274,
+                        244,
+                        451
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                35,
+                                276,
+                                41,
+                                282
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        35,
+                                        276,
+                                        41,
+                                        282
+                                    ],
+                                    "score": 0.913,
+                                    "content": "*",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                85,
+                                291,
+                                191,
+                                307
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        291,
+                                        105,
+                                        306
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_ax",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        171,
+                                        291,
+                                        191,
+                                        307
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_ax",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                302,
+                                169,
+                                325
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        302,
+                                        82,
+                                        325
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢ P(X)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        115,
+                                        303,
+                                        169,
+                                        325
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢¬P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                206,
+                                328,
+                                212,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        328,
+                                        212,
+                                        337
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                105,
+                                336,
+                                142,
+                                354
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        336,
+                                        142,
+                                        354
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢ ⊥",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                221,
+                                352,
+                                246,
+                                373
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        352,
+                                        246,
+                                        373
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊥e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                366,
+                                157,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        366,
+                                        157,
+                                        388
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢ ∀Y.P(Y)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "bbox": [
+                                223,
+                                387,
+                                241,
+                                403
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        387,
+                                        241,
+                                        403
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⇒ i",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                34,
+                                399,
+                                225,
+                                420
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        399,
+                                        225,
+                                        420
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y), ¬P(X) ⊢ P(X)=>∀Y.P(Y)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                219,
+                                416,
+                                240,
+                                435
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        416,
+                                        240,
+                                        435
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∃i",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "bbox": [
+                                33,
+                                432,
+                                149,
+                                451
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        33,
+                                        432,
+                                        149,
+                                        451
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y), ¬P(X) ⊢ σ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        }
+                    ],
+                    "index": 15
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        280,
+                        246,
+                        300,
+                        257
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                280,
+                                244,
+                                302,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        280,
+                                        244,
+                                        302,
+                                        260
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊢ σ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        34,
+                        70,
+                        361,
+                        87
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                32,
+                                68,
+                                360,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        68,
+                                        360,
+                                        90
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Sean σ = ∃X.(P(X)=>∀Y.P(Y)), Γ = ¬∀Y.P(Y), ¬P(X), P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0,
+                    "bbox_fs": [
+                        32,
+                        68,
+                        360,
+                        90
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        32,
+                        101,
+                        541,
+                        243
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                301,
+                                98,
+                                543,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        301,
+                                        101,
+                                        320,
+                                        116
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_ax",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        471,
+                                        98,
+                                        543,
+                                        118
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_De Morgan 2",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                171,
+                                113,
+                                487,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        171,
+                                        113,
+                                        312,
+                                        133
+                                    ],
+                                    "score": 1.0,
+                                    "content": "∀Y.P(Y), P(X) ⊢ ∀Y.P(Y)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        343,
+                                        114,
+                                        487,
+                                        133
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊢ ¬∀Y.P(Y) ⇔ ∃X.¬P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                310,
+                                130,
+                                489,
+                                151
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        310,
+                                        131,
+                                        331,
+                                        150
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_⇒i",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        460,
+                                        130,
+                                        489,
+                                        151
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∧e1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                173,
+                                145,
+                                490,
+                                166
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        173,
+                                        145,
+                                        323,
+                                        166
+                                    ],
+                                    "score": 1.0,
+                                    "content": "∀Y.P(Y) ⊢ P(X)=>∀Y.P(Y)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        347,
+                                        145,
+                                        490,
+                                        166
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊢ ¬∀Y.P(Y) ⇒ ∃X.¬P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                147,
+                                161,
+                                523,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        147,
+                                        162,
+                                        179,
+                                        180
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_LEM",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        315,
+                                        162,
+                                        338,
+                                        181
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∃i",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        494,
+                                        161,
+                                        523,
+                                        181
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⇒i-1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                176,
+                                541,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        176,
+                                        165,
+                                        197
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊢ ∀Y.P(Y) ∨ ¬∀Y.P(Y)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        210,
+                                        177,
+                                        282,
+                                        197
+                                    ],
+                                    "score": 1.0,
+                                    "content": "∀Y.P(Y) ⊢ σ",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        352,
+                                        177,
+                                        477,
+                                        196
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y) ⊢ ∃X.¬P(X)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        486,
+                                        177,
+                                        541,
+                                        198
+                                    ],
+                                    "score": 1.0,
+                                    "content": "* (abajo)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                515,
+                                192,
+                                542,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        515,
+                                        192,
+                                        542,
+                                        216
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∃e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                386,
+                                209,
+                                469,
+                                229
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        386,
+                                        209,
+                                        469,
+                                        229
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y) ⊢ σ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                502,
+                                223,
+                                529,
+                                247
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        502,
+                                        223,
+                                        529,
+                                        247
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∨e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 5,
+                    "bbox_fs": [
+                        32,
+                        98,
+                        543,
+                        247
+                    ]
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        33,
+                        274,
+                        244,
+                        451
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                35,
+                                276,
+                                41,
+                                282
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        35,
+                                        276,
+                                        41,
+                                        282
+                                    ],
+                                    "score": 0.913,
+                                    "content": "*",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                85,
+                                291,
+                                191,
+                                307
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        291,
+                                        105,
+                                        306
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_ax",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        171,
+                                        291,
+                                        191,
+                                        307
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_ax",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                302,
+                                169,
+                                325
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        302,
+                                        82,
+                                        325
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢ P(X)",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        115,
+                                        303,
+                                        169,
+                                        325
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢¬P(X)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                206,
+                                328,
+                                212,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        328,
+                                        212,
+                                        337
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                105,
+                                336,
+                                142,
+                                354
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        336,
+                                        142,
+                                        354
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢ ⊥",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                221,
+                                352,
+                                246,
+                                373
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        352,
+                                        246,
+                                        373
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⊥e",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                366,
+                                157,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        366,
+                                        157,
+                                        388
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Γ ⊢ ∀Y.P(Y)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                223,
+                                387,
+                                241,
+                                403
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        387,
+                                        241,
+                                        403
+                                    ],
+                                    "score": 1.0,
+                                    "content": "⇒ i",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                34,
+                                399,
+                                225,
+                                420
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        399,
+                                        225,
+                                        420
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y), ¬P(X) ⊢ P(X)=>∀Y.P(Y)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                219,
+                                416,
+                                240,
+                                435
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        416,
+                                        240,
+                                        435
+                                    ],
+                                    "score": 1.0,
+                                    "content": "_∃i",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "bbox": [
+                                33,
+                                432,
+                                149,
+                                451
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        33,
+                                        432,
+                                        149,
+                                        451
+                                    ],
+                                    "score": 1.0,
+                                    "content": "¬∀Y.P(Y), ¬P(X) ⊢ σ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 15,
+                    "bbox_fs": [
+                        32,
+                        276,
+                        246,
+                        451
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.7.6"
+}

@@ -1,0 +1,986 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Primer Parcial - ${ \\bf 1 } ^ { \\mathrm { e r } }$ cuatrimestre de 2025- Parte 2 ",
+        "bbox": [
+            186,
+            29,
+            805,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Comieio Malena ",
+        "text_level": 1,
+        "bbox": [
+            618,
+            0,
+            793,
+            22
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/2d1a9a8fbe922e92222b1ec1d90f17d8a679d092ac7284df434907a8cdc7d165.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#OrdenLibreta</td><td rowspan=1 colspan=1>Libreta</td><td rowspan=1 colspan=1>Apellidoy Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>Penes Natalia</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>P</td></tr></table>",
+        "bbox": [
+            151,
+            58,
+            831,
+            104
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "CPomotionodo) ",
+        "text_level": 1,
+        "bbox": [
+            724,
+            105,
+            897,
+            122
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Las notasparacadaejercicioson:I,R,B,,E.EsteexameneapruebaobeniendoalmenosdosejerciciosByuoR se promociona con al menos dosejerciciosMByuno B.Es posibleobtener una aprobaci6ncondicional con un ejercicio Mb,uno ByunoI.Estorequiereentregaralgoquecontribuyaalasoluciondelejercicio.Ponernombre,apelidoynumerodeorden entodaslashojas,ynumerarlas.Sepuedeutizartodolodefinidoenlas practicasytodo loquesedioenclase,colocando referenciasclaras.Elordendelosejerciciosesarbitrario.Recomendamoslerelparcialcompletoantesdeempezararesolverlo ",
+        "bbox": [
+            117,
+            122,
+            882,
+            197
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio1-Programacion funcional ",
+        "bbox": [
+            119,
+            206,
+            415,
+            220
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Aclaracion: en este ejercicio no esta permitido utilizar recursi6n explicita, a menos que se indique lc contrario. ",
+        "bbox": [
+            114,
+            225,
+            877,
+            252
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Se detine el tipo de datos ABnv a, que representa arboles binarios no vacios con elementos de tipo a: ",
+        "bbox": [
+            115,
+            257,
+            842,
+            273
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "dataABNVa=Hoja a丨Unia（ABNVa）丨Bi（ABNVa）a（ABNVa）",
+        "bbox": [
+            115,
+            274,
+            663,
+            289
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definimos el siguiente arbol para los ejemplos: ",
+        "bbox": [
+            112,
+            290,
+            443,
+            305
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "abnv=Bi（Uni2（Hoja1））3（Bi（Hoja 4）5（Uni2（Hoja7)） ",
+        "bbox": [
+            112,
+            307,
+            636,
+            325
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Definirlas funciones foldABnv y recABNv,que implementan respectivamente los esquemas de recursi6n estructural y primitiva para el tipo ABNv a.Solo en este inciso se permite usar recursion explicita. ",
+        "bbox": [
+            114,
+            339,
+            887,
+            371
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b) Definirla funcion elemABNv::Eq a => a -> ABNV a -> Bool,que indica si un elemento pertenece a unarbol. ",
+        "bbox": [
+            109,
+            380,
+            889,
+            409
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: elemABNv 7 abnv True. ",
+        "bbox": [
+            132,
+            414,
+            435,
+            431
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c) Definir la funcion reemplazarUno::Eq a => a -> a -> ABNV a -> ABNv a que,dados dos elementos x e y y un arbol. devuelvn un arbel como el original, pero reemplazando l: primere aparici6n de x por y (la primera desde la raiz yendo de izquierda a derecha, en el orden de preorder). ",
+        "bbox": [
+            105,
+            444,
+            899,
+            494
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: ",
+        "bbox": [
+            126,
+            495,
+            225,
+            509
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "reemplazarUno 2 5 abnv\\~Bi (Uni 5 (Hoja 1)） 3 (Bi (Hoja 4) 5 (Uni 2 (Hoja 7))).   \nreemplazarUno 2 5 (Hoja $1 ) \\sim$ Hoja1. ",
+        "bbox": [
+            122,
+            511,
+            858,
+            542
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d)Definir la funci6n nivel:ABNv a -> Int ->[a],que liste todos los elementos del nivel indicado de izquierda a derecha,siendo O el nivel de la raiz. Si el nivel no existe (ya sea por ser negativo o por superar la altura del árbol), devolver []. ",
+        "bbox": [
+            105,
+            551,
+            894,
+            597
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: nivel abnv 1\\~ [2,5]. nivel abnv 2\\~ [1,4,2]. nivel abnv $4 \\sim [ ]$ ",
+        "bbox": [
+            136,
+            602,
+            341,
+            663
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pista: aprovechar la currificacion y utilizar evaluacion parcial. ",
+        "bbox": [
+            141,
+            671,
+            605,
+            687
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 -Demostracion de propiedades a) Considerar las siguientes definiciones; ",
+        "bbox": [
+            102,
+            704,
+            458,
+            720
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            115,
+            735,
+            418,
+            751
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "data AB a= Nill Bin (AB a)a (AB a)elemAB:Eqa=>a->AB a-> Bool  \n{PO} elemABNi1 $\\approx$ False  \n{P1}elemABx（Bin1rd）=（x==r）11（elemABxi） 11（elemABxd）mapAB:（a->b）->ABa->AB b  \nMO）mapABNilNi1  \n{M1}mapABf（Binird）=Bin（mapABf1）（fr）（mapABfd）",
+        "bbox": [
+            147,
+            764,
+            754,
+            904
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            810,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ean dos tipos a y b tales que valen Eq a, Eq b，y por ende tambien la siguiente propiedad ",
+        "bbox": [
+            142,
+            17,
+            843,
+            34
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar la siguiente propiedad: ",
+        "bbox": [
+            126,
+            65,
+            394,
+            80
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "e permite definir macros (i.e., poner nombres a expresiones largas para no tener que repetirlas) ",
+        "bbox": [
+            137,
+            116,
+            915,
+            131
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "No es obligatorio escribir los $\\forall$ correspondientes en cada paso, pero es importante recordar que estan presentes. Recordar tambien que $\\mathrm { l o s } = \\mathrm { d e }$ las definiciones pueden leerse en ambos sentidos. ",
+        "bbox": [
+            124,
+            136,
+            937,
+            167
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se consideran demostradas todas las propiedades conocidas sobre enteros y booleanos. ",
+        "bbox": [
+            119,
+            172,
+            816,
+            187
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sugerencia: tener en cuenta que Vx:Bool.Vy::Bool.Vz:Bool. $( \\mathbf { x } \\Rightarrow \\mathbf { y } ) \\Rightarrow ( \\mathbf { x } \\Rightarrow \\mathbf { z } \\lor \\mathbf { y }$ ). ",
+        "bbox": [
+            107,
+            192,
+            818,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar el siguiente teorema usando Deduccion Natural, sin utilizar principios clasicos ",
+        "bbox": [
+            94,
+            216,
+            840,
+            232
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b5e3ca84e67b8a0f9b02e52ad10277f8a6cb2aca7817b9a53ee565451c3cc14b.jpg",
+        "text": "$$\n\\rho \\Rightarrow ( \\sigma \\lor ( \\rho \\Rightarrow \\tau ) ) \\Rightarrow ( \\sigma \\lor \\tau )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            410,
+            242,
+            643,
+            257
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3-Calculo Lambda Tipado ",
+        "text_level": 1,
+        "bbox": [
+            78,
+            275,
+            418,
+            290
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sedesea extender el calculo lambda simplemente tipado para modelar listas ordenadas. Unalista ordenada se construye de manera similar a una lista comun,pero sus observadores se comportan de manera diferente: la cabeza de la lista es siempre el minimo elemento,y su cola es el resto de los elementos. ",
+        "bbox": [
+            75,
+            294,
+            939,
+            343
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Estaslistastienencomoprecondicinqueeltiodesuselementoscuenteconunaoperacindecomparacin $<$ (no es necesario escribir nada al respecto,suponemos que vale). ",
+        "bbox": [
+            84,
+            346,
+            937,
+            378
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se extienden los tipos y expresiones de la siguiente manera: ",
+        "bbox": [
+            84,
+            381,
+            556,
+            395
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\tau : = \\dots 1 \\vert \\tau \\vert ^ { < }$ M:=.|]丨M:<M|head<(M)|tai1<(M) ",
+        "bbox": [
+            126,
+            397,
+            531,
+            432
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "donde: ",
+        "bbox": [
+            92,
+            432,
+            146,
+            445
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$1 + 1 <$ es el tipo de las listas ordenadas con elementos de tipo $\\tau$ ",
+        "bbox": [
+            126,
+            457,
+            623,
+            472
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$1 1 \\frac { < } { \\tau }$ es una lista ordenada vacia que admite valores de tipo $\\tau$ ",
+        "bbox": [
+            124,
+            479,
+            620,
+            497
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$M _ { 1 } : : \\thinspace M _ { 2 }$ es la lista resultantede agregar el elemento $M _ { 1 }$ a la lista $M _ { 2 } { } ^ { 1 }$ ",
+        "bbox": [
+            124,
+            504,
+            710,
+            522
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "head $^ { < } ( M )$ denota el minimo elemento de la lista $M$ ",
+        "bbox": [
+            121,
+            529,
+            551,
+            546
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "tail<(M) es la lista ordenada con todos los elementos de M excepto el minimo (si M tiene mas de una aparicion de su minimo elemento, se elimina una de ellas). ",
+        "bbox": [
+            114,
+            555,
+            932,
+            589
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Introducir las reglas de tipado para la extension propuesta. ",
+        "bbox": [
+            109,
+            597,
+            600,
+            614
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Definir el conjunto de valores y las nuevas reglas de reducción en un paso. Tener en cuenta que una lista vacia no tiene cabeza ni cola. ",
+        "bbox": [
+            109,
+            622,
+            932,
+            653
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pista: puede ser necesario mirar mas de un nivel de un término para saber a qué reduce. ",
+        "bbox": [
+            137,
+            659,
+            732,
+            674
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) Mostrar paso por paso como reduce la expresion: ",
+        "bbox": [
+            109,
+            680,
+            521,
+            695
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "head $\\begin{array} { r } { 1 ^ { < } ( 1 ( \\lambda x : \\ N a t . \\underline { { 2 } } ) z e r o ) \\cdots \\leq \\underline { { 1 } } \\cdots ( 1 | _ { N a t } ^ { < } ) } \\end{array}$ ",
+        "bbox": [
+            107,
+            698,
+            394,
+            716
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se pueden considerar dadas las siguientes reglas: ",
+        "bbox": [
+            142,
+            719,
+            519,
+            735
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9cd2c3c4245ce5e3e504a82784a8ab090de867d689401f775d6e268713ee5fde.jpg",
+        "text": "$$\n\\frac { M _ { 1 } \\to M ^ { \\prime } } { M _ { 1 } < M _ { 2 } \\to M ^ { \\prime } < M _ { 2 } } ( \\mathrm { E } \\mathrm { - } < _ { 1 } ) \\quad \\frac { M _ { 2 } \\to M ^ { \\prime } } { V < M _ { 2 } \\to V < M ^ { \\prime } } ( \\mathrm { E } \\mathrm { - } < _ { 2 } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            290,
+            752,
+            776,
+            783
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bffa5a4286c94844778e801ca0e572774f0a606db030a05f7d61787600ee221d.jpg",
+        "text": "$$\n\\overline { { V < z e r o \\to \\mathsf { F a l s e } ^ { \\prime } } } ^ { \\left( \\mathrm { E } - < _ { F } \\right) } \\quad \\overline { { z e r o < \\mathsf { S u c c } ( V ) \\to \\mathsf { T r u e } ^ { \\left( \\mathrm { E } - < _ { T } \\right) } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            801,
+            771,
+            825
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f19edde72d1b699c0128c29f48a9a9aac8a80857dd1c2b85f3dda593af0b24d8.jpg",
+        "text": "$$\n\\overline { { \\mathsf { S u c c } ( V _ { 1 } ) < \\mathsf { S u c c } ( V _ { 2 } ) \\to V _ { 1 } < V _ { 2 } } }  ( \\mathrm { E } - < _ { \\cal S } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            374,
+            843,
+            690,
+            865
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            810,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Notarque M1nonecesariamenteeslacabezadelalistayqueesunconstructornoesresponsabledeordenarlos elementosenlalista.Elordenapaecealobservarla.Porejeplo12y21ondosvlorsdetipo Natquetienen la misma cabezaylamisma cola. ",
+        "bbox": [
+            110,
+            872,
+            922,
+            908
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            505,
+            925,
+            519,
+            933
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/d7c916be01b219acc687f78fe368a360fe699494d81b2cc0f8f83ab0c7e20fae.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            68,
+            48,
+            109,
+            78
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ABNV月(A0）AaB）BNdb ",
+        "bbox": [
+            157,
+            32,
+            900,
+            104
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "foldABNv::（a→b）→(a>b→b)→（b-a→b→b)→ABNVa→b   \nfoldABNV fHoja fUni fBi ab=case ab of Hoja v> fHoja V Univar-→fUniv（recar） Biivd-→fBi(ceci）v(recd) where rec=foldABNV fHoja FUni fBi ",
+        "bbox": [
+            97,
+            123,
+            858,
+            313
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ecAem:a na recABNv::（a→b)→（a→AbNva→b→b)ABraAa （ABNVa→b→a→ABNVa→b→b)→ABNVa-→b ",
+        "bbox": [
+            75,
+            353,
+            910,
+            433
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ecABNV fHoja FUni FBi ab=case ab of Hojav-FHoja V niarFUniar (rec ar) Biivd→fBii(reci)vd (recd) Whererec=recAeNv FHoja FUni fBi elemABNV::Eqa=>a→ABNVq-Bool elemABNV e=FoldABNV (\\V→y（v==e)）neTnO (vrec-→(v==e)lrec)(\\reci Vrecd→(v==e)llrecillrecd) ",
+        "bbox": [
+            105,
+            452,
+            858,
+            591
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            139,
+            619,
+            978,
+            694
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "reemolazarUno::Eqa=>aa-ABNva→ANvareemplazarUnoxy=recABNvvix=3tba（v→ic（x==v）then （Hoja yelse（Hojay））（varrec-if（x-=v）+hen（uni y ar)else（uni v rec))\\irecivdrecd→if（xv）then（Biiyd）elsexnara（if（elemAeNvxi）+hen(Bigrecivd)else（Biivrecd))",
+        "bbox": [
+            129,
+            722,
+            979,
+            896
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            810,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            16,
+            207,
+            72,
+            414
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            70,
+            21,
+            152,
+            48
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "V nivelABNVa→Int→[aJ mvel=roldABNV （\\v→（\\n→if（n==O）tnen [v] else[)） Havek   \n(vrec→（n→if(n==o) +hen [] else aeer rec(n-1))   \n(recivrecd→(n→iF（n==o)+hen [velseleeuen+tnedde (reci(n-1)+(recd（o-）))   \nEj3： a Reggos de tipade： FEM:TrN:[T] -VACA T-LiSTA rFM:<M:LT<   \nFEM:CT]< T-Head FEM:CT1 t-tait   \nFhead<(M):T rFtai1<（M）=[r< b Ceniunfo de valoen: Vx=...CJIV:<V Reglon de noduccien NM MM E-lista2 E-listat   \nM<M→MM V::<M→V:M M→N E-nead MM E-tail   \nhead(m)→head²（H') +ail²（N）-→tail<(M）   \nA<N   \nKeads(vv)（v<head（v））+heoV ese hddcy）   \n+it<(：<）→(F（V<head（v）+hen Ve1seV=taH（O）   \nhead<(v<[）→V   \nhead<（vy）→if{vshead(vV））+hen V1else head(ve:y   \ntail<（v∴<[）→[   \n(vf<ed<）(ese v<tail(:</) ",
+        "bbox": [
+            29,
+            314,
+            976,
+            647
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            864,
+            942,
+            978,
+            984
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            32,
+            319,
+            71,
+            376
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            95,
+            23,
+            973,
+            912
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            808,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            20,
+            557,
+            47,
+            573
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            30,
+            280,
+            58,
+            298
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "head<（（λx:Nat.2）tero）<⊥:<CJNa+) e-head E-head Eisla Succ(ero) ifsucc(succ(2ero))<head(:at)+hen succ(succ(ero)) ead else keadCE7at)A succ(re) →if（succCsucc(zero))<succ(zero)A EF Enead vaco +Efsucc（2ero）<zeroA E-IF -e-<s head(succ(2eo):[Nat)->Succ(2ero) V E-iFfalse E-heod ",
+        "bbox": [
+            0,
+            127,
+            983,
+            836
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            810,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2: bSin principios cla'sicos. ax ax $\\begin{array} { r } { \\frac { \\frac { \\partial \\mathcal { K } } { \\partial \\tau } } { \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } } { \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } } } } \\\\ { \\frac { \\partial \\mathcal { K } \\mathcal { K } \\mathcal { K } ( \\theta \\Rightarrow \\pi ) } { \\Gamma \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\left( \\mathcal { S } \\cup \\mathcal { K } \\right) } \\frac { \\Gamma \\mathcal { K } \\mathcal { K } } { \\left( \\mathcal { S } \\cup \\mathcal { K } \\right) \\tau } \\frac { \\Gamma \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } } { \\Gamma \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } \\mathcal { K } \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } } { \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } } { \\partial \\tau } } } \\\\  \\frac  \\partial \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } ( \\theta \\Rightarrow \\tau ) \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\frac { \\partial \\mathcal { K } \\mathcal { K } \\mathcal { K } } { \\partial \\tau } \\frac { \\partial \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } \\mathcal { K } }  \\frac  \\partial \\mathcal  K \\end{array}$ CP=TFP=>TrP=2T上P 27e Vi2 √ ",
+        "bbox": [
+            78,
+            13,
+            994,
+            420
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "a Lodemuentro pe induccien etructiual en arbeles A vg4tABa.P(t)vale.   \nP(t)=x∴afa→b，(e1emABxt=>elemAB（fx) (mapABt1)   \nPoc inducion eshuctual en ABa Qu ",
+        "bbox": [
+            99,
+            422,
+            986,
+            559
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "P(Nil)vale ",
+        "bbox": [
+            114,
+            561,
+            366,
+            584
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ram i∵ABa d::ABa,Vr:a(Pci）APcd))=>PCBinird   \n:v=seaxaFa→bQvg ekmAB X Nil =>elemAB（fx)（mapAB fNil)). plemAB xNil= False A   \nte ",
+        "bbox": [
+            107,
+            580,
+            973,
+            744
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "P=aabelmAxieemABx）（apAi) P(d）=xa-bemxdelnA（fx）（map os Son mi H.I(son verdadero>) seaxafa→b uuraQmi,dABa Qug:elemABx（ind）-7elemAB（fx）（mpAf（Binird）） ",
+        "bbox": [
+            105,
+            761,
+            973,
+            910
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            808,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "elemABx （bin ird) lo asumo vecdaderoya que si esfalso no engo que probor nada）y veo gue vale econsecente ",
+        "bbox": [
+            89,
+            52,
+            808,
+            128
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "elemABx（Bin:d）=（x==r)(e1emABxi）=（elemABxd)   \nconsecwenke: elemA（fx）（mapABft）=BaleAB作F2m（bnndpAerV 5013 (Binicd) elemABCfx)（Bin（mapAB fi）（Fr)（mapABfd))   \n=（（（fx)==（fr））1（elemAB（fx)（mapABfi))1 山 (elemAB（fx)（mapABfd)））=   \nyose gue e verdadero.Por leme de generacin   \nB0ol：   \nA（x==r）=True Por{congruencia==} si x==r=>βx==fY etencs:   \n（(Fx)==(fr)) I1B=TrveB y por pop de Bobl TruelB=True =7el conseuente vale eneske caso   \nB(x==s)=False Entonceo por lema oke gereracio de   \nBool:   \nBA）（elemABxi）=Tue PorH.I+engo Pci)=elemABxi=>elenAB（fx)(mapfi) entonceselemAB（fx)（map fi)=true TengoCIceeaBTa True 1celemAB （Fx)（mapAB fd）) yPorprop.de BodCITrveleknAB（x)（mapAOfd))=True =7el consewete vale en esle cao   \nBB(elemABxi)=tw falsecomo e werdadero   \nentonces por xop de Bcol,FalseFasellA=ATrve=>A=True entonces elemABxde verdaderoypor H.Ieg   \nP(d)=e\\emABxd=elemAB（Fx)（mapF)entonces elemAB(fx)(mapFd)ewerdadero ",
+        "bbox": [
+            53,
+            90,
+            939,
+            938
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            808,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Perey Natalia ",
+        "bbox": [
+            81,
+            8,
+            961,
+            121
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Temgo We C(lelemAB （Fx) (mgpAB Fi)l Tue yRorprop de BoolClelemAB（fx)(mapAB fi))lTrue=True entonces de nvevo vale el conse wente ",
+        "bbox": [
+            95,
+            132,
+            952,
+            294
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Probe  gue para cada casosi vale el antecedente entoncen vale el conse auente =7 probe la implicacion PcBioird) es verdadono. ",
+        "bbox": [
+            103,
+            351,
+            931,
+            509
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "PK yvalenorprincipiodenduc   \nestructural en ABa, queda dermostra do que   \nEABa.Pct) e verdadloro. ",
+        "bbox": [
+            114,
+            559,
+            828,
+            781
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Cs CamScanner ",
+        "bbox": [
+            864,
+            942,
+            978,
+            984
+        ],
+        "page_idx": 8
+    }
+]

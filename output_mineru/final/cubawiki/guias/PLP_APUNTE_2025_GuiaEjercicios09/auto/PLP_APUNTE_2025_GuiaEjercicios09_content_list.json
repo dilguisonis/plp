@@ -1,0 +1,1411 @@
+[
+    {
+        "type": "text",
+        "text": "Práctica No 9 - Programación Orientada a Objetos (v1.1) ",
+        "text_level": 1,
+        "bbox": [
+            159,
+            87,
+            833,
+            108
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Para resolver esta práctica, recomendamos usar el entorno Pharo, que puede bajarse del sitio web indicado en la sección Enlaces de la página de la materia. ",
+        "bbox": [
+            97,
+            131,
+            904,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Los ejercicios marcados con el símbolo $\\star$ constituyen un subconjunto mínimo de ejercitación. Sin embargo, aconsejamos fuertemente hacer todos los ejercicios. ",
+        "bbox": [
+            94,
+            161,
+            904,
+            189
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducción ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            210,
+            242,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A continuación se incluyen algunos ejercicios que buscan comprender algunas diferencias de Smalltalk con otros de los lenguajes de los paradigmas anteriores. ",
+        "bbox": [
+            92,
+            240,
+            905,
+            268
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            269,
+            183,
+            282
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente código de Smalltalk, se pide responder: ",
+        "bbox": [
+            92,
+            290,
+            512,
+            304
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "v a r 1 : $=$ ' un t e x t o ' c o p y .   \nv a r 2 : $=$ ' un t e x t o ' c o p y .   \n$\\mathsf { v a r 3 } : = \\mathsf { v a r 1 }$ . ",
+        "bbox": [
+            94,
+            311,
+            315,
+            350
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { v a r 1 } \\ = \\ \\mathsf { v a r 2 }$ $\\mathsf { v a r 1 } = \\mathsf { v a r 2 }$ $\\mathsf { v a r } 1 = \\mathsf { v a r } 3$ ",
+        "bbox": [
+            94,
+            363,
+            206,
+            403
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. $\\dot { \\downarrow } ^ { \\mathrm { C u } \\acute { \\mathrm { a l } } }$ es resultado de la ejecución de las últimas tres líneas? ¾Por qué es así? ",
+        "bbox": [
+            114,
+            420,
+            700,
+            436
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\dot { \\downarrow } \\mathrm { Q u } \\dot { \\mathrm { e } }$ ocurriría si se escribe y ejecuta un código similar en Haskell o Prolog? ¾En qué se diferencian los tres lenguajes? Listar los operadores similares que hay en ellos. ",
+        "bbox": [
+            104,
+            445,
+            899,
+            474
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "iii. Listar los operadores de comparación por igualdad de cada uno de los tres lenguajes, e identi\u001ccar similitudes y diferencias entre ellos. ",
+        "bbox": [
+            105,
+            482,
+            902,
+            511
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            530,
+            184,
+            543
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente código para un modelo de una jerarquía de \u001cguras geométricas, donde ambas clases tienen de\u001cnio el mensaje dibujar: ",
+        "bbox": [
+            92,
+            550,
+            907,
+            577
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "( C í r c u l o new r a d i o : 5 ) d i b u j a r .   \n( R e c t á n g u l o new b a s e : 4 a l t u r a : 3 ) d i b u j a r .   \ni. ¾Cómo podría modelarse esto mismo en Haskell? Pensarlo en detalle.   \nii. Qué cambios habría que hacer en el código de Smalltalk y en el Haskell si se agregara un nuevo tipo de gura (e.g., Triángulo)?   \niii. ¾Cómo podría resolverse esto mismo usando Prolog? ¾Qué diferencias habría con lo anterior? ",
+        "bbox": [
+            92,
+            583,
+            510,
+            611
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            629,
+            909,
+            707
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            724,
+            184,
+            738
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente código, en el contexto de un modelo de datos personales, se pide: ",
+        "bbox": [
+            94,
+            744,
+            702,
+            759
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "p e r s o n a 1 : $=$ P e r s o n a new nombre : ' Pedro ' ; e d a d : 3 5 . p e r s o n a 2 : $=$ P e r s o n a new no mbr e : ' R a f f a e l l a ' ; e d a d : 3 8 . p e r s o n a 1 nombre   \np e r s o n a 2 edad ",
+        "bbox": [
+            92,
+            764,
+            598,
+            818
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. Si modeláramos algo similar en Prolog, usaríamos un conjunto de hechos para denotar los datos de las dos personas. $\\dot { \\downarrow } \\mathrm { Q u } \\dot { \\mathrm { e } }$ ventajas y desventajas tendrían ambas implementaciones? ",
+        "bbox": [
+            112,
+            837,
+            904,
+            865
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\dot { \\iota }$ Cómo podría modelarse algo similar en Haskell? $\\dot { \\iota }$ Cuál sería el código para de\u001cnir los tipos y funciones necesarias? ",
+        "bbox": [
+            107,
+            873,
+            904,
+            902
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Página 1 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            184,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Anteriormente trabajamos con Haskell y Prolog, y ahora con Smalltalk. ",
+        "bbox": [
+            94,
+            111,
+            621,
+            127
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. $\\dot { \\iota }$ Te parece que los tres lenguajes son igualmente 'potentes' ?   \nii. ¾En estos lenguajes se pueden modelar los mismos tipos de problemas?   \niii. ¾Hay ventajas o desventajas en usar un lenguaje u otro de acuerdo a diferentes situaciones/problemas? ¾Cuáles serían? ",
+        "bbox": [
+            105,
+            135,
+            905,
+            211
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Objetos y mensajes ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            248,
+            322,
+            267
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\textbf { 5 } \\star$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            278,
+            205,
+            292
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "En las siguientes expresiones, identi\u001ccar mensajes, el objeto receptor y los colaboradores para cada caso. ",
+        "bbox": [
+            95,
+            299,
+            870,
+            313
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) 10 numberOfDigitsInBase: 2.   \nb) 10 factorial.   \nc) $2 0 \\ + \\ 3 \\ * \\ 5$ .   \nd) $2 0 ~ + ~ ( 3 ~ * ~ 5 )$ .   \ne) December first, 1985.   \nf) $1 ~ = ~ 2$ ifTrue: [ \\`what!?' ].   \ng) 1@1 insideTriangle: 0@0 with: 2@0 with: 0@2.   \nh) \\`Hello World' indexOf: \\$o startingAt: 6.   \ni) (OrderedCollection with: 1) add: 25; add: 35; yourself.   \nj) Object subclass: #SnakesAndLadders instanceVariableNames: \\`players squares turn die over' classVariableNames: \\`' poolDictionaries: \\`' category: \\`SnakesAndLadders'. ",
+        "bbox": [
+            107,
+            325,
+            347,
+            447
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            369,
+            326,
+            828,
+            447
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 6 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            466,
+            184,
+            480
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Para cada una de las expresiones del punto anterior, indicar cuál es el resultado de su evaluación. Para este punto se recomienda utilizar el Workspace de Pharo para corraborar las respuestas. ",
+        "bbox": [
+            94,
+            487,
+            905,
+            514
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 7 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            521,
+            184,
+            536
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Dar ejemplos de expresiones válidas en el lenguaje Smalltalk que contengan los siguientes conceptos entre sus sub-expresiones. En cada caso indicar por qué se adapta a la categoría y describir que devuelve su evaluación. ",
+        "bbox": [
+            87,
+            542,
+            907,
+            571
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Objeto e) Colaborador i) Carácter b) Mensaje unario f) Variable local j) Array c) Mensaje binario g) Asignación   \nd) Mensaje keyword h) Símbolo ",
+        "bbox": [
+            107,
+            581,
+            752,
+            664
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Bloques, métodos y colecciones ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            702,
+            458,
+            721
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $^ \\mathrm { ~ 8 ~ } \\star$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            732,
+            205,
+            746
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Para cada una de las siguientes expresiones, indicar qué valor devuelve o explicar por qué se produce un error al ejecutarlas. Recomendamos pensar qué resultado debería obtenerse y luego corraborarlo en Pharo. ",
+        "bbox": [
+            94,
+            752,
+            904,
+            780
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) $[ : { \\bf x } | { \\bf x } + 1 ]$ value: 2   \nb) $[ | { \\textbf { x } } | { \\textbf { x } } : = 1 0 \\cdot { \\textbf { x } } + 1 2 ]$ value   \nc) $\\begin{array} { r } { \\mathsf {  { ~ \\mathsf { L } : x ~ } } : \\mathsf { y } \\mid \\mathsf {  { z } } \\mid \\mathsf {  { z } } : = \\textsf { x } + \\mathsf {  { y } } } \\end{array}$ value: 1 value: 2   \nd) $[ : { \\bf x } \\ : { \\bf y } | \\ { \\bf x } \\ + \\ 1 ]$ value: 1   \ne) $[ : \\mathbf { x } | [ : \\mathbf { y } | \\textbf { x } + \\ : 1 ] ]$ value: 2   \nf) $[ [ : { \\bf x } | { \\mathrm { ~ \\bf ~ x ~ } } + { \\mathrm { ~ \\bf ~ 1 } } ] ]$ value   \ng) $[ : { \\bf x } \\ : { \\bf y } : { \\bf z } \\ | \\ { \\bf x } \\ + \\ { \\bf y } \\ + \\ { \\bf z } ]$ valueWithArguments: #(1 2 3)   \nh) $[ \\begin{array} { l } { { \\mathbf { \\sigma } } | \\mathbf { z } | { \\mathbf { \\sigma } } ~ \\mathbf { z } } \\end{array} : = \\begin{array} { l } { 1 0 } \\end{array}$ . $[ : { \\textbf { x } } | { \\textbf { x } } + { \\textbf { z } } ] ]$ value value: 10 ",
+        "bbox": [
+            115,
+            783,
+            544,
+            917
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Página 2 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 9 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            91,
+            184,
+            105
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Responder las siguientes preguntas sobre los closures y los lenguajes vistos anteriormente: ",
+        "bbox": [
+            90,
+            111,
+            756,
+            127
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. $\\dot { \\downarrow } \\mathrm { Q u } \\dot { \\mathrm { e } }$ diferencia hay entre $[ | \\texttt { x y z } | \\texttt { x + 1 } ] \\texttt { y } [ : \\texttt { x : y } : \\texttt { z } | \\texttt { x + 1 } ] \\texttt { \\xi }$   \nii. ¾Qué diferencia hay entre $[ : { \\bf x } | \\mathrm { ~  ~ \\bar { ~ } { ~ \\cal ~ L ~ } ~ } : { \\bf y } | \\mathrm { ~  ~ \\bar { ~ } { ~ \\cal ~ L ~ } ~ } : { \\bf z } | \\mathrm { ~  ~ \\bar { ~ } { ~ \\bf ~ x ~ } ~ } + \\mathrm { ~  ~ \\bar { ~ y ~ } ~ } + \\mathrm { ~  ~ \\bar { ~ z ~ } ~ } + \\mathrm { ~  ~ \\bar { ~ } { ~ \\bf ~ 1 } ~ } ] ] \\mathrm { ~  ~ \\cal ~ y ~ } [ : { \\bf x } \\mathrm { ~  ~ : ~ \\bf y ~ } : { \\bf z } | \\mathrm { ~  ~ \\bar { ~ x ~ } ~ } + \\mathrm { ~  ~ \\bar { ~ y ~ } ~ } + \\mathrm { ~  ~ \\bar { ~ z ~ } ~ } + \\mathrm { ~  ~ \\bar { ~ 1 } ~ } ] \\mathrm { ~  ~ \\bar { ~ z ~ } ~ } .$ iii. $\\dot { \\downarrow } \\mathrm { Q u } \\dot { \\mathrm { e } }$ diferencias se identi\u001ccan hasta el momento entre closures de Smalltalk y lambdas de Haskell? iv. ¾En Prolog existe algo parecido a lambdas y closures? ",
+        "bbox": [
+            97,
+            133,
+            868,
+            217
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 10 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            231,
+            193,
+            246
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Nombrar las diferencias, entre las siguientes colecciones en Smalltalk, dar un ejemplo de uso de cada una. ",
+        "bbox": [
+            92,
+            252,
+            867,
+            267
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "OrderedCollection   \nSortedCollection   \nBag   \nDictionary   \nArray   \nSet   \nMatrix ",
+        "bbox": [
+            117,
+            273,
+            270,
+            373
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 11 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            388,
+            191,
+            401
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dada la siguiente implementación: ",
+        "bbox": [
+            94,
+            407,
+            347,
+            422
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "I n t e g e r << f a c t o r i a l s L i s t | l i s t | l i s t : $=$ O r d e r e d C o l l e c t i o n w i t h : 1 . 2 t o : s e l f do : [ : aNumber | l i s t a d d : ( l i s t l a s t ) \\* aNumber ] . ^ l i s t . ",
+        "bbox": [
+            112,
+            428,
+            704,
+            493
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Donde UnaClase << unMetodo indica que se estará de\u001cniendo el método #unMetodo en la clase UnaClase. ",
+        "bbox": [
+            104,
+            499,
+            904,
+            513
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\dot { \\downarrow } ^ { \\mathrm { C u } \\acute { \\mathrm { a l } } }$ es el resultado de evaluar las siguientes expresiones? ¾Quién es el receptor del mensaje #factorialsList en cada caso? ",
+        "bbox": [
+            90,
+            519,
+            905,
+            548
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) factorialsList: 10.   \nb) Integer factorialsList: 10.   \nc) 3 factorialsList.   \nd) 5 factorialsList at: 4.   \ne) 5 factorialsList at: 6. ",
+        "bbox": [
+            115,
+            556,
+            379,
+            662
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 2 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            676,
+            215,
+            690
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Mostrar un ejemplo por cada uno de los siguientes mensajes que pueden enviarse a las colecciones en el lenguaje Smalltalk. Indicar a qué evalúan dichos ejemplos. ",
+        "bbox": [
+            94,
+            696,
+            904,
+            725
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) #collect: c) #inject: into: e) #reduceRight: b) #select: d) #reduce: (o #fold:) f) #do: ",
+        "bbox": [
+            115,
+            737,
+            810,
+            777
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 3 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            795,
+            215,
+            809
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Suponiendo que tenemos un objeto obj que tiene el siguiente método de\u001cnido en su clase ",
+        "bbox": [
+            94,
+            814,
+            757,
+            829
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "S o m e C l a s s << f o o : x | a B l o c k y z | $z : = 1 0$ . a B l o c k : $= ~ [ \\times ~ > ~ 5$ i f T r u e : [ z := z + x . ^ 0 ] i f F a l s e : [ z := z = x . 5 ] ] . y := a B l o c k v a l u e . $y ~ : = ~ y ~ + ~ z$ . ^ y . ",
+        "bbox": [
+            110,
+            835,
+            761,
+            926
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            675,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Página 3 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\dot { \\downarrow } ^ { \\mathrm { C u } \\acute { \\mathrm { a l } } }$ es el resultado de evaluar las siguientes expresiones? ",
+        "bbox": [
+            92,
+            91,
+            526,
+            107
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) obj foo: 4.   \nb) Message selector: #foo: argument: 5.   \nc) obj foo: 10. (Ayuda: el resultado no es 20). ",
+        "bbox": [
+            115,
+            115,
+            478,
+            178
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $^ { 1 4 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            192,
+            215,
+            205
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Implementar métodos para los siguientes mensajes: ",
+        "bbox": [
+            97,
+            214,
+            477,
+            227
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) #curry, cuyo objeto receptor es un bloque de dos parámetros, y su resultado es un bloque similar al original pero \u0010curri\u001ccado\u0011. Por ejemplo, la siguiente ejecución evalúa a 12. | c u r r i e d new c u r r i e d : = [ : x : r e s | x + r e s ] c u r r y . new : $=$ c u r r i e d v a l u e : 1 0 . new v a l u e : 2 .   \nb) #flip, que al enviarse a un bloque de dos parámetros, devuelve un bloque similar al original, pero con los parámetros en el orden inverso.   \nc) #repetirVeces:, cuyo objeto receptor es un número natural y recibe como colaborador un bloque, el cual se evaluará tantas veces como el número lo indique. Por ejemplo, luego de la siguiente ejecución, count vale 20 y copy 18. | c o u n t copy c o u n t : $\\qquad = \\ 0$ . 10 r e p e t i r V e c e s : [ c o p y : $=$ c o u n t . c o u n t : $=$ c o u n t + 2 ] . ",
+        "bbox": [
+            115,
+            236,
+            907,
+            462
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 1 5 ~ \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            482,
+            215,
+            497
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Agregar a la clase BlockClosure el método de clase generarBloqueInfinito que devuelve un bloque b1 tal que: ",
+        "bbox": [
+            95,
+            504,
+            905,
+            532
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b1 value devuelve un arreglo de 2 elementos #(1 b2).   \nb2 value devuelve un arreglo de 2 elementos #(2 b3). . . .   \nbi value devuelve un arreglo de 2 elementos #(i $b _ { i + 1 } .$ ). ",
+        "bbox": [
+            115,
+            543,
+            544,
+            602
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Method Dispatch, self y super ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            639,
+            447,
+            659
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 16 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            669,
+            193,
+            683
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Indique en cada caso si la frase es cierta o falsa en Smalltalk. Si es falsa, ¾cómo podría corregirse? ",
+        "bbox": [
+            97,
+            690,
+            813,
+            706
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "i. Todo objeto es instancia de alguna clase y a su vez, estas son objetos.   \nii. Cuando un mensaje es enviado a un objeto, el método asociado en la clase del receptor es ejecutado.   \niii. Al mandar un mensaje a una clase, por ejemplo Object new, se busca en esa clase el método correspondiente. A este método lo clasi\u001ccamos como método de instancia.   \niv. Una Variable de instancia es una variable compartida por todas las instancias vivas de una clase, en caso de ser modi\u001ccada por alguna de ellas, la variable cambia.   \nv. Las Variables de clase son accesibles por el objeto clase, pero al mismo tiempo también son accesibles y compartidas por todas las instancias de la clase; es decir, si una instacia modi\u001cca el valor de dicha variable, dicho cambio afecta a todas las instancias.   \nvi. Al ver el código de un método, podemos determinar a qué objeto representará la pseudo-variable self.   \nvii. Al ver el código de un método, podemos determinar a qué objeto representará la pseudo-variable super. ",
+        "bbox": [
+            104,
+            713,
+            907,
+            928
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Página 4 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "viii. Un Método de clase puede acceder a las variables de clase pero no a las de instancia, y por otro lado, siempre devuelven un objeto instancia de la clase receptora. ",
+        "bbox": [
+            97,
+            91,
+            907,
+            120
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "ix. Los métodos y variables de clase son los métodos y variables de instancia del objeto clase. ",
+        "bbox": [
+            100,
+            129,
+            798,
+            145
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 17 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            159,
+            215,
+            173
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Suponiendo que anObject es una instancia de la clase OneClass que tiene de\u001cnido el método de instancia aMessage. Al ejecutar la siguiente expresión: anObject aMessage ",
+        "bbox": [
+            94,
+            181,
+            905,
+            210
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "i. ¾A qué objeto queda ligada (hace referencia) la pseudo-variable self en el contexto de ejecución del método que es invocado?   \nii. ¾A qué objeto queda ligada la pseudo-variable super en el contexto de ejecución del método que es invocado?   \niii. ¾Es cierto que super $= =$ self? ¾es cierto en cualquier contexto de ejecución? ",
+        "bbox": [
+            109,
+            218,
+            905,
+            310
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 18 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            325,
+            193,
+            338
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Se cuenta con la clase Figura, que tiene los siguientes métodos:   \np e r i m e t r o ^ s e l f l a d o s s u m a r T o d o s .   \nl a d o s ^ s e l f s u b c l a s s R e s p o n s i b i l i t y . ",
+        "bbox": [
+            97,
+            346,
+            569,
+            412
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "donde sumarTodos es un método de la clase Collection, que suma todos los elementos de la colección receptora. El método lados debe devolver un Bag (subclase de Collection) con las longitudes de los lados de la \u001cgura. ",
+        "bbox": [
+            87,
+            414,
+            904,
+            456
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Figura tiene dos subclases: Cuadrado y Círculo. Cuadrado tiene una variable de instancia lado, que representa la longitud del lado del cuadrado modelado; Círculo tiene una variable de instancia radio, que representa el radio del círculo modelado. ",
+        "bbox": [
+            92,
+            457,
+            904,
+            498
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Se pide que las clases Cuadrado y Círculo tengan de\u001cnidos su método perímetro. Implementar los métodos que sean necesarios para ello, respetando el modelo (incompleto) recién presentado. ",
+        "bbox": [
+            94,
+            499,
+            900,
+            527
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Observaciones: el perímetro de un círculo se obtiene calculando: $2 \\cdot \\pi \\cdot r a d i o$ , y el del cuadrado: 4 · lado. Consideramos que un círculo no tiene lados. Aproximar $\\pi$ por 3,14. ",
+        "bbox": [
+            94,
+            527,
+            904,
+            556
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 19 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            562,
+            193,
+            576
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Implementar el método mcm: aNumber en la clase Integer para poder calcular el mínimo común múltiplo entre dos números. ",
+        "bbox": [
+            94,
+            583,
+            904,
+            612
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Recordar que el mismo se calcula cómo $\\begin{array} { r } { m c m ( a , b ) = \\frac { a * b } { g c d ( a , b ) } } \\end{array}$ . Asumir que cuenta con el mensaje gcd: aNumber implementado. ",
+        "bbox": [
+            94,
+            626,
+            568,
+            656
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "i. Realizar un seguimiento de la expresión 6 mcm: $1 0 \\mathrm { ~ y ~ }$ hacer el diagrama de secuencia correspondiente. ",
+        "bbox": [
+            105,
+            668,
+            880,
+            683
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "ii. Con esa información, completar la siguiente tabla: ",
+        "bbox": [
+            112,
+            692,
+            504,
+            706
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/1132a2db3fa513a177ec60b2e2dd050980aaecc495785c5219bf0622c2d14910.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Mensaje</td><td rowspan=1 colspan=1>Recept or</td><td rowspan=1 colspan=1>Colaboradores</td><td rowspan=1 colspan=1>Clase del método</td><td rowspan=1 colspan=1>Resultado</td></tr><tr><td rowspan=1 colspan=1>mcm:</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>：</td><td rowspan=1 colspan=1>：</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            253,
+            721,
+            786,
+            782
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Página 5 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 0 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            213,
+            105
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sean las siguientes clases: ",
+        "bbox": [
+            97,
+            110,
+            285,
+            123
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "O b j e c t s u b c l a s s : C o u n t e r i n s t a n c e V a r i a b l e N a m e s : \" c o u n t \" C o u n t e r s u b c l a s s : F l e x i b l e C o u n t e r i n s t a n c e V a r i a b l e N a m e s : \" b l o c k \" C o u n t e r c l a s s << new ^ s u p e r new i n i t i a l i z e : 0 . F l e x i b l e C o u n t e r c l a s s << new : a B l o c k ^ s u p e r new u s e B l o c k : a B l o c k . C o u n t e r << i n i t i a l i z e : a V a l u e c o u n t : $=$ a V a l u e . F l e x i b l e C o u n t e r << u s e B l o c k : a B l o c k ^ s e l f . b l o c k : $=$ a B l o c k . ^ s e l f . C o u n t e r << n e x t s e l f i n i t i a l i z e : c o u n t + 1 . F l e x i b l e C o u n t e r << n e x t ^ c o u n t . s e l f i n i t i a l i z e : ( b l o c k v a l u e : c o u n t ) . ^ c o u n t . C o u n t e r << n e x t I f : c o n d i t i o n ^ c o n d i t i o n i f T r u e : [ s e l f n e x t ] i f F a l s e : [ c o u n t ] ",
+        "bbox": [
+            124,
+            131,
+            872,
+            373
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Y se ejecuta el siguiente código: aCounter : $=$ FlexibleCounter new: [:v | v+2 ]. aCounter nextIf: true. ",
+        "bbox": [
+            92,
+            379,
+            487,
+            422
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "i. Se desea saber qué mensajes se envían, a qué objetos, dónde está de\u001cnido el método usado, e identi\u001ccar cuál es la respuesta a cada mensaje.   \nii. Armar un diagrama de secuencia donde queden claros los objetos involucrados, el envío de mensajes y las respuestas obtenidas. ",
+        "bbox": [
+            109,
+            438,
+            907,
+            506
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "iii. Completar la siguiente tabla de acuerdo a los mensajes enviados. ",
+        "bbox": [
+            105,
+            514,
+            611,
+            529
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/3c023b4a1b04cd168832e05ebbc5d7904c985b523d06775e2fabcc3327629366.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Mensaje</td><td rowspan=1 colspan=1>Receptor</td><td rowspan=1 colspan=1>Colaboradores</td><td rowspan=1 colspan=1>Clase del método</td><td rowspan=1 colspan=1>Resultado</td></tr><tr><td rowspan=1 colspan=1>new:</td><td rowspan=1 colspan=1>FlexibleCounter</td><td rowspan=1 colspan=1>[:v| v+2]：</td><td rowspan=1 colspan=1>FlexibleCounter</td><td rowspan=1 colspan=1>un contador flexible (unCF)</td></tr></table>",
+        "bbox": [
+            132,
+            532,
+            853,
+            579
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 21 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            594,
+            191,
+            607
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente modelo: ",
+        "bbox": [
+            94,
+            613,
+            284,
+            627
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Object subclass: #X action1 ^[self compute] value. compute $\\sim 1 0$ . baseValue ^self value + 5. value ^1. ",
+        "bbox": [
+            92,
+            640,
+            300,
+            812
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "X subclass: #Y action2 ^super baseValue. baseValue ^20. value ^3. ",
+        "bbox": [
+            509,
+            640,
+            673,
+            772
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Para cada una de las siguientes expresiones se pide hacer un digrama de secuencia con los mensajes y objetvos. Con ello, se pide completar una tabla donde se indique, en orden, cada mensaje que se envía, qué objeto lo recibe, en qué clase está el método respectivo, y cuál es el resultado \u001cnal de cada colaboración: ",
+        "bbox": [
+            94,
+            837,
+            905,
+            881
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "i. Y new action1   \nii. Y new action2 ",
+        "bbox": [
+            110,
+            889,
+            252,
+            927
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Página 6 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\mathbf { 2 2 \\star }$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            213,
+            105
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes de\u001cniciones: ",
+        "bbox": [
+            99,
+            111,
+            374,
+            126
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Object subclass: A [ a: x b: y ^ x a: (y c) b: self. c ^ 2.   \n]   \nB subclass: C [ a: x b: y ^ x. c ^ [self a: super c b: self].   \n]   \nA subclass: B [ a: x b: y ^ y c + x value. c ^ 1.   \n] ",
+        "bbox": [
+            92,
+            137,
+            312,
+            236
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            504,
+            136,
+            786,
+            236
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            90,
+            250,
+            268,
+            350
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Hacer una tabla donde se indique, en orden, cada mensaje se envía, qué objeto lo recibe, con qué colaboradores, en qué clase está el método respectivo, y cuál es el resultado \u001cnal de cada colaboración tras ejecutar el siguiente código: ",
+        "bbox": [
+            92,
+            362,
+            905,
+            405
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(A new) a: (B new) b: (C new) ",
+        "bbox": [
+            114,
+            413,
+            368,
+            428
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 23 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            442,
+            193,
+            456
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Se desea agregar la posibilidad de trabajar con monedas en Smalltalk. Para lograrlo, agregaremos la clase Moneda, con la variable de instancia (colaborador interno) cantidad y los métodos de instancia cantidad y cantidad: para acceder a dicho valor, y tres subclases: Pesos, Dolares y Reales, cada una de ellas con la variable de clase conversiones, que representará un diccionario con la tasa de cambio a cada una de las otras monedas. ",
+        "bbox": [
+            92,
+            462,
+            907,
+            532
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Se extiende la clase Number con los métodos pesos, dolares y reales, los cuales crean una instancia de la subclase correspondiente de Moneda, cuya cantidad es el objeto receptor. Por ejemplo: ",
+        "bbox": [
+            90,
+            535,
+            907,
+            562
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Number $\\gg$ pesos Moneda \u0014 cantidad Moneda \u0014 cantidad: aNumber ^Pesos new cantidad: self ^cantidad ^cantidad $=$ aNumber ",
+        "bbox": [
+            109,
+            567,
+            909,
+            596
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Para cada método que se escriba debe quedar bien claro en qué clase y qué tipo de método (de instancia o de clase) se está implementando. También, si se agregan variables de instancia o clase, debe quedar explicitado. Se considerará un error el uso de código repetido o innecesario. No está permitida la creación de nuevas clases. ",
+        "bbox": [
+            99,
+            601,
+            907,
+            644
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "i. Para la siguiente expresión hacer una tabla donde se indique, en orden, cada mensaje que se envía, qué objeto lo recibe, y cuál es el resultado \u001cnal de cada colaboración: 2000 pesos cantidad.   \nii. Agregar en la clase que corresponda el método cambioDe:a:, que guarde en el diccionario de conversiones de cada moneda involucrada la tasa de cambio a la otra moneda. Por ejemplo, si se indica que la tasa de cambio de la moneda A a B es 2, entonces la clase A debe guardar la información de que el valor de conversión a B es 2, y la clase B debe guardar el valor de conversión a A de 1/2.   \niii. Agregar en la clase que corresponda el método $=$ , que tome una instancia de alguna subclase de Moneda y la compare con la moneda receptora, teniendo en cuenta el nombre de la moneda recibida, la tasa de cambio y las cantidades de ambas monedas. El código de\u001cnido debe permitir que el siguiente test funcione correctamente: testUnidadesConvertibles Moneda cambioDe: #dolar a: #peso es: 1295 Moneda cambioDe: #dolar a: #reales es: 2.65 self assert: 20 dolares $=$ 25900 pesos self assert: 20 pesos $=$ 6.20 reales ",
+        "bbox": [
+            99,
+            650,
+            907,
+            927
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Página 7 de 7 ",
+        "bbox": [
+            455,
+            950,
+            542,
+            961
+        ],
+        "page_idx": 6
+    }
+]

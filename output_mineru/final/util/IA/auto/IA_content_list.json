@@ -1,0 +1,58 @@
+[
+    {
+        "type": "text",
+        "text": "Por qué no pedirle a una Inteligencia Artificial que te resuelva el TP ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            80,
+            823,
+            131
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tal vez te hayas preguntado “¿por qué voy a esforzarme en hacer un TP a mano, si una inteligencia artificial puede hacerlo mejor que yo?” Si nunca lo hiciste, mucho mejor, pero hay quienes lo hicieron. La respuesta: hay varios motivos. ",
+        "bbox": [
+            94,
+            164,
+            895,
+            218
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Antes que nada está la cuestión ética: aun suponiendo que la IA produjese buen código—que muchas veces no lo hace, y de hecho suele tener problemas para explotar los conceptos fundamentales de los distintos paradigmas—pedirle que resuelva un TP y entregar su respuesta es plagio; vos y tu grupo estarían entregando una mezcla de cosas que hizo otra gente en lugar de pensarlo entre ustedes. Usar una IA como referencia está tan bien como buscar en Stack Overflow o consultar el manual del lenguaje de programación, pero la solución la tienen que desarrollar ustedes. ",
+        "bbox": [
+            92,
+            229,
+            904,
+            342
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pero eso no es todo, porque no se trata solamente de ser estudiantes responsables o buenas personas, sino que a la larga tampoco es bueno para ustedes. Si hiciste tu carrera pensando de esa manera, cuando vayas a buscar trabajo quien te tome la entrevista técnica va a pensar: “¿por qué te vamos a contratar, si una inteligencia artificial puede hacer tu trabajo mejor que vos?” Ni hablar de lo que pasaría si quisieras publicar un artículo científico, que tiene que contener una contribución original. ",
+        "bbox": [
+            92,
+            350,
+            904,
+            444
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "En el futuro va a haber montones de “prompt engineers”. En una tarde podés aprender a hacerle preguntas a una inteligencia artificial. Lo que va a ser realmente necesario es la gente que sepa programar de verdad, que sepa crear algo nuevo en lugar de reproducir lo que ya existe, que sepa ver un problema desde distintos puntos de vista para encontrar la mejor solución, que tenga pensamiento crítico, que pueda ver un código y entender qué problemas tiene y cómo mejorarlo. La intligencia artificial no puede hacer eso. Pero vos sí podés, si aprendés las bases y ejercitás tu mente con la práctica. ",
+        "bbox": [
+            92,
+            453,
+            902,
+            583
+        ],
+        "page_idx": 0
+    }
+]

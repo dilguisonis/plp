@@ -1,0 +1,560 @@
+[
+    {
+        "type": "text",
+        "text": "PLP - Primer Parcial - ${ \\bf 1 } ^ { \\bf { e r } }$ cuatrimestre de 2025 - Parte 2 ",
+        "text_level": 1,
+        "bbox": [
+            154,
+            32,
+            850,
+            51
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/b86d57b4dd293bdb73ab1516a84c9ac62a443e9f875b8dd7fc6881c56455c92b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden</td><td rowspan=1 colspan=1>Libreta</td><td rowspan=1 colspan=1>Apellido y Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            115,
+            61,
+            882,
+            110
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Las notas para cada ejercicio son: -, I, R, B, MB, E. Este examen se aprueba obteniendo al menos dos ejercicios B y uno $\\mathtt { R }$ , y se promociona con al menos dos ejercicios MB y uno B. Es posible obtener una aprobaci´on condicional con un ejercicio MB, uno B y uno I. Esto requiere entregar algo que contribuya a la soluci´on del ejercicio. Poner nombre, apellido y n´umero de orden en todas las hojas, y numerarlas. Se puede utilizar todo lo definido en las pr´acticas y todo lo que se dio en clase, colocando referencias claras. El orden de los ejercicios es arbitrario. Recomendamos leer el parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            75,
+            128,
+            937,
+            209
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 - Programaci´on funcional ",
+        "text_level": 1,
+        "bbox": [
+            78,
+            219,
+            416,
+            235
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Aclaraci´on: en este ejercicio no est´a permitido utilizar recursi´on expl´ıcita, a menos que se indique lo contrario. ",
+        "bbox": [
+            72,
+            239,
+            936,
+            268
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Se define el tipo de datos ABNV a, que representa ´arboles binarios no vac´ıos con elementos de tipo a: ",
+        "bbox": [
+            73,
+            272,
+            895,
+            286
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definimos el siguiente ´arbol para los ejemplos: ",
+        "bbox": [
+            78,
+            307,
+            448,
+            323
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "abnv $=$ Bi (Uni 2 (Hoja 1)) 3 (Bi (Hoja 4) 5 (Uni 2 (Hoja 7))) ",
+        "bbox": [
+            77,
+            325,
+            665,
+            342
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Definir las funciones foldABNV y recABNV, que implementan respectivamente los esquemas de recursi´on estructural y primitiva para el tipo ABNV a. Solo en este inciso se permite usar recursi´on expl´ıcita.   \nb) Definir la funci´on elemABNV::Eq a $\\Rightarrow$ a $- >$ ABNV a $- >$ Bool, que indica si un elemento pertenece a un ´arbol. Por ejemplo: elemABNV 7 abnv True.   \nc) Definir la funci´on reemplazarUno::Eq a $\\Rightarrow$ a -> a -> ABNV a $- >$ ABNV a que, dados dos elementos x e y y un ´arbol, devuelve un ´arbol como el original, pero reemplazando la primera aparici´on de x por y (la primera desde la ra´ız yendo de izquierda a derecha, en el orden de preorder). Por ejemplo: reemplazarUno 2 5 abnv $ \\mathtt { B i }$ (Uni 5 (Hoja 1)) 3 (Bi (Hoja 4) 5 (Uni 2 (Hoja 7))). reemplazarUno 2 5 (Hoja 1) Hoja 1.   \nd) Definir la funci´on nivel::ABNV a $- > \\mathrm { I n t }  [ \\mathsf { a } ]$ , que liste todos los elementos del nivel indicado, de izquierda a derecha, siendo 0 el nivel de la ra´ız. Si el nivel no existe (ya sea por ser negativo o por superar la altura del ´arbol), devolver []. ",
+        "bbox": [
+            85,
+            355,
+            936,
+            627
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: nivel abnv $s \\sim [ 2 , 5 ]$ . nivel abnv $2  [ 1 , 4 , 2 ]$ . nivel abnv $4  [ ]$ . ",
+        "bbox": [
+            121,
+            631,
+            342,
+            694
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pista: aprovechar la currificaci´on y utilizar evaluaci´on parcial. ",
+        "bbox": [
+            122,
+            700,
+            628,
+            717
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 - Demostraci´on de propiedades ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            736,
+            470,
+            752
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Considerar las siguientes definiciones: ",
+        "bbox": [
+            95,
+            768,
+            425,
+            783
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "data AB a $=$ Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            131,
+            799,
+            490,
+            815
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "elemAB :: Eq a $\\Rightarrow$ a $- >$ AB a $- >$ Bool   \n{P0} elemAB _ Nil $=$ False   \n{P1} elemAB x (Bin i r d) $=$ $\\mathbf { \\Psi } _ { \\mathbf { X } } \\ \\mathbf { \\Psi } = \\mathbf { \\Psi } \\mathbf { r } .$ ) || (elemAB x i) || (elemAB x d) mapAB :: $( { \\mathsf { a } } \\ { \\xrightarrow { } } \\ { \\mathsf { b } } ) \\ \\to \\ { \\mathsf { A B } } \\ { \\mathsf { a } } \\ { \\xrightarrow { } } \\ { \\mathsf { A B } }$ b   \n{M0} mapAB _ $\\mathrm { N i } 1 \\ = \\ \\mathrm { N i } 1$   \n{M1} mapAB f (Bin i r d) $=$ Bin (mapAB f i) (f r) (mapAB f d) ",
+        "bbox": [
+            127,
+            832,
+            789,
+            881
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            129,
+            896,
+            715,
+            945
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            500,
+            982,
+            510,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sean dos tipos a y b tales que valen Eq a, Eq b, y por ende tambi´en la siguiente propiedad: ",
+        "bbox": [
+            121,
+            34,
+            860,
+            52
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/735ecb359d80ba8396823b542609804c69abca88d70127e56196b2e3f514c47a.jpg",
+        "text": "$$\n\\{ \\mathrm { C O N G R U E N C I A }  \\ = \\downarrow \\ \\forall \\mathbf { x } : : \\ \\mathbf { a } . \\forall \\mathbf { y } : : \\ \\mathbf { a } . \\forall \\mathbf { f } : : \\mathbf { a } \\mathrm { - } > \\mathbf { b } . \\ \\mathbf { x } \\ = \\ \\mathbf { y } \\ \\Rightarrow \\mathbf { f } \\ \\mathbf { x } \\ = = \\textbf { f } \\ \\mathbf { y }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            255,
+            58,
+            800,
+            74
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar la siguiente propiedad: ",
+        "bbox": [
+            122,
+            86,
+            396,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "∀ t::AB a . ∀ x::a . ∀ f::a -> b . (elemAB x t ⇒ elemAB (f x) (mapAB f t)) ",
+        "bbox": [
+            191,
+            112,
+            863,
+            129
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ermite definir macros (i.e., poner nombres a expresiones largas para no tener que repetirlas). ",
+        "bbox": [
+            166,
+            139,
+            902,
+            155
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "No es obligatorio escribir los $\\forall$ correspondientes en cada paso, pero es importante recordar que est´an presentes. Recordar tambi´en que los = de las definiciones pueden leerse en ambos sentidos. ",
+        "bbox": [
+            121,
+            159,
+            937,
+            191
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se consideran demostradas todas las propiedades conocidas sobre enteros y booleanos. ",
+        "bbox": [
+            117,
+            195,
+            820,
+            211
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sugerencia: tener en cuenta que ∀x::Bool.∀y::Bool.∀z::Bool. $( \\mathbf { x } \\Rightarrow \\mathbf { y } ) \\Rightarrow ( \\mathbf { x } \\Rightarrow \\mathbf { z } \\lor \\mathbf { y } )$ . ",
+        "bbox": [
+            105,
+            216,
+            821,
+            233
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar el siguiente teorema usando Deducci´on Natural, sin utilizar principios cl´asicos ",
+        "bbox": [
+            95,
+            241,
+            833,
+            258
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d9dbb59c8f0adbeb7a089611740b7898aefccf423252548a0df554fb1e9c6a0f.jpg",
+        "text": "$$\n\\rho \\Rightarrow ( \\sigma \\lor ( \\rho \\Rightarrow \\tau ) ) \\Rightarrow ( \\sigma \\lor \\tau )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            411,
+            265,
+            645,
+            280
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 - C´alculo Lambda Tipado ",
+        "text_level": 1,
+        "bbox": [
+            78,
+            299,
+            420,
+            316
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se desea extender el c´alculo lambda simplemente tipado para modelar listas ordenadas. Una lista ordenada se construye de manera similar a una lista com´un, pero sus observadores se comportan de manera diferente: la cabeza de la lista es siempre el m´ınimo elemento, y su cola es el resto de los elementos. ",
+        "bbox": [
+            75,
+            317,
+            937,
+            365
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Estas listas tienen como precondici´on que el tipo de sus elementos cuente con una operaci´on de comparaci´on $<$ < (no es necesario escribir nada al respecto, suponemos que vale). ",
+        "bbox": [
+            78,
+            367,
+            932,
+            399
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se extienden los tipos y expresiones de la siguiente manera: ",
+        "bbox": [
+            75,
+            401,
+            557,
+            417
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cd4804b3b0f0fac167189c48ddc02bc09cf9852dfb607910f00469ac5288d6a7.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\tau : : = \\dots \\mid [ \\tau ] ^ { < } } \\\\ & { M : : = \\dots \\mid [ \\mathbf \\Lambda ] _ { \\tau } ^ { < } \\mid M : : ^ { < } M \\mid \\mathtt { h e a d } ^ { < } ( M ) \\mid \\mathtt { t a i l } ^ { < } ( M ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            115,
+            418,
+            821,
+            456
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "donde: ",
+        "bbox": [
+            77,
+            456,
+            132,
+            470
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$[ \\tau ] ^ { < }$ es el tipo de las listas ordenadas con elementos de tipo $\\tau$ ",
+        "bbox": [
+            107,
+            481,
+            623,
+            498
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$[ \\mathbf { \\nabla } ] _ { \\tau } ^ { < }$ es una lista ordenada vac´ıa que admite valores de tipo $\\tau$ . ",
+        "bbox": [
+            104,
+            506,
+            616,
+            523
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "■ $M _ { 1 } : : \\mathrel { \\mathop < M _ { 2 } }$ es la lista resultante de agregar el elemento $M _ { 1 }$ a la lista $M _ { 2 } { } ^ { 1 }$ . ",
+        "bbox": [
+            105,
+            531,
+            714,
+            548
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "head $^ { < } ( M )$ denota el m´ınimo elemento de la lista $M$ . ",
+        "bbox": [
+            102,
+            556,
+            547,
+            573
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "tail $^ { < } ( M )$ es la lista ordenada con todos los elementos de $M$ excepto el m´ınimo (si $M$ tiene m´as de una aparici´on de su m´ınimo elemento, se elimina una de ellas). ",
+        "bbox": [
+            102,
+            581,
+            937,
+            615
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Introducir las reglas de tipado para la extensi´on propuesta. ",
+        "bbox": [
+            92,
+            624,
+            600,
+            640
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Definir el conjunto de valores y las nuevas reglas de reducci´on en un paso. Tener en cuenta que una lista vac´ıa no tiene cabeza ni cola. ",
+        "bbox": [
+            94,
+            649,
+            932,
+            681
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pista: puede ser necesario mirar m´as de un nivel de un t´ermino para saber a qu´e reduce. ",
+        "bbox": [
+            115,
+            687,
+            734,
+            702
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c) Mostrar paso por paso c´omo reduce la expresi´on: ",
+        "bbox": [
+            94,
+            711,
+            517,
+            726
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { h e a d } ^ { < } ( ( \\lambda x \\colon \\mathsf { N a t . 2 } ) z \\mathsf { e r o } \\mathrel { \\mathop { : } { : } } ^ { < } \\underline { { 1 } } \\mathrel { \\mathop { : } { : } } ^ { < } [ \\mathbf { \\tau } ] _ { \\mathsf { N a t } } ^ { < } )$ ",
+        "bbox": [
+            84,
+            731,
+            386,
+            747
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Se pueden considerar dadas las siguientes reglas: ",
+        "bbox": [
+            119,
+            752,
+            515,
+            768
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/26b84f284bcb5355e566677113963788e0981ff6a98a7a209612cd6031577089.jpg",
+        "text": "$$\n\\frac { M _ { 1 } \\to M ^ { \\prime } } { M _ { 1 } < M _ { 2 } \\to M ^ { \\prime } < M _ { 2 } } ( \\mathrm { E } - < _ { 1 } ) \\quad \\frac { M _ { 2 } \\to M ^ { \\prime } } { V < M _ { 2 } \\to V < M ^ { \\prime } } ( \\mathrm { E } - < _ { 2 } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            273,
+            784,
+            781,
+            816
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7132c10f9610da9d02cc36f4a6f15639ba14516c496e14e8ef4a0bbfda21828e.jpg",
+        "text": "$$\n\\overline { { V < z \\mathrm { e r o }  \\mathsf { F a l s e } ^ { \\circ } } } ^ { ( \\mathrm { E } - < _ { F } ) } \\quad \\overline { { z \\mathrm { e r o } < \\mathsf { S u c c } ( V )  \\mathsf { T r u e } ^ { \\circ } } } ^ { ( \\mathrm { E } - < _ { T } ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            280,
+            839,
+            779,
+            863
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/48008537e56f53a127f9f8329f5d618fb7c6fdd33cf22b620afd463059bb1a67.jpg",
+        "text": "$$\n\\overline { { \\mathsf { S u c c } ( V _ { 1 } ) < \\mathsf { S u c c } ( V _ { 2 } ) \\to V _ { 1 } < V _ { 2 } } }  ^ { \\big ( \\mathrm { E } - < _ { S } \\big ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            363,
+            885,
+            695,
+            910
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "1Notar que $M _ { 1 }$ no necesariamente es la cabeza de la lista, $_ \\textrm { y }$ que :: $<$ es un constructor, no es responsable de ordenar los elementos en la lista. El orden aparece al observarla. Por ejemplo, $\\underline { { 1 } } : : ^ { < } \\ : \\underline { { 2 } } : : ^ { < } \\ : [ \\begin{array} { l }  ] _ { \\mathsf { N a t } } ^ { < } \\ : \\mathsf { y } \\ : \\underline { { 2 } } : : ^ { < } \\ : \\underline { { 1 } } : ^ { < } \\ : [ \\begin{array} { l } { ] _ { \\mathsf { N a t } } ^ { < } } \\end{array} \\end{array}$ son dos valores de tipo [Nat]< que tienen la misma cabeza y la misma cola. ",
+        "bbox": [
+            75,
+            920,
+            934,
+            960
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            499,
+            982,
+            512,
+            994
+        ],
+        "page_idx": 1
+    }
+]

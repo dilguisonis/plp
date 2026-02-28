@@ -1,0 +1,381 @@
+[
+    {
+        "type": "text",
+        "text": "Demostración (parcial) de Weakening para Deducción Natural ",
+        "text_level": 1,
+        "bbox": [
+            139,
+            126,
+            873,
+            147
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Queremos demostrar la siguiente propiedad: ",
+        "bbox": [
+            163,
+            160,
+            515,
+            175
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Si $\\Gamma \\vdash \\sigma$ es válido entonces $\\Gamma , \\tau \\vdash \\sigma$ es válido. ",
+        "bbox": [
+            168,
+            177,
+            526,
+            191
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dado que la propiedad es una implicación y que, por propiedad de Bool, si el antecedente es falso la implicación es verdadera, suponemos que el antecedente es verdadero \u0015 es decir, que vale $\\Gamma \\vdash \\sigma \\mathrm { ~ - ~ y ~ }$ demostramos que el consecuente también lo es. ",
+        "bbox": [
+            132,
+            193,
+            878,
+            239
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Esto se puede probar mediante inducción estructural en la derivación de $\\Gamma \\vdash \\sigma$ (es decir, en su demostración por deduciión natural). ",
+        "bbox": [
+            134,
+            241,
+            878,
+            272
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De esta manera, tenemos un caso por cada regla de nuestro sistema deductivo, siendo el caso base la única regla que no tiene premisas. ",
+        "bbox": [
+            131,
+            273,
+            875,
+            304
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Vamos a desarrollar solamente algunos casos. El resto queda para que los desarrollen ustedes. ",
+        "bbox": [
+            131,
+            305,
+            875,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Caso base (ax): ",
+        "text_level": 1,
+        "bbox": [
+            134,
+            359,
+            315,
+            378
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "La demostración de $\\Gamma \\vdash \\sigma$ es de la forma: ",
+        "bbox": [
+            163,
+            391,
+            494,
+            406
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6481a8f7b39ee910de4d3894b0ab7ca8ef5b0477d7685731392c9e4e0e47c3bb.jpg",
+        "text": "$$\n\\overline { { \\Gamma ^ { \\prime } , \\sigma \\vdash \\sigma } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            457,
+            422,
+            529,
+            438
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "En este caso $\\Gamma$ es $\\Gamma ^ { \\prime } , \\sigma$ , y $\\sigma$ es una fórmula cualquiera. ",
+        "bbox": [
+            159,
+            438,
+            594,
+            453
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "La demostración de $\\Gamma , \\tau \\vdash \\sigma$ puede construirse de la siguiente manera: ",
+        "bbox": [
+            164,
+            455,
+            724,
+            470
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/33e1a6e976aa4570d53886d652cd994a482fdc57e094b4b3e83ff99ac1b5c3b6.jpg",
+        "text": "$$\n\\overline { { \\Gamma ^ { \\prime } , \\sigma , \\tau \\vdash \\sigma } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            448,
+            483,
+            537,
+            501
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Como $\\Gamma ^ { \\prime } , \\sigma = \\Gamma$ , con esto queda probado este caso. ",
+        "bbox": [
+            161,
+            502,
+            569,
+            517
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Caso inductivo $( \\Rightarrow _ { i } )$ : ",
+        "text_level": 1,
+        "bbox": [
+            134,
+            538,
+            376,
+            557
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "La demostración de $\\Gamma \\vdash \\sigma$ es de la forma: ",
+        "bbox": [
+            163,
+            570,
+            494,
+            586
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4bdcdf7e215e96488ab766cd0853cc1e4acc09bdeb997cfe7ff1376d76a31709.jpg",
+        "text": "$$\n{ \\frac { \\Gamma , \\sigma _ { 1 } \\vdash \\sigma _ { 2 } } { \\Gamma \\vdash \\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 } } } \\Rightarrow _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            598,
+            571,
+            629
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "En este caso $\\Gamma$ es un contexto cualquiera y $\\sigma$ es $\\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 }$ . ",
+        "bbox": [
+            161,
+            645,
+            621,
+            661
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "La hipótesis inductiva es que la propiedad vale para la premisa, que es el subárbol de la demostración. Es decir, que $\\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 }$ es válido. Por completitud, esto signi\u001cca que existe una demostración en deducción natural para $\\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 }$ . ",
+        "bbox": [
+            134,
+            662,
+            880,
+            708
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "La demostración de $\\Gamma , \\tau \\vdash \\sigma$ puede construirse de la siguiente manera: ",
+        "bbox": [
+            159,
+            709,
+            726,
+            725
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/419d53c6e60526cddd36a9ca30f12a689b1af9c510b7968279a197b978b81a36.jpg",
+        "text": "$$\n\\frac { \\overline { { \\Gamma , \\sigma _ { 1 } , \\tau \\vdash \\sigma _ { 2 } } } ^ { H I } } { \\Gamma , \\tau \\vdash \\sigma _ { 1 } \\Rightarrow \\sigma _ { 2 } } \\Rightarrow _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            428,
+            736,
+            583,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Con esto queda probado este caso. ",
+        "bbox": [
+            163,
+            783,
+            440,
+            799
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            500,
+            908,
+            510,
+            920
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Caso inductivo $( \\Rightarrow e$ ): ",
+        "text_level": 1,
+        "bbox": [
+            134,
+            126,
+            378,
+            146
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "La demostración de $\\Gamma \\vdash \\sigma$ es de la forma: ",
+        "bbox": [
+            161,
+            159,
+            495,
+            174
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1a21cbbca22d7a89eac138f0705ec41d64fb6a972f6006e398d5abe206e2c35f.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\rho \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\rho } { \\Gamma \\vdash \\sigma } \\Rightarrow _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            186,
+            594,
+            215
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "En este caso $\\Gamma$ es un contexto cualquiera y $\\sigma$ es una fórmula cualquiera. ",
+        "bbox": [
+            157,
+            233,
+            744,
+            248
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "La hipótesis inductiva es que la propiedad vale para las premisas, es decir que $\\Gamma , \\tau \\vdash \\rho \\Rightarrow \\sigma$ y $\\Gamma , \\tau \\vdash \\rho$ son válidos (y por ende demostrables, por completitud). ",
+        "bbox": [
+            137,
+            249,
+            877,
+            280
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "La demostración de $\\Gamma , \\tau \\vdash \\sigma$ puede construirse de la siguiente manera: ",
+        "bbox": [
+            156,
+            281,
+            726,
+            297
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/92be503207d2159e9979a40c62551fb29633d204138acdc2ef17ecae9c7287e1.jpg",
+        "text": "$$\n\\frac { \\overline { { \\Gamma , \\tau \\vdash \\rho \\Rightarrow \\sigma } } ^ { H I } \\quad \\overline { { \\Gamma , \\tau \\vdash \\rho } } ^ { H I } } { \\Gamma , \\tau \\vdash \\sigma } \\Rightarrow _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            378,
+            309,
+            630,
+            347
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Con esto queda probado este caso. ",
+        "bbox": [
+            163,
+            354,
+            440,
+            370
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Los otros casos son similares. Cada caso inductivo tiene una hipótesis inductiva para cada premisa. Prueben completarlos y, ante cualquier duda, consulten. ",
+        "bbox": [
+            131,
+            385,
+            877,
+            417
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            499,
+            909,
+            510,
+            920
+        ],
+        "page_idx": 1
+    }
+]

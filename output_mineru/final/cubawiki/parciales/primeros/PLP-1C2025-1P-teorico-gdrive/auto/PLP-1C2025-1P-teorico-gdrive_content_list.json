@@ -1,0 +1,346 @@
+[
+    {
+        "type": "text",
+        "text": "Esta partedelexamenseaprearespondiendocorrectamentealmenos el $7 5 \\%$ de las preguntas.Esnecesarioaprobaresta parte para acceder a la correccion de la segunda parte. Responder las preguntas en los espacios indicados. ",
+        "bbox": [
+            58,
+            66,
+            924,
+            98
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 1:La siguientedefinici6n utiliza recursion explicita? Justificar. ",
+        "bbox": [
+            58,
+            109,
+            675,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "esHoja :: AB a -> Bool   \nesHoja Nil $\\Bumpeq$ False   \nesHoja (Bin i r d) $=$ esNil i && esNil d where esNil Nil $=$ True esNil_ $=$ False ",
+        "bbox": [
+            60,
+            128,
+            440,
+            204
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:Ng porque no se decine ninguna Funcioo gue Se llame asimismaenog no nay elamado ewrsivo) ",
+        "bbox": [
+            60,
+            212,
+            924,
+            255
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 2:Indicar el tipo del esquema de recursion estructural foldABNv para el siguiente tipo: data ABNV $a =$ Hojaa丨Uni a（ABNVa）丨Bi（ABNVa）a （ABNV a) ",
+        "bbox": [
+            50,
+            256,
+            878,
+            289
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:AbABNUuabbd Bbd $\\{ ( 1 + P Q N ) \\cdot 1 \\div ( a  b )  ( a  b  b )  ( b  a  b  b )  A P N \\} a  b$ ",
+        "bbox": [
+            65,
+            299,
+            905,
+            337
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 3:iQué tipo de recursion utiliza la siguiente definicion? (Indicar la mas especifica). ",
+        "bbox": [
+            67,
+            339,
+            850,
+            353
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "listasQueSuman ::Int $\\scriptstyle - >$ [[Int]]   \nlistasQueSuman $0 = [ [ ] ]$   \nlistasQueSuman n / $\\mathrm { ~ n ~ } > \\mathrm { ~ 0 ~ } = \\mathrm { ~ } [ \\mathrm { x }$ : xs 丨 x <- [1..n]， xs <- listasQueSuman (n-x)] ",
+        "bbox": [
+            63,
+            356,
+            811,
+            403
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a.Estructural c. Global b.Primitiva d. Iterativa/a la cola ",
+        "bbox": [
+            84,
+            415,
+            695,
+            459
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:- ",
+        "bbox": [
+            68,
+            486,
+            184,
+            503
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregnta4:Ialdelssgetesdvisioseospudejstifersepouedeeea cion. ",
+        "bbox": [
+            67,
+            519,
+            931,
+            554
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a.Hay2 casos: ",
+        "bbox": [
+            89,
+            566,
+            220,
+            583
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c. El arbol binario t puede ser: ",
+        "bbox": [
+            662,
+            567,
+            927,
+            584
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "altura i≥altura d altura i<altura d ",
+        "bbox": [
+            137,
+            595,
+            341,
+            634
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[x] x:y:ys ",
+        "bbox": [
+            423,
+            586,
+            502,
+            638
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Binird (Con i, d : AB a). ",
+        "bbox": [
+            712,
+            597,
+            825,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            117,
+            647,
+            268,
+            668
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(Con r :a,iyd :AB a). ",
+        "bbox": [
+            690,
+            649,
+            909,
+            669
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            699,
+            176,
+            716
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pe duccio: [a].ys:[a]length (entrelazar xs ys) $\\ L =$ length xs $^ +$ length ys ",
+        "bbox": [
+            70,
+            724,
+            937,
+            781
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            68,
+            786,
+            988,
+            868
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "CS CamScanner ",
+        "bbox": [
+            810,
+            960,
+            969,
+            990
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 6:Si sequisierademostrar que vale-PvQ├Qv(PQ)pordeduccion natural,icualseria el error al aplicar el siguiente paso? ",
+        "bbox": [
+            205,
+            26,
+            820,
+            70
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Respuesta:El eor es guepiedo infoxmacion neresaria para poder dems taloga que con v engo orna de probar que sienpre vale ",
+        "bbox": [
+            198,
+            136,
+            825,
+            193
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 7:Indicar aquetermino reduce enunpaso laiguiente expresion,ymedianteque regla(s): if isZero(zero)then Pred(Suc(zero))elsezero ",
+        "bbox": [
+            201,
+            194,
+            819,
+            242
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "seSu ",
+        "bbox": [
+            191,
+            255,
+            828,
+            314
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pregunta 8: Sea la extension del Calculo Lambda con listas vista en la guia: ",
+        "bbox": [
+            192,
+            317,
+            665,
+            342
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b671e92e90dcc724d25389a20248a150e008917dd4e72d3cf648fd19ba10707e.jpg",
+        "text": "$$\n = \\begin{array} { r l } { - } & { { } \\ldots \\mid [ ] _ { \\tau } ~ { \\mid } ~ M : : M ~ { \\mid } ~ \\cos e ~ M ~ \\mathrm { o f } ~ \\{ [ \\mathbf { \\Lambda } ] \\sim M ~ \\mid ~ h : t \\sim M \\} ~ { \\mid } ~ \\mathrm { f o l d r } ~ M \\mathrm { b a s e } \\sim M ; \\mathrm { r e c } ( h ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            386,
+            752,
+            416
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Indicar el error en la siguiente regla de computo para foldr: ",
+        "bbox": [
+            190,
+            433,
+            552,
+            458
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Re $\\begin{array} { r l } & { \\frac { 1 } { \\mathrm { f o l d r } V _ { 1 } : = V _ { 2 } \\mathrm { b a s e } \\to M ; \\mathrm { r e c } ( h , r ) \\to N } \\xrightarrow [ ] { \\mathbb { C } \\mathrm { P } \\to \\mathrm { D L B } \\times \\mathrm { C O N R } } } \\\\ & { \\mathrm { s p u e s t a : ~ \\{ \\alpha \\leq 1 \\leq r e i d . } { o r d . } ~ { n \\in \\mathbb { A } \\cap \\mathbb { A } \\cap \\mathbb { A } \\cap \\mathbb { C } \\land \\mathrm { C o c } \\land \\mathrm { C o c } \\land \\mathrm { C i d . } } }  \\\\ & { \\{ \\odot \\quad \\Omega \\otimes \\alpha \\quad \\mathrm { c d . } \\mathrm { c a . d . } \\mathrm { d o c . ~ d i . } \\quad \\mathrm { e l . ~ e l . ~ \\Omega \\cap \\mathrm { d a c } \\setminus \\cup _ { \\Omega \\setminus \\Omega \\setminus \\Omega \\setminus \\Omega \\cap \\mathrm { C . ~ c o } \\cup \\mathrm { A } \\setminus \\Omega } } } \\\\ & { \\cdot \\mathrm { c o ~ \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha } } \\\\ & { \\mathrm { s p a r . ~ \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\alpha \\leq \\beta \\leq \\alpha \\leq \\alpha \\leq \\alpha } } \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\times } \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\times } \\\\ & { \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\times \\mathrm { ~ a ~ s \\ e \\to \\Theta \\times \\Omega \\to \\alpha \\times \\Omega \\to \\alpha \\times \\beta \\to \\alpha \\times \\beta \\ } } \\\\ &  \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\ \\end{array}$ niableshyr   \nPOC ganlascen geadelbeua .cola. ",
+        "bbox": [
+            185,
+            472,
+            842,
+            734
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Cs CamScanner ",
+        "bbox": [
+            865,
+            942,
+            978,
+            984
+        ],
+        "page_idx": 1
+    }
+]

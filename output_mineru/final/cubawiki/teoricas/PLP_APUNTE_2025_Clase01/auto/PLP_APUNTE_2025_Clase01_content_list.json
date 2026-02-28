@@ -1,0 +1,2533 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            242,
+            817,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Fundamentos de programaci´on funcional ",
+        "bbox": [
+            129,
+            341,
+            872,
+            404
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            441,
+            781,
+            639
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Fundamentos de programaci´on funcional ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            308,
+            734,
+            367
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "bbox": [
+            77,
+            536,
+            229,
+            588
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f902b34daf2e5c77da90b6bf8fd1b578ac38356edfdfdf0d33a76980c69eec72.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on funcional ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            403,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Un problema central en computaci´on es el de procesar informaci´on: ",
+        "bbox": [
+            74,
+            99,
+            925,
+            143
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "La programaci´on funcional consiste en definir funciones y aplicarlas para procesar informaci´on. ",
+        "bbox": [
+            77,
+            400,
+            928,
+            492
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Las “funciones” son verdaderamente funciones (parciales): ",
+        "bbox": [
+            74,
+            514,
+            831,
+            558
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Aplicar una funci´on no tiene efectos secundarios.   \nA una misma entrada corresponde siempre la misma salida.   \nLas estructuras de datos son inmutables. ",
+        "bbox": [
+            118,
+            566,
+            892,
+            713
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Las funciones son datos como cualquier otro: ",
+        "bbox": [
+            77,
+            735,
+            649,
+            779
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Se pueden pasar como par´ametros.   \nSe pueden devolver como resultados.   \nPueden formar parte de estructuras de datos.   \n(Ej. ´arbol binario en cuyos nodos hay funciones). ",
+        "bbox": [
+            99,
+            786,
+            759,
+            981
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/542045bfa186d977171769b8a346c05c02381ca55b59149b5dc431e77b95c027.jpg",
+        "text": "$$\n3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            922,
+            1000,
+            1000
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on funcional ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            403,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un programa funcional est´a dado por un conjunto de ecuaciones: ",
+        "bbox": [
+            74,
+            143,
+            900,
+            194
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            216,
+            187,
+            264
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "longitud [] = 0 longitud (x : xs) = 1 + longitud xs ",
+        "bbox": [
+            104,
+            297,
+            665,
+            397
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "longitud [10, 20, 30] ≡ longitud (10 : (20 : (30 : []))) 1 + longitud (20 : (30 : [])) = 1 + (1 + (longitud (30 : []))) 1 + (1 + (1 + longitud [])) 1 + (1 + (1 + 0)) 1 + (1 + 1) = 1 + 2 = 3 ",
+        "bbox": [
+            218,
+            419,
+            784,
+            867
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9f3b05d7a1879c48633a6c821e68e487c947b2e5ffbc3a7d61e85b2926a9c846.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Expresiones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            209,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Las expresiones son secuencias de s´ımbolos que sirven para representar datos, funciones y funciones aplicadas a los datos. (Recordemos: las funciones tambi´en son datos). ",
+        "bbox": [
+            71,
+            95,
+            861,
+            242
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Una expresi´on puede ser: ",
+        "bbox": [
+            74,
+            283,
+            392,
+            327
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1. Un constructor: True False [] (:) 0 1 2 ... ",
+        "bbox": [
+            96,
+            341,
+            674,
+            452
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2. Una variable: longitud ordenar x xs (+) (\\*) ... ",
+        "bbox": [
+            93,
+            481,
+            756,
+            595
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3. La aplicaci´on de una expresi´on a otra: ",
+        "bbox": [
+            93,
+            613,
+            627,
+            661
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "ordenar lista   \nnot True   \nnot (not True)   \n(+) 1   \n((+) 1) (alCuadrado 5) ",
+        "bbox": [
+            193,
+            669,
+            516,
+            882
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4. Tambi´en hay expresiones de otras formas, como veremos. Las tres de arriba son las fundamentales. ",
+        "bbox": [
+            93,
+            893,
+            861,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Expresiones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            209,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Convenimos en que la aplicaci´on es asociativa a izquierda: ",
+        "bbox": [
+            71,
+            158,
+            837,
+            205
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            408,
+            187,
+            452
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "[1, 2]   \n≡ 1 : [2]   \n≡ (:) 1 [2]   \n≡ ((:) 1) [2]   \n≡ ((:) 1) (2 : [])   \n≡ ((:) 1) ((:) 2 [])   \n≡ ((:) 1) (((:) 2) []) ",
+        "bbox": [
+            312,
+            503,
+            690,
+            849
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            250,
+            187,
+            294
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "sumarUno = (+) 1 ",
+        "bbox": [
+            74,
+            330,
+            331,
+            371
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "sumarUno (sumarUno 5) ((+) 1) (sumarUno 5) ≡ 1 + sumarUno 5 一 1 + ((+) 1) 5 1 + (1 + 5) 1 + 6 = 7 ",
+        "bbox": [
+            303,
+            404,
+            696,
+            742
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Expresiones ",
+        "bbox": [
+            19,
+            33,
+            209,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Tipos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            116,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Hay secuencias de s´ımbolos que no son expresiones bien formadas. ",
+        "bbox": [
+            74,
+            213,
+            917,
+            261
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            286,
+            187,
+            330
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Hay expresiones que est´an bien formadas pero no tienen sentido. ",
+        "bbox": [
+            74,
+            481,
+            895,
+            529
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            551,
+            187,
+            599
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "True + 1 0 1 [[], (+)] ",
+        "bbox": [
+            132,
+            625,
+            279,
+            794
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "8 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "text_level": 1,
+        "bbox": [
+            22,
+            36,
+            116,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Un tipo es una especificaci´on del invariante de un dato o de una funci´on. ",
+        "bbox": [
+            74,
+            205,
+            900,
+            301
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            327,
+            185,
+            375
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "99 :: Int   \nnot :: Bool -> Bool   \nnot True :: Bool   \n(+) :: Int -> (Int -> Int)   \n(+) 1 :: Int -> Int   \n((+) 1) 2 :: Int ",
+        "bbox": [
+            234,
+            422,
+            759,
+            720
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/88e35e839e9ba83033b573030867f11498f6f3e5bd88d422297dfa5c9588b8ca.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "El tipo de una funci´on expresa un contrato. ",
+        "bbox": [
+            74,
+            772,
+            635,
+            819
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "text_level": 1,
+        "bbox": [
+            22,
+            36,
+            116,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Condiciones de tipado ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            169,
+            411,
+            213
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Para que un programa est´e bien tipado: ",
+        "bbox": [
+            77,
+            227,
+            593,
+            272
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1. Todas las expresiones deben tener tipo.   \n2. Cada variable se debe usar siempre con un mismo tipo.   \n3. Los dos lados de una ecuaci´on deben tener el mismo tipo.   \n4. El argumento de una funci´on debe tener el tipo del dominio.   \n5. El resultado de una funci´on debe tener el tipo del codominio. ",
+        "bbox": [
+            91,
+            286,
+            914,
+            577
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "S´olo tienen sentido los programas bien tipados. ",
+        "text_level": 1,
+        "bbox": [
+            171,
+            779,
+            823,
+            827
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "No es necesario escribir expl´ıcitamente los tipos. (Inferencia). ",
+        "bbox": [
+            77,
+            860,
+            850,
+            911
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Tipos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            116,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "11 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Convenimos en que “->” es asociativo a derecha: ",
+        "bbox": [
+            80,
+            180,
+            723,
+            224
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            452,
+            187,
+            500
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "suma4 :: Int -> Int -> Int -> Int -> Int suma4 a b c $\\texttt { d } = \\texttt { a } + \\texttt { b } + \\texttt { c } + \\texttt { d }$ ",
+        "bbox": [
+            74,
+            533,
+            712,
+            628
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "a -> $\\begin{array} { l l l l l l l l } { { > } } & { { { \\bf b } } } & { {  } } & { { { \\sf c } } } & { { \\equiv } } & { { { \\bf a }  ( { \\bf b }  { \\sf c } ) } } \\\\ { { > } } & { { { \\bf b } } } & { {  { \\mathrm {  ~ c ~ } } } } & { {  { \\mathrm {  ~ d ~ } } } } & { { \\equiv } } & { { { \\bf a }  ( { \\bf b }  { \\mathrm {  ~ ( c ~ } } } } \\end{array}$ ✚❩≡ (a -> b) -> ca -> -> d))",
+        "bbox": [
+            82,
+            264,
+            950,
+            363
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Se puede pensar as´ı: ",
+        "bbox": [
+            74,
+            654,
+            337,
+            698
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "suma4 :: Int -> (Int -> (Int -> (Int -> Int))) (((suma4 a) b) c) $\\texttt { d } = \\texttt { a } + \\texttt { b } + \\texttt { c } + \\texttt { d }$ ",
+        "bbox": [
+            74,
+            724,
+            806,
+            819
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Polimorfismo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            232,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Hay expresiones que tienen m´as de un tipo. Usamos variables de tipo a, b, c para denotar tipos desconocidos: ",
+        "bbox": [
+            63,
+            99,
+            911,
+            194
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "12 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            529,
+            187,
+            573
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "flip f x y = f y x ¿Qu´e tipo tiene flip? ",
+        "bbox": [
+            74,
+            610,
+            364,
+            727
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "flip (:) [2, 3] 1 = (:) 1 [2, 3] ≡ 1 : [2, 3] = [1, 2, 3] ",
+        "bbox": [
+            337,
+            764,
+            665,
+            966
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Modelo de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Dada una expresi´on, se computa su valor usando las ecuaciones: ",
+        "bbox": [
+            74,
+            187,
+            886,
+            235
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/b6ea02d2d84a9844d938c88ae586000cb56030ab40771dd31e4c730ffb7beef6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            185,
+            272,
+            814,
+            716
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Hay expresiones bien tipadas que no tienen valor. Ej.: 1 / 0.   \nDecimos que dichas expresiones se indefinen o que tienen valor ⊥. ",
+        "bbox": [
+            74,
+            753,
+            908,
+            849
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "13 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1740d42481223e03d6d5e8dbd7072dd30cd7720f188b01ca36ae9212f648f49c.jpg",
+        "text": "$$\n\\mathsf { M o d e l o ~ d e ~ c o m p u t o }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            25,
+            350,
+            91
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Un programa funcional est´a dado por un conjunto de ecuaciones.   \nM´as precisamente, por un conjunto de ecuaciones orientadas. ",
+        "bbox": [
+            74,
+            264,
+            897,
+            363
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Una ecuaci´on e1 $=$ e2 se interpreta desde dos puntos de vista: ",
+        "bbox": [
+            77,
+            452,
+            878,
+            500
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "1. Punto de vista denotacional. Declara que e1 y e2 tienen el mismo significado. ",
+        "bbox": [
+            96,
+            514,
+            759,
+            610
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2. Punto de vista operacional. Computar el valor de e1 se reduce a computar el valor de e2. ",
+        "bbox": [
+            93,
+            628,
+            917,
+            720
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "14 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Modelo de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "El lado izquierdo de una ecuaci´on no es una expresi´on arbitraria.   \nDebe ser una funci´on aplicada a patrones. ",
+        "bbox": [
+            71,
+            136,
+            895,
+            231
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Un patr´on puede ser: ",
+        "bbox": [
+            74,
+            275,
+            345,
+            323
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "1. Una variable. 2. Un comod´ın _. 3. Un constructor aplicado a patrones. El lado izquierdo no debe contener variables repetidas. ",
+        "bbox": [
+            77,
+            338,
+            767,
+            566
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            613,
+            187,
+            661
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´ales ecuaciones est´an sint´acticamente bien formadas? ",
+        "bbox": [
+            80,
+            672,
+            792,
+            716
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "sumaPrimeros (x : y : z : _) = x + y + z   \npredecesor $( { \\mathfrak { n } } + \\ { \\mathfrak { 1 } } ) \\ = \\ { \\mathfrak { n } }$   \niguales x x = True ",
+        "bbox": [
+            74,
+            742,
+            715,
+            889
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Modelo de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Evaluar una expresi´on consiste en: ",
+        "bbox": [
+            77,
+            102,
+            508,
+            147
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "1. Buscar la subexpresi´on m´as externa que coincida con el lado izquierdo de una ecuaci´on.   \n2. Reemplazar la subexpresi´on que coincide con el lado izquierdo de la ecuaci´on por la expresi´on correspondiente al lado derecho.   \n3. Continuar evaluando la expresi´on resultante. ",
+        "bbox": [
+            88,
+            161,
+            919,
+            481
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "La evaluaci´on se detiene cuando se da uno de los siguientes casos: ",
+        "bbox": [
+            80,
+            536,
+            917,
+            584
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "La expresi´on es un constructor o un constructor aplicado. ",
+        "bbox": [
+            107,
+            602,
+            856,
+            643
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "True (:) 1 [1, 2, 3] ",
+        "bbox": [
+            458,
+            650,
+            922,
+            694
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2. La expresi´on es una funci´on parcialmente aplicada. ",
+        "bbox": [
+            99,
+            709,
+            773,
+            753
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(+) (+) 5 ",
+        "bbox": [
+            707,
+            764,
+            925,
+            805
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "3. Se alcanza un estado de error. Un estado de error es una expresi´on que no coincide con las ecuaciones que definen a la funci´on aplicada. ",
+        "bbox": [
+            99,
+            823,
+            903,
+            966
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Modelo de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: resultado — constructor ",
+        "bbox": [
+            77,
+            187,
+            538,
+            235
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "tail :: [a] -> [a] tail (_ : xs) = xs ",
+        "bbox": [
+            74,
+            264,
+            364,
+            363
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "tail (tail [1, 2, 3]) ⇝ tail [2, 3] ⇝ [3] ",
+        "bbox": [
+            149,
+            386,
+            837,
+            437
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: resultado — funci´on parcialmente aplicada ",
+        "bbox": [
+            77,
+            540,
+            784,
+            591
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "const :: a -> b -> a const x y = x ",
+        "bbox": [
+            74,
+            628,
+            397,
+            720
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "const (const 1) 2 ⇝ const 1 ",
+        "bbox": [
+            262,
+            794,
+            734,
+            841
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Modelo de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: indefinici´on — error ",
+        "bbox": [
+            74,
+            136,
+            477,
+            183
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "head :: [a] -> a head (x : _) = x ",
+        "bbox": [
+            71,
+            216,
+            334,
+            312
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "head (head [[], [1], [1, 1]]) ⇝ head [] ⇝ ⊥ ",
+        "bbox": [
+            165,
+            338,
+            823,
+            433
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: indefinici´on — no terminaci´on ",
+        "bbox": [
+            74,
+            511,
+            616,
+            558
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "loop :: Int -> a loop n = loop (n + 1) ",
+        "bbox": [
+            74,
+            595,
+            408,
+            691
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "loop 0 ⇝ loop (1 + 0) ⇝ loop (1 + (1 + 0)) ⇝ loop (1 + (1 + (1 + 0))) ",
+        "bbox": [
+            229,
+            716,
+            795,
+            915
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5f03848d8d81952017c340640c0e5c70d4ac103f21e259118c6c564291304694.jpg",
+        "text": "$$\n\\mathsf { M o d e l o ~ d e ~ c o m p u t o }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            25,
+            350,
+            91
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: evaluaci´on no estricta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            305,
+            500,
+            352
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "indefinido :: Int indefinido $=$ indefinido ",
+        "bbox": [
+            77,
+            389,
+            444,
+            481
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "head (tail [indefinido, 1, indefinido]) ⇝ head [1, indefinido] ⇝ 1 ",
+        "bbox": [
+            162,
+            511,
+            842,
+            654
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Modelo de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: listas infinitas ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            132,
+            395,
+            176
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "desde :: Int -> [Int] desde $\\mathrm { ~ \\tt ~ n ~ } = \\mathrm { ~ \\tt ~ n ~ }$ : desde $\\mathrm { ~ ( ~ n ~ + ~ } \\mathrm { ~ 1 ~ ) ~ }$ ",
+        "bbox": [
+            74,
+            213,
+            505,
+            308
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "desde 0   \n⇝ 0 : desde 1   \n⇝ 0 : (1 : desde 2)   \n⇝ 0 : (1 : (2 : desde 3)) ⇝ ",
+        "bbox": [
+            226,
+            386,
+            779,
+            580
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "head (tail (desde 0)) ⇝ head (tail (0 : desde 1)) head (desde 1) head (1 : desde 2) ⇝ 1 ",
+        "bbox": [
+            273,
+            676,
+            729,
+            915
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Modelo de c´omputo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            348,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Nota. En Haskell, el orden de las ecuaciones es relevante.   \nSi hay varias ecuaciones que coinciden se usa siempre la primera. ",
+        "bbox": [
+            71,
+            246,
+            903,
+            341
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            367,
+            187,
+            415
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "esCorta (_ : _ : _) = False esCorta _ $=$ True ",
+        "bbox": [
+            74,
+            448,
+            508,
+            544
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "esCorta [] ⇝ True esCorta [1] True esCorta [1, 2] False ",
+        "bbox": [
+            298,
+            569,
+            698,
+            720
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Funciones de orden superior ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Definamos la composici´on de funciones (“g . f”). ",
+        "bbox": [
+            77,
+            294,
+            723,
+            345
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Otra forma de definirla (usando la notaci´on “lambda”): ",
+        "bbox": [
+            74,
+            488,
+            776,
+            536
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Funciones de orden superior ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e tienen en com´un las siguientes funciones? ",
+        "bbox": [
+            74,
+            121,
+            676,
+            169
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "dobleL :: [Float] -> [Float] dobleL [] = [] dobleL (x : xs) = x \\* 2 : dobleL xs ",
+        "bbox": [
+            71,
+            191,
+            635,
+            338
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "esParL :: [Int] -> [Bool]   \nesParL [] = []   \nesParL (x : xs) = x ‘mod‘ 2 == 0 : esParL xs   \nlongitudL :: [[a]] -> [Int]   \nlongitudL [] = []   \nlongitudL (x : xs) = length x : longitudL xs ",
+        "bbox": [
+            71,
+            386,
+            776,
+            533
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            577,
+            773,
+            727
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Todas ellas siguen el esquema: ",
+        "bbox": [
+            74,
+            753,
+            464,
+            797
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "g [] = [] g (x : xs) = f x : g xs ",
+        "bbox": [
+            74,
+            823,
+            444,
+            922
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Funciones de orden superior ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se puede abstraer el esquema? ",
+        "bbox": [
+            74,
+            158,
+            560,
+            205
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "map :: (a -> b) -> [a] -> [b] map f [] = [] map f (x : xs) = f x : map f xs ",
+        "bbox": [
+            74,
+            227,
+            571,
+            378
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Hagamos dobleL, esParL y longitudL con map. ",
+        "bbox": [
+            77,
+            404,
+            704,
+            448
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "dobleL xs = map (\\ x -> x \\* 2) xs esParL xs = map (\\ x -> x ‘mod‘ $2 \\ = = \\ 0 )$ ) xs longitudL xs $=$ map length xs ",
+        "bbox": [
+            74,
+            474,
+            795,
+            621
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Otra manera: ",
+        "bbox": [
+            77,
+            647,
+            248,
+            687
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "dobleL = map (\\* 2)   \nesParL = map ((== 0) . (‘mod‘ 2))   \nlongitudL $=$ map length ",
+        "bbox": [
+            74,
+            716,
+            646,
+            867
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c945999d42f717d5661502b41211bcfd0bba63ff7677abf47bd5fb2b759e29f6.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Funciones de orden superior ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e relaci´on hay entre las siguientes funciones? ",
+        "bbox": [
+            77,
+            99,
+            693,
+            143
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "negativos :: [Int] -> [Int] negativos [] = [] negativos (x : xs) = if x < 0 then x : negativos xs else negativos xs ",
+        "bbox": [
+            71,
+            158,
+            541,
+            305
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            422,
+            316,
+            759,
+            356
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            422,
+            367,
+            698,
+            408
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "noVacias :: [[a]] -> [[a]] noVacias [] = [] noVacias (x : xs) = if not (null x) ",
+        "bbox": [
+            71,
+            437,
+            638,
+            584
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Ambas siguen el esquema: ",
+        "bbox": [
+            74,
+            705,
+            411,
+            750
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "g $\\begin{array} { l } { { [ \\begin{array} { l l l l l l } { { [ \\begin{array} { l l l l l l } { { [ \\begin{array} { l } { { \\bf { \\bar { \\Phi } } } } } & { { { \\bf { x } } } { { \\bf { s } } } } \\end{array} ] } } } & { { = } } & { { [ \\begin{array} { l } { { \\bf { \\bar { \\Phi } } } } \\\\ { { \\bf { x } } } \\end{array}  } } \\\\ { { ( { \\bf { x } } } & { { : } } & { { \\bf { x } } { \\bf { s } } ) } } & { { = } } & { { \\mathrm { i } } { \\bf { f } } \\mathrm { ~ \\Lambda p ~ } \\mathrm { ~ x ~ } } } \\end{array}  }  \\end{array} \\end{array}$   \ng then x : g xs else g xs ",
+        "bbox": [
+            71,
+            764,
+            508,
+            966
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Funciones de orden superior ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se puede abstraer el esquema? ",
+        "bbox": [
+            74,
+            235,
+            560,
+            283
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "filter :: (a -> Bool) -> [a] -> [a] filter p [] = [] filter p (x : xs) = if p x ",
+        "bbox": [
+            74,
+            305,
+            635,
+            455
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Hagamos negativos y noVacias usando filter. ",
+        "bbox": [
+            77,
+            580,
+            720,
+            625
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "negativos $=$ filter (< 0) noVacias $=$ filter (not . null) ",
+        "bbox": [
+            74,
+            650,
+            569,
+            746
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (tarea) ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            290,
+            292,
+            338
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "merge :: (a -> a -> Bool) -> [a] -> [a] -> [a] mergesort :: (a -> a -> Bool) -> [a] -> [a] ",
+        "bbox": [
+            71,
+            371,
+            872,
+            470
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "El primer par´ametro es una funci´on que determina una relaci´on de orden total entre los elementos de tipo a. ",
+        "bbox": [
+            74,
+            492,
+            919,
+            591
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Fundamentos de programaci´on funcional ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            308,
+            734,
+            367
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios ",
+        "bbox": [
+            77,
+            536,
+            229,
+            588
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a877ecab809d68c1c0b165acbb3a837c256e703be7f49d595b0846646bb57e90.jpg",
+        "text": "$$\n^ { 2 8 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Algunos esquemas de recursi´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            527,
+            88
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "a) Definir una funci´on: ",
+        "bbox": [
+            93,
+            275,
+            389,
+            319
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "operatoria :: (a -> a -> a) -> [a] -> a que dada una operaci´on binaria (que asumimos asociativa) y una lista no vac´ıa devuelve el resultado de hacer la operaci´on entre todos los elementos. ",
+        "bbox": [
+            129,
+            327,
+            914,
+            522
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Informalmente: ",
+        "bbox": [
+            135,
+            547,
+            325,
+            591
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "b) Definir la sumatoria y la productoria como casos particulares. ",
+        "bbox": [
+            85,
+            672,
+            906,
+            716
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Algunos esquemas de recursi´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            527,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "a) Definir una funci´on: ",
+        "bbox": [
+            93,
+            194,
+            389,
+            238
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "mientras :: (a -> Bool) -> (a -> a) -> a -> a que dada una condici´on, una funci´on de transformaci´on de estados y un estado inicial devuelva el resultado final que se alcanza aplicando repetidamente la funci´on de transformaci´on mientras se cumpla la condici´on. ",
+        "bbox": [
+            129,
+            246,
+            917,
+            488
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "b) Usando la funci´on mientras, definir la funci´on que computa el $n -$ -´esimo elemento de la sucesi´on de Fibonacci de manera iterativa. ",
+        "bbox": [
+            91,
+            503,
+            906,
+            647
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Recordemos que: ",
+        "bbox": [
+            135,
+            680,
+            350,
+            720
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/538b9c87cb8006f4636aa384380dde71e8b6e5c17ef22a4ccf9f2659dfad79a4.jpg",
+        "text": "$$\n= 0 \\qquad F _ { 1 } = 1 \\qquad F _ { n + 2 } = F _ { n } + F _ { n + 1 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            764,
+            803,
+            816
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Arboles binarios infinitos ´ ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            22,
+            422,
+            84
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Un ´arbol binario (AB) se representa como un valor del tipo: ",
+        "bbox": [
+            74,
+            238,
+            850,
+            286
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "data AB a = Nil | Bin (AB a) a (AB a) ",
+        "bbox": [
+            102,
+            323,
+            696,
+            367
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Un AB infinito (ABI) se representa como un valor del tipo: ",
+        "bbox": [
+            74,
+            404,
+            837,
+            455
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "data ABI a $=$ IBin (ABI a) a (ABI a) ",
+        "bbox": [
+            102,
+            488,
+            660,
+            536
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Definir una funci´on: ",
+        "bbox": [
+            74,
+            573,
+            328,
+            617
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "podadoDesdeElNivel :: Int -> ABI a -> AB a de tal modo que podadoDesdeElNivel n a denota el AB que resulta de podar el ´arbol a a partir del nivel $^ { n }$ . ",
+        "bbox": [
+            71,
+            625,
+            870,
+            768
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Arboles binarios infinitos ´ ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            422,
+            84
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Consideremos los tipos de datos de las direcciones, y los caminos (listas finitas de direcciones): ",
+        "bbox": [
+            74,
+            95,
+            922,
+            194
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "data Direcci´on $=$ Izq | Der type Camino $=$ [Direcci´on] ",
+        "bbox": [
+            104,
+            216,
+            522,
+            312
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Un ´arbol binario infinito cuyos nodos tienen datos de tipo a se puede representar tambi´en como una funci´on de caminos que, dado un camino, indica el valor del nodo en dicha posici´on: ",
+        "bbox": [
+            74,
+            334,
+            886,
+            481
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "type Funci´onDeCaminos a $=$ Camino -> a ",
+        "bbox": [
+            104,
+            507,
+            696,
+            551
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            591,
+            190,
+            636
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "a) Definir una funci´on: ",
+        "bbox": [
+            93,
+            661,
+            389,
+            705
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "funci´onDeCaminosDe :: ABI a -> Funci´onDeCaminos a que dado un ABI devuelve su funci´on de caminos. ",
+        "bbox": [
+            118,
+            713,
+            950,
+            805
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "b) Definir la funci´on inversa: ",
+        "bbox": [
+            91,
+            819,
+            461,
+            863
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "abiDe :: Funci´onDeCaminos a -> ABI a que dada una funci´on de caminos devuelve su ABI. ",
+        "bbox": [
+            127,
+            875,
+            781,
+            966
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/78b18b6236c1c5abddfc25a1f116b303270151480116d3fe917cc1f472b4f442.jpg",
+        "text": "$$\n3 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            947,
+            922,
+            1000,
+            1000
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            253,
+            745,
+            349
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada   \nCap´ıtulo 4 del libro de Bird.   \nRichard Bird. Thinking functionally with Haskell. Cambridge University Press, 2015. ",
+        "bbox": [
+            74,
+            437,
+            701,
+            632
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Comentarios: tipos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            331,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Ojo. Dijimos: ",
+        "bbox": [
+            77,
+            132,
+            254,
+            180
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "“Cada variable se debe usar siempre con un mismo tipo.” ",
+        "bbox": [
+            138,
+            216,
+            861,
+            261
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "¿Est´a bien tipado el siguiente programa? ",
+        "bbox": [
+            74,
+            341,
+            591,
+            389
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "sucesor :: Int -> Int sucesor $\\textbf { z } = \\textbf { x } + \\textbf { 1 }$ ",
+        "bbox": [
+            104,
+            415,
+            444,
+            507
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fa144e351cb417993f6270067b656898fed9bae8dbda4c78536b3948dd1364c0.jpg",
+        "text": "$$\n3 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "opuesto :: Bool -> Bool opuesto x = not x ",
+        "bbox": [
+            104,
+            566,
+            472,
+            658
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "S´ı. Hay dos “x” con distinto tipo pero son variables distintas. El programa se podr´ıa reescribir as´ı: ",
+        "bbox": [
+            71,
+            683,
+            859,
+            779
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2e5f57cbcf2b973db9e2b339696c8cbaa27a19c2079810ee68afb3ec7254a140.jpg",
+        "text": "$$\n\\begin{array} { l } { \\mathrm { s u c e s o r ~ x ~ = ~ x ~ + ~ 1 ~ } } \\\\ { \\mathrm { o p u e s t o ~ y ~ = ~ n o t ~ y ~ } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            104,
+            808,
+            381,
+            911
+        ],
+        "page_idx": 33
+    }
+]

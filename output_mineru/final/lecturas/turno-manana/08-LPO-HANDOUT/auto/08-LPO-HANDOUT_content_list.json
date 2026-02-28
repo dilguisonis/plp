@@ -1,0 +1,2844 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            242,
+            814,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "L´ogica de primer orden ",
+        "bbox": [
+            290,
+            341,
+            712,
+            400
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            441,
+            781,
+            639
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de la l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            301,
+            665,
+            356
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica de primer orden ",
+        "bbox": [
+            74,
+            444,
+            828,
+            503
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/adbdc380b0f66560feb1a0c385ebdf824f715e3c8339278529636e35e396365f.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de la l´ogica de primer orden ",
+        "bbox": [
+            74,
+            591,
+            712,
+            650
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on de t´erminos ",
+        "bbox": [
+            74,
+            738,
+            458,
+            794
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            223,
+            84
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "L´ogica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            264,
+            372,
+            312
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Permite razonar acerca de proposiciones. ",
+        "bbox": [
+            77,
+            323,
+            591,
+            367
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: Llueve ∨ ¬Llueve ",
+        "bbox": [
+            74,
+            375,
+            433,
+            419
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "L´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            474,
+            411,
+            522
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Permite razonar acerca de elementos sobre los que se predica. Ejemplo: ",
+        "bbox": [
+            74,
+            536,
+            859,
+            625
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a1ab985eada39a1d8ae32e1d89ccb1a9ef4fab348585df1a36e3d1ea5ec2cb9e.jpg",
+        "text": "$$\n\\forall X . ( \\qquad ( X ) \\Rightarrow \\neg \\qquad ( \\operatorname { s u c c } ( X ) ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            248,
+            632,
+            748,
+            687
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Extiende a la l´ogica proposicional con t´erminos y cuantificadores. ",
+        "bbox": [
+            74,
+            709,
+            903,
+            753
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "¿Para qu´e tanta l´ogica? Yo me anot´e en Computaci´on. . . ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            955,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Conexi´on estrecha entre l´ogica de primer orden y Computaci´on. ",
+        "bbox": [
+            74,
+            136,
+            886,
+            183
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "En sus or´ıgenes hist´oricos ",
+        "bbox": [
+            74,
+            205,
+            422,
+            253
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Problema de la decisi´on de Hilbert. ",
+        "bbox": [
+            132,
+            279,
+            580,
+            319
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "En la actualidad ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            371,
+            298,
+            415
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Computabilidad y complejidad descriptiva.   \nRepresentaci´on del conocimiento, sistemas multi-age Inteligencia artificial, razonamiento autom´atico.   \nM´etodos formales, verificaci´on autom´atica.   \nBases de datos relacionales, lenguajes de consulta.   \nVerificaci´on de hardware.   \nFundamento de la programaci´on l´ogica. ",
+        "bbox": [
+            124,
+            430,
+            795,
+            911
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6c1676d781bd1e72839a984112b231b9b859402def1217c5cd8490adc1b99e98.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            283,
+            121,
+            312
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            430,
+            121,
+            900
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Programaci´on l´ogica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            350,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ideal de la programaci´on declarativa ",
+        "bbox": [
+            74,
+            235,
+            604,
+            283
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Los programas deber´ıan asemejarse a especificaciones. ",
+        "bbox": [
+            80,
+            297,
+            754,
+            341
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "En particular: programaci´on l´ogica ",
+        "bbox": [
+            77,
+            375,
+            577,
+            426
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El usuario escribe una f´ormula: ",
+        "bbox": [
+            129,
+            448,
+            530,
+            488
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "∃X . P(X ) ",
+        "bbox": [
+            464,
+            533,
+            593,
+            584
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El sistema busca satisfacer o refutar la f´ormula. ",
+        "bbox": [
+            129,
+            628,
+            737,
+            672
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "En caso de lograr satisfacerla, el sistema produce una salida que verifica la propiedad $P$ buscada. ",
+        "bbox": [
+            129,
+            687,
+            895,
+            783
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            452,
+            118,
+            481
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            636,
+            118,
+            661
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de la l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            297,
+            668,
+            356
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica de primer orden ",
+        "bbox": [
+            74,
+            444,
+            828,
+            503
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de la l´ogica de primer orden ",
+        "bbox": [
+            74,
+            591,
+            712,
+            650
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on de t´erminos ",
+        "bbox": [
+            74,
+            738,
+            458,
+            794
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lenguajes de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            447,
+            88
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            319,
+            212,
+            363
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Un lenguaje de primer orden $\\mathcal { L }$ est´a dado por: ",
+        "bbox": [
+            80,
+            371,
+            690,
+            415
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1. Un conjunto de s´ımbolos de funci´on $\\mathcal { F } = \\{ \\mathbf { f } , \\mathbf { g } , \\mathbf { h } , \\mathbf { \\Omega } , \\mathbf { \\Omega } \\} .$ Cada s´ımbolo de funci´on tiene asociada una aridad $( \\geq 0 )$ . 2. Un conjunto de s´ımbolos de predicado $\\mathcal { P } = \\{ \\mathsf { P } , \\mathsf { Q } , \\mathsf { R } , \\hdots \\} .$ Cada s´ımbolo de predicado tiene asociada una aridad $( \\geq 0 )$ ",
+        "bbox": [
+            91,
+            426,
+            889,
+            661
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 ",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "T´erminos de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            439,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Suponemos fijado un lenguaje de primer orden $\\mathcal { L }$ y un conjunto infinito numerable de variables $\\mathcal { X } = \\{ X , Y , Z , \\ldots \\} .$ ",
+        "bbox": [
+            74,
+            238,
+            922,
+            338
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            360,
+            212,
+            404
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "El conjunto T de t´erminos se define por la siguiente gram´atica: ",
+        "bbox": [
+            71,
+            411,
+            892,
+            455
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d04ddffd6f3ea65c233145eecfc7b793963176806405618d3e0c696ced0b6943.jpg",
+        "text": "$$\n \\begin{array} { r l r l r l } { t } & { { } } & { \\mathrel { \\mathop : } = { } } & { { } } & { X } & { { } } & { { } \\big | } & { } & { { } \\mathbf { f } \\left( t _ { 1 } , \\ldots , t _ { n } \\right) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            270,
+            492,
+            720,
+            551
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "donde: ",
+        "bbox": [
+            74,
+            591,
+            160,
+            632
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "X denota una variable f denota un s´ımbolo de funci´on de aridad n ",
+        "bbox": [
+            129,
+            650,
+            696,
+            757
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "T´erminos de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            33,
+            441,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — el lenguaje Laritm´etica ",
+        "bbox": [
+            74,
+            154,
+            513,
+            205
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/68d99ff0562c6327ead2007fcbba896e5b8105a45b9e56feacc8788e79abf6a3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            160,
+            253,
+            461,
+            367
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/d83dce8f7326d14a95701507ebca575f7c9c52247f22543614683bfe55af3c7d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            610,
+            253,
+            837,
+            367
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — t´erminos sobre el lenguaje Laritm´etica ",
+        "bbox": [
+            74,
+            433,
+            723,
+            485
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0beaa8f8f4e47dbfa5d2d0684a8810e03917b8ff0afeffc4ef871e5a56f7f730.jpg",
+        "text": "$$\n+ ( 0 , \\operatorname { s u c c } ( X ) ) \\qquad * ( + ( X , Y ) , Z )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            529,
+            726,
+            606
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Los s´ımbolos de funci´on de aridad 0 se llaman constantes.   \nNota. Usamos notaci´on infija como conveniencia. ",
+        "bbox": [
+            74,
+            636,
+            809,
+            761
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7591ce263f49cca48b01007764bf9b077ed306c7f5435b023a11d2bf99980c1c.jpg",
+        "text": "$$\n0 + \\operatorname { s u c c } ( X ) \\qquad ( X + Y ) * Z\n$$",
+        "text_format": "latex",
+        "bbox": [
+            292,
+            797,
+            709,
+            852
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "F´ormulas de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            436,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Recordemos la gram´atica de las f´ormulas en l´ogica proposicional y extend´amosla a l´ogica de primer orden. ",
+        "bbox": [
+            74,
+            136,
+            889,
+            235
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r c l } { \\sigma } & { : = } & { \\mathsf { P } ( t _ { 1 } , \\ldots , t _ { n } ) } \\\\ & & { | } & { \\bot } \\\\ & & { | } & { \\sigma \\Rightarrow \\sigma } \\\\ & & { | } & { \\sigma \\land \\sigma } \\\\ & & { | } & { \\sigma \\lor \\sigma } \\\\ & & { | } & { \\lnot \\sigma } \\\\ & & { | } & { \\forall \\cal X . \\sigma } \\\\ & & { | } & { \\exists \\cal X . \\sigma } \\end{array}$ f´ormula at´omica contradicci´on implicaci´on conjunci´on disyunci´on negaci´on cuantificaci´on universal cuantificaci´on existencial ",
+        "bbox": [
+            171,
+            268,
+            823,
+            672
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "P denota un s´ımbolo de predicado de aridad $^ { n }$ .   \nLos cuantificadores ligan una variable X .   \nSe puede tomar la precedencia: ¬, ∀X . σ/∃X . σ, ∧, ∨, ⇒. ",
+        "bbox": [
+            132,
+            742,
+            859,
+            915
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "F´ormulas de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            439,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Recordemos — el lenguaje Laritm´etica ",
+        "bbox": [
+            77,
+            220,
+            571,
+            272
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "0 succ1 2 2 2   \n0 + ∗ 12 ",
+        "bbox": [
+            212,
+            319,
+            787,
+            378
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — f´ormulas sobre Laritm´etica ",
+        "bbox": [
+            74,
+            441,
+            569,
+            488
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4a97eb0881f80680973e2731dfa1c78917ba50db70e6cd6c8c770090836a4d46.jpg",
+        "text": "$$\n\\forall X . \\exists Y . = ( + ( X , Y ) , 0 )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            533,
+            662,
+            588
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "∀X . ∀Y . (succ(X ) = succ(Y ) ⇒ X = Y ) ",
+        "bbox": [
+            223,
+            636,
+            773,
+            687
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/17c7578fd16b49509307772e8908f7a0d7bccfe695e61c16f12c2343e778c84e.jpg",
+        "text": "$$\n\\forall X . ( X \\quad \\ 0 \\lor \\ X \\quad 0 \\lor \\ 0 \\quad X )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            273,
+            735,
+            723,
+            790
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "F´ormulas de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            436,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Una ocurrencia de una variable X en una f´ormula est´a: ",
+        "bbox": [
+            77,
+            213,
+            776,
+            261
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "ligada si est´a bajo el alcance de un cuantificador $\\forall X / \\exists X$ , libre si no. ",
+        "bbox": [
+            124,
+            294,
+            878,
+            386
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Dos f´ormulas que s´olo difieren en los nombres de las variables ligadas se consideran iguales. ",
+        "bbox": [
+            74,
+            481,
+            861,
+            577
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            625,
+            187,
+            669
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "∀X . ∃Y . P(X , Y ) ≡ ∀Y . ∃X . P(Y , X ) ≡ ∀A. ∃B. P(A, B) ",
+        "bbox": [
+            113,
+            713,
+            881,
+            764
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "F´ormulas de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            436,
+            84
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Notamos $\\sigma \\{ X : = t \\}$ a la sustituci´on de las ocurrencias libres de X en la f´ormula $\\sigma$ por el t´ermino t, evitando la captura de variables. ",
+        "bbox": [
+            71,
+            213,
+            922,
+            312
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            187,
+            382
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Sean: ",
+        "bbox": [
+            74,
+            400,
+            146,
+            441
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c58a93a1423e8f36f702a473a8d34710cb3471c1c613975e741f5d56e663b7ed.jpg",
+        "text": "$$\n{ \\boldsymbol { \\sigma } } ~ : \\equiv ~ \\operatorname { s u c c } ( { \\boldsymbol { X } } ) \\quad { \\boldsymbol { Y } } \\implies \\exists { \\boldsymbol { Z } } . { \\boldsymbol { X } } + { \\boldsymbol { Z } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            212,
+            481,
+            720,
+            536
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "entonces: ",
+        "bbox": [
+            74,
+            580,
+            196,
+            621
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "σ{X := Z ∗ Z} $\\sharp \\ \\equiv \\ \\mathsf { s u c c } ( Z \\ast Z ) = Y \\implies \\exists Z ^ { \\prime } . ( Z \\ast Z )$ Z ) + Z ′ = Y ",
+        "bbox": [
+            74,
+            661,
+            936,
+            716
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "13 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de la l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            301,
+            665,
+            356
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica de primer orden ",
+        "bbox": [
+            74,
+            444,
+            828,
+            503
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e8b1a0b95390a347030520ff3162e856083c0e0b2a75d5149efa0b654b49db5b.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de la l´ogica de primer orden ",
+        "bbox": [
+            74,
+            591,
+            712,
+            650
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on de t´erminos ",
+        "bbox": [
+            74,
+            738,
+            458,
+            790
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            317,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "La deducci´on natural proposicional se extiende a primer orden. ",
+        "bbox": [
+            77,
+            99,
+            864,
+            143
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Igual que antes: ",
+        "bbox": [
+            74,
+            169,
+            276,
+            209
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "1. Un contexto Γ es un conjunto finito de f´ormulas.   \n2. Un secuente es de la forma Γ ⊢ σ. ",
+        "bbox": [
+            93,
+            224,
+            770,
+            330
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Todas las reglas de deducci´on natural proposicional siguen vigentes.   \nSe agregan reglas de introducci´on y eliminaci´on para ∀ y ∃.   \nAxioma ax   \nConjunci´on ∧i ∧e1 ∧e2   \nDisyunci´on ∨i1 ∨i2 ∨e   \nImplicaci´on ⇒i ⇒e   \nNegaci´on ¬i ¬e   \nContradicci´on ⊥e   \nL´ogica cl´asica ¬¬e   \nCuantificaci´on universal ∀i ∀e   \nCuantificaci´on existencial ∃i ∃e ",
+        "bbox": [
+            77,
+            363,
+            928,
+            459
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            215,
+            496,
+            781,
+            941
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on universal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            403,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Regla de eliminaci´on ",
+        "bbox": [
+            74,
+            253,
+            356,
+            301
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c3bfc7aaa3fb71b7987fdfd984fd05e1528782d4f376ec521f8a728d2697c8b3.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\forall X . \\sigma } { \\Gamma \\vdash \\sigma \\{ X : = t \\} } \\forall \\mathrm { E }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            372,
+            345,
+            649,
+            466
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Regla de introducci´on ",
+        "bbox": [
+            74,
+            533,
+            372,
+            580
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ac6ab93cfdaa74283d775f7457b9fae46d18a864afb025efcfbe8f0ebf83b21b.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\sigma \\quad X \\notin \\mathsf { f v } ( \\Gamma ) } { \\Gamma \\vdash \\forall X . \\sigma } \\forall \\mathrm { I }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            372,
+            625,
+            649,
+            742
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on universal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            403,
+            84
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "bbox": [
+            77,
+            253,
+            187,
+            301
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "∀X . ( $\\begin{array} { r l } & { \\overline { { \\mathbf { \\phi } ^ { \\mathtt { p } } ( X ) \\wedge \\mathbf { Q } ( X ) ) \\vdash \\forall X . ( \\mathbf { P } ( X ) \\wedge \\mathbf { Q } ( X ) ) } } ^ { \\mathrm { - \\mathbb { A X } } } } \\\\ & { \\overline { { \\mathbf { \\phi } ^ { \\mathtt { c } } ) \\wedge \\mathbf { Q } ( X ) ) \\vdash \\mathbf { P } ( \\cos ( X ) ) \\wedge \\mathbf { Q } ( \\cos ( X ) ) } } ^ { \\overline { { \\mathtt { c } } } } } \\\\ & { \\overline { { \\mathbf { \\phi } _ { X } . ( \\mathbf { P } ( X ) \\wedge \\mathbf { Q } ( X ) ) \\vdash \\mathbf { P } ( \\cos ( X ) ) } } ^ { \\overline { { \\mathtt { c } } } } \\wedge } \\\\ & { \\overline { { \\mathbf { \\phi } ( \\mathbf { P } ( X ) \\wedge \\mathbf { Q } ( X ) ) \\vdash \\forall X . \\mathbf { P } ( \\cos ( X ) ) } } ^ { \\overline { { \\mathtt { c } } } } \\quad \\forall } \\\\ & { \\overline { { \\mathbf { \\phi } ( \\mathbf { P } ( X ) \\wedge \\mathbf { Q } ( X ) ) \\Rightarrow \\forall X . \\mathbf { P } ( \\cos ( X ) ) } } \\quad \\Rightarrow 1 } \\end{array}$ e   \n∀X . (P( e1   \n∀ i   \n∀X.   \n⊢ ∀X. ",
+        "bbox": [
+            198,
+            382,
+            850,
+            753
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fb438f64eeb152a934dee973e3576d96a3fec4870c4b66597fdfecd866135cd9.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on universal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            403,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "bbox": [
+            77,
+            253,
+            187,
+            301
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/42e82046a52b049a9244fcfcf70086159805f55ff4c88949ea4442c0acdfcc53.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\overset { \\cdot } { \\underset { \\mathbf { V } ^ { } , \\forall X . \\forall Y . \\mathbf { Q } ( X , Y ) \\vdash \\forall Z . \\forall Y . \\mathbf { Q } ( Z , Y ) } { \\cdot } } } \\\\ & { \\overset { \\cdot } { \\underset { \\mathbf { V } ^ { } , \\forall X . \\forall Y . \\mathbf { Q } ( X , Y ) \\vdash \\forall Y . \\forall X . \\mathbf { Q } ( Z , Y ) } { \\cdot } } \\overset { \\cdot } { \\underset { \\forall Y . \\mathbf { Q } ( X , Y ) \\vdash \\forall Y . \\mathbf { Q } ( Z , Y ) } { \\cdot } } } \\\\ & { \\overset { \\cdot } { \\underset { \\mathbf { P } ^ { } , \\forall X . \\forall Y . \\mathbf { Q } ( X , Y ) \\vdash \\forall ( Z , Y ) } { \\cdot } } \\overset { \\cdot } { \\underset { \\forall Y . \\mathbf { Q } ( X , Y )  \\forall Y . \\mathbf { Q } ( X , Y ) } { \\cdot } } \\overset { \\forall } { \\underset { \\forall Y } { \\cdot } } } \\\\ & { \\overset { \\cdot } { \\underset { \\forall X . \\forall Y . \\mathbf { Q } ( X , Y ) \\vdash \\forall Y . \\forall X . \\mathbf { Q } ( X , Y ) } { \\cdot } } \\overset { \\cdot } { \\underset { \\forall Y . \\forall X . \\mathbf { Q } ( X , Y ) } { \\cdot } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            389,
+            803,
+            757
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on universal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            403,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "¿Por qu´e se exige que $X \\notin \\mathsf { f v } ( \\Gamma )$ en la regla ∀i? ",
+        "bbox": [
+            74,
+            290,
+            679,
+            341
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — aplicaci´on incorrecta de la regla ∀i ",
+        "bbox": [
+            74,
+            386,
+            707,
+            433
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "EsPar(N) ⊢ EsPar(N) ⇐ Paso de razonamiento inv´alido EsPar(N) ⊢ ∀N. EsPar(N) ",
+        "bbox": [
+            127,
+            518,
+            900,
+            639
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on existencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            428,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Regla de introducci´on ",
+        "bbox": [
+            74,
+            253,
+            372,
+            297
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/88701fc50016a0e1840295975a11fddbd84fb847fa4608d1c92ffd9b8a432064.jpg",
+        "text": "$$\n{ \\frac { \\Gamma \\vdash \\sigma \\{ X : = t \\} } { \\Gamma \\vdash \\exists X . \\sigma } } \\exists \\mathrm { I }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            341,
+            618,
+            459
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Regla de eliminaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            533,
+            356,
+            580
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3b3e80ff7336249390ba01bd09654cd99b5f5e4bf0e83cb635bc3d3f1a89605a.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\exists X . \\sigma \\quad \\Gamma , \\sigma \\vdash \\tau \\quad X \\notin \\mathsf { f v } ( \\Gamma , \\tau ) } { \\Gamma \\vdash \\tau } \\exists \\mathrm { E }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            621,
+            759,
+            742
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on existencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            84
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "bbox": [
+            77,
+            183,
+            187,
+            231
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/37512693dabc6ab0580cec166cc9c618322685268b8d534fdcf91b332a762f0e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            124,
+            356,
+            900,
+            720
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            71,
+            827,
+            339,
+            875
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on existencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            428,
+            84
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "bbox": [
+            77,
+            209,
+            187,
+            253
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\quad \\frac { \\alpha , \\mathbf { P } ( W , W ) , \\mathbf { Q } ( X ) \\vdash \\mathbf { P } ( W , W ) } { \\sigma , \\mathbf { P } ( W , W ) \\vdash \\mathbf { Q } ( X ) \\Rightarrow \\mathbf { P } ( W , W ) } \\quad \\quad } \\\\ & { \\quad \\frac { \\sigma , \\mathbf { P } ( W , W ) \\vdash \\mathbf { Q } ( X ) \\Rightarrow \\mathbf { P } ( W , W ) } { \\tau , \\mathbf { P } ( W , W ) \\vdash \\exists Z . ( \\mathbf { Q } ( X ) \\Rightarrow \\mathbf { P } ( W , Z ) ) } \\stackrel { \\exists } { = } } \\\\ & { \\quad \\frac { \\mathbf { \\ P } ( W , W ) \\vdash \\exists Y . \\exists Z . ( \\mathbf { Q } ( X ) \\Rightarrow \\mathbf { P } ( W , Z ) ) } { \\Rightarrow \\mathbf { V } . \\exists Z . ( \\mathbf { Q } ( X ) \\Rightarrow \\mathbf { P } ( Y , Z ) ) } } \\\\ & { \\quad \\overline { { W ) \\vdash \\exists Y . \\exists Z . ( \\mathbf { Q } ( X ) \\Rightarrow \\mathbf { P } ( Y , Z ) ) } } \\quad \\equiv } \\end{array}$ i ax ∃i σ ⊢ σ σ, P e ∃X W . P(X W , ",
+        "bbox": [
+            127,
+            334,
+            900,
+            705
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            71,
+            790,
+            337,
+            838
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Cuantificaci´on existencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            84
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Para pensar ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            419,
+            237,
+            463
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "¿Por qu´e se exige que $X \\not \\in \\mathfrak { f v } ( \\Gamma , \\tau )$ en la regla ∃e? ",
+        "bbox": [
+            74,
+            474,
+            715,
+            525
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "img_path": "images/19103a17d20c26c127567d7d13b830641b4a9e5877ad7f4bd94211902b7d7545.jpg",
+        "text": "$$\n^ { 2 3 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de la l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            301,
+            665,
+            356
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica de primer orden ",
+        "bbox": [
+            74,
+            444,
+            828,
+            503
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ae634fbb65868a03fb0ae1eff64da3fdd747f590cb2bc7d2b17f788aef6e9968.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de la l´ogica de primer orden ",
+        "bbox": [
+            74,
+            591,
+            712,
+            650
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on de t´erminos ",
+        "bbox": [
+            74,
+            738,
+            458,
+            794
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Estructuras de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            472,
+            84
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Suponemos fijado un lenguaje de primer orden $\\mathcal { L }$ . ",
+        "bbox": [
+            74,
+            183,
+            701,
+            231
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            253,
+            212,
+            297
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Una estructura de primer orden es un par $\\mathcal { M } = ( M , I )$ donde: ",
+        "bbox": [
+            77,
+            305,
+            900,
+            349
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "M es un conjunto no vac´ıo, llamado universo. ",
+        "bbox": [
+            129,
+            367,
+            726,
+            411
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "I es una funci´on que le da una interpretaci´on a cada s´ımbolo. ",
+        "bbox": [
+            135,
+            426,
+            906,
+            470
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Para cada s´ımbolo de funci´on f de aridad $^ { n }$ : ",
+        "bbox": [
+            129,
+            485,
+            698,
+            533
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d96d79a515928609476ba498ccd14f83df44f50056141c9fd51a4bb9dacbd814.jpg",
+        "text": "$$\nI ( \\pounds ) : M ^ { n } \\to M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            428,
+            573,
+            635,
+            628
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Para cada s´ımbolo de predicado P de aridad n: ",
+        "bbox": [
+            127,
+            665,
+            729,
+            713
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6a1cbe78dc8ecb3c264ebaccd7f2749b012871e7d76cdd46979dd15c3c5988a3.jpg",
+        "text": "$$\nI ( \\mathbf { \\theta } ) \\subseteq M ^ { n }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            455,
+            753,
+            602,
+            805
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            99,
+            672,
+            118,
+            698
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            367,
+            121,
+            522
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Estructuras de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Recordemos — el lenguaje Laritm´etica ",
+        "bbox": [
+            77,
+            172,
+            571,
+            224
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — una estructura sobre Laritm´etica ",
+        "bbox": [
+            77,
+            389,
+            649,
+            437
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "M := N (los elementos son n´umeros naturales) ",
+        "bbox": [
+            74,
+            452,
+            709,
+            500
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4858ebd3a8bc8ef459b67f4554a4b78504b9496ca8a093e8fc75dfc15ff6b438.jpg",
+        "text": "$$\n\\begin{array} { l l } { ( 0 ) } & { = 0 } \\\\ { ( \\operatorname { s u c c } ) ( n ) = n + 1 } & { \\quad ( n , m ) \\in I ( \\quad ) } \\\\ { ( + ) ( n , m ) = n + m } & { } \\\\ { ( * ) ( n , m ) \\ = n \\cdot m } & { \\quad ( n , m ) \\in I ( \\quad ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            536,
+            685,
+            742
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e pasa con la f´ormula ∀X . $. ( X = X + X )$ bajo esta estructura? ¡Es falsa! ",
+        "bbox": [
+            69,
+            801,
+            919,
+            900
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Estructuras de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            475,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Recordemos — el lenguaje Laritm´etica ",
+        "bbox": [
+            77,
+            191,
+            571,
+            242
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — otra estructura sobre Laritm´etica ",
+        "bbox": [
+            77,
+            411,
+            651,
+            459
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "$M : = { \\mathcal { P } } ( \\mathbb { R } )$ (los elementos son conjuntos de n´umeros reales) ",
+        "bbox": [
+            71,
+            470,
+            886,
+            518
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9d65ec9941c4643b4dba6441d88cbc98e9f204ee4e7a023af21aa615fc10b1eb.jpg",
+        "text": "$$\n\\begin{array} { c c } { { } } & { { = \\emptyset } } \\\\ { { . . . \\circ ( A ) = \\left\\{ 1 + x \\ | \\ x \\in A \\right\\} } } & { { ( A , B ) \\in I } } \\\\ { { ) ( A , B ) = A \\cup B } } & { { ( A , B ) \\in I } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            160,
+            555,
+            668,
+            761
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "¿Y ahora qu´e pasa con ∀X . (X = X + X )? ¡Es verdadera! ",
+        "bbox": [
+            71,
+            819,
+            837,
+            875
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Interpretaci´on de t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            447,
+            84
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Suponemos fijada una estructura de primer orden $\\mathcal { M } = ( M , I )$ . ",
+        "bbox": [
+            74,
+            202,
+            875,
+            246
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            272,
+            212,
+            316
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Una asignaci´on es una funci´on que a cada variable le asigna un elemento del universo: ",
+        "bbox": [
+            74,
+            319,
+            886,
+            415
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bc482f107a027f153b58c4b9a52eaedc0c7582b22e6668b9c845422bf789259a.jpg",
+        "text": "$$\n\\mathbf { a } : \\mathcal { X }  M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            422,
+            419,
+            574,
+            466
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Definici´on – interpretaci´on de t´erminos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            525,
+            602,
+            573
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Cada t´ermino $t \\in \\mathcal { T }$ se interpreta como un elemento ${ \\mathbf a } ( t ) \\in M$ , extendiendo la definici´on de a a t´erminos: ",
+        "bbox": [
+            74,
+            588,
+            878,
+            680
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6c1b3da145a5e20a373ff931b7e8479a990394b7d81c0eb95603694eea543052.jpg",
+        "text": "$$\n\\begin{array} { r c l } { \\mathsf { f } \\left( t _ { 1 } , \\ldots , t _ { n } \\right) ) } & { = } & { I ( \\pounds ) ( \\mathsf { a } ( t _ { 1 } ) , \\ldots , \\mathsf { a } ( t _ { n } ) ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            720,
+            770,
+            779
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Interpretaci´on de f´ormulas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            447,
+            84
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Suponemos fijada una estructura de primer orden ${ \\mathcal { M } } = ( M , I ) .$ ",
+        "bbox": [
+            63,
+            106,
+            883,
+            154
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Definimos una relaci´on de satisfacci´on $\\mathbf { a } \\Vdash _ { \\mathcal { M } } \\sigma$ “La asignaci´on a (bajo la estructura $\\mathcal { M } )$ satisface la f´ormula $\\boldsymbol { \\sigma } ^ { \\prime \\prime }$ . ",
+        "bbox": [
+            80,
+            176,
+            674,
+            224
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            231,
+            897,
+            275
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "a ⊨M P(t1, . . . , tn) sii (a(t1), . . . , a(tn)) ∈ I (P) a ⊨ σ ∧ τ sii a ⊨M σ y a ⊨M τ a ⊨M σ ∨ τ sii a ⊨M σ o a ⊨M τ a ⊨M σ ⇒ τ sii a ̸⊨M σ o a ⊨M τ a ⊨M ¬σ sii a ̸⊨M σ ",
+        "bbox": [
+            104,
+            375,
+            751,
+            628
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "a ⊨M ∀X. σ sii $\\mathbf { a } [ X \\mapsto m ] \\models _ { \\mathcal { M } } \\sigma$ para todo $m \\in M$ a ⊨M ∃X. σ sii $\\mathbf { a } [ X \\mapsto m ] \\models _ { \\mathcal { M } } \\sigma$ para alg´un $m \\in M$ a ⊨M σ ♣ τ sii $\\mathbf { a } \\Vdash _ { \\mathcal { M } } \\sigma$ br´ocoli $\\mathbf { a } \\Vdash _ { \\mathcal { M } } \\tau$ (Chiste robado de J.-Y. Girard) ",
+        "bbox": [
+            104,
+            676,
+            895,
+            779
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            104,
+            827,
+            892,
+            926
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Validez y satisfactibilidad ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            430,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Decimos que una f´ormula $\\sigma$ es: ",
+        "bbox": [
+            77,
+            99,
+            475,
+            139
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "images/4627b978e9c0c19010c018a816874dfd98c66d4e4d6b88ae935eadb996999b9c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>VALIDA si a FM σ para toda M,a</td><td>SATISFACTIBLE si a FM σ para alguna M,a</td></tr><tr><td>INVALIDA si a FM σ para alguna M,a</td><td>INSATISFACTIBLE si a FM σ para toda M,a</td></tr></table>",
+        "bbox": [
+            74,
+            176,
+            969,
+            588
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Observaciones ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            661,
+            267,
+            705
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "σ es Valida´ sii $\\sigma$ no es Invalida´ $\\sigma$ es Satisfactible sii $\\sigma$ no es Insatisfactible σ es Valida´ sii ¬σ es Insatisfactible $\\sigma$ es Satisfactible sii ¬σ es Invalida´ ",
+        "bbox": [
+            154,
+            746,
+            845,
+            948
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Modelos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            157,
+            80
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Una sentencia es una f´ormula $\\sigma$ sin variables libres.   \nUna teor´ıa de primer orden es un conjunto de sentencias. ",
+        "bbox": [
+            74,
+            268,
+            801,
+            363
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Definici´on — consistencia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            386,
+            425,
+            430
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Una teor´ıa T es consistente si T ̸⊢ ⊥. ",
+        "bbox": [
+            77,
+            441,
+            555,
+            485
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Definici´on — modelo ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            522,
+            364,
+            566
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Una estructura $\\mathcal { M } = ( M , I )$ es un modelo de una teor´ıa T si vale $\\models _ { \\mathcal { M } } \\sigma$ para toda f´ormula $\\sigma \\in { \\mathcal { T } }$ . ",
+        "bbox": [
+            74,
+            569,
+            903,
+            665
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(La asignaci´on es irrelevante pues $\\sigma$ es cerrada). ",
+        "bbox": [
+            74,
+            672,
+            682,
+            716
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on y completitud ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Teorema (G¨odel, 1929) ",
+        "bbox": [
+            77,
+            150,
+            389,
+            202
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Dada una teor´ıa T , son equivalentes: ",
+        "bbox": [
+            77,
+            213,
+            546,
+            257
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "1. T es consistente.   \n2. T tiene (al menos) un modelo. ",
+        "bbox": [
+            93,
+            272,
+            527,
+            382
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Corolario ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            437,
+            198,
+            481
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Dada una f´ormula $\\sigma$ , son equivalentes: ",
+        "bbox": [
+            77,
+            488,
+            566,
+            533
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "1. ⊢ σ es derivable.   \n2. $\\sigma$ es v´alida. ",
+        "bbox": [
+            93,
+            551,
+            348,
+            654
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Corolario ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            702,
+            198,
+            746
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Dada una f´ormula $\\sigma$ , son equivalentes: ",
+        "bbox": [
+            77,
+            753,
+            566,
+            797
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "1. ⊢ ¬σ es derivable.   \n2. $\\sigma$ es insatisfactible. ",
+        "bbox": [
+            93,
+            816,
+            378,
+            919
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2d8f4bf1faf0571d6a4238441707ba2b4136986b40c3842237d0ef9c4bc81d52.jpg",
+        "text": "$$\n3 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos de validez y satisfactibilidad ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            632,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            294,
+            187,
+            338
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Determinar si son (in)v´alidas/(in)satisfactibles: ",
+        "bbox": [
+            77,
+            349,
+            671,
+            400
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\mathrm { 1 . ~ } \\forall X . \\mathrm { ~ ( } X \\quad X ) } \\\\ & { \\mathrm { 2 . ~ } \\forall X . \\mathrm { ~ \\lambda ~ } ( X ) \\Rightarrow \\forall X . \\mathrm { ~ \\lambda ~ } ( \\mathtt { f } ( X ) ) } \\\\ & { \\mathrm { 3 . ~ } \\forall X . \\mathrm { \\ \\lambda  ~ \\lambda ~ } ( X ) \\wedge \\exists X . \\mathrm { ~ \\lambda ~ } ( X ) } \\\\ & { \\mathrm { 4 . ~ } \\forall X . \\exists Y . \\mathrm { ~ \\lambda ~ } ( X , Y ) \\Rightarrow \\exists Y . \\forall X . \\mathrm { ~ \\lambda ~ } ( X , Y } \\\\ & { \\mathrm { 5 . ~ } \\forall X . \\mathrm { ~ ( } X ) \\Rightarrow \\sigma ) \\ \\Rightarrow \\ ( \\exists X . \\mathrm { ~ \\lambda ~ } ( X ) ) \\Rightarrow } \\end{array}$ satisfactible e inv´alida v´alida (∴ satisfactible) nsatisfactible (∴ inv´alida) ) satisfactible e inv´alida con $X \\notin \\mathsf { f v } ( \\sigma )$ v´alida ",
+        "bbox": [
+            88,
+            400,
+            936,
+            720
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "El problema de la decisi´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            447,
+            84
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Querr´ıamos un algoritmo que resuelva el siguiente problema: ",
+        "bbox": [
+            74,
+            334,
+            839,
+            378
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Entrada: una f´ormula $\\sigma$ .   \nSalida: un booleano que indica si $\\sigma$ es v´alida. ",
+        "bbox": [
+            190,
+            419,
+            809,
+            514
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "No es posible dar un algoritmo que cumpla dicha especificaci´on. ",
+        "bbox": [
+            74,
+            584,
+            889,
+            632
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            279,
+            205
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis de la l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            301,
+            665,
+            356
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica de primer orden ",
+        "bbox": [
+            74,
+            444,
+            828,
+            503
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de la l´ogica de primer orden ",
+        "bbox": [
+            74,
+            591,
+            712,
+            650
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Unificaci´on de t´erminos ",
+        "bbox": [
+            74,
+            738,
+            458,
+            794
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Algoritmo de unificaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            417,
+            84
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "El algoritmo de unificaci´on que conoc´ıamos se adapta a t´erminos de primer orden s´olo cambiando la notaci´on: ",
+        "bbox": [
+            69,
+            95,
+            903,
+            191
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } { \\{ X ^ { \\frac { 7 } { 2 } } X \\} \\cup E } & { \\xrightarrow { \\mathrm { \\scriptsize ~ p e l e t e } } , } \\\\ { t _ { 1 } , \\ldots , t _ { n } \\big ) ^ { \\frac { 7 } { 2 } } \\mathbf { f } \\big ( s _ { 1 } , \\ldots , s _ { n } \\big ) \\} \\cup E } & { \\xrightarrow { \\mathrm { \\scriptsize ~ p e c o m p o s e } } } \\\\ { \\{ t ^ { \\frac { 7 } { 2 } } X \\} \\cup E } & { \\xrightarrow { \\mathrm { \\scriptsize ~ s u a p } } } \\\\ & { \\qquad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad } \\end{array}$ E   \n{f( $\\{ t _ { 1 } \\stackrel { ? } { = } s _ { 1 } , \\ldots , t _ { n } \\stackrel { ? } { = } s _ { n } \\} \\cup E$ $\\{ X { \\overset { ? } { = } } t \\} \\cup E$ si $t$ no es una variable $\\{ X \\stackrel { ? } { = } t \\} \\cup E \\quad \\xrightarrow { \\mathtt { E 1 i m } } \\{ X \\quad t \\}$ E{X :=t} si X ∈/ fv(t)   \n{f $\\left( t _ { 1 } , \\dots , t _ { n } \\right) \\overset { ? } { = } \\mathbf { g } ( s _ { 1 } , \\dots , s _ { m } ) \\} \\cup E \\quad \\xrightarrow { \\mathrm { c l a s h } } \\quad$ falla si f ̸= g {X ?= t} ∪ E Occurs-Check −−−−−−−−→ falla si $X \\neq t \\ y \\ X \\in \\mathsf { f v } ( t )$ ",
+        "bbox": [
+            13,
+            209,
+            914,
+            974
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "36 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            253,
+            745,
+            349
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            441,
+            364,
+            481
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Cap´ıtulo 2 del libro de van Dalen. ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            488,
+            544,
+            533
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2556fd501a4e97ed0da82093e4322544d1c9617dff2d8f0e28bb5dbbf19f767e.jpg",
+        "text": "$$\n3 7\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            915,
+            1000,
+            1000
+        ],
+        "page_idx": 36
+    }
+]

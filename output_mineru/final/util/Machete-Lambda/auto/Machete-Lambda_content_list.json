@@ -1,0 +1,556 @@
+[
+    {
+        "type": "text",
+        "text": "Machete: Tipos y Términos ",
+        "text_level": 1,
+        "bbox": [
+            33,
+            44,
+            486,
+            102
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Las expresiones de tipos (o simplemente tipos) son ",
+        "bbox": [
+            24,
+            121,
+            616,
+            165
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b03ebef1fb6e904a53634e302997221c7dae5096d0ac4a38e54c6b03bcc601fa.jpg",
+        "text": "$$\n\\sigma : : = { \\mathsf { B o o l } } \\mid { \\mathsf { N a t } } \\mid \\sigma \\to \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            350,
+            187,
+            646,
+            238
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sea $\\mathcal { X }$ un conjunto infinito enumerable de variables y $x \\in \\mathcal { X }$ . Los términos estan dados por ",
+        "bbox": [
+            24,
+            264,
+            964,
+            352
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "M := x|入x : σ.M|M M|true| false|if M then M else Mzero| succ(M)| pred(M)| isZero(M)",
+        "bbox": [
+            361,
+            382,
+            646,
+            922
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "28 de abril de 2025 1/7 ",
+        "bbox": [
+            740,
+            963,
+            997,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            963,
+            331,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            0,
+            500,
+            33
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Machete: Axiomas y reglas de tipado ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            44,
+            632,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "「├ true : Bool T-True ├ false : Bool T-False",
+        "bbox": [
+            185,
+            275,
+            814,
+            341
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f8a14388249302295acd4d7a1e5234aff017024ebe9527654d5c9b05e8ba8395.jpg",
+        "text": "$$\n\\overline { { \\Gamma , x : \\sigma \\vdash x : \\sigma } } ^ { } ^ { } \\overline { { \\cal T } } \\ l V a r\n$$",
+        "text_format": "latex",
+        "bbox": [
+            367,
+            389,
+            632,
+            455
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/732a59c2352f0f73baced0bac01dde42f79f33de6b68901e6849cc852b27f341.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash M : \\mathsf { B o o l } \\quad \\Gamma \\vdash P : \\sigma \\quad \\Gamma \\vdash Q : \\sigma } { \\Gamma \\vdash \\mathsf { i f } M \\ t h e n \\ : P \\ : \\mathsf { e l s e } \\ : Q : \\sigma } \\quad T . I f\n$$",
+        "text_format": "latex",
+        "bbox": [
+            254,
+            500,
+            748,
+            591
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fd15d5e70c5536530d2da31e7d596f915741d9c6089ac6f66ab581d2fe551f3e.jpg",
+        "text": "$$\n\\frac { \\therefore \\sigma vdash M : \\tau } { : \\sigma . M : \\sigma  \\tau } \\ T . A b s \\quad \\frac { \\Gamma \\vdash M : \\sigma  \\tau \\quad \\Gamma } { \\Gamma \\vdash M \\ : N : \\tau }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            636,
+            701,
+            727
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "28 de abril de 2025 2/7 ",
+        "bbox": [
+            740,
+            963,
+            997,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            963,
+            331,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            0,
+            500,
+            33
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Machete: Axiomas y reglas de tipado ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            44,
+            629,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "28 de abril de 2025 3/7 ",
+        "bbox": [
+            740,
+            966,
+            997,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            963,
+            331,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            2,
+            0,
+            500,
+            33
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Machete: Semäntica operacional ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            44,
+            558,
+            102
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "V : = true | false | $\\lambda x : \\sigma . M \\mid$ zero | succ(V) ",
+        "bbox": [
+            245,
+            286,
+            754,
+            334
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(Los valores de tipo Nat pueden escribirse como $\\underline { n }$ , lo cual abrevia succ\"(zero)). ",
+        "bbox": [
+            30,
+            356,
+            875,
+            400
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Reglas de Evaluacion en un paso ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            452,
+            408,
+            492
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Si $M _ { 1 }  M _ { 1 } ^ { \\prime }$ , entonces $M _ { 1 } M _ { 2 }  M _ { 1 } ^ { \\prime } M _ { 2 }$ (E-App1 O μ)Si $M _ { 2 }  M _ { 2 } ^ { \\prime }$ , entonces $V M _ { 2 }  V M _ { 2 } ^ { \\prime }$ (E-App2 0 ν)$( \\lambda x : \\sigma . M ) V \\to M \\{ x : = V \\}$ (E-AppAbs 0 $\\beta$ ）",
+        "bbox": [
+            146,
+            511,
+            853,
+            757
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "28 de abril de 2025 4/7 ",
+        "bbox": [
+            740,
+            963,
+            997,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            0,
+            502,
+            33
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            963,
+            331,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Machete: Semäntica operacional ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            44,
+            558,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Reglas de Evaluacion en un paso ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            319,
+            408,
+            360
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "if true then $M _ { 2 }$ else $M _ { 3 }  M _ { 2 }$ (E-IfTrue) ",
+        "bbox": [
+            234,
+            382,
+            872,
+            430
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "if false then $M _ { 2 }$ else $M _ { 3 }  M _ { 3 }$ (E-IfFalse) ",
+        "bbox": [
+            248,
+            477,
+            859,
+            529
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Si $M _ { 1 }  M _ { 1 } ^ { \\prime }$ ， entoncesif $M _ { 1 }$ then $M _ { 2 }$ else $M _ { 3 }  \\mathsf { i f } \\ M _ { 1 } ^ { \\prime }$ then $M _ { 2 }$ else $M _ { 3 }$ ",
+        "bbox": [
+            138,
+            573,
+            715,
+            665
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "28 de abril de 2025 5/7 ",
+        "bbox": [
+            740,
+            966,
+            997,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Machete: Semäntica operacional ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            44,
+            558,
+            102
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Reglas de Evaluacion en un paso ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            165,
+            408,
+            209
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/f65e6f04b0bcbd5327c66b8e63a59f2e9e92265e7b7a0208f5ea408c494fe9a4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>pred(succ(n)) → n</td><td>(E-PredSucc)</td></tr><tr><td>Opcional*: pred(zero) -→ zero</td><td>(E-Predo)</td></tr><tr><td>isZero(zero) → true</td><td>(E-IsZeroo)</td></tr><tr><td>isZero(succ(n)) → false</td><td>(E-IsZeron)</td></tr><tr><td>Si M -&gt; N, entonces succ(M) -→ succ(N)</td><td>(E-Succ)</td></tr><tr><td>Si M → N, entonces pred(M) → pred(N)</td><td>(E-Pred)</td></tr><tr><td>Si M →→ N, entonces isZero(M) → isZero(N)</td><td>(E-IsZero)</td></tr></table>",
+        "bbox": [
+            132,
+            216,
+            991,
+            768
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "\\*lntroducir la regla $\\mathsf { p r e d } _ { 0 }$ restaura la propiedad de Progreso,pero ya no modela los naturales tradicionales, sino una variante. ",
+        "bbox": [
+            24,
+            838,
+            922,
+            922
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            0,
+            500,
+            33
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "28 de abril de 2025 6/7 ",
+        "bbox": [
+            740,
+            966,
+            997,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/00ddee05ec6b68ccf18f53a5c9a7627904b3bb425c00a831de99af91549b6416.jpg",
+        "text": "$$\nM : : = \\dots | \\mu x : \\tau . M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            381,
+            338,
+            624,
+            389
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/073a4baa93ac0473568f87d7ce06e228b4cee7d042cf9afa925dbbc70a2dd191.jpg",
+        "text": "$$\n\\frac { \\Gamma , x : \\sigma \\vdash M : \\sigma } { \\Gamma \\vdash \\mu x : \\sigma . M : \\sigma } T . F i x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            455,
+            640,
+            551
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/34b06318dd2b49ba3a81bbe33e5f25310525a5d55a753ca8df7f4dfcfbe087ff.jpg",
+        "text": "$$\n\\mu x : \\sigma . M  M \\{ x : = \\mu x : \\sigma . M \\} \\quad ( E . F i x )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            613,
+            740,
+            665
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Machete: Extensión con μ ",
+        "bbox": [
+            30,
+            44,
+            461,
+            99
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7/7 ",
+        "bbox": [
+            950,
+            966,
+            986,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            963,
+            331,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "28 de abril de 2025 ",
+        "bbox": [
+            740,
+            966,
+            889,
+            992
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            0,
+            0,
+            500,
+            33
+        ],
+        "page_idx": 6
+    }
+]

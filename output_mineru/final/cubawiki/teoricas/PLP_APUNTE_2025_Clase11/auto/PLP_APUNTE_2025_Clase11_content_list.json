@@ -1,0 +1,2495 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            216,
+            814,
+            283
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD Prolog ",
+        "text_level": 1,
+        "bbox": [
+            356,
+            330,
+            646,
+            441
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 ",
+        "bbox": [
+            301,
+            481,
+            696,
+            529
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            220,
+            536,
+            781,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            242,
+            331,
+            294
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            430,
+            613,
+            485
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Aspectos extra-l´ogicos ",
+        "bbox": [
+            74,
+            621,
+            439,
+            676
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4bbaa76167ab68070a777532b4563531d2897fd0ca01e59f38aa051bd463aa44.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on general ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            320,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Recordemos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            158,
+            240,
+            202
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Para determinar si una f´ormula de primer orden $\\sigma$ es v´alida: ",
+        "bbox": [
+            82,
+            205,
+            828,
+            253
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1. Pasar su negaci´on $( \\neg \\sigma )$ a forma clausal. Se obtiene un conjunto $\\mathcal { C }$ de cl´ausulas tal que ¬σ es satisfactible sii $\\mathcal { C }$ es satisfactible. ",
+        "bbox": [
+            93,
+            268,
+            720,
+            422
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2. Aplicar repetidamente la regla de resoluci´on: ",
+        "bbox": [
+            96,
+            441,
+            698,
+            485
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/815d46ee02616eb1078c0a01e0168fb3413de3feba2b0d10c64ac1396ddff100.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\cdot , \\quad , \\ell _ { 1 } , \\ldots , \\ell _ { n } \\} } & { { } \\{ \\neg \\quad , \\dots , \\neg \\quad , \\ell _ { 1 } ^ { \\prime } , \\ldots , \\ell _ { m } ^ { \\prime } } \\\\ { \\mathsf { \\bf S } = \\mathsf { m g u } ( \\{ \\quad \\stackrel { ? } { = } \\quad }  & { { } \\stackrel { ? } { = } \\dots \\stackrel { ? } { = } \\quad \\stackrel { ? } { = } \\quad \\stackrel { ? } { = } \\quad \\stackrel { ? } { = } \\quad \\stackrel { ? } { = } \\quad \\stackrel { ? } { = } } & { { } \\stackrel { ? } { = } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            522,
+            754,
+            628
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8f1bc851c18b7a747e14ff3a13f6aa34cedc32db41825ec5de9b120851f812b3.jpg",
+        "text": "$$\n\\pmb { \\mathsf { S } } ( \\{ \\ell _ { 1 } , \\hdots , \\ell _ { n } , \\ell _ { 1 } ^ { \\prime } , \\hdots , \\ell _ { m } ^ { \\prime } \\} )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            643,
+            679,
+            698
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3. Si se alcanza la cl´ausula vac´ıa, ¬σ es insatisfactible y $\\sigma$ v´alida.   \n4. El m´etodo puede no terminar. ",
+        "bbox": [
+            88,
+            797,
+            925,
+            904
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on general ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            320,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bfcee9e0e3e13a9bdc3e18d8c3fcc653a43e30c16ce90956ef2ad427622929fc.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B´usqueda. Elegir dos cl´ausulas.   \nSelecci´on. Elegir un subconjunto de literales de cada cl´ausula. ",
+        "bbox": [
+            91,
+            352,
+            903,
+            452
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Aplicar el m´etodo de resoluci´on general puede ser muy costoso. Cada paso requiere usar criterios de b´usqueda y selecci´on: ",
+        "bbox": [
+            74,
+            216,
+            881,
+            312
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "La cantidad de opciones es exponencial en el tama˜no del problema.   \nAdem´as. . . Cada paso agrega una nueva cl´ausula.   \nEn cada paso se deben resolver ecuaciones de unificaci´on.   \nEl m´etodo requiere usar breadth-first search (BFS). ",
+        "bbox": [
+            63,
+            488,
+            917,
+            606
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            127,
+            625,
+            870,
+            794
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            952,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            279,
+            84
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Veremos una variante de la resoluci´on general, la resoluci´on SLD.   \nEs un tradeoff: menor generalidad a cambio de mayor eficiencia. ",
+        "bbox": [
+            74,
+            283,
+            914,
+            375
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Menor generalidad ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            400,
+            325,
+            448
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "No se puede aplicar sobre f´ormulas de primer orden arbitrarias.   \nS´olo se puede aplicar sobre cl´ausulas de Horn. ",
+        "bbox": [
+            74,
+            459,
+            870,
+            555
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Mayor eficiencia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            591,
+            292,
+            636
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Se reducen las opciones de b´usqueda/selecci´on. ",
+        "bbox": [
+            77,
+            650,
+            674,
+            698
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas de Horn ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            314,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Recordemos que una cl´ausula es un conjunto de literales: ",
+        "bbox": [
+            71,
+            99,
+            801,
+            143
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/85cd078a9a6e272827bd6679928e5bffa1e8fdfd3d8a71ed0422c4d3c049fc10.jpg",
+        "text": "$$\n\\{ \\ell _ { 1 } , \\ldots , \\ell _ { n } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            422,
+            183,
+            577,
+            235
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "donde cada literal es una f´ormula at´omica posiblemente negada: ",
+        "bbox": [
+            71,
+            272,
+            892,
+            319
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/1bf6bd5042c72a4c51ad49015edf390ca3e620cad7e23a13e81c3217e9bf5a27.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            279,
+            356,
+            723,
+            470
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Definici´on (Cl´ausulas de Horn) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            529,
+            491,
+            580
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Las cl´ausulas son de los siguientes tipos, dependiendo del n´umero de literales positivos/negativos que contienen: ",
+        "bbox": [
+            74,
+            591,
+            903,
+            687
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/16e6d196fc86b600bb921afed971d01d54c72b8b0cab470ed78931c938218c02.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>#positivos</td><td>#negativos</td></tr><tr><td>cläusula objetivo</td><td>0</td><td>*</td></tr><tr><td>cläusula de definición cläusula de Horn</td><td>1</td><td>*</td></tr><tr><td></td><td>≤1</td><td>*</td></tr></table>",
+        "bbox": [
+            176,
+            727,
+            814,
+            937
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas de Horn ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            314,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — cl´ausulas de Horn ",
+        "bbox": [
+            74,
+            235,
+            477,
+            283
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/51e17ea273ee65952f3aca5241a331be1b3a94b46e2a99498caba088de5e0521.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            91,
+            319,
+            900,
+            500
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Observaci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            580,
+            243,
+            621
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Hay f´ormulas que no se pueden escribir como cl´ausulas de Horn. Por ejemplo: ",
+        "bbox": [
+            74,
+            632,
+            895,
+            724
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 ",
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "P ∨ Q ",
+        "bbox": [
+            455,
+            727,
+            541,
+            772
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Regla de resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            419,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on SLD involucra siempre a una cl´ausula de definici´on y una cl´ausula objetivo: ",
+        "bbox": [
+            71,
+            235,
+            875,
+            334
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9f6b1a128b7c2974ab409a40a63d42847c2ebd131493fe32a28028933d18c0f3.jpg",
+        "text": "$$\n\\begin{array} { r } { \\cdot \\cdot , t _ { k } \\big ) , \\neg \\sigma _ { 1 } , \\cdot \\cdot \\cdot , \\neg \\sigma _ { n } \\big \\} \\qquad \\{ \\neg \\mathsf { P } ( s _ { 1 } , \\cdot \\cdot \\cdot , s _ { k } ) , \\neg \\prime } \\\\ { \\mathsf { S } = \\mathsf { m g u } ( \\{ \\mathsf { P } ( t _ { 1 } , \\cdot \\cdot \\cdot , t _ { k } ) \\overset { ? } { = } \\mathsf { P } ( s _ { 1 } , \\cdot \\cdot \\cdot , s _ { k } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            367,
+            737,
+            477
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9aa78f534ebc3eecbcb45497e13666d94543678c4ed9263796aeab6a82638828.jpg",
+        "text": "$$\n\\mathbf { S } ( \\{ \\quad \\quad , \\ldots , \\quad \\quad , \\quad \\quad , \\ldots , \\quad \\quad \\} )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            301,
+            492,
+            696,
+            544
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Caso particular de la regla de resoluci´on general.   \nLa selecci´on es binaria (un literal de cada cl´ausula).   \nLa resolvente es una nueva cl´ausula objetivo. ",
+        "bbox": [
+            71,
+            584,
+            734,
+            779
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ee107f802638dd3608030215c8c9700e9bbb09e709739e89c43b619f1eaaceb3.jpg",
+        "text": "$$\n\\mathsf { D e r i v a c i o n e s } \\mathsf { S L D }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            13,
+            18,
+            312,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Una derivaci´on SLD comienza con $n \\geq 0$ cl´ausulas de definici´on y una cl´ausula objetivo: ",
+        "bbox": [
+            74,
+            264,
+            922,
+            360
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/45cc852ed28ba38f018b283b3b3d3354bd2bd3ab52b5a265e84dd2740dfd08b8.jpg",
+        "text": "$$\n { \\boldsymbol { D } } _ { 1 } \\qquad \\dots \\qquad { \\boldsymbol { D } } _ { n }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            400,
+            638,
+            452
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "En cada paso: ",
+        "bbox": [
+            77,
+            496,
+            254,
+            540
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Se elige una cl´ausula definici´on Dj con $1 \\leq j \\leq n$ .   \nSe aplica la regla de resoluci´on SLD sobre Dj y Gi .   \n▶ La resolvente es una nueva cl´ausula objetivo $G _ { i + 1 }$ . ",
+        "bbox": [
+            104,
+            555,
+            779,
+            724
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Derivaciones SLD ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            306,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Es decir, dado un conjunto de cl´ausulas: ",
+        "bbox": [
+            74,
+            136,
+            582,
+            183
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a873602b0d3d56bd80caee8be647d6f0d180feb62de1bd4f4fee71f72a9ed4e6.jpg",
+        "text": "$$\n\\begin{array} { r l r l r l } { D _ { 1 } } & { { } \\quad \\ldots } & { } & { { } D _ { n } } & { } & { { } G _ { 1 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            224,
+            638,
+            275
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "una derivaci´on SLD es de la forma: ",
+        "bbox": [
+            74,
+            316,
+            522,
+            363
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/31d505e7ebe990cc49474a6d1b8b6e8fe26c8e72ab918f905281a99ceb4f51ca.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            422,
+            404,
+            577,
+            783
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Cada $C _ { j }$ debe ser alguna de las cl´ausulas originales $\\{ D _ { 1 } , \\ldots , D _ { n } \\}$ .   \nLa cl´ausula $\\cdot$ se obtiene aplicando resoluci´on SLD sobre $C _ { j }$ y Gi . ",
+        "bbox": [
+            74,
+            827,
+            919,
+            926
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8af0b04ae5ca7febb35d2d3104b2a29d8d85b1486bc3e76d996d03b528c3ddb2.jpg",
+        "text": "$$\n\\mathsf { D e r i v a c i o n e s } \\mathsf { S L D }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            13,
+            18,
+            312,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Observaciones: ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            301,
+            262,
+            345
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "La b´usqueda se simplifica.   \nSe limita a elegir $C _ { j }$ como una de las n cl´ausulas $D _ { 1 } , \\ldots , D _ { n }$ .   \nLa cl´ausula objetivo $\\cdot$ est´a fijada, no hay alternativas.   \nLa selecci´on se simplifica.   \nSe limita a elegir uno de los literales negativos de Gi .   \nLa cl´ausula de definici´on $C _ { j }$ tiene un ´unico literal positivo. ",
+        "bbox": [
+            121,
+            363,
+            911,
+            669
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Derivaciones SLD ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            306,
+            84
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            191,
+            187,
+            235
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Dadas las hip´otesis: ",
+        "bbox": [
+            74,
+            250,
+            325,
+            290
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9afbed0f59dd4790c699c2825c4b8e090228b76beb574fe8fc299bb7352083e1.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\forall \\mathbf { X } . \\mathbf { a } \\big ( 0 , \\mathbf { X } , \\mathbf { X } \\big ) } \\\\ & { \\forall \\mathbf { X } . \\forall \\mathbf { Y } . \\forall \\mathbf { Z } . \\big ( \\mathbf { a } ( \\mathbf { X } , \\mathbf { Y } , \\mathbf { Z } ) \\Rightarrow \\mathbf { a } ( \\mathbf { s } ( \\mathbf { X } ) , \\mathbf { Y } , \\mathbf { s } ( \\mathbf { Z } ) \\big ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            330,
+            770,
+            444
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Queremos demostrar: ",
+        "bbox": [
+            74,
+            481,
+            348,
+            522
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3 ∃X. a(s(0), X, s(s(s(0)))) ",
+        "bbox": [
+            301,
+            558,
+            698,
+            621
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Es decir, quere $\\begin{array} { r l } & { \\mathsf { m o s ~ p r o b a r ~ q u e ~ ( \\left[ 1 \\right] \\wedge \\left[ 2 \\right] ) } \\Rightarrow \\left[ 3 \\right] \\mathsf { e s ~ v a l i t } } \\\\ & { - ( ( \\left[ 1 \\right] \\wedge \\left[ 2 \\right] ) \\Rightarrow \\left[ 3 \\right] ) \\mathsf { e s ~ i n s a t i s f a c t i b l e } . } \\\\ & { \\mathsf { v e r ~ q u e ~ \\left[ 1 \\right] } \\wedge \\left[ 2 \\right] \\wedge \\mathsf { - \\left[ 3 \\right] \\mathsf { e s ~ i n s a t i s f a c t i b l e } } } \\end{array}$ a. Basta ver que Es decir, basta . ",
+        "bbox": [
+            74,
+            694,
+            795,
+            871
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7be573844b82ec571c00e571e3259d12529cb27af049d06f7d941f9ff4770347.jpg",
+        "text": "$$\n\\mathsf { D e r i v a c i o n e s } \\mathsf { S L D }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            13,
+            18,
+            312,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Escribiendo 1 ∧ 2 ∧ ¬ 3 en forma clausal, tenemos: ",
+        "bbox": [
+            74,
+            279,
+            765,
+            341
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ac2f19c3ca64546291ee726dd8d36e471bc9838929361bbd8e3ddd3cc622361a.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\boxed { 1 } } & { \\left\\{ \\mathsf { a } ( 0 , \\mathsf { X } , \\mathsf { X } ) \\right\\} } \\\\ { \\boxed { 2 } } & { \\left\\{ \\lnot \\mathrm { a } ( \\mathrm { X } , \\mathrm { Y } , \\mathrm { Z } ) , \\mathsf { a } ( \\mathbf { s } ( \\mathrm { X } ) , \\mathrm { Y } , \\mathbf { s } ( \\mathrm { Z } ) ) \\right\\} } \\\\ { \\textsf { \\textsf { B } } } & { \\left\\{ \\lnot \\mathrm { a } ( \\mathbf { s } ( 0 ) , \\mathrm { X } , \\mathbf { s } ( \\mathbf { s } ( 0 ) ) ) \\right\\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            270,
+            375,
+            718,
+            551
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1 y 2 son cl´ausulas de definici´on.   \n3 es la cl´ausula objetivo. ",
+        "bbox": [
+            74,
+            580,
+            541,
+            694
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "13 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Busquemos una refutaci´on SLD (derivaci´on SLD que llega a $\\{ \\} )$ : ",
+        "bbox": [
+            74,
+            158,
+            914,
+            209
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/819c98fe4506992dad3fd05269960dae0c36fec1c3ec43c10b6e686f4b578028.jpg",
+        "text": "$$\n\\begin{array} { r }  \\begin{array} { r l l } { \\boxed { 1 } } & { \\{ \\mathsf { a } ( 0 , \\mathrm { X } _ { 1 } , \\mathrm { X } _ { 1 } ) \\} } & \\\\ { \\boxed { 2 } } & { \\{ \\begin{array} { r l r } & { , \\mathsf { a } ( \\mathsf { s } ( \\mathrm { X } _ { 2 } ) , \\mathrm { Y } _ { 2 } , \\mathsf { s } ( \\mathrm { Z } _ { 2 } ) ) \\} } \\end{array} } \\\\ & { \\big \\{ } &  \\begin{array} { r l r } & { \\big \\} } & { \\big \\} \\end{array} } \\end{array} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            240,
+            268,
+            756,
+            441
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fc039079d9024aaa12b47f8e3b1ddc89e8a7398d139e542753ea67230e4ef2cb.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\mathsf { P o r } \\left[ 3 \\right] \\mathsf { y } \\left[ 2 \\right] = \\{ \\neg { \\mathsf { a } } ( \\mathrm { X } _ { 2 } , \\mathrm { Y } _ { 2 } , \\mathrm { Z } _ { 2 } ) \\} } \\\\ & { \\mathsf { S } _ { 4 } = \\{ \\mathrm { X } _ { 2 } : = 0 , \\mathrm { X } _ { 3 } : = \\mathrm { Y } _ { 2 } , \\mathrm { Z } _ { 2 } : = \\mathsf { s } ( \\mathsf { s } ( 0 ) ) \\} } \\\\ & { \\frac { \\prod } { 4 } = \\{ \\neg { \\mathsf { a } } ( 0 , \\mathrm { Y } _ { 4 } , \\mathrm { s } ( \\mathsf { s } ( 0 ) ) ) \\} . } \\\\ & { \\frac { \\prod } { 4 } \\mathsf { y } \\left[ 1 \\right] = \\{ \\} } \\\\ & { \\mathsf { S } _ { 5 } = \\{ \\mathsf { Y } _ { 4 } : = \\mathsf { s } ( \\mathsf { s } ( 0 ) ) , \\mathrm { X } _ { 1 } : = \\mathsf { s } ( \\mathsf { s } ( 0 ) ) \\} } \\\\ & { \\mathsf { S } _ { 7 } = \\{ \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            93,
+            470,
+            657,
+            882
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6ce1c5a37813ce9bdd02a8a1b44dd84a3bf9b08bb3cd7156c56713a7230aeac5.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            96,
+            709,
+            118,
+            735
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            500,
+            118,
+            529
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Derivaciones SLD ",
+        "bbox": [
+            19,
+            33,
+            309,
+            84
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Derivaciones SLD ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            309,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Definici´on (Sustituci´on respuesta) ",
+        "bbox": [
+            77,
+            147,
+            530,
+            198
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Dada una refutaci´on SLD, con pasos: ",
+        "bbox": [
+            77,
+            209,
+            549,
+            257
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5e15ea47a570d0aae2924a20983ea7599b4f6a4b76edeef6a046243505eedbcf.jpg",
+        "text": "$$\n\\begin{array} { c c c c c c } { { G _ { 1 } \\stackrel { { \\bf S } _ { 1 } } {  } } } & { { G _ { 2 } \\stackrel { { \\bf S } _ { 2 } } {  } } } & { { \\cdots } } & { { G _ { n - 1 } \\stackrel { { \\bf S } _ { n - 1 } } {  } } } & { { G _ { n } } } \\\\ { { C _ { 1 } \\stackrel { \\prime } {  } } } & { { C _ { 2 } \\stackrel { \\prime } {  } } } & { { } } & { { C _ { n - 1 } } } & { { \\stackrel { \\prime } {  } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            254,
+            290,
+            748,
+            430
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "la sustituci´on respuesta es la composici´on $\\mathbf { S } _ { n - 1 } \\circ \\ldots \\circ \\mathbf { S } _ { 1 } .$ ",
+        "bbox": [
+            74,
+            463,
+            831,
+            511
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — sustituci´on respuesta ",
+        "bbox": [
+            77,
+            544,
+            522,
+            591
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "En el ejemplo anterior, la sustituci´on respuesta es $\\mathsf { S } _ { 5 } \\circ \\mathsf { S } _ { 4 }$ ",
+        "bbox": [
+            80,
+            602,
+            806,
+            650
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "El valor de X en la cl´ausula objetivo original 3 es s(s(0)). Esto dice que ${ \\tt X } = { \\tt s } ( { \\tt s } ( 0 ) )$ verifica nuestra consulta original: ",
+        "bbox": [
+            74,
+            669,
+            825,
+            797
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Completitud del m´etodo de resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            723,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "El m´etodo de resoluci´on es completo para cl´ausulas de Horn. ",
+        "bbox": [
+            74,
+            330,
+            850,
+            378
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "M´as precisamente, si $D _ { 1 } , \\ldots , D _ { n }$ son cl´ausulas de definici´on y G una cl´ausula objetivo: ",
+        "bbox": [
+            74,
+            400,
+            900,
+            503
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Teorema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            525,
+            193,
+            566
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Si $\\{ D _ { 1 } , \\ldots , D _ { n } , \\quad \\}$ es insatisfactible, existe una refutaci´on SLD. ",
+        "bbox": [
+            74,
+            573,
+            886,
+            621
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            242,
+            331,
+            294
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            430,
+            613,
+            485
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Aspectos extra-l´ogicos ",
+        "bbox": [
+            74,
+            621,
+            439,
+            676
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0976db05ac73f2385346a0ac5e93d70f09c49afd5f14a7d23e54c63550d7d7be.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            359,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Un programa en Prolog es una lista de cl´ausulas de definici´on.   \nUna consulta en Prolog es una cl´ausula objetivo. ",
+        "bbox": [
+            74,
+            183,
+            864,
+            275
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "La notaci´on cambia ligeramente. ",
+        "bbox": [
+            74,
+            305,
+            486,
+            349
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            419,
+            187,
+            466
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "images/d575cab2f06bf8008349d2c42a845ffcf3e6c7b92778a68f0800854f16350d31.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Clausulas</td><td>Prolog</td></tr><tr><td>{a(0, x, x)}</td><td>a(0,x,x).</td></tr><tr><td>{a(s(x),𝑌,s(Z), -a(x,Y,Z)}</td><td>a(s(x),Y,s(Z)):-a(x,Y,Z).</td></tr><tr><td>{-a(s(0),x,s(s(s(0)))}</td><td>？-a(s(0),x,s(s(s(0)))).</td></tr></table>",
+        "bbox": [
+            82,
+            492,
+            908,
+            753
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Las cl´ausulas son listas: el orden y la multiplicidad son relevantes. ",
+        "bbox": [
+            77,
+            812,
+            908,
+            860
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8ce33ed4cc4e45e4744b09fc6d93bf6efedbe116a6036140747fc58dff592b9c.jpg",
+        "text": "$$\n\\mathsf { S e m a n t i c a \\ d e \\ P r o l o g }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            364,
+            91
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "La ejecuci´on se basa en la regla de resoluci´on SLD. Escrita con la notaci´on de Prolog: ",
+        "bbox": [
+            74,
+            253,
+            723,
+            352
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9087868430f71772b21a41502ab15a2e38002624d26e0f709e97983f598a7a4f.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\mathsf { \\Gamma } } & { { } \\cdot \\qquad \\mathsf { p } ( s _ { 1 } , . . . , s _ { k } ) : - } \\\\ { \\mathsf { \\Gamma } } & { { } \\mathsf { \\Gamma } } & { { \\mathsf { S } } = \\mathsf { m g u } ( \\qquad \\mathsf { \\Gamma } } & { { \\mathsf { I } } = \\mathsf { p } ( s _ { 1 } , . . . , s _ { k } ) ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            389,
+            754,
+            496
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9ecc5c46f285d6933473c3e0b255ce6cb1649882ebf523f4e051373d88f6ea18.jpg",
+        "text": "$$\n\\begin{array} { r } { \\overline { { { \\bf S } ( ? - \\mathrm { ~  ~ \\omega ~ } . ) } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            325,
+            503,
+            668,
+            562
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "El orden de los literales en la cl´ausula objetivo es relevante.   \nCriterio de selecci´on: elegir siempre el primer literal de la cl´ausula. ",
+        "bbox": [
+            74,
+            650,
+            928,
+            750
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            359,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Prolog busca sucesivamente todas las refutaciones haciendo DFS.   \nCriterio de b´usqueda: las reglas se usan en orden de aparici´on. ",
+        "bbox": [
+            77,
+            99,
+            900,
+            191
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — ´arbol de refutaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            209,
+            494,
+            257
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/ff54e4b2e0db1f13f626723e6326f95b01cc24ca978c6238b44764cb3362f99f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            88,
+            286,
+            925,
+            988
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "20 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            359,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "La exploraci´on depth-first (DFS) es incompleta.   \nPuede provocar que Prolog nunca encuentre refutaciones posibles. ",
+        "bbox": [
+            58,
+            139,
+            914,
+            238
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — incompletitud de DFS ",
+        "bbox": [
+            77,
+            264,
+            535,
+            308
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "esMaravilloso(X) :- esMaravilloso(suc(X)).   \nesMaravilloso(cero).   \n?- esMaravilloso(cero).   \n?- esMaravilloso(suc(cero)). ?- esMaravilloso(suc(suc(cero))). ?- esMaravilloso(suc(suc(suc(cero)))). ",
+        "bbox": [
+            74,
+            341,
+            740,
+            437
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            107,
+            466,
+            848,
+            705
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "El orden de las reglas se torna relevante. ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            727,
+            640,
+            772
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Tradeoff: mayor eficiencia a cambio de menor declaratividad.   \nLa exploraci´on breadth-first (BFS) es completa pero muy costosa. ",
+        "bbox": [
+            74,
+            819,
+            908,
+            915
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            359,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Al unificar, Prolog no usa la regla occurs-check.   \nPor ejemplo, X unifica con f(X). Esto es incorrecto.   \nPuede provocar que Prolog encuentre una “refutaci´on” incorrecta.   \nEjemplo — refutaci´on incorrecta por omisi´on de occurs check   \nesElSucesor(X, suc(X)). ?- esElSucesor(Y, Y). .{Y := X, X := suc(X)} Tradeoff: mayor eficiencia a cambio de incorrecci´on l´ogica.   \nEn muchos contextos la regla occurs-check es innecesaria.   \nLa carga de probar correcci´on recae en lxs programadorxs. ",
+        "bbox": [
+            74,
+            202,
+            914,
+            349
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            371,
+            922,
+            632
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            680,
+            814,
+            827
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: concatenaci´on de listas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            555,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "c([], Ys, Ys).   \nc([X | Xs], Ys, [X | Zs]) :- c(Xs, Ys, Zs). ?- c([1, 2], [3, 4], Zs). ?- c([2], [3, 4], Zs1). ... .....{Zs := [1 | Zs1]} ?- c([], [3, 4], Zs2). .. {Zs := [1, 2 | Zs2]} {Zs := [1, 2, 3, 4]}   \n?- c([1, 2], Ys, [1, 2, 3, 4]).   \n?- c([2], Ys, [2, 3, 4]). ?- c([], Ys, [3, 4]). ： {Ys := [3, 4]} ",
+        "bbox": [
+            74,
+            235,
+            933,
+            562
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            102,
+            602,
+            925,
+            808
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: concatenaci´on de listas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            555,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/02cd8271a8860eb1ad02ef748cb8019dd03c6584693e9b07c7775e94069c896d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            82,
+            268,
+            928,
+            779
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: concatenaci´on de listas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            555,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "image",
+        "img_path": "images/b2a9f2b3accc9d266e36897343f3580bd56eafea4801186d2a6045118f217d46.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            82,
+            224,
+            925,
+            819
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            242,
+            331,
+            294
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica operacional de Prolog ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            430,
+            613,
+            485
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Aspectos extra-l´ogicos ",
+        "bbox": [
+            74,
+            621,
+            439,
+            676
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/278e10918fa6075ddffcd718018483d305c9c5c8222c77c1f528c434f256d7b2.jpg",
+        "text": "$$\n^ { 2 6 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9b0791b438080056b22677b2dfe2bea05c53c3c6f790a78b3fff3ed96e1c6402.jpg",
+        "text": "$$\n\\mathsf { O p e r a d o r \\ d e \\ c o r t e \\ ( c u t ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            417,
+            95
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Consideremos el siguiente programa: ",
+        "bbox": [
+            77,
+            227,
+            538,
+            272
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "padre(zeus, atenea). % ...base de conocimiento..   \nancestro(X, Y) :- padre(X, Y).   \nancestro(X, Y) :- padre(X, Z), ancestro(Z, Y). ",
+        "bbox": [
+            74,
+            297,
+            839,
+            444
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "images/f57974c0d215bb0a33e1f433cb5ce63004663693eca7f9695a97a6ad92bb4269.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            110,
+            470,
+            798,
+            716
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Nos gustar´ıa tener una manera de podar el ´arbol de b´usqueda. ",
+        "bbox": [
+            74,
+            746,
+            870,
+            794
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e4d54d2b54f7ef6b22f08bcab304b33c577bb9864b411c9a1942e44517b6adfb.jpg",
+        "text": "$$\n\\mathsf { O p e r a d o r \\ d e \\ c o r t e \\ ( c u t ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            417,
+            95
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Reescribimos el programa agregando un corte (“!”): ",
+        "bbox": [
+            77,
+            220,
+            732,
+            268
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "padre(zeus, atenea). % ...base de conocimiento..   \nancestro(X, Y) :- padre(X, Y), !.   \nancestro(X, Y) :- padre(X, Z), ancestro(Z, Y). ",
+        "bbox": [
+            74,
+            290,
+            839,
+            441
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "El operador ! no tiene una interpretaci´on declarativa/l´ogica. ",
+        "bbox": [
+            74,
+            485,
+            834,
+            533
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Es un operador extra-l´ogico. ",
+        "bbox": [
+            74,
+            562,
+            430,
+            602
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Su comportamiento se explica desde el punto de vista operacional. ",
+        "bbox": [
+            77,
+            632,
+            914,
+            676
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "El operador de corte indica que, si se lo alcanza, no se deben explorar alternativas a la regla en la que aparece. ",
+        "bbox": [
+            74,
+            702,
+            853,
+            801
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7d385fcb76f5bd13612d74be385b3b9a406be626655cd372bd4a1a88e095fed2.jpg",
+        "text": "$$\n\\mathsf { O p e r a d o r \\ d e \\ c o r t e \\ ( c u t ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            417,
+            95
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica del operador de corte ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            286,
+            513,
+            334
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "El predicado ! tiene ´exito inmediatamente. ",
+        "bbox": [
+            74,
+            345,
+            613,
+            389
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Al momento de hacer backtracking: ",
+        "bbox": [
+            74,
+            441,
+            527,
+            485
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Se vuelve atr´as hasta el punto en el que se eligi´o usar la regla que hizo aparecer el operador de corte.   \nSe descartan todas las elecciones alternativas.   \nSe contin´ua buscando hacia atr´as. ",
+        "bbox": [
+            113,
+            500,
+            914,
+            716
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "img_path": "images/09b69fe829c0b7149245ce49eb81dbb30a77e9849861e5b323bcb34923129285.jpg",
+        "text": "$$\n\\mathsf { O p e r a d o r \\ d e \\ c o r t e \\ ( c u t ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            417,
+            95
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Gr´aficamente: ",
+        "bbox": [
+            77,
+            117,
+            251,
+            158
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/ece71489ccb0f306c5c7b930e36dcccaaeefae0d7802b610e40c66e706d853bd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            116,
+            183,
+            480,
+            952
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Operador de corte (cut) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            411,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — cortes “benignos” (green cuts) ",
+        "bbox": [
+            77,
+            106,
+            651,
+            158
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "En algunos casos, ! no altera la sem´antica del programa.   \nPuede servir para construir programas equivalentes m´as eficientes. add(N, zero, N) :- !.   \nadd(zero, N, N).   \nadd(suc(N), M, suc(P)) :- add(N, M, P). ",
+        "bbox": [
+            74,
+            169,
+            919,
+            268
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            290,
+            696,
+            441
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "?- add(suc(suc(suc(suc(. . .)))), zero, P).",
+        "bbox": [
+            74,
+            485,
+            629,
+            533
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — cortes “riesgosos” (red cuts) ",
+        "bbox": [
+            74,
+            555,
+            627,
+            606
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "En otros casos, la sem´antica puede verse alterada. maximo(A, B, A) :- A >= B, !   \nmaximo(A, B, B). ?- maximo(2, 1, C). ?- maximo(2, 1, 1).   \n>> C = 2 >> true. ",
+        "bbox": [
+            71,
+            617,
+            712,
+            764
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            82,
+            805,
+            845,
+            900
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on por falla ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            317,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Definici´on (operador de negaci´on) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            106,
+            535,
+            158
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Si fail es un predicado que falla siempre, se puede definir la negaci´on en Prolog as´ı: ",
+        "bbox": [
+            71,
+            169,
+            853,
+            268
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "not(P) :- P, !, fail.   \nnot(P). ",
+        "bbox": [
+            74,
+            290,
+            403,
+            386
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Observaci´on. not(P) tiene ´exito si y s´olo si P falla. ",
+        "bbox": [
+            74,
+            433,
+            743,
+            481
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — negaci´on por falla ",
+        "bbox": [
+            74,
+            514,
+            480,
+            562
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "fruta(pera). ",
+        "bbox": [
+            77,
+            599,
+            262,
+            639
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "images/bce7b34a0fe4a40ad81f554aeb564b2b193fff6941c1ee0c6cece4a6a6ea9172.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            85,
+            665,
+            508,
+            860
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "images/87e8904efee3c1f9a34715bfa34a53ad6f35bcbd93765811ba3183ec1a924709.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            538,
+            665,
+            961,
+            977
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on por falla ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            317,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "La negaci´on por falla no coincide con la negaci´on l´ogica. ",
+        "bbox": [
+            74,
+            128,
+            792,
+            176
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — negaci´on por falla ̸= negaci´on l´ogica fruta(pera). verdura(papa). ",
+        "bbox": [
+            74,
+            198,
+            734,
+            308
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "image",
+        "img_path": "images/e46c347b91709fab3059f022aab57181adbcb1120b869d15b4a5df365bf22293.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            102,
+            323,
+            928,
+            819
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "img_path": "images/959008f5a6f2dd3e445ed5e0cf97ff702f79e3eeb5beef601abc7925a02fcd6a.jpg",
+        "text": "$$\n3 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            947,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "El orden de los literales en la consulta se vuelve relevante. ",
+        "bbox": [
+            82,
+            849,
+            886,
+            893
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Esto atenta contra la declaratividad. ",
+        "bbox": [
+            77,
+            897,
+            535,
+            941
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            154,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "1. Definir append(L1, L2, L3).   \n2. Definir ocurreAlMenosUnaVez(X, L) usando append/3.   \n3. Definir ocurreAlMenosDosVeces(X, L) usando append/3.   \n4. Definir ocurreExactamenteUnaVez(X, L) combinando las   \nanteriores. ",
+        "bbox": [
+            93,
+            386,
+            903,
+            661
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            235,
+            745,
+            330
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            419,
+            367,
+            463
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Cap´ıtulos 2 y 3 del libro de Nilsson y Ma luci´nski. ",
+        "bbox": [
+            77,
+            466,
+            751,
+            514
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Ulf Nilsson y Jan Ma luzy´nski. Logic, Programming and Prolog (2nd. edition). ",
+        "bbox": [
+            74,
+            518,
+            875,
+            613
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "John Wiley & Sons Ltd., 1995. ",
+        "bbox": [
+            74,
+            617,
+            469,
+            665
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    }
+]

@@ -1,0 +1,2854 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            205,
+            814,
+            275
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos Deducci´on natural para l´ogica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            104,
+            323,
+            900,
+            455
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            492,
+            779,
+            694
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            246,
+            403,
+            297
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            433,
+            784,
+            492
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica bivaluada ",
+        "bbox": [
+            74,
+            628,
+            408,
+            680
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d2382227e84d0f57a6f3957fa43ac188b067cbae4216810ec6957376ba198607.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Motivaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            201,
+            84
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Queremos poder hacer afirmaciones matem´aticamente precisas sobre programas en distintos lenguajes de programaci´on. ",
+        "bbox": [
+            74,
+            150,
+            925,
+            246
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplos de afirmaciones que querr´ıamos hacer ",
+        "bbox": [
+            74,
+            268,
+            723,
+            319
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "El tipo (Bool -> Int) est´a sint´acticamente bien formado. ",
+        "bbox": [
+            129,
+            341,
+            883,
+            386
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "La expresi´on map tiene tipo ((a -> b) -> [a] -> [b]). ",
+        "bbox": [
+            135,
+            400,
+            878,
+            448
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "La expresi´on map tiene tipo ((a -> a) -> [a] -> [a]). ",
+        "bbox": [
+            138,
+            463,
+            875,
+            507
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "La expresi´on map tiene tipo Bool. ",
+        "bbox": [
+            132,
+            525,
+            563,
+            569
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "El programa while (true) {} no termina. ",
+        "bbox": [
+            132,
+            584,
+            696,
+            632
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "El resultado de evaluar (factorial 7) es 5040. ",
+        "bbox": [
+            132,
+            647,
+            759,
+            691
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Los algoritmos quickSort y mergeSort son indistinguibles. ",
+        "bbox": [
+            132,
+            709,
+            897,
+            753
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Queremos tener mecanismos para demostrar dichas afirmaciones. ",
+        "bbox": [
+            80,
+            786,
+            897,
+            834
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En este contexto, las afirmaciones se llaman juicios. ",
+        "bbox": [
+            80,
+            860,
+            734,
+            904
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            93,
+            341,
+            121,
+            750
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            84
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un sistema deductivo sirve para razonar acerca de juicios. ",
+        "bbox": [
+            74,
+            150,
+            837,
+            194
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Est´a dado por reglas de inferencia, de la forma: ",
+        "bbox": [
+            77,
+            220,
+            701,
+            268
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "⟨premisa1⟩ ⟨premisa2⟩ ⟨premisan⟩ ⟨nombre de la regla⟩ ⟨conclusi´on⟩ ",
+        "bbox": [
+            82,
+            305,
+            911,
+            419
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Las reglas que no tienen premisas $( n = 0 )$ se llaman axiomas. ",
+        "bbox": [
+            80,
+            455,
+            859,
+            503
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Las premisas son condiciones suficientes para la conclusi´on. ",
+        "bbox": [
+            77,
+            529,
+            856,
+            573
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "▶ Lectura de arriba hacia abajo: si tenemos evidencia de que valen las premisas, podemos deducir que vale la conclusi´on. ",
+        "bbox": [
+            96,
+            591,
+            734,
+            735
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Lectura de abajo hacia arriba: si queremos demostrar que vale la conclusi´on, alcanza con demostrar que valen las premisas. ",
+        "bbox": [
+            107,
+            750,
+            718,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0af5a258da7e8079665ef1e9d8be719aaf1d24359fc014ad269c386c4fa72f77.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            84
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — el sistema deductivo A ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            176,
+            549,
+            220
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El sistema A predica sobre juicios de la forma “X > Y ”. Incluye tres axiomas: ",
+        "bbox": [
+            74,
+            235,
+            795,
+            330
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "y un esquema de regla, donde X , Y , Z son variables esquem´aticas (que se pueden instanciar de manera arbitraria): ",
+        "bbox": [
+            74,
+            511,
+            925,
+            610
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/89e01a5423b5ccd14caeec47e777addce72eec55f546d54cda1292bfe2c14e9e.jpg",
+        "text": "$$\n\\frac { X > Y \\quad Y > Z } { X > Z } \\mathrm { t r a n s }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            350,
+            647,
+            649,
+            757
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Demostrar el juicio ⋆ > • de dos maneras distintas. ",
+        "bbox": [
+            104,
+            838,
+            814,
+            886
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            845,
+            118,
+            875
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Una derivaci´on es un ´arbol finito formado por reglas de inferencia.   \nParte de ciertas premisas y llega a una conclusi´on. ",
+        "bbox": [
+            77,
+            363,
+            925,
+            459
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Un juicio es derivable si hay alguna derivaci´on sin premisas que lo concluye. ",
+        "bbox": [
+            74,
+            485,
+            922,
+            580
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            348,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo — f´ormulas ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            113,
+            356,
+            161
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Suponemos dado un conjunto infinito de variables proposicionales: ",
+        "bbox": [
+            74,
+            172,
+            917,
+            220
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d3fe22f25a5a93a38aec69023a7a46212daa70be2f479c44045c8f2e79d8ec6b.jpg",
+        "text": "$$\n\\mathcal { P } = \\{ P , Q , R , \\ldots \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            261,
+            621,
+            316
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "El siguiente sistema predica sobre juicios de la forma “X form”. ",
+        "bbox": [
+            74,
+            352,
+            903,
+            400
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4c538840fc88a79a1066a82f86fbb4fdf369b5510b56f9c79ea110c2cc43eb68.jpg",
+        "text": "$$\n\\operatorname { \\mathrm { ~ \\frac { \\partial ~ } { \\partial ~ M ~ } \\mathsf { F P } ~ } } \\frac { \\tau \\mathrm { \\ F O R M ~ \\hbar ~ \\sigma \\mathrm { ~ \\ F O R M } } } { ( \\tau \\wedge \\sigma ) \\mathrm { \\ F O R M ~ } } \\mathsf { F } \\wedge \\frac { \\tau \\mathrm { \\ F O R } } { ( \\tau \\mathsf { \\tau } = \\mathsf { \\tau } _ { \\mathsf { \\tau } } ) \\mathsf { F } \\circ \\tau }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            437,
+            685,
+            555
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/36ba888c4a64a3278b53349569f923a1955dfeb2a3aeb0298d3e9b61467d813b.jpg",
+        "text": "$$\n7\n$$",
+        "text_format": "latex",
+        "bbox": [
+            966,
+            911,
+            1000,
+            1000
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1. Derivar el juicio $\\neg ( P \\Rightarrow ( Q \\Rightarrow P ) )$ form. ",
+        "bbox": [
+            99,
+            768,
+            665,
+            823
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2. Demostrar que si $\\tau$ form es un juicio derivable, entonces $\\tau$ tiene el mismo n´umero de “(” que de “)”. ",
+        "bbox": [
+            93,
+            830,
+            900,
+            930
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Proceder por inducci´on estructural en la derivaci´on. ",
+        "bbox": [
+            132,
+            933,
+            784,
+            977
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            246,
+            403,
+            297
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            433,
+            784,
+            492
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica bivaluada ",
+        "bbox": [
+            74,
+            628,
+            408,
+            680
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "8 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "F´ormulas de la l´ogica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            591,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Las f´ormulas son las expresiones que se pueden generar a partir de la siguiente gram´atica: ",
+        "bbox": [
+            71,
+            99,
+            925,
+            191
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3a081f9e86c52978f0e83a3541b2e17ec29a37fd0f9a2f1971488fb0278aa491.jpg",
+        "text": "$$\n\\dots : : = \\ P \\ \\mid \\ ( \\tau \\wedge \\sigma ) \\ \\mid \\ ( \\tau \\Rightarrow \\sigma ) \\ \\mid \\ ( \\tau \\vee \\sigma\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            216,
+            720,
+            272
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Observaci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            308,
+            243,
+            352
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "La gram´aticas definen sistemas deductivos de manera abreviada. ",
+        "bbox": [
+            77,
+            356,
+            892,
+            404
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Una expresi´on $\\tau$ se puede generar a partir de la gram´atica de arriba si y s´olo si el juicio $\\tau$ form es derivable en el sistema de antes. ",
+        "bbox": [
+            77,
+            430,
+            925,
+            525
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Convenciones de notaci´on ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            555,
+            425,
+            599
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1. Omitimos los par´entesis m´as externos de las f´ormulas. ",
+        "bbox": [
+            93,
+            613,
+            820,
+            661
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d13f55b1b769c84b47fde83c07a1ac01a3a2195e1c55f8f629f4be62ecafa369.jpg",
+        "text": "$$\n\\tau \\wedge \\neg ( \\sigma \\vee \\rho ) \\ : = \\ : ( \\tau \\wedge \\neg ( \\sigma \\vee \\rho ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            672,
+            591,
+            727
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "2. La implicaci´on es asociativa a derecha. ",
+        "bbox": [
+            93,
+            735,
+            629,
+            783
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1cdf36bb32f3b2ba50e1371243da18530cc641ae0ec05714835d7061359ae096.jpg",
+        "text": "$$\n\\tau \\Rightarrow \\sigma \\Rightarrow \\rho \\ = \\ ( \\tau \\Rightarrow ( \\sigma \\Rightarrow \\rho ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            794,
+            577,
+            849
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3. Ojo: los conectivos $( \\wedge , \\vee )$ no son conmutativos ni asociativos. ",
+        "bbox": [
+            93,
+            856,
+            925,
+            904
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/28aebbb8b74567b5d5742c521d287c6ac7ef3520db611c162f632f78f7c93c9d.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$\\tau \\vee ( \\sigma \\vee \\rho ) ~ \\neq ~ ( \\tau \\vee \\sigma ) \\vee \\rho ~ \\tau \\wedge \\sigma$ ̸= σ ∧ τ ",
+        "bbox": [
+            168,
+            915,
+            814,
+            970
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Contextos y juicios ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            328,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Un contexto es un conjunto finito de f´ormulas. ",
+        "bbox": [
+            77,
+            99,
+            676,
+            143
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Los notamos con letras griegas may´usculas $( \\Gamma , \\Delta , \\Sigma , \\ldots ) .$ Por ejemplo: ",
+        "bbox": [
+            74,
+            150,
+            801,
+            238
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d32ad3fb4f5b8f9bc4c220748e60ea0538963c72a673ea0675316407e86cf30b.jpg",
+        "text": "$$\n\\Gamma = \\{ P \\Rightarrow Q , \\neg Q \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            242,
+            621,
+            297
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Generalmente omitimos las llaves; p. ej.: $P \\Rightarrow Q , \\neg Q .$ . ",
+        "bbox": [
+            77,
+            316,
+            762,
+            363
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "El sistema de deducci´on natural predica sobre juicios de la forma: ",
+        "bbox": [
+            74,
+            397,
+            917,
+            444
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d2c93b5a04662386abd6a5cf778b80d9f44aeb5941cfadf959bb19bcf3232c73.jpg",
+        "text": "$$\n { \\{ \\mathrm { ~  ~ { ~ \\cal ~ { ~ r ~ } ~ } ~ } }   { \\Vdash }  { \\mathrm { ~  ~ { ~ \\cal ~ { ~ r ~ } ~ } ~ } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            367,
+            488,
+            649,
+            555
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Informalmente, un juicio afirma que a partir de las hip´otesis en el contexto Γ es posible deducir la f´ormula de la tesis. ",
+        "bbox": [
+            74,
+            661,
+            903,
+            757
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, los siguientes van a ser juicios derivables: ",
+        "bbox": [
+            77,
+            783,
+            770,
+            830
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/223953d46cd3bc60f052e0e9034faa3c14d412a24fd5f58d080d661ac37760ca.jpg",
+        "text": "$$\n\\Rightarrow Q \\vdash \\lnot Q \\Rightarrow \\lnot P \\quad \\quad \\ l , Q \\land R \\vdash R \\land\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            863,
+            754,
+            915
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Reglas de inferencia — axioma ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            524,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "El sistema de deducci´on natural tiene muchas reglas de inferencia. (Vamos de a poco) ",
+        "bbox": [
+            63,
+            106,
+            917,
+            205
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Axioma ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            272,
+            179,
+            316
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            518,
+            187,
+            566
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "11 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d76a0bcb12598691e9083e940af0293cee6466fa6388db2d5fd77242b7f149fa.jpg",
+        "text": "$$\n\\overline { { P \\Rightarrow Q , R \\vdash P \\Rightarrow Q } } ^ { \\sf d \\times } \\quad \\overline { { P , Q \\land R , S \\vdash } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            676,
+            770,
+            750
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Los siguientes juicios no se deducen de la regla ax: ",
+        "bbox": [
+            74,
+            786,
+            726,
+            834
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c29865ccb156ba7d047e1e8914e3a106f65b096eb4ae3bb0c42294015794077c.jpg",
+        "text": "$$\n\\vdash R \\vdash P \\Rightarrow P \\land Q \\vdash Q \\land P \\quad \\lnot\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            871,
+            737,
+            922
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Reglas de inferencia — conjunci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            582,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on de la conjunci´on ",
+        "bbox": [
+            74,
+            198,
+            475,
+            246
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f16dd7160353e0d1b59de7b373e630710ee4ca44b25f71c3ce8bbf3e1d37ab1b.jpg",
+        "text": "$$\n\\frac { \\textsf { r } \\vdash \\tau \\vdash \\sigma } { \\textsf { r } \\vdash \\tau \\land \\sigma } \\land _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            290,
+            610,
+            400
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de la conjunci´on ",
+        "bbox": [
+            74,
+            474,
+            464,
+            522
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0fce869542efeba606db60b66c5a8f8fba3f03b26eac50865cbe8bd4e7315ea4.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau \\land \\sigma } { \\Gamma \\vdash \\tau } \\land _ { e _ { 1 } } \\quad \\frac { \\Gamma \\vdash \\tau \\land \\sigma } { \\Gamma \\vdash \\sigma } \\land _ { e _ { 2 } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            306,
+            569,
+            690,
+            676
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "1. Dar una derivaci´on de $P \\land Q \\vdash Q \\land P .$   \n2. Dar una derivaci´on de $P \\land ( Q \\land R ) \\vdash ( P \\land Q ) \\land R .$ ",
+        "bbox": [
+            93,
+            742,
+            787,
+            852
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Reglas de inferencia — implicaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            591,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on de la implicaci´on ",
+        "bbox": [
+            74,
+            172,
+            480,
+            220
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cb4ff3dbd8ab4daf18ed22435f376f7c94d79045ec4d85f438c74625f9dce1e4.jpg",
+        "text": "$$\n\\frac { \\Gamma , \\tau \\vdash \\sigma } { \\Gamma \\vdash \\tau \\Rightarrow \\sigma } \\Rightarrow _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            268,
+            593,
+            375
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de la implicaci´on ",
+        "bbox": [
+            74,
+            452,
+            469,
+            500
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(modus ponens) ",
+        "bbox": [
+            748,
+            463,
+            922,
+            500
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/810740512d6a4b17fad9c725be4517cf22864753d8435c486aac8976d1cc49b0.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\sigma } \\Rightarrow _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            348,
+            547,
+            649,
+            654
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1. Dar una derivaci´on de ⊢ P ⇒ P   \n2. Dar una derivaci´on de ⊢ $\\cdot P \\Rightarrow Q \\Rightarrow ( Q \\land P )$   \n3. Dar una derivaci´on de $P \\Rightarrow Q , Q \\Rightarrow R \\vdash P \\Rightarrow R .$ ",
+        "bbox": [
+            93,
+            720,
+            762,
+            893
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Reglas de inferencia — disyunci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            577,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on de la disyunci´on ",
+        "bbox": [
+            74,
+            172,
+            472,
+            220
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8ff33e99679c4d9aa3365f49626e11d54b340b62cca515769f2cb1cc844643ad.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 1 } } \\quad \\frac { \\Gamma \\vdash \\sigma } { \\Gamma \\vdash \\tau \\lor \\sigma } \\lor _ { i _ { 2 } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            268,
+            685,
+            378
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de la disyunci´on ",
+        "bbox": [
+            74,
+            452,
+            458,
+            500
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9b60ae5f6673997ecece501f7c8ad2375f8dbb929a915fa3e0f41c56d8f0d5b0.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/14e0e41551dcd9e6787283b0c9f4b4fe201dd40ea25f023f352585bc8945bf40.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau \\lor \\sigma \\quad \\Gamma , \\tau \\vdash \\rho \\quad \\Gamma , \\sigma \\vdash \\rho } { \\Gamma \\vdash \\rho } \\lor _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            276,
+            547,
+            718,
+            665
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "1. Dar una derivaci´on de ⊢ $P \\Rightarrow ( P \\lor P ) .$   \n2. Dar una derivaci´on de $\\vdash ( P \\lor P ) \\Rightarrow P .$   \n3. Dar una derivaci´on de $P \\lor Q \\vdash Q \\lor P .$ ",
+        "bbox": [
+            93,
+            720,
+            632,
+            893
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Reglas de inferencia — falsedad ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            541,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "El conectivo ⊥ representa la falsedad (contradicci´on, absurdo).   \nEl conectivo ⊥ no tiene reglas de introducci´on. ",
+        "bbox": [
+            71,
+            205,
+            872,
+            327
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on del falso ",
+        "bbox": [
+            74,
+            371,
+            356,
+            415
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(principio de explosi´on o ex falso quodlibet) ",
+        "bbox": [
+            453,
+            375,
+            925,
+            419
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "1. Dar una derivaci´on de $( P \\lor Q ) \\Rightarrow \\bot \\vdash P \\Rightarrow Q$   \n2. Dar una derivaci´on de $( P \\land Q ) \\Rightarrow \\bot \\vdash P \\Rightarrow Q \\Rightarrow R$   \n3. Mostrar que hay infinitas derivaciones de ⊥ ⊢ ⊥. ",
+        "bbox": [
+            93,
+            636,
+            801,
+            808
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Reglas de inferencia — negaci´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            552,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on de la negaci´on ",
+        "bbox": [
+            74,
+            172,
+            450,
+            220
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(reducci´on al absurdo intuicionista) ",
+        "bbox": [
+            541,
+            180,
+            922,
+            220
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1c2665e38e6d4621f70869149c5eae45ccd5fc68e412da81ee9dc31702bec1dc.jpg",
+        "text": "$$\n\\frac { \\Gamma , \\tau \\vdash \\bot } { \\Gamma \\vdash \\lnot \\tau } \\lnot _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            422,
+            268,
+            574,
+            371
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de la negaci´on ",
+        "bbox": [
+            74,
+            452,
+            436,
+            500
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d5005613fac9ea5b4f2625cda1989c3ec161fc3112d089d3ca2e2b566ae47639.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau \\quad \\Gamma \\vdash \\lnot \\tau } { \\Gamma \\vdash \\bot } \\lnot _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            544,
+            624,
+            658
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "1. Dar una derivaci´on de ⊢ $P \\Rightarrow \\neg \\neg P$ .   \n2. Dar una derivaci´on de $\\vdash \\neg ( P \\land \\neg P ) .$   \n3. Dar una derivaci´on de $P \\lor Q \\vdash \\neg ( \\neg P \\land \\neg Q ) .$ ",
+        "bbox": [
+            93,
+            720,
+            712,
+            893
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural intuicionista (NJ) — reglas completas ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            25,
+            983,
+            91
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "images/9e83f554942c4ce85b61c784f66a2583a01e3eb0a2d809c202d38e0cde55ebcd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Introducción</td><td>ax ，T├T Eliminación</td></tr><tr><td>&gt;</td><td>「ττ&gt;σ 「ττ&gt;q 0 Ai Ne1 Ne2 「ττ&gt;σ</td></tr><tr><td></td><td>「,τ├σ 「ττ⇒σ「├τ →i</td></tr><tr><td></td><td>e 「ττ→σ 「T9 「├T To 「├τνσ 「,τ├ρ 「,σ├</td></tr><tr><td></td><td>Vi Vi Ve ttvσ ├TVσ 「├p 「├⊥ TT e</td></tr></table>",
+        "bbox": [
+            60,
+            147,
+            961,
+            959
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "17 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Propiedades del sistema ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            408,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Debilitamiento) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            110,
+            425,
+            161
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(weakening) ",
+        "bbox": [
+            792,
+            121,
+            922,
+            158
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Si Γ ⊢ τ es derivable, entonces Γ, $\\sigma \\vdash \\tau$ es derivable. ",
+        "bbox": [
+            77,
+            172,
+            732,
+            216
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d746a5062a2a0fe2b24212df08413a3237b755d3f3d449a396a0bb248c62a840.jpg",
+        "text": "$$\n\\frac { \\textsf { r } \\vdash \\tau } { \\lceil , \\sigma \\vdash \\tau \\rceil } \\mathsf { W }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            257,
+            574,
+            367
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Se puede demostrar por inducci´on estructural en la derivaci´on.   \n(Se har´a como ejercicio en la pr´actica). ",
+        "bbox": [
+            74,
+            433,
+            867,
+            533
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            584,
+            187,
+            632
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/34f6077015cfd69a90a2dcda8d3b1c627c0bd63a9fc07ef5cbbdaca345a39bc2.jpg",
+        "text": "$$\n\\frac { \\frac { \\setminus Q , R \\vdash P \\land Q } { P \\land Q , R \\vdash Q } \\land _ { e _ { 2 } } } { P \\land Q , R \\vdash Q } \\frac { \\overline { { P \\land Q , R \\vdash P \\land } } } { P \\land Q , R \\vdash }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            680,
+            685,
+            941
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Reglas derivadas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            290,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Veamos que las siguientes reglas se deducen de las anteriores.   \n(No es necesario agregarlas al sistema deductivo). ",
+        "bbox": [
+            71,
+            198,
+            856,
+            294
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Modus tollens ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            316,
+            267,
+            363
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8709ae6aefe9d63857ae0c56aef6efe5bccf8035e32b8d6daa26ddb6f6d853fb.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\lnot \\sigma } { \\Gamma \\vdash \\lnot \\tau } \\mathsf { M T }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            404,
+            660,
+            511
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on de la doble negaci´on ",
+        "bbox": [
+            74,
+            588,
+            530,
+            636
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 ",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Principios de razonamiento cl´asicos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            596,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Eliminaci´on de la doble negaci´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            117,
+            519,
+            165
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "¿Se puede deducir la siguiente regla a partir de las anteriores? ",
+        "bbox": [
+            74,
+            176,
+            859,
+            224
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a63d04bd4f8bfb0578bf44610a95af6482f4bda296f6f7923b610037b7958178.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\lnot \\lnot \\tau } { \\Gamma \\vdash \\tau } \\lnot \\lnot \\ l _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            261,
+            588,
+            367
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Principio del tercero excluido ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            463,
+            469,
+            507
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(Law of Excluded Middle) ",
+        "bbox": [
+            643,
+            470,
+            925,
+            507
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "¿Se puede deducir la siguiente regla a partir de las anteriores? ",
+        "bbox": [
+            74,
+            522,
+            867,
+            569
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "No es posible deducir estas reglas de las anteriores. ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            731,
+            790,
+            779
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Sin embargo, se pueden deducir la una de la otra. Veamos que: ",
+        "bbox": [
+            74,
+            805,
+            875,
+            849
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "1. Usando la regla LEM se puede deducir la regla ¬¬e.   \n2. Usando la regla ¬¬e se puede deducir la regla LEM. ",
+        "bbox": [
+            93,
+            863,
+            801,
+            974
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Principios de razonamiento cl´asicos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            596,
+            84
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Las reglas ¬¬e y LEM son principios de razonamiento cl´asicos. Otro principio de razonamiento cl´asico, equivalente a ¬¬e y LEM: ",
+        "bbox": [
+            74,
+            246,
+            906,
+            341
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Reducci´on al absurdo cl´asico ",
+        "bbox": [
+            77,
+            367,
+            464,
+            411
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(Proof by Contradiction) ",
+        "bbox": [
+            654,
+            371,
+            925,
+            415
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "img_path": "images/503e6cd3e4cecd35e4e6dabeaa3cbc502869769031f9cdd84aea0d409a4fb8ea.jpg",
+        "text": "$$\n\\frac { \\Gamma , \\lnot \\tau ^ { \\vdash } \\bot } { \\Gamma \\vdash \\tau } \\mathsf { P B C }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            400,
+            459,
+            599,
+            566
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            647,
+            190,
+            691
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Ver que usando PBC se puede deducir LEM y viceversa. ",
+        "bbox": [
+            74,
+            702,
+            787,
+            750
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "L´ogica intuicionista vs. l´ogica cl´asica ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            621,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Dos sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            125,
+            406,
+            169
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "NJ sistema de deducci´on natural intuicionista.   \nNK sistema de deducci´on natural cl´asica. NK extiende a NJ con principios de razonamiento cl´asicos.   \nAlcanza con agregar uno de ellos, por ejemplo $\\neg \\neg e$ . ",
+        "bbox": [
+            185,
+            209,
+            809,
+            305
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            127,
+            345,
+            895,
+            441
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Si un juicio es derivable en NJ, tambi´en es derivable en NK. ",
+        "bbox": [
+            138,
+            455,
+            903,
+            500
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "NJ es m´as restrictiva. No permite usar $\\neg \\neg _ { e }$ , LEM, PBC, etc. ",
+        "bbox": [
+            138,
+            518,
+            917,
+            562
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Para hacer matem´atica, com´unmente usamos l´ogica cl´asica. ",
+        "bbox": [
+            138,
+            580,
+            900,
+            621
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Inter´es de la l´ogica intuicionista en computaci´on ",
+        "bbox": [
+            77,
+            676,
+            726,
+            727
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Permite razonar acerca de informaci´on. ¿Qu´e significa (hay vida en Marte ∨ ¬hay vida en Marte)? Las derivaciones en NJ se pueden entender como programas. NJ es la base de un lenguaje de programaci´on funcional. ",
+        "bbox": [
+            118,
+            750,
+            906,
+            955
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ba208359eb690d044283b9f128573bd1769097745b9ed60fb3d130a47e5392d5.jpg",
+        "text": "$$\n^ { 2 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            915,
+            1000,
+            1000
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            93,
+            349,
+            124,
+            610
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural cl´asica (NK) — reglas completas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            25,
+            889,
+            91
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "table",
+        "img_path": "images/3988b20f8269ccca38c0ae37d52001caa6453cf01447382fe331f9866348cb8e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>ax 「,T├T 「├T Introducci6n Eliminaci6n</td></tr><tr><td>&gt;</td><td>「├τ「├σ 「├T&gt;σ 「├T&gt;σ Ni Ne1 e2 「├T&gt;σ 「├T 「-o</td></tr><tr><td>→</td><td>「,T├σ 「├τ→σ 「├T →i e 「├T→σ 「-σ</td></tr><tr><td>V</td><td>「├T 「To Vi Vi</td></tr><tr><td>上</td><td>rtTVσ 「├TVo 「-p 「├」 Le 「-T</td></tr></table>",
+        "bbox": [
+            60,
+            113,
+            941,
+            977
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Sistemas deductivos ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            246,
+            403,
+            297
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Deducci´on natural para l´ogica proposicional ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            433,
+            784,
+            492
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Sem´antica bivaluada ",
+        "bbox": [
+            74,
+            628,
+            411,
+            680
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c6415ef9b891e8bd1b1cf660c44fada6cfd070bdbdeb51f7b066ac8a54623e5d.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Valuaciones ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            212,
+            84
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Una valuaci´on es una funci´on $v : \\mathcal { P }  \\{ \\mathtt { V } , \\mathtt { F } \\}$ que asigna valores de verdad a las variables proposicionales. ",
+        "bbox": [
+            74,
+            143,
+            925,
+            242
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Una valuaci´on v satisface una f´ormula $\\tau$ si $v \\models \\tau$ , donde: ",
+        "bbox": [
+            74,
+            268,
+            812,
+            316
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cf13708da6d96b64813e698848f4c908a7e03de19c18816ad23765918824e9b6.jpg",
+        "text": "$$\n\\begin{array} { r l } { v \\vdash P } & { { } { \\mathrm { ~ s i ~ y ~ s \\ ' { } \\thinspace { \\mathrm { ~ s } } \\acute { } 0 } } { \\mathrm { ~ s i ~ } } \\quad v ( P ) = \\mathsf { V } } \\\\ { v \\vdash \\tau \\land \\sigma } & { { } { \\mathrm { ~ s i ~ y ~ s \\ ' { } \\circ { \\mathrm { ~ l } } { \\mathrm { ~ o ~ s i ~ } } } } \\quad v \\vdash \\tau { \\mathrm { ~ y ~ } } v \\vdash \\sigma } \\\\ { \\vdash \\tau \\Rightarrow \\sigma } & { { } { \\mathrm { ~ s i ~ y ~ s \\ ' { } \\circ { \\mathrm { ~ l } } { \\mathrm { ~ o ~ s i ~ } } } } \\quad v \\vdash \\tau \\circ v \\vdash \\sigma } \\\\ { v \\vdash \\tau \\lor \\sigma } & { { } { \\mathrm { ~ s i ~ y ~ s \\ \" { \\mathrm { ~ s } } \\acute { } 0 } } { \\mathrm { ~ s i ~ } } \\quad v \\vdash \\tau \\circ v \\vdash \\sigma } \\\\ { v \\vdash \\bot } & { { } { \\mathrm { ~ n u n c a ~ v a l e } } } \\\\ { v \\vdash \\tau } & { { } { \\mathrm { ~ s i ~ y ~ s \\ \" { \\mathrm { ~ s i ~ } } { \\mathrm { ~ s i ~ } } } } \\quad v \\vdash \\tau } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            345,
+            762,
+            665
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Una valuaci´on v satisface un contexto Γ (notaci´on: v ⊨ Γ) si y s´olo si v satisface a todas las f´ormulas de Γ. ",
+        "bbox": [
+            71,
+            691,
+            925,
+            786
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Un contexto Γ satisface una f´ormula $\\tau$ (notaci´on: Γ ⊨ τ ) si y s´olo si cualquier valuaci´on v que satisface a Γ tambi´en satisface a $\\tau$ . ",
+        "bbox": [
+            69,
+            812,
+            911,
+            908
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            187,
+            386
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "1. Probar que $P \\land Q \\models P$ .   \n2. Probar que $P \\lor Q , \\lnot Q \\lor P .$   \n3. Probar que no vale $P \\lor Q \\models Q$ .   \n4. Probar que $P \\models Q \\lor \\neg Q$ . ",
+        "bbox": [
+            93,
+            404,
+            535,
+            636
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Valuaciones ",
+        "bbox": [
+            19,
+            33,
+            212,
+            84
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Correcci´on y completitud ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Teorema (Correcci´on y completitud) ",
+        "bbox": [
+            77,
+            363,
+            566,
+            415
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Son equivalentes: ",
+        "bbox": [
+            74,
+            430,
+            298,
+            474
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "1. Γ ⊢ τ es derivable en NK.   \n2. Γ ⊨ τ ",
+        "bbox": [
+            93,
+            488,
+            466,
+            591
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1abcb07ace603b842686528ce8992ced1d6960af7d1268831708eab142adc122.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Demostraci´on de correcci´on Γ ⊢NK τ implica Γ ⊨ τ ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            29,
+            919,
+            88
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que Γ ⊢ τ es derivable en NK.   \nDemostramos que Γ ⊨ τ por inducci´on estructural en la derivaci´on. ",
+        "bbox": [
+            69,
+            117,
+            925,
+            213
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Hay que analizar 13 casos, uno por cada regla de NK. ",
+        "bbox": [
+            77,
+            238,
+            756,
+            283
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, para la regla ⇒e : ",
+        "bbox": [
+            74,
+            312,
+            464,
+            356
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cd1cf30359cadc2e24bb54a9dd0fd20db5b739c86112d77f2d6c2e59183460b5.jpg",
+        "text": "$$\n\\frac { \\Gamma \\vdash \\tau \\Rightarrow \\sigma \\quad \\Gamma \\vdash \\tau } { \\Gamma \\vdash \\sigma } \\Rightarrow _ { e }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            350,
+            393,
+            649,
+            500
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Queremos ver que ${ \\Gamma } \\models \\sigma$ ",
+        "bbox": [
+            74,
+            547,
+            392,
+            588
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Sea v tal que $v \\models \\Gamma$ y veamos que $v \\models \\sigma$ . ",
+        "bbox": [
+            77,
+            599,
+            599,
+            639
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Por HI sabemos que $\\Gamma \\models \\tau \\Rightarrow \\sigma \\lor \\mathsf { q u e } \\Gamma \\models \\tau .$ ",
+        "bbox": [
+            80,
+            647,
+            640,
+            691
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Como $v \\models \\Gamma$ tenemos que $v \\models \\tau \\Rightarrow \\sigma \\lor v \\models \\tau .$ ",
+        "bbox": [
+            77,
+            698,
+            651,
+            738
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Intentar probar los 12 casos restantes. ",
+        "bbox": [
+            127,
+            897,
+            616,
+            944
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            904,
+            118,
+            930
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Demostraci´on Γ ⊢NK τ ) ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            18,
+            944,
+            95
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Definici´on ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            191,
+            212,
+            235
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "1. Un contexto Γ determina una variable $P \\in { \\mathcal { P } }$ si vale que $P \\in \\Gamma \\circ { \\mathsf { q u e } } \\neg P \\in \\Gamma .$ ",
+        "bbox": [
+            93,
+            253,
+            875,
+            349
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "2. Un contexto Γ determina un conjunto de variables $X \\subseteq { \\mathcal { P } }$ si determina a todas las variables de $X$ . ",
+        "bbox": [
+            91,
+            363,
+            919,
+            455
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Para probar el teorema de completitud, necesitamos: ",
+        "bbox": [
+            77,
+            485,
+            745,
+            529
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Lema principal ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            555,
+            276,
+            602
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Si Γ determina a todas las variables que aparecen en $\\tau$ , entonces: ",
+        "bbox": [
+            77,
+            613,
+            906,
+            661
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "1. O bien Γ ⊢ τ es derivable en NK.   \n2. O bien Γ ⊢ ¬τ es derivable en NK. ",
+        "bbox": [
+            91,
+            672,
+            582,
+            779
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Asumamos que el lema vale, lo demostraremos despu´es. ",
+        "bbox": [
+            74,
+            830,
+            779,
+            875
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Demostraci´on de completitud (Γ ⊨ τ implica Γ ⊢NK τ ) ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            25,
+            950,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que $\\sigma _ { 1 } , \\ldots , \\sigma _ { n } \\vdash \\tau$ .   \nQueremos ver que $\\sigma _ { 1 } , \\ldots , \\sigma _ { n } \\vdash \\tau$ es derivable en NK. ",
+        "bbox": [
+            74,
+            99,
+            762,
+            194
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Sea $\\rho = ( \\sigma _ { 1 } \\land \\dotsc \\land \\sigma _ { n } ) \\Rightarrow \\tau$ . Sabemos que ⊨ ρ. ¿Por qu´e? Alcanza con probar que ⊢ $\\rho$ es derivable en NK. ¿Por qu´e? ",
+        "bbox": [
+            71,
+            238,
+            928,
+            338
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Sea $X = \\{ P _ { 1 } , \\ldots , P _ { n } \\}$ el conjunto de variables que aparecen en $\\rho$ . Usando LEM y ∨e podemos considerar $2 ^ { n }$ casos, de la forma: ",
+        "bbox": [
+            74,
+            378,
+            914,
+            477
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ce629a751634a016f58d57d4e460a29dc76642dd594e2a5045a127ab07241ea3.jpg",
+        "text": "$$\n\\tilde { P } _ { 1 } , \\ldots , \\tilde { P } _ { n } \\vdash \\rho\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            511,
+            596,
+            569
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "donde cada $\\tilde { P } _ { j }$ es o bien $P _ { j }$ o bien $\\neg P i$ . ",
+        "bbox": [
+            74,
+            602,
+            574,
+            654
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Por el lema principal, se da uno de los dos casos siguientes: ",
+        "bbox": [
+            88,
+            661,
+            820,
+            705
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "1. O bien $\\tilde { P } _ { 1 } , \\ldots , \\tilde { P } _ { n } \\vdash \\rho$ es derivable en NK (y listo).   \n2. O bien $\\tilde { P } _ { 1 } , \\ldots , \\tilde { P } _ { n } \\vdash \\lnot \\rho$ es derivable en NK. Por correcci´on vale $\\tilde { P } _ { 1 } , \\ldots , \\tilde { P } _ { n } \\vdash \\lnot \\rho .$ Sea v una valuaci´on tal que $v ( P _ { i } ) = \\mathbb { V }$ si y s´olo si $\\tilde { P } _ { j } = P _ { j }$ . Luego $v \\models \\neg \\rho$ . Absurdo pues sab´ıamos ⊨ ρ. ",
+        "bbox": [
+            93,
+            713,
+            883,
+            977
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Demostraci´on del lema principal ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            541,
+            84
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Recordemos el enunciado: ",
+        "bbox": [
+            74,
+            99,
+            403,
+            143
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Lema principal ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            169,
+            276,
+            216
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Si Γ determina a todas las variables que aparecen en $\\tau$ , entonces: ",
+        "bbox": [
+            77,
+            231,
+            903,
+            275
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "1. O bien Γ ⊢ τ es derivable en NK.   \n2. O bien Γ ⊢ ¬τ es derivable en NK. ",
+        "bbox": [
+            93,
+            290,
+            580,
+            397
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Lo demostramos por inducci´on estructural en $\\tau$ .   \nHay 6 casos $( P , \\land , \\Rightarrow , \\lor , \\bot , \\neg ) .$ . ",
+        "bbox": [
+            74,
+            422,
+            685,
+            518
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, supongamos que $\\tau = ( \\sigma \\wedge \\rho )$ . Por hip´otesis inductiva sobre $\\sigma$ , sabemos que: ",
+        "bbox": [
+            74,
+            544,
+            654,
+            636
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "1. O bien Γ ⊢ $\\sigma$ es derivable en NK. Por hip´otesis inductiva sobre $\\rho$ , sabemos que: ",
+        "bbox": [
+            99,
+            654,
+            715,
+            742
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "1.1 O bien Γ ⊢ $\\rho$ es derivable en NK y tenemos $\\Gamma \\vdash \\sigma \\land \\rho$ .   \n1.2 O bien Γ ⊢ $\\neg \\rho$ es derivable en NK y tenemos $\\Gamma \\vdash \\lnot ( \\sigma \\land \\rho ) .$ ",
+        "bbox": [
+            140,
+            750,
+            895,
+            838
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "2. O bien Γ ⊢ ¬σ es derivable en NK y tenemos $\\Gamma \\vdash \\lnot ( \\sigma \\land \\rho ) .$ ",
+        "bbox": [
+            99,
+            852,
+            897,
+            900
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Intentar probar los 5 casos restantes. ",
+        "bbox": [
+            127,
+            926,
+            602,
+            970
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            950,
+            948,
+            994,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "text_level": 1,
+        "bbox": [
+            251,
+            235,
+            745,
+            330
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Lectura recomendada ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            422,
+            364,
+            463
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Cap´ıtulos 2 y 6 del libro de Sørensen y Urzyczyn. ",
+        "bbox": [
+            77,
+            470,
+            751,
+            514
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Morten Sørensen y Pawe l Urzyczyn. Lectures on the Curry–Howard Isomorphism   \nElsevier, 2006. ",
+        "bbox": [
+            77,
+            522,
+            930,
+            665
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    }
+]

@@ -1,0 +1,2797 @@
+[
+    {
+        "type": "text",
+        "text": "Clase pr´actica ",
+        "text_level": 1,
+        "bbox": [
+            386,
+            227,
+            613,
+            283
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            204,
+            294,
+            798,
+            349
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas de Lenguajes de Programaci´on ",
+        "bbox": [
+            232,
+            441,
+            779,
+            488
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            295,
+            540,
+            704,
+            647
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "11/11/2025 ",
+        "bbox": [
+            425,
+            694,
+            577,
+            742
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            809,
+            286,
+            848,
+            338
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            149,
+            286,
+            190,
+            338
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Agenda ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            143,
+            88
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on General ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            154,
+            314,
+            198
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Repaso   \nM´etodo de resoluci´on   \nEn l´ogica proposicional   \nEn l´ogica de primer orden   \nEjercicios ",
+        "bbox": [
+            118,
+            209,
+            447,
+            452
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on lineal y SLD ",
+        "bbox": [
+            77,
+            492,
+            375,
+            536
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on lineal Motivaci´on Cl´ausulas de Horn Resoluci´on SLD Arbol de resoluci´on ´ De Prolog a resoluci´on Ejemplo completo ",
+        "bbox": [
+            118,
+            544,
+            411,
+            889
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/e3e982c8c5d240f7199224b5249fd39b12d88c85373451b76c503e2fbe5f1f18.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            709,
+            540,
+            919,
+            915
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            323,
+            150,
+            353,
+            191
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            381,
+            488,
+            414,
+            529
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es? ",
+        "bbox": [
+            19,
+            33,
+            171,
+            88
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• Procedimiento para determinar la insatisfactibilidad de una f´ormula.   \n• Es ´util como t´ecnica de demostraci´on por refutaci´on (i.e., probar que $\\tau$ es v´alida mostrando que ¬τ es insatisfactible).   \n• Consiste en la aplicaci´on sucesiva de una regla de inferencia a un conjunto de cl´ausulas. ",
+        "bbox": [
+            102,
+            327,
+            914,
+            647
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Satisfactibilidad y validez ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            430,
+            88
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "En general, ",
+        "bbox": [
+            77,
+            253,
+            218,
+            301
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• Una asignaci´on asocia variables a valores del dominio. ",
+        "bbox": [
+            104,
+            316,
+            814,
+            360
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Una f´ormula $\\tau$ es v´alida sii toda asignaci´on la hace verdadera. ",
+        "bbox": [
+            104,
+            375,
+            925,
+            419
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• Una f´ormula $\\tau$ es satisfactible sii alguna asignaci´on la hace verdadera. ",
+        "bbox": [
+            99,
+            437,
+            900,
+            529
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "El siguiente hecho permite utilizar al m´etodo como t´ecnica de demostraci´on: ",
+        "bbox": [
+            74,
+            547,
+            870,
+            639
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "τ es v´alida sii ¬τ es insatisfactible ",
+        "bbox": [
+            281,
+            680,
+            720,
+            724
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y FNC ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            290,
+            88
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "El m´etodo trabaja con f´ormulas en forma normal conjuntiva. ",
+        "bbox": [
+            77,
+            216,
+            875,
+            264
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• Conjunci´on de disyunciones de literales, siendo un literal una f´ormula at´omica o su negaci´on. • Una cl´ausula es cada una de estas disyunciones de literales. Las representamos en notaci´on de conjuntos. ",
+        "bbox": [
+            91,
+            279,
+            900,
+            485
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ",
+        "bbox": [
+            74,
+            503,
+            187,
+            547
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/14dba920c0443d80386acc5b30ff6c6cda919ff469e943660dcb7223228e06f6.jpg",
+        "text": "$$\n\\{ \\neg { \\mathsf { m e n o r } } ( X , Y ) , { \\mathsf { m e n o r } } ( c , Y ) \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            303,
+            547,
+            693,
+            602
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "representa la cl´ausula ",
+        "bbox": [
+            74,
+            625,
+            348,
+            669
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/25269dbf02a341fb0a95c677df59fcc8892c9874b80abb9082a664a9ce83c90f.jpg",
+        "text": "$$\n\\forall X . \\forall Y . ( \\neg { \\mathsf { m e n o r } } ( X , Y ) \\lor { \\mathsf { m e n o r } } ( c , Y ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            709,
+            751,
+            764
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas y FNC ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            290,
+            88
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "De esta manera, notamos a una f´ormula en FNC como un conjunto de cl´ausulas. Este se entiende como la conjunci´on de todas ellas. ",
+        "bbox": [
+            74,
+            238,
+            928,
+            334
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, el conjunto que contiene a las cl´ausulas ",
+        "bbox": [
+            77,
+            389,
+            745,
+            437
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9b9593f40a7a15351d7e3d64518e3a8b4d1187234d0680462c0b3f6ef78a6c5a.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\bullet } & { \\{ \\neg { \\mathfrak { m e n o r } } ( X , Y ) , \\mathfrak { m e n o r } ( c , Y ) \\} } \\\\ { \\bullet } & { \\{ \\mathfrak { i m p a r } ( Z ) , \\mathfrak { m a y o r } ( Z , w ) \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            102,
+            444,
+            522,
+            566
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "representa la f´ormula ",
+        "bbox": [
+            74,
+            595,
+            345,
+            639
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "∀X .∀Y .(¬menor(X , Y )∨menor(c, Y ))∧∀Z .(impar(Z )∨mayor(Z , w)) ",
+        "bbox": [
+            71,
+            680,
+            947,
+            735
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "M´etodo de Resoluci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            381,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Repaso ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            102,
+            99,
+            136
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Estrategia ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            161,
+            212,
+            205
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Para demostrar que una f´ormula es universalmente v´alida Demostramos que su negaci´on es insatisfactible. • Para demostrar que $\\tau$ se deduce de $\\sigma _ { 1 } , . . . . \\sigma _ { n }$ Demostramos que $\\sigma _ { 1 } , \\ldots , \\sigma _ { n } , \\lnot \\tau$ es insatisfactible. La f´ormula es $\\sigma _ { 1 } \\wedge . . . \\wedge \\sigma _ { n } \\Rightarrow \\tau$ . ",
+        "bbox": [
+            104,
+            231,
+            759,
+            444
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Esquema general ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            496,
+            303,
+            540
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Expresar la o las f´ormulas como cl´ausulas. ",
+        "bbox": [
+            107,
+            573,
+            624,
+            613
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Aplicar sucesivamente un paso de resoluci´on (generando nuevas cl´ausulas)... ",
+        "bbox": [
+            104,
+            639,
+            654,
+            727
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Hasta llegar a la cl´ausula vac´ıa o concluir que no es posible llegar a ella. ",
+        "bbox": [
+            107,
+            750,
+            604,
+            834
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Importante: al aplicar resoluci´on suelen presentarse varias opciones. Conviene tener un plan. ",
+        "bbox": [
+            104,
+            860,
+            914,
+            944
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on en el marco proposicional ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            803,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0b7ce1f616af15d726a4c0ca8c7ea7c79aba62871425678af173df16f83889d5.jpg",
+        "text": "$$\n\\frac { \\ d = \\{ A _ { 1 } , \\dotsc , A _ { m } , Q \\} } { \\ u { \\tau } = \\{ A _ { 1 } , \\dotsc , A _ { m } , B _ { 1 } , \\dotsc , B _ { n } \\} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            246,
+            720,
+            352
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "• A τ se la llama resolvente (de $\\sigma _ { i } \\ y \\ \\sigma _ { j } )$ ",
+        "bbox": [
+            104,
+            411,
+            638,
+            459
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": ". La regla se apoya en el hecho de que la siguiente proposici´on es una tautolog´ıa: ",
+        "bbox": [
+            104,
+            470,
+            906,
+            569
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e28b9ce8774e695e5c5e5faabbb3cd645f65885923b7473727750b5d01e74bee.jpg",
+        "text": "$$\n) \\wedge ( \\beta \\vee \\neg P ) \\Leftrightarrow ( \\alpha \\vee P ) \\wedge ( \\beta \\vee \\neg P ) \\wedge ( \\alpha \\vee \\neg P ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            279,
+            606,
+            787,
+            665
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "• El conjunto de cl´ausulas $\\{ \\sigma _ { 1 } , \\ldots , \\sigma _ { k } \\}$ es l´ogicamente equivalente a $\\{ \\sigma _ { 1 } , \\ldots , \\sigma _ { k } , \\tau \\}$ ",
+        "bbox": [
+            102,
+            702,
+            809,
+            805
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo para entrar en calor ",
+        "text_level": 1,
+        "bbox": [
+            24,
+            36,
+            483,
+            84
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Pr´actica 7 - Ejercicio 4 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            99,
+            267,
+            136
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Un grupo de amigos quer´ıa juntarse a comer en una casa, pero no decid´ıan en cu´al. Prevalec´ıan dos propuestas: la casa de Fabiana, que era c´omoda y espaciosa, y la de Manuel, m´as chica pero con un amplio jard´ın y parrilla al aire libre. Finalmente acordaron basar su elecci´on en el pron´ostico del tiempo. Si anunciaban lluvia, se reunir´ıan en la casa de Fabiana; y si no, en la de Manuel. (Desde ya, se juntar´ıan en una sola casa.) ",
+        "bbox": [
+            71,
+            183,
+            928,
+            485
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Finalmente el grupo se junt´o a comer en la casa de Fabiana, pero no llovi´o. ",
+        "bbox": [
+            74,
+            492,
+            881,
+            573
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Utilizar las siguientes proposiciones para demostrar - mediante el m´etodo de resoluci´on - que el pron´ostico se equivoc´o (anunci´o lluvia y no llovi´o, o viceversa). ",
+        "bbox": [
+            74,
+            584,
+            925,
+            727
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$P =$ “El pron´ostico anunci´o lluvia.” $F = { } ^ { \" } \\mathsf { E } |$ grupo se re´une en la casa de Fabiana.” M = “El grupo se re´une en la casa de Manuel.” L = “Llueve en el d´ıa de la reuni´on.” ",
+        "bbox": [
+            74,
+            731,
+            682,
+            926
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Prob´emoslo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            212,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Tenemos... ",
+        "bbox": [
+            77,
+            198,
+            212,
+            238
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/29905cdec66d50518aad8a18d8e3f5fbcf9f319ad42410ead06e887a02e8966a.jpg",
+        "text": "$$\n\\begin{array} { r l } { } & { 1 . \\ P \\Rightarrow F \\land \\dotsc \\dotsc P \\lor F } \\\\ { } & { 2 . \\ \\dotsc P \\Rightarrow M \\dotsc P \\lor M } \\\\ { } & { 3 . \\ \\dotsc ( F \\land M ) \\dotsc \\neg F \\lor \\dotsc M } \\\\ { } & { 4 . \\ F } \\\\ { } & { 5 . \\ \\dotsc L } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            91,
+            250,
+            441,
+            551
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Queremos ver que: ",
+        "bbox": [
+            74,
+            562,
+            314,
+            606
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f80fc0e2b0e8597c4de2738e06dfbc372fadc2db4ab925363cad6dbead0509d1.jpg",
+        "text": "$$\n( P \\land \\neg L ) \\lor ( \\neg P \\land L )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            647,
+            635,
+            702
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Negaci´on: ",
+        "bbox": [
+            74,
+            742,
+            201,
+            783
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cd00c380046535bbaa60abef4418da2706e1150a15e030488624943ca60fc273.jpg",
+        "text": "$$\nL ) \\vee ( \\neg P \\wedge L ) ) \\sim ( \\neg P \\vee L ) \\wedge ( P \\vee \\neg L ) ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            783,
+            701,
+            841
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            709,
+            58,
+            936,
+            352
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Expresando las cl´ausulas como conjuntos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            687,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bfad74c15f094a5502ea2e7fc5c8741a8be8fbe5bd3477486a0ccb25d07c128f.jpg",
+        "text": "$$\n\\begin{array} { r l } & { 1 . \\{ \\begin{array} { l } {  P , F \\} } \\\\ { 2 . } \\end{array}  } \\\\ & {  \\begin{array} { l } { 3 . \\{ P , M \\} } \\\\ { 3 . } \\end{array}  } \\\\ & {  \\begin{array} { r r r } { 4 . } & { \\{ F \\} } \\\\ { 5 . } & { \\{ - L \\} } \\end{array}  } \\\\ & {  \\begin{array} { r r r } { 6 . } & { \\{ \\begin{array} { r r r } \\end{array}  } \\end{array}  } \\\\ & {  \\begin{array} { r r r } { 7 . \\{ P , M \\} } \\\\ { 7 . } & { \\{ P , - L \\} } \\end{array}  } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            110,
+            224,
+            290,
+            647
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "De 6 y 2: 8. {L, M } De 8 y 3: 9. {L, De 9 y 4: 10. {L} De 10 y 5: ✷ ",
+        "bbox": [
+            502,
+            187,
+            773,
+            386
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: pensemos en lo que queremos demostrar y ¡hagamos un plan! Suponemos que el pron´ostico no anunci´o lluvia o llovi´o... ",
+        "bbox": [
+            74,
+            735,
+            895,
+            830
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Pasaje a FNC ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            245,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Paso a paso ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            102,
+            151,
+            136
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "1. Eliminar implicaci´on   \n2. Forma normal negada   \n3. Forma normal prenexa (opcional)   \n4. Forma normal de Skolem (dependencias $=$ variables libres dentro del   \nalcance del ∃)   \n5. Forma normal conjuntiva   \n6. Distribuci´on de cuantificadores y renombre de variables ",
+        "bbox": [
+            91,
+            319,
+            925,
+            720
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "La regla de resoluci´on en primer orden ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            643,
+            88
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/49ea079905e03d540070f895c487b14b222e2c9d003758af51c07a4a155ad58a.jpg",
+        "text": "$$\n\\frac  A _ { m } , P _ { 1 } , \\ldots , P _ { k } \\} \\quad \\sigma _ { j } = \\{ B _ { 1 } , \\ldots , B _ { n } , \\lnot Q _ { 1 } , . . . ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            279,
+            308,
+            787,
+            408
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• S es el MGU es decir, S(P $\\begin{array} { l } { { \\mathrm { ~ d e ~ } \\{ P _ { 1 } \\stackrel { ? } { = } \\dots \\stackrel { ? } { = } P _ { k } \\stackrel { ? } { = } Q _ { 1 } \\stackrel { ? } { = } \\dots \\stackrel { ? } { = } Q _ { I } \\} } } \\\\ { { \\mathrm { ~ \\ I _ { 1 } ) } = \\dots = S ( P _ { k } ) = S ( Q _ { 1 } ) = \\dots = S ( Q } } \\end{array}$ l ). ",
+        "bbox": [
+            102,
+            474,
+            839,
+            584
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• A $\\tau$ se la llama resolvente ( $\\mathrm { d e } \\ \\sigma _ { i } \\ \\mathsf { y } \\ \\sigma _ { j } )$ ",
+        "bbox": [
+            104,
+            591,
+            646,
+            639
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Cada paso de resoluci´on preserva satisfactibilidad (Teorema de Herbrand-Skolem-G¨odel). ",
+        "bbox": [
+            104,
+            654,
+            919,
+            750
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on en l´ogica de primer orden ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            616,
+            88
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Cosas importantes para recordar1 ！ ",
+        "bbox": [
+            22,
+            99,
+            441,
+            136
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Al skolemizar, usar la misma constante o funci´on si y s´olo si la variable que estamos eliminando es la misma (nunca para otras, aun si tienen el mismo nombre). • Para encontrar las dependencias, ver qu´e variables est´an libres dentro del alcance del ∃ (sin contar la que se est´a eliminando). • ¡No olvidarse de negar lo que se quiere demostrar! Y recordar que $\\lnot ( ( \\sigma _ { 1 } \\land \\dotsc \\land \\sigma _ { n } ) \\Rightarrow \\tau ) = \\sigma _ { 1 } \\land \\dotsc \\land \\sigma _ { n } \\land$ ¬τ . • Antes de empezar a aplicar pasos de resoluci´on, convencerse de que lo que se quiere demostrar es verdadero, y trazar un plan para demostrarlo (mentalmente o por escrito). • Recordar bien c´omo funciona la unificaci´on, y sustituir siempre variables (ni funciones, ni constantes, ni predicados). ",
+        "bbox": [
+            102,
+            165,
+            925,
+            841
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "1Seguir las indicaciones de esta lista previene los errores m´as frecuentes en los parciales. ",
+        "bbox": [
+            77,
+            911,
+            908,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            151,
+            88
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 1 Cuat. 2012 ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "• Representar en forma clausal la siguiente informaci´on referida a conjuntos, pertenencia (predicado Pert) e inclusi´on (predicado Inc). ",
+        "bbox": [
+            104,
+            242,
+            917,
+            378
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "i ∀X .∀Y .( $\\mathsf { l n c } ( X , Y ) \\Leftrightarrow \\forall Z . ( \\mathsf { P e r t } ( Z , X ) \\Rightarrow \\mathsf { P e r t } ( Z , Y ) )$ )) X est´a incluido en $Y$ si y solo si cada elemento de $X$ es un elemento de $Y$ .   \nii ∀X .¬Pert(X , ∅) Ning´un elemento pertenece al vac´ıo. ",
+        "bbox": [
+            165,
+            386,
+            886,
+            602
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "• Usar resoluci´on para probar que el vac´ıo est´a incluido en todo conjunto. ",
+        "bbox": [
+            102,
+            621,
+            919,
+            713
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "• Indicar justificando si la prueba realizada es SLD (volveremos sobre esto m´as adelante). ",
+        "bbox": [
+            102,
+            731,
+            919,
+            827
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            154,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 1 Cuat. 2012 ",
+        "bbox": [
+            19,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "images/8cfa95bf700a7d74fa732f0a9dcbc9d76ee027bad8ac56d2ddd439c91287ec97.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Cast.: 1°0.: Claus.:</td><td>X CY si y solo si cada elemento de X es un elemento de Y. ∀X.∀Y.(Inc(X,Y) ↔(∀Z.(Pert(Z,X)= Pert(Z,Y)))) {-Inc(Xi,Yi),-Pert(Z1,Xi),Pert(Zi,Yi)} {Inc(X2,Y2),Pert(f(X2,Y2),X2)} {Inc(X,Y3),-Pert(f(X,Y3),Y3)}</td></tr><tr><td>Cast.: 1° o.:</td><td>Ningun elemento pertenece al vacio. ∀X.-Pert(X,0)</td></tr></table>",
+        "bbox": [
+            80,
+            334,
+            917,
+            680
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo (cont.)° ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            276,
+            88
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 1 Cuat. 2012 ",
+        "bbox": [
+            22,
+            99,
+            436,
+            136
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "A partir de ellas, se desea demostrar que:° ",
+        "bbox": [
+            74,
+            356,
+            599,
+            400
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Cast.: El vac´ıo est´a incluido en todo conjunto. 1 o.: ∀X .Inc(∅, X )   \nNeg.: ∃X .¬Inc(∅, X )   \nClaus.: {¬Inc(∅, c)} ",
+        "bbox": [
+            209,
+            415,
+            787,
+            599
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            154,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 1 Cuat. 2012 ",
+        "bbox": [
+            19,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "images/e395bc22708926cf4e69d51c0f6005c5f4933cedef5c2b0947c34a761040221f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Cast.: 1°0.: Claus.:</td><td>X CY si y solo si cada elemento de X es un elemento de Y. ∀X.∀Y.(Inc(X,Y) ↔(∀Z.(Pert(Z,X)= Pert(Z,Y)))) {-Inc(Xi,Yi),-Pert(Zi,Xi),Pert(Zi,Yi)} {Inc(X2,Y2),Pert(f(X2,Y2),X2)} {Inc(X,Y3),-Pert(f(X,Y3),Y3)}</td></tr><tr><td>Cast.: 1° o.:</td><td>Ningun elemento pertenece al vacio. ∀X.-Pert(X,0)</td></tr></table>",
+        "bbox": [
+            80,
+            334,
+            917,
+            680
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo (cont.)° ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            276,
+            88
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 1 Cuat. 2012 ",
+        "bbox": [
+            22,
+            99,
+            436,
+            136
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "A partir de ellas, se desea demostrar que:° ",
+        "bbox": [
+            74,
+            356,
+            599,
+            400
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Cast.: El vac´ıo est´a incluido en todo conjunto. 1 o.: ∀X .Inc(∅, X )   \nNeg.: ∃X .¬Inc(∅, X )   \nClaus.: {¬Inc(∅, c)} ",
+        "bbox": [
+            209,
+            415,
+            787,
+            599
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo (resolviendo)° ° ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            372,
+            88
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 1 Cuat. 2012 ",
+        "bbox": [
+            22,
+            99,
+            436,
+            136
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b475389da2fd4dcb6c4761b490f505fe84e0507816b77be14a2af8a26a416f57.jpg",
+        "text": "$$\n\\begin{array} { r l } { { 1 . } } & { \\{ \\neg \\mathsf { I n c } ( X _ { 1 } , Y _ { 1 } ) , \\neg \\mathsf { P e r t } ( Z _ { 1 } , X _ { 1 } ) , \\mathsf { P e r t } ( Z _ { 1 } , Y _ { 1 } ) \\} } \\\\ { { 2 . } } & { \\{ \\mathsf { I n c } ( X _ { 2 } , Y _ { 2 } ) , \\mathsf { P e r t } ( \\mathsf { f } ( X _ { 2 } , Y _ { 2 } ) , X _ { 2 } ) \\} } \\\\ { { 3 . } } & { \\{ \\mathsf { I n c } ( X _ { 3 } , Y _ { 3 } ) , \\neg \\mathsf { P e r t } ( \\mathsf { f } ( X _ { 3 } , Y _ { 3 } ) , Y _ { 3 } ) \\} } \\\\ { { 4 . } } & { \\{ \\neg \\mathsf { P e r t } ( X _ { 4 } , \\emptyset ) \\} } \\\\ { { 5 . } } & { \\{ \\neg \\mathsf { I n c } ( \\emptyset , \\mathsf { c } ) \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            80,
+            268,
+            569,
+            536
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es el plan? ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            544,
+            312,
+            591
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que el vac´ıo no est´a incluido en el conjunto c. Esto implica que existe un elemento que pertenece al vac´ıo y no pertenece a c. Pero sabemos que ning´un elemento pertenece al vac´ıo. Absurdo. ",
+        "bbox": [
+            74,
+            595,
+            895,
+            790
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo (resolviendo)° ° ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            372,
+            88
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 1 Cuat. 2012 ",
+        "bbox": [
+            22,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "img_path": "images/765a25d92781319298206d0865293353957de44c9b24842b2891da60f73121aa.jpg",
+        "text": "$$\n\\frac  \\mathfrak { l } _ { 1 } , . . . , A _ { m } , P _ { 1 } , . . . , P _ { k } \\} { S ( \\{ A _ { 1 } , . . . , A _ { m } , B _ { 1 } , . . . , B _ { n } \\} ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            209,
+            264,
+            720,
+            356
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "donde S es el MGU de $\\{ P _ { 1 } , . . . , P _ { k } , Q _ { 1 } , . . . , Q _ { I } \\} .$ ",
+        "bbox": [
+            74,
+            386,
+            610,
+            433
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "1 $\\begin{array} { r l } { . . } & { \\{ \\neg { \\mathsf { I n c } } ( X _ { 1 } , Y _ { 1 } ) , \\neg { \\mathsf { P e r t } } ( Z _ { 1 } , X _ { 1 } ) , \\mathsf { P e r t } ( Z _ { 1 } , Y _ { 1 } ) \\} } \\\\ { 2 . } & { \\{ { \\mathsf { I n c } } ( X _ { 2 } , Y _ { 2 } ) , { \\mathsf { P e r t } } ( { \\mathsf { f } } ( X _ { 2 } , Y _ { 2 } ) , X _ { 2 } ) \\} } \\\\ { 3 . } & { \\{ { \\mathsf { I n c } } ( X _ { 3 } , Y _ { 3 } ) , \\neg { \\mathsf { P e r t } } ( { \\mathsf { f } } ( X _ { 3 } , Y _ { 3 } ) , Y _ { 3 } ) \\} } \\\\ { 4 . } & { \\{ \\neg { \\mathsf { P e r t } } ( X _ { 4 } , \\emptyset ) \\} } \\\\ { 5 . } & { \\{ \\neg { \\mathsf { I n c } } ( \\emptyset , { \\mathsf { c } } ) \\} } \\end{array}$   \n6. $\\begin{array} { r l } & { \\left( 2 \\textnormal { y } 5 \\right) \\left\\{ \\mathsf { P e r t } ( \\mathsf { f } ( \\varnothing , \\mathsf { c } ) , \\varnothing ) \\right\\} S = \\{ X _ { 2 } : = \\varnothing , \\ Y _ { 2 } : = \\mathsf { c } \\quad } \\\\ & { \\left( 6 \\textnormal { y } 4 \\right) \\bigcirc \\bigtriangledown S = \\{ X _ { 4 } : = \\mathsf { f } ( \\varnothing , \\mathsf { c } ) \\} } \\end{array}$ }   \n7. ",
+        "bbox": [
+            99,
+            452,
+            654,
+            823
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Otro ejemplo° ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            234,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 2 Cuat. 2008 ",
+        "bbox": [
+            22,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes definiciones de Descendiente y Abuela a partir de la relaci´on Madre: ",
+        "bbox": [
+            74,
+            191,
+            925,
+            275
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "• Los hijos son descendientes:   \n∀X .∀Y .(Madre $( X , Y ) \\Rightarrow$ Descendiente $( Y , X ) )$   \n• La relaci´on de descendencia es transitiva:   \n$\\forall X . \\forall Y . \\forall Z$ .(Descendiente $( X , Y ) \\wedge$ Descendiente $( Y , Z ) \\Rightarrow$ Descendiente $( X , Z ) )$   \n• La abuela es madre de alguien que es madre de la nieta:   \n∀X .∀Y .(Abuela $\\langle X , Y \\rangle \\Rightarrow \\exists Z . ( { \\mathsf { M a d r e } } ( X , Z ) \\land { \\mathsf { M a d r e } } ( Z , Y ) ) )$ ",
+        "bbox": [
+            80,
+            301,
+            925,
+            544
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Demostrar usando resoluci´on general que los nietos son descendientes; es decir, que ",
+        "bbox": [
+            74,
+            569,
+            787,
+            661
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: tratar de aplicar el m´etodo a ciegas puede traer problemas.   \nConviene tener en mente lo que se quiere demostrar. ",
+        "bbox": [
+            74,
+            797,
+            922,
+            893
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Otro ejemplo° ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            237,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 2 Cuat. 2008 ",
+        "bbox": [
+            22,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "table",
+        "img_path": "images/fd8c132f831af54aff807f5baa384619b9978dced0d1eae10e1b9d0e92caf915.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Cast.: 1° 0.: Claus.:</td><td>Los hijos son descendientes. ∀X.∀Y.(Madre(X,Y)⇒ Descendiente(Y,X)) {-Madre(Xi,Yi),Descendiente(Yi,X1)}</td></tr><tr><td>Cast.: 1° o.: Claus.:</td><td>Larelacion de descendencia es transitiva. ∀X.VY.∀Z.(Descendiente(X, Y) ^ Descendiente(Y,Z) = Descendiente(X,Z)) {-Descendiente(X2,Y2),-Descendiente(Y2,Z2),Descendiente(X2,Z2)}</td></tr><tr><td>Cast.: 1° 0.: Claus.:</td><td>La abuela es madre de alguien que es madre de la nieta. ∀X.∀Y.(Abuela(X,Y) =Z.(Madre(X,Z) ^ Madre(Z,Y))) {-Abuela(X,Y3),Madre(X3,medio(X,Y))} {-Abuela(X4,Y4),Madre(medio(X4,Y4),Y4)}</td></tr></table>",
+        "bbox": [
+            69,
+            312,
+            994,
+            794
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Otro ejemplo (cont.)° ° ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            359,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 2 Cuat. 2008 ",
+        "bbox": [
+            19,
+            99,
+            436,
+            136
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "A partir de ellas, se desea demostrar que:° ",
+        "bbox": [
+            74,
+            349,
+            599,
+            393
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Cast.: Los nietos son descendientes 1 o.: ∀X.∀Y .(Abuela $( X , Y ) \\Rightarrow$ Descendiente $( Y , X )$ ) Neg.: ∃X .∃Y .(Abuela $( X , Y ) \\land \\neg \\mathsf { D }$ escendiente $( Y , X )$ ) Claus.: {Abuela(a, b)} {¬Descendiente(b, a)} ",
+        "bbox": [
+            218,
+            408,
+            776,
+            632
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Otro ejemplo° ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            237,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 2 Cuat. 2008 ",
+        "bbox": [
+            22,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "images/75414db23e0ae6d5ba65b78c0dd735c44e3d2863964571b08a4f278a55364540.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Cast.: 1° 0.: Claus.:</td><td>Los hijos son descendientes. ∀X.∀Y.(Madre(X,Y)⇒ Descendiente(Y,X)) {-Madre(Xi,Yi),Descendiente(Yi,X1)}</td></tr><tr><td>Cast.: 1° o.: Claus.:</td><td>Larelacion de descendencia es transitiva. ∀X.VY.∀Z.(Descendiente(X, Y) ^ Descendiente(Y,Z) = Descendiente(X,Z)) {-Descendiente(X2,Y2),-Descendiente(Y2,Z2),Descendiente(X2,Z2)}</td></tr><tr><td>Cast.: 1° 0.: Claus.:</td><td>La abuela es madre de alguien que es madre de la nieta. ∀X.∀Y.(Abuela(X,Y) =Z.(Madre(X,Z) ^ Madre(Z,Y))) {-Abuela(X,Y3),Madre(X3,medio(X,Y))} {-Abuela(X4,Y4),Madre(medio(X4,Y4),Y4)}</td></tr></table>",
+        "bbox": [
+            69,
+            312,
+            994,
+            794
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Otro ejemplo (cont.)° ° ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            359,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 2 Cuat. 2008 ",
+        "bbox": [
+            19,
+            99,
+            436,
+            136
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "A partir de ellas, se desea demostrar que:° ",
+        "bbox": [
+            74,
+            349,
+            599,
+            393
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Cast.: Los nietos son descendientes 1 o.: ∀X.∀Y .(Abuela $( X , Y ) \\Rightarrow$ Descendiente $( Y , X )$ ) Neg.: ∃X .∃Y .(Abuela $( X , Y ) \\land \\neg \\mathsf { D }$ escendiente $( Y , X )$ ) Claus.: {Abuela(a, b)} {¬Descendiente(b, a)} ",
+        "bbox": [
+            218,
+            408,
+            776,
+            632
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Otro ejemplo (resolviendo)° ° ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            455,
+            88
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Recuperatorio 2 parcial 2 Cuat. 2008 ",
+        "bbox": [
+            22,
+            99,
+            433,
+            136
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "1. $\\{ \\neg { \\mathsf { M a d r e } } ( X _ { 1 } , Y _ { 1 } )$ , Descendiente $\\{ Y _ { 1 } , X _ { 1 } ) \\}$   \n2. {¬Descendiente $( X _ { 2 } , Y _ { 2 } )$ ), ¬Descendiente( $Y _ { 2 } , Z _ { 2 } )$ , Descendiente $( X _ { 2 } , Z _ { 2 } ) \\}$   \n3. {¬Abuela(X3, Y3), Madre $X _ { 3 }$ , medio(X3, Y3))}   \n4. {¬Abuela(X4, Y4), Madre(medio(X4, Y4), Y4)}   \n5. {Abuela(a, b)}   \n6. {¬Descendiente(b, a)} ",
+        "bbox": [
+            96,
+            341,
+            828,
+            613
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Resolv´amoslo con nuestra herramienta. ",
+        "bbox": [
+            77,
+            650,
+            569,
+            694
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            632,
+            0,
+            939,
+            352
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on General Repaso M´etodo de resoluci´on En l´ogica proposicional En l´ogica de primer orden Ejercicios ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            99,
+            447,
+            397
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on lineal y SLD ",
+        "bbox": [
+            74,
+            455,
+            375,
+            500
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on lineal Motivaci´on Cl´ausulas de Horn Resoluci´on SLD Arbol de resoluci´on´ De Prolog a resoluci´on Ejemplo completo ",
+        "bbox": [
+            118,
+            500,
+            411,
+            849
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            381,
+            452,
+            414,
+            488
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "C´omo mantenernos en l´ınea ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            472,
+            84
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Si un conjunto de cl´ausulas $\\mathcal { C }$ es insatisfactible, existe una secuencia de pasos de resoluci´on lineal que lo refuta (prueba su insatisfactibilidad). Es decir, una secuencia de la forma: ",
+        "bbox": [
+            71,
+            154,
+            922,
+            286
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "image",
+        "img_path": "images/254623fde0dd357706efd47a3d6b7ed426c18fa3344197b3c2ad2d63653992c3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            312,
+            301,
+            687,
+            812
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "donde $C _ { 0 }$ y cada $B _ { j }$ es un elemento de $\\mathcal { C }$ o alg´un $C _ { j }$ con $j < i$ ",
+        "bbox": [
+            77,
+            845,
+            798,
+            889
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD (Selective Linear Definite) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            715,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "La resoluci´on es cara, pero hay cupones de descuento... ",
+        "bbox": [
+            27,
+            99,
+            610,
+            136
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "El m´etodo de resoluci´on es completo, pero ineficiente.   \n• El espacio de b´usqueda - inicialmente cuadr´atico - crece en cada paso.   \n• Resoluci´on lineal reduce el espacio de b´usqueda.   \n• Resoluci´on SLD es lineal y (un poco) m´as eficiente, preservando completitud... ¡pero no puede aplicarse a cualquier conjunto de cl´ausulas! ",
+        "bbox": [
+            99,
+            323,
+            895,
+            709
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas de Horn ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            314,
+            84
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "• Cl´ausula de Horn ",
+        "text_level": 1,
+        "bbox": [
+            107,
+            198,
+            353,
+            238
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "I Cl´ausula de la forma $\\forall X _ { 1 } \\ldots \\forall X _ { m } . C$ tal que la disyunci´on de literales C tiene a lo sumo un literal positivo. ",
+        "bbox": [
+            162,
+            250,
+            897,
+            338
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "• Cl´ausula de definici´on (“Definite Clause”) ",
+        "bbox": [
+            107,
+            349,
+            665,
+            393
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "I Cl´ausula de la forma $\\forall X _ { 1 } \\dots \\forall X _ { m } . C$ tal que la disyunci´on de literales $C$ tiene exactamente un literal positivo. ",
+        "bbox": [
+            157,
+            400,
+            892,
+            485
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "• Sea $H = P \\cup \\{ G \\}$ un conjunto de cl´ausulas de Horn (con nombre de variables disjuntos) tal que ",
+        "bbox": [
+            107,
+            496,
+            864,
+            588
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "I $P$ conjunto de cl´ausulas de definici´on y $G$ una cl´ausula sin literales positivos. ",
+        "bbox": [
+            160,
+            595,
+            651,
+            680
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "• $H = P \\cup \\{ G \\}$ son las cl´ausulas de entrada. ",
+        "bbox": [
+            104,
+            691,
+            679,
+            738
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "I $P$ se conoce como el programa o base de conocimientos y I G el goal, meta o cl´ausula objetivo. ",
+        "bbox": [
+            157,
+            750,
+            870,
+            834
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas de Horn ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            314,
+            84
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "images/04cfcfa590cc725ca31e79624d9aa6e2b2a2abad949df1d7f2c6a65673cc06c7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            218,
+            132,
+            781,
+            275
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Cl´ausulas con a lo sumo un literal positivo. ",
+        "bbox": [
+            77,
+            283,
+            618,
+            327
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5e25c0aa69cec6ca79ab880675f69ec635db2c18bdc0c1222a82e15b3706a842.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\circ } & { \\{ P ( X ) , P ( Y ) , \\neg Q ( Y , Z ) \\} } \\\\ { \\circ } & { \\{ Q ( e , Z ) \\} \\vee } & {  \\mathsf { c l a u s u l } } \\\\ { \\circ } & { \\{ P ( X ) , \\neg P ( e ) \\} \\vee } & {  \\mathsf { c l a u s u l } } \\\\ { \\circ } & { \\{ P ( X ) , \\neg P ( e ) , \\neg Q ( X , Y ) \\} } \\\\ { \\circ } & { \\{ P ( X ) , \\neg P ( e ) , \\neg Q ( X , Y ) \\} \\vee } & \\\\ { \\circ } & { \\{ \\neg P ( X ) , \\neg P ( e ) , \\neg Q ( X , Y ) \\} \\vee  \\mathsf { c l a u s } } \\\\ { \\circ } & { \\{ \\neg P ( X ) , \\neg P ( e ) , \\neg Q ( X , Y ) \\} \\not  \\mathsf { c l } \\breve { \\mathsf { a u s } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            104,
+            334,
+            618,
+            705
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "a de definici´on (hecho) ",
+        "bbox": [
+            488,
+            404,
+            911,
+            452
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "a de definici´on (regla) ",
+        "bbox": [
+            66,
+            455,
+            917,
+            514
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "ula de definici´on (regla) ",
+        "bbox": [
+            104,
+            584,
+            922,
+            636
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "ula objetivo ",
+        "bbox": [
+            104,
+            643,
+            790,
+            698
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "No toda f´ormula puede expresarse como una cl´ausula de Horn ",
+        "bbox": [
+            110,
+            768,
+            585,
+            863
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "img_path": "images/67ed48147b81527a44558838f9ed3650b4a68a8252d409ee65f381e90b639a08.jpg",
+        "text": "$$\n\\forall X . ( P ( X ) \\lor Q ( X ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            215,
+            900,
+            475,
+            959
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            279,
+            84
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Un secuencia de pasos de resoluci´on SLD para un conjunto de cl´ausulas de Horn $H$ es una secuencia ",
+        "bbox": [
+            71,
+            305,
+            867,
+            404
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d54bd2d7220e5b1ea932ab9aa5df6f0ab4e054a9c34bf746a64e79288cfdcde4.jpg",
+        "text": "$$\n< N _ { 0 } , N _ { 1 } , \\ldots , N _ { p } >\n$$",
+        "text_format": "latex",
+        "bbox": [
+            372,
+            437,
+            627,
+            492
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "de cl´ausulas objetivo que satisfacen las siguientes dos condiciones: ",
+        "bbox": [
+            74,
+            522,
+            908,
+            569
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "1. $N _ { 0 } \\in H$ ( $N _ { 0 }$ es la cl´ausula objetivo de $H )$ .   \n2. sigue en la pr´oxima diapo... ",
+        "bbox": [
+            74,
+            573,
+            640,
+            669
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            279,
+            84
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "2. para todo Ni en la secuencia, $0 < i < p$ , si $N _ { i }$ es ",
+        "bbox": [
+            77,
+            305,
+            729,
+            352
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8759e8c93bc2f0e150cf52b798dc96b688252fa421fe69ea661434e558fe6bc7.jpg",
+        "text": "$$\n\\{ \\neg A _ { 1 } , \\dotsc , \\neg A _ { k - 1 } , \\neg A _ { k } , \\neg A _ { k + 1 } , \\dotsc , \\neg A _ { n } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            389,
+            754,
+            441
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "entonces hay alguna cl´ausula de definici´on Ci de la forma $\\{ A , \\neg B _ { 1 } , \\dotsc , \\neg B _ { m } \\}$ en $H$ , tal que $A _ { k }$ y A son unificables con MGU S , y $N _ { i + 1 }$ es {S (¬A1, . . . $, \\neg A _ { k - 1 } , \\neg B _ { 1 } , \\dotsc , \\neg B _ { m } , \\neg A _ { k + 1 } , \\dotsc , \\neg A _ { n }$ )}. ",
+        "bbox": [
+            74,
+            470,
+            928,
+            672
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            279,
+            84
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Un caso particular de la resoluci´on general. ",
+        "bbox": [
+            77,
+            125,
+            618,
+            172
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "• Cl´ausulas de Horn con exactamente una cl´ausula objetivo.   \nResolvemos la cl´ausula objetivo con una cl´ausula de definici´on.   \n• Eso nos da otra cl´ausula objetivo. Repetimos el proceso con esta nueva cl´ausula...   \n• Hasta llegar a la cl´ausula vac´ıa.   \n• Si se busca un resultado, computamos la sustituci´on respuesta componiendo todas las sustituciones que fuimos realizando. ",
+        "bbox": [
+            99,
+            183,
+            922,
+            584
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "image",
+        "img_path": "images/d056880897236cc8d5cf14e5be3032ec335b6f5ecdc9a99c8157cc8c3e8d488a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            91,
+            650,
+            914,
+            878
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "donde S es el MGU de $\\left\\{ R \\overset { ? } { = } A _ { k } \\right\\}$ . ",
+        "bbox": [
+            74,
+            893,
+            472,
+            944
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Volviendo al primer ejercicio de LPO que resolvimos... ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            25,
+            897,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9e2fb826f55c2d216c2fa59314d52b10273014963c12b28c4e211f5f0b242b3a.jpg",
+        "text": "$$\n\\begin{array} { r l } { { 1 . } } & { { \\{ \\mathrm { - } | \\mathrm { n c } ( X _ { 1 } , Y _ { 1 } ) , \\mathrm { - } \\mathrm { P e r t } ( Z _ { 1 } , X _ { 1 } ) , \\mathrm { P e r t } ( Z _ { 1 } , Y _ { 1 } ) \\} } } \\\\ { { 2 . } } & { { \\{ \\mathrm { 1 n c } ( X _ { 2 } , Y _ { 2 } ) , \\mathrm { P e r t } ( \\mathrm { f } ( X _ { 2 } , Y _ { 2 } ) , X _ { 2 } ) \\} } } \\\\ { { 3 . } } & { { \\{ \\mathrm { 1 n c } ( X _ { 3 } , Y _ { 3 } ) , \\mathrm { - } \\mathrm { P e r t } ( \\mathrm { f } ( X _ { 3 } , Y _ { 3 } ) , Y _ { 3 } ) \\} } } \\\\ { { 4 . } } & { { \\{ \\mathrm { - } \\mathrm { P e r t } ( X _ { 4 } , \\emptyset ) \\} } } \\\\ { { 5 . } } & { { \\{ \\mathrm { - } | \\mathrm { n c } ( \\emptyset , \\mathsf { c } ) \\} } } \\\\ { { 6 . } } & { { \\left( 2 \\ : \\mathsf { y } \\ : \\right) \\ : \\left\\{ \\mathrm { P e r t } ( \\mathrm { f } ( \\emptyset , \\mathsf { c } ) , \\emptyset ) \\right\\} \\ : S = \\{ X _ { 2 } : = \\emptyset , \\ : Y _ { 2 } : } } \\\\ { { 7 . } } & { { \\left( 6 \\ : \\mathsf { y } \\ : 4 \\right) \\ : \\left\\{ \\mathrm { ~ S } = \\{ \\{ X _ { 4 } : = \\mathrm { f } ( \\emptyset , \\mathsf { c } ) \\} \\right\\} } }  \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            91,
+            268,
+            599,
+            639
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "¿Esto es SLD? ¿Por qu´e, o por qu´e no? ",
+        "bbox": [
+            74,
+            665,
+            580,
+            716
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            279,
+            84
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo (computando una soluci´on) ",
+        "bbox": [
+            19,
+            99,
+            408,
+            136
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "“Los enemigos de mis enemigos son mis amigos.” ",
+        "bbox": [
+            82,
+            161,
+            704,
+            209
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "1. {amigo(A, B), ¬enemigo(A, C ), ¬enemigo(C , B)} ",
+        "bbox": [
+            99,
+            227,
+            762,
+            279
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f10691ef150fe34909d6a6a6069310087d7e81e63cd6e9057a02a74aa2f8143b.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\mathrm { ~  ~ { \\mathcal ~ } { _ \\mathrm { \\cdot ~ } } ~ } \\mathrm { c ^ { a n t } } \\mathrm { n } { \\mathrm { ! } } \\mathrm { e } ^ { \\mathrm { w } } { \\mathrm { , ~ } D } \\mathrm { , ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\cdot \\mathrm { ~ } }  \\\\ & { \\mathrm { ~  ~ { \\mathcal ~ } { _ \\cdot ~ } ~ } \\left\\{ \\mathrm { ~ e } \\mathrm { n } { \\mathrm { e } } \\mathrm { m i g o } \\bigl ( \\mathrm { R e e d } , \\mathrm { G a l a c t u s } \\bigr ) \\right\\} } \\\\ & { \\mathrm { ~  ~ { \\mathcal ~ } { _ \\cdot ~ } } \\left\\{ \\mathrm { ~ } { ~ } \\mathrm { e } \\mathrm { n } { \\mathrm { e } } \\mathrm { m i g o } \\bigl ( \\mathrm { G a l a c t u s , B e n } \\bigr ) \\right\\} } \\\\ & { \\mathrm { ~  ~ { \\mathcal ~ } { _ \\cdot ~ } } \\bigl \\{ \\mathrm { ~ e } \\mathrm { n } { e } \\mathrm { m i g o } \\bigl ( \\mathrm { G a l a c t u s , J o h n n y } \\bigr ) \\bigr \\} } \\\\ & { \\mathrm { ~  ~ { \\mathcal ~ } { _ \\cdot ~ } } \\bigl \\{ \\mathrm { ~ } { - a m i g o } \\bigl ( \\mathrm { R e } \\mathrm { e } \\mathrm { e d } , X \\bigr ) \\bigr \\} } \\\\ & { \\mathrm { ~  ~ { \\mathcal ~ } { _ \\cdot ~ } } \\bigl ( 1 \\mathrm { ~ } \\mathrm { ~ y ~ } \\bigr ) \\mathrm { ~ } \\bigl \\{ \\mathrm { ~ } \\mathrm { - e } \\mathrm { n } { e m i g o } \\bigl ( \\mathrm { R e } \\mathrm { e d } , C \\bigr ) , \\bigr \\} , } \\\\ & { \\mathrm { ~  ~ { \\mathcal ~ } { ~ } } \\mathrm { S } _ { \\oplus } = \\mathrm { ~ }  { \\mathcal { ~ } } { A } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            253,
+            513,
+            683
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "¬enemigo(C , B)} ",
+        "bbox": [
+            93,
+            569,
+            734,
+            672
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8dc48a5533dff7658dd67c0a504d37910b1b1498ad7538839ba65465a7991e29.jpg",
+        "text": "$$\n\\begin{array} { r l } & { ~ S _ { 6 } = \\{ A : = \\mathsf { K e e d } , A : = B \\} } \\\\ & { ~ 7 . ~ ( 2 \\mathrm {  ~ y ~ } 6 ) ~ \\{ \\mathrm {  ~ \\hat { \\psi } ~ \\unboldmath } [ \\mathsf { - e n e m i g o } ( \\mathsf { G a } | \\mathsf { a c t u s } , B ) \\} } \\\\ & { ~ S _ { 7 } = \\{ C : = \\mathsf { G a } | \\mathsf { a c t u s } \\} } \\\\ & { ~ 8 . ~ ( 3 \\mathrm {  ~ y ~ } 7 ) ~ \\Pi ~ S _ { 8 } = \\{ B : = \\mathsf { B e n } \\} } \\\\ & { ~ S _ { \\mathrm { \\texttt { a } } } S _ { 8 } \\circ S _ { 7 } \\circ S _ { 6 } = } \\\\ & { ~ \\{ A : = \\mathsf { R e e d } , X : = \\mathsf { B e n } , B : = \\mathsf { B e n } , } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            96,
+            639,
+            563,
+            966
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "C := Galactus} ",
+        "bbox": [
+            93,
+            801,
+            770,
+            955
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Arbol de resoluci´on ´ ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            22,
+            334,
+            84
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "¡Es lineal! ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            272,
+            201,
+            312
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "La resoluci´on SLD es lineal: no hay vuelta atr´as posible. ",
+        "bbox": [
+            104,
+            330,
+            848,
+            375
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "• Si el objetivo puede resolverse con m´as de una regla, elegir la correcta. ",
+        "bbox": [
+            102,
+            389,
+            925,
+            481
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Si hay m´as de una, elegir cualquiera. ",
+        "bbox": [
+            104,
+            503,
+            599,
+            547
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "• Si nos equivocamos, entonces lo que hicimos no es parte de la resoluci´on SLD. ",
+        "bbox": [
+            99,
+            566,
+            928,
+            654
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "• Puede haber varias resoluciones SLD posibles. ",
+        "bbox": [
+            107,
+            672,
+            718,
+            720
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "• Prolog intenta buscar todas (resoluci´on SLD + backtracking). ",
+        "bbox": [
+            102,
+            735,
+            919,
+            783
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD y Prolog ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            428,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Preguntas generales ",
+        "bbox": [
+            22,
+            102,
+            234,
+            136
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "• El mecanismo de b´usqueda en la resoluci´on SLD ¿est´a determinado?   \n• ¿El m´etodo es completo? ¿Prolog usa resoluci´on SLD? ¿Su m´etodo es completo? ¿Est´a determinado? ¿D´onde est´a el problema (o la diferencia)? ",
+        "bbox": [
+            99,
+            345,
+            842,
+            680
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Resoluci´on SLD y Prolog ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            428,
+            88
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "El ejemplo anterior en Prolog “Los enemigos de mis enemigos son mis amigos.” ",
+        "bbox": [
+            19,
+            99,
+            337,
+            136
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            80,
+            297,
+            701,
+            341
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "{amigo(A,B), ¬enemigo(A,C), ¬enemigo(C,B)}   \n{enemigo(Reed, Galactus)}   \n{enemigo(Galactus, Ben)}   \n{enemigo(Galactus, Johnny)}   \n{¬amigo(Reed, X )} amigo(A, B) :- enemigo(A, C), enemigo(C, B).   \nenemigo(reed, galactus).   \nenemigo(galactus, ben).   \nenemigo(galactus, johnny).   \n?- amigo(reed, X). ",
+        "bbox": [
+            13,
+            382,
+            475,
+            599
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            502,
+            382,
+            988,
+            595
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es la relaci´on? ¿Cualquier ejemplo se puede traducir as´ı? ¿Qu´e hay que tener en cuenta? ",
+        "bbox": [
+            71,
+            654,
+            872,
+            753
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6bf64e80d6473020c7cc855fe6d5131df5c91f15a9972eaad58ca2c42b83113e.jpg",
+        "text": "$$\n\\mathsf { R e s o l u c i o n ~ S L D ~ y ~ P r o l o g }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            433,
+            91
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Veamos ahora este ejemplo tomado de la pr´actica de Prolog: ",
+        "bbox": [
+            74,
+            242,
+            848,
+            294
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "1. natural(0).   \n2. natural(suc(X)) :- natural(X).   \n3. menorOIgual(X, suc(Y)) :- menorOIgual(X, Y).   \n4. menorOIgual(X,X) :- natural(X). ",
+        "bbox": [
+            91,
+            327,
+            837,
+            558
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e pasa en Prolog si ejecutamos la consulta menorOIgual(0,X)? ",
+        "bbox": [
+            74,
+            595,
+            668,
+            691
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "¿Podremos encontrar la respuesta usando resoluci´on? ",
+        "bbox": [
+            74,
+            716,
+            751,
+            761
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "img_path": "images/542122772cece5f65ab0e0b2e36881a05738ebbb221c1ca640a1764d056f7d78.jpg",
+        "text": "$$\n\\mathsf { D e } \\mathsf { P r o l o g \\ a \\ R e s o l u c i o n }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            16,
+            22,
+            408,
+            91
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Considerar las siguientes definiciones en prolog: ",
+        "bbox": [
+            74,
+            194,
+            674,
+            238
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "preorder(bin(I,R,D),[R|L]) :- append(LI,LD,L), preorder(I,LI), preorder(D,LD). ",
+        "bbox": [
+            69,
+            316,
+            897,
+            389
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "append([],YS,YS). ",
+        "bbox": [
+            77,
+            393,
+            292,
+            430
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "append([X|XS],YS,[X|L]) :- append(XS,YS,L). ",
+        "bbox": [
+            77,
+            433,
+            632,
+            474
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "• ¿Qu´e sucede al realizar la consulta ?- preorder(bin(bin(nil,2,nil),1,nil),Lista).? ",
+        "bbox": [
+            104,
+            474,
+            748,
+            566
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "• Utilizar el m´etodo de resoluci´on para encontrar la soluci´on al problema. Para ello, convertir el programa a forma clausal. ",
+        "bbox": [
+            102,
+            580,
+            911,
+            676
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "• Indicar si el m´etodo de resoluci´on utilizado es o no SLD, y justificar. En caso de ser SLD, ¿respeta el orden en que Prolog hubiera resuelto la consulta? ",
+        "bbox": [
+            104,
+            691,
+            928,
+            838
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Ultimo ejercicio´° ° 2 parcial 1 Cuat. 2011 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            22,
+            276,
+            136
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "En este ejercicio usaremos el m´etodo de resoluci´on para demostrar una propiedad de las relaciones binarias; a saber, que una relaci´on no vac´ıa no puede ser a la vez irreflexiva, sim´etrica y transitiva. ",
+        "bbox": [
+            74,
+            191,
+            925,
+            323
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Para esto tomaremos una relaci´on $R$ y se demostrar´a que, si $R$ satisface las tres propiedades mencionadas, entonces es vac´ıa. ",
+        "bbox": [
+            77,
+            330,
+            914,
+            419
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes definiciones: ",
+        "bbox": [
+            77,
+            430,
+            491,
+            470
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "1. R es irreflexiva: $\\forall X . \\lnot R ( X , X )$   \n2. R es sim´etrica: $\\forall X . \\forall Y . ( R ( X , Y ) \\Rightarrow R ( Y , X ) )$   \n3. R es transitiva: $\\forall X . \\forall Y . \\forall Z . ( ( R ( X , Y ) \\land R ( Y , Z ) ) \\Rightarrow R ( X , Z )$ )   \n4. R es vac´ıa: $\\forall X . \\lnot \\exists Y . R ( X , Y )$ ",
+        "bbox": [
+            99,
+            503,
+            825,
+            716
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Utilizando resoluci´on, demostrar que s´olo una relaci´on vac´ıa puede cumplir a la vez las propiedades 1 a 3. Indicar si el m´etodo de resoluci´on utilizado es o no SLD (y justificar). ",
+        "bbox": [
+            74,
+            753,
+            917,
+            904
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "table",
+        "img_path": "images/97eec0697724f7a0c6bf11ed5f62c0ad3602457fac8ad944f3d38c2b2f10d4f0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Cast.: 1 0.: Claus.:</td><td>R es irreflexiva. ∀X.-R(X,X) {-R(X1,X1)}</td></tr><tr><td>Cast.:</td><td>R es simétrica</td></tr><tr><td>1°o.: Claus.:</td><td>∀X.∀Y.(R(X,Y)= R(Y,X)) {-R(X2,Y2),R(Y2,X2)}</td></tr><tr><td>Cast.:</td><td>R es transitiva.</td></tr><tr><td>1°0.:</td><td>∀X.∀Y.∀Z.((R(X,Y) ^ R(Y,Z)) = R(X,Z))</td></tr><tr><td>Claus.:</td><td>{-R(X,Y3),-R(Y3,Z3),R(X,Z3)}</td></tr></table>",
+        "bbox": [
+            182,
+            290,
+            817,
+            742
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "Ultimo ejercicio ´° ° 2 parcial 1 Cuat. 2011 ",
+        "bbox": [
+            19,
+            22,
+            279,
+            136
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Ultimo ejercicio (cont.) ´° ° 2 parcial 1 Cuat. 2011 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            22,
+            400,
+            136
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Se desea demostrar que:° ",
+        "bbox": [
+            74,
+            360,
+            383,
+            400
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "discarded",
+        "text": "Cast.: R es vac´ıa: 1 o.: ∀X .¬∃Y .R(X , Y ) Neg.: ∃X .∃Y .R(X , Y ) Claus.: {R(a, b)} ",
+        "bbox": [
+            339,
+            415,
+            640,
+            595
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Ultimo ejercicio (resolviendo) ´° ° 2 parcial 1 Cuat. 2011 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            22,
+            497,
+            136
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { 1 . \\left\\{ \\neg R ( X _ { 1 } , X _ { 1 } ) \\right\\} } \\\\ & { 2 . \\left\\{ \\neg R ( X _ { 2 } , Y _ { 2 } ) , R ( Y _ { 2 } , X _ { 2 } ) \\right\\} } \\\\ & { 3 . \\left\\{ \\neg R ( X _ { 3 } , Y _ { 3 } ) , \\neg R ( Y _ { 3 } , Z _ { 3 } ) , R ( X _ { 3 } , Z _ { 3 } ) \\right\\} } \\\\ & { 4 . \\left\\{ R ( a , \\mathfrak { b } ) \\right\\} } \\\\ & { 5 . \\left( 4 \\ \\mathfrak { y } \\ 2 \\ \\right\\{ R ( \\mathfrak { b } , \\mathfrak { a } ) \\right\\} \\ \\mathfrak { S } = \\{ X _ { 2 } : = \\mathfrak { a } , Y _ { 2 } : = \\mathfrak { b } \\} } \\\\ & { 6 . \\ \\left\\{ \\mathfrak { S } \\ \\mathfrak { y } \\ 3 \\ \\left\\{ - R ( X _ { 6 } , \\mathfrak { b } ) , R ( X _ { 6 } , \\mathfrak { a } ) \\right\\} \\ \\leq ( Y _ { 3 } : = \\mathfrak { k } } \\\\ & { 7 . \\ ( \\mathfrak { e } \\ \\mathfrak { y } \\ 4 ) \\ \\left\\{ R ( \\mathfrak { a } , \\mathfrak { a } ) \\right\\} \\ \\leq \\{ X _ { 6 } : = \\mathfrak { a } \\} } \\end{array}$ $Z _ { 3 } : = { \\mathsf { a } } \\}$ renombrando $X _ { 3 }$ a $X _ { 6 }$ 8. (7 y 1 ",
+        "bbox": [
+            88,
+            242,
+            925,
+            731
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "¿Esta demostraci´on por resoluci´on es SLD? ¿Por qu´e, o por qu´e no? ",
+        "bbox": [
+            74,
+            738,
+            831,
+            830
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Alternativa SLD (cambiando objetivo)° ° ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            640,
+            88
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "2 parcial 1 Cuat. 2011 ",
+        "bbox": [
+            19,
+            99,
+            279,
+            136
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\mathrm { 1 . ~ } \\left\\{ \\mathrm { - } R ( X _ { 1 } , X _ { 1 } ) \\right\\} } \\\\ & { \\mathrm { 2 . ~ } \\left\\{ \\mathrm { - } R ( X _ { 2 } , Y _ { 2 } ) , R ( Y _ { 2 } , X _ { 2 } ) \\right\\} } \\\\ & { \\mathrm { 3 . ~ } \\left\\{ \\mathrm { - } R ( X _ { 3 } , Y _ { 3 } ) , \\mathrm { - } R ( Y _ { 3 } , Z _ { 3 } ) , R ( X _ { 3 } , Z _ { 3 } ) \\right\\} } \\\\ & { \\mathrm { 4 . ~ } \\left\\{ R ( \\mathfrak { a } , \\mathfrak { b } ) \\right\\} } \\\\ & { \\mathrm { 5 . ~ } \\left( \\mathrm { 1 . ~ } \\mathfrak { y } \\mathrm { ~ 3 } \\right\\} \\left\\{ \\mathrm { - } R ( X _ { 1 } , Y _ { 3 } ) , \\mathrm { - } R ( Y _ { 3 } , X _ { 1 } ) \\right\\} s = \\{ X \\mathrm { 2 . ~ } \\forall \\mathrm { ~ } \\mathfrak { a } , \\mathrm { ~ } \\mathfrak { b } \\} } \\\\ & { \\mathrm { 6 . ~ } \\left\\{ \\mathrm { ~ } \\mathrm { > ~ } \\mathfrak { y } \\mathrm { ~ 4 } \\right\\} \\left\\{ \\mathrm { - } R ( \\mathfrak { b } , \\mathfrak { a } ) \\right\\} s = \\{ X _ { 1 } : = \\mathrm { 3 , ~ } Y _ { 3 } : = \\mathfrak { b } \\} } \\\\ &  \\mathrm { 7 . ~ } \\left( \\mathrm { ~ 6 \\forall ~ 2 ~ } \\right) \\ \\mathrm { ~ } \\mathrm { \\overset { \\cdot } { \\in } \\mathbb { R } ( \\mathfrak { a } , \\mathfrak { b } ) \\} s = \\{ X _ { 2 } : = \\mathrm { 3 , ~ } Y _ { 2 } : = \\mathfrak { b } \\} } \\\\ & { \\mathrm { 8 . ~ } \\left( \\mathrm { ~ 7 ~ } \\mathfrak { y } \\mathrm { ~ 4 } \\right) \\ \\Gamma S = \\mathfrak { a } , \\quad } \\end{array}$ := X1} ",
+        "bbox": [
+            91,
+            250,
+            792,
+            772
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "¿Es la ´unica posible? ",
+        "bbox": [
+            74,
+            757,
+            342,
+            805
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Otra alternativa SLD (m´as corta)° ° 2 parcial 1 Cuat. 2011 ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            25,
+            566,
+            136
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\mathrm { 1 . ~ } \\left\\{ \\mathrm { - } R ( X _ { 1 } , X _ { 1 } ) \\right\\} } \\\\ & { \\mathrm { 2 . ~ } \\left\\{ \\mathrm { - } R ( X _ { 2 } , Y _ { 2 } ) , R ( Y _ { 2 } , X _ { 2 } ) \\right\\} } \\\\ & { \\mathrm { 3 . ~ } \\left\\{ \\mathrm { - } R ( X _ { 3 } , Y _ { 3 } ) , \\mathrm { - } R ( Y _ { 3 } , Z _ { 3 } ) , R ( X _ { 3 } , Z _ { 3 } ) \\right\\} } \\\\ & { \\mathrm { 4 . ~ } \\left\\{ R ( \\mathrm { a , b } ) \\right\\} } \\\\ & { \\mathrm { 5 . ~ } \\left( \\mathrm { 1 ~ y 3 } \\right) \\left\\{ \\mathrm { - } R ( X _ { 1 } , Y _ { 3 } ) , \\mathrm { - } R ( Y _ { 3 } , X _ { 1 } ) \\right\\} \\mathrm { s = } \\{ X _ { 3 } , Y _ { 3 } \\} } \\\\ & { \\mathrm { 6 . ~ } \\left( \\mathrm { 5 ~ y 2 } \\right) \\left\\{ \\mathrm { - } R ( X _ { 2 } , Y _ { 2 } ) \\right\\} \\mathrm { s = } \\{ X _ { 1 } = X _ { 2 } , Y _ { 3 } \\mathrm { : = } }  \\\\ & { \\mathrm { 7 . ~ } \\left( \\mathrm { 6 ~ y 4 } \\right) \\mathrm { G = } \\{ X _ { 2 } : \\mathrm { = } \\mathrm { ~ a , ~ } \\forall _ { 2 } : \\mathrm { = ~ b \\} } } \\end{array}$ 3 := X1, Z3 := X1} ",
+        "bbox": [
+            91,
+            297,
+            792,
+            738
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "image",
+        "img_path": "images/e4dffdb51152c878eea933cd48d81a5bc1cf4569e2c1e3c50076a73c1c9ef221.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            477,
+            80,
+            604,
+            878
+        ],
+        "page_idx": 48
+    }
+]

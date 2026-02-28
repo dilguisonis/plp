@@ -1,0 +1,2911 @@
+[
+    {
+        "type": "text",
+        "text": "A Machine-Oriented Logic Based on the Resolution Principle ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            86,
+            884,
+            106
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "J.A. RoBINSON ",
+        "bbox": [
+            431,
+            121,
+            591,
+            136
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Argonne National Laboralory and Rice Universityt ",
+        "bbox": [
+            286,
+            142,
+            722,
+            156
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Abstraet. Theorem-proving on the computer,using procedurcs based on the fundn. mental theorem of Herbrand coneerning the first-order predieate caleulus,is examined witl a view towards improving the cffeiency and widening the range of practical applicability of these procedures.A close analysis of the process of substitution (of terms for variables). and thc process of truth-funetional analysis of thc results of such substitutions, reveals that both processes can bc combined into a single new process (called resolution),iterating which is vastly more efieient than the older cyelic procedures consisting of substitution stages alternating with truth-functional anaiysis stages. ",
+        "bbox": [
+            122,
+            175,
+            886,
+            287
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The theory of the resolution proecss is presentcd in the form of a system of first-order logic with just one inference prineiple (the resolution prineiple).The completeness of the system is proved;the simplest proof-procedure based on the system is then thc direct implementation of the proof of completencss.Howcver,this procedure is quite inefficient. and the paper concludes with a discussion of several prineiples (called search principles) which are applicable to the design of efficient proof-procedures employing resolution as the basic logical process. ",
+        "bbox": [
+            122,
+            289,
+            884,
+            387
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.Introduction ",
+        "text_level": 1,
+        "bbox": [
+            122,
+            410,
+            262,
+            425
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Presented in this paper is a formulation of first-order logic which is specifically designed for use as the basic theoretical instrument of a coinputer theoremproving program. Earlier theorem-proving programs have been based on systems of first-order logic which were originally devised for other purposes.A prominent feature of those systems of logic, which is lacking in the system described in this paper,is the relative simplicity of their inference principles. ",
+        "bbox": [
+            120,
+            433,
+            884,
+            534
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Traditionaily,a single step in a deduetion has been required,for pragmatic and psychological reasons,to be simple enough,broadly speaking,to be apprehended as correct.by a human being in a single intellectual act.No doubt this custom originates in the desire that each single step of a deduction should be indubitable, cven though the deduetion as a whole may consist of a long chain of such steps. The ultimate conclusion of a deduction,if the deduction is correct, folows logically from the premisses used in the deduction;but the human mind may well find the unmediated transition from the premisses to the conclusion surprising, hence.(psychologically) dubitable. Part of the point,then, of thc logical analysis of deductive reasoning has been to reduce complex inferences, which are beyond the capacity of the human mind to grasp as single steps, to chains of simpler inferences,each of which is within the capacity of thehuman mind to grasp as a single transaction. ",
+        "bbox": [
+            120,
+            535,
+            884,
+            753
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Work performed under the auspices of the U.S. Atomic Energy Commission. \\*Argonne,Illinois. ： Present address:Rice University, Houston, Texas. 1 ",
+        "bbox": [
+            135,
+            763,
+            791,
+            807
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "23 ",
+        "bbox": [
+            491,
+            814,
+            511,
+            826
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Junalfergyry6 ",
+        "bbox": [
+            153,
+            844,
+            840,
+            858
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "From the theoretical point of view, however,an inference principle need only bc sound (i.e., allow only logical consequences of premisses to bc deduccd from them)and effective (i.e., it must be algorithmically decidable whcthor an alleged application of thc inference principle is indeed an application of it).When the agent carrying out the application of an inference principle is a modern computing machine,the traditional limitation on the complexity of inference principles is no longer very appropriate. More powerful principles, involving perhaps a much greater amount of combinatorial information-processing fora single application, become a possibility. ",
+        "bbox": [
+            106,
+            123,
+            877,
+            276
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In the system describcd in this paper, one such inference principle is used. It is caled the resolution principle,and it is machinc-oriented,rather than humanoriented, in the sense of the preceding remarks. Theresolution principle is quite powerful, both in the_psychological sense that it condoncs singie inferences which are often beyond the ability of the human to grasp (other than discursively),and in the theoretical sense that it alone,as sole inference principle, forms a complete system of first-order logic. While this latter property is of no great importance, it is interesting that (as far as the author is aware) no other complele system of first-order logic has consisted of just one inference principlc, if one construes the device of introducing a logical axiom, given outright, or by a schema,asa(premiss-frce) inference principle. ",
+        "bbox": [
+            106,
+            277,
+            877,
+            462
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The main advantage of the resolution principle lies in its ability to allow us to avoid one of the major combinatorial obstacles to efficiency which have plagued earlier theorem-proving procedurcs. ",
+        "bbox": [
+            104,
+            464,
+            877,
+            514
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In Section 2 the syntax and semantics of thc particular formalism which is used in this papcr are explained. ",
+        "bbox": [
+            104,
+            514,
+            875,
+            548
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.Formal Preliminaries ",
+        "text_level": 1,
+        "bbox": [
+            102,
+            571,
+            335,
+            586
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The formalism used in this paper is based upon thc notions of unsatisfiability and refutation rather than upon the notions of validity and proof.It is well known (cf. [2] and [5l) that in order to determine whethcra finite set $\\boldsymbol { \\mathscr { S } }$ of sentcnces of first-order logic is satisfiablc,it is sufficient to assume that cach sentcnce in $\\boldsymbol { \\mathrm { \\Sigma } }$ is in prenex form with no existential quantifiers in the prefix;moreover the matrix of each sentence in $\\boldsymbol { \\varsigma }$ can be assumed to be a disjunction of formulas each of which is either an atomic formula or the negation of an atomic formula. Thcrefore our syntax is set up so that the natural syntactical unit is $^ \\mathrm { a }$ finite set $\\boldsymbol { s }$ of sentences in this special form. The quantifier prefix is omitted from each sentence, since it consists just of universal quantifiers binding each variable in the sentence; furthermore the matrix of each sentence is regarded simply as the set of its disjunets,on the grounds that the order and multiplicity of the disjuncts in a disjunetion are immaterial. ",
+        "bbox": [
+            102,
+            592,
+            875,
+            813
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Accordingly we introduce the following dcfinitions (following in part the nomenclature of [2] and [5]): ",
+        "bbox": [
+            100,
+            813,
+            875,
+            847
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1 Variables.The following symbols,in alphabetical order,are variables: ",
+        "bbox": [
+            115,
+            847,
+            873,
+            864
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e74bd546a5ec8181602f7d1693d7fedaf1eda6588eb1df0f8be03852ce290a84.jpg",
+        "text": "$$\nu , v , w , x , y , z , u _ { 1 } , v _ { 1 } , w _ { 1 } , x _ { 1 } , y _ { 1 } , z _ { 1 } , u _ { 2 } , \\cdot \\cdot \\cdot , \\mathrm { e t c } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            240,
+            876,
+            740,
+            891
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            422,
+            94,
+            571,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "24 ",
+        "bbox": [
+            106,
+            91,
+            133,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.2 Function symbols. The following syinbols, in alphabetical order,are function symbols of degree $\\boldsymbol { \\gamma } _ { \\ell }$ ,for each $n \\not \\equiv 0$ ： ",
+        "bbox": [
+            117,
+            129,
+            882,
+            165
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/90dae6578d1f9b18b7e9e626b497495eed49c86c03414ee00695abe3f03fda6c.jpg",
+        "text": "$$\na ^ { n } , b ^ { n } , c ^ { n } , d ^ { n } , e ^ { n } , f ^ { n } , g ^ { n } , h ^ { n } , k ^ { n } , a _ { 1 } ^ { \\textit { n } } , b _ { 1 } ^ { \\textit { n } } , \\cdot \\cdot \\cdot , \\mathrm { e t c . }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            268,
+            172,
+            733,
+            190
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "When $ { n _ { \\mathrm { ~  ~ } } } =  {   }$ ,the superscript may be omitted. Function symbols of degree O are individual constants. ",
+        "bbox": [
+            120,
+            198,
+            884,
+            232
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.3 Predicale symbols. The following symbols，in alphabetical order,are predicate symbols of degree $n$ ,for each $n \\gtrapprox 0$ ： ",
+        "bbox": [
+            120,
+            233,
+            884,
+            266
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fdcb6585cbe5f2ece31c75483ee7615fe914512b697af3c428dd6ea191f7eb80.jpg",
+        "text": "$$\nF ^ { n } , Q ^ { n } , R ^ { n } , P _ { 1 } ^ { n } , Q _ { 1 } ^ { n } , R _ { 1 } ^ { n } , P _ { 2 } ^ { n } , \\cdot \\cdot \\cdot , { \\mathrm { e t c } } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            308,
+            273,
+            691,
+            293
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The superseript may be omitted when $\\textit { n }$ is 0. ",
+        "bbox": [
+            117,
+            300,
+            546,
+            317
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.4 The negation symbol. The following symbol is the negation symbol:\\~ 2.5 Alphabetical order of symbols. The set of all symbols is well ordered in alphabetical ordcr by adding to the above ordering conventions the rule that variables precede funetion symbols, funetion symbols precede predicate symbols, predicate symbols precede the negation symbol,function symbols of lower degree precede function symbols of higher degree, and predicate symbols of lower degree precede prcdicatc symbols of higher degrce. ",
+        "bbox": [
+            117,
+            317,
+            882,
+            437
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.6 Terms. A variable is a term,and a string of symbols consisting of a function symbol of degree $\\mathscr { n } \\geq 0$ followcd by $\\mathscr { n }$ terms is a term. ",
+        "bbox": [
+            113,
+            437,
+            882,
+            471
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.7 Atomic formulas. A string of symbols consisting of a predicate symbol of degree $\\varkappa \\triangleq 0$ followed by n terms is an atomic formula. ",
+        "bbox": [
+            115,
+            471,
+            880,
+            504
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.8 Literals. An atomic formula is a literal; and if $A$ is an atomic formula then ${ \\sim } A$ is a literal. ",
+        "bbox": [
+            113,
+            505,
+            880,
+            538
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.9 Complements.If $\\measuredangle$ is an atomic formula,then the two literals $\\mathcal { A }$ and ${ \\sim } A$ are said to be each other's complements,and to form,in either order,a complementary pair. ",
+        "bbox": [
+            115,
+            539,
+            880,
+            589
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.10 Clauses. A finite set (possibly empty） of literals is called a clause. The empty clause is denoted by: ",
+        "bbox": [
+            113,
+            591,
+            877,
+            623
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.11 Ground literals. A literal which contains no variables is caled a ground literal. ",
+        "bbox": [
+            115,
+            625,
+            877,
+            656
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.12 Ground clauses. A clause,each member of which is a ground literal, is callcd a ground clause. In particular  is a ground clause. ",
+        "bbox": [
+            113,
+            658,
+            880,
+            692
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.13 Welu-forined expressions. Terms and literals are (the only) well formed expressions. ",
+        "bbox": [
+            113,
+            693,
+            877,
+            726
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.14 Lexical order of well-formed expregsions. The set of all well formed expressions is well ordered in lexical order by the rule that $\\varLambda$ precedcs $B$ just in case that $\\mathbf { A }$ is shorter than $\\boldsymbol { B }$ or,if $A$ and $B$ are of equal length, then $A$ has the alphabetically earlier symbol in the first symbol position at which $A$ and $B$ have distinct symbols. ",
+        "bbox": [
+            113,
+            726,
+            877,
+            811
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In writing well-formed expressions for illustrative purposes,we follow the more readable plan of enclosing the $\\boldsymbol { n }$ terms following a function symbol or predicate symbol of degree $\\mathscr { n } _ { \\ell }$ by a pair of parenthescs,separating the terms, if there are two or more, by commas. We can then unambiguously omit all superseripts fron symbols. In writing finite sets, we follow the usual convention of enclosing the members in a pair of braces and of separating the members by commas, with the understandiug that the order of writing the inembers is immaterial. ",
+        "bbox": [
+            113,
+            811,
+            877,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "TUE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            364,
+            99,
+            633,
+            113
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            857,
+            99,
+            882,
+            112
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            86,
+            113,
+            882,
+            165
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.15 Herbrand universes.With any set $\\ddot { S }$ of clauses there is associated a set of ground terms called the Herbrand universe of $S _ { i }$ as follows:let $\\vec { \\psi } ^ { \\prime }$ be the set of all function symbols which occur in $\\mathcal { S }$ I $\\vec { \\mathcal { l } }$ contains any function symbols of degree O, the funetional vocabulary of $\\mathcal { S }$ is $\\vec { t ^ { \\prime } }$ ; otherwise it is the set $\\{ \\alpha \\} \\cup { \\cal I } ^ { \\prime }$ .The Herbrand universe of $\\boldsymbol { \\Lambda }$ is then the set of all ground terms in which there occur only symbols in the funetional vocabulary of $\\mathcal { S }$ ",
+        "bbox": [
+            86,
+            166,
+            882,
+            270
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.16 Saturation. If $\\cal S$ is any set of clauses aud $P$ is any set of terms, then by $I ^ { \\gamma } ( S )$ we denote the saturation of $\\boldsymbol { \\mathcal { S } }$ over $P$ ，which is the set of all ground clauses obtainable from members of $\\mathcal { S }$ by replacing variables with mcmbers of $f ^ { \\mathrm { ~ r ~ } }$ occurrences of the same variable in any one clause being replaced by occurrences of the same tern. ",
+        "bbox": [
+            86,
+            272,
+            880,
+            358
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.17 Models. A set of ground literals which does not inelude a complementary pair is called a model. If $\\lambda \\mathcal { I }$ is a model and $\\boldsymbol { \\varsigma }$ is a set of ground clauses,then M isa model of $\\tilde { S }$ if,for all $C$ in $s$ ， $C ^ { \\prime }$ contains a member of $\\it { 1 1 }$ .Then,in general, if $\\mathcal { S }$ is any set of clauses, and $H$ is the Herbrand universe of $\\hat { s }$ we say that $\\mathit { 1 1 }$ is a model of $\\boldsymbol { \\mathcal { S } }$ just in case that $M$ is a model of $H ( \\cal { S } )$ . ",
+        "bbox": [
+            86,
+            360,
+            880,
+            447
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.18 Satisfiability. A sct $\\mathcal { S }$ of clauses is satisfiablc if there is a model of $\\mathcal { S }$ otherwise $\\tilde { \\mathcal { S } }$ isunsatisfiable. ",
+        "bbox": [
+            84,
+            447,
+            877,
+            481
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "From the definition of satisfiability,it is clear that any set of clauses which contains  is unsatisfiable,and that the empty set of clauses is satisfiable. These two cireumstances will appear quite natural as the development of our system proceeds. It is also clear that according to our semantic definitions each nonempty clause is interpreted, as explained in the informal remarks at the beginning of this section,as the universal closure of the disjunction of the literals which it contains. ",
+        "bbox": [
+            86,
+            482,
+            880,
+            603
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.19 Ground resoluents. If $\\mathcal { C }$ and $\\boldsymbol { D }$ are two ground clauscs, and $\\cal { L } \\subseteq \\cal { C }$ ， $M \\subseteq D$ are two singletons (unit sets） whose respective members form a complementary pair,then the ground clause: $( C - L ) \\ U \\left( D - \\ M \\right)$ is called a ground resolvent of $\\mathcal { C } ^ { \\dagger }$ and $\\mathcal { D }$ ",
+        "bbox": [
+            86,
+            605,
+            880,
+            673
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Evidently any model of $\\{ \\zeta , D \\}$ is also a model of $\\beta , D , R \\}$ ，where $\\mathit { l } _ { \\mathrm { 0 } } ^ { \\mathrm { + } }$ isa ground resolvent of $\\mathcal { C }$ and $\\mathcal { D }$ . Not all pairs of ground clauses have ground resolvents,and some have more than one;but in no case,as is clear from the definition,can two ground ciauses have more than a finite number of ground resolvents. ",
+        "bbox": [
+            86,
+            675,
+            877,
+            743
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.20 Ground resolution. If $\\mathcal { S }$ is any set of ground clauses, then the ground resolution of $\\mathcal { S }$ denoted by ${ \\mathfrak { P } } _ { i } ( S )$ , is the set of ground clauses consisting of the members of $\\boldsymbol { \\mathscr { S } }$ together with all ground resolvents of all pairs of members of $\\mathcal { S }$ ",
+        "bbox": [
+            84,
+            745,
+            875,
+            796
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.21 $N$ -th ground resolution. I $\\mathcal { S }$ is any set of ground clauses,then the nth ground resolution of $\\ddot { \\curlywedge }$ ,denoted by $( \\mathfrak { R } ^ { ? ? } ( \\mathcal { S } )$ , is defined for each $\\smash { \\hat { \\pi } _ { \\perp } } \\gtrapprox 0$ as follows: $\\Updownarrow 0 \\left( \\hat { S } ^ { \\prime } \\right) = \\ S$ and for ${ \\hbar \\underset { = } { \\overset { } {  } } 0 }$ ${ \\mathfrak { P } } _ { \\mathfrak { t } } ^ { n \\cdot \\dagger \\mathrm { 2 } } \\ \\cong \\ { \\mathfrak { R } } { \\left( \\mathfrak { R } ^ { n } ( S ) \\right) }$ ",
+        "bbox": [
+            82,
+            797,
+            875,
+            849
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "This completes the first bateh of definitions.The next sections are concerned with the various forms that Herbrand's Theorem takes on in our system. To each such form, there is a type of refutation procedure which that form sug-gests and justifies. The basic version is stated as follows (cf. [2, 41): ",
+        "bbox": [
+            86,
+            850,
+            877,
+            901
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            408,
+            84,
+            562,
+            94
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "26 ",
+        "bbox": [
+            86,
+            81,
+            113,
+            94
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            151,
+            118,
+            793,
+            135
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "HERBRAND'S THEOREM.I $S$ is any finite sel of clauses and $H$ its Herbrand universe,then S is unsatisfiable if and only if some finite subset of $H ( S )$ is unsalisfiable. ",
+        "bbox": [
+            144,
+            136,
+            911,
+            186
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.Saturation Procedures ",
+        "text_level": 1,
+        "bbox": [
+            146,
+            213,
+            375,
+            230
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Is was noted in an earlier paper [5] that one can express Herbrand's Theorem in the following form: ",
+        "bbox": [
+            148,
+            236,
+            904,
+            269
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "THEOREM 1.If $\\tilde { S }$ is any finite set of clauses, then $ { \\mathcal { S } }$ is unsatisfiable if and only if,for some finite subset $P$ of the Herbrand universe of $\\mathcal { S }$ ， $I ^ { \\gamma } ( S )$ is unsatisfiable. ",
+        "bbox": [
+            144,
+            270,
+            906,
+            304
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "This version of Herbrand's Theorem suggests the following sort of refutation procedure, which we call a saturation procedure: given a finite set $\\boldsymbol { \\mathscr { S } }$ of clauses, select a sequence $P _ { \\mathrm { ~ 0 ~ } } , \\ P _ { \\mathrm { ~ 1 ~ } } , \\ P _ { \\mathrm { ~ 2 ~ } } , \\ \\cdots$ ，of finite subsets of the Herbrand universe $\\vec { \\cal I }$ of $S$ ，such that $P _ { j } \\subseteq P _ { j + 1 }$ for each $j \\gtrapprox 0$ ,and such that $\\cup _ { j = 0 } ^ { \\infty } P _ { j } = H .$ Then examine in turn the sets $P _ { 0 } ( \\vec { S } )$ ， $P _ { 1 } ( S )$ ， $P _ { 2 } ( \\cal { S } )$ ,,for satisfiability.Evidently, for any finite subset $P$ of $H$ ， $P \\subseteq P _ { j }$ for some $j$ ,and therefore $I ^ { \\prime } ( S ) \\subseteq P _ { j } ( S )$ Therefore,by Theorem 1,if $\\boldsymbol { \\mathrm { \\Sigma } } _ { S }$ is unsatisfiable then,for some $j$ ， $P _ { j } ( \\mathrm { \\cal S } )$ is unsatisfiable. ",
+        "bbox": [
+            144,
+            304,
+            911,
+            440
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Of course, any specific procedure of this sort must make the selection of $P _ { 0 }$ ， $\\boldsymbol { \\mathrm { f } } _ { \\mathrm { ~ 1 ~ , ~ } } ^ { \\prime } \\boldsymbol { \\mathrm { f } } _ { \\mathrm { ~ 2 ~ , ~ } } ^ { \\prime } \\cdot \\cdot \\cdot$ ,uniformly for all finite sets of clauses.A particularly natural way of doing this is to use the so-called levels $\\scriptstyle { H _ { 0 } }$ ， $H _ { 1 }$ ， $H _ { 2 }$ ,,of the Herbrand universe $H$ ;where $H _ { 0 }$ consists of all the individual constants in $H$ and $H _ { n + 1 }$ ,for $\\varkappa \\gtrapprox 0$ ,consists of all the terms in $H$ which are in $H _ { \\ast }$ ,or whose arguments are iu $H _ { \\cdot \\cdot }$ .In [5] we called procedures using this method level-saturation procedures. [t was there remarked that essentially the procedures of Gilmore [4] and Davis-Putnam [2] are level-saturation procedures. ",
+        "bbox": [
+            144,
+            441,
+            906,
+            576
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The major combinatorial obstacle to effcieney for level-saturation procedures is the enormous rate of growth of the finite sets $H _ { j }$ and $H _ { j } ( \\cal { S } )$ as $\\dot { j }$ increases, at least for most interesting sets $\\boldsymbol { \\mathrm { \\Pi } }$ .These growth rates were analyzed in some detail in [5], and somc examples were there given of some quite simple unsatisfiable $\\ S$ for which thc earliest unsatisfiable $H _ { j } ( \\cal { S } )$ is so large as to be absolutely beyond the limits of fcasibility. ",
+        "bbox": [
+            142,
+            578,
+            906,
+            679
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "An interesting heuristic remark is that,for every finite set $\\mathrm { \\AA }$ of clauscs which is unsatisfiable and which has a refutation one could possibly construct, there is at least onc rcasonably small finite subset of the Herbrand universc of $\\boldsymbol { \\mathcal { S } }$ such that $P ( \\mathbf { \\vec { s } } )$ is unsatisfiable and such that $P$ is minimal in the sense that $Q ( S )$ is satisfiable for each proper subset $Q$ of $P$ .Such a $P$ was called a proof set for $\\mathrm { \\ o }$ in [5]. If only, then,a bencvolent and omniscient demon were available who could provide us, in rcasonablc time, with a proof set $P$ for cach unsatisfable finite set $\\ S$ of clauses that wc considered, we could simply arrange to saturate $\\boldsymbol { \\varsigma }$ over $l ^ { \\flat }$ and then extract a suitable refutation of $ { \\mathcal { S } }$ from the resulting finite unsatisfiable set $P ( S )$ of ground clauses.This was in fact thc underlying scheme of a computer program reported in [5],in which the part of thc demon is played,as best his ingenuity allows,by the mathematician using the program.What is really wanted, to be sure, is a simulatiou of the proof sct demon on thc computer; but this would appear, intuitively,to be out of the question. ",
+        "bbox": [
+            142,
+            680,
+            904,
+            884
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "THE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            391,
+            89,
+            662,
+            101
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "27 ",
+        "bbox": [
+            884,
+            86,
+            906,
+            99
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            88,
+            123,
+            873,
+            159
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "It turns out that it is not completely out of the question.In fact, the method developed in the remainder of this paper seems to come quite close to supplying the required demon as a computing process. In Scction 4 we take the first major step towards the development of this method by proving more versions of Herbrand's Theorem. We also give a preliminary informal account of the rest of the argument, pending a rigorous treatment in succeeding seetions. ",
+        "bbox": [
+            84,
+            160,
+            875,
+            264
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4. The Resolution Theorems and the Basic Lemma ",
+        "text_level": 1,
+        "bbox": [
+            84,
+            292,
+            571,
+            309
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "As a speeific method for testing a finite set of ground clauses for satisfiability, the method of Davis-Putnam [4] would be hard to improve on from the point of view of efficiency. However,we now give another method, far less efficient than theirs,which plays only a theoretical role in our development,and which is mueh simpler to state: givcn thc finitc sct $\\boldsymbol { \\mathrm { \\Sigma } }$ of ground clauses, form successively the sets $\\mathcal { S } , \\mathbf { \\bar { \\Omega } } \\mathbf { \\bar { \\Omega } } ( \\mathcal { S } ) , \\mathbf { \\Omega } \\Re ^ { 2 } ( \\mathcal { S } ) , \\mathbf { \\bar { \\Omega } } \\cdot \\mathbf { \\Omega } \\cdot \\mathbf { \\Omega }$ ,until either some ${ \\mathfrak { R } } ^ { n } ( S )$ contains ,or does not contain $\\square$ but is equal to ${ \\mathfrak { G } } ^ { { \\mathfrak { n } } \\div { \\mathfrak { i } } } ( { \\mathfrak { S } } )$ . In the former case, $\\tilde { s }$ is unsatisfiable; in the latter casc, $\\ddot { s }$ is satisfiable.One or other of these two terminating conditions must eventually occur, since the number of distinct clauses formable from the finite set of literals which occur in $\\mathcal { S }$ is finite,and hence in the nested infinite sequence: ",
+        "bbox": [
+            84,
+            314,
+            877,
+            505
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "not all of the inclusions are proper, since resolution introduces no ncw literals. ",
+        "bbox": [
+            82,
+            525,
+            855,
+            542
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "In view of the finite termination of thc described proccss we can prove its correctness,as stated above,in the form of the ground resolution theorem. ",
+        "bbox": [
+            82,
+            544,
+            875,
+            578
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "GROUND RESOLUTION THEOREM.If $\\boldsymbol { s }$ is any finite set of ground clauses, then $\\xi$ is unsatisfiable if and only if ${ { \\bf \\ddot { \\mathcal R } } ^ { n } } ( S )$ contains ,for some $n \\geq 0$ ",
+        "bbox": [
+            86,
+            578,
+            873,
+            612
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "PrOOF.The“if'' part is immediate.To prove the“only if\"part, let $T$ be the terminating set ${ \\mathfrak { B } } _ { \\ell } ^ { n } ( S )$ in the sequence（4.1） above,so that $\\mathit { \\Delta } T$ is elosed under ground resolution.We need only show that if $T$ does not contain $\\sqcap$ ,then $T$ is satisfiable, and hence $\\boldsymbol { s }$ is satisfiable since $\\smash { \\mathrm { ~  ~ { ~ S ~ } ~ } } \\subseteq \\textit { T }$ Let $\\boldsymbol { L } _ { 1 }$ ，， $L _ { j _ { k } }$ be all the distinct atomic formulas which occur in $T$ or whose complements occur in $T$ Let $\\boldsymbol { \\mathcal { M } }$ be the model defincd as follows: $M _ { \\mathrm { f } }$ is thc cmpty sct;and for $0 < j \\le k _ { \\cdot }$ ， $M _ { j }$ is the set $\\mathcal { M } _ { j = 1 } \\cup \\{ L _ { j } \\}$ ,unless some clause in $T$ consists entirely of complements of literals in the set $\\mathcal { M } _ { j = 1 } \\cup \\{ L _ { j } \\} ;$ in which case $M _ { j }$ is the set $\\ M _ { j  1 } \\cup \\{ \\sim { \\cal L } _ { j } \\}$ Finally, $\\mathcal { M }$ is $\\smash { \\lambda \\hat { H } _ { \\tilde { r } } }$ .Now if $T$ does not contain □, $\\mathcal { M }$ satisfies $\\mathcal { T }$ For otherwise there is a least $j$ ， $0 < j \\le k$ ,such that somc clausc(say, $ { C }$ ）in $\\boldsymbol { T }$ consists entirely of complements of literals in the set $M _ { j }$ . By thc definition of $i \\mathcal { H } _ { j }$ ,therefore, $M _ { j }$ is $\\mathcal { M } _ { { j - 1 } } \\cup \\{ { \\sim } L _ { j } \\}$ .Hence by the leastness of $j$ ， $\\mathcal { C }$ contains $L _ { j }$ 、But since $M _ { j }$ is $M _ { j \\cdots } \\cup \\{ \\sim I _ { i } \\}$ ，there is some clause (say, $D$ ）in $T$ which consists entirely of complements of literals in the set $\\lambda l _ { j = 1 } \\cup \\{ L _ { j } \\}$ . Hence by the leastness of $j$ ， $\\boldsymbol { D }$ contains ${ \\sim } I _ { \\ j }$ Then the clause $B ~ = ~ ( C ~ - ~ \\{ L _ { j } \\} ) ~ \\cup ~ ( D ~ - ~ \\{ \\mathord { \\sim } , \\{ \\mathord { \\left/ { \\vphantom { \\bigcup } } \\right. \\kern - delimiterspace }  ~ \\} )$ consists entirely of complements of literals in the set $M _ { j \\cdots 1 }$ ,unless $B$ is $\\sqsubset$ But $\\boldsymbol { B }$ isa ground resolvent of $C$ and $D$ ,hence is in $\\boldsymbol { T }$ ,hence is not .Thus the leastness of $j$ is contradicted and the thcorcm is proved. ",
+        "bbox": [
+            84,
+            612,
+            877,
+            893
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            404,
+            92,
+            555,
+            103
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "28 ",
+        "bbox": [
+            84,
+            91,
+            111,
+            103
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            117,
+            122,
+            882,
+            156
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The Ground Resolution Theorem now allows us to state a more specific form of Theorem 1, namcly, ",
+        "bbox": [
+            120,
+            158,
+            884,
+            190
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "THEOREM 2.If $\\mathcal { S }$ is any fnite set of clauses, then $\\bar { \\mathcal { S } }$ is unsatisfiable if and onty i,for somefinite subset $P$ of the Ilerbrand aniverse of $\\bar { S }$ and 8ome $n \\geq 0$ 、 ${ \\mathfrak { R } } ^ { n } ( P ( S ) )$ conlains. ",
+        "bbox": [
+            120,
+            192,
+            880,
+            240
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "It is now possible to state informally the cssential steps of the remaining part of the development. We are going to generalizc the notions of ground resolvont and ground resolution, respectively, to the notions of resolvent and resolution. by removing the restriction that the clauses involvcd bc only ground clauses. Any two clauses will then have zero, one or more clauses as their resolvcnts, but in no case more than finitely many.In the special case that $\\mathcal { C }$ and $\\boldsymbol { D }$ are ground clauses, their resolvents, if any,are precisely their ground resolvents as already defined. Similarly, the notations ${ \\mathfrak { G } } ( S )$ ， ${ \\mathfrak { R } } ^ { * } ( { \\mathfrak { S } } )$ will be retained, with $\\check { S }$ allowed to be any set of clauses. ${ \\mathfrak { R } } ( S )$ will then denote the resolution of $\\vec { \\cal S }$ ,which is the set of clauses consisting of all members of $\\boldsymbol { \\mathrm { \\check { S } } }$ together with all resolvents of all pairs of members of $\\boldsymbol { S }$ Again, ${ \\mathfrak { G } } ( S )$ is precisely the ground resolution of $\\mathcal { S }$ ,already defined,whenever $\\boldsymbol { s }$ happens to be a set of ground clauses. ",
+        "bbox": [
+            117,
+            243,
+            880,
+            445
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The details of how this generalization is done must await the formal definitions in Seetion 5. However,an informal grasp of the general notion of resolution is obtainable now,prior to its exact treatment,from simply contemplating the fundamental property which it will be shown to possess:resolulion is semicommutative with saturation. More exactly,this property is as stated in the following basic Lemma,which is proved in Section 5: ",
+        "bbox": [
+            115,
+            447,
+            877,
+            548
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "LEMMA.If $\\ddot { s }$ is any set of clauses,and $P$ is any subset of the Herbrand universe of $\\boldsymbol { S }$ then: ${ \\mathfrak { R } } { \\big ( } P ( S ) { \\big ) } \\subseteq P { \\big ( } \\mathfrak { R } ( S ) { \\big ) }$ ",
+        "bbox": [
+            111,
+            548,
+            875,
+            582
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Thc fact is,as will bc shown here,that any ground clause which can be obtained by first instantiating over $P$ a pair $C , D$ of clauses in $\\boldsymbol { S }$ ,and then forming a ground resolvcnt of thc two resulting instances, can also be obtained by instantiating over $P$ one of the finitely many resolvents of $C$ and $D$ ",
+        "bbox": [
+            115,
+            584,
+            877,
+            650
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "It is an easy corollary of thc basic Lemma that nth resolutions are also semicommutative with saturation: ",
+        "bbox": [
+            113,
+            650,
+            873,
+            683
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "COROLLARY.If $\\mathit { S }$ is any set of clauses and $P$ isany subset of the Herbrand universe of $\\boldsymbol { S }$ ,then: $\\Phi ^ { n } ( P ( S ) ) \\subseteq P ( \\mathbb { R } ^ { n } ( S ) )$ for all $n \\not \\equiv 0$ ",
+        "bbox": [
+            115,
+            685,
+            875,
+            719
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "PROOF. By induction on n. $\\Re ^ { 0 } ( P ( S ) ) ~ = ~ P ( S ) ~ = ~ P ( \\ o ( \\Re ^ { 0 } ( S ) )$ ，so that the case $n \\approx 0$ is trivial. And if,for $n \\not \\equiv 0$ ， $\\mathfrak { R } ^ { { \\mathfrak { n } } } ( P ( S ) ) \\subseteq P ( \\mathfrak { R } ^ { { \\mathfrak { n } } } ( S ) )$ ,then: ",
+        "bbox": [
+            113,
+            719,
+            875,
+            753
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } { \\mathbb { G } ^ { n \\div 1 } ( P ( \\mathcal S ) ) } & { = \\mathbb { G } ( \\mathbb { G } ^ { n } ( P ( \\mathcal S ) ) ) } \\\\ & { \\subseteq \\mathbb { G } ( P ( \\mathbb { G } ^ { n } ( \\mathcal S ) ) ) } \\\\ & { \\subseteq P ( \\mathbb { G } ( \\mathbb { G } ^ { n } ( \\mathcal S ) ) ) } \\\\ & { = P ( \\mathbb { G } ^ { n + 1 } ( \\mathcal S ) ) } \\end{array}$ by definition of $( \\mathbb { R } ^ { n + 1 }$ ， by the induction hypothesis, ${ \\mathfrak { a s } } { \\mathfrak { R } }$ preserves inclusion, by the Lemma, by definition of $( \\bar { \\mathcal { V } } ^ { n + 1 }$ ， ",
+        "bbox": [
+            128,
+            759,
+            846,
+            846
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "and the Corollary is proved. ",
+        "bbox": [
+            113,
+            851,
+            386,
+            868
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "THE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            364,
+            92,
+            633,
+            105
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            855,
+            91,
+            880,
+            103
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Now by the above Corollary to the basic Lemma we may immediately obtain a lhird version of Herbrand's Theorem from Theorem 2: ",
+        "bbox": [
+            91,
+            122,
+            884,
+            156
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "THEOREM 3.Ij $\\ddot { S }$ is any finite set of clauses, then $\\mathcal { S }$ is unsatisfable if and only if,for some finite subset $l ^ { \\mathrm { ~ p ~ } }$ of the Herbrand universe of $\\mathcal { S }$ ,and some $\\gamma _ { \\hat { l } } \\gtrapprox \\left\\{ \\begin{array} { r l } \\end{array} \\right\\}$ ， $P ^ { \\prime } ( \\ B ^ { \\prime } \\ ^ { \\prime } ( \\ B ^ { \\prime } ) )$ conlains□. ",
+        "bbox": [
+            91,
+            158,
+            884,
+            209
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Here,the order of the saturation and nth resolution operations is reversed. Now a rather surprising simplification of Theorem 3 can be made, on thc basis of the remark that mere replacement of variables by terms cannot producc £ from a nonempty clause.Hence $P ( \\mathbb { R } ^ { n } ( S ) )$ will contain  if and only if $( \\ S \\{ \\stackrel { \\pi } { . } \\} ^ { \\prime \\prime } \\{ \\stackrel { \\cdot } { . } \\} )$ coutains .From Thcorem 3,therefore,we immediately obtain our fiual version of Herbrand's Theorem,which is the main result of this paper,and which wc call: ",
+        "bbox": [
+            91,
+            210,
+            884,
+            331
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "RESOLUTION THEOREM.If $\\mathcal { S }$ is any finite set of clauses, then $\\mathcal { S }$ is unsatisfiable i and only i ${ \\mathcal { G } } _ { 4 } ^ { \\gamma _ { i } } ( S )$ contains $\\sqcap$ for some $n \\ \\geq \\ 0$ ",
+        "bbox": [
+            88,
+            333,
+            884,
+            367
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The statement of the Resolution Theorem is just that of the Ground Resolution Thcorem with the word “ground\"omitted. Apart, therefore, from the somewhat more complex way in which the resolvents of two elauses are computed (described in Section 5） the method suggested by the Resolution Theorem for testing a finite set $\\bar { S }$ of clauses for unsatisfiability is exactly like that given earlier for the case that $\\mathrm { \\Delta S }$ is a set of ground clauses,and indced it automatically reverts to that method when it is applied to a finite set of ground clauses. However, it is no longer the case in general that the nested sequence ",
+        "bbox": [
+            88,
+            368,
+            884,
+            508
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cbd04cd6fac7bfd6f823d6e8878840385afae10b4939c91e7ed8f484256d4420.jpg",
+        "text": "$$\nS \\subseteq { \\mathfrak { R } } ( S ) \\subseteq { \\mathfrak { R } } ^ { 2 } ( S ) \\subseteq \\cdots \\subseteq { \\mathfrak { R } } ^ { n } ( S ) \\subseteq \\cdots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            260,
+            514,
+            708,
+            535
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "must terminate for al finite $S$ By Church's Thcorem this could not be so, for otherwise we would have a decision procedure for satisfiability for our formulation of first-order logic. ",
+        "bbox": [
+            88,
+            542,
+            882,
+            594
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Consider now the “proof set demon” discussed in Section 3.We there supposed that if we were given a proof set $P$ for an unsatisfiable set $\\mathcal { S }$ of clauses, all wc would have to do would bc to compute until we encountered the first ${ \\mathfrak { P } } _ { \\mathfrak { t } } ^ { \\pi } ( P ( S ) )$ which contains ,in order to obtain from it a formal refutation of $\\mathrm { \\ddot { s } }$ But the Resolution Theorem assures us that by the time we had computed $( \\bar { \\bf y } _ { \\mathrm { i } } ^ { \\mathrm { \\tiny ~ \\gamma _ { \\mathrm { i } } ~ } } ( S )$ ，if not before,we would have turned up Q,despite our ignorance of $\\boldsymbol { j } ^ { \\flat }$ .In this sense the Resolution Theorem makes the proof set demon's role unneccssary. ",
+        "bbox": [
+            86,
+            595,
+            882,
+            717
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "In Section 5 we introduce a little more formal apparatus by a second batch of definitions,and pay off our debts by defining the general notion of resolution and proving the basic Lemma. ",
+        "bbox": [
+            86,
+            719,
+            882,
+            769
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.Substitution,Unificalion and Resotution ",
+        "text_level": 1,
+        "bbox": [
+            86,
+            799,
+            504,
+            816
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The following definitions are concerned with the operation of iustantiation, i.e. substitution of terms for variables in well-formed expressions and in sets of well-formed expressions, and with the various auxiliary notions needed to define resolution in general. ",
+        "bbox": [
+            86,
+            821,
+            880,
+            891
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.1 Substitution components. A substitution component is any expression of theform $T / \\mathcal { V }$ ,where $\\overrightarrow { \\mathbf { \\downarrow } }$ is any variable and $\\it { \\Delta } \\chi ^ { \\prime }$ is any term different from $V , \\ V ^ { \\prime }$ is callcd the variable of the component $T / V$ and $T$ is called the term of the component $T / V$ ",
+        "bbox": [
+            100,
+            893,
+            880,
+            910
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "30 ",
+        "bbox": [
+            91,
+            89,
+            117,
+            102
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            411,
+            92,
+            564,
+            103
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            140,
+            116,
+            906,
+            168
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.2 Substitulions. A substitution is any finite set (possibly empty) of substitution components none of the variables of which are the same.If $P$ is any $\\ S \\langle \\dot { \\bf { \\sigma } } \\rangle ^ { \\dagger }$ of terms,and the terms of the components of the substitution $\\boldsymbol { \\vartheta }$ are all in $f ^ { \\gamma }$ we say that $\\theta$ is a substitution over $P$ .We write the substitution whose components are $\\mathcal { I } _ { 1 } ^ { : } / \\mathcal { V } _ { 1 }$ ，， $T _ { i ; i } / V _ { i ; i }$ as $\\{ T _ { 1 } / \\top _ { 1 } , \\cdot \\cdot \\cdot , T _ { k } / V _ { k } \\}$ ，with the understanding that the order of the components is immaterial. We use lower-case Greek letters to denote substitutions.In particular, $\\epsilon$ is the empty substitution, ",
+        "bbox": [
+            140,
+            169,
+            908,
+            287
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.3 Instantiation. If $\\vec { \\mathcal { L } }$ is any finite string of symbols and ",
+        "bbox": [
+            160,
+            289,
+            724,
+            304
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/528c7bd9f6affe77453f42dfca4b7b5e706fc355c7166b3fb376623f487701de.jpg",
+        "text": "$$\n\\theta = \\{ T _ { 1 ^ { ' } } V _ { 1 } , \\cdots , T _ { k ^ { ' } } ^ { \\prime } / V _ { k } \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            400,
+            311,
+            651,
+            331
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "is any substitution,then the instantiation of $\\mathcal { L }$ by $\\boldsymbol { \\theta }$ is the operation of replacing each occurrence of the variable $V _ { i }$ ， $1 \\leq i \\leq k$ in $\\mathcal { E }$ by an occurrence of the term $\\boldsymbol { T _ { i } }$ .The resulting string, denoted by $E \\theta$ is called the instance of $\\mathcal { \\overline { { L } } }$ by $\\theta .$ L.e., f $\\vec { l } _ { i } ^ { \\gamma }$ is the string $\\mathcal { E } _ { 0 } V _ { i _ { \\perp } } \\mathcal { E } _ { 1 } \\dots  { V } _ { i _ { n } } E _ { n }$ ,then $E \\theta$ is the string $\\mathcal { E } _ { \\mathfrak { g } } T _ { i _ { 1 } } \\mathcal { E } _ { 1 } \\ \\cdot \\ \\cdot \\ \\mathcal { T } _ { i _ { n } } \\mathcal { E } _ { x } ,$ ， Herc, none of the substrings $\\dddot { \\mathcal { L } } _ { j }$ of $\\mathcal { E }$ contain occurrences of the variables $\\bar { V } _ { 1 } , \\cdots ,$ $\\mathbb { V } _ { k }$ ,some of the $E _ { j }$ are possibly null, $\\mathscr { n } .$ is possibly O,and each $\\boldsymbol { V } _ { i _ { 2 } }$ is an occurrence of one of the variables $\\mathbb { V } _ { \\bot } , \\cdots , \\mathbb { V } _ { k }$ .Any string $\\operatorname { \\it { F } } \\theta$ is called an instance of the string $\\mathcal { E }$ If $\\textrm { C }$ is any set of strings and $\\theta$ a substitution, then the instance of $\\hat { C }$ by $\\theta$ is the set of all strings $E \\vartheta$ where $\\mathcal { \\vec { E } }$ isin $C$ We denote this set by $\\mathcal { C } \\theta$ and say that it is an instance of $\\hat { C }$ ",
+        "bbox": [
+            142,
+            337,
+            908,
+            508
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.4 Standardizationg. If $\\zeta$ is any finite sct of strings, and $V _ { 1 } , \\cdots , \\ V _ { i }$ are all the distinct variables, in alphabetieal order,which occur in strings in $C$ ,then the $\\it { \\Delta } x$ -standardization of $\\mathcal { \\vec { C } }$ denoted by $\\xi _ { C }$ ,is the substitution $\\{ x _ { 1 / } \\langle \\mathcal { V } _ { 1 } , \\cdot \\cdot \\cdot , x _ { k } / V _ { k } \\}$ and the $\\mathcal { Y }$ -standardization of $C$ ,denoted by $\\eta _ { \\mathrm { { f } } }$ ,is the substitution ",
+        "bbox": [
+            140,
+            509,
+            906,
+            578
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3e8efc654736232c29c9faebb63a84175c24d462a877f685a1cb04f45723d5e2.jpg",
+        "text": "$$\n\\langle { y _ { 1 } } , { ' } V _ { 1 } , \\cdot \\cdot \\cdot , y _ { k } , { ' } V _ { k } \\rangle ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            424,
+            585,
+            626,
+            603
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.5 Composition of substitutioms. If $\\hat { \\theta } ~ = ~ \\{ T _ { 1 } / V _ { 1 } ~ , ~ \\cdot ~ \\cdot ~ , ~ T _ { \\hat { x } } ^ { \\prime } / V _ { \\hat { x } \\hat { j } } ^ { \\prime }$ and $\\lambda$ are any two substitutions, then the set $\\theta ^ { ' } \\cup \\lambda ^ { ' }$ ,where $\\lambda ^ { ' }$ is the set of all components of $\\lambda$ whose variables are not among $V _ { 1 }$ ，…， $\\boldsymbol { V } _ { \\mathcal { k } }$ ,and $\\hat { \\theta } ^ { ' }$ is thc set of all components $\\mathcal { T } _ { i } \\lambda / V _ { i }$ ， $1 \\ \\leq \\ i \\ \\leq \\ k$ such that $\\mathbf { \\nabla } T _ { i } \\lambda$ is different from $V _ { i }$ ,is called the composition of $\\theta$ and $\\lambda$ ,and is denoted by $\\theta \\lambda$ ",
+        "bbox": [
+            144,
+            611,
+            904,
+            696
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "It is straightforward to verify that $\\epsilon \\theta \\ : = \\ : \\theta \\epsilon = \\theta$ for any substitution $\\theta$ Also, composition of substitutions enjoys the associative property $( \\theta \\lambda ) \\mu = \\theta ( \\lambda \\mu )$ ，80 that we may omit parenthescs in writing multiple compositions of substitutions. ",
+        "bbox": [
+            142,
+            696,
+            906,
+            747
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The point of the composition operation on substitutions is that,when $E$ is any string,and $\\sigma = \\theta \\lambda$ ,the string $E _ { \\sigma }$ is just the string $E \\theta \\lambda$ ,i.e.the instance of $I \\xi \\partial$ by入 ",
+        "bbox": [
+            144,
+            749,
+            906,
+            797
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "These properties of the composition of substitutions are established by the following propositions. ",
+        "bbox": [
+            144,
+            799,
+            906,
+            831
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.5.1. $( { \\cal E } _ { \\bf \\tilde { \\tau } } ) \\lambda = { \\cal E } ( { \\sigma \\lambda } )$ for all strings $E$ and all substilutions $\\sigma , \\lambda$ ",
+        "bbox": [
+            160,
+            833,
+            797,
+            850
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "PROOr.Let $\\sigma = \\{ T _ { 1 } / V _ { 1 } , \\cdot \\cdot \\cdot , T _ { k } / V _ { k } \\}$ ， $\\lambda = \\{ U _ { 1 } / W _ { 1 } , \\ldots , U _ { m } / W _ { m } \\}$ and $\\mathcal { E } \\ = \\ \\mathit { E } _ { 0 } V _ { : : } \\mathit { E } _ { 1 } \\ \\cdot \\cdot \\cdot \\ V _ { i _ { n } } \\mathcal { E } _ { n }$ as explained in (5.3） above.Then by definition $\\begin{array} { r l } { \\operatorname { \\mathcal { F } } _ { z \\sigma } ~ \\approx ~ } & { { } \\lneq } \\end{array}$ $\\vec { \\mathcal { L } } _ { 1 9 } \\vec { \\mathcal { L } } _ { 1 } ^ { 3 } , \\vec { \\mathcal { L } } _ { 1 } ^ { \\dag } \\ \\cdot \\ \\cdot \\ \\vec { \\mathcal { L } } _ { i _ { n } } \\vec { \\mathcal { L } } _ { n }$ ，and $( L ^ { \\prime } \\sigma ) \\lambda \\ = \\ \\bar { E _ { 0 } } \\bar { L ^ { \\prime } } _ { i _ { 1 } } \\bar { L ^ { \\prime } } _ { 1 } \\ \\cdot \\ \\cdot \\ \\bar { L ^ { \\prime } } _ { i _ { n } } \\bar { L ^ { \\prime } } _ { n }$ ，where each $\\bar { \\mathcal { T } ^ { \\prime } } _ { i _ { j } }$ is $\\mathcal { I } _ { i _ { j } } ^ { \\prime } \\lambda ,$ and cach $\\ddot { \\mathcal { Z } } _ { j }$ is $\\vec { \\mathcal { L } } _ { j } \\lambda _ { \\ j } ^ { ' }$ where $\\lambda ^ { ' }$ is the sct of all components of $\\lambda$ whose variables are not among $\\mathbb { f } _ { 1 } ^ { * }$ ，， $\\boldsymbol { \\xi } _ { : } ^ { * }$ (since none of these variables occur in any $\\vec { \\mathcal { k } } _ { j } ^ { 1 }$ .But $\\sigma \\lambda = \\sigma ^ { \\prime } \\bigcup \\lambda _ { i } ^ { \\prime }$ where cach component of $\\acute { \\sigma }$ is just $\\bar { \\mathcal { I } ^ { \\prime } } _ { i } / \\bar { \\mathcal { Y } } _ { i }$ whenever $\\vec { \\mathcal { T } } _ { i } ^ { \\phantom { \\dagger } }$ is different from $\\gamma _ { i }$ Hence $\\begin{array} { r c l } { \\vec { E } ( \\sigma \\lambda ) } & { = } & { \\vec { E } _ { 0 } \\vec { Z } _ { i _ { 1 } } \\vec { Z } _ { 1 } \\cdot \\cdot \\cdot \\vec { Z } _ { i _ { n } } \\vec { E } _ { \\ast } } \\end{array}$ ， ",
+        "bbox": [
+            140,
+            850,
+            902,
+            884
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "THE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            391,
+            86,
+            660,
+            98
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "31 ",
+        "bbox": [
+            880,
+            85,
+            904,
+            98
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            108,
+            122,
+            902,
+            213
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5.5.2. For any substitutions $\\mathcal { O }$ ，入： $\\smash { \\vec { L } } \\sigma \\equiv J _ { s } ^ { \\prime } \\lambda$ for all strings $\\mathit { k }$ ，then $\\sigma = \\lambda$ PROOF. Let $\\mathbf { \\Delta } \\mathbf { V } _ { 1 }$ ，， $\\gamma _ { \\varepsilon }$ inelude all the variables of the components of $\\boldsymbol { \\sigma }$ and 入；then $\\gamma _ { j } \\sigma = \\gamma _ { j } ^ { r } \\lambda $ ,for $1 \\ \\leq j \\ \\leq k$ Then all the components of $\\sigma$ and $\\lambda$ are the same. ",
+        "bbox": [
+            108,
+            213,
+            904,
+            282
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5.5.3. For any substitutions $\\sigma , \\lambda , \\mu \\colon ( \\sigma \\lambda ) \\mu = \\sigma ( \\lambda \\mu )$ ",
+        "bbox": [
+            126,
+            283,
+            666,
+            300
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "PROOr. Let $E$ be any string. Then by 5.5.1, ",
+        "bbox": [
+            131,
+            301,
+            571,
+            317
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fb1184ef0c6d79e9e1b8e138a606abbeb0ab261dd8b95bcf3004c093ea050dbb.jpg",
+        "text": "$$\n\\begin{array} { r l } { E \\left( \\left( \\sigma \\lambda \\right) \\mu \\right) } & { = \\left( E \\left( \\sigma \\lambda \\right) \\right) \\mu } \\\\ & { = \\left( \\left( E \\sigma \\right) \\lambda \\right) \\mu } \\\\ & { = \\left( E \\sigma \\right) \\left( \\lambda \\mu \\right) } \\\\ & { = E \\left( \\sigma ( \\lambda \\mu ) \\right) . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            324,
+            626,
+            425
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Hence $( \\sigma \\lambda ) \\mu = \\sigma ( \\lambda \\mu )$ by (5.5.2). ",
+        "bbox": [
+            113,
+            431,
+            446,
+            448
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "We shall also have occasion to use the following distributive property. ",
+        "bbox": [
+            126,
+            450,
+            828,
+            465
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5.5.4.For any sets $\\varLambda$ ， $B$ of strings and substitution $\\lambda \\colon ( A \\cup B ) \\lambda = A \\lambda \\cup B \\lambda .$ 5.6 Disagreement sels. If $\\mathcal { A }$ is any set of well-formed expressions,we call the set $\\boldsymbol { B }$ the disagroement set of $\\varLambda$ whenever $B$ is the set of all well-formcd subexpressions of the well-formed expressions in $\\lrcorner 4$ ，which begin at the first symbol position at which not all well-formed expressions in $\\mathcal { A }$ have the same symbol. Ecomple: ",
+        "bbox": [
+            108,
+            467,
+            902,
+            572
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/70e92cacdbd6023f514a0680fc6e9b362391109eb79f01493add24a880ba64f1.jpg",
+        "text": "$$\n{ \\mathcal A } = \\{ P ( x , h ( x , y ) , y ) , P ( x , t ( y ) , y ) , P ( x , a , b ) \\} ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            355,
+            579,
+            857,
+            599
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Disagreement set of $\\mathcal { A } = \\{ \\hbar ( x , y ) , \\hbar ( y ) , \\alpha \\}$ ",
+        "bbox": [
+            151,
+            605,
+            593,
+            625
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Evidently,if $\\mathcal { A }$ is nonempty and is not a singleton,then the disagreement set of $A$ is nonemply and is not a singleton. ",
+        "bbox": [
+            106,
+            635,
+            900,
+            670
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5.7 Unification. If $\\measuredangle 4$ is any set of well-formed expressions and $\\boldsymbol { \\theta }$ is a substitution, then $\\theta$ is said to unify $\\varDelta$ , or to be a unifier of $\\mathcal { A }$ ，if $\\angles { \\theta }$ is a singleton. Any set of well-formed expressions which has a unifier is said to be unifiable. ",
+        "bbox": [
+            106,
+            670,
+            902,
+            722
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Evidently,if $\\boldsymbol { \\hat { \\theta } }$ unifies $A$ ，but $\\varLambda$ is not a singleton, then $\\theta$ unifies the disagreement set of $\\mathcal { A }$ ， ",
+        "bbox": [
+            106,
+            723,
+            900,
+            756
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5.8 Unification Algorithm. The following process, applicable to any finite nonempty set $\\mathcal { A }$ of well-formed expressions,is called the Unification Algorithm: ",
+        "bbox": [
+            106,
+            757,
+            902,
+            793
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Step 1.Set $\\sigma _ { \\bar { \\mathcal { I } } } \\quad \\cdots \\quad \\epsilon$ and ${ \\vec { \\beta } } _ { v } ^ { * } \\ \\mathrel { \\mathop : } \\ 0 _ { \\ s }$ and go to step 2.   \nStep 2.If $\\blacktriangleleft _ { k }$ is not a singleton,go to step 3.Otherwise,sct $\\begin{array} { r l } { \\pmb { \\mathscr { F } } _ { \\mathcal { A } } } & { { } \\triangleq \\pmb { \\mathscr { F } } _ { \\mathcal { k } } } \\end{array}$ and terminate,   \nStep 3.Let $\\boldsymbol { \\Vdash } _ { k }$ be the earliest,and $\\mathcal { \\tilde { \\ell } } _ { \\ast } ^ { \\ast }$ the next earliest,in the lexical ordering of the disagreement set $B _ { \\mathcal { k } }$ of $A \\sigma _ { k }$ .If $\\gamma _ { k }$ is a variable,and does not oecur in $\\boldsymbol { \\mathit { U } } _ { k }$ ， $\\mathrm { s c } \\ t \\sigma _ { k + 1 } \\ \\mathrel { \\mathop : } \\ \\cdots \\ \\sigma _ { \\ell ; \\ell } \\{ U _ { k } / V _ { k } \\}$ ， add1to $\\Bbbk$ and return to step 2.Otherwise,terminate. ",
+        "bbox": [
+            106,
+            806,
+            902,
+            880
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "This definition requires justification in the form of a proof that the given process is in fact an algorithn. In fact the process always terminates for any fiuite nonempty set of well-formed expressions, for otherwise there would be generated an infinite sequence $\\textit { A }$ ， $\\mathcal { A } \\sigma _ { 1 }$ ， $\\textit { A } \\sigma _ { 2 }$ ，of finite nonempty sets of wellformed expressions with the property that cach successive set contains one less variable than its predecessor (namely, $\\angles { \\mathcal { A } } { \\sigma } _ { k }$ contains $\\boldsymbol { V } _ { i \\cdot }$ but $\\boldsymbol { \\mathscr { A } } \\boldsymbol { \\sigma } _ { k \\to \\pm 1 }$ does not).But this is impossible,since $\\varLambda$ contains only finitely many distinct variables. ",
+        "bbox": [
+            111,
+            893,
+            897,
+            930
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            428,
+            94,
+            584,
+            106
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "32 ",
+        "bbox": [
+            108,
+            92,
+            135,
+            106
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            146,
+            109,
+            911,
+            195
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.9 Most general unifiers. If $\\mathcal { A }$ is a finite nonempty set of well-formcd expressions for which the Unification Algorithm terninates in step 2, the substitution $\\boldsymbol { \\mathfrak { T } } _ { A }$ then available as output of thc Unification Algorithm is called the most general unifier of $\\mathcal { A }$ ,and $\\measuredangle 4$ is then said to be Inost generally unifiable. ",
+        "bbox": [
+            146,
+            196,
+            908,
+            263
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.10 Key triples. The ordered triple $\\langle L , \\mathcal { M } , N \\rangle$ of finite sets of literals is said to be a key triple of the ordered pair $\\langle \\mathcal { C } , D \\rangle$ of clauses just in case the following conditions are satisfied. ",
+        "bbox": [
+            144,
+            264,
+            911,
+            313
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.10.1. $\\mathcal { L }$ and $\\mathcal { M }$ are nonempty,and $L \\subseteq C$ ， $M \\subseteq D$ ",
+        "bbox": [
+            160,
+            314,
+            695,
+            331
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.10.2. $N$ is the set of atomic formulas which are members, or complements of members,of the set $L \\xi _ { \\vec { c } } \\cup \\mathcal { M } \\eta _ { \\bar { D } }$ (cf.definition (5.4））. ",
+        "bbox": [
+            144,
+            333,
+            904,
+            366
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.10.3. $N$ is most generally uuifiable, with most general unifier $\\sigma _ { N }$ ",
+        "bbox": [
+            162,
+            367,
+            826,
+            383
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.10.4.The sets $\\chi _ { \\mathcal { \\xi } _ { \\mathcal { C } } \\mathcal { T } _ { N } }$ and $i k f _ { \\ l } \\eta _ { n } \\sigma _ { S }$ are singletons whose members are complements. ",
+        "bbox": [
+            142,
+            384,
+            904,
+            415
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Evidently, a pair $\\langle C , D \\rangle$ of clauses has at most a finite number of key triples, and possibly none at all. ",
+        "bbox": [
+            140,
+            417,
+            902,
+            450
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.11 Resolvents. $\\Lambda$ resolvent of the two clauses $\\mathcal { C }$ and $\\mathcal { D }$ is any elause of the form: $( \\mathcal { C } - \\mathcal { L } ) \\xi _ { c } \\sigma _ { N } \\cup ( D - \\mathcal { M } ) \\eta _ { D } \\sigma _ { N }$ where $\\langle \\bar { L } , \\lambda \\bar { \\mathcal { U } } , \\bar { N } \\rangle$ is a key triple of $\\langle C , D \\rangle$ ",
+        "bbox": [
+            144,
+            451,
+            904,
+            485
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "By the remark following definition (5.10） it is clear that two clauses $\\mathcal { C }$ and $\\mathcal { D }$ can have at most finitely many resolvents,and possibly none at all. ",
+        "bbox": [
+            142,
+            485,
+            904,
+            518
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.12 Resolutions.If $\\boldsymbol { S }$ is any set of clauses then the resolution of $\\vec { S }$ denoted py ${ \\mathfrak { G } } ( S )$ ,is the set of allclauses which are members of $\\bar { \\mathcal { S } }$ or rosolvents of members of $\\boldsymbol { S }$ ",
+        "bbox": [
+            142,
+            519,
+            906,
+            568
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.13 $N$ -th resolution. The nth resolution of $\\mathrm { \\Delta } S$ ,where $\\mathit { S }$ is any set of clauses, is denoted by ${ \\mathfrak { G } } ^ { \\mathfrak { n } } ( { \\mathfrak { S } } )$ and is defined for all $\\mathscr { n } \\gtrapprox 0$ cxactly analogously to definition (2.21). ",
+        "bbox": [
+            142,
+            571,
+            904,
+            621
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This completes our second group of definitions. The dcfinition of $\\mathbb { R } ( S )$ as given is adequate for our theoretical argumcnt, but in practice one would not include in it both the resolvents of $\\langle \\mathcal { C } , D \\rangle$ and the resolvents of $\\langle D , \\mathcal { C } \\rangle$ since these are in fact identical up to a change of variablcs. When $\\mathcal { C }$ and $D$ are both ground clauses, the resolvents of $\\langle C , D \\rangle$ are actually identical with those of $\\langle D , C \\rangle$ ,and are precisely the ground resolvents of $\\mathcal { C }$ and $D$ ,as is easily verified. ",
+        "bbox": [
+            140,
+            625,
+            904,
+            729
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "It now remains to prove the basic Lemma,which will be done after we have first proved the following thcorem establishing thc basic property of unification, which we need in the proof of the Lemma and elsewhere in our theory: ",
+        "bbox": [
+            140,
+            729,
+            902,
+            779
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "UNIFICATION THEOREM.Let $\\varLambda$ be any finite nonempty set of wel-formed expressions. If A is unifiable, then $\\varLambda$ is most generally unifiable with most general unifer $\\sigma _ { A }$ ;moreover,for any unifier $\\pmb \\theta$ $\\measuredangle 4$ there is a subslitution X such that $\\beta = \\sigma _ { A } \\lambda$ ",
+        "bbox": [
+            137,
+            780,
+            902,
+            846
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Proor.It will sufficc to prove that uuder the hypotheses of the theorem the Unification Algorithm will terminate, when applied to $A$ ,at step 2; and that for each k ≥ O until the Unjfication Algorithm so terminates, the equation ",
+        "bbox": [
+            137,
+            847,
+            900,
+            898
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "THE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            393,
+            81,
+            664,
+            92
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "33 ",
+        "bbox": [
+            884,
+            79,
+            908,
+            92
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5.14. ",
+        "text_level": 1,
+        "bbox": [
+            148,
+            131,
+            326,
+            146
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "holds at step 2 for some substitution $\\lambda _ { k }$ .For $k = 0$ ，（5.14） holds with $\\therefore 0 =$ since $\\sigma _ { \\mathfrak { h } } \\ \\cong \\ \\epsilon$ .Now assume that, for $k \\ \\underset { = } { \\overset { \\displaystyle > } { \\mathrm { \\succ } } } \\ 0$ ，(5.14) holds at step 2 for some s stitution $\\lambda _ { \\not \\mu }$ .Then either $\\mathcal { A } \\sigma _ { \\mathcal { k } }$ is a singleton, in which case the Unification gorithm terminates at step 2 with $\\sigma _ { \\varLambda } \\varlimsup \\varlimsup \\varlimsup$ the most general unifier of $\\lambda \\textbf { \\ \\xi }$ $\\lambda \\ : = \\ : \\lambda _ { k }$ the required substitution;or the Unification Algorithm transfers to s 3.In the latter case,since $\\lambda _ { k }$ unifies $\\mathcal { A } \\sigma _ { k }$ ,(by(5.14）,since $\\boldsymbol { \\vartheta }$ unifies $\\mathcal { A }$ ） $\\lambda _ { k }$ m also unify the disagreement set $B _ { k }$ of $A \\sigma _ { k }$ .Hence the $\\boldsymbol { \\mathrm { { V } } } _ { ! : }$ and $\\chi _ { \\textit { k } }$ defined in s 3 of the Unification Algorithm satisfy the equation ",
+        "bbox": [
+            128,
+            148,
+            871,
+            283
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.15. $\\tilde { V _ { k } } \\lambda _ { k } , = \\tilde { U _ { k } } \\lambda _ { k }$ ",
+        "bbox": [
+            148,
+            283,
+            375,
+            299
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Since $B _ { k }$ isa disagreement set,the well-formed expressions in ${ { \\bar { \\boldsymbol { B } } } _ { l _ { v } } }$ cannot begin with the same symbol; hence they cannot all begin with symbols which not variables, since ${ { \\cal { R } } _ { k } }$ is unifiable.Therefore at least one well-formed express in $B _ { s }$ begins with a variable,and hence is a variable, since it is well-form Since variables precede all other well-formed expressions in the lexical order,ε since $\\boldsymbol { V } _ { k }$ is the carliest well-formed expression in ${ \\mathcal { B } } _ { \\varepsilon }$ ,it follows that $\\boldsymbol { V } _ { \\kappa }$ i variable. Now if $\\boldsymbol { V } _ { \\dot { \\kappa } }$ occurs in ${ { \\cal { U } } _ { k } ^ { \\dag } }$ ， $V _ { \\xi } \\lambda _ { k }$ oceurs in $U _ { k } \\lambda _ { k }$ ,but since $\\boldsymbol { \\ V } _ { k }$ and $U _ { k }$ distinct well-formcd cxprcssions this is impossible becausc of (5.15).Theref $\\boldsymbol { V } _ { k }$ does not oceur in $\\left. \\it { U } _ { k } \\right.$ .Hence thc Unification Algorithm will not terminate step 3, but will return to stcp 2 with $\\sigma _ { k + 1 } = \\sigma _ { k } { \\mathrm { \\large { / ~ } } } U _ { \\lambda } { \\mathrm { / ~ } } V _ { k } { \\mathrm { \\large { 3 } } }$ . Now let $\\lambda _ { \\dot { \\iota } + 1 } = \\lambda _ { \\dot { \\iota } }$ $\\{ Y _ { k } \\} _ { k } / V _ { k } \\}$ . Then: ",
+        "bbox": [
+            128,
+            300,
+            868,
+            488
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/142fed892b17a88ac987a3656729ea1ddbe5aa8b5ee262a533e471afb37b4dc3.jpg",
+        "text": "$$\n\\begin{array} { r c l r c l } { { \\lambda _ { i } = \\{ V _ { k } \\lambda _ { k } / V _ { i } \\} \\cup \\lambda _ { k + 1 } } } & { { \\ } } & { { \\mathrm { b y ~ d e f i n i t i o n ~ o f ~ } \\lambda _ { k + 1 } \\mathrm { ~ , ~ } } } \\\\ { { } } & { { } } & { { } } & { { } } \\\\ { { = \\{ U _ { k } \\lambda _ { k } / V _ { k } \\} \\bigcup \\ \\lambda _ { k + 1 } } } & { { \\ } } & { { \\mathrm { b y ~ ( 5 . 1 5 ) , ~ } } } \\\\ { { } } & { { } } & { { } } & { { } } \\\\ { { } } & { { = \\{ U _ { k } \\lambda _ { k + 1 } / V _ { k } \\} \\bigcup \\ \\lambda _ { k + 1 } } } & { { \\ } } & { { \\mathrm { s i n c e ~ } V _ { k } \\mathrm { ~ d o e s ~ n o t ~ o c c u r ~ i n ~ } U _ { k } \\mathrm { ~ , ~ } } } \\\\ { { } } & { { } } & { { } } & { { } } \\\\ { { = \\{ U _ { k } / V _ { k } \\} \\lambda _ { k + 1 } } } & { { \\ } } & { { } } & { { \\mathrm { b y ~ d e f i n i t i o n ~ ( 5 . 5 ) . } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            260,
+            494,
+            771,
+            581
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Hence by (5.14） $\\theta ~ = ~ \\sigma _ { i \\ast + 1 } \\lambda _ { k + 1 }$ .Thus(5.14) holds for all $k \\geq 0$ until the U fication Algorithm terminates in step 2,and the theorem is proved. ",
+        "bbox": [
+            126,
+            586,
+            866,
+            621
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "We are now in a position to prove the basic Leinina, which we state here ag for convenience. ",
+        "bbox": [
+            126,
+            622,
+            866,
+            653
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "LEMMA.If $\\boldsymbol { \\mathrm { \\check { S } } }$ is any set of clauses and $P$ isany subset of the Herbrand unive of $\\boldsymbol { \\mathcal { S } }$ then: $\\mathbb { R } ( P ( S ) ) \\subseteq P ( \\mathbb { R } ( S ) )$ ",
+        "bbox": [
+            126,
+            655,
+            864,
+            689
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "PROOF. Assume that $A \\in \\mathfrak { R } ( P ( S ) )$ . Then either $A \\in P ( \\mathbb { S } )$ ,in which cl $\\varLambda \\in \\varPsi ( \\mathfrak { R } ( S ) )$ since ${ \\mathcal { S } } \\subseteq { \\mathfrak { R } } ( { \\mathcal { S } } ) ;$ or $\\varLambda$ is a ground resolvent of two ground clau $C \\alpha , D \\beta$ where $C \\in S , D \\in S , \\alpha = \\{ T _ { 1 } / V _ { 1 } , \\cdot \\cdot , T _ { k } / V _ { k } \\}$ ,whcre $V _ { \\mathrm { ~ l ~ } } , \\cdots , V _ { k } :$ all the distinct variables of $C$ in alphabetical order and $T _ { 1 } , \\cdots , T _ { k }$ are in and $\\beta = \\{ U _ { 1 } / W _ { 1 } , \\ldots , U _ { m } / W _ { m 3 } \\}$ where $W _ { 1 } , \\cdots , W _ { m }$ arc all the distinet vε ables of $\\boldsymbol { D }$ in alphabetical ordcr and $\\tilde { U } _ { 1 } , \\cdots , \\tilde { \\{ \\chi _ { n } }  _ { }$ are in $P$ . In that case, $\\pmb { A }$ $( \\mathcal { C } - \\mathcal { L } ) \\alpha \\cup ( D - \\mathcal { M } ) \\beta _ { 3 }$ where $\\cal { L } \\subseteq \\cal { C }$ ， $M \\subseteq D$ ， $L$ and $\\it { i d }$ are nonempty,a $L \\alpha , M \\beta$ are singletons whose members are complements.Let ",
+        "bbox": [
+            126,
+            689,
+            871,
+            824
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fb31f62af8a6adb3c4a5e2ae522d316b4fecd2fe14d3a988624463f8a55f90f7.jpg",
+        "text": "$$\n\\theta = \\{ T _ { 1 } / x _ { 1 } , \\cdot \\cdot \\cdot , T _ { k } / x _ { k } , U _ { 1 } / y _ { 1 } , \\cdot \\cdot \\cdot , U _ { m } / y _ { m } \\} ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            833,
+            733,
+            851
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Then it follows that $\\mathcal { A } = ( C - L ) \\xi _ { C } \\theta \\bigcup \\left( D - \\mathcal { M } \\right) _ { \\eta _ { D } \\theta }$ and that $L \\xi _ { \\mathcal { G } } \\theta = L \\alpha$ a $M \\eta _ { D } \\theta = M \\beta$ .Therefore $\\boldsymbol { \\theta }$ unifies the set $N$ of atomic formulas which are me bers, or compicinents of members, of the set $L \\xi _ { \\mathcal { C } } \\bigcup \\big _ { i } \\exists i f _ { \\eta _ { \\mathcal { P } } }$ . Hence by the Unifieation Theorem $\\operatorname { \\ddup } _ { \\varepsilon } \\operatorname { \\ddup } _ { \\varepsilon }$ has a most gencral unificr $\\sigma _ { \\mathcal { N } }$ ,and there is a substitution $\\lambda$ over $P$ such that $\\theta \\stackrel { . . . } { - } \\delta _ { N } \\lambda$ Hence $\\mathit { \\tilde { L } } _ { \\mathrm { A , C } } ^ { \\mathrm { s } } \\sigma _ { N } \\lambda \\ = \\mathit { \\tilde { L } } _ { \\mathrm { A } }$ and $\\Im T \\eta _ { \\ell } \\sigma _ { N } \\lambda \\ = \\ \\mathcal { M } \\beta$ ,and thcrefore $\\displaystyle { \\int _ { \\varepsilon } \\xi _ { \\varepsilon } \\sigma _ { s } }$ and $\\mathcal { N } \\gamma _ { j , j } , j , \\ j$ are singletons whose members are complements. It follows that $\\langle \\bar { I } , \\bar { \\ M } , \\ N \\rangle$ is $^ \\mathrm { a }$ key triple of $\\langle \\mathcal { C } , D \\rangle$ ,and hence that the clause ",
+        "bbox": [
+            126,
+            857,
+            868,
+            893
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            440,
+            99,
+            588,
+            111
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "34 ",
+        "bbox": [
+            128,
+            98,
+            155,
+            111
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            142,
+            121,
+            908,
+            207
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7b363cc8f5b8d6c227e664d2337085d8bccdced5a2c7997455283b82b69d7258.jpg",
+        "text": "$$\nB = ( C - L ) \\xi _ { C } \\sigma _ { N } \\bigcup ( D - M ) _ { \\eta _ { \\mathcal { D } } \\sigma _ { N } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            346,
+            213,
+            702,
+            233
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "is a resolvent of $\\mathcal { C }$ and $\\mathcal { D }$ ; hence ${ \\mathit { l } } 3 \\in { \\mathfrak { Q } } ( { \\mathfrak { S } } )$ .But since $\\begin{array} { r l r } { \\theta } & { { } = } & { \\sigma _ { N } \\lambda } \\end{array}$ ,it follows by (5.5.4） that ${ \\textit { A } } = { \\textit { B } } $ and therefore that $A \\in P ( \\mathfrak { G } ( \\mathcal { S } ) )$ .The proof is complete. The hypotheses of the Lemma do not entail the opposite inclusion ${ \\cal { P } } \\big ( \\mathfrak { G } ( \\mathbb { S } ) \\big ) \\ \\subseteq$ $\\mathfrak { P } ^ { \\prime } ( P ( S ) )$ .As a simple counterexample,consider: ",
+        "bbox": [
+            140,
+            240,
+            908,
+            310
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/62cf8a60c5bdc28e76cc0aa6141cbbd768003a6736887199fbc790f81ae34a27.jpg",
+        "text": "$$\n\\begin{array} { r } { S = \\{ \\{ Q ( x , f ( y ) ) \\} , \\{ { \\sim } Q ( g ( y ) , x ) \\} \\} , ~ P = \\{ a \\} . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            316,
+            764,
+            336
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "A short investigation shows that $P ( \\{ \\} ( \\tilde { \\Lambda } ( \\tilde { \\Lambda } ) )$ contains （sincc ${ \\mathfrak { G } } ( { \\mathcal { S } } )$ docs）while $\\mathfrak { P } _ { \\mathfrak { c } } ( P ( S ) )$ does not.Thus $\\ S$ is unsatisfiable,but $\\boldsymbol { l } ^ { \\flat }$ is not a proof set for $\\check { \\kappa }$ ",
+        "bbox": [
+            142,
+            343,
+            908,
+            377
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6. The Resolution Principle:Refutations ",
+        "text_level": 1,
+        "bbox": [
+            142,
+            401,
+            522,
+            420
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "The single inferencc principle of our system of logic,mentioned in Section 1, is the resolulion principle, namely:From any two clauses $ { C }$ and $\\mathcal { D }$ , one may infer aresolvent of $\\hat { C }$ and $\\boldsymbol { \\mathrm { \\mathit { D } } }$ ",
+        "bbox": [
+            142,
+            424,
+            908,
+            475
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "By a refutation of the sct $\\boldsymbol { \\mathrm { \\Sigma } } _ { \\kappa } ^ { \\mathrm { { \\scriptsize { S } } } }$ of clauses we mean a finite sequence $B _ { 1 } , \\cdots , B _ { n }$ of clauses such that （a）cach $B _ { i }$ ， $1 \\leq i \\leq n$ ,is either in $\\boldsymbol { \\mathrm { \\Sigma } }$ or is a resolvent of two earlier clauses in the sequence,and （b） $B _ { n }$ is□. ",
+        "bbox": [
+            144,
+            477,
+            906,
+            527
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "It is immediate from the Resolution Theorem that a finite set $\\boldsymbol { S }$ of clauses is unsatisfiable if and only if there is a refutation of $\\mathcal { S }$ .Thus the Resolution Theorem is the completcness thcorem for our system of logic. ",
+        "bbox": [
+            142,
+            528,
+            908,
+            578
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Two examples of refutations will illustrate the workings of the system. ",
+        "bbox": [
+            160,
+            578,
+            855,
+            595
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Example 1. The set containing just the two clauses $C _ { 1 }$ and $\\mathcal { C } _ { 2 }$ ，whcre ",
+        "bbox": [
+            160,
+            595,
+            866,
+            612
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7c0b28cff98e3fd7c3d7a8e03f173a30409f0da5ec3b00157aaf25d97c502008.jpg",
+        "text": "$$\n\\begin{array} { l } { { C _ { 1 } = \\{ Q ( x , g ( x ) , y , h ( x , y ) , z , k ( x , y , z ) \\} \\} } } \\\\ { { \\ } } \\\\ { { C _ { 2 } = \\{ \\sim Q ( u , v , e ( v ) , w , f ( v , w ) , x ) \\} } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            313,
+            618,
+            731,
+            665
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "has the refutation $\\check { C } _ { \\mathrm { ~ I ~ } } , \\check { C } _ { \\mathrm { ~ 2 ~ } }$ ，.Note that $\\langle { \\mathcal { C } } _ { 1 } , { \\mathcal { C } } _ { 2 } \\rangle$ has the key triple $\\langle \\mathcal { C } _ { 1 } ^ { \\ast } , \\mathcal { C } _ { 2 } ^ { \\ast } , \\mathcal { N } \\rangle$ ， where $\\mathcal { N }$ is the set ",
+        "bbox": [
+            140,
+            670,
+            908,
+            706
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a509f94a72dd37c4ee35a2ab060f2c0144478e5196c416fc3f00804cc1c680a1.jpg",
+        "text": "$$\n\\begin{array} { r l r } & { } & { \\{ Q ( x _ { 1 } , g ( x _ { 1 } ) , x _ { 2 } , h ( x _ { 1 } , x _ { 2 } ) , x _ { 3 } , k ( x _ { 1 } , x _ { 2 } , x _ { 3 } ) ) , } \\\\ & { } & { Q ( y _ { 1 } , y _ { 2 } , e ( y _ { 2 } ) , y _ { 3 } , j ( y _ { 2 } , y _ { 3 } ) , y _ { 4 } ) \\} . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            137,
+            709,
+            904,
+            753
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "The reader can verify in $^ \\mathrm { \\textregistered }$ few minutes of computation with the Unification Algorithm that $\\sigma _ { \\tilde { i } \\tilde { i } }$ is the substitution with the components: ",
+        "bbox": [
+            140,
+            756,
+            904,
+            790
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9d05400aeda26820f480bcac05fd04c173643a370a75ee452e527988ba464a5e.jpg",
+        "text": "$$\n\\begin{array} { l l l } { { y _ { 1 } / x _ { 1 } ~ , } } & { { h ( y _ { 1 } ~ , ~ \\epsilon ( g ( y _ { 1 } ) ) ) / y _ { 3 } ~ } } & { { } } \\\\ { { g ( y _ { 1 } ) / y _ { 2 } ~ , } } & { { f ( g ( y _ { 1 } ) , ~ h ( y _ { 1 } ~ , ~ \\epsilon ( g ( y _ { 1 } ) ) ) ) / x _ { 3 } ~ } } & { { } } \\\\ { { } } & { { \\epsilon ( g ( y _ { 1 } ) ) / x _ { 2 } ~ , } } & { { k ( y _ { 1 } ~ , ~ \\epsilon ( g ( y _ { 1 } ) ) , f ( g ( y _ { 1 } ) , ~ h ( y _ { 1 } ~ , ~ \\epsilon ( g ( y _ { 1 } ) ) ) ) ) / y _ { 4 } ~ } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            793,
+            768,
+            853
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "and that then $\\mathrm { C } _ { 1 } \\xi _ { \\perp } \\sigma _ { N }$ and $\\mathcal { C } _ { \\widehat { \\sf 2 } } \\eta _ { \\mathcal { C } _ { \\widehat { \\sf 2 } } } \\sigma _ { N }$ are singletons whose mcmbers are complcments. ",
+        "bbox": [
+            140,
+            854,
+            902,
+            890
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "THE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            388,
+            91,
+            660,
+            105
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "35 ",
+        "bbox": [
+            882,
+            91,
+            906,
+            103
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "This example illustrates the way in which a proof set is automatically computed as a by-produet of thc resolution operation. The terms of the above substitution components become those of a proof set for $\\{ \\zeta _ { i } ^ { \\mathrm { y } } , \\zeta _ { i } ^ { \\mathrm { y } } \\}$ when the variable $i i _ { \\downarrow }$ is replaced throughout by any term of the Herbrand universe of $\\{ \\mathcal { C } _ { 1 } , \\mathcal { C } _ { 2 } \\}$ ，e.g. by the individual constant $\\therefore z$ \" It is interesting to note that the earliest level of this Herbrand universe $\\mathbf { \\nabla } \\tilde { f } \\tilde { \\mathbf { \\nabla } }$ to include such a proof set is $H _ { 5 }$ ,which has of the order of $\\sharp \\{ \\} ^ { \\ell 4 }$ members. Consequently $H _ { 5 } \\big ( \\{ \\vec { \\tau } _ { \\mathrm { ~ i ~ } , } \\ \\vec { \\tau } _ { \\mathrm { ~ i ~ } } ^ { \\prime } \\} \\ \\big )$ has of the order of $\\boldsymbol { \\mathrm { 1 0 ^ { 2 5 6 } } }$ mombers. A level-saturation proccdure would not find this cxample feasible. ",
+        "bbox": [
+            86,
+            116,
+            884,
+            257
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Example 2. A more interesting example is one which was discussed in [5]. It arises froin the following algebraic problem, ",
+        "bbox": [
+            86,
+            257,
+            882,
+            292
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Prote that in any associative system which has left and right solutions $\\boldsymbol { \\mathscr { x } }$ and y for all equations ${ x \\cdot \\alpha } = b $ and ${ a / } \\vartheta = b $ ,there is $a$ right identity element. ",
+        "bbox": [
+            86,
+            293,
+            880,
+            327
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "To formalize this problem in our logic, we deny the alleged conelusion, and try to refute the set containing the clauses (where $Q ( x , y , z )$ is to mean $\\it { \\Psi } _ { 3 / 2 } = \\it { \\Psi } _ { 2 } \\cdot \\it { \\Psi } _ { 3 / 2 }$ ： ",
+        "bbox": [
+            88,
+            329,
+            882,
+            363
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "nd right ",
+        "bbox": [
+            640,
+            417,
+            882,
+            433
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c858bb464c686787a948f5d70d7d84dde6989251f47b4bab278842ec36bf7556.jpg",
+        "text": "$$\n\\begin{array} { r l } & { C _ { 1 } : \\quad \\{ \\mathbf { \\mathcal { \\backsimeq } } Q ( x , y , u ) , \\mathbf { \\mathcal {  } } Q ( y , z , v ) , \\mathbf { \\mathcal { \\sim } } Q ( x , v , w ) , Q ( u , z , w ) \\} } \\\\ & { C _ { 2 } : \\quad \\{ \\mathbf { \\mathcal { \\backsimeq } } Q ( x , y , u ) , \\mathbf { \\mathcal { \\sim } } Q ( y , z , v ) , \\mathbf { \\mathcal { \\sim } } Q ( u , z , w ) , Q ( x , v , w ) \\} } \\\\ & { C _ { 3 } : \\quad \\{ Q ( x , y ) , \\mathbf { \\mathcal { \\alpha } } , y \\} \\quad } & { \\mathrm { E x i s t e n c e ~ o f ~ \\ l e f t ~ a ~ } } \\\\ & { C _ { 4 } : \\quad \\{ Q ( x , h ( x , y ) , y ) \\} } \\\\ & { C _ { 5 } : \\quad \\{ Q ( x , y , f ( x , y ) ) \\} } & { \\mathrm { C l o s u r e ~ u n d e r ~ } . } \\\\ & { C _ { 6 } : \\quad \\{ \\mathbf { \\mathcal { \\backsimeq } } Q ( k ( x ) , x , k ( x ) ) \\} } & { \\mathrm { N o ~ r i g h t ~ i d e n t i t y } . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            86,
+            368,
+            806,
+            505
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "By adding the following resolvents, we get a refutation: ",
+        "bbox": [
+            108,
+            511,
+            671,
+            529
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0a412a63310e709043325f2facbf8e17d5ee145b2e501c3996aa207d59e1c705.jpg",
+        "text": "$$\n\\begin{array} { r l } & { C _ { 7 } : \\ \\{ \\sim Q ( y _ { 1 } , x _ { 5 } , y _ { 1 } ) , Q ( y _ { 2 } , x _ { 5 } , y _ { 5 } ) \\} } \\\\ & { C _ { 8 } : \\ \\lceil \\sim Q ( y _ { 1 } , y _ { 2 } , y _ { 1 } ) \\} } \\\\ & { C _ { 9 } : \\ \\Gamma = } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            86,
+            535,
+            428,
+            601
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Commentary. $C _ { 7 } ^ { 7 }$ is the resolvent of the pair $\\langle C _ { 1 } , C _ { 3 } \\rangle$ for the key triple ",
+        "bbox": [
+            104,
+            606,
+            831,
+            625
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fc28b4ca2257fc0e7fc95b26ceff36b5ec61fde4ef0bf25dc8c758a04f7b0784.jpg",
+        "text": "$$\n\\langle \\{ \\sim Q ( x , y , u ) , \\sim Q ( x , v , w ) \\} , \\{ Q ( g ( x , y ) , x , y ) \\} , { \\cal N } \\rangle\n$$",
+        "text_format": "latex",
+        "bbox": [
+            224,
+            632,
+            748,
+            652
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "where $\\mathcal { N }$ is the set $\\{ Q ( x _ { 4 } , x _ { 5 } , x _ { 1 } ) , Q ( x _ { 4 } , x _ { 2 } , x _ { 3 } ) , Q ( g ( y _ { 1 } , y _ { 2 } ) , y _ { 1 } , y _ { 2 } ) \\}$ The $\\sigma _ { \\tilde { S } }$ computed for this $\\mathcal { N }$ by the Unification Algorithm is ",
+        "bbox": [
+            86,
+            659,
+            884,
+            695
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7c25995e8a234c89c3967d0c61b667997cc6d1f3daf108ecb8ca9a81d7ae34c0.jpg",
+        "text": "$$\n\\{ y _ { 2 } / x _ { 1 } , y _ { 1 } / x _ { 2 } , y _ { 2 } / x _ { 3 } , g ( y _ { 1 } , y _ { 2 } ) / x _ { 4 } , y _ { 1 } / x _ { 5 } \\} ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            277,
+            702,
+            691,
+            722
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "as is easily verified. $\\hat { C } _ { 8 }$ is thc only resolvent of $\\langle { \\cal C } _ { 6 } , { \\cal C } _ { 7 } \\rangle$ ,and  is the only resolvent of $\\langle { C _ { 4 } ^ { \\prime } , C _ { 8 } ^ { \\prime } } \\rangle$ ， ",
+        "bbox": [
+            88,
+            727,
+            882,
+            764
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "This oxample illustrates the way in which the single steps in a refutation made with the resolution principle go beyond,in their complexity, the capacity of the human mind to apprehend thcir correctness in one single intellectual act.By taking larger bites,so to speak, the resolution principle in this case permits a very compact, not to say clegant,piece of reasoning. $\\mathrm { C _ { : } } _ { : \\rangle }$ and $C _ { 5 }$ are not used as premisses in the refutation, although this has nothing to do with the resolution principle. Hence a nonredundant refutation for this exarmple is the sequence: $\\mathcal { C } _ { \\downarrow }$ ， $C _ { 3 }$ ： $\\beta _ { s }$ ， $\\ell _ { \\cdot } ^ { \\prime } { \\mathfrak { s } }$ ， $\\mathcal { C } _ { : : } ^ { \\prime }$ ， $\\zeta _ { 8 }$ ，□ ",
+        "bbox": [
+            86,
+            764,
+            884,
+            905
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "36 ",
+        "bbox": [
+            86,
+            84,
+            113,
+            96
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            408,
+            85,
+            564,
+            98
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "7. Refutatim Procedures, Search Principles ",
+        "text_level": 1,
+        "bbox": [
+            120,
+            133,
+            526,
+            152
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "The foregoing discusson was intended only to establish the theoretical framework, in the form of a speeial system of logic,for the design of theorem-proving programs, i.e. in the present case, refutation procedures. No attempt has been made thus far to diseuss the question of developing efficient refutation procedures,and in this final section of the paper we briefly discuss this question. ",
+        "bbox": [
+            122,
+            156,
+            880,
+            242
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "The raw implementation of thc Resolution Theorem would produce a very inefficient refutation procedure,namely,the procedure would consist of computing, given the finite sot $\\mathrm { \\AA }$ of clauses as input, the sequence of sets S, $( \\ S _ { \\ell } ( \\ S ^ { \\prime } )$ ， ${ \\mathfrak { G } } _ { \\ell } ^ { 2 } ( S ) , \\cdots$ ,until one is encountered, say, ${ \\mathfrak { G } } _ { \\mathfrak { i } } ^ { \\pi } ( { \\mathfrak { S } } )$ ,which either contains $\\boxed { \\begin{array} { r l } \\end{array} }$ 0r else does not contain  but is equal to its sucecssor $( \\beta _ { 2 } ^ { n - 1 - l } ( S )$ . In the former case, $\\mathfrak { a }$ refutation of $\\ddot { s }$ is obtained by tracing back thc genesis of O；in the latter case the conclusion is that $\\smash { \\mathcal { S } ^ { \\prime } }$ is satisfiable.By Church's Theorem [1] we know that for some inputs $\\boldsymbol { s }$ this procedure,and in general all correct refutation procedures, will not terminate in either of these two ways but will continue computing indefinitely. ",
+        "bbox": [
+            120,
+            243,
+            880,
+            411
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "In some cases we can foresee the nonterminating behavior. Consider the example of the set $\\mathcal { S }$ whose members are: ",
+        "bbox": [
+            115,
+            413,
+            877,
+            445
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4670caa03dc8ee6b1d545731a1c427b81c82c3fc4d1305fccfb8d44d76288fa3.jpg",
+        "text": "$$\nC _ { 1 } : \\{ Q ( a ) \\} , \\qquad C _ { 2 } : \\{ \\sim Q ( x ) , Q ( f ( x ) ) \\} .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            293,
+            455,
+            704,
+            475
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(The reader will recognize this as the formulation, in our logic,of a fragment of Peano's postulates for the natural numbers, with $\" Q ( x ) \"$ for $^ { 6 6 } \\mathfrak { x }$ isa natural number,” $\\varepsilon _ { \\langle \\dot { a } \\rangle } ,$ for ${ } ^ { \\mathfrak { s c } } \\ 0 , { } ^ { \\mathfrak { s } } $ and $\\ast \\cdot \\boldsymbol { f } ( \\boldsymbol { x } ) ^ { \\flat }$ for“the successor of $x '$ ） It is easy to see that for this $\\boldsymbol { \\mathrm { \\mathit { S } } }$ the procedure described above would generate successively the resolvents $\\{ \\hat { Q } ( f ( a ) ) \\}$ ， $\\{ Q ( f ( f ( a ) ) ) \\}$ ， $\\{ Q ( f ( f ( f ( a ) ) ) ) \\} \\rangle$ ，，etc.，ad infinitum. ",
+        "bbox": [
+            120,
+            484,
+            880,
+            571
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "This example suggests our attempting to formulate a principle which would allow us effcetively to recognizc the particular indefinite continuation phenomenon which it exhibits,so that we might incorporate the principle into a refutation procedure and cause it to terminate for this $\\mathrm { _ { 5 } }$ and for other similar examples. Such a principle,which we call the purity principle, is available, based on the notion of $\\mathfrak { Q }$ literal being pure in a set $\\mathcal { S }$ of clauses. We define this notion as follows. ",
+        "bbox": [
+            117,
+            571,
+            877,
+            688
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "7.1 Pure literals.If $S$ is any finite set of clauses, $C$ a clause in $\\check { S }$ and $\\boldsymbol { L }$ a literal in $C$ with the property that there is no key triple $\\langle \\lbrace { \\cal L } \\rbrace , { \\cal M } , { \\cal N } \\rangle$ for any pair $\\langle \\mathcal { C } , D \\rangle$ of clauses,where $D$ is any clause in $S \\ - \\ \\{ \\zeta \\}$ ,then $L$ is said to be pure in $\\ S$ ",
+        "bbox": [
+            115,
+            689,
+            877,
+            756
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "The purity principle is then based on the following theorem. ",
+        "bbox": [
+            140,
+            757,
+            724,
+            773
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "PURITY THEOREM.If $\\mathcal { S }$ is any finite set of clauses,and $L \\in C \\not \\in S$ isaliteral which is mire in $\\boldsymbol { \\ S }$ ，then $\\boldsymbol { \\mathcal { S } }$ is satisfiable if and only if $\\mathrm { \\AA } - \\mathrm { \\{ } \\it { C } \\}$ is satisfiable. ",
+        "bbox": [
+            117,
+            774,
+            877,
+            807
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "PROOF. If $\\ S$ is satisfiable then so is $S \\sim \\{ C \\}$ since it is a subset of $\\boldsymbol { \\mathcal { S } }$ If $\\mathrm { \\Phi } { \\cal S } \\ - \\ \\{ { \\cal C } \\}$ is satisfiable,thcn thcre is a model $\\varLambda$ of $ { \\mathrm { ~ \\cal { S } ~ } } \\sim  { \\{ C \\} }$ ,every literal in which occurs in some clause of $H ( S )$ ，where $H$ is the Herbrand universe of $\\smash { \\ S }$ Let $N$ be the set of all ground literals $L \\vartheta _ { \\cdot }$ where $\\pmb \\theta$ is a substitution over $H$ ,and let $\\kappa$ consist of all complements of members of $N$ Then thc set $P = N \\cup ( A \\mathrm { ~ - ~ } K )$ is $\\mathfrak { a }$ model; morcover it is a model of S, since every clause in H({Ct） contains a member of P (namely a member of N), and every clause in H(S - {C}） contains a member of P,namely a member of A - K;for no clause in H(S - {C}) coutains a member of K,since otherwise, if Dβ were such a clause, with D ∈ S -{C},then there would be an M Ω D such that Mβ would be a singleton containing a member of K. Then there would be some substitution α over H such that {L/a, Afβ contained complementary singletons. Hence by the same argument as in the proof of the Lemma, there would be a key triple $\\langle \\{ \\mathcal { X } \\} , \\mathcal { W } , \\mathcal { N } \\rangle$ of the pair $\\langle { C , \\ \\bar { Z } } \\rangle$ , contradicting the purity of $\\boldsymbol { \\mathcal { \\bar { L } } }$ in $\\mathcal { S }$ .The theorem is proved. ",
+        "bbox": [
+            115,
+            809,
+            877,
+            893
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "THE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            364,
+            105,
+            633,
+            116
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "37 ",
+        "bbox": [
+            855,
+            105,
+            877,
+            118
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            100,
+            113,
+            893,
+            273
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The purity principle is then simply the following: One may delete, from a finite set S of clauses, any clause conlaining a literal which is pure in S. ",
+        "bbox": [
+            95,
+            273,
+            888,
+            307
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "When S is the little Peano example given carlicr, i.e., is the set containing just the two clauscs ",
+        "bbox": [
+            93,
+            309,
+            888,
+            340
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c61e09325c5903d8767ed71ddbc7e2d095fd75adeac51119cd9d93817baf12eb.jpg",
+        "text": "$$\n{ \\cal C } _ { \\bf { I } } : \\{ Q ( a ) \\} , \\qquad { \\cal C } _ { \\bf { 2 } } : \\{ \\sim Q ( x ) , Q ( f ( x ) ) \\} .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            350,
+            704,
+            371
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "we see that the underlined literal in C is pure in S. Hence we may delete Cz: obtaining the set $\\mathrm { { \\small { S } } ~ } \\sim \\mathrm { { \\small { \\Omega } } } \\{ \\mathrm { { \\small { C } } _ { : : } } \\}$ whose only clause is ",
+        "bbox": [
+            95,
+            377,
+            884,
+            413
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/17750dd1e51d90d8c744fa1d727561fa5059a35cd6be2c3f9a0bbb879ab04d4f.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\mathcal { C } _ { \\mathrm { ~ t ~ } } : } & { { } \\mathrm { ~ \\Omega ~ } _ { \\mathrm { i } } ^ { \\dagger } \\mathcal { Q } ( \\boldsymbol { a } ) \\dag , } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            424,
+            418,
+            557,
+            440
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "But of course the underlincd literal is, trivially,pure in S - {Czl; hence we may delete C,obtaining thc set S - {Ci} - {Cz},which is empty, hence satisfiable. Hence by the Purity Theorem, $\\xi$ is satisfiable. ",
+        "bbox": [
+            93,
+            447,
+            888,
+            500
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Thus a refutation procedure incorporating the purity principle as well as the resolution principle “converges\" for more finite sets of clauses than a procedure based on the resolution principle alone. Such prineiplcs as the purity principle we call search princeples, to distinguish them from inference principles. ",
+        "bbox": [
+            93,
+            501,
+            886,
+            569
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "There is another seareh principle which, though not increasing the range of convergence， does help to inerease the rate of convergencc, of refutation procedures. We call this principle the subsumption principle and base it on the following definition. ",
+        "bbox": [
+            91,
+            571,
+            884,
+            638
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "7.2 Subsumption. If C and D arc two distinct nonempty clauses, we say that C subsumes D just in case there is a substitution g such that Cg D. ",
+        "bbox": [
+            86,
+            641,
+            882,
+            675
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The following theorem establishes the basic property of subsumption. ",
+        "bbox": [
+            102,
+            676,
+            837,
+            693
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "SUBSUMPrroN THEoREM. If S is any finite set of clauses,and D is any clause in S which is subsumed by some clause in S- {D},then Sis satisfiable if and onty $S \\sim { \\bf \\Gamma } _ { \\mathrm { : } } ^ { \\mathrm { : } } D \\}$ is satisfiable. ",
+        "bbox": [
+            88,
+            693,
+            884,
+            743
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "PROOF.We need only show that if M is a model of S- {D},then M is a model of S.Let M be a model of S - {D},and suppose that C ∈ S - {D} subsumes D. Then there is a substitution σ such that Cg ≌ D.Since D ∈ S, the terms of the components of g must be formed from function symbols in the functional vocabulary of S, together possibly with variables. Hence every ground instance of Co over H is a ground instance of C over H,and hence contains a member of M. But every ground instance DX of D ineludes the ground instance Co of C, and hence contains a member of M. So M is a model of S and the theorem is proved. ",
+        "bbox": [
+            84,
+            745,
+            880,
+            901
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            422,
+            85,
+            575,
+            96
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "38 ",
+        "bbox": [
+            102,
+            81,
+            126,
+            94
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The subsumption prneiple is then simply the folowing: Onc may delete,from a fenite set $\\mathcal { S }$ of clausesayclouseDwhichissubsumedbclause in $\\beta  \\{ \\beta \\}$ ",
+        "bbox": [
+            148,
+            109,
+            904,
+            146
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\operatorname { l n }$ order to make the subsuinption prineiple availabie for ineorporation into a refutation procedure, we must give an algorithm for deciding whether oue clause $\\mathcal { C }$ subsumes another clanse $\\mathcal { D }$ Such an algoritin is the following Subsumption Algorithm: ",
+        "bbox": [
+            146,
+            145,
+            904,
+            213
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Step 1.Lot $\\xi _ { \\vdots } ^ { \\ast }$ $\\Gamma _ { \\eta \\psi }$ beallthe distinct variables,inalphabetical orderof $\\varLambda$ Let $J _ { \\mathrm { ~ i ~ } } , \\dots , J _ { n }$ be distinct individual constants, none of whien occur in $\\zeta$ or $^ { j ) }$ Let $\\hat { \\theta } \\quad { \\approx } { * }$ $, J _ { \\mathrm { ~ i ~ } } / \\mathrm { ~ i ~ } ^ { * } ,$ ， $J _ { \\pi : } / V _ { \\pi : } \\}$ .Compute $D \\theta$ and go to step 2.   \nStep 2.Sot $A _ { 0 } \\approx \\beta _ { j } ^ { \\prime }$ ： $k = ~ 0$ , and go to step 3.   \nStep 3.If $\\mathcal { A } _ { k }$ docs not contain,let $\\textit { A } _ { t + 1 }$ be the $\\operatorname { s c } ; \\operatorname { f } ,$ of ull clauses of the forn $( \\dot { \\kappa } \\sigma _ { N } \\cdots \\dot { \\iota } \\rbrace \\dot { \\iota } \\mathfrak { c } _ { N } ) ,$ where $\\bar { \\kappa } \\in \\mathcal { A } _ { k } \\mathrm { ~ , ~ } \\bar { \\mathcal { M } } \\subseteq \\bar { \\kappa } \\mathrm { , ~ } \\bar { \\mathcal { N } } = \\bar { \\mathcal { M } } \\mathrm { ~ U ~ } \\{ \\bar { P } \\} \\mathrm { , ~ } \\dagger$ or somoe $I ^ { \\gamma } \\ _ { \\mathrm { ~ \\tiny ~  ~ } } ^ { \\gamma } \\quad I \\lambda \\notin$ and $\\therefore$ ismost generallyuifiable with most general unifier $\\pmb { \\sigma } _ { N }$ ； and go to step 4. Otherwise,terminate.   \nStep 4.I $\\therefore i \\lambda _ { k + 1 }$ is nonempty,add 1 t $\\operatorname { \\mathrm { \\Sigma } } _ { i \\setminus j } ^ { \\prime } { \\mathrm { \\Sigma } } _ { i \\setminus j } ^ { \\prime }$ and return to step 3.Otherwise,terminate. ",
+        "bbox": [
+            146,
+            222,
+            904,
+            337
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "That this is an algorithm is clear from the fact that cach clause in $\\mathcal { A } _ { \\boldsymbol { k } + \\boldsymbol { k } }$ is smaller,by at least one literal,than the clause in $\\mathbf { \\chi } _ { i , i } ^ { A }$ from which it was obtained, Hence,since the only clause in $\\measuredangle 1 _ { 0 }$ has but finitely many literais, the sequence ${ \\mathit { s i } } _ { \\emptyset } , { \\mathit { s i } } _ { \\ ? } , \\cdots$ ，must eventualiy contain a set which contains $\\smash { \\prod _ { s = - 1 } ^ { 2 } }$ or is empty. ",
+        "bbox": [
+            146,
+            347,
+            904,
+            415
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "That the Subsumption Algorithm is correct is shown by the following argument that it terininates in step 3 if and only if $\\mathcal { C } _ { \\upsilon } ^ { \\mathrm { ~ \\tiny ~ \\mathfrak ~ { ~ \\chi ~ } ~ } }$ subsumes $\\mathcal { D }$ ",
+        "bbox": [
+            146,
+            415,
+            900,
+            450
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "f $\\mathcal { C }$ subsumes $\\mathit { \\Pi } _ { \\mathit { 1 0 } }$ ，then $\\mathit { C } \\sigma \\subseteq \\mathit { D }$ for some $\\sigma$ Hence $\\langle z _ { \\sigma } \\theta \\subseteq J \\rangle \\theta$ Henee $\\dot { C } _ { \\bf \\Phi } ^ { \\prime } \\mu \\stackrel { \\zeta ^ { - } } { = }$ $D \\theta$ for some $\\mu$ Now assumc, for $\\mathit { \\hat { k } } \\equiv 0$ ,that $K ( \\cdot , \\lambda _ { i } ) ,$ and that, for some $\\mu _ { - }$ $K _ { \\mu } \\subseteq I ) \\theta .$ If $\\kappa$ is not□,let $P$ be a literal in $K \\mu \\cap \\mathcal { D } \\mathcal { Q }$ Then there is an $i k / \\zeta \\zeta \\zeta \\zeta \\zeta$ such that $N \\backsim ( \\mathcal { M } \\cup \\{ P \\} )$ is unificd by $\\mu$ Therefore by the Unification Thcorem $\\mathcal { N }$ has a most general unifier $\\boldsymbol { \\mathcal { O } } _ { \\mathcal { N } }$ ,and the clause $G = ( { \\mathit { k } } \\sigma _ { N } \\sim { \\mathit { k } } ) \\sigma _ { N } )$ isin $\\boldsymbol { \\mathcal { A } } _ { \\boldsymbol { k } + \\boldsymbol { \\mathbf { j } } }$ But by the Unification Theorem $\\mu = \\phantom { } \\sigma _ { N } \\lambda$ for some $\\lambda ,$ hence $K \\sigma _ { \\mathcal { N } } \\lambda \\subset D \\theta$ Therefore $G \\lambda \\subseteq D \\theta$ Since $C \\ \\in \\ A _ { 0 }$ ,this shows that each $\\boldsymbol { \\mathscr { A } } _ { i } _ { : }$ ， $j _ { k } \\stackrel {  } { \\underset { n  \\infty } { \\longrightarrow } } \\{ \\begin{array} { r l } \\end{array} \\}$ ,either contains  or is nonempty.Hence the Subsumption Algorithm does not terminate in step 4. Therefore it terminates in step 3. ",
+        "bbox": [
+            144,
+            450,
+            902,
+            602
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "If the Subsumption Algorithm terminates in step 3, for $\\mathit { C } _ { \\lambda } ^ { \\prime }$ and $\\boldsymbol { D }$ as input,then there is a finite sequence $\\mathrm { C } _ { 0 } \\ , \\ C _ { 1 } \\ , \\ \\cdots \\ , \\ C _ { n + 1 }$ of clauses such that $\\ell _ { \\downarrow } ^ { \\prime } \\approx \\ell$ $C _ { \\cdot n + 1 } ^ { \\prime } =$ $\\sqcap$ ,and, for $0 \\ \\leq \\ j \\ \\leq \\ n$ $C _ { j + 1 } = C _ { j } \\sigma _ { j } - M _ { j } \\sigma _ { j }$ ，where $M N _ { j } \\subseteq C _ { j } ^ { t }$ ，and $\\boldsymbol { \\mathcal { T } } _ { j }$ is the most general unifier of $\\ M , \\ U \\{ P \\}$ ,where $I ^ { \\prime } \\in \\mathbb { \\Gamma } I \\partial \\theta$ It follows that (since $M _ { j } ( \\pmb { \\tau } _ { j }$ contains no variables, $0 \\not \\equiv \\ j \\ \\stackrel { \\ll } { = } \\ n$ we have ",
+        "bbox": [
+            146,
+            602,
+            902,
+            688
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6a622d3c62dc7fb97f6517846f999fb2ce1caadd2ea65e31afbd6a0d7b7e7b68.jpg",
+        "text": "$$\n\\mathcal { C } _ { n \\div \\mathtt { i } } = \\sqcup = ( \\sigma _ { 0 } \\sigma _ { 1 } \\cdot \\cdot \\cdot \\ \\sigma _ { n } - M _ { 0 } \\sigma _ { 0 } - M _ { 1 } \\sigma _ { 1 } - \\cdot \\cdot \\cdot \\ \\smile \\ M _ { \\ast } \\sigma _ { n } \\ ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            235,
+            693,
+            806,
+            713
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "i.e.that $C \\sigma _ { 0 } \\sigma _ { 1 } \\ldots \\sigma _ { n } \\subseteq ( M _ { 0 } \\sigma _ { 0 } \\sqcup M _ { 1 } \\sigma _ { 1 } \\sqcup \\ldots \\sqcup M _ { n } \\sigma _ { n } ) \\subseteq D \\theta$ Hence,for some A $, c \\rangle \\subseteq { \\mathcal { D } } \\vartheta$ Let $\\sigma$ be the substitution obtained from X by the replacement,in each component of $\\lambda$ of $J _ { \\textrm { i } }$ by $V _ { i }$ ,for $1 \\leq i \\leq m$ .Then $\\mathit { C } _ { \\mathcal { O } } ^ { \\prime } \\subsetneq D$ ",
+        "bbox": [
+            144,
+            717,
+            900,
+            770
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "A partieularly useful application of the subsumption principle is the following:Suppose a resolvent $\\mathcal { R }$ of $\\mathcal { C } ^ { \\sharp }$ and $D$ subsumes one of $C , D$ ; then in adding $\\mathcal { R }$ by the resolution principle we may simultaneously delete,by the subsumption principle, that one of C, D which R subsumes. This combined opcration aiounts to replacing C or D by R;accordingly we name thc prineiple involved the replacesnent principle. ",
+        "bbox": [
+            144,
+            772,
+            900,
+            874
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "39 ",
+        "bbox": [
+            880,
+            82,
+            902,
+            95
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "THE BESOLUTION PRINCIPLE ",
+        "bbox": [
+            388,
+            79,
+            660,
+            95
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The following example,used by Gilmore [4], Davis-Putnam [2] and Friedman [3], illustrates the utility of these search principles in spccding up convergence. Consider the set $\\mathbb { S }$ whose members are: ",
+        "bbox": [
+            111,
+            138,
+            886,
+            189
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d7532629c1cd05f04aba6c5dabfb0bd4e9a87fe6a7a6b6eec26aebedb1c9467b.jpg",
+        "text": "$$\n\\begin{array} { r l } { C _ { 1 } : } & { \\underbrace { \\{ P ( x _ { 1 } , x _ { 2 } ) \\} } _ { ( 6 ) } } \\\\ { C _ { 2 } : } & { \\{ \\underbrace { \\{ \\sim P ( y _ { 2 } , f ( y _ { 1 } , y _ { 2 } ) ) } , \\ \\sim P ( f ( y _ { 1 } , y _ { 2 } ) , f ( y _ { 1 } , y _ { 2 } ) ) } _ { ( 1 ) } , \\ Q ( y _ { 1 } , y _ { 2 } ) \\}  \\\\ { C _ { 3 } : } & { \\{ \\underbrace { \\sim P ( y _ { 2 } , f ( y _ { 1 } , y _ { 2 } ) ) } _ { ( 3 ) } , \\ \\underbrace { \\sim P ( f ( y _ { 1 } , y _ { 3 } ) , f ( y _ { 1 } , y _ { 2 } ) ) } _ { ( 4 ) } , \\ \\underbrace { \\sim Q ( y _ { 1 } , f ( y _ { 1 } , y _ { 2 } ) ) } _ { ( 5 ) } , \\sim Q ( f ( y _ { 1 } , y _ { 3 } ) , f ( y _ { 1 } , y _ { 2 } ) ) \\} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            106,
+            196,
+            882,
+            316
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "and we obtain the set $S ^ { \\prime }$ whose only members are: ",
+        "bbox": [
+            108,
+            321,
+            620,
+            339
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a6b1415d1e6fc1aac1671b57c17b606dbe1edaf53bc9b3e9590f9b0f54b3ce62.jpg",
+        "text": "$$\n\\begin{array} { r l } { { \\hat { C } _ { 4 } : } } & { { \\{ Q ( y _ { 1 } , y _ { 2 } ) \\} } } \\\\ { { } } & { { } } \\\\ { { C _ { 5 } : } } & { { \\{ \\sim Q ( f ( y _ { 1 } , y _ { 2 } ) , f ( y _ { 1 } , y _ { 2 } ) ) \\} } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            108,
+            346,
+            368,
+            387
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "in six stages which may be followed through by deleting the underlined literals' and the underlined clause,in the order indicated.This gives the set of clauses at each stage.Deletions(1） through (5） are by virtue of the replacement principle;deletion (6),of the entire clause $C _ { 1 }$ ,is by virtue of the purity principle. The set $\\bar { s } ^ { \\prime }$ in turn is found immediately to be unsatisfiable,since $C _ { 4 }$ and $C _ { 5 }$ have as their only resolvent. ",
+        "bbox": [
+            111,
+            393,
+            884,
+            494
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Gilmore's 704 program failed to convcrgo after 21 minutes'running timc, when given this example. The morc efficient procedure of Davis and Putnam converges, for this cxample,in 3O minutes of hand computation. ",
+        "bbox": [
+            111,
+            495,
+            884,
+            545
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "The application, to a finite set $\\textrm { \\AA }$ of clauses, of any of the three search principles we have described, produces a set $\\boldsymbol { S ^ { \\prime } }$ which either has fewer clauses than $\\boldsymbol { s }$ or has the same number of clauses as $\\boldsymbol { \\mathrm { \\Sigma } } ^ { S }$ but with one or more shorter clauscs. An obvious method of exploiting these principles in a refutation procedurc is therefore never to add new clauses,by the resolution principle,except to a set to which the three prineiples are no longer applicable. We might call such scts irreducible. The way in which such a procedure would terminate,for satisfiable $\\boldsymbol { \\varsigma }$ within its range of convergence,would then be with a set which is either empty (as in the Peano example) or nonempty, irreducible,and with the property that each resolvent of any pair of its clauses is subsumed by some one of its elauses. ",
+        "bbox": [
+            113,
+            547,
+            882,
+            732
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "There are further search principles of this same general sort,which are less simple than those discussed in this scction. A sequel to the present paper is planned in which thc thcoretical framework developed here will be used as the basis for a more extensive treatment of search principles and of the design of refutation procecdures. This section has been merely a sketch of the general nature of the problem,and a brief view of some of the approaches to it. ",
+        "bbox": [
+            111,
+            733,
+            882,
+            836
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgments. I should like to express my indebtedness to my colleagucs Dr. George A. Robinson and Dr. Lawrence T. Wos, of the Argonne National Laboratory，and to Professor William Davidon of Haverford College, for their iuvaluable insights and criticisms concerning the basic concepts of this paper. My thanks are also due to the ACM referees,and to Dr. T. Hailperin of the Sandia Corporation,whosc comments on and criticisms of a prior version of the paper greatly facilitatcd the writing of the present complete revision. ",
+        "bbox": [
+            113,
+            840,
+            882,
+            893
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "J.A.ROBINSON ",
+        "bbox": [
+            422,
+            108,
+            573,
+            119
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "40 ",
+        "bbox": [
+            111,
+            103,
+            137,
+            116
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            113,
+            108,
+            871,
+            176
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "RECEIVED SEPTEMBER,1963；REVISED AUGUST,1964",
+        "bbox": [
+            113,
+            186,
+            544,
+            200
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "REFERENCES ",
+        "text_level": 1,
+        "bbox": [
+            420,
+            212,
+            560,
+            226
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "1.CHURcn，A. A note on the Entscheidungsproblem.J. Symb.Logic 1 (1936)，40-41. Correction,ibid.,101-102.   \n2.DAvIs,M.,AND PurNAm,H. A computing procodure for quantification theory.J.ACM   \n7(Mar.1960),201-215.   \n3.FRiEDMAN,J. A somi-dccision procedure for the functional calculus.J.ACM 10 (Jan.   \n1963), 1-24.   \n4.GILMoRE,P.C.A proof method for quantification theory.IBM J.Res.Develop.4 (1960),28-35.   \n5.RoBINsoN,J.A. Thcorcm-proving on thc computer.J.ACM 10 (Apr.1963)，163-174. ",
+        "bbox": [
+            111,
+            232,
+            873,
+            361
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "THE RESOLUTION PRINCIPLE ",
+        "bbox": [
+            355,
+            79,
+            624,
+            91
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            846,
+            79,
+            866,
+            91
+        ],
+        "page_idx": 18
+    }
+]

@@ -1,0 +1,396 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas (de Lenguajes) de Programaci´on ",
+        "bbox": [
+            215,
+            455,
+            784,
+            507
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Ciencias de la Computaci´on Universidad de Buenos Aires ",
+        "bbox": [
+            273,
+            558,
+            726,
+            628
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "30 de septiembre de 2025 ",
+        "bbox": [
+            334,
+            680,
+            662,
+            720
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "C´alculo Lambda Segunda parte ",
+        "bbox": [
+            69,
+            187,
+            685,
+            397
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r l } & { \\sigma , \\tau : = \\dots \\mid \\sigma \\times \\tau } \\\\ & { M , N : = \\dots \\mid \\langle M , N \\rangle \\mid \\pi _ { 1 } ( M ) \\mid \\pi _ { 2 } ( M ) } \\end{array}$   \nDefinir como macro la funci´on $c u r r y _ { \\sigma , \\tau , \\delta }$ que sirve para currificar funciones que reciben pares como argumento. Enunciar las nuevas reglas de tipado.   \nExtender el conjunto de valores y determinar las nuevas regl de sem´antica.   \n¿Qu´e problema introduce agregar la siguiente regla? ",
+        "bbox": [
+            99,
+            283,
+            889,
+            738
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fce02c97d9c1774c47170bf060665c55c2cb55f9232bc5b6f67c812594a7d7a1.jpg",
+        "text": "$$\n\\pi _ { 1 } ( \\langle M , N \\rangle ) \\longrightarrow M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            772,
+            651,
+            827
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 / 23 ",
+        "bbox": [
+            939,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Extensi´on con pares ",
+        "bbox": [
+            74,
+            216,
+            933,
+            272
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Primera extensi´on ",
+        "bbox": [
+            16,
+            22,
+            314,
+            77
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Verificar el siguiente juicio de tipado: ∅ ⊢ π1((λx : Nat.⟨x, True⟩) 0) : Nat Reducir el siguiente t´ermino a un valor: $\\pi _ { 1 } ( \\left( \\lambda x : N a t . \\langle x , \\mathsf { T r u e } \\rangle \\right) 0 )$ ",
+        "bbox": [
+            102,
+            415,
+            635,
+            625
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            939,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Primera extensi´on ",
+        "bbox": [
+            16,
+            22,
+            314,
+            77
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Extensi´on con pares ",
+        "bbox": [
+            71,
+            349,
+            936,
+            404
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Segunda extensi´on ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            22,
+            323,
+            80
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { l l l } { \\sigma } & { \\mathrel { \\mathop : } = } & { \\mathrm { \\dots ~ } \\big | ~ \\sigma + \\sigma } \\\\ { M } & { \\mathrel { \\mathop : } = } & { \\mathrm { \\dots ~ } \\big | ~ \\mathsf { l e f t } _ { \\sigma } ( M ) ~ \\big | ~ \\mathsf { r i g h t } _ { \\sigma } ( M ) ~ \\big | ~ } \\\\ & { } & { \\mathrm { c a s e ~ } M \\circ \\mathsf { f } ~ \\mathsf { l e f t } ( x ) \\sim M \\mathbb { I } \\widehat { \\mathsf { r i g h t } } ( \\mathrm { y } } \\end{array}$ y) ❀ M ",
+        "bbox": [
+            193,
+            220,
+            809,
+            382
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "· $\\sigma + \\tau$ representa el tipo de la uni´on disjunta entre $\\sigma$ y $\\tau$ , similar al tipo Either $\\sigma \\cdot \\tau$ de Haskell, ",
+        "bbox": [
+            102,
+            389,
+            870,
+            485
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "left $_ \\sigma ( M )$ y rightσ(M) inyectan un valor en la uni´on, y ",
+        "bbox": [
+            110,
+            500,
+            817,
+            551
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "case M of left $( x ) \\sim N \\mathbb { i } \\operatorname { r i g h t } ( y ) \\sim O$ efect´ua un an´alisis de casos del t´ermino $M$ compar´andolo con los patrones left $_ { \\cdot \\sigma } ( x )$ y $\\mathsf { r i g h t } _ { \\sigma } ( y )$ . ",
+        "bbox": [
+            104,
+            558,
+            928,
+            713
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            750,
+            185,
+            794
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Marcar subt´erminos y anotaciones de tipos. Enunciar las nuevas reglas de tipado y extender el conjunto de valores y las reglas de sem´antica de la nueva extensi´on. ",
+        "bbox": [
+            102,
+            816,
+            864,
+            970
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "4 / 23 ",
+        "bbox": [
+            939,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Extensi´on con uniones disjuntas ",
+        "bbox": [
+            60,
+            154,
+            936,
+            209
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Tercera extensi´on ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            22,
+            306,
+            77
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "σ ::= · · · | ABσ M , N , O ::= · · · | Nilσ | Bin(M , N , O ) | ra´ız(M ) | der(M ) | izq(M) | esNil(M) Definir como ejemplo un ´arbol de funciones Bool → Bool.   \nDefinir las nuevas reglas de tipado.   \nDeterminar las reglas de sem´antica y nuevos valores. ",
+        "bbox": [
+            99,
+            224,
+            872,
+            566
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            939,
+            966,
+            983,
+            992
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Extensi´on con ´arboles binarios ",
+        "bbox": [
+            69,
+            161,
+            936,
+            213
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Otra forma de proyectar/observar ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            566,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Otra forma de representar proyectores u observadores m´as prolija y que requiere menos reglas (aunque una construcci´on m´as sofisticada): ",
+        "bbox": [
+            69,
+            158,
+            928,
+            305
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Arboles bis ´ ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            345,
+            218,
+            389
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "M , N , O ::= · · · | Nilσ | $\\mathsf { B i n } ( M , N , O )$ | case $M \\ o f \\ N i I \\sim N \\ ; \\mathrm { B i n } ( i , r , d ) \\sim { \\cal O }$ Importante: las min´usculas i $, \\boldsymbol { r } \\ y \\ d$ representan los nombres de las variables que pueden aparecer libres en O. Marcar subt´erminos y anotaciones de tipos. Modificar las reglas de tipado para soportar la nueva extensi´on. ¿Se modifica el conjunto de valores? Agregar las reglas de sem´antica necesarias. ",
+        "bbox": [
+            99,
+            382,
+            928,
+            893
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 / 23 ",
+        "bbox": [
+            936,
+            963,
+            986,
+            992
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Otra forma de proyectar/observar ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            18,
+            569,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Arboles binarios bis´ ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            261,
+            325,
+            301
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Reducir el siguiente t´ermino: case if $\\langle \\lambda x : B o o l . x \\rangle$ True then $\\mathsf { B i n } \\big ( \\mathsf { N i l } _ { N a t } , \\underline { { 1 } } , \\mathsf { N i l } _ { N a t } \\big )$ else NilNat of Nil False ; $\\mathsf { B i n } ( i , r , d )  \\mathsf { i s z e r o } ( r )$ Definir como macros las funciones $\\mathsf { r a i z } _ { \\sigma }$ , $\\mathsf { d e r } _ { \\sigma }$ , $\\mathsf { i z q } _ { \\sigma }$ y esNilσ , que al aplicarlas a un ´arbol binario emulan los t´erminos de la extensi´on original. Definir una nueva extensi´on que incorpore expresiones de la forma $m a p ( M , N )$ , donde N es un ´arbol y M una funci´on que se aplicar´a a cada uno de los elementos de N. ",
+        "bbox": [
+            93,
+            316,
+            925,
+            783
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 23 ",
+        "bbox": [
+            939,
+            963,
+            983,
+            992
+        ],
+        "page_idx": 6
+    }
+]

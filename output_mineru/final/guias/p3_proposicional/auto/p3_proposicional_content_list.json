@@ -1,0 +1,956 @@
+[
+    {
+        "type": "text",
+        "text": "Práctica N $\\mathrm { \\bf O }$ 3 - Demostración en Lógica Proposicional ",
+        "text_level": 1,
+        "bbox": [
+            181,
+            86,
+            815,
+            108
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Los ejercicios marcados con el símbolo $\\star$ constituyen un subconjunto mínimo de ejercitación. Sin embargo, aconsejamos fuertemente hacer todos los ejercicios. ",
+        "bbox": [
+            90,
+            130,
+            904,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Semántica ",
+        "text_level": 1,
+        "bbox": [
+            443,
+            172,
+            552,
+            189
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            192,
+            183,
+            206
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Determinar el valor de verdad de las siguientes proposiciones (fórmulas): ",
+        "bbox": [
+            92,
+            214,
+            625,
+            229
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. $( \\neg P \\lor Q )$   \nii. $( P \\lor ( S \\land T ) \\lor Q )$   \niii. $\\neg ( Q \\lor S )$   \niv. $( \\neg P \\lor S ) \\Leftrightarrow ( \\neg P \\land \\neg S )$   \nv. ((P ∨ S) ∧ (T ∨ Q))   \nvi. (((P ∨ S) ∧ (T ∨ Q)) ⇔ (P ∨ (S ∧ T ) ∨ Q))   \nvii. (¬Q ∧ ¬S) ",
+        "bbox": [
+            105,
+            241,
+            310,
+            322
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            240,
+            867,
+            323
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "cuando el valor de verdad de $P$ y $Q$ es $\\vee$ , mientras que el de $S$ y $T$ es $\\sf { F }$ . ",
+        "bbox": [
+            92,
+            334,
+            626,
+            349
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            355,
+            184,
+            369
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mostrar que cualquier fórmula de la lógica proposicional que utilice los conectivos $\\neg$ (negación), $\\wedge$ (conjunción), ∨ (disyunción), $\\Rightarrow$ (implicación) puede reescribirse a otra fórmula equivalente que usa sólo los conectivos ¬ y ∨. Sugerencia: hacer inducción en la estructura de la fórmula. ",
+        "bbox": [
+            94,
+            375,
+            907,
+            418
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            425,
+            184,
+            439
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sean $\\tau$ $\\cdot , \\sigma , \\rho \\mathrm { ~ y ~ } \\zeta$ proposiciones tales que $\\tau \\implies \\sigma$ es tautología y $\\rho \\Rightarrow \\zeta$ es contradicción. Determinar si las siguientes proposiciones son tautologías, contradicciones o contingencias y demostrarlo: ",
+        "bbox": [
+            92,
+            447,
+            904,
+            475
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. $( \\tau \\Rightarrow \\sigma ) \\lor ( \\rho \\Rightarrow \\zeta )$   \nii. $( \\tau \\Rightarrow \\rho ) \\lor ( \\sigma \\Rightarrow \\zeta )$   \niii. $( \\rho \\Rightarrow \\sigma ) \\lor ( \\zeta \\Rightarrow \\sigma )$ ",
+        "bbox": [
+            107,
+            483,
+            273,
+            548
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            561,
+            184,
+            575
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Probar que cualquier fórmula que sea una tautología contiene un ¬ o una ⇒. ",
+        "bbox": [
+            94,
+            581,
+            660,
+            596
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Deducción natural ",
+        "text_level": 1,
+        "bbox": [
+            400,
+            615,
+            600,
+            632
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio $\\textbf { 5 } \\star$ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            636,
+            205,
+            650
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Demostrar en deducción natural que las siguientes fórmulas son teoremas sin usar principios de razonamiento clásicos salvo que se indique lo contrario. Recordemos que una fórmula $\\sigma$ es un teorema si y sólo si vale $\\vdash \\sigma$ : ",
+        "bbox": [
+            94,
+            657,
+            905,
+            700
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "i. Modus ponens relativizado: $( \\rho \\Rightarrow \\sigma \\Rightarrow \\tau ) \\Rightarrow ( \\rho \\Rightarrow \\sigma ) \\Rightarrow \\rho \\Rightarrow \\tau$ ii. Reducción al absurdo: $( \\rho \\Rightarrow \\bot ) \\Rightarrow \\neg \\rho$ iii. Introducción de la doble negación: $\\rho \\Rightarrow \\neg \\neg \\rho$ iv. Eliminación de la triple negación: $\\neg \\neg \\neg \\rho \\Rightarrow \\neg \\rho$ v. Contraposición: $( \\rho \\Rightarrow \\sigma ) \\Rightarrow ( \\neg \\sigma \\Rightarrow \\neg \\rho )$ vi. Adjunción: $( ( \\rho \\land \\sigma ) \\Rightarrow \\tau ) \\Leftrightarrow ( \\rho \\Rightarrow \\sigma \\Rightarrow \\tau )$ ",
+        "bbox": [
+            104,
+            713,
+            478,
+            877
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "vii. de Morgan (I): $\\neg ( \\rho \\lor \\sigma ) \\Leftrightarrow ( \\neg \\rho \\land \\neg \\sigma )$   \nviii. de Morgan (II): $\\neg ( \\rho \\land \\sigma ) \\Leftrightarrow ( \\neg \\rho \\lor \\neg \\sigma )$ . Para la dirección $\\Rightarrow { \\mathrm { e s } }$ necesario usar principios de razonamiento clásicos.   \nix. Conmutatividad $( \\wedge )$ $\\setminus ) \\colon ( \\rho \\wedge \\sigma ) \\Rightarrow ( \\sigma \\wedge \\rho )$ x. Asociatividad (∧ $\\setminus ( ( \\rho \\land \\sigma ) \\land \\tau ) \\Leftrightarrow ( \\rho \\land ( \\sigma \\land \\tau ) )$   \nxi. Conmutatividad (∨): $( \\rho \\lor \\sigma ) \\Rightarrow ( \\sigma \\lor \\rho )$   \nxii. Asociatividad (∨): $( ( \\rho \\lor \\sigma ) \\lor \\tau ) \\Leftrightarrow ( \\rho \\lor ( \\sigma \\lor \\tau ) )$ ",
+        "bbox": [
+            507,
+            713,
+            905,
+            877
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "¾Encuentra alguna relación entre teoremas de adjunción, asociatividad y conmutatividad con algunas de las propiedades demostradas en la práctica 2? ",
+        "bbox": [
+            90,
+            889,
+            907,
+            917
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Página 1 de 3 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 6 ⋆ ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            91,
+            206,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar en deducción natural que vale $\\vdash \\sigma$ para cada una de las siguientes fórmulas. Para estas fórmulas es imprescindible usar lógica clásica: ",
+        "bbox": [
+            90,
+            112,
+            905,
+            141
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. Absurdo clásico: $( \\lnot \\tau \\Rightarrow \\bot ) \\Rightarrow \\tau$ ii. Ley de Peirce: $( ( \\tau \\Rightarrow \\rho ) \\Rightarrow \\tau ) \\Rightarrow \\tau$ iii. Tercero excluido: $\\tau \\lor \\lnot \\tau$ iv. Consecuencia milagrosa: $( \\lnot \\tau \\Rightarrow \\tau ) \\Rightarrow \\tau$ v. Contraposición clásica: $( \\neg \\rho \\Rightarrow \\neg \\tau ) \\Rightarrow ( \\tau \\Rightarrow \\rho )$ vi. Análisis de casos: $( \\tau \\Rightarrow \\rho ) \\Rightarrow ( \\neg \\tau \\Rightarrow \\rho ) \\Rightarrow \\rho$ vii. Implicación vs. disyunción: $( \\tau \\Rightarrow \\rho ) \\Leftrightarrow ( \\neg \\tau \\lor \\rho )$ ",
+        "bbox": [
+            105,
+            154,
+            425,
+            235
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            154,
+            899,
+            236
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 7 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            254,
+            184,
+            268
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Probar las siguientes propiedades: ",
+        "bbox": [
+            92,
+            275,
+            344,
+            291
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. Debilitamiento. Si $\\Gamma \\vdash \\sigma$ es válido entonces $\\Gamma , \\tau \\vdash \\sigma$ es válido. Sugerencia: utilizar inducción sobre el tamaño de la derivación. ii. Regla de corte. Si $\\Gamma , \\tau \\vdash \\sigma$ es válido y $\\Gamma \\vdash \\tau$ es válido, entonces $\\Gamma \\vdash \\sigma$ es válido. iii. $\\Rightarrow _ { i } ^ { - 1 }$ : Si $\\Gamma \\vdash \\tau \\Rightarrow \\sigma$ es válido, entonces $\\Gamma , \\tau \\vdash \\sigma$ también lo es. ",
+        "bbox": [
+            104,
+            298,
+            737,
+            381
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 8 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            395,
+            184,
+            410
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Si $[ \\tau _ { 1 } , \\dots , \\tau _ { n } ]$ es una lista de fórmulas, de\u001cnimos la notación $[ \\tau _ { 1 } , \\dots , \\tau _ { n } ] \\Rightarrow ^ { * } \\sigma$ inductivamente: ",
+        "bbox": [
+            89,
+            417,
+            788,
+            434
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d01cef24c7193e492fa6eec0bf08d06896246c7a551d22e08d384be4c0b6b1d1.jpg",
+        "text": "$$\n\\begin{array} { l l l } { { ( \\bigl [ \\bigl ] \\Rightarrow ^ { * } \\sigma \\bigr ) } } & { { = } } & { { \\sigma } } \\\\ { { ( \\bigl [ \\tau _ { 1 } , \\tau _ { 2 } , . . . , \\tau _ { n } \\bigr ] \\Rightarrow ^ { * } \\sigma \\bigr ) } } & { { = } } & { { \\tau _ { 1 } \\Rightarrow \\bigl ( \\bigl [ \\tau _ { 2 } , . . . , \\tau _ { n } \\bigr ] \\Rightarrow ^ { * } \\sigma \\bigr ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            304,
+            442,
+            690,
+            474
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Probar por inducción en $n$ que $\\tau _ { 1 } , \\ldots , \\tau _ { n } \\vdash \\sigma$ es válido si y sólo ${ \\mathrm { s i } } \\vdash [ \\tau _ { 1 } , \\ldots , \\tau _ { n } ] \\Rightarrow ^ { * } \\sigma$ es válido. ",
+        "bbox": [
+            90,
+            483,
+            786,
+            499
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 9 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            505,
+            184,
+            519
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Probar los siguientes teoremas: ",
+        "bbox": [
+            92,
+            526,
+            322,
+            541
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. $( ( P \\Rightarrow Q ) \\Rightarrow Q ) \\Rightarrow ( ( Q \\Rightarrow P ) \\Rightarrow P )$ ii. $( P \\Rightarrow Q ) \\Rightarrow ( ( \\neg P \\Rightarrow Q ) \\Rightarrow Q )$ ) ",
+        "bbox": [
+            110,
+            548,
+            400,
+            590
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 10 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            604,
+            194,
+            618
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar las siguientes tautologías utilizando deducción natural. ",
+        "bbox": [
+            92,
+            625,
+            579,
+            640
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "i. $( P \\Rightarrow ( P \\Rightarrow Q ) ) \\Rightarrow ( P \\Rightarrow Q )$   \nii. $( R \\Rightarrow \\neg Q ) \\Rightarrow ( ( R \\land Q ) \\Rightarrow P )$   \niii. $( ( P \\Rightarrow Q ) \\Rightarrow ( R \\Rightarrow \\neg Q ) ) \\Rightarrow \\neg ( R \\land Q )$ ",
+        "bbox": [
+            107,
+            648,
+            415,
+            713
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Página 2 de 3 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicios extra de deducción natural ",
+        "text_level": 1,
+        "bbox": [
+            294,
+            90,
+            704,
+            105
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 11 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            110,
+            193,
+            124
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Probar que los siguientes secuentes son válidos sin usar principios de razonamiento clásicos: ",
+        "bbox": [
+            87,
+            131,
+            766,
+            147
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. $( P \\land Q ) \\land R , S \\land T \\ \\vdash Q \\land S$ ",
+        "bbox": [
+            114,
+            159,
+            346,
+            175
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ii. $( P \\land Q ) \\land R \\vdash P \\land ( Q \\land R )$ ",
+        "bbox": [
+            110,
+            183,
+            337,
+            199
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iii. $P \\Rightarrow ( P \\Rightarrow Q ) , P \\vdash Q$ ",
+        "bbox": [
+            105,
+            206,
+            297,
+            223
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iv. $Q \\Rightarrow ( P \\Rightarrow R ) , \\neg R , Q \\vdash \\neg P$ ",
+        "bbox": [
+            105,
+            230,
+            339,
+            247
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "v. $\\vdash ( P \\land Q ) \\Rightarrow P$ ",
+        "bbox": [
+            109,
+            254,
+            250,
+            271
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "vi. $P \\Rightarrow \\neg Q , Q \\vdash \\neg P$ ",
+        "bbox": [
+            105,
+            278,
+            267,
+            294
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "vii. $P \\Rightarrow Q \\vdash ( P \\land R ) \\Rightarrow ( Q \\land R )$ ",
+        "bbox": [
+            100,
+            302,
+            351,
+            318
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "viii. $Q \\Rightarrow R \\vdash ( P \\lor Q ) \\Rightarrow ( P \\lor R )$ ",
+        "bbox": [
+            509,
+            159,
+            764,
+            177
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ix. $( P \\lor Q ) \\lor R \\vdash P \\lor ( Q \\lor R )$ ",
+        "bbox": [
+            517,
+            183,
+            752,
+            199
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "x. $P \\land ( Q \\lor R ) \\vdash ( P \\land Q ) \\lor ( P \\land R )$ ",
+        "bbox": [
+            522,
+            206,
+            794,
+            223
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "xi. $( P \\land Q ) \\lor ( P \\land R ) \\vdash P \\land ( Q \\lor R )$ ",
+        "bbox": [
+            519,
+            230,
+            794,
+            247
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "xii. $\\lnot P \\lor Q \\vdash P \\Rightarrow Q$ ",
+        "bbox": [
+            514,
+            254,
+            682,
+            269
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "xiii. $P \\Rightarrow Q , P \\Rightarrow \\neg Q \\vdash \\neg P$ ",
+        "bbox": [
+            509,
+            278,
+            719,
+            294
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "xiv. $P \\Rightarrow ( Q \\Rightarrow R ) , P , \\neg R \\vdash \\neg Q$ ",
+        "bbox": [
+            509,
+            302,
+            751,
+            318
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 12 ",
+        "text_level": 1,
+        "bbox": [
+            92,
+            337,
+            194,
+            351
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Probar que los siguientes secuentes son válidos: ",
+        "bbox": [
+            92,
+            360,
+            440,
+            374
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. $( P \\land \\neg Q ) \\Rightarrow R , \\neg R , P \\vdash Q$ ",
+        "bbox": [
+            115,
+            386,
+            332,
+            403
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\neg P \\Rightarrow Q \\vdash \\neg Q \\Rightarrow P$ ",
+        "bbox": [
+            110,
+            410,
+            287,
+            425
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iii. $P \\lor Q \\vdash R \\Rightarrow ( P \\lor Q ) \\land R$ ",
+        "bbox": [
+            105,
+            431,
+            332,
+            448
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iv. $( P \\lor ( Q \\Rightarrow P ) ) \\land Q \\vdash P$ ",
+        "bbox": [
+            105,
+            455,
+            314,
+            472
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "v. $P \\Rightarrow Q , R \\Rightarrow S \\vdash ( P \\land R ) \\Rightarrow ( Q \\land S )$ ",
+        "bbox": [
+            109,
+            478,
+            408,
+            494
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "vi. $P \\Rightarrow Q \\vdash ( ( P \\land Q ) \\Rightarrow P ) \\land ( P \\Rightarrow ( P \\land Q ) )$ ",
+        "bbox": [
+            107,
+            500,
+            448,
+            517
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "vii. $P \\Rightarrow ( Q \\land R ) \\vdash ( P \\Rightarrow Q ) \\land ( P \\Rightarrow R )$ ",
+        "bbox": [
+            514,
+            386,
+            816,
+            403
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "viii. $( P \\Rightarrow Q ) \\land ( P \\Rightarrow R ) \\vdash P \\Rightarrow ( Q \\land R )$ ",
+        "bbox": [
+            507,
+            414,
+            816,
+            432
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ix. $P \\lor ( P \\land Q ) \\vdash P$ ",
+        "bbox": [
+            517,
+            443,
+            675,
+            460
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "x. $P \\Rightarrow ( Q \\lor R ) , Q \\Rightarrow S , R \\Rightarrow S \\vdash P \\Rightarrow S$ ",
+        "bbox": [
+            524,
+            472,
+            833,
+            488
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "xi. $( P \\land Q ) \\lor ( P \\land R ) \\vdash P \\land ( Q \\lor R )$ ",
+        "bbox": [
+            519,
+            500,
+            794,
+            517
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 13 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            536,
+            193,
+            550
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Probar que los siguientes secuentes son válidos: ",
+        "bbox": [
+            94,
+            558,
+            442,
+            573
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "i. $\\neg P \\Rightarrow \\neg Q \\vdash Q \\Rightarrow P$ ",
+        "bbox": [
+            114,
+            586,
+            287,
+            601
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ii. $\\neg P \\lor \\neg Q \\vdash \\neg ( P \\land Q )$ ",
+        "bbox": [
+            110,
+            607,
+            294,
+            623
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iii. $\\neg P , P \\lor Q \\vdash Q$ ",
+        "bbox": [
+            104,
+            629,
+            247,
+            644
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "iv. $P \\lor Q , \\neg Q \\lor R \\vdash P \\lor R$ ",
+        "bbox": [
+            105,
+            650,
+            312,
+            665
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "v. $P \\land \\neg P \\vdash \\neg ( R \\Rightarrow Q ) \\land ( R \\Rightarrow Q )$ ",
+        "bbox": [
+            110,
+            671,
+            373,
+            688
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "vi. $\\neg ( \\neg P \\lor Q ) \\vdash P$ ",
+        "bbox": [
+            517,
+            585,
+            667,
+            601
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "vii. $\\vdash \\lnot P \\Rightarrow ( P \\Rightarrow ( P \\Rightarrow Q ) )$ ) ",
+        "bbox": [
+            514,
+            613,
+            734,
+            631
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "viii. $P \\land Q \\vdash \\neg ( \\neg P \\lor \\neg Q )$ ",
+        "bbox": [
+            509,
+            643,
+            707,
+            659
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ix. $\\vdash ( P \\Rightarrow Q ) \\lor ( Q \\Rightarrow R )$ ",
+        "bbox": [
+            517,
+            670,
+            715,
+            689
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Paradigmas de Programación (PLP) 2do Cuatrimestre de 2025 ",
+        "bbox": [
+            677,
+            38,
+            905,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Página 3 de 3 ",
+        "bbox": [
+            455,
+            950,
+            544,
+            961
+        ],
+        "page_idx": 2
+    }
+]

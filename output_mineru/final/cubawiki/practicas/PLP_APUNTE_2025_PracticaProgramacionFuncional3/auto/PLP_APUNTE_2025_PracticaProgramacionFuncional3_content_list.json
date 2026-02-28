@@ -1,0 +1,1855 @@
+[
+    {
+        "type": "text",
+        "text": "Programaci´on Funcional en Haskell Demostraciones ",
+        "text_level": 1,
+        "bbox": [
+            271,
+            231,
+            728,
+            356
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paradigmas de Lenguajes de Programaci´on ",
+        "bbox": [
+            300,
+            454,
+            699,
+            501
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Ciencias de la Computaci´on Universidad de Buenos Aires ",
+        "bbox": [
+            339,
+            556,
+            657,
+            623
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "9 de septiembre de 2025 ",
+        "bbox": [
+            384,
+            674,
+            613,
+            717
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tipos algebraicos en Haskell Esquemas de recursi´on Currificaci´on Aplicaci´on parcial Alto orden Generaci´on infinita ",
+        "bbox": [
+            79,
+            305,
+            368,
+            705
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Anteriormente en PLP... ",
+        "bbox": [
+            0,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Razonamiento ecuacional Extensionalidad Lemas de generaci´on Inducci´on estructural Ejercicios m´as dif´ıciles ",
+        "bbox": [
+            81,
+            298,
+            339,
+            635
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B´asicamente, vamos a ver c´omo demostrar propiedades sobre nuestros programas. ",
+        "bbox": [
+            61,
+            674,
+            814,
+            721
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Hoy ",
+        "bbox": [
+            13,
+            23,
+            72,
+            86
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sean las siguiente definiciones: ",
+        "bbox": [
+            59,
+            274,
+            344,
+            321
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "doble :: Integer $- >$ Integer doble $\\textbf { x } = \\textbf { 2 } * \\textbf { x }$ ",
+        "bbox": [
+            59,
+            345,
+            375,
+            435
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "cuadrado :: Integer $- >$ Integer cuadrado $\\textbf { x } = \\textbf { x } * \\textbf { x }$ ",
+        "bbox": [
+            59,
+            466,
+            408,
+            552
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo probamos que doble $2 =$ cuadrado 2? ",
+        "bbox": [
+            59,
+            580,
+            507,
+            623
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on: ",
+        "text_level": 1,
+        "bbox": [
+            59,
+            650,
+            152,
+            694
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "doble $2 =$ doble $2 ~ * ~ 2 =$ cuadrado cuadrado 2 ✷ ",
+        "bbox": [
+            61,
+            701,
+            512,
+            745
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "4 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Demostrando propiedades ",
+        "bbox": [
+            17,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Queremos ver que: ",
+        "bbox": [
+            59,
+            176,
+            233,
+            219
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "curry . uncurry $=$ id ",
+        "bbox": [
+            381,
+            274,
+            618,
+            317
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Tenemos: ",
+        "bbox": [
+            61,
+            364,
+            150,
+            407
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "curry :: ((a, b) -> c) -> (a -> b -> c)   \ncurry $\\textbf { f } = \\mathbf { \\Theta } ( \\backslash \\textbf { x } \\textrm { y } \\xrightarrow { } \\textbf { f } \\mathbf { \\Theta } ( \\mathbf { x } , \\textbf { y } ) )$   \nuncurry :: $\\because ( a - > b - > c ) - > ( ( a , \\ b )$ -> c)   \nuncurry $\\textbf { f } = \\mathbf { \\Omega } ( \\mathbf { \\Omega } ) \\mathbf { \\Omega } ( \\mathbf { x } , \\textbf { y } ) \\mathbf { \\Omega } \\to \\textbf { f } \\textbf { x } \\mathbf { y } )$   \n$[ . ) \\vdots \\ \\vdots ( { \\bf b } \\ {  } \\ { \\mathsf c } ) \\ {  } \\ ( { \\mathsf a } \\ {  } \\ { \\mathsf b } ) \\ {  } \\ ( { \\mathsf a } \\ {  } \\ { \\mathsf c } )$   \n(f . g) $\\mathrm { ~ x ~ } = \\mathrm { ~ f ~ }$ (g x)   \nid :: a $^ { - > }$ a   \nid $\\mathrm { ~ \\tt ~ x ~ } = \\mathrm { ~ \\tt ~ x ~ }$ ",
+        "bbox": [
+            59,
+            400,
+            490,
+            819
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo hacemos? ",
+        "bbox": [
+            59,
+            843,
+            222,
+            890
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Igualdad de funciones ",
+        "bbox": [
+            13,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Dadas f, g :: a $- > b$ , probar ${ \\mathfrak { f } } = { \\mathfrak { g } }$ se reduce a probar: ",
+        "bbox": [
+            57,
+            396,
+            598,
+            443
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "6 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Extensionalidad ",
+        "bbox": [
+            4,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Estas son algunas propiedades que podemos usar en nuestras demostraciones: ",
+        "bbox": [
+            59,
+            278,
+            770,
+            325
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "∀F :: a -> b . ∀G :: a -> b . ∀Y :: b . ∀Z :: a . $\\begin{array}{c} \\begin{array} { r l } & { \\mathrm { \\bf ~ F } = \\tt G } \\\\ & { \\mathrm { \\bf ~ F } = \\{ { \\bf ~ x _ \\tau }  \\tt ~ Y } \\quad \\Leftrightarrow \\quad \\forall { \\bf x } : : { \\tt a } \\mathrm {  ~ . ~ F ~ } { \\bf x } = { \\tt G } \\mathrm {  ~ x ~ }  \\\\ & { ( \\backslash { \\bf x }  \\mathrm {  ~ Y } ) \\mathrm {  ~ \\sf ~ Z } } \\\\ & { \\backslash { \\bf x }  \\mathrm {  ~ F ~ } { \\bf x } } \\\\ & { \\mathrm { \\bf ~ V }  \\mathrm {  ~ F ~ } { \\bf x } } \\end{array} \\quad \\Longrightarrow \\quad \\mathrm { \\bf ~ Y } \\mathrm {  ~ r e e m p l a z a n d o ~ x ~ p o r ~ } { \\sf Z }  \\\\ & { \\mathrm { \\bf ~ V } } \\end{array}$ ",
+        "bbox": [
+            66,
+            368,
+            777,
+            627
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "F, G, Y y Z pueden ser expresiones complejas, siempre que la variable x no aparezca libre en F, G, ni Z (m´as detalles cuando veamos C´alculo Lambda). ",
+        "bbox": [
+            57,
+            639,
+            931,
+            733
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "7 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Algunas propiedades ´utiles ",
+        "bbox": [
+            11,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ahora probemos: ",
+        "bbox": [
+            61,
+            203,
+            218,
+            247
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "curry . uncurry $=$ id ",
+        "bbox": [
+            381,
+            301,
+            618,
+            345
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Tenemos: ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            392,
+            150,
+            431
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "curry :: ((a, b) -> c) -> (a -> b -> c)   \n$\\{ { \\tt C } \\}$ curry $\\textbf { f } = \\mathbf { \\Theta } ( \\backslash \\textbf { x } \\textrm { y } \\xrightarrow { } \\textbf { f } \\mathbf { \\Theta } ( \\mathbf { x } , \\textbf { y } ) )$   \nuncurry :: $( a ~  ~ b ~  ~ c ) ~  ~ ( ~ ( a , ~ b ) ~  ~ c$ )   \n$\\{ \\mathtt { U } \\}$ uncurry $\\textbf { f } = \\mathbf { \\Omega } ( \\mathbf { \\Omega } ) \\mathbf { \\Omega } ( \\mathbf { x } , \\textbf { y } ) \\mathbf { \\Omega } \\to \\textbf { f } \\textbf { x } \\textbf { y }$   \n$[ . ) \\vdots \\ \\vdots ( { \\bf b } \\ {  } \\ { \\mathsf c } ) \\ {  } \\ ( { \\mathsf a } \\ {  } \\ { \\mathsf b } ) \\ {  } \\ ( { \\mathsf a } \\ {  } \\ { \\mathsf c } )$   \n$\\{ { \\tt C O M P } \\}$ (f . g) x = f (g x)   \nid :: a $^ { - > }$ a   \n$\\{ \\mathtt { I } \\}$ id $\\mathrm { ~ \\tt ~ x ~ } = \\mathrm { ~ \\tt ~ x ~ }$ ",
+        "bbox": [
+            59,
+            439,
+            490,
+            850
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "8 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Volviendo al ejercicio... ",
+        "bbox": [
+            8,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Dado el tipo de la uni´on disjunta: ",
+        "bbox": [
+            59,
+            207,
+            370,
+            254
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "data Either a b $=$ Left a | Right b ",
+        "bbox": [
+            61,
+            258,
+            456,
+            301
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Se define la siguiente funci´on, que permite multiplicar pares y enteros entre s´ı (usando producto escalar entre pares). ",
+        "bbox": [
+            59,
+            325,
+            865,
+            419
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "prod :: Either Int (Int, Int) $- >$ Either Int (Int, Int) $- >$ Either Int (Int, Int)   \n$\\{ \\mathtt { P 0 } \\}$ prod (Left x) (Left y) $=$ Left $( { \\textbf { x } } * { \\textbf { y } } )$   \n$\\{ \\mathtt { P 1 } \\}$ prod (Left x) (Right (y, z)) $=$ Right $\\texttt { \\textbf { x * y } }$ , x \\* z)   \n$\\{ \\mathtt { P 2 } \\}$ prod (Right (y, z)) (Left x) $=$ Right (y \\* x, z \\* x)   \n$\\{ \\mathtt { P 3 } \\}$ prod (Right (w, x)) (Right (y, z)) $=$ Left $( { \\texttt { w } } * { \\texttt { y } } + { \\texttt { x } } * { \\texttt { z } } )$ ",
+        "bbox": [
+            55,
+            439,
+            880,
+            662
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "¿Podemos probar esto? ",
+        "bbox": [
+            61,
+            686,
+            275,
+            729
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "∀ p::Either Int (Int, Int) . $\\forall$ q::Either Int (Int, Int) . prod p q $=$ prod q p ",
+        "bbox": [
+            103,
+            764,
+            896,
+            811
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "9 / 30 ",
+        "bbox": [
+            958,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Pares y uni´on disjunta/tipo suma ",
+        "bbox": [
+            2,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Recordemos los lemas de generaci´on para pares y sumas. ",
+        "bbox": [
+            55,
+            313,
+            582,
+            360
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Dado p :: (a, b), siempre podemos usar el hecho de que existen x :: a, y :: b tales que $\\texttt { p } = \\texttt { ( x , y ) }$ . ",
+        "bbox": [
+            57,
+            384,
+            935,
+            478
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "De la misma manera, dado e :: Either a b, siempre podemos usar el hecho de que: ",
+        "bbox": [
+            59,
+            501,
+            867,
+            549
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$\\theta =$ Left x con x :: a, o e = Right y con y :: b. ",
+        "bbox": [
+            81,
+            564,
+            370,
+            670
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "10 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Pares y uni´on disjunta/tipo suma ",
+        "bbox": [
+            2,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Probemos enconces... ",
+        "bbox": [
+            61,
+            274,
+            258,
+            317
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "∀ p::Either Int (Int, Int) . $\\forall$ q::Either Int (Int, Int) . prod p q $=$ prod q p ",
+        "bbox": [
+            101,
+            356,
+            894,
+            400
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Tenemos: ",
+        "bbox": [
+            61,
+            454,
+            147,
+            498
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "prod :: Either Int (Int, Int) $- >$ Either Int (Int, Int) $- >$ Either Int (Int, Int)   \n$\\{ \\mathtt { P 0 } \\}$ prod (Left x) (Left y) $=$ Left $( { \\textbf { x } } * { \\textbf { y } } )$   \n$\\{ \\mathtt { P 1 } \\}$ prod (Left x) (Right (y, z)) $=$ Right $( { \\texttt { x * y } }$ , x \\* z)   \n$\\{ \\mathtt { P 2 } \\}$ prod (Right (y, z)) (Left x) $=$ Right (y \\* x, z \\* x)   \n$\\{ \\mathtt { P 3 } \\}$ prod (Right (w, x)) (Right (y, z)) $=$ Left $( { \\texttt { w } } * { \\texttt { y } } + { \\texttt { x } } * { \\texttt { z } } )$ ",
+        "bbox": [
+            55,
+            521,
+            878,
+            745
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "11 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Pares y uni´on disjunta/tipo suma ",
+        "bbox": [
+            0,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Se cuenta con la siguiente representaci´on de conjuntos: ",
+        "bbox": [
+            59,
+            219,
+            569,
+            262
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "type Conj a $=$ (a->Bool) representados por su funci´on caracter´ıstica. De este modo, si c es un conjunto y e un elemento, la expresi´on c e devuelve True si e pertenece a c y False en caso contrario. ",
+        "bbox": [
+            55,
+            266,
+            947,
+            403
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Contamos con las siguientes definiciones: ",
+        "bbox": [
+            59,
+            407,
+            439,
+            450
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "vac´ıo :: Conj a   \n$\\{ \\mathtt { V } \\}$ vac´ıo $= \\mathrm { \\backslash . . } - >$ False   \nintersecci´on :: Conj a-> Conj a-> Conj a $\\{ \\mathtt { I } \\}$ intersecci´on c $\\textsf { d } = \\ \\backslash \\textsf { e } \\to \\ \\mathsf { c }$ e && d e ",
+        "bbox": [
+            39,
+            478,
+            459,
+            647
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "agregar :: Eq a $\\Rightarrow$ a $- >$ Conj a $- >$ Conj a $\\{ { \\tt A } \\}$ agregar x $\\textsf { c } = \\ \\left. \\textsf { e } \\to \\textsf { e } = \\pmb { \\mu } \\right.$ || c e diferencia :: Conj a $- >$ Conj a-> Conj a $\\{ \\mathtt { D } \\}$ diferencia c $\\textsf { d } = \\textsf { \\backslash e } \\to \\textsf { \\prime }$ c e && not (d e) ",
+        "bbox": [
+            501,
+            478,
+            949,
+            650
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Demostrar la siguiente propiedad: ",
+        "bbox": [
+            59,
+            678,
+            348,
+            717
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "∀ c::Conj a . $\\forall$ d::Conj a . intersecci´on d (diferencia c d) $=$ vac´ıo ",
+        "bbox": [
+            169,
+            752,
+            827,
+            792
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "12 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Funciones como estructuras de datos ",
+        "bbox": [
+            0,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Pruebo $P ( 0 )$ ",
+        "bbox": [
+            101,
+            423,
+            225,
+            466
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Pruebo que si vale $P ( n )$ entonces vale $P ( n + 1 )$ . ",
+        "bbox": [
+            86,
+            478,
+            556,
+            529
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "13 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Inducci´on en los naturales ",
+        "bbox": [
+            11,
+            19,
+            357,
+            86
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Pruebo $P ( [ ] )$ Pruebo que si vale $P ( { \\bf x } { \\bf s } )$ entonces para todo elemento x vale $P ( { \\bf x } ; { \\bf x } { \\bf s } )$ . ",
+        "bbox": [
+            81,
+            419,
+            768,
+            529
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "14 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Inducci´on en listas ",
+        "bbox": [
+            2,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "En el caso general (inducci´on estructural) ",
+        "text_level": 1,
+        "bbox": [
+            11,
+            19,
+            556,
+            90
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Pruebo $P$ para el o los caso(s) base (para los constructores no recursivos). ",
+        "bbox": [
+            97,
+            380,
+            785,
+            431
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Pruebo que si vale $P ( A r g _ { 1 } ) , \\ldots , P ( A r g _ { k } )$ entonces vale $P ( C { \\cal A } r g _ { 1 } \\ldots { \\cal A } r g _ { k } )$ para cada constructor $C$ y sus argumentos recursivos $A r g _ { 1 }$ , . . . , $A r g _ { k }$ . (Los argumentos no recursivos quedan cuantificados universalmente). ",
+        "bbox": [
+            50,
+            443,
+            907,
+            584
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "15 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Leer la propiedad, entenderla y convencerse de que es verdadera.   \nPlantear la propiedad como predicado unario.   \nPlantear el esquema de inducci´on.   \nPlantear y resolver el o los caso(s) base.   \nPlantear y resolver el o los caso(s) inductivo(s). ",
+        "bbox": [
+            79,
+            349,
+            699,
+            635
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "16 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Pasos a seguir ",
+        "bbox": [
+            2,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Veamos que estas dos definiciones de length son equivalentes: ",
+        "bbox": [
+            57,
+            254,
+            642,
+            301
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "length1 :: [a] $- >$ Int   \n$\\{ \\mathtt { L 1 0 } \\}$ length1 $\\ [ \\mathsf { \\Lambda } ] \\ = \\ 0$   \n{L11} length1 ${ \\bf \\ ( \\mathrm {  ~ \\cdot ~ } x s ) \\ = \\ 1 _ { \\Sigma } + \\mathrm { \\bf ~ l e n g t h 1 } }$ xs ",
+        "bbox": [
+            61,
+            309,
+            485,
+            443
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "length2 :: [a] -> Int $\\{ \\mathtt { L 2 } \\}$ length2 $=$ foldr ( $\\begin{array}{c} \\ifmmode : \\\\\\ . \\textperiodcentered \\fi { } \\\\\\ { \\textmd { . } } \\end{array}$ res -> 1 + res) 0 ",
+        "bbox": [
+            59,
+            466,
+            545,
+            560
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Recordemos: ",
+        "bbox": [
+            61,
+            584,
+            178,
+            623
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "foldr :: (a -> b -> b) -> b -> [a] -> b $\\left\\{ \\ F 0 \\right\\}$ foldr $\\texttt { f z } [ ] = \\texttt { z }$ $\\{ \\mathtt { F } 1 \\}$ foldr f $_ { z }$ $\\mathbf { \\chi } _ { \\mathbf { x } : \\mathbf { x } \\mathbf { s } } ^ { } ) ~ = { \\textbf { f } } ~ \\mathbf { x }$ (foldr f z xs) ",
+        "bbox": [
+            59,
+            627,
+            547,
+            768
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "17 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Desplegando foldr ",
+        "bbox": [
+            15,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Dados dos tipos a y b tales que valen Eq a y Eq b, queremos probar que: ",
+        "bbox": [
+            59,
+            301,
+            746,
+            352
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "∀ f::a->b . ∀ e::a . $\\forall$ xs::[a] . elem e xs $\\Rightarrow$ elem (f e) (map f xs) ",
+        "bbox": [
+            150,
+            388,
+            845,
+            435
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Antes que nada, ¿qui´en es $P ?$ ",
+        "bbox": [
+            59,
+            478,
+            337,
+            521
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "¿En qu´e estructura vamos a hacer inducci´on? ",
+        "bbox": [
+            59,
+            525,
+            481,
+            568
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "$P ( \\mathfrak { y s } ) = \\forall$ f::a->b . ∀ e::a . elem e ys $\\Rightarrow$ elem (f e) (map f ys) ",
+        "bbox": [
+            163,
+            607,
+            830,
+            658
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "18 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Demostrando implicaciones ",
+        "bbox": [
+            13,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Tenemos: ",
+        "bbox": [
+            61,
+            196,
+            150,
+            235
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "elem :: Eq a $\\Rightarrow$ a $- >$ [a] -> Bool $\\left\\{ \\tt E O \\right\\}$ elem e [] $=$ False $\\{ \\mathtt { E 1 } \\}$ elem e $( { \\bf { x } } : { \\bf { x } } { \\bf { s } } ) = ( { \\bf { e } } \\ = { \\bf { x } } )$ || elem e xs map :: (a -> b) => [a] -> [b] $\\{ \\mathtt { M O } \\}$ map f $\\left[ \\begin{array} { l l l } \\end{array} \\right] ~ = ~ \\left[ \\begin{array} { l l l } \\end{array} \\right]$ $\\{ \\mathtt { M } 1 \\}$ map f (y:ys) = f y : map f ys ",
+        "bbox": [
+            59,
+            243,
+            501,
+            368
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            59,
+            392,
+            419,
+            529
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Podemos usar: ",
+        "bbox": [
+            61,
+            541,
+            196,
+            580
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "{Congruencia $\\scriptstyle = = \\left. \\begin{array} { r l } \\end{array} \\right\\}$ ∀ f::a->b . ∀ x::a . $\\forall$ y::a . x == y ⇒ f x == f y ",
+        "bbox": [
+            66,
+            588,
+            699,
+            631
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Sabemos que valen Eq a y Eq b. Queremos ver que, para toda lista ys, vale: ",
+        "bbox": [
+            64,
+            643,
+            770,
+            690
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "∀ f::a->b . ∀ e::a . elem e ys $\\Rightarrow$ elem (f e) (map f ys) ",
+        "bbox": [
+            209,
+            729,
+            785,
+            776
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Seguimos en el pizarr´on. ",
+        "bbox": [
+            59,
+            815,
+            286,
+            858
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "19 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Demostrando implicaciones (contin´ua) ",
+        "bbox": [
+            15,
+            19,
+            514,
+            90
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes definiciones:   \nlength :: [a] $- >$ Int   \n$\\{ \\mathtt { L O } \\}$ length $\\ [ \\ ] \\ = \\ 0$   \n$\\{ \\mathtt { L 1 } \\}$ length $\\mathbf { \\left( x : x s \\right) \\ = \\ 1 \\ + \\ \\left( 1 e n g t h \\ x s \\right) }$ ",
+        "bbox": [
+            59,
+            164,
+            437,
+            337
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "$\\mathtt { f o l d 1 } \\ : : \\ ( { \\mathtt { b } } \\ \\to \\ { \\mathtt { a } } \\ \\to \\ { \\mathtt { b } } ) \\ \\to \\ { \\mathtt { b } } \\ \\to \\ [ { \\mathtt { a } } ] \\ \\to \\ { \\mathtt { b } }$ $\\left\\{ \\mathbf { F } 0 \\right\\}$ foldl f ac $\\left[ \\begin{array} { l l } { \\mathbf { \\bar { \\mathbf { \\Lambda } } } } \\end{array} \\right] \\mathbf { \\Lambda } = \\mathbf { \\Lambda }$ ac $\\{ \\mathtt { F } 1 \\}$ foldl f ac $\\mathbf { \\delta } ( \\mathbf { x } : \\mathbf { x } \\mathbf { s } ) \\ = \\ \\mathbf { f } { \\mathrm { o 1 d 1 } } \\ \\mathbf { f } \\ \\mathbf { \\delta } ( \\mathbf { f } { \\mathrm { ~ \\ a c ~ \\ x } } )$ xs reverse :: [a] $- >$ [a] $\\{ { \\tt R } \\}$ reverse $=$ foldl (flip (:)) [] flip :: (a -> b -> c) -> (b -> a -> c) $\\{ \\mathtt { F L } \\}$ flip f $\\texttt { x y } = \\texttt { f }$ y x ",
+        "bbox": [
+            59,
+            356,
+            520,
+            490
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            59,
+            513,
+            403,
+            600
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            59,
+            619,
+            456,
+            709
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Queremos probar que: $\\forall$ ys::[a] . length ys $=$ length (reverse ys) ...que, por reverse, es lo mismo que: ",
+        "bbox": [
+            59,
+            729,
+            686,
+            815
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "$\\forall$ ys::[a] . length ys = length (foldl (flip (:)) [] ys) ",
+        "bbox": [
+            59,
+            819,
+            611,
+            858
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Avancemos hasta que nos trabemos. ",
+        "bbox": [
+            59,
+            870,
+            348,
+            905
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "20 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Otra vuelta de tuerca ",
+        "bbox": [
+            13,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "P(ys) = length ys = length (foldl (flip (:)) [] ys) ",
+        "bbox": [
+            209,
+            266,
+            788,
+            313
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "En el caso inductivo $\\left( \\mathbf { y } \\mathbf { s } \\ = \\ \\mathbf { x } : \\mathbf { x } \\mathbf { s } \\right)$ nuestra Hip´otesis Inductiva es: ",
+        "bbox": [
+            59,
+            329,
+            662,
+            376
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "length xs = length (foldl (flip (:)) [] xs) ",
+        "bbox": [
+            273,
+            388,
+            724,
+            431
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Pero lo que necesitamos es: ",
+        "bbox": [
+            66,
+            462,
+            324,
+            501
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "1 + length xs = length (foldl (flip (:)) (x:[]) xs) ",
+        "bbox": [
+            216,
+            498,
+            768,
+            537
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e podemos hacer? ",
+        "bbox": [
+            61,
+            572,
+            264,
+            619
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Respuesta: demostrar una propiedad m´as general. ",
+        "bbox": [
+            59,
+            643,
+            529,
+            690
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Probemos: $\\forall$ ys::[a]. $\\forall$ zs::[a].length zs $+ .$ length ys $=$ length (foldl (flip (:)) zs ys) ",
+        "bbox": [
+            59,
+            690,
+            598,
+            780
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "21 / 30 ",
+        "bbox": [
+            951,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Generalizando propiedades ",
+        "bbox": [
+            11,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "flipTake :: [a] -> Int -> [a]   \n$\\{ \\mathtt { F T } \\}$ flipTake $=$ foldr (\\x rec n -> if $\\mathtt { n } = = 0$ then [] else x : rec (n-1)) (const [])   \nDada esta versi´on alternativa con recursi´on expl´ıcita:   \ntake’ :: [a] -> Int -> [a]   \n$\\left\\{ \\mathrm { T 0 } \\right\\}$ take’ [] = []   \n$\\{ \\mathtt { T } 1 \\}$ take’ (x:xs) $\\mathrm { ~ \\textbar ~ { ~ n ~ } ~ } =$ if $\\mathtt { n } = = 0$ then [] else x : take’ xs (n-1)   \n¿Podemos probar que take’ $=$ flipTake? ",
+        "bbox": [
+            52,
+            270,
+            735,
+            749
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "22 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "¿Recuerdan esta funci´on? ",
+        "bbox": [
+            15,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Tenemos: ",
+        "bbox": [
+            61,
+            172,
+            150,
+            211
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "take’ :: [a] -> Int -> [a]   \n$\\left\\{ \\mathrm { T 0 } \\right\\}$ take’ [] $\\mathrm { ~ \\underline { ~ } { ~ } ~ } = \\mathrm { ~ \\underline { ~ } { ~ } { ~ } ~ } [ ]$   \n$\\{ \\mathtt { T } 1 \\}$ take’ (x:xs) ${ \\mathrm { ~ n ~ } } = { \\mathrm { ~ i f ~ } }$ $\\mathtt { n } = = 0$ then [] else x : take’ xs (n-1)   \nflipTake :: [a] $- >$ Int -> [a]   \n$\\{ \\mathtt { F T } \\}$ flipTake $=$ foldr (\\x rec n $- >$ if $\\mathtt { n } = = 0$ then [] else x : rec (n-1)) (const [])   \nfoldr :: (a -> b -> b) -> b -> [a] -> b   \n$\\left\\{ \\ F 0 \\right\\}$ foldr $\\texttt { f z } \\left[ \\begin{array} { l } { } \\\\ { } \\end{array} \\right] = \\texttt { z }$   \n$\\{ \\mathtt { F } 1 \\}$ foldr f $_ { z }$ $\\mathbf { \\chi } _ { \\mathbf { x } : \\mathbf { x } \\mathbf { s } } ^ { } ) ~ = { \\textbf { f } } ~ \\mathbf { x }$ (foldr f z xs)   \nconst :: (a -> b -> a)   \n$\\{ { \\tt C } \\}$ const $= ( \\backslash \\mathrm { \\bf ~ x ~ } - > \\backslash _ { - } - > \\mathrm { \\bf ~ x } )$ ",
+        "bbox": [
+            55,
+            196,
+            732,
+            843
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Probemos que take $^ { \\circ } =$ flipTake. ",
+        "bbox": [
+            59,
+            854,
+            388,
+            894
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "23 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "¿Est´a bien lo que hicimos? ",
+        "bbox": [
+            13,
+            19,
+            364,
+            86
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Dadas las siguientes funciones:   \ncantNodos :: AB a $- >$ Int   \n$\\{ { \\tt C N O } \\}$ cantNodos $\\mathbb { N } \\mathrm { i } 1 ~ = ~ 0$   \n$\\{ \\mathtt { C N 1 } \\}$ cantNodos (Bin $. \\textbf { r d } = \\textbf { 1 } +$ (cantNodos i) $^ +$ (cantNodos d)   \ninorder :: AB a $- >$ [a]   \n$\\left\\{ \\tt T O \\right\\}$ inorder $\\mathbb { N } \\mathrm { i } 1 ~ = ~ \\left[ \\begin{array} { r l r l } \\end{array} \\right]$   \n$\\{ \\mathtt { I } 1 \\}$ inorder (Bin i r d) $=$ (inorder i) $^ { + + }$ (r:inorder d)   \nlength :: [a] $- >$ Int   \n$\\{ \\mathtt { L O } \\}$ length $\\ [ \\ ] \\ = \\ 0$   \n$\\{ \\mathtt { L 1 } \\}$ length $\\mathbf { \\left( x : x s \\right) \\ = \\ 1 \\ + \\ ( 1 e n g t h \\ x s ) }$ ",
+        "bbox": [
+            50,
+            196,
+            719,
+            662
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Queremos probar: ",
+        "bbox": [
+            59,
+            682,
+            225,
+            725
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "∀ t::AB a . cantNodos t $=$ length (inorder t) ",
+        "bbox": [
+            253,
+            768,
+            739,
+            815
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "24 / 30 ",
+        "bbox": [
+            951,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Demostrando propiedades sobre ´arboles ",
+        "bbox": [
+            2,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "¡Necesitamos un lema! ",
+        "bbox": [
+            61,
+            396,
+            271,
+            439
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "∀ xs::[a] . ∀ ys::[a] . length (xs++ys) $=$ length xs $^ +$ length ys ",
+        "bbox": [
+            187,
+            474,
+            807,
+            517
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "25 / 30 ",
+        "bbox": [
+            951,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "¿Y ahora qu´e hacemos? ",
+        "bbox": [
+            11,
+            19,
+            326,
+            90
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Una propiedad sobe ´arboles... y un lema sobre listas ",
+        "text_level": 1,
+        "bbox": [
+            13,
+            19,
+            697,
+            90
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Ahora s´ı: ",
+        "bbox": [
+            59,
+            152,
+            143,
+            196
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "cantNodos :: AB a $- >$ Int   \n$\\{ { \\tt C N O } \\}$ cantNodos $\\mathbb { N } \\mathrm { i } 1 ~ = ~ 0$   \n$\\{ \\mathtt { C N 1 } \\}$ cantNodos (Bin i $\\textbf { r } { \\dot { \\textbf { d } } } = \\textbf { 1 } +$ (cantNodos i) $^ +$ (cantNodos d)   \ninorder :: AB a $- >$ [a]   \n$\\left\\{ \\tt T O \\right\\}$ inorder $\\mathbb { N } \\mathrm { i } 1 ~ = ~ \\left[ \\begin{array} { r l r l } \\end{array} \\right]$   \n$\\{ \\mathtt { I } 1 \\}$ inorder (Bin i r d) $=$ (inorder i) $^ { + + }$ (r:inorder d)   \nlength :: [a] $- >$ Int   \n$\\{ \\mathtt { L O } \\}$ length $\\ [ \\ ] \\ = \\ 0$   \n$\\{ \\mathtt { L 1 } \\}$ length $\\mathbf { \\left( x : x s \\right) } ~ = ~ 1 ~ + ~ \\mathbf { \\left( 1 e n g t h { \\begin{array} { l } { x s } \\end{array} } \\right) }$ ",
+        "bbox": [
+            55,
+            207,
+            717,
+            329
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            59,
+            341,
+            675,
+            466
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            59,
+            482,
+            437,
+            615
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Lema: $\\forall$ xs::[a] . $\\forall$ ys::[a] . length (xs++ys) $=$ length xs $^ +$ length ys Queremos probar: ",
+        "bbox": [
+            57,
+            639,
+            739,
+            752
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "∀ t::AB a . cantNodos t $=$ length (inorder t) ",
+        "bbox": [
+            253,
+            796,
+            739,
+            839
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "¡No nos olvidemos de probar el lema! ",
+        "bbox": [
+            59,
+            878,
+            406,
+            925
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "26 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "$( + + )$ :: [a] -> [a] -> [a] $\\{ { \\mathsf { C } } 0 \\} ~ [ ] ~ + + ~ { \\mathsf { y } } { \\mathsf { s } } ~ = ~ { \\mathsf { y } } { \\mathsf { s } }$ $\\{ { \\tt C } 1 \\}$ (x:xs) ++ ys = x : (xs ++ ys) ",
+        "bbox": [
+            59,
+            317,
+            417,
+            450
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "length :: [a] $- >$ Int   \n$\\{ \\mathtt { L O } \\}$ length $\\ [ \\ ] \\ = \\ 0$   \n$\\{ \\mathtt { L 1 } \\}$ length $\\mathbf { \\left( x : x s \\right) \\ = \\ 1 \\ + \\ \\left( 1 e n g t h \\ x s \\right) }$ ",
+        "bbox": [
+            59,
+            470,
+            434,
+            603
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Lema: $\\forall$ xs::[a] . $\\forall$ ys::[a] . length (xs++ys) $=$ length xs $^ +$ length ys ",
+        "bbox": [
+            55,
+            627,
+            739,
+            674
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "27 / 30 ",
+        "bbox": [
+            951,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Demostremos el lema ",
+        "bbox": [
+            13,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Si quisi´eramos demostrar una propiedad sobre el tipo ´Arbol23 a b mediante inducci´on estructural: ",
+        "bbox": [
+            57,
+            270,
+            871,
+            360
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "data ´Arbol23 a b $=$ Hoja a | Dos b (´Arbol23 a b) (´Arbol23 a b) | Tres b b (´Arbol23 a b) (´Arbol23 a b) (´Arbol23 a b) ",
+        "bbox": [
+            70,
+            380,
+            642,
+            552
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Para demostrar que vale ∀ q::´Arbol23 a b . $P ( { \\mathfrak { q } } )$ : ",
+        "bbox": [
+            59,
+            576,
+            540,
+            623
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es o cu´ales son los casos base? ¿Cu´al es o cu´ales son los casos inductivos? $\\therefore Y \\mid \\mathsf { a } ( \\mathsf { s } )$ hip´otesis inductiva(s)? ",
+        "bbox": [
+            55,
+            647,
+            750,
+            745
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "28 / 30 ",
+        "bbox": [
+            951,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Ultimas preguntas ´ ",
+        "bbox": [
+            19,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "“Ejemplo de inducci´on estructural con implicaci´on” Disponible en la secci´on Util´ del campus. ",
+        "bbox": [
+            61,
+            419,
+            611,
+            513
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "29 / 30 ",
+        "bbox": [
+            953,
+            964,
+            988,
+            992
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Apunte recomendado ",
+        "bbox": [
+            4,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "bbox": [
+            322,
+            431,
+            675,
+            537
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Fin ",
+        "bbox": [
+            0,
+            0,
+            1000,
+            109
+        ],
+        "page_idx": 29
+    }
+]

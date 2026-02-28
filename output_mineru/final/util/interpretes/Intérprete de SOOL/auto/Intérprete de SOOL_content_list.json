@@ -1,0 +1,3024 @@
+[
+    {
+        "type": "text",
+        "text": "Eduardo Bonelli ",
+        "text_level": 1,
+        "bbox": [
+            397,
+            485,
+            602,
+            529
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Departamento de Computación FCEyN UBA ",
+        "bbox": [
+            345,
+            573,
+            654,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "7 de noviembre de 2006 ",
+        "bbox": [
+            348,
+            727,
+            651,
+            768
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            834,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            5,
+            0,
+            991,
+            132
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "Programacion Orientada a Objetos ",
+        "bbox": [
+            58,
+            305,
+            825,
+            430
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Vamos a introducir los conceptos fundamentales del paradigma ",
+        "bbox": [
+            104,
+            360,
+            798,
+            455
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "。 Objetos,clases,modelo de cómputo, herencia Polimorfismo de subclase y dynamic method dispatch • Super y static method dispatch ",
+        "bbox": [
+            165,
+            474,
+            817,
+            606
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• llustraremos estos ejemplos con el lenguaje SOOL • Es una extensión de SFLA con orientación a objetos • Vamos a implementar un intérprete para SOOL ",
+        "bbox": [
+            107,
+            628,
+            781,
+            672
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            162,
+            694,
+            817,
+            779
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Indice tematico ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            834,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Vamos a presentar los problemas principales asociados a los sistemas de tipos para lenguajes orientados a objetos ",
+        "bbox": [
+            102,
+            330,
+            900,
+            430
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "· Algunos conceptos relevantes son: ",
+        "bbox": [
+            107,
+            437,
+            566,
+            481
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• Sistema de tipos invariantes Subsumption como subclassing Covarianza y contravarianza ， Falla de Type Safety para Java • El “Binary Method Problem\" ",
+        "bbox": [
+            165,
+            492,
+            558,
+            709
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• Completaremos la visión del paradigma usando Smalltalk (Präctica) ",
+        "bbox": [
+            104,
+            724,
+            861,
+            819
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            823,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "Indice tematico ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            500,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• Entre los temas más destacados de este eje se encuentra el de desarrollo de sistemas de tipos y semántica para lenguajes OO ",
+        "bbox": [
+            104,
+            352,
+            928,
+            448
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "· Dos textos sobre el tema: ",
+        "bbox": [
+            104,
+            466,
+            461,
+            507
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A THEORY OF OBJECTS, Martin Abadi y Luca Cardelli, Monographs in Computer Science, David Gries and Fred B. Schneider ed., Springer-Verlag，1996   \nFOUNDATIONS OF OBJECT-ORIENTED PROGRAMMING LANGUAGES: TYPES AND SEMANTICS, Kim B. Bruce, The MIT Press, 2002 ",
+        "bbox": [
+            149,
+            529,
+            892,
+            790
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            825,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            505,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Eje de fundamentos ",
+        "bbox": [
+            30,
+            143,
+            359,
+            202
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• Un survey (no tan reciente pero relevante) sobre sistemas de tipos para lenguajes OO: ",
+        "bbox": [
+            102,
+            386,
+            908,
+            481
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "THE DEVELOPMENT OF TYPE SYSTEMS FOR OBJECT-ORIENTED LANGUAGES, Kathleen Fisher y John C.Mitchell,Theory and Practice of Object Systems,1(3): 189-220, 1996 ",
+        "bbox": [
+            168,
+            500,
+            886,
+            676
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• Disponible en la pägina personal del primer autor ",
+        "bbox": [
+            104,
+            698,
+            762,
+            746
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            828,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Eje de fundamentos ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            500,
+            959,
+            997,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "ObjetosyClases   \nModelo de computo   \nHerenciay polimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Un sistema orientado a objetos es un conjunto de objetos que interactuan entre si para lograr algun objetivo predefinido ",
+        "bbox": [
+            74,
+            367,
+            864,
+            463
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "+ Lenguajes orientados a objetos se usan para implementar sistemas orientados a objetos ",
+        "bbox": [
+            102,
+            522,
+            861,
+            617
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Para poder estudiar estos lenguajes: . Debemos comprender qué son los objetos,cómo se especifican y cómo se clasifican Debemos,asimismo,conocer el modelo de cómputo: iDe qué manera pueden interactuar los objetos? ",
+        "bbox": [
+            104,
+            628,
+            922,
+            856
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            809,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas Orientadosa Objetos ",
+        "bbox": [
+            60,
+            301,
+            947,
+            356
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "Sistemas Orientados a Objetos ",
+        "bbox": [
+            16,
+            139,
+            1000,
+            205
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "ObjetosyClases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            522,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Un objeto se especifica a través de: ",
+        "bbox": [
+            77,
+            297,
+            524,
+            341
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "● Un conjunto de funciones (usualmente llamadas métodos) que determinan su interfase o protocolo ",
+        "bbox": [
+            102,
+            356,
+            928,
+            452
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Un conjunto de campos o atributos que representan su estado ",
+        "bbox": [
+            104,
+            470,
+            925,
+            514
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Principio bäsico heredado de los Tipos Abstractos de Datos, antecesores de los Objetos y Clases: ",
+        "bbox": [
+            102,
+            573,
+            903,
+            672
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Principio de ocultamiento de la informacion ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            724,
+            629,
+            764
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "El estado de un objeto es privado y solamente puede ser consultado o modificado a traves de los métodos provistos por su interfase ",
+        "bbox": [
+            71,
+            783,
+            930,
+            878
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Objetos ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nocionesbasicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            959,
+            842,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "ObjetosyClases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            522,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Para facilitar compartir métodos entre objetos de la misma naturaleza, los objetos se suelen especificar a traveés de clases. ",
+        "bbox": [
+            74,
+            312,
+            856,
+            408
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "La clases son estructuras que especifican los campos y   \nmétodos de los objetos (llamados variables de instancia y   \nmétodos de instancia, resp.)   \nCada objeto es una instancia de alguna clase   \nLas clases pueden verse como “moldes” de objetos, cada uno   \nde los cuales es creado a su semejanza   \nLas clases también pueden tener sus propios campos (variables   \nde clase o estaticas) y métodos (métodos de clase)   \nObjetosyClases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            96,
+            411,
+            928,
+            856
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            828,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Clases ",
+        "bbox": [
+            2,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nocionesbasicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "class point extends object field x field y method initialize (initx,inity) begin set $\\mathrm { ~ \\tt ~ { ~ x ~ } ~ } =$ initx; set $\\textrm { y } =$ inity end method move (dx,dy) begin set set $\\begin{array} { r } { \\mathrm { \\bf ~ x } = + ( \\mathrm { \\bf x } , \\mathrm { d } \\mathrm { \\bf x } ) ; } \\\\ { \\mathrm { \\bf ~ y } = + ( \\mathrm { \\bf y } , \\mathrm { d } \\mathrm { \\bf y } ) } \\end{array}$ end method get_location () list(x,y) ",
+        "bbox": [
+            66,
+            279,
+            563,
+            897
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            834,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            994,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "ObjetosyClases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            522,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Cada clase consiste de ",
+        "bbox": [
+            74,
+            316,
+            364,
+            360
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "un nombre y el nombre de la clase que extiende O una lista de declaraciones de campos ● una lista de declaraciones de métodos · por cada método se especifica ",
+        "bbox": [
+            102,
+            375,
+            729,
+            599
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "• su nombre • parämetros formales ",
+        "bbox": [
+            168,
+            610,
+            430,
+            735
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "● initialize es un método especial que se invoca cuando un objeto es creado ",
+        "bbox": [
+            102,
+            753,
+            908,
+            845
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            845,
+            996
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "Clases ",
+        "bbox": [
+            2,
+            132,
+            997,
+            209
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nocionesbasicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "ObjetosyClases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding   \nclass point extends object field x field y method initialize (initx,inity) begin set $\\mathrm { ~ \\tt ~ { ~ x ~ } ~ } =$ initx; set $\\textrm { y } =$ inity end method move (dx,dy) begin set $\\begin{array} { r } { \\mathrm { \\bf ~ x } = + ( \\mathrm { \\bf x } , \\mathrm { d } \\mathrm { \\bf x } ) ; } \\\\ { \\mathrm { \\bf ~ y } = + ( \\mathrm { \\bf y } , \\mathrm { d } \\mathrm { \\bf y } ) } \\end{array}$ set end method get_location () list(x,y)   \nlet $\\mathrm { ~ p ~ } =$ new point(3,4) in p ",
+        "bbox": [
+            522,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            66,
+            257,
+            569,
+            919
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            8,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            0,
+            952,
+            994,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Objetos y Clases   \nModelo decomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            522,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Pasaje de mensajes como modelo de computo ",
+        "text_level": 1,
+        "bbox": [
+            27,
+            143,
+            784,
+            202
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• La interaccion entre objetos se lleva a cabo a través de pasaje de mensajes ",
+        "bbox": [
+            102,
+            268,
+            928,
+            363
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• Llamar al método de un objeto se interpreta como enviar un mensaje a ese objeto que consiste en: ",
+        "bbox": [
+            102,
+            375,
+            900,
+            463
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• el nombre del método • los argumentos o parámetros reales ",
+        "bbox": [
+            165,
+            470,
+            604,
+            558
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• Por ejemplo, en la expresión ",
+        "bbox": [
+            104,
+            577,
+            494,
+            621
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "send pump depress(5) ",
+        "bbox": [
+            367,
+            639,
+            687,
+            683
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "· pump es el objeto receptor · depress(5) es el mensaje que se envia ",
+        "bbox": [
+            168,
+            713,
+            654,
+            797
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "。 En este caso, el mensaje consiste en un nombre de método (depress) y argumentos (5) ",
+        "bbox": [
+            102,
+            819,
+            886,
+            919
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            806,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que un objeto envia el mensaje: send o m(e1,e2) ",
+        "bbox": [
+            77,
+            261,
+            908,
+            308
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Para poder realizar procesar este mensaje es necesario hallar la declaración del método que se pretende ejecutar ",
+        "bbox": [
+            102,
+            334,
+            928,
+            430
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Method Dispatch ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            481,
+            298,
+            529
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "El proceso de establecer la asociación entre el mensaje y el método a ejecutar se llama method dispatch ",
+        "bbox": [
+            74,
+            540,
+            928,
+            636
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "。 Si el method dispatch se hace en tiempo de compilación (i.e. el método a ejecutar se puede determinar a partir del código fuente): se habla de method dispatch estätico ejecución: se habla de method dispatch dinämico ",
+        "bbox": [
+            107,
+            698,
+            690,
+            742
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            165,
+            761,
+            930,
+            893
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Method dispatch ",
+        "bbox": [
+            0,
+            132,
+            1000,
+            205
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Objetosy Clases indice tematico Modelodecomputo Nociones basicas Herenciay polimorfismo SOOL Supery Method Dispatch Estatico Overloadingyoverriding ",
+        "bbox": [
+            11,
+            0,
+            850,
+            128
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            0,
+            959,
+            994,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Objetosy Clases   \nModelodecomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding   \nclass interior_node extends object   \nfield left,right   \nmethod initialize (l,r) begin set left = 1; set right = r end   \nmethod sum() $^ +$ (send left sum(), send right sum())   \nclass leaf_node extends object   \nfield value   \nmethod initialize (v) set value = v   \nmethod sum (） value   \nObjetosy Clases   \nModelodecomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding   \nclass interior_node let o1 = new interior_node( extends object new interior_node(   \nfield left,right new leaf_node(3),   \nmethod initialize (l,r) new leaf_node(4)), begin new leaf_node(5)) set left = 1; in send o1 sum() set right = r; end   \nmethod sum() $^ +$ (send left sum(), send right sum())   \nclass leaf_node extends object   \nfield value   \nmethod initialize (v) set value = v   \nmethod sum () value   \nObjetosy Clases   \nModelo decomputo   \nHerenciaypolimorfismo   \nSuper y Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            522,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            69,
+            308,
+            604,
+            930
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            809,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            66,
+            301,
+            941,
+            933
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            812,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            218,
+            959,
+            997,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Jerarquia de clases ",
+        "text_level": 1,
+        "bbox": [
+            33,
+            143,
+            339,
+            202
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "• Es comun que nuevas clases aparezcan como resultado de la extensión de otras existentes a través de la ",
+        "bbox": [
+            102,
+            275,
+            906,
+            367
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "● adición o cambio del comportamiento de un método • adición de nuevos campos ",
+        "bbox": [
+            165,
+            375,
+            809,
+            463
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "• Una clase puede heredar de o extender una clase pre-existente (la superclase) ",
+        "bbox": [
+            102,
+            477,
+            928,
+            573
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "• Si una clase c2 hereda de otra c1, todos los campos y métodos de c1 serán visibles desde c2, salvo que sean redeclarados ",
+        "bbox": [
+            102,
+            588,
+            834,
+            731
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "· Por ello, la herencia promueve el reuso de código • La transitividad de la herencia da origen a las nociones de ancestros y descendientes ",
+        "bbox": [
+            107,
+            750,
+            754,
+            794
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            102,
+            812,
+            878,
+            904
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            823,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Objetosy Clases   \nModelo decomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            522,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "• Hay dos tipos de herencia ",
+        "bbox": [
+            104,
+            316,
+            464,
+            360
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "· Simple: una clase tiene una unica clase padre (salvo la clase raiz object) • Multiple: una clase puede tener más de una clase padre ",
+        "bbox": [
+            165,
+            382,
+            903,
+            511
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "• La gran mayoria de los lenguajes OO utilizan herencia simple Si bien en algunas situaciones puede ser itil, el mayor inconveniente con herencia multiple es que una clase puede tener dos o más superclases con métodos del mismo nombre Determinar cual de los métodos se heredan es, en el mejor de los casos, arbitrario ",
+        "bbox": [
+            102,
+            533,
+            922,
+            849
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            834,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "Herencia ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "class point extends object field x, y method initialize (initx,inity) begin set $\\begin{array} { r l } { \\mathbf { x } } & { { } = } \\end{array}$ initx; set $\\mathtt { y } =$ inity end method move (dx,dy) begin set $\\textbf { x } = \\mathbf { \\kappa } + ( \\mathbf { x } _ { \\mathbf { \\kappa } } , \\mathbf { d } \\mathbf { x } )$ ； set $\\tt { y } = \\tt { + } ( \\tt { y } , \\tt { d } \\tt { y } )$ end method get_location () list(x,y)   \nclass colorpoint extends point field color method set_color (c） set color = c method get_color (） color   \nObjetosy Clases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding   \nObjetosy Clases   \nModelodecomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding   \nclass point extends object field x, y method initialize (initx,inity) begin let $\\tt { p } =$ new point(3,4); set $\\begin{array} { r l } { \\mathbf { x } } & { { } = } \\end{array}$ initx; $\\tt c p =$ new colorpoint(10,20) set $\\mathtt { y } =$ inity in begin end send p move(3,4); method move (dx,dy) send cp set_color(87); begin send cp move(10,20); set $\\textbf { x } = \\mathbf { \\kappa } + ( \\mathbf { x } _ { \\mathbf { \\kappa } } , \\mathbf { d } \\mathbf { x } )$ ； list (send p get_location (), set $\\tt { y } = \\tt { + } ( \\tt { y } , \\tt { d } \\tt { y } )$ send cp get_location (), end send cp get_color ())） method get_location () list(x,y) end   \nclass colorpoint extends point field color method set_color (c) set color = c method get_color (） color   \nObjetosy Clases   \nModelo decomputo   \nHerenciaypolimorfismo   \nSuper y Method Dispatch Estatico   \nOverloadingyoverriding   \nclass c1 extends object field x,y method initialize () 1 method setx1 (v） set $\\mathrm { ~ \\bf ~ x ~ } = \\mathrm { ~ \\bf ~ v ~ }$ method sety1 (v） set $\\texttt { y } = \\texttt { v }$ method getx1 () x method gety1 () y   \nclass c2 extends c1 field y method sety2 (v) set $\\texttt { y } = \\texttt { v }$ method getx2 () x method gety2 () y   \nlet $\\scriptscriptstyle { 0 . 2 } =$ new c2()   \nin begin send o2 setx1(100); send o2 sety1(102); send o2 sety2(999); list(send o2 getx1(); send o2 gety1(); send o2 getx2(); send o2 gety2()) end ",
+        "bbox": [
+            60,
+            279,
+            947,
+            889
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            856,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            997,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            63,
+            283,
+            883,
+            886
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            850,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            8,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            997,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            74,
+            363,
+            408,
+            783
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            472,
+            360,
+            779,
+            709
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            831,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo-Redeclaracion ",
+        "bbox": [
+            30,
+            143,
+            425,
+            202
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "indice tematico Nocionesbasicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Objetosy Clases   \nModelo decomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Polimorfismode subclase ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            352,
+            395,
+            393
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Una instancia de cualquier descendiente de una clase puede utilizarse en lugar de una instancia de la clase misma ",
+        "bbox": [
+            74,
+            408,
+            834,
+            503
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Polimorfismo de subclase se implementa a través de method dispatch dinämico ",
+        "bbox": [
+            104,
+            558,
+            906,
+            647
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "esto es consecuencia de que el método a ejecutar no puede ser determinado sin conocer el objeto receptor del mensaje . esto ültimo solo puede conocerse en tiempo de ejecución ",
+        "bbox": [
+            165,
+            658,
+            922,
+            786
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            823,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "discarded",
+        "text": "Polimorfismo de subclase ",
+        "bbox": [
+            8,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Objetosy Clases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "images/3d4bf665d3b8d33643de086cf6d7788ff1de9b4cf226bfa0bb43698ad3cc4771.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>method initialize () 1</td><td>class c1 extends object</td></tr><tr><td>method m1 () 1</td><td></td></tr><tr><td>method m2 () send self m1()</td><td></td></tr><tr><td>class c2 extends c1</td><td></td></tr><tr><td>method m1 () 2</td><td></td></tr><tr><td>let o1 = new c1()</td><td></td></tr><tr><td>02 = new c2()</td><td></td></tr><tr><td>in list(send o1 m1(),</td><td></td></tr><tr><td>send o2 m1(),</td><td></td></tr><tr><td>send o2 m2())</td><td></td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            60,
+            305,
+            950,
+            812
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Nota: el identificador self se liga al objeto receptor del mensaje ",
+        "bbox": [
+            74,
+            830,
+            906,
+            878
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            5,
+            132,
+            997,
+            209
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            959,
+            812,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "class c1 extends object method intialize () 1 method m1 (） 1 method m2 (） 100 method m3 () send self m2()   \nclass c2 extends c1 method initialize () 1 method m2 (） 2   \nlet o1 $=$ new c1() 02 = new c2()   \nin list(send o1 m1(), send o1 m2(), send o1 m3(), send o2 m1(), send o2 m2(), send o2 m3())   \nObjetosy Clases   \nModelodecomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding   \nObjetosy Clases   \nModelo de computo   \nHerenciaypolimorfismo   \nSuperyMethod Dispatch Estatico   \nOverloadingyoveriding   \n. Method dispatch dinämico es uno de los pilares de la POO (junto con la noción de clase y de herencia) Por cuestiones de eficiencia (o diseno,como el caso de C++) muchos lenguajes también cuentan con method dispatch estatico   \n. Sin embargo,hay algunas situaciones donde method dispatch estätico se requerido,más allä de cuestiones de eficiencia La sentencia que ejemplifica esto es el super   \nObjetosy Clases   \nModelo de computo   \nHerenciay polimorfismo   \nSuperyMethod Dispatch Estatico   \nOverloadingyoveriding ",
+        "bbox": [
+            71,
+            257,
+            497,
+            959
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo ",
+        "bbox": [
+            8,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            0,
+            959,
+            850,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            472,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            99,
+            352,
+            922,
+            786
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            825,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "Method Dispatch Estatico ",
+        "bbox": [
+            2,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nocionesbasicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Supongamos que queremos extender la clase point del siguiente modo: ",
+        "bbox": [
+            69,
+            264,
+            903,
+            356
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "class colorpoint extends point field color method initialize (initx, inity,initc) begin set $\\mathrm { ~ x ~ } =$ initx; set $\\mathtt { y } =$ inity; set color $=$ initc end method set_color (c) ... method get_color () ... ",
+        "bbox": [
+            71,
+            389,
+            732,
+            886
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Super ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            0,
+            959,
+            889,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            505,
+            959,
+            997,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "ObjetosyClases   \nModelo de computo   \nHerenciaypolimorfismo   \nSuperyMethodDispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            519,
+            0,
+            787,
+            125
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "• jEl cuerpo de initialize duplica código innecesariamente! ",
+        "bbox": [
+            99,
+            257,
+            903,
+            305
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Esto es un ejemplo claro de mala präctica de programación en   \nfunción a la presencia de herencia   \nDeberiamos recurrir al código ya existente del método   \ninitialize de point para que se encargue de la   \ninicialización de x e y   \niLa siguiente variante funciona?   \nclass colorpoint extends point field color method initialize (initx,inity) begin send self initialize(initx,inity); set color $=$ \"azul\" end method set_color (c） .. method get_color ()   \nObjetosy Clases   \nModelo de computo   \nHerenciay polimorfismo   \nSuperyMethodDispatch Estatico   \nOverloadingyoveriding   \nclase anfitriona de un método: clase donde se declara el   \nmétodo   \nUna expresión de la forma super s(...） que aparece en el   \ncuerpo de un método m invoca el método s del padre de la   \nclase anfitriona de m   \nEl código correcto deberia ser   \nclass colorpoint extends point field color method initialize (initx, inity) begin super initialize(initx,inity); set color $=$ \"azul\" end method set_color (c) ... method get_color (） ...   \nObjetosy Clases   \nModelo de computo   \nHerenciay polimorfismo   \nSuperyMethodDispatch Estatico   \nOverloadingyoveriding   \n? Una expresión de la forma super s(...） se dice llamado super Un llamado super es similar a un llamado a self en el sentido que el objeto receptor es self en ambos casos Sin embargo，method dispatch es estatico en el primero caso y dinämico en el ultimo   \n• Vamos a ver un ejemplo que ilustre esta diferencia   \nObjetosy Clases   \nModelo de computo   \nHerenciay polimorfismo   \nSuperyMethodDispatch Estatico   \nOverloadingyoveriding   \nclass c1 extends object method initialize () 1 method m1 () send self m2() method m2 (） 13   \nclass c2 extends c1 method m1 (） 22 method m2 (） 23 method m3 (） super m1 ()   \nclass c3 extends c2 method m1 (） 32 method m2 (） 33   \nlet 03 $=$ new c3()   \nin send o3 m3() ",
+        "bbox": [
+            93,
+            268,
+            925,
+            970
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Super ",
+        "bbox": [
+            2,
+            132,
+            1000,
+            205
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientada a Objetos ",
+        "bbox": [
+            0,
+            963,
+            825,
+            996
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            88,
+            268,
+            911,
+            908
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            839,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "Super ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            500,
+            959,
+            994,
+            996
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            99,
+            371,
+            933,
+            757
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            828,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "Diferencia Super/Self ",
+        "bbox": [
+            30,
+            139,
+            386,
+            205
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nocionesbasicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            997,
+            996
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            519,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            71,
+            297,
+            494,
+            871
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            853,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "Ejemplo - Super/Self ",
+        "bbox": [
+            11,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            997,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Method Overloading (Sobrecarga de Métodos) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            143,
+            792,
+            205
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Facilidad que le permite a una clase tener multiples métodos con el mismo nombre, siempre y cuando tengan diferente signaturas ",
+        "bbox": [
+            102,
+            323,
+            897,
+            466
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": ". La signatura de un método tipicamente consiste en • el nombre del método · el numero de parámetros • el tipo de los parámetros y del resultado ",
+        "bbox": [
+            104,
+            477,
+            781,
+            522
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            165,
+            533,
+            662,
+            661
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Esta noción tambien existe en lenguajes imperativos y funcionales ",
+        "bbox": [
+            104,
+            680,
+            825,
+            772
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "A veces lleva el nombre de ad-hoc polymorphism ",
+        "bbox": [
+            107,
+            790,
+            751,
+            834
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            814,
+            996
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "discarded",
+        "text": "Objetosy Clases indice tematico Modelo de computo Nociones basicas Herenciaypolimorfismo SOOL Supery Method Dispatch Estatico Overloadingyoverriding ",
+        "bbox": [
+            5,
+            0,
+            922,
+            132
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Objetosy Clases indice tematico Modelo de computo Nociones basicas Herenciaypolimorfismo SOOL Supery Method Dispatch Estatico Overloadingyoverriding ",
+        "bbox": [
+            11,
+            0,
+            848,
+            132
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Method Overloading (Sobrecarga de Métodos) ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            143,
+            792,
+            205
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "class colorpoint extends point field color method initialize (initx,inity，initc) begin super initialize(initx,inity); set color $=$ initc end method initialize (initx,inity) begin super initialize(initx,inity); set color $=$ \"azul\" end ",
+        "bbox": [
+            66,
+            316,
+            676,
+            845
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            825,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            497,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Objetosy Clases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            522,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Main ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            349,
+            138,
+            386
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "A x;   \nx=new B();   \nSystem.out.print(x.m(5)); ",
+        "bbox": [
+            69,
+            404,
+            433,
+            533
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Output ",
+        "text_level": 1,
+        "bbox": [
+            71,
+            632,
+            165,
+            669
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "20 ",
+        "bbox": [
+            69,
+            683,
+            104,
+            724
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "public class A { public int m(float x) { return 10; }；   \n}   \npublic class B extends A { public int m(float x) { return 20; }；   \n}   \nObjetosy Clases   \nModelo de computo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            530,
+            356,
+            930,
+            838
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Programacion Orientadaa Objetos ",
+        "bbox": [
+            511,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ",
+        "bbox": [
+            0,
+            959,
+            845,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "Resolviendo la sobrecarga ",
+        "bbox": [
+            0,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            522,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Main ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            349,
+            138,
+            386
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "A x;   \nx=new B();   \nSystem.out.print(x.m(5)); ",
+        "bbox": [
+            69,
+            404,
+            433,
+            533
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Output ",
+        "text_level": 1,
+        "bbox": [
+            71,
+            632,
+            165,
+            669
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "public class A { public int m(int x) { return 10; }；   \n}   \npublic class B extends A { public int m(float x) { return 20; }；   \n} ",
+        "bbox": [
+            530,
+            356,
+            930,
+            838
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            511,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ",
+        "bbox": [
+            0,
+            959,
+            848,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "Resolviendo la sobrecarga ",
+        "bbox": [
+            0,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            477,
+            102
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "10 ",
+        "bbox": [
+            71,
+            687,
+            104,
+            724
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Method Overide (Redefinicionde Métodos) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            143,
+            754,
+            205
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Facilidad que le permite a una clase redefinir un método o   \ncampo heredado   \nEl método redefinido,en general,agrega comportamiento   \nespecifico de la subclase   \nEs aconsejable que el método redefinido tenga relacion l6gica   \ncon el método que se redefine   \nEn la presencia de sistemas de tipos,la signatura del método   \nredefinido debe“parecerse\"a la del método a redefinir   \n(veremos mäs detalles en la clase de sistemas de tipos para   \nlenguajes OO) ",
+        "bbox": [
+            96,
+            316,
+            917,
+            845
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            820,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "Objetosy Clases indice tematico Modelo de computo Nociones basicas Herenciaypolimorfismo SOOL Supery Method Dispatch Estatico Overloadingyoverriding ",
+        "bbox": [
+            8,
+            0,
+            922,
+            132
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Objetosy Clases   \nModelodecomputo   \nHerenciaypolimorfismo   \nSupery Method Dispatch Estatico   \nOverloadingyoverriding ",
+        "bbox": [
+            524,
+            0,
+            790,
+            125
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Method Overide (Redefinicionde Métodos) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            143,
+            754,
+            205
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "image",
+        "img_path": "images/6001f03f8f561431427b5ee029a591a0b9d13dca001ac1a6debf99dec9ef4696.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            63,
+            305,
+            947,
+            849
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            831,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            491,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "• Introduciremos el lenguaje SOOL • Es una extensión de SFLA con orientación a objetos • En particular agrega primitivas para ",
+        "bbox": [
+            104,
+            367,
+            571,
+            411
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            168,
+            430,
+            814,
+            514
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "declarar clases, atributos y métodos crear nuevas instancias de una clase ● mandar mensajes a objetos ● referirse a super y self ",
+        "bbox": [
+            226,
+            525,
+            643,
+            683
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "• La clase que viene vamos a implementar un intérprete para SOOL ",
+        "bbox": [
+            165,
+            694,
+            878,
+            772
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "Teaser ",
+        "bbox": [
+            522,
+            51,
+            574,
+            73
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli ProgramacionOrientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            834,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "SOOL ",
+        "bbox": [
+            5,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            502,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Extendemos SFL con las siguientes producciones: ",
+        "bbox": [
+            77,
+            242,
+            707,
+            286
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            2,
+            959,
+            823,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            348,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "Teaser ",
+        "bbox": [
+            522,
+            51,
+            574,
+            73
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis concreta de SOOL ",
+        "bbox": [
+            8,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Observar que la nueva gramatica: ",
+        "bbox": [
+            74,
+            363,
+            502,
+            408
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "· Incluye una sentencia begin-end <expr> :: $=$ begin <expr> ; <expr>(\\*) end Las expresiones se evaluan en orden y se retorna el valor de la ultima de ellas   \nIncluye primitivas de procesamiento de listas <primitive> ::= ... | list | cons | nil l head | tail | null? ",
+        "bbox": [
+            104,
+            415,
+            925,
+            783
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "Eduardo Bonelli Programacion Orientadaa Objetos ",
+        "bbox": [
+            5,
+            959,
+            828,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "Teaser ",
+        "bbox": [
+            522,
+            51,
+            574,
+            73
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas SOOL ",
+        "bbox": [
+            345,
+            22,
+            480,
+            102
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "Sintaxis concreta de SOOL ",
+        "bbox": [
+            0,
+            132,
+            1000,
+            209
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            500,
+            959,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Recordar ",
+        "bbox": [
+            77,
+            308,
+            190,
+            352
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Valores expresados: valores que pueden resultar de la evaluación de las expresiones del lenguaje ",
+        "bbox": [
+            102,
+            371,
+            814,
+            466
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Valores denotados: valores que se pueden asignar a las variables ",
+        "bbox": [
+            102,
+            481,
+            831,
+            573
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "En SOOL tenemos ",
+        "bbox": [
+            74,
+            588,
+            328,
+            636
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Valores Expr. = Number + ProcVal + Obj + List(Valores   \nExpr.)   \nValores Den. = Ref(Expressed Value) ",
+        "bbox": [
+            71,
+            665,
+            897,
+            819
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "indice tematico Nociones basicas Teaser SOOL Valores expresados y denotados ",
+        "bbox": [
+            0,
+            0,
+            1000,
+            209
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            5,
+            959,
+            837,
+            996
+        ],
+        "page_idx": 38
+    }
+]

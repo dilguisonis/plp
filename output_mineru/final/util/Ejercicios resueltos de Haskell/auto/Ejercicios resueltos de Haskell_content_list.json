@@ -1,0 +1,965 @@
+[
+    {
+        "type": "text",
+        "text": "Ejercicio 1 ",
+        "text_level": 1,
+        "bbox": [
+            134,
+            78,
+            235,
+            92
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sea el siguiente tipo: type Punto $=$ (Int,Int) ",
+        "bbox": [
+            107,
+            101,
+            494,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definir, usando listas por comprensi´on, una lista (infinita) puntosDelPlano::[Punto] que contenga todos los puntos del cuadrante superior derecho del plano. ",
+        "bbox": [
+            112,
+            117,
+            892,
+            148
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Atenci´on: la funci´on debe garantizar que eventualmente todo punto del cuadrante superior derecho ser´a listado. Una forma de garantizar esto es recorrer los puntos siguiendo las diagonales $x + y = k$ , con $k = 0 , 1 , 2 , 3 , \\ldots$ (ver el gr´afico). ",
+        "bbox": [
+            109,
+            149,
+            813,
+            196
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: [ (0,0), (0,1), (1,0), (0,2), (1,1), (2,0), (0,3), (1,2), (2,1), (3,0), (0,4), ... ] ",
+        "bbox": [
+            136,
+            197,
+            628,
+            229
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/1fe8a649c10d3234d73aa989065053d289a8a130d5624e3c30db152731dfae15.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            354,
+            242,
+            642,
+            445
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on 1 ",
+        "text_level": 1,
+        "bbox": [
+            136,
+            478,
+            233,
+            493
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "puntosDelPlano :: [Punto] puntosDelPlano $=$ [(x, y) | k <- [0..], x <- [0..k], y<- [0..k], x + y == k] ",
+        "bbox": [
+            142,
+            508,
+            872,
+            542
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on 2 ",
+        "text_level": 1,
+        "bbox": [
+            136,
+            555,
+            235,
+            570
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "puntosDelPlano :: [Punto] puntosDelPlano $=$ [(x,k-x) | k<-[0..], x<-[0..k]] ",
+        "bbox": [
+            142,
+            586,
+            610,
+            618
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2 ",
+        "text_level": 1,
+        "bbox": [
+            136,
+            670,
+            236,
+            686
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Definimos el siguiente tipo: data ´Arbol a $=$ Hoja a | Bin (´Arbol a) a (´Arbol a) Ejemplo: mi´Arbol $=$ Bin (Hoja 3) 5 (Bin (Hoja 7) 8 (Hoja 1)) ",
+        "bbox": [
+            115,
+            693,
+            805,
+            726
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sea foldAB el siguiente esquema de recursi´on gen´erico para ´arboles: ",
+        "bbox": [
+            129,
+            727,
+            675,
+            741
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "foldAB f g (Hoja n) = f n foldAB f g $\\left( \\mathbb { B } \\mathrm { i n } \\ \\mathrm { t } 1 \\ \\mathrm { ~ n ~ } \\mathrm { t } 2 \\right) \\ \\mathrm { ~ = ~ } \\ \\mathrm { g }$ (foldAB f g t1) n (foldAB f g t2) En la resoluci´on de este ejercicio, no usar recursi´on expl´ıcita. ",
+        "bbox": [
+            124,
+            732,
+            756,
+            790
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Decir cu´al es el tipo de las funciones f, g y foldAB. ",
+        "bbox": [
+            129,
+            794,
+            569,
+            810
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            816,
+            233,
+            831
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$a$ ) Miremos foldAB. Sabemos que recibe 3 par´ametros: ",
+        "bbox": [
+            166,
+            846,
+            615,
+            863
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            494,
+            948,
+            504,
+            959
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Por la forma en que esta definida foldAB, sabemos que el 3er par´ametro es un Arbol. ´ Adem´as, sabemos que el primer y segundo par´ametro son funciones. ",
+        "bbox": [
+            186,
+            77,
+            890,
+            110
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$b$ ) Sabemos que f (el primer par´ametro de foldAB) recibe un s´olo par´ametro: ",
+        "bbox": [
+            159,
+            164,
+            798,
+            181
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Por los usos de f en la definici´on de foldAB debemos pensar que en principio a y e podr´ıan ser tipos distintos. ",
+        "bbox": [
+            183,
+            228,
+            892,
+            260
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": ") Sabemos que g (el segundo par´ametro de foldAB) recibe tres par´ametros: ",
+        "bbox": [
+            174,
+            265,
+            793,
+            281
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$d$ ) Mirando: ",
+        "bbox": [
+            168,
+            329,
+            268,
+            344
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldAB f g (Bin t1 n t2) = g (foldAB f g t1) n (foldAB f g t2) Vemos que foldAB f g (Bin t1 n t2) es de tipo d (el tipo de retorno de foldAB). Adem´as foldAB f g t1 , foldAB f g t2 y g (foldAB f g t1) n (foldAB f g t2) tambi´en deben ser del mismo tipo. Por lo tanto: ",
+        "bbox": [
+            191,
+            348,
+            887,
+            422
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "e) Mirando ahora: ",
+        "bbox": [
+            168,
+            476,
+            319,
+            492
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldAB f g (Hoja n) = f n   \ny sabiendo que foldAB f g (Hoja n) tiene que ser de tipo d, podemos concluir que   \nf n tambi´en ser´a del mismo tipo. Por lo tanto: ",
+        "bbox": [
+            191,
+            497,
+            894,
+            550
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldAB :: (a -> d) -> (d -> h -> d -> d) -> ´Arbol c -> d ",
+        "bbox": [
+            307,
+            560,
+            852,
+            577
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$f$ ) Mirando nuevamente: ",
+        "bbox": [
+            168,
+            605,
+            369,
+            620
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldAB f g (Hoja n) = f n   \nVemos que el par´ametro de f es del mismo tipo que los elementos del ´arbol. Lo mismo   \npasa con el segundo par´ametro de $\\mathsf { g }$ en: ",
+        "bbox": [
+            191,
+            623,
+            894,
+            674
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldAB f g (Bin t1 n t2) = g (foldAB f g t1) n (foldAB f g t2) Por lo tanto: ",
+        "bbox": [
+            193,
+            676,
+            803,
+            709
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "No podemos deducir nada m´as. Haciendo un renombre de d por b nos queda: ",
+        "bbox": [
+            193,
+            765,
+            816,
+            781
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Usando foldAB, definir una funci´on hojas :: ´Arbol a ->[a], que devuelva todas las hojas de un ´arbol. ",
+        "bbox": [
+            127,
+            841,
+            892,
+            875
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: hojas mi´Arbol devuelve [3, 7, 1] ",
+        "bbox": [
+            151,
+            879,
+            526,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            492,
+            948,
+            505,
+            959
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            78,
+            233,
+            93
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "hojas $=$ foldAB singleton union where singleton $\\begin{array} { r } { \\mathrm { ~  ~ x ~ } = \\mathrm { ~  ~ \\left[ x \\right] ~ } } \\end{array}$ union xs x ys $=$ xs $^ { + + }$ ys ",
+        "bbox": [
+            189,
+            111,
+            552,
+            177
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3. Usando foldAB, definir una funci´on espejo :: ´Arbol a ->´Arbol a, que devuelva el ´arbol que resulte de invertir en todos los niveles el sub´arbol izquierdo por el derecho. ",
+        "bbox": [
+            131,
+            235,
+            889,
+            267
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: espejo mi´Arbol devuelve el ´arbol Bin (Bin (Hoja 1) 8 (Hoja 7)) 5 (Hoja 3) Soluci´on ",
+        "bbox": [
+            146,
+            272,
+            890,
+            309
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "espejo $=$ foldAB Hoja rbin where rbin t x t’ = Bin t’ x t ",
+        "bbox": [
+            189,
+            328,
+            552,
+            375
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4. Usando foldAB, definir una funci´on ramas :: ´Arbol a $- >$ [[a]], que devuelva la lista de ramas de un ´arbol. ",
+        "bbox": [
+            127,
+            418,
+            892,
+            450
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejemplo: ramas mi´Arbol devuelve [[5,3],[5,8,7],[5,8,1]] ",
+        "bbox": [
+            151,
+            455,
+            660,
+            473
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            478,
+            233,
+            493
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ramas $=$ foldAB singleton merge where singleton $\\begin{array} { r } { \\textbf { x } = ~ \\left[ \\left[ \\mathbf { x } \\right] \\right] } \\end{array}$ merge xs x ys $=$ (map (x:) xs) ++ (map (x:) ys) ",
+        "bbox": [
+            152,
+            508,
+            736,
+            571
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ramas $=$ foldAB ((:[]).(:[])) merge where merge xs x ys $=$ (map (x:) xs) ++ (map (x:) ys) ",
+        "bbox": [
+            151,
+            589,
+            752,
+            639
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3 ",
+        "text_level": 1,
+        "bbox": [
+            136,
+            694,
+            236,
+            709
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dado el siguiente tipo, que representa un ´arbol arbitrario o RoseTree: data ´Arbol a $=$ Rose(a, [´Arbol a]) deducir el tipo de la siguiente funci´on: g a f $=$ Rose(a, map (flip g f) (f a)) donde: ",
+        "bbox": [
+            107,
+            718,
+            670,
+            799
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "flip f x y = f y x Soluci´on ",
+        "bbox": [
+            136,
+            799,
+            312,
+            829
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sabemos que $\\mathsf { g }$ recibe dos par´ametros: g :: a -> b -> c El resultado de g es un ´Arbol: (por Rose): g :: a -> b -> ´Arbol c ",
+        "bbox": [
+            134,
+            843,
+            499,
+            927
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            492,
+            948,
+            505,
+            959
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "En la expresi´on $\\boxed { \\textbf { f } \\textbf { a } } .$ vemos que f (el segundo par´ametro) debe ser una funci´on de por lo menos un par´ametro: ",
+        "bbox": [
+            134,
+            76,
+            895,
+            109
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "g :: a -> (b -> d) -> ´Arbol c ",
+        "bbox": [
+            151,
+            115,
+            435,
+            131
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A su vez, $\\boxed { \\textbf { f } \\textbf { a } }$ es el segundo argumento de map en map (flip g f) (f a) , y por lo tanto debe ser una lista: ",
+        "bbox": [
+            132,
+            139,
+            894,
+            174
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "g :: a -> (b -> [d]) -> ´Arbol c ",
+        "bbox": [
+            152,
+            179,
+            455,
+            196
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Notemos que el primer par´ametro de $\\mathsf { g }$ sirve como par´ametro a f y como elemento del ´arbol resultado, con lo cual: ",
+        "bbox": [
+            131,
+            206,
+            894,
+            239
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Por otro lado, sabemos que el tipo de flip es: ",
+        "bbox": [
+            136,
+            271,
+            529,
+            286
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "flip :: (a -> b -> c) -> (b -> a -> c) ",
+        "bbox": [
+            152,
+            292,
+            517,
+            307
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Quiere decir que: ",
+        "bbox": [
+            152,
+            313,
+            294,
+            329
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "flip g :: (a -> [d]) -> a -> ´Arbol a ",
+        "bbox": [
+            152,
+            335,
+            502,
+            351
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Entonces: ",
+        "bbox": [
+            152,
+            357,
+            233,
+            372
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "flip g f :: a -> ´Arbol a Como el primer par´ametro de map en map (flip g f) (f a) es una funci´on de tipo a $- >$ ´Arbol a, los elementos de la lista f a deben ser de tipo a. Por lo tanto: ",
+        "bbox": [
+            151,
+            378,
+            895,
+            434
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Podemos ver que todo cierra porque todo el map devuelve [´Arbol a], es es lo que necesita el constructor Rose de ´Arbol ",
+        "bbox": [
+            134,
+            466,
+            894,
+            498
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 4 ",
+        "text_level": 1,
+        "bbox": [
+            136,
+            551,
+            236,
+            567
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1. Definir la funci´on: ",
+        "bbox": [
+            129,
+            587,
+            300,
+            602
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "foldr2:: ( $\\texttt { a } \\to \\texttt { b } \\to \\texttt { c } \\to \\texttt { c } ) \\to \\texttt { c } \\to \\texttt { [ a ] } \\to \\texttt { [ b ] } \\to \\texttt { c }$ ",
+        "bbox": [
+            151,
+            608,
+            648,
+            625
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Esta funci´on es similar a foldr, pero trabaja sobre dos listas en lugar de una. La funci´on que recibe como par´ametro se aplica a un elemento de cada lista y al caso base calculado hasta el momento. Ambas listas son recorridas de derecha a izquierda y la funci´on s´olo debe estar definida para listas de igual longitud. ",
+        "bbox": [
+            151,
+            630,
+            894,
+            695
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, el resultado de evaluar esta expresi´on: ",
+        "bbox": [
+            151,
+            700,
+            569,
+            717
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "foldr2 (\\x y b -> (x,y):b) [] [1,2,3] [‘a’,‘b’,‘c’] es: $[ ( 1 , ^ { \\prime } { \\mathsf { a } } ^ { \\prime } ) , ( 2 , ^ { \\prime } { \\mathsf { b } } ^ { \\prime } ) , ( 3 , ^ { \\prime } { \\mathsf { c } } ^ { \\prime } ) ]$ ",
+        "bbox": [
+            151,
+            720,
+            645,
+            759
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            764,
+            233,
+            780
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ad6d9c000a8c6584e5c4ddacfeadf842dca3e35825f35a0ca91b59a9be913cd3.jpg",
+        "text": "$$\n( a ~  ~ b ~ - > ~ c ~ - > ~ c ) - > ~ c ~ - > ~ [ a ] - > ~ [ b ] - > ~ c\n$$",
+        "text_format": "latex",
+        "bbox": [
+            278,
+            800,
+            687,
+            815
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "foldr2 f b $[ ] \\ [ ] = \\ \\mathtt { b }$ foldr2 f b (x:xs) (y:ys) = f x y (foldr2 f b xs ys) ",
+        "bbox": [
+            189,
+            832,
+            685,
+            865
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "4 ",
+        "bbox": [
+            494,
+            948,
+            505,
+            959
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2. Sea el tipo: ",
+        "bbox": [
+            129,
+            78,
+            245,
+            92
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "type Matriz a $=$ [[a]] ",
+        "bbox": [
+            152,
+            99,
+            356,
+            115
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Utilizando foldr2 y listas por comprensi´on, y sin utilizar recursi´on expl´ıcita, definir el operador: ",
+        "bbox": [
+            149,
+            121,
+            892,
+            152
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(<\\*>) :: Matriz a $- >$ Matriz a $- >$ Matriz a ",
+        "bbox": [
+            154,
+            159,
+            552,
+            174
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Este operador toma dos matrices y devuelve el producto entre ellas. Recordar que el producto entre dos matrices $m _ { 1 }$ y $m _ { 2 }$ s´olo est´a definido cuando $m _ { 1 }$ es de $N \\times M$ y $m _ { 2 }$ es de $M \\times T$ . ",
+        "bbox": [
+            152,
+            179,
+            890,
+            211
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo: ",
+        "bbox": [
+            152,
+            217,
+            257,
+            233
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1 2 1 2 3 9 12 15   \n4 5 X 4 5 6 = 24 33 42   \n7 8 39 54 69 ",
+        "bbox": [
+            159,
+            242,
+            438,
+            290
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ayuda: Se cuenta con la siguiente funci´on: ",
+        "bbox": [
+            154,
+            300,
+            497,
+            316
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "col :: Int -> Matriz a -> [a] col i $=$ map (!!i) ",
+        "bbox": [
+            152,
+            322,
+            435,
+            354
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "que devuelve la i-´esima columna de una matriz (la primera columna corresponde al $0$ ). ",
+        "bbox": [
+            149,
+            360,
+            850,
+            375
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Soluci´on ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            381,
+            233,
+            397
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "cols m = [col z m | z <- [0..((length (m!!0)) - 1)]]   \n$( < * > )$ ) m1 m2 = [ [ foldr2 (\\x y b -> x\\*y + b) 0 (m1!!i) ((cols m2)!!j) | j <- [0..(length (cols m2)) - 1] ] | i <- [0..(length m1) - 1] ] i <- [0..(length m1) - 1] es la lista de ´ındices de filas de m1, es decir $0 \\ldots N - 1$ . j <- [0..(length (cols m2)) - 1] es la lista de ´ındices de columnas de m2, es decir $0 \\dots T - 1$ . La lista interna es una de las filas de la matriz resultado. Cada fila tendr´a $T$ columnas. La lista de afuera es la lista de filas de la matriz resultado: habr´a $N$ filas, como era de esperarse. m1!!i es la $i$ -´esima fila de la matriz m1. cols $\\mathtt { m 2 ! ! j }$ es la $j$ -´esima columna de la matriz m2. La funci´on $( \\backslash \\mathrm { \\texttt { x y b } } \\to \\mathrm { \\texttt { x } } \\mathrm { \\cdot } \\mathrm { \\texttt { y } } + \\mathrm { \\texttt { b } } )$ toma un elemento de la fila y otro de la columna, los multiplica entre s´ı y los suma al acumulado. Quiere decir que cada elemento de la lista de m´as adentro es el resultado de multiplicar una fila de m1 por una columna de m2. ",
+        "bbox": [
+            152,
+            414,
+            894,
+            755
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Es decir: ",
+        "bbox": [
+            152,
+            768,
+            225,
+            783
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7d9bc5c37961889af3152908e0c70e10a966acb51601839221381093469ee6b6.jpg",
+        "text": "$$\n( m 1 < * > m 2 ) _ { i j } = \\sum _ { k } m 1 _ { i k } * m 2 _ { k j }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            379,
+            783,
+            663,
+            814
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            492,
+            948,
+            505,
+            960
+        ],
+        "page_idx": 4
+    }
+]

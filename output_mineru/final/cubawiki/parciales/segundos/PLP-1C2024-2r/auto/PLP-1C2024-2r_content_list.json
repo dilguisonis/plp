@@ -1,0 +1,676 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/dd949f8bae3b048cb04fc3fd48c8d7fefa871943dfce5d1bc23185593ff3f0f0.jpg",
+        "table_caption": [
+            "PLP-Segundo Recuperatorio- $1 ^ { \\mathrm { d o } }$ cuatrimestre de 2024 "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>#Orden Libreta</td><td rowspan=1 colspan=1>Libreta</td><td rowspan=1 colspan=1>Apellido y Nombre</td><td rowspan=1 colspan=1>Ej1</td><td rowspan=1 colspan=1>Ej2</td><td rowspan=1 colspan=1>Ej3</td><td rowspan=1 colspan=1>Nota Final</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>11+.64122KenhsOcEui0</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A</td></tr></table>",
+        "bbox": [
+            45,
+            74,
+            949,
+            130
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Este examen se aprueba obteniendo al menos dos ejercicios bien menos (B-)y uno regular(R).Las notas para cada ejercicio son-,I，R,B-B.Entregarcadaejercicioenhojasseparadas.Poner nombreapellidoy numero de orden en todas las hojas, $\\dot { \\mathbf { y } }$ numerarlas.Sepuede utilizar todo lo definido en las practicasy todo lo quese dio en clasecolocando referenciasclaras.Elorden de los ejercicios esarbitrario.Recomendamos leerel parcial completo antes de empezar a resolverlo. ",
+        "bbox": [
+            58,
+            148,
+            947,
+            241
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1-Resolucion ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            262,
+            329,
+            280
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Representar en forma clausal las siguientes formulas de l6gica de primer orden: ",
+        "bbox": [
+            55,
+            296,
+            855,
+            317
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.3C.X.（X∈a=X≤C） Eriste una cota superior para el conjunto a.   \n2.VX.VY.（X≤Y=n（Y）≤n（X）） SiX≤Y,entonces-Y≤-x.   \n3.X.（X∈a⇔n（X）∈b） X pertenece al conjunto a si y solo si-X pertenece al conjunto b. ",
+        "bbox": [
+            87,
+            331,
+            752,
+            461
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\exists C . \\forall X . ( n ( X ) \\in b \\Rightarrow C \\leq n ( X ) ) .$ c) La resolucion utilizada en el punto anteriorifue SD? Jutificar. ",
+        "bbox": [
+            58,
+            476,
+            867,
+            519
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            527,
+            737,
+            548
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Programacion Logica ",
+        "text_level": 1,
+        "bbox": [
+            57,
+            572,
+            450,
+            591
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Implementarlos predicados respetando cncada casola instanciacionpedida OS aebencubrir todaslasinstancias validasdeaqueloquegeneransinrepetirdosveceslamisma.Nousar cut(l)nipredicadosdealtoordencomosetof,conlaunica excepiondenot. ",
+        "bbox": [
+            55,
+            591,
+            969,
+            649
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a)ImplementarclpredicadogenerarCapicuas-L)quegeneraodaslaslistasapicasde meros naturales(sin incluir al cero).Por ejemplo: ",
+        "bbox": [
+            55,
+            681,
+            969,
+            722
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$L = [ 1 ]$ -generarCapicuas(L) ",
+        "bbox": [
+            87,
+            742,
+            332,
+            883
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b)El predicado anterior ies reversible? Justificar c) Definir el predicado tokenizar $( + \\infty , + \\infty$ -T),que es verdadero cuando D representa un diccionario de palabras conocidas (lista de listas de letras),F es una lista de letras sin espaciosy T esla lista de palabras en la que se puede partir la frase.El predicado debe generartodas las posibles maneras de dividir la frase en palabras conocidas.Por ejemplo: ",
+        "bbox": [
+            58,
+            901,
+            563,
+            923
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            23,
+            48,
+            902,
+            115
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$7 -$ tokenizar（[[a],[a,b],[b,a]，[c]]，[a,b,a,c,a,b,a]，T).   \n$\\tau =$ [[a]，[b，a]，[c]，[a]，[b，a]]；   \n$\\overline { { \\mathbb { T } } } \\ =$ [[a]，[b，a]，[c]，[a，b]，[a]]；   \n$\\tau =$ [[a，b]，[a]，[c]，[a]，[b，a]]；   \n$\\tau =$ [[a,b],[a]，[c]，[a，b]，[a]]；   \nfalse. ",
+        "bbox": [
+            48,
+            127,
+            638,
+            229
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "d)Definir el predicado mayorCantPalabras(+D,+F,-T) que es verdadero cuando T es una tokenizacion de la frase F con el diccionario D que tiene la mayor cantidad de palabras.En este inciso no esta permitido utilizar estructuras auxiliares. ",
+        "bbox": [
+            16,
+            243,
+            915,
+            299
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 3-Objetos y Deduccion Natural ",
+        "text_level": 1,
+        "bbox": [
+            16,
+            320,
+            494,
+            339
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Considere las siguientes clases: ",
+        "bbox": [
+            16,
+            347,
+            349,
+            366
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/8b227a16daa838c7f9f02880f9dee0d64e7617aca969b40a9f7ffab0a715ce22.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Object subclass:#A m1 [self eval].</td><td>A subclass:#B m2 [super eval].</td></tr><tr><td>eval self value.</td><td>m3 self.</td></tr><tr><td>value</td><td>value</td></tr><tr><td>0.</td><td>^1.</td></tr><tr><td></td><td>eval</td></tr><tr><td></td><td>2.</td></tr></table>",
+        "bbox": [
+            28,
+            371,
+            690,
+            603
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Para cada una de las siguientes expresiones,hacer una tabla donde se indique,en orden, cadamensajeque se envia,que objeto lo recibe,en que clase est el metodo respectivoy cual es el resultado final de cada colaboracion: ",
+        "bbox": [
+            47,
+            642,
+            926,
+            701
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1)B new m1 value II)B new m3 m2 value ",
+        "bbox": [
+            63,
+            717,
+            305,
+            760
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": ")Implementar un closure que tome como parametro una coleccion y devuelva los elementos de la coleccion que saben responder al mensaje #ptff. ",
+        "bbox": [
+            23,
+            767,
+            932,
+            807
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sugerencia: pueden utilizar el mensaje #respondsTo:,que toma un mensaje y devueive sl el objeto sabe responderlo. ",
+        "bbox": [
+            28,
+            809,
+            927,
+            850
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c)Demostrar en deduccion natural que vale la siguiente formula, sin utilizar principios de razonamiento clasicos: ",
+        "bbox": [
+            16,
+            859,
+            936,
+            902
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7be480c7cff702c0afa43558417647251466024de983dc87c19935e995f60b95.jpg",
+        "text": "$$\n\\exists X . P ( X ) \\lor \\forall Y . Q ( Y ) \\implies \\exists X . ( Q ( X ) \\lor P ( X ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            921,
+            726,
+            948
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "I)+C.Vx（x∈a=>x<C)=∈.vx（-（x∈a）、（x<C））①={-（x∈a），（x、《轮<）F",
+        "bbox": [
+            196,
+            93,
+            798,
+            186
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ⅱ)√x∀y(x<y=>△(Y）<0(x)).=√xv>（-（x<>）√（（y）<△（x））)（②）={-（x2<Y），（（x）<（x）)F)√x.（x∈a<>△（x）<b).=γx(<（x∈a）->(（x）∈b）)△(<（x）∈b）->（x∈<））.).",
+        "bbox": [
+            193,
+            205,
+            872,
+            294
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            189,
+            317,
+            937,
+            407
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "=Yx.(（-（x∈a）√(（x）<b））△③（（（x)<b）<（x∈<））)={{(x∈a)，（0（x）∈b）5，y3（（x△)∈b）g，（x∈a)55",
+        "bbox": [
+            258,
+            431,
+            865,
+            555
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(+(.<x.（（x）∈b->C<o（x）））.   \n=√C.x.(（（x）∈b）△-(C<（x）））. ",
+        "bbox": [
+            228,
+            596,
+            964,
+            655
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/4aab53a38763f6c6d0f75eca275faef355f2d23453478a477963134e8f087794.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            240,
+            679,
+            986,
+            737
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "→(↓（（γ））<γ2）5δc6².o={C6<n（x），X2<+（C△）5",
+        "bbox": [
+            226,
+            776,
+            779,
+            843
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "⑧3-（+（n（c）∈a）5d<+↑O2=3x<÷（。（Y）），Y2<c",
+        "bbox": [
+            151,
+            865,
+            779,
+            946
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "C ",
+        "bbox": [
+            33,
+            840,
+            75,
+            869
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/bb275ce21ae29156bff8d30100316da4528c2a38420b286bd0f0edf75fb7ae49.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            100,
+            46,
+            682,
+            119
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/9de2d34f7c73259f01a02aa7d3de07381cd89a6e2c4984aca9f9ee1ef6b67b51.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            100,
+            140,
+            420,
+            200
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Lcnesolucoes SD pongue oon codos Clourolas de hona，+ue linealComensomos pon ooclbusoloohje∈iv.（6）. V Aaniste ",
+        "bbox": [
+            94,
+            244,
+            823,
+            368
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "genenonCapicocs(L）:-desde（@，N)，  \nlistaDeN(N,L),  \nCcpIcUo<L）",
+        "bbox": [
+            299,
+            90,
+            889,
+            182
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "U>O,be∈weeo(，N，2)，315N-N2sEODeN(N3,1），append([N2},11，L",
+        "bbox": [
+            152,
+            203,
+            586,
+            466
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/edc7a76120c8f2f52208258177f9d8453407bf373e924cd165bce3a21b553cbf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            163,
+            488,
+            445,
+            548
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/8ee5bee410c6591c06e027010a37d790d0968d34f6ebfb9d55c759f198ed1a22.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            606,
+            491,
+            929,
+            549
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Esta correccion esta mal, capicua esta bien implementado (lo hablé con el corrector) ",
+        "bbox": [
+            531,
+            559,
+            863,
+            591
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            183,
+            571,
+            482,
+            672
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "eagoe8xaxaaoseaeooed@A)apped([x]，xs，L)desde(x,x).esde(x，y）:-Usx+1，esde（N，x）",
+        "bbox": [
+            480,
+            642,
+            826,
+            813
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            132,
+            840,
+            756,
+            902
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            48,
+            67,
+            82,
+            397
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Lo nevensible supoago que se neerecque Si goedoy uo orreg)o 1osconciodo,medev Erve5iescopicoQy+alse encoso Contnonio. ",
+        "bbox": [
+            164,
+            79,
+            850,
+            188
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5unogomas quelolseeesL=[2].Cescopicsc desde(△，N)Inscancioave△.cego Seresuelve1sεoDev.SeInsεoncio N2=A， S<ostoncoN3=O.5eas∈∞cic1=， ponlbmo el onnend coosalco5 RP=[2].L0ccoles+olso. ",
+        "bbox": [
+            163,
+            198,
+            870,
+            372
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "->EsEoypeasoodoqueSebockEnackeoal desde,ccandN=2，vaancacnon coq [nstonciQoode[21[}==[2y escaniccQpenouegovahocon CosocOsh(cas.Nosvo odon vnEnveysevo∞cogon.   \noonoshle solucoseno deioin ocho   \nYeglQponQ genenonCopicuos donde chequee   \nSLvene InsEoociodo ConaVcn（L）.S.Viene   \nnsεonciod solo chegueomoses CopIcvo,Coso Cochoniooqe e+1o(y。<QgnegoodVon(L）).   \nEokeogon（-，[]，[]）.   \nCOkeyan（D，F，[B丨xs]）: memben(P，D)， append(P，ys，F）, toKeoigon(D，Ys,xs). ",
+        "bbox": [
+            127,
+            477,
+            850,
+            869
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "NO ESSRIBASCOSAS ",
+        "bbox": [
+            650,
+            872,
+            884,
+            891
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            90,
+            119,
+            658,
+            351
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "moyon Con∈Palabnos(D，F,t）：-Eokeo1oonLOog（D，F,T，N)，OO∈(（toKeOI3ohL0og(D，干，，N2），N²>N。EokealoonLong(D，,T，N)：-(okeogon（D，E，T）1eng∈h(T，N).",
+        "bbox": [
+            89,
+            378,
+            973,
+            534
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            92,
+            560,
+            697,
+            678
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "menseje necepconub)cocooresclcod new B ObecEcme aB. m1 aB A Lseltevo] Volue [seltevo] BlockClosore 2 eval aB B 2 new B Objeeecw coothonB m3 aoothenB B aoothenB. 32 aaoEhenb B [Supen evol] Value [oupen eval] BlockClosone A evol CnotenB A 才 VQlue coothenB B ",
+        "bbox": [
+            28,
+            104,
+            912,
+            513
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "E大nu (xsselec∈;[:x(xnespondsTo：pt+↓) ",
+        "bbox": [
+            354,
+            649,
+            778,
+            676
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            173,
+            707,
+            976,
+            741
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "->noeseaesneci+icodoel+onmoco nc.onosocomooicee|encad. ",
+        "bbox": [
+            26,
+            792,
+            978,
+            859
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/6e308874818d965c966b3ed3b1da2eb0435c36951a5b09435a33f1edf01e6079.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            769,
+            277,
+            828,
+            292
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "x+v（3x（（)P（x））",
+        "bbox": [
+            30,
+            295,
+            453,
+            321
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "x，p(）FP(x） Vi2 ΦHYgQG) 4ex，r（x）-Q（x）p（）3×=5 4├Q（）{5=FF3xp,）-3x（a 4├Q（）p（）{x5-xP（x）<√y.α（>）8：于xP（）卜3x（Q（x）p（x）） Cx fe ：nv>Q（）-x（） -VepassT：xP（x）、4>.Q（>）卜3×.（（<×）P（×）） ->iRFxP（x）<√x<（>）=>3x.（Q<x）P（x））",
+        "bbox": [
+            11,
+            495,
+            988,
+            730
+        ],
+        "page_idx": 8
+    }
+]

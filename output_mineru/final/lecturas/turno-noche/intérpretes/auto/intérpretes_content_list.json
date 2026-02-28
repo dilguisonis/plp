@@ -1,0 +1,6674 @@
+[
+    {
+        "type": "text",
+        "text": "Paradigmas de Programaci´on ",
+        "text_level": 1,
+        "bbox": [
+            176,
+            242,
+            814,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Interpretaci´on ",
+        "bbox": [
+            372,
+            341,
+            627,
+            400
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2do cuatrimestre de 2025 Departamento de Computaci´on Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires ",
+        "bbox": [
+            218,
+            441,
+            781,
+            639
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "text_level": 1,
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            194,
+            279,
+            246
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes b´asicos ",
+        "bbox": [
+            74,
+            360,
+            375,
+            415
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas imperativas ",
+        "bbox": [
+            77,
+            525,
+            511,
+            580
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f17bb68aae0c13c04eb2d08076591011ed32a195154e20264fd52f78252aeb78.jpg",
+        "text": "$$\n2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas funcionales ",
+        "bbox": [
+            77,
+            691,
+            502,
+            746
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es un int´erprete? ",
+        "bbox": [
+            74,
+            169,
+            383,
+            216
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Un int´erprete es un programa que ejecuta programas. ",
+        "bbox": [
+            74,
+            231,
+            748,
+            272
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es un int´erprete? ",
+        "bbox": [
+            74,
+            169,
+            386,
+            216
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Un int´erprete es un programa que ejecuta programas. ",
+        "bbox": [
+            74,
+            231,
+            745,
+            272
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Involucra dos lenguajes de programaci´on: ",
+        "bbox": [
+            71,
+            308,
+            599,
+            356
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "Int´erpretes ",
+        "bbox": [
+            19,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es un int´erprete? ",
+        "bbox": [
+            74,
+            169,
+            386,
+            216
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Un int´erprete es un programa que ejecuta programas. ",
+        "bbox": [
+            77,
+            231,
+            745,
+            272
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Involucra dos lenguajes de programaci´on: ",
+        "bbox": [
+            74,
+            308,
+            596,
+            356
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de implementaci´on ",
+        "bbox": [
+            74,
+            382,
+            461,
+            430
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje en el que est´a definido el int´erprete. ",
+        "bbox": [
+            77,
+            441,
+            651,
+            485
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "Int´erpretes ",
+        "bbox": [
+            19,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es un int´erprete? ",
+        "bbox": [
+            74,
+            169,
+            386,
+            216
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Un int´erprete es un programa que ejecuta programas. ",
+        "bbox": [
+            77,
+            231,
+            748,
+            272
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Involucra dos lenguajes de programaci´on: ",
+        "bbox": [
+            74,
+            308,
+            596,
+            356
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de implementaci´on ",
+        "bbox": [
+            77,
+            382,
+            461,
+            430
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje en el que est´a definido el int´erprete. ",
+        "bbox": [
+            77,
+            441,
+            651,
+            485
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje fuente ",
+        "bbox": [
+            77,
+            522,
+            292,
+            569
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje en el que est´an escritos los programas que se interpretan. ",
+        "bbox": [
+            77,
+            580,
+            922,
+            628
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es un int´erprete? ",
+        "bbox": [
+            74,
+            169,
+            383,
+            216
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Un int´erprete es un programa que ejecuta programas. ",
+        "bbox": [
+            77,
+            231,
+            745,
+            272
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Involucra dos lenguajes de programaci´on: ",
+        "bbox": [
+            74,
+            308,
+            596,
+            356
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de implementaci´on ",
+        "bbox": [
+            77,
+            382,
+            461,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje en el que est´a definido el int´erprete. ",
+        "bbox": [
+            77,
+            441,
+            651,
+            485
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje fuente ",
+        "bbox": [
+            77,
+            522,
+            292,
+            569
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje en el que est´an escritos los programas que se interpretan. ",
+        "bbox": [
+            77,
+            580,
+            925,
+            628
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Pregunta frecuente ¿Podr´ıa ser que estos dos lenguajes coincidan? ",
+        "bbox": [
+            74,
+            698,
+            616,
+            797
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "Int´erpretes ",
+        "bbox": [
+            19,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "¿Qu´e es un int´erprete? ",
+        "bbox": [
+            74,
+            169,
+            383,
+            216
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Un int´erprete es un programa que ejecuta programas. ",
+        "bbox": [
+            77,
+            231,
+            745,
+            272
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Involucra dos lenguajes de programaci´on: ",
+        "bbox": [
+            74,
+            312,
+            596,
+            356
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de implementaci´on ",
+        "bbox": [
+            77,
+            382,
+            461,
+            426
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje en el que est´a definido el int´erprete. ",
+        "bbox": [
+            77,
+            441,
+            651,
+            485
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje fuente ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            522,
+            292,
+            569
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje en el que est´an escritos los programas que se interpretan. ",
+        "bbox": [
+            77,
+            580,
+            922,
+            628
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Pregunta frecuente   \n¿Podr´ıa ser que estos dos lenguajes coincidan?   \nS´ı, puede haber int´erpretes capaces de interpretarse a s´ı mismos. No es algo que tenga especial inter´es en la materia. ",
+        "bbox": [
+            71,
+            698,
+            828,
+            897
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "Int´erpretes ",
+        "bbox": [
+            19,
+            33,
+            196,
+            84
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Lenguajes que usaremos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            414,
+            88
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "En la clase de hoy vamos a definir varios int´erpretes. ",
+        "bbox": [
+            77,
+            220,
+            740,
+            264
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5746ab8df28f8e57407cb855bf8af66b6556b01566eca7ede4ad8301c627e6d9.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Lenguajes que usaremos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            414,
+            88
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "En la clase de hoy vamos a definir varios int´erpretes. ",
+        "bbox": [
+            77,
+            216,
+            740,
+            264
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de implementaci´on ",
+        "bbox": [
+            74,
+            290,
+            461,
+            338
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/63cd4b4f153b7911e649a03be81c86de2a4b996c2599c6fe20458c6aa691b09f.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Vamos a definir int´erpretes en Haskell. ",
+        "bbox": [
+            74,
+            349,
+            563,
+            393
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Lenguajes que usaremos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            414,
+            88
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "En la clase de hoy vamos a definir varios int´erpretes. ",
+        "bbox": [
+            77,
+            220,
+            737,
+            264
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de implementaci´on ",
+        "bbox": [
+            74,
+            290,
+            461,
+            334
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Vamos a definir int´erpretes en Haskell. ",
+        "bbox": [
+            77,
+            349,
+            563,
+            393
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6feb356bf658a0b9023da4fa88ce1890b0da9e4004b08d7e131745ddc65628a0.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje fuente ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            430,
+            292,
+            474
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Vamos a definir int´erpretes para distintos lenguajes fuente (p. ej. lenguajes imperativos y funcionales). ",
+        "bbox": [
+            74,
+            488,
+            812,
+            584
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Lenguajes que usaremos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            414,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d865b21d4ce754edcc7ca0c999b5e1529dfc4aba4a2c8aba47b050b03094ad84.jpg",
+        "text": "$$\n4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "En la clase de hoy vamos a definir varios int´erpretes. ",
+        "bbox": [
+            77,
+            220,
+            737,
+            264
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de implementaci´on ",
+        "bbox": [
+            74,
+            290,
+            461,
+            334
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Vamos a definir int´erpretes en Haskell. ",
+        "bbox": [
+            77,
+            349,
+            563,
+            389
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje fuente ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            430,
+            292,
+            474
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Vamos a definir int´erpretes para distintos lenguajes fuente (p. ej. lenguajes imperativos y funcionales). ",
+        "bbox": [
+            74,
+            488,
+            812,
+            584
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Nota ",
+        "bbox": [
+            77,
+            658,
+            143,
+            698
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Vamos a trabajar con lenguajes fuente minimalistas (“de juguete”).   \nNos alcanzan para ilustrar los conceptos importantes. ",
+        "bbox": [
+            74,
+            705,
+            853,
+            790
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            972,
+            952,
+            1000,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete recibe como entrada un dato que representa un programa escrito en el lenguaje fuente. ",
+        "bbox": [
+            69,
+            99,
+            845,
+            191
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete recibe como entrada un dato que representa un programa escrito en el lenguaje fuente. ",
+        "bbox": [
+            69,
+            99,
+            845,
+            191
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se representa un programa? ",
+        "bbox": [
+            74,
+            220,
+            522,
+            264
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete recibe como entrada un dato que representa un programa escrito en el lenguaje fuente. ",
+        "bbox": [
+            71,
+            99,
+            845,
+            191
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se representa un programa? ",
+        "bbox": [
+            74,
+            220,
+            522,
+            264
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            290,
+            306,
+            330
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Se puede representar un programa como una cadena de texto. ",
+        "bbox": [
+            71,
+            341,
+            881,
+            386
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete recibe como entrada un dato que representa un programa escrito en el lenguaje fuente. ",
+        "bbox": [
+            71,
+            99,
+            845,
+            191
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se representa un programa? ",
+        "bbox": [
+            77,
+            220,
+            522,
+            264
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            290,
+            306,
+            330
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Se puede representar un programa como una cadena de texto. Por ejemplo: ",
+        "bbox": [
+            74,
+            341,
+            872,
+            433
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "\"while (true) { x = x + 1; }\" :: String ",
+        "bbox": [
+            104,
+            459,
+            726,
+            507
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete recibe como entrada un dato que representa un programa escrito en el lenguaje fuente. ",
+        "bbox": [
+            71,
+            99,
+            845,
+            191
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se representa un programa? ",
+        "bbox": [
+            77,
+            220,
+            522,
+            264
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            290,
+            306,
+            330
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Se puede representar un programa como una cadena de texto. Por ejemplo: ",
+        "bbox": [
+            74,
+            341,
+            872,
+            433
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "\"while (true) { x = x + 1; }\" :: String ",
+        "bbox": [
+            104,
+            459,
+            726,
+            507
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            580,
+            317,
+            621
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Se puede representar un programa como un ´arbol de sintaxis. ",
+        "bbox": [
+            74,
+            632,
+            872,
+            676
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete recibe como entrada un dato que representa un programa escrito en el lenguaje fuente. ",
+        "bbox": [
+            71,
+            99,
+            845,
+            191
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "¿C´omo se representa un programa? ",
+        "bbox": [
+            77,
+            220,
+            522,
+            264
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            290,
+            306,
+            330
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Se puede representar un programa como una cadena de texto. Por ejemplo: ",
+        "bbox": [
+            74,
+            341,
+            875,
+            433
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "\"while (true) { x = x + 1; }\" :: String ",
+        "bbox": [
+            104,
+            459,
+            726,
+            507
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis abstracta ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            580,
+            317,
+            621
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Se puede representar un programa como un ´arbol de sintaxis. Por ejemplo: ",
+        "bbox": [
+            74,
+            632,
+            875,
+            724
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "EWhile ETrue (EAssign \"x\" (EAdd (EVar \"x\") (EConstNum 1))) :: Programa ",
+        "bbox": [
+            99,
+            753,
+            856,
+            948
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "5 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "bbox": [
+            19,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "En la clase de hoy ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            334,
+            323,
+            378
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Representaremos los programas como ´arboles de sintaxis abstracta. ",
+        "bbox": [
+            77,
+            393,
+            925,
+            437
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "6 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Sintaxis concreta vs. sintaxis abstracta ",
+        "bbox": [
+            19,
+            33,
+            651,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "En la clase de hoy ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            334,
+            323,
+            378
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Representaremos los programas como ´arboles de sintaxis abstracta. ",
+        "bbox": [
+            77,
+            393,
+            922,
+            437
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Convertir la sintaxis concreta (texto) en sintaxis abstracta (´arbol) es un problema de an´alisis sint´actico. ",
+        "bbox": [
+            74,
+            496,
+            908,
+            591
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Queda fuera del alcance de esta materia. ",
+        "bbox": [
+            77,
+            621,
+            591,
+            661
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "discarded",
+        "text": "6 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            194,
+            279,
+            246
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes b´asicos ",
+        "bbox": [
+            74,
+            360,
+            378,
+            415
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas imperativas ",
+        "bbox": [
+            77,
+            525,
+            511,
+            580
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas funcionales ",
+        "bbox": [
+            77,
+            691,
+            502,
+            746
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de expresiones aritm´eticas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            599,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Consideremos un lenguaje de expresiones aritm´eticas construidas inductivamente de la siguiente manera: ",
+        "bbox": [
+            74,
+            106,
+            892,
+            202
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "1. Una constante entera es una expresi´on.   \n2. La suma de dos expresiones es una expresi´on. ",
+        "bbox": [
+            93,
+            216,
+            712,
+            319
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "8 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de expresiones aritm´eticas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            599,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Consideremos un lenguaje de expresiones aritm´eticas construidas inductivamente de la siguiente manera: ",
+        "bbox": [
+            74,
+            106,
+            889,
+            202
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "1. Una constante entera es una expresi´on.   \n2. La suma de dos expresiones es una expresi´on. ",
+        "bbox": [
+            93,
+            216,
+            712,
+            319
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Las expresiones se pueden representar con un tipo de datos: ",
+        "bbox": [
+            74,
+            371,
+            834,
+            415
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EAdd Expr Expr -- e1 + e2 ",
+        "bbox": [
+            102,
+            441,
+            850,
+            540
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de expresiones aritm´eticas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            599,
+            88
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Consideremos un lenguaje de expresiones aritm´eticas construidas inductivamente de la siguiente manera: ",
+        "bbox": [
+            74,
+            106,
+            889,
+            202
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "1. Una constante entera es una expresi´on.   \n2. La suma de dos expresiones es una expresi´on. ",
+        "bbox": [
+            93,
+            216,
+            712,
+            319
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Las expresiones se pueden representar con un tipo de datos: ",
+        "bbox": [
+            74,
+            371,
+            837,
+            415
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EAdd Expr Expr -- e1 + e2 ",
+        "bbox": [
+            99,
+            441,
+            850,
+            540
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, $\" 1 + ( 2 + 3 ) $ ” se representa con: ",
+        "bbox": [
+            77,
+            558,
+            668,
+            610
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "EAdd (EConstNum 1) (EAdd (EConstNum 2) (EConstNum 3)) ",
+        "bbox": [
+            102,
+            632,
+            726,
+            727
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "discarded",
+        "text": "8 ",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Lenguaje de expresiones aritm´eticas ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            599,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Consideremos un lenguaje de expresiones aritm´eticas construidas inductivamente de la siguiente manera: ",
+        "bbox": [
+            74,
+            106,
+            889,
+            202
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "1. Una constante entera es una expresi´on.   \n2. La suma de dos expresiones es una expresi´on. ",
+        "bbox": [
+            93,
+            216,
+            712,
+            319
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Las expresiones se pueden representar con un tipo de datos: ",
+        "bbox": [
+            74,
+            371,
+            837,
+            415
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EAdd Expr Expr -- e1 + e2 ",
+        "bbox": [
+            99,
+            441,
+            850,
+            540
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, $\" 1 + ( 2 + 3 ) $ ” se representa con: ",
+        "bbox": [
+            77,
+            558,
+            668,
+            610
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "EAdd (EConstNum 1) (EAdd (EConstNum 2) (EConstNum 3)) ",
+        "bbox": [
+            102,
+            632,
+            726,
+            727
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (1) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            768,
+            243,
+            816
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete: ",
+        "bbox": [
+            77,
+            830,
+            342,
+            875
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Int ",
+        "bbox": [
+            74,
+            904,
+            378,
+            948
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "8 ",
+        "text_level": 1,
+        "bbox": [
+            969,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con constantes booleanas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            602,
+            84
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "¿Podr´ıamos extender el lenguaje con constantes booleanas? ",
+        "bbox": [
+            74,
+            99,
+            825,
+            143
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/291df9f142fa0d9a04f260e5e333cb9e5dd90fcbcde0c3528e188680da2cd393.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con constantes booleanas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            604,
+            84
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "¿Podr´ıamos extender el lenguaje con constantes booleanas? ",
+        "bbox": [
+            63,
+            99,
+            825,
+            143
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False | EAdd Expr Expr -- e1 + e2 ",
+        "bbox": [
+            102,
+            161,
+            853,
+            308
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d8a7a2bd45246bb015ea3aabe8ff0520cfd938dc53a1dc46d69b452a36d69f6b.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con constantes booleanas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            604,
+            84
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "¿Podr´ıamos extender el lenguaje con constantes booleanas? ",
+        "bbox": [
+            63,
+            99,
+            825,
+            143
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False | EAdd Expr Expr -- e1 + e2 ",
+        "bbox": [
+            102,
+            161,
+            850,
+            308
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            204,
+            382
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete ya no es una funci´on eval :: Expr -> Int. ",
+        "bbox": [
+            74,
+            389,
+            825,
+            437
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d4e5f3a6992bfe97f605977c7672b009c818c4f0a53340d178cfcdff221b11e0.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con constantes booleanas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            604,
+            84
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "¿Podr´ıamos extender el lenguaje con constantes booleanas? ",
+        "bbox": [
+            66,
+            99,
+            825,
+            143
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False | EAdd Expr Expr -- e1 + e2 ",
+        "bbox": [
+            102,
+            161,
+            850,
+            308
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            204,
+            382
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete ya no es una funci´on eval :: Expr -> Int. ",
+        "bbox": [
+            74,
+            389,
+            825,
+            433
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            463,
+            176,
+            503
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Definimos un tipo de datos Val para representar los valores (posibles resultados de los c´omputos): ",
+        "bbox": [
+            74,
+            514,
+            834,
+            606
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "data Val $=$ VN Int | VB Bool ",
+        "bbox": [
+            104,
+            632,
+            392,
+            724
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            969,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con constantes booleanas ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            604,
+            84
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "¿Podr´ıamos extender el lenguaje con constantes booleanas? ",
+        "bbox": [
+            66,
+            99,
+            825,
+            143
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False | EAdd Expr Expr -- e1 + e2 ",
+        "bbox": [
+            102,
+            161,
+            850,
+            308
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            204,
+            382
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete ya no es una funci´on eval :: Expr -> Int. ",
+        "bbox": [
+            74,
+            389,
+            825,
+            433
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Valores ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            463,
+            176,
+            503
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Definimos un tipo de datos Val para representar los valores (posibles resultados de los c´omputos): ",
+        "bbox": [
+            74,
+            511,
+            834,
+            606
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "data Val $=$ VN Int | VB Bool ",
+        "bbox": [
+            104,
+            632,
+            392,
+            724
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (2) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            786,
+            243,
+            838
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete: ",
+        "bbox": [
+            77,
+            852,
+            342,
+            897
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Val ",
+        "bbox": [
+            74,
+            926,
+            378,
+            970
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bd90dc1ca5aa568e3341d7c624b1f3c55b993005c0176f208fd014f62761af81.jpg",
+        "text": "$$\n9\n$$",
+        "text_format": "latex",
+        "bbox": [
+            969,
+            926,
+            1000,
+            1000
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Definiciones locales y entornos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            519,
+            88
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con definiciones locales: ",
+        "bbox": [
+            77,
+            139,
+            770,
+            191
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "let x = 3 in (let y = x + x in 1 + y) ",
+        "bbox": [
+            104,
+            213,
+            693,
+            264
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Definiciones locales y entornos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            519,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con definiciones locales: ",
+        "bbox": [
+            77,
+            139,
+            770,
+            191
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "let x = 3 in (let y = x + x in 1 + y) ",
+        "bbox": [
+            102,
+            213,
+            696,
+            261
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos mantener registro del valor que tiene cada variable. ",
+        "bbox": [
+            77,
+            286,
+            889,
+            334
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Definiciones locales y entornos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            519,
+            88
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con definiciones locales: ",
+        "bbox": [
+            77,
+            143,
+            770,
+            191
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "let x = 3 in (let y = x + x in 1 + y) ",
+        "bbox": [
+            102,
+            213,
+            696,
+            261
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos mantener registro del valor que tiene cada variable. ",
+        "bbox": [
+            77,
+            286,
+            892,
+            330
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Entornos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            356,
+            198,
+            400
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Un entorno es un diccionario que asocia identificadores a valores. ",
+        "bbox": [
+            74,
+            408,
+            903,
+            452
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Definiciones locales y entornos ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            519,
+            88
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con definiciones locales: ",
+        "bbox": [
+            77,
+            143,
+            770,
+            187
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "let x = 3 in (let y = x + x in 1 + y) ",
+        "bbox": [
+            102,
+            216,
+            696,
+            261
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos mantener registro del valor que tiene cada variable. ",
+        "bbox": [
+            77,
+            286,
+            889,
+            330
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Entornos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            356,
+            198,
+            400
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Un entorno es un diccionario que asocia identificadores a valores. ",
+        "bbox": [
+            74,
+            408,
+            908,
+            452
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Vamos a suponer que contamos con tipos:   \nId identificadores (nombres de variables) (Env a) entornos que asocian identificadores a valores de tipo a ",
+        "bbox": [
+            74,
+            481,
+            936,
+            621
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Definiciones locales y entornos ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            519,
+            88
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con definiciones locales: ",
+        "bbox": [
+            77,
+            143,
+            770,
+            187
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "let x = 3 in (let y = x + x in 1 + y) ",
+        "bbox": [
+            102,
+            216,
+            696,
+            261
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos mantener registro del valor que tiene cada variable. ",
+        "bbox": [
+            77,
+            286,
+            889,
+            330
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Entornos ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            356,
+            198,
+            400
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Un entorno es un diccionario que asocia identificadores a valores. ",
+        "bbox": [
+            74,
+            408,
+            908,
+            452
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Vamos a suponer que contamos con tipos:   \nId identificadores (nombres de variables) (Env a) entornos que asocian identificadores a valores de tipo a ",
+        "bbox": [
+            74,
+            481,
+            939,
+            621
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "y la siguiente interfaz: ",
+        "bbox": [
+            74,
+            661,
+            356,
+            705
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "emptyEnv :: Env a lookupEnv :: Env a -> Id -> a extendEnv :: Env a -> Id -> a -> Env a ",
+        "bbox": [
+            104,
+            735,
+            715,
+            878
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con variables y definiciones locales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            751,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el lenguaje de expresiones: ",
+        "bbox": [
+            74,
+            147,
+            571,
+            191
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int $\\begin{array} { l } { { \\mathrm { --- } ~ 1 , ~ 2 , ~ 3 , ~ . . . } } \\\\ { { \\mathrm { --- } ~ T r u e , ~ F a l s e } } \\\\ { { \\mathrm { --- } ~ e 1 ~ + ~ e 2 } } \\\\ { { \\mathrm { --- } ~ x } } \\\\ { { \\mathrm { --- } ~ l e t ~ x ~ = ~ e 1 ~ i n ~ e 2 } } \\end{array}$ | EConstBool Bool | EAdd Expr Expr | EVar Id | ELet Id Expr Expr ",
+        "bbox": [
+            93,
+            216,
+            925,
+            470
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con variables y definiciones locales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            748,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el lenguaje de expresiones: ",
+        "bbox": [
+            74,
+            147,
+            571,
+            191
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False | EAdd Expr Expr -- e1 + e2 | EVar Id -- x | ELet Id Expr Expr -- let $\\textit { \\textbf { x } } = \\textit { \\textbf { e } } 1$ in ",
+        "bbox": [
+            102,
+            216,
+            875,
+            466
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            511,
+            204,
+            555
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es el resultado de evaluar (EVar \"x\")? ",
+        "bbox": [
+            74,
+            562,
+            660,
+            606
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con variables y definiciones locales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            748,
+            88
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el lenguaje de expresiones: ",
+        "bbox": [
+            74,
+            147,
+            571,
+            191
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False | EAdd Expr Expr -- e1 + e2 | EVar Id -- x | ELet Id Expr Expr -- let x = e1 in ",
+        "bbox": [
+            102,
+            216,
+            878,
+            466
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            511,
+            204,
+            555
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al es el resultado de evaluar (EVar \"x\")? El int´erprete ya no es una funci´on eval :: Expr -> Val. ",
+        "bbox": [
+            74,
+            562,
+            825,
+            658
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (3) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            691,
+            243,
+            742
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete: ",
+        "bbox": [
+            74,
+            753,
+            342,
+            797
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Env Val -> Val ",
+        "bbox": [
+            74,
+            827,
+            552,
+            871
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "discarded",
+        "text": "11 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con variables y definiciones locales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            751,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "12 ",
+        "text_level": 1,
+        "bbox": [
+            953,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Comentario ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            341,
+            232,
+            386
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "En el lenguaje con declaraciones locales, una expresi´on no denota un valor, sino una funci´on que devuelve un valor en funci´on del entorno dado: ",
+        "bbox": [
+            74,
+            389,
+            900,
+            536
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> (Env Val -> Val) ",
+        "bbox": [
+            104,
+            566,
+            613,
+            610
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            194,
+            279,
+            246
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes b´asicos ",
+        "bbox": [
+            74,
+            360,
+            378,
+            415
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas imperativas ",
+        "bbox": [
+            74,
+            525,
+            511,
+            580
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "13 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas funcionales ",
+        "bbox": [
+            77,
+            691,
+            502,
+            746
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "bbox": [
+            19,
+            29,
+            867,
+            88
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con caracter´ısticas imperativas: ",
+        "bbox": [
+            74,
+            183,
+            870,
+            235
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "1. Asignaciones: x := e   \n2. Composici´on secuencial: e1; e2 ",
+        "bbox": [
+            93,
+            250,
+            552,
+            352
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bb4cb88cd5d09f11e4966fd7c38dc740e251d398f10e9b4a16241434584b71c0.jpg",
+        "text": "$$\n^ { 1 4 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            870,
+            88
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con caracter´ısticas imperativas: ",
+        "bbox": [
+            71,
+            183,
+            870,
+            235
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "1. Asignaciones: x := e ",
+        "bbox": [
+            96,
+            250,
+            417,
+            290
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "2. Composici´on secuencial: e1; e2 ",
+        "bbox": [
+            93,
+            308,
+            549,
+            352
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Vamos a suponer que: ",
+        "bbox": [
+            74,
+            382,
+            359,
+            422
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "1. El valor de la asignaci´on es 0. (No es muy importante, s´olo una convenci´on). ",
+        "bbox": [
+            96,
+            441,
+            729,
+            536
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "2. La sem´antica de la composici´on e1; e2 corresponde a evaluar primero e1, descartando su valor, y a continuaci´on evaluar e2. ",
+        "bbox": [
+            93,
+            551,
+            925,
+            647
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            867,
+            88
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Queremos extender el lenguaje con caracter´ısticas imperativas: ",
+        "bbox": [
+            74,
+            183,
+            870,
+            235
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "1. Asignaciones: x := e ",
+        "bbox": [
+            96,
+            250,
+            417,
+            294
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "2. Composici´on secuencial: e1; e2 ",
+        "bbox": [
+            93,
+            308,
+            549,
+            352
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Vamos a suponer que: ",
+        "bbox": [
+            74,
+            382,
+            359,
+            422
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "1. El valor de la asignaci´on es 0. (No es muy importante, s´olo una convenci´on). ",
+        "bbox": [
+            96,
+            441,
+            726,
+            536
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "2. La sem´antica de la composici´on e1; e2 corresponde a evaluar primero e1, descartando su valor, y a continuaci´on evaluar e2. ",
+        "bbox": [
+            91,
+            551,
+            925,
+            647
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, el siguiente programa deber´ıa resultar en el entero 4: ",
+        "bbox": [
+            77,
+            705,
+            914,
+            753
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "let $\\texttt { x } = \\texttt { 1 }$ in x := x + 1; x + x ",
+        "bbox": [
+            104,
+            779,
+            588,
+            823
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Variables inmutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            238,
+            353,
+            283
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje puramente funcional, las variables son inmutables. ",
+        "bbox": [
+            74,
+            290,
+            911,
+            334
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Variables inmutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            238,
+            353,
+            283
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje puramente funcional, las variables son inmutables. ",
+        "bbox": [
+            80,
+            290,
+            906,
+            334
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "El entorno asocia cada variable directamente a un valor. ",
+        "bbox": [
+            129,
+            352,
+            845,
+            397
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            356,
+            118,
+            382
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Variables inmutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            238,
+            353,
+            283
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje puramente funcional, las variables son inmutables. ",
+        "bbox": [
+            80,
+            290,
+            908,
+            334
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "El entorno asocia cada variable directamente a un valor. ",
+        "bbox": [
+            127,
+            352,
+            870,
+            397
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Variables mutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            441,
+            331,
+            485
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje imperativo, las variables son t´ıpicamente mutables. ",
+        "bbox": [
+            74,
+            496,
+            917,
+            540
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            356,
+            118,
+            382
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Variables inmutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            238,
+            353,
+            283
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje puramente funcional, las variables son inmutables. ",
+        "bbox": [
+            80,
+            290,
+            906,
+            334
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "El entorno asocia cada variable directamente a un valor. ",
+        "bbox": [
+            127,
+            352,
+            864,
+            393
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Variables mutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            441,
+            331,
+            485
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje imperativo, las variables son t´ıpicamente mutables. ",
+        "bbox": [
+            80,
+            496,
+            919,
+            540
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "El entorno no asocia cada variable a un valor. ",
+        "bbox": [
+            132,
+            555,
+            718,
+            599
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            356,
+            118,
+            382
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            558,
+            121,
+            588
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Variables inmutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            238,
+            353,
+            283
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje puramente funcional, las variables son inmutables. ",
+        "bbox": [
+            80,
+            290,
+            906,
+            334
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "El entorno asocia cada variable directamente a un valor. ",
+        "bbox": [
+            127,
+            349,
+            864,
+            397
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Variables mutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            441,
+            331,
+            485
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje imperativo, las variables son t´ıpicamente mutables. ",
+        "bbox": [
+            82,
+            496,
+            919,
+            540
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "▶ El entorno no asocia cada variable a un valor.   \n▶ El entorno asocia cada variable a una direcci´on de memoria. ",
+        "bbox": [
+            104,
+            551,
+            922,
+            661
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            356,
+            121,
+            382
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Variables inmutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            238,
+            353,
+            283
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje puramente funcional, las variables son inmutables. ",
+        "bbox": [
+            80,
+            290,
+            906,
+            334
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "El entorno asocia cada variable directamente a un valor. ",
+        "bbox": [
+            127,
+            352,
+            867,
+            397
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Variables mutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            441,
+            331,
+            485
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje imperativo, las variables son t´ıpicamente mutables. ",
+        "bbox": [
+            82,
+            496,
+            919,
+            540
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "El entorno no asocia cada variable a un valor.   \nEl entorno asocia cada variable a una direcci´on de memoria.   \nAdem´as, hay una memoria que asocia direcciones a valores. ",
+        "bbox": [
+            118,
+            555,
+            919,
+            720
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            356,
+            121,
+            382
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Variables inmutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            238,
+            353,
+            283
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje puramente funcional, las variables son inmutables. ",
+        "bbox": [
+            80,
+            290,
+            906,
+            334
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "El entorno asocia cada variable directamente a un valor. ",
+        "bbox": [
+            127,
+            352,
+            867,
+            397
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Variables mutables ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            441,
+            331,
+            485
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "En un lenguaje imperativo, las variables son t´ıpicamente mutables. ",
+        "bbox": [
+            82,
+            496,
+            919,
+            540
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "El entorno no asocia cada variable a un valor.   \nEl entorno asocia cada variable a una direcci´on de memoria.   \nAdem´as, hay una memoria que asocia direcciones a valores.   \nLa evaluaci´on de un programa puede modificar la memoria. ",
+        "bbox": [
+            124,
+            555,
+            914,
+            783
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            356,
+            121,
+            382
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "discarded",
+        "text": "15 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Memorias ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            220,
+            207,
+            264
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Una memoria es un diccionario que asocia direcciones a valores. ",
+        "bbox": [
+            63,
+            272,
+            897,
+            316
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Memorias ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            220,
+            207,
+            264
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Una memoria es un diccionario que asocia direcciones a valores. ",
+        "bbox": [
+            74,
+            264,
+            895,
+            316
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Vamos a suponer que contamos con tipos:   \nAddr direcciones de memoria (Mem a) memorias que asocian direcciones a valores de tipo a ",
+        "bbox": [
+            74,
+            345,
+            903,
+            485
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete con memoria para un lenguaje imperativo ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            867,
+            88
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Memorias ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            220,
+            207,
+            264
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Una memoria es un diccionario que asocia direcciones a valores. ",
+        "bbox": [
+            74,
+            272,
+            895,
+            316
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Vamos a suponer que contamos con tipos:   \nAddr direcciones de memoria (Mem a) memorias que asocian direcciones a valores de tipo a ",
+        "bbox": [
+            74,
+            345,
+            906,
+            485
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "y la siguiente interfaz: ",
+        "bbox": [
+            74,
+            525,
+            356,
+            569
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "emptyMem :: Mem a   \nfreeAddress :: Mem a -> Addr   \nload :: Mem a -> Addr -> a   \nstore :: Mem a -> Addr -> a -> Mem a ",
+        "bbox": [
+            102,
+            599,
+            779,
+            794
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "discarded",
+        "text": "16 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con asignaci´on y composici´on secuencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            845,
+            88
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el lenguaje con caracter´ısticas imperativas: ",
+        "bbox": [
+            80,
+            99,
+            770,
+            143
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "r $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 EVar Id -- x 1 ELet Id Expr Expr let x = e1 in e2 ESeq Expr Expr -- e1; e2 EAssign Id Expr -- x := e ",
+        "bbox": [
+            237,
+            165,
+            922,
+            511
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9dbd6bae6ba74e8fc4ea4204e2fa6ec0417f2572fd80f88d5414134180e28193.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con asignaci´on y composici´on secuencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            845,
+            88
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el lenguaje con caracter´ısticas imperativas: ",
+        "bbox": [
+            77,
+            99,
+            770,
+            143
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "xpr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 EVar Id -- x ELet Id Expr Expr -- let x = e1 in e2 ESeq Expr Expr -- e1; e2 EAssign Id Expr -- x := e ",
+        "bbox": [
+            215,
+            165,
+            906,
+            511
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            547,
+            204,
+            588
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "El resultado de evaluar una asignaci´on ${ \\bf \\Xi } ( \\textbf { x } : = { \\bf \\Xi } _ { \\bf e } )$ no puede ser s´olo un valor (considerar p. ej. let $\\texttt { x } = \\texttt { 1 }$ in $\\textbf { x } : = \\ 2 ; \\ \\textbf { x } )$ . ",
+        "bbox": [
+            74,
+            595,
+            925,
+            694
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1a0fb6f2fcfb5f177e72c244d9fee4e344d1a9113d848b21ab9aeca466256713.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con asignaci´on y composici´on secuencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            845,
+            88
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el lenguaje con caracter´ısticas imperativas: ",
+        "bbox": [
+            77,
+            99,
+            770,
+            143
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "xpr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 EVar Id -- x ELet Id Expr Expr -- let x = e1 in e2 ESeq Expr Expr -- e1; e2 EAssign Id Expr -- x := e ",
+        "bbox": [
+            215,
+            165,
+            906,
+            511
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            547,
+            204,
+            588
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "El resultado de evaluar una asignaci´on ${ \\bf \\Xi } ( \\textbf { x } : = { \\bf \\Xi } _ { \\bf e } )$ no puede ser s´olo un valor (considerar p. ej. let $\\texttt { x } = \\texttt { 1 }$ in $\\textbf { x } : = \\ 2 ; \\ \\textbf { x } )$ . ",
+        "bbox": [
+            71,
+            595,
+            925,
+            694
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al deber´ıa ser el tipo del int´erprete? ",
+        "bbox": [
+            74,
+            702,
+            627,
+            750
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3382707d95456cae3ece664ec8ce820464ce1c80a720ad68f421222f8782a869.jpg",
+        "text": "$$\n^ { 1 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con asignaci´on y composici´on secuencial ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            845,
+            88
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Extendemos el lenguaje con caracter´ısticas imperativas: ",
+        "bbox": [
+            77,
+            99,
+            770,
+            143
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "xpr $=$ EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 1 EVar Id -- x 1 ELet Id Expr Expr -- let x = e1 in e2 ESeq Expr Expr -- e1; e2 | EAssign Id Expr -- x := e ",
+        "bbox": [
+            215,
+            165,
+            903,
+            511
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Problema ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            547,
+            204,
+            588
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "El resultado de evaluar una asignaci´on ${ \\bf \\Xi } ( \\textbf { x } : = { \\bf \\Xi } _ { \\bf e } )$ no puede ser s´olo un valor (considerar p. ej. let $\\texttt { x } = \\texttt { 1 }$ in $\\textbf { x } : = \\ 2 ; \\ \\textbf { x } )$ . ",
+        "bbox": [
+            74,
+            595,
+            925,
+            694
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al deber´ıa ser el tipo del int´erprete? ",
+        "bbox": [
+            74,
+            702,
+            627,
+            750
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (4) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            768,
+            243,
+            819
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete: ",
+        "bbox": [
+            77,
+            830,
+            342,
+            875
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Env Addr -> Mem Val -> (Val, Mem Val) ",
+        "bbox": [
+            74,
+            904,
+            922,
+            948
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "discarded",
+        "text": "17 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con estructuras de control ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            616,
+            84
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Extendamos ahora el int´erprete con estructuras de control: ",
+        "bbox": [
+            66,
+            102,
+            812,
+            147
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EConstNum Int -- 1, 2, 3, ... | EConstBool Bool True, False EAdd Expr Expr e1 + e2 1 EVar Id x ELet Id Expr Expr -- let x = e1 in e2 ESeq Expr Expr -- e1; e2 EAssign Id Expr -- x := e ELtNum Expr Expr -- e1 < e2 EIf Expr Expr Expr -- if e1 then e2 else EWhile Expr Expr while e1 do e2 ",
+        "bbox": [
+            99,
+            165,
+            825,
+            720
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "Extensi´on con estructuras de control ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            616,
+            84
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Extendamos ahora el int´erprete con estructuras de control: ",
+        "bbox": [
+            66,
+            102,
+            812,
+            147
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False | EAdd Expr Expr -- e1 + e2 1 EVar Id -- x 1 ELet Id Expr Expr -- let x = e1 in e2 ESeq Expr Expr -- e1; e2 EAssign Id Expr -- x := e ELtNum Expr Expr -- e1 < e2 EIf Expr Expr Expr -- if e1 then e2 else e EWhile Expr Expr -- while e1 do e2 ",
+        "bbox": [
+            96,
+            165,
+            848,
+            716
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (5) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            761,
+            243,
+            812
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete: ",
+        "bbox": [
+            74,
+            823,
+            342,
+            867
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Env Addr -> Mem Val -> (Val, Mem Val) ",
+        "bbox": [
+            74,
+            897,
+            922,
+            941
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "discarded",
+        "text": "18 ",
+        "bbox": [
+            953,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "Introducci´on ",
+        "bbox": [
+            77,
+            194,
+            279,
+            246
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes b´asicos ",
+        "bbox": [
+            74,
+            360,
+            378,
+            415
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas imperativas ",
+        "bbox": [
+            77,
+            525,
+            511,
+            580
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Caracter´ısticas funcionales ",
+        "bbox": [
+            74,
+            691,
+            502,
+            746
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "19 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            627,
+            88
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "Casi todos los lenguajes funcionales est´an basados en el c´alculo-λ. ",
+        "bbox": [
+            74,
+            257,
+            911,
+            305
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "equation",
+        "img_path": "images/689a39fbffb483a01653d51bd353f3161d93b5235b6d4dc456c7a6616602d6ce.jpg",
+        "text": "$$\n^ { 2 0 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 60
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            627,
+            88
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "Casi todos los lenguajes funcionales est´an basados en el c´alculo-λ. ",
+        "bbox": [
+            77,
+            257,
+            911,
+            305
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo- $\\lambda$ es un lenguaje que tiene s´olo tres construcciones: ",
+        "bbox": [
+            74,
+            330,
+            872,
+            378
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EVar Id -- x | ELam Id Expr -- \\ x -> e | EApp Expr Expr -- e1 e2 ",
+        "bbox": [
+            102,
+            404,
+            767,
+            555
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 61
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            627,
+            88
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Casi todos los lenguajes funcionales est´an basados en el c´alculo-λ. ",
+        "bbox": [
+            77,
+            257,
+            908,
+            305
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo- $\\lambda$ es un lenguaje que tiene s´olo tres construcciones: ",
+        "bbox": [
+            74,
+            330,
+            870,
+            378
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "data Expr $=$ EVar Id -- x | ELam Id Expr -- \\ x -> e | EApp Expr Expr -- e1 e2 ",
+        "bbox": [
+            102,
+            404,
+            765,
+            555
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Es posible programar usando s´olo estas construcciones. ",
+        "bbox": [
+            74,
+            573,
+            765,
+            621
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 62
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            627,
+            88
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Casi todos los lenguajes funcionales est´an basados en el c´alculo-λ. ",
+        "bbox": [
+            77,
+            257,
+            908,
+            305
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "El c´alculo- $\\lambda$ es un lenguaje que tiene s´olo tres construcciones: ",
+        "bbox": [
+            74,
+            330,
+            867,
+            378
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EVar Id -- x | ELam Id Expr -- \\ x -> e | EApp Expr Expr -- e1 e2 ",
+        "bbox": [
+            102,
+            404,
+            765,
+            555
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Es posible programar usando s´olo estas construcciones. ",
+        "bbox": [
+            77,
+            573,
+            765,
+            621
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Pero vamos a extender el c´alculo- $\\lambda$ para que sea m´as c´omodo y se asemeje a un lenguaje realista. ",
+        "bbox": [
+            74,
+            647,
+            922,
+            742
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 63
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            627,
+            88
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al ser´a el resultado de evaluar (\\ x -> x + x)? ",
+        "bbox": [
+            74,
+            191,
+            745,
+            238
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "21 ",
+        "text_level": 1,
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 64
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            627,
+            88
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al ser´a el resultado de evaluar (\\ x -> x + x)? ",
+        "bbox": [
+            74,
+            191,
+            748,
+            238
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos extender el tipo de los valores para incluir funciones. ",
+        "bbox": [
+            71,
+            264,
+            903,
+            312
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 65
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            627,
+            88
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al ser´a el resultado de evaluar (\\ x -> x + x)? ",
+        "bbox": [
+            74,
+            191,
+            748,
+            238
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos extender el tipo de los valores para incluir funciones. ",
+        "bbox": [
+            71,
+            264,
+            903,
+            308
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Primer intento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            276,
+            378
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "El valor de una funci´on es su “c´odigo fuente”. ",
+        "bbox": [
+            74,
+            386,
+            654,
+            433
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 66
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            627,
+            88
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al ser´a el resultado de evaluar (\\ x -> x + x)? ",
+        "bbox": [
+            77,
+            191,
+            748,
+            238
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos extender el tipo de los valores para incluir funciones. ",
+        "bbox": [
+            71,
+            264,
+            903,
+            312
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "Primer intento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            276,
+            378
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "El valor de una funci´on es su “c´odigo fuente”. ",
+        "bbox": [
+            74,
+            386,
+            654,
+            433
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "data Val $=$ VN Int | VB Bool VFunction Id Expr ",
+        "bbox": [
+            104,
+            470,
+            552,
+            617
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 67
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            627,
+            88
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al ser´a el resultado de evaluar (\\ x -> x + x)? ",
+        "bbox": [
+            77,
+            191,
+            748,
+            238
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos extender el tipo de los valores para incluir funciones. ",
+        "bbox": [
+            71,
+            264,
+            903,
+            312
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "Primer intento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            276,
+            378
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "El valor de una funci´on es su “c´odigo fuente”. ",
+        "bbox": [
+            74,
+            386,
+            654,
+            433
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "data Val = VN Int | VB Bool VFunction Id Expr ",
+        "bbox": [
+            104,
+            470,
+            552,
+            617
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, el resultado de evaluar (\\ x -> x + x) ser´ıa: ",
+        "bbox": [
+            80,
+            639,
+            831,
+            683
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "VFunction \"x\" (EAdd (EVar \"x\") (EVar \"x\")) ",
+        "bbox": [
+            107,
+            713,
+            773,
+            757
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 68
+    },
+    {
+        "type": "text",
+        "text": "Int´erpretes para lenguajes funcionales ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            627,
+            88
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "¿Cu´al ser´a el resultado de evaluar (\\ x -> x + x)? ",
+        "bbox": [
+            77,
+            191,
+            748,
+            238
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "Necesitamos extender el tipo de los valores para incluir funciones. ",
+        "bbox": [
+            71,
+            264,
+            903,
+            312
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "Primer intento ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            338,
+            276,
+            378
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "El valor de una funci´on es su “c´odigo fuente”. ",
+        "bbox": [
+            74,
+            386,
+            654,
+            433
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "data Val = VN Int | VB Bool VFunction Id Expr ",
+        "bbox": [
+            104,
+            470,
+            552,
+            617
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "Por ejemplo, el resultado de evaluar (\\ x -> x + x) ser´ıa: ",
+        "bbox": [
+            80,
+            639,
+            834,
+            683
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "VFunction \"x\" (EAdd (EVar \"x\") (EVar \"x\")) ",
+        "bbox": [
+            104,
+            713,
+            773,
+            757
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "Veremos en breve que esto no es correcto. ",
+        "bbox": [
+            77,
+            786,
+            610,
+            830
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "discarded",
+        "text": "21 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 69
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (primer intento) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            610,
+            91
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "Considerar el c´alculo- $\\lambda$ extendido con enteros y booleanos: data Expr = EVar Id -- x ELam Id Expr -- \\ x -> e EApp Expr Expr -- e1 e2 EConstNum Int -- 1, 2, 3, ... EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 | ELet Id Expr Expr -- let x = e1 in e2 | EIf Expr Expr Expr -- if e1 then e2 else e3 ",
+        "bbox": [
+            77,
+            136,
+            900,
+            661
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 70
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (primer intento) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            610,
+            88
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Considerar el c´alculo- $\\lambda$ extendido con enteros y booleanos: ",
+        "bbox": [
+            82,
+            139,
+            814,
+            187
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EVar Id -- x | ELam Id Expr -- \\ x -> e EApp Expr Expr -- e1 e2 EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 | ELet Id Expr Expr -- let x = e1 in e2 | EIf Expr Expr Expr -- if e1 then e2 else e3 ",
+        "bbox": [
+            82,
+            165,
+            900,
+            661
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (6) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            702,
+            243,
+            750
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete: ",
+        "bbox": [
+            74,
+            764,
+            342,
+            808
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Env Val -> Val ",
+        "bbox": [
+            104,
+            838,
+            582,
+            882
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 71
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (primer intento) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            610,
+            88
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            176,
+            193,
+            220
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Evaluar el siguiente programa con el int´erprete reci´en definido: ",
+        "bbox": [
+            74,
+            235,
+            867,
+            283
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "let suma = \\ x -> \\ y -> x + y in   \nlet f = suma 5 in   \nlet $\\mathrm { ~ \\tt ~ x ~ } = \\mathrm { ~ 0 ~ }$ in f 3 ",
+        "bbox": [
+            104,
+            305,
+            635,
+            500
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 72
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (primer intento) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            610,
+            88
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            176,
+            193,
+            220
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "Evaluar el siguiente programa con el int´erprete reci´en definido: ",
+        "bbox": [
+            74,
+            235,
+            867,
+            283
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "let suma = \\ x -> \\ y -> x + y in   \nlet f = suma 5 in   \nlet $\\mathrm { ~ \\tt ~ x ~ } = \\mathrm { ~ 0 ~ }$ in f 3 ",
+        "bbox": [
+            104,
+            305,
+            635,
+            500
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "Problema: captura de variables ",
+        "bbox": [
+            77,
+            573,
+            500,
+            621
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "Querr´ıamos que el resultado sea 8 pero es 3. ",
+        "bbox": [
+            77,
+            636,
+            640,
+            680
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 73
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (primer intento) ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            29,
+            610,
+            88
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            176,
+            193,
+            220
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "Evaluar el siguiente programa con el int´erprete reci´en definido: ",
+        "bbox": [
+            74,
+            235,
+            867,
+            283
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "let suma = \\ x -> \\ y -> x + y in   \nlet f = suma 5 in   \nlet $\\mathrm { ~ \\tt ~ x ~ } = \\mathrm { ~ 0 ~ }$ in f 3 ",
+        "bbox": [
+            104,
+            305,
+            635,
+            500
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "Problema: captura de variables ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            573,
+            500,
+            621
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "Querr´ıamos que el resultado sea 8 pero es 3. ",
+        "bbox": [
+            80,
+            636,
+            640,
+            680
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "El problema es que la variable f queda ligada al valor: ",
+        "bbox": [
+            77,
+            705,
+            754,
+            750
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "VFunction \"y\" (EAdd (EVar \"x\") (EVar \"y\")) La variable x est´a libre. ",
+        "bbox": [
+            74,
+            775,
+            773,
+            897
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 74
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (segundo intento: con clausuras) ",
+        "bbox": [
+            19,
+            25,
+            881,
+            88
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "Segundo intento ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            253,
+            301,
+            297
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "El valor de una funci´on es una clausura. ",
+        "bbox": [
+            74,
+            308,
+            591,
+            352
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "Una clausura es un valor que incluye: ",
+        "bbox": [
+            77,
+            382,
+            546,
+            426
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "1. El c´odigo fuente de la funci´on.   \n2. Un entorno que le da valor a todas sus variables libres. ",
+        "bbox": [
+            91,
+            441,
+            828,
+            551
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d8b7f99100e3e6b359f8c58ec529185e27dee3224ff07c49fbfa383c4b811670.jpg",
+        "text": "$$\n2 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            930,
+            1000,
+            1000
+        ],
+        "page_idx": 75
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (segundo intento: con clausuras) ",
+        "bbox": [
+            19,
+            25,
+            881,
+            91
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "Segundo intento ",
+        "text_level": 1,
+        "bbox": [
+            74,
+            253,
+            301,
+            297
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "El valor de una funci´on es una clausura. ",
+        "bbox": [
+            74,
+            308,
+            591,
+            356
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "Una clausura es un valor que incluye: ",
+        "bbox": [
+            77,
+            382,
+            546,
+            426
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "1. El c´odigo fuente de la funci´on.   \n2. Un entorno que le da valor a todas sus variables libres. ",
+        "bbox": [
+            93,
+            441,
+            828,
+            551
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "data Val $=$ VN Int | VB Bool | VClosure Id Expr (Env Val) ",
+        "bbox": [
+            102,
+            599,
+            696,
+            746
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 76
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (segundo intento: con clausuras) ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            883,
+            88
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "Recordemos las expresiones del c´alculo- $\\lambda$ con enteros y booleanos: ",
+        "bbox": [
+            66,
+            139,
+            911,
+            187
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EVar Id -- x | ELam Id Expr -- \\ x -> e | EApp Expr Expr -- e1 e2 EConstNum Int -- 1, 2, 3, ... 1 EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 | ELet Id Expr Expr -- let x = e1 in e2 | EIf Expr Expr Expr -- if e1 then e2 else e3 ",
+        "bbox": [
+            93,
+            209,
+            903,
+            661
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 77
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete funcional (segundo intento: con clausuras) ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            29,
+            883,
+            88
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "Recordemos las expresiones del c´alculo- $\\lambda$ con enteros y booleanos: ",
+        "bbox": [
+            66,
+            139,
+            911,
+            187
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EVar Id -- x | ELam Id Expr -- \\ x -> e | EApp Expr Expr -- e1 e2 EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 | ELet Id Expr Expr -- let x = e1 in e2 | EIf Expr Expr Expr -- if e1 then e2 else e3 ",
+        "bbox": [
+            93,
+            209,
+            903,
+            661
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (7) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            702,
+            243,
+            753
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete usando clausuras: ",
+        "bbox": [
+            77,
+            764,
+            563,
+            808
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Env Val -> Val ",
+        "bbox": [
+            104,
+            838,
+            585,
+            882
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "discarded",
+        "text": "25 ",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 78
+    },
+    {
+        "type": "text",
+        "text": "Estrategias de evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            430,
+            88
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "text",
+        "text": "Hay distintas t´ecnicas para evaluar una aplicaci´on (e1 e2). ",
+        "bbox": [
+            66,
+            102,
+            834,
+            150
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 79
+    },
+    {
+        "type": "text",
+        "text": "Estrategias de evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            84
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "text",
+        "text": "Hay distintas t´ecnicas para evaluar una aplicaci´on (e1 e2).   \nEstas t´ecnicas se conocen como estrategias de evaluaci´on. ",
+        "bbox": [
+            74,
+            102,
+            839,
+            198
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 80
+    },
+    {
+        "type": "text",
+        "text": "Estrategias de evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            84
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "Hay distintas t´ecnicas para evaluar una aplicaci´on (e1 e2).   \nEstas t´ecnicas se conocen como estrategias de evaluaci´on. ",
+        "bbox": [
+            74,
+            102,
+            839,
+            198
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete que hicimos reci´en usa la siguiente estrategia: ",
+        "bbox": [
+            80,
+            224,
+            817,
+            272
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "1. Llamada por valor (call-by-value): Se eval´ua e1 hasta que sea una clausura. Se eval´ua e2 hasta que sea un valor. Se procede con la evaluaci´on del cuerpo de la funci´on. El par´ametro queda ligado al valor de e2. ",
+        "bbox": [
+            99,
+            286,
+            825,
+            533
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 81
+    },
+    {
+        "type": "text",
+        "text": "Estrategias de evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            84
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Hay distintas t´ecnicas para evaluar una aplicaci´on (e1 e2).   \nEstas t´ecnicas se conocen como estrategias de evaluaci´on. ",
+        "bbox": [
+            74,
+            102,
+            839,
+            198
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete que hicimos reci´en usa la siguiente estrategia: ",
+        "bbox": [
+            80,
+            224,
+            820,
+            272
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "1. Llamada por valor (call-by-value): ",
+        "bbox": [
+            96,
+            286,
+            635,
+            330
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Se eval´ua e1 hasta que sea una clausura. ",
+        "bbox": [
+            132,
+            338,
+            654,
+            382
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Se eval´ua e2 hasta que sea un valor. ",
+        "bbox": [
+            135,
+            389,
+            599,
+            430
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Se procede con la evaluaci´on del cuerpo de la funci´on. ",
+        "bbox": [
+            138,
+            437,
+            820,
+            481
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "El par´ametro queda ligado al valor de e2. Hay otras estrategias de evaluaci´on; por ejemplo: ",
+        "bbox": [
+            74,
+            488,
+            701,
+            591
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "2. Llamada por nombre (call-by-name): ",
+        "bbox": [
+            99,
+            606,
+            654,
+            654
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Se eval´ua e1 hasta que sea una clausura.   \nSe procede directamente a evaluar el cuerpo de la funci´on.   \nEl par´ametro queda ligado a la expresi´on e2 sin evaluar.   \nCada vez que se usa el par´ametro, se eval´ua la expresi´on e2. ",
+        "bbox": [
+            132,
+            661,
+            900,
+            852
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 82
+    },
+    {
+        "type": "text",
+        "text": "Estrategias de evaluaci´on ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            428,
+            84
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "Hay distintas t´ecnicas para evaluar una aplicaci´on (e1 e2).   \nEstas t´ecnicas se conocen como estrategias de evaluaci´on. ",
+        "bbox": [
+            74,
+            102,
+            839,
+            198
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "El int´erprete que hicimos reci´en usa la siguiente estrategia: ",
+        "bbox": [
+            80,
+            224,
+            820,
+            272
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "1. Llamada por valor (call-by-value): ",
+        "bbox": [
+            96,
+            286,
+            635,
+            330
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "Se eval´ua e1 hasta que sea una clausura. ",
+        "bbox": [
+            132,
+            338,
+            654,
+            382
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "Se eval´ua e2 hasta que sea un valor. ",
+        "bbox": [
+            135,
+            389,
+            599,
+            430
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "Se procede con la evaluaci´on del cuerpo de la funci´on. ",
+        "bbox": [
+            138,
+            437,
+            820,
+            481
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "El par´ametro queda ligado al valor de e2. Hay otras estrategias de evaluaci´on; por ejemplo: ",
+        "bbox": [
+            74,
+            488,
+            701,
+            591
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "2. Llamada por nombre (call-by-name): ",
+        "text_level": 1,
+        "bbox": [
+            96,
+            606,
+            654,
+            654
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "Se eval´ua e1 hasta que sea una clausura.   \nSe procede directamente a evaluar el cuerpo de la funci´on.   \nEl par´ametro queda ligado a la expresi´on e2 sin evaluar.   \nCada vez que se usa el par´ametro, se eval´ua la expresi´on e2. ",
+        "bbox": [
+            132,
+            661,
+            895,
+            849
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "3. Llamada por necesidad (call-by-need): ",
+        "text_level": 1,
+        "bbox": [
+            99,
+            867,
+            682,
+            911
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "equation",
+        "img_path": "images/385d35be7ecd37368b51b40f322c742e0e0efc775d09d14d99ace2fc1da9faf5.jpg",
+        "text": "$$\n^ { 2 6 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            922,
+            1000,
+            1000
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "(La veremos en un rato). ",
+        "bbox": [
+            132,
+            919,
+            450,
+            963
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            997,
+            996
+        ],
+        "page_idx": 83
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete call-by-name ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            36,
+            436,
+            88
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "text",
+        "text": "En la estrategia de evaluaci´on call-by-name: ",
+        "bbox": [
+            77,
+            99,
+            660,
+            143
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar (let $\\texttt { x } = \\texttt { e 1 }$ in e2) se eval´ua directamente e2.   \nLa variable x queda ligada a una copia no evaluada de e1. ",
+        "bbox": [
+            124,
+            158,
+            900,
+            253
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "equation",
+        "img_path": "images/09fc7101de0f9862f379d581f60c73d80827f463d80251839b8f63be17f62467.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "discarded",
+        "text": "▶ ",
+        "bbox": [
+            96,
+            165,
+            118,
+            191
+        ],
+        "page_idx": 84
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete call-by-name ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            36,
+            436,
+            88
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "En la estrategia de evaluaci´on call-by-name: ",
+        "bbox": [
+            77,
+            99,
+            662,
+            143
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar (let $\\texttt { x } = \\texttt { e 1 }$ in e2) se eval´ua directamente e2.   \nLa variable x queda ligada a una copia no evaluada de e1.   \nLos entornos no asocian identificadores a valores. Los entornos asocian identificadores a thunks. ",
+        "bbox": [
+            116,
+            158,
+            903,
+            363
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3bc8b412d66ca76caf472f7996ea67ea35cafe0718f0ce873ffe351caf587062.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 85
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete call-by-name ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            36,
+            436,
+            88
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "En la estrategia de evaluaci´on call-by-name: ",
+        "bbox": [
+            77,
+            99,
+            662,
+            143
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar (let $\\texttt { x } = \\texttt { e 1 }$ in e2) se eval´ua directamente e La variable x queda ligada a una copia no evaluada de e1. Los entornos no asocian identificadores a valores. Los entornos asocian identificadores a thunks. ",
+        "bbox": [
+            116,
+            158,
+            881,
+            363
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Thunks ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            422,
+            179,
+            463
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Un thunk es un dato que incluye: ",
+        "bbox": [
+            77,
+            474,
+            497,
+            518
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "1. Una expresi´on no evaluada.   \n2. Un entorno que le da valor a todas sus variables libres. ",
+        "bbox": [
+            93,
+            533,
+            828,
+            639
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 86
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete call-by-name ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            36,
+            436,
+            88
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "En la estrategia de evaluaci´on call-by-name: ",
+        "bbox": [
+            77,
+            99,
+            662,
+            143
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Al evaluar (let $\\texttt { x } = \\texttt { e 1 }$ in e2) se eval´ua directamente e La variable x queda ligada a una copia no evaluada de e1. Los entornos no asocian identificadores a valores. Los entornos asocian identificadores a thunks. ",
+        "bbox": [
+            113,
+            158,
+            881,
+            363
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Thunks ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            422,
+            179,
+            463
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Un thunk es un dato que incluye: ",
+        "bbox": [
+            77,
+            474,
+            497,
+            518
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "1. Una expresi´on no evaluada.   \n2. Un entorno que le da valor a todas sus variables libres. ",
+        "bbox": [
+            91,
+            533,
+            828,
+            639
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Los thunks y valores se definen del siguiente modo: ",
+        "bbox": [
+            82,
+            676,
+            723,
+            724
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "data Thunk $=$ TT Expr (Env Thunk) ",
+        "bbox": [
+            104,
+            750,
+            613,
+            794
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "data Val $=$ VN Int ",
+        "bbox": [
+            104,
+            801,
+            381,
+            841
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "equation",
+        "img_path": "images/04495209eab16e70d9ca22581e9190d59a8fca70a2b9930495213bd2b9a547fa.jpg",
+        "text": "$$\n^ { 2 7 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            950,
+            919,
+            1000,
+            1000
+        ],
+        "page_idx": 87
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete call-by-name ",
+        "text_level": 1,
+        "bbox": [
+            22,
+            33,
+            436,
+            88
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "Recordemos las expresiones del c´alculo- $\\lambda$ con enteros y booleanos: ",
+        "bbox": [
+            69,
+            139,
+            917,
+            187
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EVar Id -- x | ELam Id Expr -- \\ x -> e | EApp Expr Expr -- e1 e2 EConstNum Int -- 1, 2, 3, ... 1 EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 | ELet Id Expr Expr -- let x = e1 in e2 | EIf Expr Expr Expr -- if e1 then e2 else e3 ",
+        "bbox": [
+            93,
+            209,
+            903,
+            661
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 88
+    },
+    {
+        "type": "text",
+        "text": "Int´erprete call-by-name ",
+        "text_level": 1,
+        "bbox": [
+            19,
+            33,
+            436,
+            88
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "text",
+        "text": "Recordemos las expresiones del c´alculo- $\\lambda$ con enteros y booleanos: ",
+        "bbox": [
+            69,
+            139,
+            917,
+            187
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "text",
+        "text": "data Expr = EVar Id -- x | ELam Id Expr -- \\ x -> e | EApp Expr Expr -- e1 e2 1 EConstNum Int -- 1, 2, 3, ... | EConstBool Bool -- True, False EAdd Expr Expr -- e1 + e2 | ELet Id Expr Expr -- let x = e1 in e2 | EIf Expr Expr Expr -- if e1 then e2 else e3 ",
+        "bbox": [
+            91,
+            209,
+            903,
+            661
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio (8) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            702,
+            243,
+            750
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "text",
+        "text": "Definir un int´erprete que use la estrategia call-by-name: ",
+        "bbox": [
+            74,
+            764,
+            814,
+            812
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "text",
+        "text": "eval :: Expr -> Env Thunk -> Val ",
+        "bbox": [
+            104,
+            838,
+            613,
+            882
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            950,
+            948,
+            1000,
+            996
+        ],
+        "page_idx": 89
+    },
+    {
+        "type": "text",
+        "text": "¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿? ? ? ? ? ? ? ? ? ",
+        "bbox": [
+            251,
+            356,
+            748,
+            455
+        ],
+        "page_idx": 90
+    },
+    {
+        "type": "discarded",
+        "text": "29 ",
+        "bbox": [
+            950,
+            944,
+            1000,
+            996
+        ],
+        "page_idx": 90
+    }
+]

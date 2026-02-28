@@ -1,0 +1,517 @@
+[
+    {
+        "type": "text",
+        "text": "PLP-Primer Recuperatorio- ${ \\bf 1 } ^ { \\mathrm { e r } }$ cuatrimestre de 2025 ",
+        "bbox": [
+            168,
+            35,
+            842,
+            54
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/98d7683c827c883a8bf7628ec136e057a3e4b067b154bea02a023b804292d5fc.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>#Orden</td><td>Turno</td><td>Libreta</td><td>ApellidoyNombre</td><td>Ej1</td><td>Ej2</td><td>Ej3</td><td>NotaFinal</td></tr><tr><td></td><td></td><td></td><td>：</td><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            73,
+            65,
+            934,
+            115
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Las notas para cada ejercicio son-,I,R，B, ueba obteniendo al menos dos ejercicios B $\\mathbf { y }$ unoR, $\\mathbf { y }$ ",
+        "bbox": [
+            68,
+            123,
+            403,
+            138
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            542,
+            129,
+            944,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "sepromocionaconalmenosdosejerciciosyunoB.EsposibleobtenerunaaprobacincondicionalconunejercicioBuno ByunoI.EstorequiereentregaralgoquecontribuyaalsoluciondelejereicioPonernombreapellidoynumerodeorden entodaslshojas，ynumerarlas.Sepuedeutilizartodolodefinidoenlsprcticasytodoloquesedioenclase,colocando referenciasclaras.ElordendelosejerciciosesarbitrarioRecomendamoslerelparcialcompletoantesdeempezararesolverlo ",
+        "bbox": [
+            62,
+            141,
+            949,
+            206
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 1-Programacion funcional ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            210,
+            408,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "aracion:en esteejercicionoest&permitidoutilizar recursinexplfeita,amenosque se indiquelo eaenneel tipode datos LineaProd,querepresentalineasdeproduccion deuna fbrica.Una linea de produccionseiniciaconunalistadematerialesdondecadamaterial serepresentaconunstring.Trasesta primeraetapasepuedeagregarunmaterialalalineaoselapuedeunirconotralinea deproduccion. ",
+        "bbox": [
+            55,
+            233,
+            942,
+            266
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            53,
+            267,
+            952,
+            318
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "efinimos las siguientes lineas para losejemplos: arro=Materiales[String]lAgregar String LineaProd|Unir LineaProd LineaProd ",
+        "bbox": [
+            62,
+            320,
+            959,
+            351
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "11=Unir(Materiales [\"acero\",\"cobre\"]）  \n12 $\\Bumpeq$ （Unir（Agregarmadera（Materiales[\"madera]）（Materiales[\"mercurio\"]）） Unir（Materiales[\"acero\",\"cobre\"]） 人（Unir（Agregar“madera\"（Materiales[\"aluminio\"]））（Agregar\"aluminio\"（Materiales[\"plastico\"]）））  \n13 $\\Bumpeq$ tnir（Materiales [\"m1\"]）（Unir（Agregar\"m3\"（Materiales [\"m3\"，\"m4\"]））（Materiales[\"m1\"，\"m2\"]））",
+        "bbox": [
+            47,
+            356,
+            776,
+            521
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) DarlostiposydefinirlasfuncionesfoldineaProdyrecLineaProdqueimplementanrespectivamentelosesquemasderecursionestructuralyprimitivaparaeltipoLineaProd.Soloenesteinciso se permiteusar recursion explicita. ",
+        "bbox": [
+            58,
+            534,
+            954,
+            584
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b)DefinirlafuncionmaterialesUsadosLineaProd-String]quedevuelveunalistacontodos losmateriales usados por una linea de produccion.La lista devueltano debe contener materiales repetidos.Por ejemplo: ",
+        "bbox": [
+            58,
+            595,
+            952,
+            644
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "materialesUsados $^ { 1 1 \\sim }$ [\"acero\"，\"cobre\"，\"madera\",\"mercurio\"] materialesUsados 12\\~[\"acero，\"cobre,\"madera，\"aluminio，\"plastico\"] Sugerencia:usarnub.ree lisrcliminaorepe+ids ",
+        "bbox": [
+            58,
+            649,
+            853,
+            712
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "c)Definirlafuncionsublineasisjuntas:LineaProd->Boolquedada unalineadeprodueon devuelveTruesiysolosienninguna etapadelamisma seunen doslineasqueusenalmenostn material en comun.Por ejemplo: ",
+        "bbox": [
+            53,
+            718,
+            941,
+            768
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "sublineasDisjuntas ${ \\bf { \\ell } } _ { 1 1 } \\sim $ True   \nsublineasDisjuntas 12\\~ False,ya que dentrode ell hay dos sublinensquese unen y tienen el material \"aluminio\"en comuin.   \nsublineasDisjuntas 13\\~ False,yaque13 por sf mismaes ln union de dos sublineas que tienen a m1\"en comuin. ",
+        "bbox": [
+            62,
+            774,
+            942,
+            859
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d)DefinirlafuncionmismaEstructura:LineaProd ->LineaProd-> Bool,quedadas doslineas de produciondetermina si son iguales sinconsiderarlosmateriales presentesenelas.Porejemplo: ",
+        "bbox": [
+            48,
+            872,
+            936,
+            907
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "mismaEstructura 11 $^ { 1 2 \\sim }$ False mismaEstructura 11 ${ \\tt 1 3 } \\sim$ True ",
+        "bbox": [
+            80,
+            910,
+            381,
+            942
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pista:aprovechar la currificacion y utilizar evaluacion parcial. ",
+        "bbox": [
+            82,
+            950,
+            615,
+            967
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio 2-Demostracion de propiedades ",
+        "text_level": 1,
+        "bbox": [
+            68,
+            11,
+            453,
+            32
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a)Considerar las siguientes definiciones: ",
+        "bbox": [
+            87,
+            34,
+            410,
+            52
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "dataAIHa=Hojaa丨Bin（AIHa）（AIH a）（++）：：[a]->[a]->[a]{++0}++ys=ys{++1}（x:xs）++ys=x：（xs++ys）reverse：：[a]->[a]{R)reverse=foldr（\\xrec->rec++（x:[））foldr:：（a->b）->b->[a]->b{FO}foldrfz[]=z{F1）foldrfz（x:xs）=fx（foldrfzxs）",
+        "bbox": [
+            90,
+            54,
+            517,
+            219
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "hojas：：AIHa->[a]  \n{HO}hojas （Hoja h）=[h]  \n{H1}hojas （Bin id）-hojasi $\\nleftarrow$ hojasd  \nJ espejo：：AIHa $\\scriptstyle \\mathbf { \\vec { \\Sigma } }$ AIHa  \n{EO}espejo （Hoja h）=Hojah  \n{E1}espejo （Bin id） $\\mathbf { \\eqcirc }$ Bin（espejo d）（espejo i）",
+        "bbox": [
+            529,
+            87,
+            904,
+            131
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            531,
+            143,
+            978,
+            191
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Demostrar la siguiente propiedad: ",
+        "bbox": [
+            92,
+            235,
+            379,
+            252
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sisenecesitaunlemarelacionadoconreversey $( + + )$ ,noesnecesaioemostrarloerofeiarlo plantearlocomo predicadounario yenunciar cada casoquesedeberiaanalizarpara demostrarlo por induccion estructural, indicandola hipotesis inductiva para el olos caso(s) inductivo(s). ",
+        "bbox": [
+            90,
+            294,
+            947,
+            347
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sepermitedefinir macros (i.e.poner nombres a expresiones largas para no tener que repetirlas). ",
+        "bbox": [
+            90,
+            352,
+            915,
+            371
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Noesobligatorio escribirlos∀correspondientes encada paso,peroes importanterecordar queestan presentes.Recordar tambienque $\\log = \\mathbf { d e }$ lasdefiniciones pueden leerse en ambos sentidos. ",
+        "bbox": [
+            92,
+            375,
+            939,
+            412
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Seconsideran demostradas todas las propiedades conocidas sobre enteros $\\mathbf { y }$ booleanos. ",
+        "bbox": [
+            90,
+            416,
+            820,
+            434
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b) Demostrar el siguiente teorema usando Deducci6n Natural, sin utilizar principios clsicos ",
+        "bbox": [
+            72,
+            442,
+            840,
+            460
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/43353cd051e9969cd19f88567b4518504bc88be847f9635848e514c6ecacdd5b.jpg",
+        "text": "$$\n( \\rho \\Rightarrow \\tau ) \\wedge ( \\sigma \\Rightarrow \\tau ) \\Rightarrow ( \\sigma \\lor \\rho ) \\Rightarrow \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            383,
+            466,
+            660,
+            486
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ejercicio3-Calculo Lambda Tipado ",
+        "bbox": [
+            60,
+            503,
+            411,
+            520
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sedeseaextenderelcalculolambdasimplemente tipadopara modelarregiones geometricas.Paraeso se xtienden los tipos $\\mathbf { y }$ expresiones de la siguiente manera: ",
+        "bbox": [
+            62,
+            522,
+            939,
+            555
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\tau : : = \\cdots$ Regi6nM=|Rectangulo（M，M）|Union（M，M）|foldRGMDRectangulo(x,y）\\~M;Union(ri,rd）\\~M",
+        "bbox": [
+            92,
+            559,
+            937,
+            596
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Regi6n esel tipodelasregionesdel plano formadas por rectangulosyunionesderectangulos. ",
+        "bbox": [
+            89,
+            606,
+            889,
+            627
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Rectangulo $( M _ { 1 } , M _ { 2 } )$ esunrectangulodelados enteros nonegativos,deanchodado por $M _ { 1 } \\thinspace \\mathbf { y }$ altodado por $M _ { 2 }$ cuyoextremo inferior izquierdo seencuentraenelcerodel planodecoordenadas. ",
+        "bbox": [
+            84,
+            636,
+            944,
+            672
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "·Union $( M _ { 1 } , M _ { 2 } )$ eslaregion del plano formada por launionde las regiones $M _ { 1 } \\mathrm { ~ y ~ } M _ { 2 }$ ",
+        "bbox": [
+            85,
+            681,
+            808,
+            700
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldRG $M _ { 1 }$ Rectang $\\mathfrak { s l o } ( z , y ) \\sim M _ { 2 } ; \\cup \\mathfrak { n i } \\delta \\mathfrak { n } ( r i , r d ) \\sim M _ { 3 } \\mathrm { ~ e s ~ }$ el esquemaderecursionestructuralpara regiones,dondelas variables $\\pmb { x }$ e $_ y$ seligaranen $M _ { 2 }$ al anchoyaltodel rectngulo,mientrras queriy rdse ligaranen $M _ { 3 }$ alosresultadosdelarecursin sobrelasregiones unidas. ",
+        "bbox": [
+            85,
+            707,
+            944,
+            761
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a)Introducir las reglasde tipado para la extension propuesta. ",
+        "bbox": [
+            85,
+            771,
+            601,
+            789
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "b)Definir el conjunto de valores $\\mathbf { y }$ las nuevas reglas de reduccinen un paso ",
+        "bbox": [
+            85,
+            798,
+            722,
+            815
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "c)Mostrar paso por paso como reduce la expresion: ",
+        "bbox": [
+            89,
+            823,
+            521,
+            839
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "foldRGUnion(（入x:Nat.Rectangulo(1,2））zero,Rectangulo（3,4)）DRectangulo（x,y）\\~True; Union(ri,rd）\\~ifrithenrdelse False ",
+        "bbox": [
+            110,
+            846,
+            937,
+            883
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "d)Definir como macro la funcion contieneElPunto,que toma una Region y dos numeros naturales rey,y devuelve True cuando elpunto(x,y）est incluidoenla regi6no ensu borde,y Falseencaso contrario. ",
+        "bbox": [
+            92,
+            894,
+            937,
+            927
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Asunir que secuenta conla funcion≤:Nat Nat→Boollaoalese pueden usar lasmacros and y or definidasen la pr&ctica. ",
+        "bbox": [
+            114,
+            929,
+            934,
+            961
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c2798415362829ee2978f23973d89030d01ed7260e622cdd484c31c3b54873f8.jpg",
+        "text": "$$\n^ { \\circ }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            984,
+            845,
+            998
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            8,
+            0,
+            62,
+            11
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            495,
+            988,
+            521,
+            998
+        ],
+        "page_idx": 1
+    }
+]

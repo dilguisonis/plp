@@ -1,0 +1,2647 @@
+[
+    {
+        "type": "text",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "text_level": 1,
+        "bbox": [
+            282,
+            193,
+            709,
+            241
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GRAHAM HUTTON University of Nottingham, Nottingham, UK http://www.cs.nott.ac.uk/-gmh ",
+        "bbox": [
+            373,
+            259,
+            620,
+            300
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Abstract ",
+        "text_level": 1,
+        "bbox": [
+            467,
+            332,
+            526,
+            346
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In functional programming, fold is a standard operator that encapsulates a simple pattern of recursion for processing lists. This article is a tutorial on two key aspects of the fold operator for lists. First of all, we emphasize the use of the universal property of fold both as a proof principle that avoids the need for inductive proofs, and as a definition principle that guides the transformation of recursive functions into definitions using fold. Secondly, we show that even though the pattern of recursion encapsulated by fold is simple, in a language with tuples and functions as first-class values the fold operator has greater expressive power than might first be expected. ",
+        "bbox": [
+            196,
+            354,
+            800,
+            457
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Capsule Review ",
+        "text_level": 1,
+        "bbox": [
+            440,
+            482,
+            552,
+            497
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Within the last ten to fifteen years, the algebra of datatypes has become a stable and well understood element of the mathematics of program construction. Graham Hutton’s paper is a highly readable, elementary introduction to the algebra centred on the well-known function on lists. The paper distinguishes itself by focusing on how the properties are used for the crucial task of ‘constructing’ programs, rather than on the post hoc verification of existing programs. Several well-chosen examples are given, beginning at an elementary level and progressing to more advanced applications. The paper concludes with a good overview and bibliography of recent literature which develops the theory and its applications in more depth. ",
+        "bbox": [
+            196,
+            504,
+            798,
+            621
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 Introduction ",
+        "text_level": 1,
+        "bbox": [
+            443,
+            665,
+            549,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Many programs that involve repetition are naturally expressed using some form of recursion, and properties proved of such programs using some form of induction. Indeed, in the functional approach to programming, recursion and induction are the primary tools for defining and proving properties of programs. ",
+        "bbox": [
+            194,
+            688,
+            801,
+            750
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Not surprisingly, many recursive programs will share a common pattern of recursion, and many inductive proofs will share a common pattern of induction. Repeating the same patterns again and again is tedious, time consuming, and prone to error. Such repetition can be avoided by introducing special recursion operators and proof principles that encapsulate the common patterns, allowing us to concentrate on the parts that are different for each application. ",
+        "bbox": [
+            196,
+            751,
+            801,
+            841
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In functional programming, fold (also known as foldr) is a standard recursion operator that encapsulates a common pattern of recursion for processing lists. The fold operator comes equipped with a proof principle called universality, which encapsulates a common pattern of inductive proof concerning lists. Fold and its universal property together form the basis of a simple but powerful calculational theory of programs that process lists. This theory generalises from lists to a variety of other datatypes, but for simplicity we restrict our attention to lists. ",
+        "bbox": [
+            206,
+            843,
+            798,
+            858
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "J. Functional Programming 9 (4): 355–372, July 1999. Printed in the United Kingdom $\\circledcirc$ 1999 Cambridge University Press ",
+        "bbox": [
+            193,
+            139,
+            699,
+            165
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            773,
+            139,
+            798,
+            149
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            194,
+            165,
+            800,
+            256
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "This article is a tutorial on two key aspects of the fold operator for lists. First of all, we emphasize the use of the universal property of fold (together with the derived fusion property) both as proof principles that avoid the need for inductive proofs, and as definition principles that guide the transformation of recursive functions into definitions using fold. Secondly, we show that even though the pattern of recursion encapsulated by fold is simple, in a language with tuples and functions as first-class values the fold operator has greater expressive power than might first be expected, thus permitting the powerful universal and fusion properties of fold to be applied to a larger class of programs. The article concludes with a survey of other work on recursion operators that we do not have space to pursue here. ",
+        "bbox": [
+            194,
+            258,
+            801,
+            410
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The article is aimed at a reader who is familiar with the basics of functional programming, say to the level of Bird and Wadler (1988) and Bird (1998). All programs in the article are written in Haskell (Peterson et al., 1997), the standard lazy functional programming language. However, no special features of Haskell are used, and the ideas can easily be adapted to other functional languages. ",
+        "bbox": [
+            194,
+            412,
+            800,
+            488
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2 The fold operator ",
+        "text_level": 1,
+        "bbox": [
+            423,
+            516,
+            569,
+            531
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The fold operator has its origins in recursion theory (Kleene, 1952), while the use of fold as a central concept in a programming language dates back to the reduction operator of APL (Iverson, 1962), and later to the insertion operator of FP (Backus, 1978). In Haskell, the fold operator for lists can be defined as follows: ",
+        "bbox": [
+            194,
+            538,
+            801,
+            600
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/54a2acaa2ff3fdca1614ba423f5e7166dd0af049faa975d4efe3c4052244e734.jpg",
+        "text": "$$\n\\begin{array} { l l l l } { { f o l d } } & { { : : } } & { { ( \\alpha  \\beta  \\beta )  \\beta  ( [ \\alpha ]  \\beta ) } } \\\\ { { f o l d ~ f ~ v ~ } } & { { [ ] } } & { { = } } & { { v } } \\\\ { { f o l d ~ f ~ v ~ ( x : x s ) } } & { { = } } & { { f ~ x ~ ( f o l d ~ f ~ v ~ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            285,
+            608,
+            697,
+            658
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "That is, given a function $f$ of type $\\alpha  \\beta  \\beta$ and a value $v$ of type $\\beta$ , the function fold $\\textit { f v }$ processes a list of type $[ \\alpha ]$ to give a value of type $\\beta$ by replacing the nil constructor $[ ]$ at the end of the list by the value $v$ , and each cons constructor (:) within the list by the function $f$ . In this manner, the fold operator encapsulates a simple pattern of recursion for processing lists, in which the two constructors for lists are simply replaced by other values and functions. A number of familiar functions on lists have a simple definition using fold . For example: ",
+        "bbox": [
+            194,
+            664,
+            801,
+            772
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7e4380bf8a7af7b730a11d3f43b7c833745c1b2deffe653b7d2969709860713e.jpg",
+        "text": "$$\n\\begin{array} { l l l l l l } { s u m } & { : : } & { \\left[ I n t \\right] \\to I n t } & { } & { \\qquad } & { p r o d u c t } & { : : } & { \\left[ I n t \\right] \\to I n t } \\\\ { s u m } & { = } & { f o l d \\ ( + ) \\ 0 } & { } & { p r o d u c t } & { = } & { f o l d \\ ( \\times ) \\ 1 } \\\\ { \\quad a n d \\ } & { : } & { \\left[ B o o l \\right] \\to B o o l } & { } & { \\qquad } & { o r \\qquad } & { : : } & { \\left[ B o o l \\right] \\to B o o l } \\\\ { \\quad a n d \\ } & { = } & { f o l d \\ ( \\land ) \\ T r u e } & { } & { o r \\qquad } & { = } & { f o l d \\ ( \\lor ) \\ F a l s e } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            778,
+            737,
+            859
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            460,
+            139,
+            532,
+            149
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            194,
+            139,
+            221,
+            149
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Recall that enclosing an infix operator $\\oplus$ in parentheses $( \\oplus )$ converts the operator into a prefix function. This notational device, called sectioning, is often useful when defining simple functions using fold. If required, one of the arguments to the operator can also be enclosed in the parentheses. For example, the function $( + + )$ that appends two lists to give a single list can be defined as follows: ",
+        "bbox": [
+            194,
+            164,
+            801,
+            241
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b6776ec5ffe862e140739af5f526bd31844428cbde6319fb27a15ae6cf2c6db7.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { ( + + ) } } & { { : : } } & { { [ \\alpha ]  [ \\alpha ]  [ \\alpha ] } } \\\\ { { ( + + \\ y s ) } } & { { = } } & { { f o l d ( : ) y s } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            378,
+            248,
+            608,
+            282
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In all our examples so far, the constructor (:) is replaced by a built-in function. However, in most applications of fold the constructor (:) will be replaced by a user-defined function, often defined as a nameless function using the $\\lambda$ notation, as in the following definitions of standard list-processing functions: ",
+        "bbox": [
+            196,
+            287,
+            801,
+            348
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/62f18c7b78f2c75de085c9bfd566334b40b7ef8718f95fa5b04debb5a3295730.jpg",
+        "text": "$$\n\\begin{array} { r c l } { { l e n g t h } } & { { : : } } & { { [ \\alpha ]  l n t } } \\\\ { { } } & { { } } & { { } } \\\\ { { l e n g t h } } & { { = } } & { { f o l d ( \\lambda x n  1 + n ) 0 } } \\\\ { { } } & { { } } & { { } } \\\\ { { r e v e r s e } } & { { : } } & { { [ \\alpha ]  [ z ] } } \\\\ { { } } & { { } } & { { } } \\\\ { { r e v e r s e } } & { { = } } & { { f o l d ( \\lambda x x s  x s + [ x ] ) [ ] } } \\\\ { { } } & { { } } & { { } } \\\\ { { \\begin{array} { r c l } { { } } & { { } } & { { ( x  \\beta )  ( [ x ]  [ \\beta ] ) } } \\\\ { { } } & { { } } & { { } } \\\\ { { m a p f } } & { { = } } & { { f o l d ( \\lambda x x s  f x : x s ) [ ] } } \\\\ { { } } & { { } } & { { } } \\\\ { { \\textmd { e l i t e r } } } & { { : } } & { { ( \\alpha  B o o l )  ( [ \\sigma ]  [ \\sigma ] ) } } \\end{array} } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            268,
+            355,
+            589,
+            506
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Programs written using fold can be less readable than programs written using explicit recursion, but can be constructed in a systematic manner, and are better suited to transformation and proof. For example, we will see later on in the article how the above definition for map using fold can be constructed from the standard definition using explicit recursion, and more importantly, how the definition using fold simplifies the process of proving properties of the map function. ",
+        "bbox": [
+            193,
+            532,
+            801,
+            626
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3 The universal property of fold ",
+        "text_level": 1,
+        "bbox": [
+            379,
+            650,
+            615,
+            665
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "As with the fold operator itself, the universal property of fold also has its origins in recursion theory. The first systematic use of the universal property in functional programming was by Malcolm (1990a), in his generalisation of Bird and Meerten’s theory of lists (Bird, 1989; Meertens, 1983) to arbitrary regular datatypes. For finite lists, the universal property of fold can be stated as the following equivalence between two definitions for a function $g$ that processes lists: ",
+        "bbox": [
+            194,
+            674,
+            801,
+            766
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/30c88e5bbe499d0bf57a4a48d4a8e1d9840a875053b3fad20026eac13a384845.jpg",
+        "text": "$$\n\\begin{array} { l r c l r c l r c l } { g } & { { } [ { } ] } & { { } } & { { = } } & { { v } } & { { } } & { { } } & { { \\Leftrightarrow } } & { { } } & { { g } } & { { = } } & { { f o l d f \\ v } } \\\\ { g } & { { ( x : x s ) } } & { { = } } & { { f \\ x \\ ( g \\ x s ) } } & { { } } & { { } } & { { } } & { { } } & { { } } & { { } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            774,
+            709,
+            806
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In the right-to-left direction, substituting $g = f o l d \\textit { f } v$ into the two equations for $g$ gives the recursive definition for fold . Conversely, in the left-to-right direction the two equations for $g$ are precisely the assumptions required to show that $g = f o l d \\textit { f } v$ using a simple proof by induction on finite lists (Bird, 1998). Taken as a whole, the universal property states that for finite lists the function fold $\\textit { f } \\textit { v }$ is not just a solution to its defining equations, but in fact the unique solution. ",
+        "bbox": [
+            193,
+            812,
+            801,
+            858
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            137,
+            695,
+            152
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            773,
+            139,
+            798,
+            149
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            196,
+            165,
+            798,
+            210
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The key to the utility of the universal property is that it makes explicit the two assumptions required for a certain pattern of inductive proof. For specific cases then, by verifying the two assumptions (which can typically be done without the need for induction) we can then appeal to the universal property to complete the inductive proof that $g = f o l d \\textit { f } v$ . In this manner, the universal property of fold encapsulates a simple pattern of inductive proof concerning lists, just as the fold operator itself encapsulates a simple pattern of recursion for processing lists. ",
+        "bbox": [
+            194,
+            211,
+            801,
+            318
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The universal property of fold can be generalised to handle partial and infinite lists (Bird, 1998), but for simplicity we only consider finite lists in this article. ",
+        "bbox": [
+            193,
+            319,
+            800,
+            349
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.1 Universality as a proof principle ",
+        "text_level": 1,
+        "bbox": [
+            366,
+            374,
+            628,
+            388
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The primary application of the universal property of fold is as a proof principle that avoids the need for inductive proofs. As a simple first example, consider the following equation between functions that process a list of numbers: ",
+        "bbox": [
+            194,
+            397,
+            801,
+            442
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3490dc4cf2f38ba30c4e348eee5cb97aad47fe5ccf81f05be77b8c86bd47f2fd.jpg",
+        "text": "$$\n( + 1 ) \\ \\cdot \\ s u m = \\ f o l d \\ ( + ) \\ 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            450,
+            603,
+            467
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The left-hand function sums a list and then increments the result. The right-hand function processes a list by replacing each (:) by the addition function $( + )$ and the empty list [ ] by the constant 1. The equation asserts that these two functions always give the same result when applied to the same list. ",
+        "bbox": [
+            194,
+            474,
+            800,
+            535
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "To prove the above equation, we begin by observing that it matches the right-hand side $g = f o l d \\textit { f } v$ of the universal property of fold , with $g = ( + 1 )$ · sum, $f = ( + )$ , and $v = 1$ . Hence, by appealing to the universal property, we conclude that the equation to be proved is equivalent to the following two equations: ",
+        "bbox": [
+            194,
+            536,
+            801,
+            596
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cbb0216fa043201b6cfc422667311d995ab11d7aa04d0f9def9f1636ec7bb58c.jpg",
+        "text": "$$\n\\begin{array} { l c l } { ( ( + 1 ) \\cdot \\ s u m ) } & { \\left[ \\right] } & { = } & { 1 } \\\\ { ( ( + 1 ) \\cdot \\ s u m ) } & { ( x : x s ) } & { = } & { ( + ) \\ x \\ ( ( ( + 1 ) \\cdot \\ s u m ) \\ x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            604,
+            690,
+            638
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "At first sight, these may seem more complicated than the original equation. However, simplifying using the definitions of composition and sectioning gives ",
+        "bbox": [
+            193,
+            643,
+            798,
+            674
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aec266dbe58d168a3178546c646bc001a39dcc51399f06d14c589cd815add88a.jpg",
+        "text": "$$\n\\begin{array} { l c l c l } { { s u m } } & { { [ ] } } & { { + } } & { { 1 } } & { { = } } & { { 1 } } \\\\ { { s u m } } & { { ( x : x s ) } } & { { + } } & { { 1 } } & { { = } } & { { x + ( s u m \\ x s s \\ + \\ 1 ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            326,
+            680,
+            662,
+            713
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "which can now be verified by simple calculations, shown here in two columns: ",
+        "bbox": [
+            193,
+            718,
+            763,
+            733
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/20a0a9c19beabd6f2883582d8a26bd993566a8f11701ac40fb4842b98f08aed9.jpg",
+        "text": "$$\n{ \\begin{array} { l c l } & { s u m \\ [ ] \\ + \\ 1 } & { s u m \\ ( x : x s ) \\ + \\ 1 } \\\\ { = } & { \\ \\{ \\ { \\mathrm { D e f i n i t i o n ~ o f } } \\ s u m \\ \\} } & { \\qquad = \\ } & { \\{ \\mathrm { D e f i n i t i o n ~ o f } \\ s u m \\ \\} } \\\\ & { 0 \\ + \\ 1 } & { \\ ( x \\ + \\ s u m \\ x s ) \\ + \\ 1 } \\\\ { = } & { \\ \\{ \\mathrm { A r i t h m e t i c } \\ \\} } & { \\ = \\ } & { \\{ \\mathrm { A r i t h m e t i c } \\ \\} } \\\\ & { 1 } & { \\ x \\ + \\ ( s u m \\ x s \\ + \\ 1 ) } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            216,
+            740,
+            734,
+            820
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "This completes the proof. Normally this proof would have required an explicit use of induction. However, in the above proof the use of induction has been encapsulated in the universal property of fold , with the result that the proof is reduced to a simplification step followed by two simple calculations. ",
+        "bbox": [
+            191,
+            827,
+            800,
+            858
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            460,
+            139,
+            532,
+            151
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "358 ",
+        "bbox": [
+            194,
+            139,
+            221,
+            149
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            193,
+            165,
+            798,
+            195
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "In general, any two functions on lists that can be proved equal by induction can also be proved equal using the universal property of the fold operator, provided, of course, that the functions can be expressed using fold. The expressive power of the fold operator will be addressed later on in the article. ",
+        "bbox": [
+            193,
+            196,
+            801,
+            258
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2 The fusion property of fold ",
+        "text_level": 1,
+        "bbox": [
+            384,
+            281,
+            611,
+            297
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Now let us generalise from the sum example and consider the following equation between functions that process a list of values: ",
+        "bbox": [
+            194,
+            305,
+            800,
+            335
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1731a9d5f2c824a8ccb153cf77f30813dec97d5f13c805d28fde5896002fb4d4.jpg",
+        "text": "$$\nh \\ \\cdot \\ f o l d g \\ w = f o l d f \\ v\n$$",
+        "text_format": "latex",
+        "bbox": [
+            391,
+            343,
+            601,
+            360
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "This pattern of equation occurs frequently when reasoning about programs written using fold . It is not true in general, but we can use the universal property of fold to calculate conditions under which the equation will indeed be true. The equation matches the right-hand side of the universal property, from which we conclude that the equation is equivalent to the following two equations: ",
+        "bbox": [
+            194,
+            367,
+            801,
+            444
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/11989e2fe28de3ea8490d12e074cd51ad1d163d4ff31baf55041ef1744737146.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { ( h \\cdot f o l d g \\enspace w ) } } & { { [ ] } } & { { = } } & { { v } } \\\\ { { ( h \\cdot f o l d g \\enspace w ) \\enspace ( x : x s ) } } & { { = } } & { { f \\enspace x \\enspace ( ( h \\cdot f o l d g \\enspace w ) \\enspace x s ) , } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            289,
+            451,
+            697,
+            485
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Simplifying using the definition of composition gives ",
+        "bbox": [
+            193,
+            491,
+            578,
+            506
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4ebf31d4bc2787f1b23a775a42b4bcf3130d5a5ed3d27a4fcdce15f51d6176b9.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { h \\ ( f o l d \\ g \\ w } } & { { [ ] ) } } & { { = } } & { { v } } \\\\ { { h \\ ( f o l d g \\ w \\ ( x : x s ) ) } } & { { = } } & { { f \\ x \\ ( h \\ ( f o l d g \\ w \\ x s ) ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            299,
+            513,
+            687,
+            546
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "which can now be further simplified by two calculations: ",
+        "bbox": [
+            193,
+            551,
+            608,
+            567
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/020faddf7ad129c97fbfad4fa7cbe28621c3263415c8460a5a7ab7373c5fc6e4.jpg",
+        "text": "$$\n\\begin{array} { c } { { \\begin{array} { l l } { { h \\ ( f o l d \\ g \\ w \\left[ \\right] ) \\ = \\ v } } \\\\ { \\Leftrightarrow } \\\\ { \\Leftrightarrow } \\end{array} } } \\\\ { { \\begin{array} { l } { { \\begin{array} { r l } { \\{ \\mathrm { D e f n i t i o n \\ o f } f o l d \\ \\} } } \\\\ { h \\ w \\ = \\ v } \\end{array} } } \\end{array} }  \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            575,
+            440,
+            623
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "and ",
+        "bbox": [
+            193,
+            633,
+            223,
+            645
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2e1f62430466844ebe29549ef65a9d261f9931bf83940ea6be578d8c85effc71.jpg",
+        "text": "$$\n\\begin{array} { c } { { \\begin{array} { c c c } { { h \\ ( f o l d \\ g \\ w \\ ( x : x s ) ) \\ = \\ f \\ x \\ ( h \\ ( f o l d \\ g \\ w \\ x s ) ) } } \\\\ { \\Leftrightarrow } & { \\{ \\ \\mathrm { D e f i n i t i o n ~ o f } f o l d \\} } \\\\ { h \\ ( g \\ x \\ ( f o l d g \\ w \\ x s ) ) \\ = \\ f \\ x \\ ( h \\ ( f o l d \\ g \\ w \\ x s ) ) } \\\\ { \\Leftarrow } & { \\{ \\mathrm { G e n e r a l i s i n g ~ } ( f o l d \\ g \\ w \\ x s ) \\ \\mathrm { t o ~ a ~ f r e s h ~ v a r i a b l e \\ y ~ } \\} } \\\\ { h \\ ( g \\ x \\ y ) \\ = \\ f \\ x \\ ( h \\ y ) } \\end{array} } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            655,
+            665,
+            736
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "That is, using the universal property of fold we have calculated – without an explicit use of induction – two simple conditions that are together sufficient to ensure for all finite lists that the composition of an arbitrary function and a fold can be fused together to give a single fold . Following this interpretation, this property is called the fusion property of the fold operator, and can be stated as follows: ",
+        "bbox": [
+            194,
+            741,
+            803,
+            819
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b38b568d71e54767c200347b7c79897d47314c4d93d33bb0b3c95b396d7726db.jpg",
+        "text": "$$\n\\begin{array} { r c l c r c l } { h ~ w } & { ~ } & { = ~ } & { v } & { ~ } & { } \\\\ { h ~ ( g ~ x ~ y ) } & { = ~ } & { f ~ x ~ ( h ~ y ) } & { } & { ~ \\Rightarrow ~ } & { ~ h ~ \\cdot ~ f o l d ~ g ~ w ~ = ~ f o l d ~ f ~ v } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            238,
+            826,
+            751,
+            859
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            137,
+            695,
+            151
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "359 ",
+        "bbox": [
+            773,
+            137,
+            798,
+            149
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The first systematic use of the fusion property in functional programming was again by Malcolm (1990a), generalising earlier work by Bird (1989) and Meertens (1983). As with the universal property, the primary application of the fusion property is as a proof principle that avoids the need for inductive proofs. In fact, for many practical examples the fusion property is often preferable to the universal property. As a simple first example, consider again the equation: ",
+        "bbox": [
+            194,
+            164,
+            801,
+            258
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c1c50a1c9e537e63335049b6182164e7130476d69b41a773e1b56255da74bc7d.jpg",
+        "text": "$$\n( + 1 ) \\ \\cdot \\ s u m = \\ f o l d \\ ( + ) \\ 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            265,
+            603,
+            281
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "In the previous section this equation was proved using the universal property of fold . However, the proof is simpler using the fusion property. First, we replace the function sum by its definition using fold given earlier: ",
+        "bbox": [
+            193,
+            288,
+            801,
+            335
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2f4cc76813c9998018ced026ea91b3ffc3fd4421c6ec9e25fd2f6f09dcc98337.jpg",
+        "text": "$$\n( + 1 ) ~ \\cdot ~ f o l d ~ ( + ) ~ 0 ~ = ~ f o l d ~ ( + ) ~ 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            343,
+            628,
+            360
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The equation now matches the conclusion of the fusion property, from which we conclude that the equation follows from the following two assumptions: ",
+        "bbox": [
+            194,
+            367,
+            800,
+            398
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1fe8cb74f7a908bf436b826ded0882394ec35fad8b43c40703358ab6a6f993ec.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { ( + 1 ) ~ 0 } } & { { = } } & { { 1 } } \\\\ { { ( + 1 ) ~ ( ( + ) ~ x ~ y ) } } & { { = } } & { { ( + ) ~ x ~ ( ( + 1 ) ~ y ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            351,
+            405,
+            636,
+            439
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Simplifying these equations using the definition of sectioning gives $0 + 1 = 1$ and $( x + y ) + 1 = x + ( y + 1 )$ , which are true by simple properties of arithmetic. More generally, by replacing the use of addition in this example by an arbitrary infix operator $\\oplus$ that is associative, a simple application of fusion shows that: ",
+        "bbox": [
+            194,
+            445,
+            801,
+            507
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6dc7418d322ace723f9302e83e3f5ae3fc9ebc3a2d66818080110dd8795e2996.jpg",
+        "text": "$$\n\\left( \\oplus \\ a \\right) \\ \\cdot \\ f o l d \\ \\left( \\oplus \\right) \\ b \\ = \\ f o l d \\ \\left( \\oplus \\right) \\ \\left( b \\oplus a \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            517,
+            652,
+            535
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "For a more interesting example, consider the following well-known equation, which asserts that the map operator distributes over function composition (·): ",
+        "bbox": [
+            196,
+            543,
+            800,
+            573
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/706d358f6e06ec1abe186753bee42522359fe94702974e0d86469a0cc5a49bc9.jpg",
+        "text": "$$\nm a p \\textit { f } \\cdot \\textit { m a p g } = \\textit { m a p } ( f \\cdot g )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            374,
+            581,
+            620,
+            599
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "By replacing the second and third occurrences of the map operator in the equation by its definition using fold given earlier, the equation can be rewritten in a form that matches the conclusion of the fusion property: ",
+        "bbox": [
+            194,
+            606,
+            800,
+            651
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/41ea26e3733edfe95fdfa64b590d4967c6d0de415d1a2e9be686eb0af880a569.jpg",
+        "text": "$$\n\\begin{array} { r l r } { { m a p \\ f \\ \\cdot \\ f o l d } } & { { } { ( \\lambda x \\ x s \\to g \\ x : x s ) \\ [ ] } } \\\\ { ~ } & { { } } & { { = } } \\\\ { { f o l d } } & { { } { ( \\lambda x \\ x s \\to ( f \\cdot g ) \\ x : x s ) \\ [ ] } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            659,
+            633,
+            709
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Appealing to the fusion property and then simplifying gives the following two equations, which are trivially true by the definitions of map and (·): ",
+        "bbox": [
+            193,
+            718,
+            798,
+            749
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/95c8e08b956286a74cda2927378478d4afb168545bb01809ef7695737036becb.jpg",
+        "text": "$$\n\\begin{array} { l r c l } { { m a p \\ f } } & { { [ ] } } & { { = } } & { { [ ] } } \\\\ { { m a p \\ f \\ ( g \\ x \\ : \\ y ) } } & { { = } } & { { ( f \\cdot g ) \\ x \\ : \\ m a p \\ f \\ y } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            332,
+            756,
+            653,
+            790
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "In addition to the fusion property, there are a number of other useful properties of the fold operator that can be derived from the universal property (Bird, 1998). However, the fusion property suffices for many practical cases, and one can always revert to the full power of the universal property if fusion is not appropriate. ",
+        "bbox": [
+            194,
+            796,
+            801,
+            858
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "360 ",
+        "bbox": [
+            194,
+            137,
+            223,
+            149
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            458,
+            137,
+            534,
+            151
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.3 Universality as a definition principle ",
+        "text_level": 1,
+        "bbox": [
+            352,
+            165,
+            642,
+            180
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "As well as being used as a proof principle, the universal property of fold can also be used as a definition principle that guides the transformation of recursive functions into definitions using fold. As a simple first example, consider the recursively defined function sum that calculates the sum of a list of numbers: ",
+        "bbox": [
+            194,
+            187,
+            801,
+            249
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c3d6c3ab368396ef1a5a32cccde23583cbf54ee8dd73fb7d7f137d9902da351e.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { s u m } } & { { : : } } & { { [ I n t ]  I n t } } \\\\ { { s u m } } &   [ \\begin{array} { l l l } { { ] } } & { { = } } & { { 0 } } \\\\ { { s u m } } & { { ( x : x s ) } } & { { = } } & { { x + s u m \\ x s s } } \\end{array} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            373,
+            254,
+            615,
+            304
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Suppose now that we want to redefine sum using fold. That is, we want to solve the equation $s u m = f o l d \\textit { f v }$ for a function $f$ and a value $v$ . We begin by observing that the equation matches the right-hand side of the universal property, from which we conclude that the equation is equivalent to the following two equations: ",
+        "bbox": [
+            194,
+            310,
+            801,
+            372
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/adc8a4fa359477100677624dc72ead094140b8f53c3576a5020896b4c50f6ddc.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { s u m } } & { { [ ] } } & { { = } } & { { v } } \\\\ { { s u m } } & { { ( x : x s ) } } & { { = } } & { { f \\ x \\ ( s u m \\ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            371,
+            379,
+            616,
+            412
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "From the first equation and the definition of sum, it is immediate that $v = 0$ . From the second equation, we calculate a definition for $f$ as follows: ",
+        "bbox": [
+            194,
+            418,
+            798,
+            449
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3bd8a72b1809c42263ca02acdd12db2b9f58929e5f2a7875054c22ccbb553a5b.jpg",
+        "text": "$$\n\\begin{array} { c } { { s u m ~ ( x : x s ) ~ = ~ f ~ x ~ ( s u m ~ x s ) } } \\\\ { { \\Leftrightarrow ~ \\{ ~ \\mathrm { D e f i n i t i o n ~ o f } ~ s u m ~ \\} } } \\\\ { { x ~ + ~ s u m ~ x s ~ = ~ f ~ x ~ ( s u m ~ x s ) } } \\\\ { { \\Leftrightarrow ~ \\{ ~ \\dagger ~ \\mathrm { G e n e r a l i s i n g ~ ( s u m ~ x s ) ~ t o ~ } y ~ \\} } } \\\\ { { x ~ + ~ y ~ = ~ f ~ x ~ y ~ } } \\\\ { { \\Leftrightarrow ~ \\{ ~ \\mathrm { F u n c t i o n s } ~ \\} } } \\\\ { { f ~ = ~ ( + ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            456,
+            519,
+            569
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "That is, using the universal property we have calculated that: ",
+        "bbox": [
+            193,
+            575,
+            642,
+            590
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/301603eb2c561c71323c274b4dc8a86574e0ed57c605d0789ed88c21db80844a.jpg",
+        "text": "$$\n\\begin{array} { r l r } { s u m } & { { } = } & { f o l d \\ ( + ) \\ 0 } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            411,
+            600,
+            576,
+            617
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Note that the key step $( \\dag )$ above in calculating a definition for $f$ is the generalisation of the expression sum xs to a fresh variable $y$ . In fact, such a generalisation step is not specific to the sum function, but will be a key step in the transformation of any recursive function into a definition using fold in this manner. ",
+        "bbox": [
+            194,
+            625,
+            801,
+            687
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Of course, the sum example above is rather artificial, because the definition of sum using fold is immediate. However, there are many examples of functions whose definition using fold is not so immediate. For example, consider the recursively defined function map $f$ that applies a function $f$ to each element of a list: ",
+        "bbox": [
+            194,
+            688,
+            801,
+            749
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/479b6152e982390f3287ba2a001ad1818e9fdebeb3134ae5fe342c5df1471472.jpg",
+        "text": "$$\n\\begin{array} { l r c l } { { m a p } } & { { : : } } & { { ( \\alpha  \\beta )  ( [ \\alpha ]  [ \\beta ] ) } } \\\\ { { m a p \\ f \\quad [ ] } } & { { = } } & { { [ ] } } \\\\ { { m a p \\ f \\ ( x : x s ) } } & { { = } } & { { f \\ x : m a p \\ f \\ x s } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            327,
+            756,
+            658,
+            806
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "To redefine map $f$ using fold we must solve the equation map $\\textit { f } = f o l d \\textit { g } \\textit { v }$ for a function $g$ and a value $v$ . By appealing to the universal property, we conclude that this equation is equivalent to the following two equations: ",
+        "bbox": [
+            193,
+            812,
+            801,
+            858
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            137,
+            695,
+            152
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            773,
+            137,
+            798,
+            149
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5bbd352fc49378565be4de8c34bf61555c837017c15e7b9c900c3a73e689eefe.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { m a p \\ f \\ } } & { { [ ] } } & { { = } } & { { v } } \\\\ { { m a p \\ f \\ ( x : x s ) } } & { { = } } & { { g \\ x \\ ( m a p \\ f \\ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            349,
+            159,
+            635,
+            193
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "From the first equation and the definition of map it is immediate that $v = [ ]$ . From the second equation, we calculate a definition for $g$ as follows: ",
+        "bbox": [
+            193,
+            198,
+            798,
+            228
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6bbd02944c0afa2400b06ddf8f2f80ccf0ede563873d4605c07358d3989ffdd5.jpg",
+        "text": "$$\n{ \\begin{array} { c } { m a p \\ f \\ ( x : x s ) \\ = \\ g \\ x \\ ( m a p \\ f \\ x s ) } \\\\ { \\Leftrightarrow \\ \\qquad \\ \\vdots \\ \\scriptstyle { { \\mathrm { D e f i n i t i o n ~ o f } } \\ m a p } \\ \\nmid } \\\\ { \\nmid x \\ : \\ m a p \\ f \\ x s \\ = \\ g \\ x \\ ( m a p \\ f \\ x s ) } \\\\ { \\Leftarrow \\ \\{ { \\mathrm { G e n e r a l i s i n g } } \\ ( m a p \\ f \\ x s ) \\ \\mathrm { t o } \\ y s \\ \\} } \\\\ { \\nmid x \\ : \\ y s \\ = \\ g \\ x \\ y s } \\\\ { \\Leftrightarrow \\ \\{ { \\mathrm { F u n c t i o n s } } \\ \\} } \\\\ { \\nmid g \\ = \\ \\lambda x \\ y s  f \\ x \\ : \\ y s } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            220,
+            237,
+            531,
+            349
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "That is, using the universal property we have calculated that: ",
+        "bbox": [
+            193,
+            356,
+            642,
+            372
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1e8bd78c8648d0e5dfa3290e305af1706afd270c0f9dde0b21c4969450134dce.jpg",
+        "text": "$$\n\\begin{array} { r l r } { m a p \\ f } & { { } = } & { f o l d \\ ( \\lambda x \\ y s \\to f \\ x \\ : \\ y s ) \\ [ ] } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            344,
+            381,
+            643,
+            398
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "In general, any function on lists that can be expressed using the fold operator can be transformed into such a definition using the universal property of fold. ",
+        "bbox": [
+            194,
+            407,
+            801,
+            438
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4 Increasing the power of fold: generating tuples ",
+        "text_level": 1,
+        "bbox": [
+            319,
+            466,
+            673,
+            481
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "As a simple first example of the use of fold to generate tuples, consider the function sumlength that calculates the sum and length of a list of numbers: ",
+        "bbox": [
+            193,
+            488,
+            798,
+            519
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9999c7dfba37a9749e02c3cdc25878f0fdcd0aa1854e59bdaf6234f28395a48f.jpg",
+        "text": "$$\n\\begin{array} { l r c l } { { s u m l e n g t h } } & { { } } & { { : : } } & { { [ I n t ]  ( I n t , I n t ) } } \\\\ { { s u m l e n g t h \\ x s } } & { { } } & { { = } } & { { ( s u m \\ x s , \\ l e n g t h \\ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            344,
+            526,
+            640,
+            561
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "By a straightforward combination of the definitions of the functions sum and length using fold given earlier, the function sumlength can be redefined as a single application of fold that generates a pair of numbers from a list of numbers: ",
+        "bbox": [
+            193,
+            568,
+            800,
+            613
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/010cc69eb9b1cade6c5d775509c7f51c2c96953dbe2f1286de5941cff49fc1c1.jpg",
+        "text": "$$\n\\begin{array} { r l r } { s u m l e n g t h } & { { } = } & { f o l d \\ ( \\lambda n ( x , y )  ( n + x , \\ 1 + y ) ) \\ ( 0 , 0 ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            290,
+            623,
+            697,
+            639
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "This definition is more efficient than the original definition, because it only makes a single traversal over the argument list, rather than two separate traversals. Generalising from this example, any pair of applications of fold to the same list can always be combined to give a single application of fold that generates a pair, by appealing to the so-called ‘banana split’ property of fold (Meijer, 1992). The strange name of this property derives from the fact that the fold operator is sometimes written using brackets $( ~ )$ that resemble bananas, and the pairing operator is sometimes called split. Hence, their combination can be termed a banana split! ",
+        "bbox": [
+            193,
+            648,
+            801,
+            771
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "As a more interesting example, let us consider the function dropWhile $p$ that removes initial elements from a list while all the elements satisfy the predicate $p$ : ",
+        "bbox": [
+            194,
+            772,
+            801,
+            803
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "dropWhile :: $( \\alpha  B o o l )  ( [ \\alpha ]  [ \\alpha ] )$ dropWhile $\\begin{array} { r l r l r l } { p } & { { } } & { [ ] } & { } & { { } = } & { [ ] } & { } \\end{array}$ dropWhile $\\begin{array} { r l r } { p \\ \\left( x : x s \\right) } & { { } = } & { \\mathbf { i f } \\ p \\ x } \\end{array}$ then dropWhile $p$ xs else $x : x s$ ",
+        "bbox": [
+            247,
+            810,
+            739,
+            859
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "362 ",
+        "bbox": [
+            194,
+            137,
+            221,
+            149
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            458,
+            137,
+            534,
+            151
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Suppose now that we want to redefine dropWhile $p$ using the fold operator. By appealing to the universal property, we conclude that the equation dropWhile $p =$ fold $\\textit { f } \\textit { v }$ is equivalent to the following two equations: ",
+        "bbox": [
+            191,
+            164,
+            801,
+            211
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/92aee172655bcc8494a0e0454f562fcd3bf27f44b6cb96c2d32752801e59f75b.jpg",
+        "text": "$$\n\\begin{array} { l c l } { d r o p W h i l e  { p } } & { [ ] } & { = } & { v } \\\\ { d r o p W h i l e  { p } ( x : x s ) } & { = } & { f  { x } ( d r o p W h i l e  { p } x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            219,
+            677,
+            253
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "¿From the first equation it is immediate that $v = \\left[ \\begin{array} { r l r l } \\end{array} \\right]$ . From the second equation, we attempt to calculate a definition for $f$ in the normal manner: ",
+        "bbox": [
+            193,
+            259,
+            801,
+            291
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "dropWhile $p$ $( x : x s ) \\ = \\ f \\ x$ (dropWhile $p$ xs)   \n$\\Leftrightarrow$ { Definition of dropWhile $\\Bigg \\}$ if $p \\ x$ then dropWhile $p$ xs else $x : x s \\ = \\ f \\ x$ (dropWhile $p$ xs)   \n$\\qquad \\left. \\begin{array} { r l r l } \\end{array} \\right. \\qquad \\left\\{ \\begin{array} { r l r l } \\end{array} \\right.$ Generalising (dropWhile p xs) to ys } if $p \\ x$ then ys else $x : x s \\ = \\ f \\ x$ y s ",
+        "bbox": [
+            221,
+            299,
+            736,
+            379
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Unfortunately, the final line above is not a valid definition for $f$ , because the variable xs occurs freely. In fact, it is not possible to redefine dropWhile $p$ directly using fold . However, it is possible indirectly, because the more general function ",
+        "bbox": [
+            194,
+            388,
+            800,
+            435
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7e4ccf2c3e2bb7778d96169588fd9a656a4586b78e1ab0c2cd6cb88c750cc7de.jpg",
+        "text": "$$\n\\begin{array} { r l r l } & { d r o p W h i l e ^ { \\prime } } & { : : } & { ( \\alpha  B o o l )  ( [ \\alpha ]  ( [ \\alpha ] , \\ [ \\alpha ] ) ) } \\\\ & { d r o p W h i l e ^ { \\prime }  { p }  { x s } } & { = } & { ( d r o p W h i l e  { p }  { x s } , \\ x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            292,
+            443,
+            694,
+            478
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "that pairs up the result of applying dropWhile $p$ to a list with the list itself can be redefined using fold. By appealing to the universal property, we conclude that the equation dropWhile\\* $\\textit { p } = \\mathit { f o l d } \\textit { f } \\textit { v }$ is equivalent to the following two equations: ",
+        "bbox": [
+            194,
+            485,
+            801,
+            531
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/edd8e7e46a14c20376fbf3a42aa91cc9f49fbaac5e11cdc494b16d53252543b4.jpg",
+        "text": "$$\n\\begin{array} { l c l } { d r o p W h i l e ^ { \\prime } \\textit { p } } & { [ ] } & { = } & { v } \\\\ { d r o p W h i l e ^ { \\prime } \\textit { p } ( x : x s ) } & { = } & { f \\textit { x } ( d r o p W h i l e ^ { \\prime } \\textit { p } x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            305,
+            539,
+            682,
+            574
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "A simple calculation from the first equation gives $v = ( [ ] , [ ] )$ . From the second equation, we calculate a definition for $f$ as follows: ",
+        "bbox": [
+            193,
+            580,
+            798,
+            611
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/148dcf3789ca816f7cfdccae395fe26e879da777933b19c0a1677d843fca634d.jpg",
+        "text": "$$\n{ \\begin{array} { r l } & { d r o p W h i l e ^ { \\prime } \\ p \\ ( x : x s ) = \\ f \\ x \\ ( d r o p W h i l e ^ { \\prime } \\ p \\ x s ) } \\\\ { \\Leftrightarrow \\ } & { \\ \\{ \\mathrm { ~ D e f i r i t i o n ~ o f ~ } } d r o p W h i l e ^ { \\prime } \\ \\} } \\\\ & { ( d r o p W h i l e \\ p \\ ( x : x s ) , \\ x : x s ) = \\ f \\ x \\ ( d r o p W h i l e \\ p \\ x s , \\ x s ) } \\\\ { \\Leftrightarrow \\ } & { \\ \\{ \\mathrm { ~ D e f i r i t i o n ~ o f ~ } } d r o p W h i l e \\ \\}  \\\\ & { ( { \\mathbf { i f } } \\ p \\ x \\ \\mathbf { t h e n } \\ d r o p W h i l e \\ p \\ x s \\ \\mathbf { \\ e l s e } \\ x : x s , \\ x : x s ) } \\\\ & { = \\ f \\ x \\ ( d r o p W h i l e \\ p \\ x s , \\ x s ) } \\\\ { \\Leftarrow \\ } & { \\{ \\mathrm { ~ G e n e r a l i s i n g ~ ( } } d r o p W h i l e \\ p \\ x s ) \\ \\in \\ \\gamma \\ x \\ ( y s ) \\  \\\\ & { ( { \\mathbf { i f } } \\ p \\ x \\ \\mathbf { \\ t h e n } \\ y \\ x \\mathbf { \\ e l s e } \\ x \\ x \\ x \\ x \\ x ) = \\ f \\ x \\ ( y s , x s ) } \\end{array} \n$$",
+        "text_format": "latex",
+        "bbox": [
+            210,
+            619,
+            690,
+            746
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Note that the final line above is a valid definition for $f$ , because all the variables are bound. In summary, using the universal property we have calculated that: ",
+        "bbox": [
+            193,
+            756,
+            800,
+            787
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d965a6d17f7fbd1375bda9251a17cfbe632ed1debe15cad13658dd7cdb4ca8bb.jpg",
+        "text": "$$\n{ \\begin{array} { l } { f \\ x \\ ( y s , x s ) \\ = \\ ( \\mathbf { i f } \\ p \\ x \\ \\mathbf { t h e n } \\ y s \\ \\mathbf { e l s e } \\ x : x s , \\ x : x s ) } \\\\ { v \\ } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            319,
+            825,
+            700,
+            860
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            137,
+            695,
+            152
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "discarded",
+        "text": "363 ",
+        "bbox": [
+            773,
+            137,
+            798,
+            149
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This definition satisfies the equation dropWhile\\* $\\textit { p }  { x s } = ( d r o p W h i l e \\textit { p }  { x s , } \\ \\boldsymbol { x s } ) ,$ but does not make use of dropWhile in its definition. Hence, the function dropWhile itself can now be redefined simply by dropWhile $p \\ = \\ f s t \\cdot d r o p W h i l e ^ { \\prime } \\ p$ . ",
+        "bbox": [
+            194,
+            164,
+            800,
+            210
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "In conclusion, by first generalising to a function dropWhile\\* that pairs the desired result with the argument list, we have now shown how the function dropWhile can be redefined in terms of fold , as required. In fact, this result is an instance of a general theorem (Meertens, 1992) that states that any function on finite lists that is defined by pairing the desired result with the argument list can always be redefined in terms of fold , although not always in a way that does not make use of the original (possibly recursive) definition for the function. ",
+        "bbox": [
+            194,
+            211,
+            801,
+            318
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "4.1 Primitive recursion ",
+        "text_level": 1,
+        "bbox": [
+            413,
+            342,
+            579,
+            356
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "In this section we show that by using the tupling technique from the previous section, every primitive recursive function on lists can be redefined in terms of fold . Let us begin by recalling that the fold operator captures the following simple pattern of recursion for defining a function $h$ that processes lists: ",
+        "bbox": [
+            194,
+            365,
+            801,
+            426
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/580a3fd872192f86817763331206d8059e53520b36f17eb954cf61c1c0ab645b.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { h } } & { { [ ] } } & { { = } } & { { v } } \\\\ { { h \\ ( x : x s ) } } & { { = } } & { { g \\ x \\ ( h \\ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            432,
+            598,
+            466
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Such functions can be redefined by $\\boldsymbol { h } = f o l d \\textit { \\textbf { g } } \\boldsymbol { v }$ . We will generalise this pattern of recursion to primitive recursion in two steps. First of all, we introduce an extra argument $y$ to the function $h$ , which in the base case is processed by a new function $f$ , and in the recursive case is passed unchanged to the functions $g$ and $h$ . That is, we now consider the following pattern of recursion for defining a function $h$ : ",
+        "bbox": [
+            194,
+            470,
+            801,
+            546
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/959866ab8a0d863f7242617b40c3b7d7b64556eeaccf24f1c7c4283d5db2768d.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { h \\ y } } & { { [ ] } } & { { = } } & { { f \\ y } } \\\\ { { h \\ y } } & { { ( x : x s ) } } & { { = } } & { { g \\ y \\ x \\ ( h \\ y \\ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            363,
+            552,
+            623,
+            587
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "By simple observation, or a routine application of the universal property of fold , the function $\\textit { h y }$ can be redefined using fold as follows: ",
+        "bbox": [
+            194,
+            590,
+            800,
+            621
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/16dd185f77d29f40df27180917e49830f32b37d65f4a2af519454d9dd2986557.jpg",
+        "text": "$$\n\\begin{array} { r l r } { h } & { { } y } & { = } & { f o l d \\ ( g \\ y ) \\ ( f \\ y ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            629,
+            598,
+            648
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "For the second step, we introduce the list $x s$ as an extra argument to the auxiliary function $g$ . That is, we now consider the following pattern for defining $h$ : ",
+        "bbox": [
+            193,
+            652,
+            798,
+            683
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fc58eb6ad32c48f709bbdf6fa58ff84ed66fcd3adf4d01cf3aa3dc928905a45f.jpg",
+        "text": "$$\n\\begin{array} { l c l c l } { h ~ y } & { [ ] } & { = } & { f ~ y } \\\\ { h ~ y ~ ( x : x s ) } & { = } & { g ~ y ~ x ~ x s ~ ( h ~ y ~ x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            351,
+            688,
+            635,
+            722
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "This pattern of recursion on lists is called primitive recursion (Kleene, 1952). Technically, the standard definition of primitive recursion requires that the argument $y$ is a finite sequence of arguments. However, because tuples are first-class values in Haskell, treating the case of a single argument $y$ is sufficient. ",
+        "bbox": [
+            194,
+            727,
+            800,
+            788
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "In order to redefine primitive recursive functions in terms of fold , we must solve the equation $\\textit { h y } = f o l d \\textit { i } \\textit { j }$ for a function $i$ and a value $j$ . This is not possible directly, but is possible indirectly, because the more general function ",
+        "bbox": [
+            193,
+            789,
+            800,
+            835
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/17c62df0736c8a3faef20489d34201ece84a24d071cb3b4eb762405a3984f188.jpg",
+        "text": "$$\n\\begin{array} { r l r } { k \\ y \\ x s } & { { } = } & { ( h \\ y \\ x s , \\ x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            841,
+            593,
+            859
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "364 ",
+        "bbox": [
+            194,
+            139,
+            221,
+            149
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            460,
+            137,
+            532,
+            151
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "that pairs up the result of applying $\\textit { h y }$ to a list with the list itself can be redefined using fold. By appealing to the universal property of fold, we conclude that the equation $\\textit { k } \\ y = f o l d i \\ j$ is equivalent to the following two equations: ",
+        "bbox": [
+            194,
+            164,
+            801,
+            211
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c3dd2322e03346a8c9410fd4d64e92ca13b9cf205c1c5e5a953c42fc454f2225.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { k \\ y } } & { { [ ] } } & { { = } } & { { j } } \\\\ { { k \\ y } } & { { ( x : x s ) } } & { { = } } & { { i \\ x \\ ( k \\ y \\ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            373,
+            217,
+            613,
+            252
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "A simple calculation from the first equation gives $j = ( f \\ y , \\ [ \\operatorname { ] } )$ . ¿From the second equation, we calculate a definition for $i$ as follows: ",
+        "bbox": [
+            194,
+            256,
+            798,
+            286
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c8043308efbd395dcbc850c99020fff3bfd5eda8f66eb61736a11f723aa56a10.jpg",
+        "text": "$$\n\\begin{array} { r l } & {  { k y } ( x : x s ) =  { i x } ( k  { y } x s ) } \\\\ { \\Leftrightarrow } & { \\lbrace \\mathrm { ~ D e f i n i t i o n ~ o f ~ } k \\rbrace } \\\\ & { ( h  { y } ( x : x s ) ,  { x } : x s ) =  { i x } ( h  { y } x s , \\ x s ) } \\\\ { \\Leftrightarrow } & { \\lbrace \\mathrm { ~ D e f i n i t i o n ~ o f ~ } h \\rbrace } \\\\ & { ( g  { y } x  { x s } ( h  { y } x s ) ,  { x } : x s ) =  { i x } ( h  { y } x s , \\ x s ) } \\\\ { \\Leftrightarrow } & { \\lbrace \\mathrm { ~ G e n e r a l i s i n g ~ } ( h  { y } x s ) \\textnormal { t o } z \\rbrace } \\\\ & { ( g  { y } x  { x s } z ,  { x } : x s ) =  { i x } ( z , \\ x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            220,
+            296,
+            613,
+            406
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "In summary, using the universal property we have calculated that: ",
+        "bbox": [
+            191,
+            414,
+            677,
+            430
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e35d398ac7443bdd1bd3a20b40c2151645b640a0011e09b6dece2eb37588deca.jpg",
+        "text": "$$\n\\begin{array} { r c l } { k } & { y } & { = } & { f o l d i \\textit { i j } } \\\\ & & { \\mathbf { w h e r e } } \\\\ & & { \\textit { i x } \\left( z , \\ x s \\right) \\ = \\ ( g \\ y \\ x \\ x s \\ z , \\ x : x s ) } \\\\ & & { \\textit { j } } & { = \\ ( f \\ y , \\ [ ] ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            435,
+            678,
+            502
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This definition satisfies the equation $k \\ y \\ x s = ( h \\ y \\ x s , \\ x s )$ , but does not make use of $h$ in its definition. Hence, the primitive recursive function $h$ itself can now be redefined simply by h $\\iota \\ y = f s t \\ \\cdot \\ k \\ y$ . In conclusion, we have now shown how an arbitrary primitive recursive function on lists can be redefined in terms of fold . ",
+        "bbox": [
+            194,
+            507,
+            798,
+            568
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Note that the use of tupling to define primitive recursive functions in terms of fold is precisely the key to defining the predecessor function for the Church numerals (Barendregt, 1984). Indeed, the intuition behind the representation of the natural numbers (or more generally, any inductive datatype) in the $\\lambda$ -calculus is the idea of representing each number by its fold operator. For example, the number $3 = s u c c$ (succ (succ zero)) is represented by the term $\\lambda f \\ x \\to f \\left( f \\left( f \\ x \\right) \\right)$ , which is the fold operator for 3 in the sense that the arguments $f$ and $x$ can be viewed as the replacements for the succ and zero constructors respectively. ",
+        "bbox": [
+            193,
+            569,
+            801,
+            693
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5 Using fold to generate functions ",
+        "text_level": 1,
+        "bbox": [
+            371,
+            719,
+            621,
+            734
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Having functions as first-class values increases the power of primitive recursion, and hence the power of the fold operator. As a simple first example of the use of fold to generate functions, the function compose that forms the composition of a list of functions can be defined using fold by replacing each (:) in the list by the composition function (·), and the empty list $[ ]$ by the identity function $i d$ : ",
+        "bbox": [
+            193,
+            741,
+            801,
+            819
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/80ffd96c4a20877ab9de605ec61681f6497aa6298a27421f6470d6db2944e63a.jpg",
+        "text": "$$\n\\begin{array} { l l l } { { c o m p o s e } } & { { \\because } } & { { [ \\alpha  \\alpha ]  ( \\alpha  \\alpha ) } } \\\\ { { c o m p o s e } } & { { = } } & { { f o l d \\ \\mathrm { \\Omega } \\mathrm { \\Omega } \\mathrm { \\Omega } ^ { . } ) i d } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            826,
+            620,
+            859
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            137,
+            695,
+            152
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "discarded",
+        "text": "365 ",
+        "bbox": [
+            773,
+            137,
+            798,
+            149
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "As a more interesting example, let us consider the problem of summing a list of numbers. The natural definition for such a function, $s u m = f o l d \\ \\left( + \\right) \\ 0$ , processes the numbers in the list in right-to-left order. However, it is also possible to define a function suml that processes the numbers in left-to-right order. The suml function is naturally defined using an auxiliary function suml\\* that is itself defined by explicit recursion and makes use of an accumulating parameter $n$ : ",
+        "bbox": [
+            193,
+            165,
+            801,
+            258
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8bcda3f53c94c84908eaef8cd10838952c03adb8cbf8568db5b9e966e710c386.jpg",
+        "text": "$$\n{ \\begin{array} { l c l c c l c } { s u m l } & { : : } & { [ I n t ] \\to I n t } \\\\ { s u m l ~ x s } & { = } & { s u m l ^ { \\prime } ~ x s ~ 0 } \\\\ & & { } & { { \\mathrm { ~ w h e r e } } } \\\\ & & { } & { \\qquad \\quad [ \\quad ] } & { n } & { = } & { n } \\\\ & & { } & { s u m l ^ { \\prime } ~ ( x : x s ) ~ n } & { = } & { s u m l ^ { \\prime } ~ x s ~ ( n + x ) } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            260,
+            710,
+            342
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Because the addition function $( + )$ is associative and the constant 0 is unit for addition, the functions suml and sum always give the same result when applied to the same list. However, the function suml has the potential to be more efficient, because it can easily be modified to run in constant space (Bird, 1998). ",
+        "bbox": [
+            194,
+            346,
+            801,
+            406
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Suppose now that we want to redefine suml using the fold operator. This is not possible directly, but is possible indirectly, because the auxiliary function ",
+        "bbox": [
+            193,
+            407,
+            798,
+            437
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/eaf8888670d660f3adc1adf6e631f610cfd6657dd278ed0de553a57927925f8e.jpg",
+        "text": "$$\ns u m l ^ { \\prime } \\quad \\ \\because \\quad [ I n t ]  ( I n t  I n t )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            376,
+            444,
+            611,
+            460
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "can be redefined using fold. By appealing to the universal property, we conclude that the equation $s u m l ^ { \\prime } = f o l d \\textit { \\textbf { f } } v$ is equivalent to the following two equations: ",
+        "bbox": [
+            193,
+            467,
+            798,
+            498
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5be18c3901a31531c5d7434cc87adc7fc7978d008261acef817b3ffeb8976876.jpg",
+        "text": "$$\n\\begin{array} { l r c l } { { s u m l ^ { \\prime } } } & { { [ ] } } & { { = } } & { { v } } \\\\ { { s u m l ^ { \\prime } } } & { { ( x : x s ) } } & { { = } } & { { f \\ x \\ ( s u m l ^ { \\prime } \\ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            502,
+            625,
+            535
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "A simple calculation from the first equation gives $v = i d$ . From the second equation, we calculate a definition for the function $f$ as follows: ",
+        "bbox": [
+            193,
+            538,
+            798,
+            568
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a4996782473b57d8cf67084b1760ceb9cc92ca6124a9db68768dcda13c7c105c.jpg",
+        "text": "$$\n\\begin{array} { r l } & { ~ s u m l ^ { \\prime } ~ ( x : x s ) = ~ f ~ x ~ ( s u m l ^ { \\prime } ~ x s ) } \\\\ { \\Leftrightarrow } & { ~ \\{ \\mathrm { F ~ t u n c t i o n s } \\} } \\\\ & { ~ s u m l ^ { \\prime } ~ ( x : x s ) ~ n = ~ f ~ x ~ ( s u m l ^ { \\prime } ~ x s ) ~ n } \\\\ { \\Leftrightarrow } & { ~ \\{ \\mathrm { D e f i n i t i o n ~ o f ~ } s u m l ^ { \\prime } \\} ~ } \\\\ & { ~ s u m l ^ { \\prime } ~ x s ~ ( n + x ) ~ ( n ~ f ~ x ~ ( s u m l ^ { \\prime } ~ x s ) ~ n } \\\\ { \\Leftrightarrow } & { ~ \\{ \\mathrm { G e n e r a l i s i n g ~ ( s u m l ^ { \\prime } ~ x s ) ~ t o ~ g ~ } \\} ~ } \\\\ { ~ } & { ~ g ~ ( n + x ) ~ = ~ f ~ x ~ g ~ n } \\\\ { \\Leftrightarrow } & { ~ \\{ \\mathrm { ~ F ~ u n c t i o n s } \\} ~ } \\\\ { ~ } & { ~ f ~ = ~ i ~ x ~ g ~  ~ ( \\lambda n - g ~ g ~ ( n + x ) ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            216,
+            575,
+            532,
+            717
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "In summary, using the universal property we have calculated that: ",
+        "bbox": [
+            193,
+            721,
+            677,
+            737
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fe1389611a73c0d42dcc4b6699db64f3e954009f9630121330cb15d346b65147.jpg",
+        "text": "$$\n\\begin{array} { r l r } { s u m l ^ { \\prime } } & { { } = } & { f o l d \\ \\left( \\lambda x \\ g \\to \\left( \\lambda n \\to g \\ ( n + x ) \\right) \\right) \\ i d } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            322,
+            743,
+            665,
+            759
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This definition states that suml\\* processes a list by replacing the empty list [ ] by the identity function $i d$ on lists, and each constructor (:) by the function that takes a number $x$ and a function $g$ , and returns the function that takes an accumulator value $n$ and returns the result of applying $g$ to the new accumulator value $n + x$ . ",
+        "bbox": [
+            194,
+            765,
+            801,
+            827
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Note that the structuring of the arguments to $s u m l ^ { \\prime } \\because [ I n t ]  ( I n t  I n t )$ is crucial to its definition using fold . In particular, if the order of the two arguments is swapped or they are supplied as a pair, then the type of suml\\* means that it can no longer be defined directly using fold. In general, some care regarding the structuring of arguments is required when aiming to redefine functions using fold. Moreover, at first sight one might imagine that fold can only be used to define functions that process the elements of lists in right-to-left order. However, as the definition of suml\\* using fold shows, the order in which the elements are processed depends on the arguments of fold , not on fold itself. ",
+        "bbox": [
+            193,
+            827,
+            800,
+            858
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "366 ",
+        "bbox": [
+            194,
+            137,
+            221,
+            149
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            460,
+            137,
+            534,
+            151
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            194,
+            164,
+            801,
+            272
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "In conclusion, by first redefining the auxiliary function suml\\* using fold, we have now shown how the function suml can be redefined in terms of fold, as required: ",
+        "bbox": [
+            194,
+            273,
+            800,
+            303
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "We end this section by remarking that the use of fold to generate functions provides an elegant technique for the implementation of ‘attribute grammars’ in functional languages (Fokkinga et al., 1991; Swierstra et al., 1998). ",
+        "bbox": [
+            194,
+            335,
+            800,
+            381
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.1 The foldl operator ",
+        "text_level": 1,
+        "bbox": [
+            415,
+            405,
+            578,
+            419
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Now let us generalise from the suml example and consider the standard operator foldl that processes the elements of a list in left-to-right order by using a function $f$ to combine values, and a value $v$ as the starting value: ",
+        "bbox": [
+            191,
+            428,
+            801,
+            474
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6cae96ac56050872276b4a028ffebddf457bf8fedaad0bf4cf28830652dda4e8.jpg",
+        "text": "$$\n\\begin{array} { l l l l } { { f o l d l } } & { { \\ } } & { { \\ : \\ } } & { { ( \\beta \\to \\alpha \\to \\beta ) \\to \\beta \\to ( [ \\alpha ] \\to \\beta ) } } \\\\ { { f o l d l \\ f \\ v } } & { { \\ [ \\ ] } } & { { \\ = } } & { { v } } \\\\ { { f o l d l \\ f \\ v \\ ( x : x s ) } } & { { \\ = } } & { { f o l d l \\ f \\ (  { f } \\ v \\ x ) \\ x s } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            480,
+            697,
+            530
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Using this operator, suml can be redefined simply by $s u m l = f o l d l \\ \\left( + \\right) \\ 0 . \\mathrm { { N } }$ Many other functions can be defined in a simple way using foldl. For example, the standard function reverse can redefined using foldl as follows: ",
+        "bbox": [
+            194,
+            535,
+            800,
+            580
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/df8ae8a343ee7fe2e914bf2b22aac2b6688e0bd531329e6da35df02233476dc8.jpg",
+        "text": "$$\n\\begin{array} { r c l } { { r e v e r s e } } & { { : : } } & { { [ \\alpha ]  [ \\alpha ] } } \\\\ { { r e v e r s e } } & { { = } } & { { f o l d l ( \\lambda x s \\ x  x : x s ) \\ [ ] } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            349,
+            586,
+            638,
+            619
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "This definition is more efficient than our original definition using fold, because it avoids the use of the inefficient append operator $( + + )$ for lists. ",
+        "bbox": [
+            193,
+            625,
+            798,
+            656
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "A simple generalisation of the calculation in the previous section for the function suml shows how to redefine the function foldl in terms of fold : ",
+        "bbox": [
+            194,
+            657,
+            800,
+            687
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6b44b1bcba40e7e13964586c64ca9ab69b116c76b6c2d3c895ab0d68fb129340.jpg",
+        "text": "$$\n\\begin{array} { r l r } { \\textit { f v } \\ = \\textit { x s } } & { { } = } & { f o l d \\ ( \\lambda x \\ g  ( \\lambda a  g \\ ( f \\ a \\ x ) ) ) \\ i d \\ x s \\ v } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            314,
+            695,
+            714,
+            712
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "In contrast, it is not possible to redefine fold in terms of foldl , due to the fact that foldl is strict in the tail of its list argument but fold is not. There are a number of useful ‘duality theorems’ concerning fold and foldl , and also some guidelines for deciding which operator is best suited to particular applications (Bird, 1998). ",
+        "bbox": [
+            194,
+            718,
+            800,
+            781
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.2 Ackermann’s function ",
+        "text_level": 1,
+        "bbox": [
+            403,
+            803,
+            589,
+            819
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "For our final example of the power of fold, consider the function ack that processes two lists of integers, and is defined using explicit recursion as follows: ",
+        "bbox": [
+            193,
+            827,
+            798,
+            858
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            137,
+            695,
+            152
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            773,
+            139,
+            798,
+            149
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cee35a8c5798a130ec90893a66f30a017daf0274ba11ccfabe5ff817815f79b8.jpg",
+        "text": "$$\n\\begin{array} { r c l l } { { \\mathrm { } } } & { { : : } } & { { [ I n t ]  ( [ I n t ]  [ I n t ] ) } } \\\\ { { \\mathrm { } } } & { { \\mathrm { } } } & { { y s } } & { { = } } & { { 1 : y s } } \\\\ { { \\mathrm { } } } & { { \\mathrm { } } } & { { \\mathrm { } } } & { { = } } & { { a c k \\ x s \\ [ 1 ] } } \\\\ { { \\mathrm { } } } & { { \\mathrm { } } } & { { \\mathrm { } } } & { { = } } & { { a c k \\ x s \\ ( a c k \\ ( x : x s ) \\ y s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            159,
+            678,
+            223
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "This is Ackermann’s function, converted to operate on lists rather than natural numbers by representing each number $n$ by a list with $n$ arbitrary elements. This function is the classic example of a function that is not primitive recursion in a first-order programming language. However, in a higher-order language such as Haskell, Ackermann’s function is indeed primitive recursive (Reynolds, 1985). In this section we show how to calculate the definition ack in terms of fold . ",
+        "bbox": [
+            194,
+            224,
+            801,
+            316
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "First of all, by appealing to the universal property of fold , the equation $a c k =$ fold $\\textit { f } \\textit { v }$ is equivalent to the following two equations: ",
+        "bbox": [
+            193,
+            317,
+            798,
+            348
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f2704d6ca51db49229a52267e227f70ab8405bda183a40b676177ef6f0b85c71.jpg",
+        "text": "$$\n\\begin{array} { l c l } { { a c k } } & { { [ ] } } & { { = } } & { { v } } \\\\ { { a c k ~ ( x : x s ) } } & { { = } } & { { f ~ x ~ ( a c k ~ x s ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            373,
+            350,
+            613,
+            384
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "A simple calculation from the first equation gives the definition $v = ( 1 : )$ . From the second equation, proceeding in the normal manner does not result in a definition for the function $f$ , as the reader may wish to verify. However, progress can be made by first using fold to redefine the function ack $( x ~ : x s )$ on the left-hand side of the second equation. By appealing to the universal property, the equation ack $( x : x s ) = f o l d g w$ is equivalent to the following two equations: ",
+        "bbox": [
+            194,
+            385,
+            801,
+            478
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "The first equation gives $w = a c k$ xs [1], and from the second: ",
+        "bbox": [
+            196,
+            514,
+            650,
+            530
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ba67eecb97c0d2ffc2ecb4496a68a30401a73348e85546bb450040457f4eeaae.jpg",
+        "text": "$$\n{ \\begin{array} { r l } & { \\ a c k \\ ( \\ x : x s ) \\ ( y : y s ) \\ = \\ g \\ y \\ ( a c k \\ ( x : x s ) \\ y s ) } \\\\ { \\Leftrightarrow } & { \\ \\{ \\ \\operatorname { D e f i n i t i o n } \\ \\mathrm { o f } \\ a c k \\ \\} } \\\\ & { \\ a c k \\ x s \\ ( a c k \\ ( x : x s ) \\ y s ) \\ = \\ g \\ y \\ ( a c k \\ ( x : x s ) \\ y s ) } \\\\ { \\Leftarrow } & { \\ \\{ \\operatorname { G e n e r a l i s i n g } \\ ( a c k \\ ( x : x s ) \\ y s ) \\ \\mathrm { t o } \\ z s \\ \\} } \\\\ & { \\ a c k \\ x s \\ z s \\ = \\ g \\ y \\ z s } \\\\ { \\Leftrightarrow } & { \\ \\{ \\ \\operatorname { F u n c t i o n s } \\ \\} } \\\\ { \\ g } & { = \\ \\lambda y  a c k \\ x s } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            216,
+            532,
+            621,
+            643
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "That is, using the universal property we have calculated that: ",
+        "bbox": [
+            193,
+            645,
+            643,
+            661
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7aa0ff74a7715a6623ccafe077da043ce5e2f5c9f5418ac1d7b896f99b2053cd.jpg",
+        "text": "$$\n\\begin{array} { r l r } { a c k \\ ( x : x s ) } & { { } = } & { f o l d \\ ( \\lambda y  a c k \\ x s ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            665,
+            591,
+            682
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Using this result, we can now calculate a definition for $f$ : ",
+        "bbox": [
+            191,
+            686,
+            611,
+            701
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e899b4d45a6b88ef9b1233f6f0061e1f4789feade8994d74d14aa54351337d82.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\qquad \\mathit { a c k \\ ( x : x s ) } = f \\ x \\ ( \\mathit { a c k \\ x s } ) } \\\\ { \\Leftrightarrow } & { \\{ \\begin{array} { l l } { \\mathrm { R e s u l t \\ a b o v e \\ } } \\end{array} \\} } \\\\ { \\mathit { f o l d \\ ( \\lambda y  a c k \\ x s ) } \\ ( a c k \\ x s \\ [ 1 ] ) \\ = \\ f \\ x \\ ( a c k \\ x s ) } \\\\ { \\Leftarrow } & { \\{ \\begin{array} { l l } { \\mathrm { G e n e r a l i s i n g \\ ( } a c k \\ x s \\ \\mathrm { ~ t o } \\ g } \\\\ { \\mathrm { ( } \\lambda y  g \\ ) \\ ( g \\ [ 1 ] ) \\ = \\ f \\ x \\ g } \\end{array} \\} } \\\\ { \\Leftrightarrow } & { \\{ \\begin{array} { l l } { \\mathrm { F u n c t i o n s } } \\end{array} \\} } \\\\ { \\mathit { f \\ } = \\lambda x \\ g  \\mathit { f o l d \\ ( } \\lambda y  g \\ \\mathrm { ( } g \\ [ 1 ] ) \\ } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            216,
+            705,
+            620,
+            815
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "In summary, using the universal property twice we have calculated that: ",
+        "bbox": [
+            194,
+            819,
+            721,
+            833
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fa24cecfb9087d3afd0cc60e760e71c517856c28fb1d0d49190c0e087e01f26a.jpg",
+        "text": "$$\n\\begin{array} { r l r } { a c k } & { { } = } & { f o l d \\ ( \\lambda x \\ g \\to f o l d \\ ( \\lambda y \\to g ) \\ ( } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            302,
+            837,
+            596,
+            854
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "368 ",
+        "bbox": [
+            194,
+            137,
+            221,
+            149
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            458,
+            137,
+            534,
+            151
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6 Other work on recursion operators ",
+        "text_level": 1,
+        "bbox": [
+            363,
+            165,
+            630,
+            179
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "In this final section we briefly survey a selection of other work on recursion operators that we did not have space to pursue in this article. ",
+        "bbox": [
+            193,
+            189,
+            798,
+            218
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Fold for regular datatypes. The fold operator is not specific to lists, but can be generalised in a uniform way to ‘regular’ datatypes. Indeed, using ideas from category theory, a single fold operator can be defined that can be used with any regular datatype (Malcolm, $1 9 9 0 b$ ; Meijer et al., 1991; Sheard and Fegaras, 1993). ",
+        "bbox": [
+            194,
+            221,
+            800,
+            281
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Fold for nested datatypes. The fold operator can also be generalised in a natural way to ‘nested’ datatypes. However, the resulting operator appears to be too general to be widely useful. Finding solutions to this problem is the subject of current research (Bird and Meertens, 1998; Jones and Blampied, 1998). ",
+        "bbox": [
+            194,
+            284,
+            800,
+            344
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Fold for functional datatypes. Generalising the fold operator to datatypes that involve functions gives rise to technical problems, due to the contravariant nature of function types. Using ideas from category theory, a fold operator can be defined that works for such datatypes (Meijer and Hutton, 1995a), but the the use of this operator is not well understood, and practical applications are lacking. However, a simpler but less general solution has given rise to some interesting applications concerning cyclic structures (Fegaras and Sheard, 1996). ",
+        "bbox": [
+            194,
+            346,
+            800,
+            453
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Monadic fold. In a series of influential articles, Wadler showed how pure functional programs that require imperative features such as state and exceptions can be modelled using monads (Wadler, 1990, 1992a, 1992b). Building on this work, the notion of a ‘monadic fold’ combines the use of fold operators to structure the processing of recursive values with the use of monads to structure the use of imperative features (Fokkinga, 1994; Meijer and Jeuring, 1995b). ",
+        "bbox": [
+            194,
+            455,
+            801,
+            546
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Relational fold. The fold operator can also be generalised in a natural way from functions to relations. This generalisation supports the use of fold as a specification construct, in addition to its use as a programming construct. For example, a relational fold is used in the circuit design calculus Ruby (Jones and Sheeran, 1990; Jones, 1990), the Eindhoven spec calculus (Aarts et al., 1992), and in a recent textbook on the algebra of programming (Bird and de Moor, 1997). ",
+        "bbox": [
+            194,
+            548,
+            800,
+            639
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Other recursion operators. The fold operator is not the only useful recursion operator. For example, the dual operator unfold for constructing rather than processing recursive values has been used for specification purposes (Jones, 1990; Bird and de Moor, 1997), to program reactive systems (Kieburtz, 1998), to program operational semantics (Hutton, 1998), and is the subject of current research. Other interesting recursion operators include the so-called paramorphisms (Meertens, 1992), hylomorphisms (Meijer, 1992), and zygomorphisms (Malcolm, 1990a). ",
+        "bbox": [
+            194,
+            642,
+            800,
+            749
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Automatic program transformation. Writing programs using recursion operators can simplify the process of optimisation during compilation. For example, eliminating the use of intermediate data structures in programs (deforestation) in considerably simplified when programs are written using recursion operators rather than general recursion (Wadler, 1981; Launchbury and Sheard, 1995; Takano and Meijer, 1995). A generic system for transforming programs written using recursion operators is currently under development (de Moor and Sittampalan, 1998). ",
+        "bbox": [
+            194,
+            751,
+            800,
+            858
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            139,
+            695,
+            151
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            773,
+            139,
+            798,
+            149
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Polytypic programming. Defining programs that are not specific to particular datatypes has given rise to a new field, called polytypic programming (Backhouse et al., 1998). Formally, a polytypic program is one that is parameterised by one or more datatypes. Polytypic programs have already been defined for a number of applications, including pattern matching (Jeuring, 1995), unification (Jansson and Jeuring, 1998), and various optimisation problems (Bird and de Moor, 1997). ",
+        "bbox": [
+            194,
+            166,
+            800,
+            256
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Programming languages. A number of experimental programming languages have been developed that focus on the use of recursion operators rather than general recursion. Examples include the algebraic design language ADL (Kieburtz and Lewis, 1994), the categorical programming language Charity (Cockett and Fukushima, 1992), and the polytypic programming language PolyP (Jansson and Jeuring, 1997). ",
+        "bbox": [
+            196,
+            258,
+            800,
+            334
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgements ",
+        "text_level": 1,
+        "bbox": [
+            430,
+            362,
+            563,
+            376
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "I would like to thank Erik Meijer and the members of the Languages and Programming group in Nottingham for many hours of interesting discussions about fold . I am also grateful to Roland Backhouse, Mark P. Jones, Philip Wadler, and the anonymous $J F P$ referees for their detailed comments on the article, which led to a substantial improvement in both the content and presentation. This work is supported by Engineering and Physical Sciences Research Council (EPSRC) research grant GR/L74491, Structured Recursive Programming. ",
+        "bbox": [
+            194,
+            386,
+            800,
+            493
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "References ",
+        "text_level": 1,
+        "bbox": [
+            458,
+            521,
+            534,
+            535
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Aarts, C., Backhouse, R., Hoogendijk, P., Voermans, E. and van der Woude, J. (1992) A relational theory of datatypes. Available on the World-Wide-Web: http://www.win.tue.nl/win/cs/wp/papers/papers.html.   \nBackhouse, R., Jansson, P., Jeuring, J. and Meertens, L. (1998) Generic programming: An introduction. Lecture Notes of the 3rd International Summer School on Advanced Functional Programming.   \nBackus, J. (1978) Can programming be liberated from the Von Neumann style? A functional style and its algebra of programs. Comm. ACM, 9.   \nBarendregt, H. (1984) The Lambda Calculus – Its syntax and semantics. North-Holland.   \nBird, R. (1989) Constructive functional programming. Proc. Marktoberdorf International Summer School on Constructive Methods in Computer Science. Springer-Verlag.   \nBird, R. (1998) Introduction to Functional Programming using Haskell (2nd ed.). Prentice Hall.   \nBird, R. and de Moor, O. (1997) Algebra of Programming. Prentice Hall.   \nBird, R. and Meertens, L. (1998) Nested datatypes. In: Jeuring, J. (ed.), Proc. 4th International Conference on Mathematics of Program Construction: Lecture Notes in Computer Science 1422. Springer-Verlag.   \nBird, R. and Wadler, P. (1988) An Introduction to Functional Programming. Prentice Hall.   \nCockett, R. and Fukushima, T. (1992) About Charity. Yellow Series Report No. 92/480/18, Department of Computer Science, The University of Calgary.   \nde Moor, O. and Sittampalan, G. (1998) Generic program transformation. Lecture Notes of the 3rd International Summer School on Advanced Functional Programming.   \nFegaras, L. and Sheard, T. (1996) Revisiting catemorphisms over datatypes with embedded functions. Proc. 23rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages.   \nFokkinga, M. (1994) Monadic maps and folds for arbitrary datatypes. Memoranda Informatica 94-28, University of Twente.   \nFokkinga, M., Jeuring, J., Meertens, L. and Meijer, E. (1991) Translating attribute grammars into catamorphisms. The Squiggolist, 2(1).   \nHutton, G. (1998) Fold and unfold for program semantics. Proc. 3rd ACM SIGPLAN International Conference on Functional Programming.   \nIverson, K. E. (1962) A Programming Language. Wiley.   \nJansson, P. and Jeuring, J. (1997) PolyP – a polytypic programming language extension. Proc. 24th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages. ACM Press.   \nJansson, P. and Jeuring, J. (1998) Polytypic unification. J. Functional Programming (to appear).   \nJeuring, Jo. (1995) Polytypic pattern matching. Proc. 7th International Conference on Functional Programming and Computer Architecture. ACM Press.   \nJones, G. (1990) Designing circuits by calculation. Technical Report PRG-TR-10-90, Oxford University.   \nJones, G. and Sheeran, M. (1990) Circuit design in Ruby. In: Staunstrup (ed.), Formal Methods for VLSI Design. Elsevier.   \nJones, M. P. and Blampied, P. (1998) A pragmatic approach to maps and folds for parameterized datatypes. Submitted.   \nKieburtz, R. B. (1998) Reactive functional programming. Proc. PROCOMET. Chapman & Hall.   \nKieburtz, R. B. and Lewis, J. (1994) Algebraic Design Language (preliminary definition). Oregon Graduate Institute of Science and Technology.   \nKleene, S. C. (1952) Introduction to Metamathematics. Van Nostrand Rheinhold.   \nLaunchbury, J. and Sheard, T. (1995) Warm fusion: Deriving build-catas from recursive definitions. Proc. 7th International Conference on Functional Programming and Computer Architecture. ACM Press.   \nMalcolm, G. (1990a) Algebraic data types and program transformation. PhD thesis, Groningen University.   \nMalcolm, G. (1990b) Algebraic data types and program transformation. Science of Computer Programming, 14(2–3), 255–280.   \nMeertens, L. (1983) Algorithmics: Towards programming as a mathematical activity. Proc. CWI Symposium.   \nMeertens, L. (1992) Paramorphisms. Formal Aspects of Computing, 4(5), 413–425.   \nMeijer, E. (1992) Calculating compilers. PhD thesis, Nijmegen University.   \nMeijer, E. and Hutton, G. (1995a) Bananas in space: Extending fold and unfold to exponential types. Proc. 7th International Conference on Functional Programming and Computer Architecture. ACM Press.   \nMeijer, E. and Jeuring, J. (1995b) Merging monads and folds for functional programming. In: Jeuring, J. and Meijer, E. (eds.), Advanced Functional Programming: Lecture Notes in Computer Science 925. Springer-Verlag.   \nMeijer, E., Fokkinga, M. and Paterson, R. (1991) Functional programming with bananas, lenses, envelopes and barbed wire. In: Hughes, J. (ed.), Proc. Conference on Functional Programming and Computer Architecture: Lecture Notes in Computer Science 523. Springer-Verlag.   \nPeterson, J. et al. (1997) The Haskell language report, version 1.4. Available on the World-Wide-Web: http://www.haskell.org.   \nReynolds, J. C. (1985) Three approaches to type structure. Proc. International Joint Conference on Theory and Practice of Software Development: Lecture Notes in Computer Science 185. Springer-Verlag.   \nSheard, T. and Fegaras, L. (1993) A fold for all seasons. Proc. ACM Conference on Functional Programming and Computer Architecture. Springer-Verlag.   \nSwierstra, S. D., Alcocer, P. R. A. and Saraiva, J. (1998) Designing and implementing combinator languages. Lecture Notes of the 3rd International Summer School on Advanced Functional Programming.   \nTakano, A. and Meijer, E. (1995) Shortcut deforestation in calculational form. Proc. 7th International Conference on Functional Programming and Computer Architecture. ACM Press.   \nWadler, P. (1981) Applicative style programming, program transformation, and list operators. Proc. ACM Conference on Functional Programming Languages and Computer Architecture.   \nWadler, P. (1990) Comprehending monads. Proc. ACM Conference on Lisp and Functional Programming.   \nWadler, P. (1992a). The essence of functional programming. Proc. Principles of Programming Languages.   \nWadler, P. (1992b) Monads for functional programming. In: Broy, M. (ed.), Proc. Marktoberdorf Summer School on Program Design Calculi. Springer-Verlag. ",
+        "bbox": [
+            193,
+            542,
+            801,
+            858
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "370 ",
+        "bbox": [
+            194,
+            139,
+            221,
+            149
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            460,
+            139,
+            532,
+            149
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            193,
+            160,
+            801,
+            857
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "A tutorial on the universality and expressiveness of fold ",
+        "bbox": [
+            299,
+            137,
+            695,
+            151
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            773,
+            139,
+            798,
+            149
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            193,
+            165,
+            801,
+            448
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "372 ",
+        "bbox": [
+            194,
+            137,
+            221,
+            149
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "discarded",
+        "text": "G. Hutton ",
+        "bbox": [
+            460,
+            137,
+            534,
+            151
+        ],
+        "page_idx": 17
+    }
+]
