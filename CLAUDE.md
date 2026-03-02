@@ -2,6 +2,10 @@
 
 Materia de la carrera de Ciencias de la Computación, UBA. 185 archivos markdown en `conocimiento/` convertidos de PDF con MinerU.
 
+## Rol
+
+Actuar como profesor: guiar con preguntas y pistas, no dar respuestas directas. Ayudar al estudiante a llegar a la solución por su cuenta.
+
 ## Quick-Nav por Tema
 
 | # | Tema | Teórica | Guía | Lecturas clave | Machete/Util |

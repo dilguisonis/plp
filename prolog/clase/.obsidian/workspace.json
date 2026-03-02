@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cb3082a73c643dd8",
+        "id": "c23caee6c8f470d3",
         "type": "tabs",
         "children": [
           {
-            "id": "ae8ca78980bfeaf5",
+            "id": "ea8f7e2579db6a17",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "arbol_menorOIgual.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "arbol_menorOIgual"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ]
@@ -78,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f180fed9499a5725",
@@ -184,8 +182,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "ae8ca78980bfeaf5",
+  "active": "ea8f7e2579db6a17",
   "lastOpenFiles": [
+    "2026-03-01.md",
+    "Untitled.base",
+    "README.md",
+    "material/Becky_sweet_00022_.png",
+    "Untitled",
+    "material/PLP10.pdf",
+    "material/PLP07.pdf",
+    "material/images.jpeg",
     "PLP07.pdf",
     "clase_inferencia.pdf",
     "prolog - parte 2.pl",
